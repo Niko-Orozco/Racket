@@ -22,6 +22,15 @@ public class CondicionalView extends javax.swing.JFrame {
         initComponents();
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane8.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane10.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane18.setRowHeaderView(numerolinea);
     }
 
     /**
@@ -38,17 +47,17 @@ public class CondicionalView extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        verinfo2 = new javax.swing.JTextArea();
+        conif = new javax.swing.JTextArea();
         jScrollPane1 = new javax.swing.JScrollPane();
-        verinfo = new javax.swing.JTextArea();
+        ques = new javax.swing.JTextArea();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        verinfo3 = new javax.swing.JTextArea();
+        concond = new javax.swing.JTextArea();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        verinfo4 = new javax.swing.JTextArea();
+        bolerel = new javax.swing.JTextArea();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
@@ -59,29 +68,29 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         run1 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
-        jScrollPane11 = new javax.swing.JScrollPane();
-        code1 = new javax.swing.JTextPane();
-        jScrollPane12 = new javax.swing.JScrollPane();
-        verinfo5 = new javax.swing.JTextArea();
-        jLabel8 = new javax.swing.JLabel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        code2 = new javax.swing.JTextPane();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        verinfo2 = new javax.swing.JTextArea();
         run2 = new javax.swing.JButton();
+        jLabel11 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
-        jScrollPane13 = new javax.swing.JScrollPane();
-        code5 = new javax.swing.JTextPane();
-        jScrollPane14 = new javax.swing.JScrollPane();
-        verinfo6 = new javax.swing.JTextArea();
-        jLabel9 = new javax.swing.JLabel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        code3 = new javax.swing.JTextPane();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        verinfo3 = new javax.swing.JTextArea();
         run3 = new javax.swing.JButton();
+        jLabel12 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
-        jScrollPane15 = new javax.swing.JScrollPane();
-        code6 = new javax.swing.JTextPane();
-        jScrollPane16 = new javax.swing.JScrollPane();
-        verinfo7 = new javax.swing.JTextArea();
-        jLabel10 = new javax.swing.JLabel();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        code4 = new javax.swing.JTextPane();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        verinfo4 = new javax.swing.JTextArea();
         run4 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jButton1 = new javax.swing.JButton();
+        menu = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1070, 705));
@@ -94,21 +103,21 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Condicionales");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(420, 10, 160, 40);
+        jLabel2.setBounds(400, 10, 160, 30);
 
-        verinfo2.setColumns(20);
-        verinfo2.setRows(5);
-        verinfo2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo2.setFocusable(false);
-        verinfo2.setOpaque(false);
-        jScrollPane5.setViewportView(verinfo2);
+        conif.setColumns(20);
+        conif.setRows(5);
+        conif.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        conif.setFocusable(false);
+        conif.setOpaque(false);
+        jScrollPane5.setViewportView(conif);
 
-        verinfo.setColumns(20);
-        verinfo.setRows(5);
-        verinfo.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo.setFocusable(false);
-        verinfo.setOpaque(false);
-        jScrollPane1.setViewportView(verinfo);
+        ques.setColumns(20);
+        ques.setRows(5);
+        ques.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ques.setFocusable(false);
+        ques.setOpaque(false);
+        jScrollPane1.setViewportView(ques);
 
         jLabel3.setText("Boleanos y Relaciones");
 
@@ -116,21 +125,21 @@ public class CondicionalView extends javax.swing.JFrame {
 
         jLabel5.setText("Condicional IF");
 
-        verinfo3.setColumns(20);
-        verinfo3.setRows(5);
-        verinfo3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo3.setFocusable(false);
-        verinfo3.setOpaque(false);
-        jScrollPane7.setViewportView(verinfo3);
+        concond.setColumns(20);
+        concond.setRows(5);
+        concond.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        concond.setFocusable(false);
+        concond.setOpaque(false);
+        jScrollPane7.setViewportView(concond);
 
         jLabel6.setText("Condicional COND");
 
-        verinfo4.setColumns(20);
-        verinfo4.setRows(5);
-        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo4.setFocusable(false);
-        verinfo4.setOpaque(false);
-        jScrollPane3.setViewportView(verinfo4);
+        bolerel.setColumns(20);
+        bolerel.setRows(5);
+        bolerel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        bolerel.setFocusable(false);
+        bolerel.setOpaque(false);
+        jScrollPane3.setViewportView(bolerel);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -179,6 +188,7 @@ public class CondicionalView extends javax.swing.JFrame {
 
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
+        code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
@@ -225,18 +235,19 @@ public class CondicionalView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("IF", jPanel3);
 
-        code1.setFocusable(false);
-        jScrollPane11.setViewportView(code1);
+        code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
+        jScrollPane8.setViewportView(code2);
 
-        verinfo5.setColumns(20);
-        verinfo5.setRows(5);
-        verinfo5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo5.setFocusable(false);
-        jScrollPane12.setViewportView(verinfo5);
-
-        jLabel8.setText("Consola");
+        verinfo2.setColumns(20);
+        verinfo2.setRows(5);
+        verinfo2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo2.setFocusable(false);
+        jScrollPane9.setViewportView(verinfo2);
 
         run2.setText("Ejecutar");
+
+        jLabel11.setText("Consola");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -246,43 +257,44 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addComponent(jLabel8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane11)
-                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addComponent(jScrollPane8)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run2)))
+                        .addComponent(run2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addContainerGap(60, Short.MAX_VALUE)
-                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(59, Short.MAX_VALUE)
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel8)
+                .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
                 .addComponent(run2)
                 .addContainerGap())
         );
 
         jTabbedPane1.addTab("IF-begin", jPanel4);
 
-        code5.setFocusable(false);
-        jScrollPane13.setViewportView(code5);
+        code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
+        jScrollPane10.setViewportView(code3);
 
-        verinfo6.setColumns(20);
-        verinfo6.setRows(5);
-        verinfo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo6.setFocusable(false);
-        jScrollPane14.setViewportView(verinfo6);
-
-        jLabel9.setText("Consola");
+        verinfo3.setColumns(20);
+        verinfo3.setRows(5);
+        verinfo3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo3.setFocusable(false);
+        jScrollPane17.setViewportView(verinfo3);
 
         run3.setText("Ejecutar");
+
+        jLabel12.setText("Consola");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -292,50 +304,46 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel5Layout.createSequentialGroup()
-                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane13)
-                    .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addComponent(jScrollPane10)
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run3)))
+                        .addComponent(run3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(51, Short.MAX_VALUE)
-                .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(59, Short.MAX_VALUE)
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel9)
+                .addComponent(jLabel12)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
                 .addComponent(run3)
-                .addGap(20, 20, 20))
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("cond", jPanel5);
 
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
-        code6.setFocusable(false);
-        jScrollPane15.setViewportView(code6);
+        code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
+        jScrollPane18.setViewportView(code4);
 
-        verinfo7.setColumns(20);
-        verinfo7.setRows(5);
-        verinfo7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo7.setFocusable(false);
-        jScrollPane16.setViewportView(verinfo7);
-
-        jLabel10.setText("Consola");
+        verinfo4.setColumns(20);
+        verinfo4.setRows(5);
+        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo4.setFocusable(false);
+        jScrollPane19.setViewportView(verinfo4);
 
         run4.setText("Ejecutar");
-        run4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run4ActionPerformed(evt);
-            }
-        });
+
+        jLabel13.setText("Consola");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -345,27 +353,27 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane15)
-                    .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE)
+                    .addComponent(jScrollPane18)
+                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run4)))
+                        .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                 .addContainerGap(57, Short.MAX_VALUE)
-                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel10)
+                .addComponent(jLabel13)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
                 .addComponent(run4)
-                .addGap(12, 12, 12))
+                .addContainerGap())
         );
 
         jTabbedPane1.addTab("cond-begin", jPanel6);
@@ -405,9 +413,9 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel1.add(jPanel7);
         jPanel7.setBounds(450, 70, 610, 600);
 
-        jButton1.setText("Menu");
-        jPanel1.add(jButton1);
-        jButton1.setBounds(980, 10, 73, 23);
+        menu.setText("Menu");
+        jPanel1.add(menu);
+        menu.setBounds(980, 10, 73, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -419,17 +427,11 @@ public class CondicionalView extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 694, Short.MAX_VALUE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -467,22 +469,24 @@ public class CondicionalView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextPane code;
-    private javax.swing.JTextPane code1;
-    private javax.swing.JTextPane code5;
-    private javax.swing.JTextPane code6;
-    public javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
+    public javax.swing.JTextArea bolerel;
+    public javax.swing.JTextPane code;
+    public javax.swing.JTextPane code2;
+    public javax.swing.JTextPane code3;
+    public javax.swing.JTextPane code4;
+    public javax.swing.JTextArea concond;
+    public javax.swing.JTextArea conif;
+    public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -491,30 +495,28 @@ public class CondicionalView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     public javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
-    private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
-    private javax.swing.JScrollPane jScrollPane13;
-    private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     public javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JButton menu;
+    public javax.swing.JTextArea ques;
     public javax.swing.JButton run1;
-    private javax.swing.JButton run2;
+    public javax.swing.JButton run2;
     public javax.swing.JButton run3;
     public javax.swing.JButton run4;
-    public javax.swing.JTextArea verinfo;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;
     public javax.swing.JTextArea verinfo4;
-    public javax.swing.JTextArea verinfo5;
-    public javax.swing.JTextArea verinfo6;
-    public javax.swing.JTextArea verinfo7;
     // End of variables declaration//GEN-END:variables
 }

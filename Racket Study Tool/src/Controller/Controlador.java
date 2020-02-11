@@ -47,28 +47,10 @@ public class Controlador {
     public void condicionlaesview(){
         this.ConView.setTitle("Logging");
         this.ConView.setLocationRelativeTo(null);
-        ConView.QueEs.addActionListener((ActionEvent e) -> {
-            ConView.verinfo.setText(Condi.Quees());
+        ConView.run.addActionListener((ActionEvent e) -> {
+            ConView.ques.setText(Condi.Quees());
         });
-        ConView.boleanos.addActionListener((ActionEvent e) -> {
-            ConView.verinfo.setText(Condi.bol());
-        });
-        ConView.Elif.addActionListener((ActionEvent e) -> {
-            ConView.verinfo.setText(Condi.elif());
-        });
-        ConView.Elcond.addActionListener((ActionEvent e) -> {
-            ConView.verinfo.setText(Condi.elcond());
-        });
-        ConView.RunCode.addActionListener((ActionEvent e) -> {
-            RConCode();
-        });
-        ConView.vereje.addActionListener((ActionEvent e) -> {
-            ConView.verinfo.setText(Condi.Ejercicios());
-        });
-        ConView.nexCode.addActionListener((ActionEvent e) -> {
-            NexCode();
-        });
-        ConView.salir.addActionListener((ActionEvent e) -> {
+        ConView.menu.addActionListener((ActionEvent e) -> {
             ConView.setVisible(false);
             menu.setVisible(true);
             iniciar();
