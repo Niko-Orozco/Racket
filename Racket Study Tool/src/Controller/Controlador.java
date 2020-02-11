@@ -17,7 +17,6 @@ import javax.swing.JOptionPane;
 public class Controlador {
     private int van = 0;
     private int van2 = 0;
-    private int van3 = 0;
     private Menu menu;
     private Cadenas_Strings CadString;
     private CodeExplain CodeExp;
@@ -47,8 +46,22 @@ public class Controlador {
     public void condicionlaesview(){
         this.ConView.setTitle("Logging");
         this.ConView.setLocationRelativeTo(null);
-        ConView.run.addActionListener((ActionEvent e) -> {
-            ConView.ques.setText(Condi.Quees());
+        ConView.ques.setText(Condi.Quees());
+        ConView.bolerel.setText(Condi.bol());
+        ConView.conif.setText(Condi.elif());
+        ConView.concond.setText(Condi.elcond());
+        NexCode();
+        ConView.run1.addActionListener((ActionEvent e) -> {
+            RConCode(1);
+        });
+        ConView.run2.addActionListener((ActionEvent e) -> {
+            RConCode(2);
+        });
+        ConView.run3.addActionListener((ActionEvent e) -> {
+            RConCode(3);
+        });
+        ConView.run4.addActionListener((ActionEvent e) -> {
+            RConCode(4);
         });
         ConView.menu.addActionListener((ActionEvent e) -> {
             ConView.setVisible(false);
@@ -57,7 +70,7 @@ public class Controlador {
         });
     }
     
-    public void RConCode(){
+    public void RConCode(int van3){
         int n1,n2;
         String respuesta;
         switch(van3){
@@ -65,7 +78,7 @@ public class Controlador {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
                         n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 2"));
                         respuesta = ((n1+n2)>10)? "Si es mayor que 10":"No es mayor que 10";
-                        JOptionPane.showMessageDialog(null, respuesta);
+                        ConView.verinfo1.setText(respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
                      }
@@ -73,8 +86,8 @@ public class Controlador {
             case 2:  try {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
                         n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 2"));
-                        respuesta = ((n1+n2)>10)? (n1+n2)+", Si es mayor que 10":(n1+n2)+", No es mayor que 10";
-                        JOptionPane.showMessageDialog(null, respuesta);
+                        respuesta = ((n1+n2)>10)? (n1+n2)+", Si es mayor que 10": ((n1+n2)==10)? (n1+n2)+", Es igual que 10":(n1+n2)+", No es mayor que 10";
+                        ConView.verinfo2.setText(respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
                      }
@@ -82,8 +95,8 @@ public class Controlador {
             case 3:  try {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
                         n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 2"));
-                        respuesta = ((n1+n2)>10)? (n1+n2)+", Si es mayor que 10": ((n1+n2)==10)? (n1+n2)+", Es igual que 10":(n1+n2)+", No es mayor que 10";
-                        JOptionPane.showMessageDialog(null, respuesta);
+                        respuesta = ((n1+n2)>10)? "Es mayor que 10": ((n1+n2)==10)? "Es igual que 10":"Es menor que 10";
+                        ConView.verinfo3.setText(respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
                      }
@@ -91,48 +104,27 @@ public class Controlador {
             case 4:  try {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
                         n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 2"));
-                        respuesta = ((n1+n2)>10)? "Si es mayor que 10": ((n1+n2)==10)? "Es igual que 10":"No es mayor que 10";
-                        JOptionPane.showMessageDialog(null, respuesta);
+                        respuesta = ((n1+n2)>10)? "Es mayor que 10": ((n1+n2)==10)? "Es igual que 10":"Es menor que 10";
+                        ConView.verinfo4.setText(respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
                      }
                 break;
-            case 5:  try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
-                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 2"));
-                        respuesta = ((n1+n2)>10)? "Si es mayor que 10": ((n1+n2)==10)? "Es igual que 10":"No es mayor que 10";
-                        JOptionPane.showMessageDialog(null, respuesta);
-                     } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "error empty field");
-                     }
-                break;
-            default: try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
-                        respuesta = (n1<=50000)? "4%": ((n1<=250000) && (n1>=50000))? "4.5%":"5%";
-                        JOptionPane.showMessageDialog(null, respuesta);
-                     } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "error empty field");
-                     }
                     
         }
     }
     
     public void NexCode(){
-        van3++;
-        switch(van3){
-            case 1: ConView.outputs.setText(Condi.Ejemplos(van3));
-                    break;
-            case 2: ConView.outputs.setText(Condi.Ejemplos(van3));
-                    break;
-            case 3: ConView.outputs.setText(Condi.Ejemplos(van3));
-                    break;
-            case 4: ConView.outputs.setText(Condi.Ejemplos(van3));
-                    break;
-            case 5: ConView.outputs.setText(Condi.Ejemplos(van3));
-                    break;
-            default: ConView.outputs.setText(Condi.Ejemplos(van3));
-                      van3 = (van3 >= 6)?van3 = 0:van3;   
-        }
+        ConView.code.setText(Condi.EjeIf());
+ 
+        ConView.code2.setText(Condi.EjeIfbegin());
+  
+        ConView.code3.setText(Condi.EjeCond());
+ 
+        ConView.code4.setText(Condi.EjeCondbegin());
+
+        //van3 = (van3 >= 6)?van3 = 0:van3;   
+        
     }
     
     public void cadenasview(){

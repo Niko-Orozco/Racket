@@ -108,15 +108,11 @@ public class CondicionalView extends javax.swing.JFrame {
         conif.setColumns(20);
         conif.setRows(5);
         conif.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        conif.setFocusable(false);
-        conif.setOpaque(false);
         jScrollPane5.setViewportView(conif);
 
         ques.setColumns(20);
         ques.setRows(5);
         ques.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ques.setFocusable(false);
-        ques.setOpaque(false);
         jScrollPane1.setViewportView(ques);
 
         jLabel3.setText("Boleanos y Relaciones");
@@ -128,8 +124,6 @@ public class CondicionalView extends javax.swing.JFrame {
         concond.setColumns(20);
         concond.setRows(5);
         concond.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond.setFocusable(false);
-        concond.setOpaque(false);
         jScrollPane7.setViewportView(concond);
 
         jLabel6.setText("Condicional COND");
@@ -137,8 +131,6 @@ public class CondicionalView extends javax.swing.JFrame {
         bolerel.setColumns(20);
         bolerel.setRows(5);
         bolerel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        bolerel.setFocusable(false);
-        bolerel.setOpaque(false);
         jScrollPane3.setViewportView(bolerel);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -146,23 +138,22 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 375, Short.MAX_VALUE)
-                        .addComponent(jScrollPane3)
-                        .addComponent(jScrollPane1)
-                        .addComponent(jScrollPane7))
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(27, 27, 27)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 144, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane1)
+                    .addComponent(jScrollPane3)
+                    .addComponent(jScrollPane5)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(31, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(18, 18, 18)
+                .addContainerGap()
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -178,18 +169,17 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(37, Short.MAX_VALUE))
+                .addContainerGap(44, Short.MAX_VALUE))
         );
 
         jScrollPane6.setViewportView(jPanel2);
 
         jPanel1.add(jScrollPane6);
-        jScrollPane6.setBounds(0, 70, 440, 600);
+        jScrollPane6.setBounds(0, 70, 490, 600);
 
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -201,6 +191,11 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel1.setText("Consola");
 
         run1.setText("Ejecutar");
+        run1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -213,7 +208,7 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane4)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -236,7 +231,6 @@ public class CondicionalView extends javax.swing.JFrame {
         jTabbedPane1.addTab("IF", jPanel3);
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -246,6 +240,11 @@ public class CondicionalView extends javax.swing.JFrame {
         jScrollPane9.setViewportView(verinfo2);
 
         run2.setText("Ejecutar");
+        run2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run2ActionPerformed(evt);
+            }
+        });
 
         jLabel11.setText("Consola");
 
@@ -260,7 +259,7 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane8)
-                    .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(run2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -283,7 +282,6 @@ public class CondicionalView extends javax.swing.JFrame {
         jTabbedPane1.addTab("IF-begin", jPanel4);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code3.setFocusable(false);
         jScrollPane10.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -293,6 +291,11 @@ public class CondicionalView extends javax.swing.JFrame {
         jScrollPane17.setViewportView(verinfo3);
 
         run3.setText("Ejecutar");
+        run3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run3ActionPerformed(evt);
+            }
+        });
 
         jLabel12.setText("Consola");
 
@@ -307,7 +310,7 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane10)
-                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 565, Short.MAX_VALUE)
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(run3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -332,7 +335,6 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code4.setFocusable(false);
         jScrollPane18.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -342,6 +344,11 @@ public class CondicionalView extends javax.swing.JFrame {
         jScrollPane19.setViewportView(verinfo4);
 
         run4.setText("Ejecutar");
+        run4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run4ActionPerformed(evt);
+            }
+        });
 
         jLabel13.setText("Consola");
 
@@ -356,7 +363,7 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane18)
-                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 563, Short.MAX_VALUE)
+                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
                         .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
@@ -390,13 +397,11 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 590, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2)
-                        .addGap(22, 22, 22))))
+                        .addComponent(jButton2))
+                    .addComponent(jTabbedPane1))
+                .addContainerGap())
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -411,11 +416,11 @@ public class CondicionalView extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel7);
-        jPanel7.setBounds(450, 70, 610, 600);
+        jPanel7.setBounds(480, 70, 590, 600);
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(980, 10, 73, 23);
+        menu.setBounds(990, 20, 73, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -432,6 +437,22 @@ public class CondicionalView extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
+
+    }//GEN-LAST:event_run4ActionPerformed
+
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
+
+    }//GEN-LAST:event_run3ActionPerformed
+
+    private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
+
+    }//GEN-LAST:event_run2ActionPerformed
+
+    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
+
+    }//GEN-LAST:event_run1ActionPerformed
 
     /**
      * @param args the command line arguments
