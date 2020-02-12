@@ -119,17 +119,22 @@ public class Condicionales {
                 " ;Construir un programa que dada la suma de dos numeros \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
+                ";definimos la funcion encargada de sumar los numeros\n" +
                 "  (define (Suma N1 N2)\n" +
                 "        (+ N1 N2)\n" +
                 "  )\n" +
                 "\n" +
+                ";definimos la funcion y le damos y le damos dos argumentos (los datos a ingresar)\n" +
                 "  (define (MayorQ10? N1 N2)\n" +
+                ";llamamos la funcion de suma al igual que preguntamos si el valor de la suma es\n" +
+                ";menor a 10 mediante el condicional if\n" +
                 "       (if ( >  (Suma N1 N2) 10)\n" +
-                "                (display ''Si es mayor que 10'')\n" +
-                "              (display ''No es mayor que 10'')\n" +
+                "                 (display ''Si es mayor que 10'')\n" +
+                "                 (display ''No es mayor que 10'')\n" +
                 "       )\n" +
                 "   )\n" +
                 "\n" +
+                ";llamamos la funcion y leemos los valores por teclado\n" +
                 "  (MayorQ10? (read) (read))";
         return data;
     }
@@ -141,17 +146,21 @@ public class Condicionales {
                 " ;Construir un programa que dada la suma de dos numeros \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
+                ";definimos la funcion y le damos y le damos dos argumentos (los datos a ingresar)\n" +
                 "  (define (MayorQ10? N1 N2)\n" +
-                "       (if ( >  (Suma N1 N2) 10)\n" +
+                "  ;hacemos uso de la funcion if y ´pregumtamos si la suma de N1 y N2 es mayoe a 10\n" +
+                "       (if ( >  (+  N1 N2) 10)\n" +
                 "             (begin\n" +
-                "                 (display (+ N1 N2))\n" +
-                "                 (display ''Si es mayor que 10'')\n" +
+                "                 (display (+ N1 N2))    ;si la condicion es correcta imprime el numero y la\n" +
+                "                 (display ''Si es mayor que 10'') ;respuesta\n" +
                 "             )\n" +
+                "      ;anidamos el condicional poniendo un if dentro de otro if\n" +
                 "             (if (= (+ N1 N2) 10)\n" +
                 "                    (begin\n" +
                 "                          (display (+ N1 N2))\n" +
                 "                          (display ' Es igual que 10'')\n" +
                 "                     )\n" +
+                "            ;parte negativa de la condicion, es decir: no se cumplio la primer condicion #f\n" +
                 "                     (begin\n" +
                 "                           (display (+ N1 N2))\n" +
                 "                           (display ''No es mayor que 10'')\n" +
@@ -160,8 +169,8 @@ public class Condicionales {
                 "       )\n" +
                 "   )\n" +
                 "\n" +
-                "  (MayorQ10? (read) (read))\n" +
-                "";
+                ";llamamos la funcion y leemos los valores por teclado\n" +
+                "  (MayorQ10? (read) (read))";
         return data;
     }
     
@@ -172,13 +181,19 @@ public class Condicionales {
                 " ;Construir un programa que dada la suma de dos numeros \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
+                ";definimos la funcion y le damos y le damos dos argumentos (los datos a ingresar)\n" +
                 "(define(MayorQ10? N1 N2)\n" +
+                ";llamamos el condicional cond\n" +
                 "   (cond\n" +
+                "          ;preguntamos si la suma de N1 y N2 es mayor a 10\n" +
                 "          [(>(+N1 N2)10)(begin(display(+ N1 N2))(display “Es mayor que 10”))]\n" +
                 "          [(=(+ N1 N2)10)(begin(display(+ N1 N2))(display “Es Igual que 10”))]\n" +
                 "          [(<(+ N1 N2)10)(begin(display(+ N1 N2))(display “Es Menor que 10”)) )\n" +
-                "   ))\n\n(MayorQ10? (read) (read))";
-        return data;
+                "   ))\n" +
+                "\n" +
+                ";llamamos la funcion y leemos los valores por teclado\n" +
+                "(MayorQ10? (read) (read))";
+                        return data;
     }
     
     public String EjeCondbegin(){

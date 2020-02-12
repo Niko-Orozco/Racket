@@ -22,6 +22,7 @@ public class Controlador {
     private CodeExplain CodeExp;
     private CondicionalView ConView;
     private Condicionales Condi;
+    private Practicas Practices;
 
     public Controlador(Menu menu) {
         this.menu = menu;
@@ -62,6 +63,11 @@ public class Controlador {
         });
         ConView.run4.addActionListener((ActionEvent e) -> {
             RConCode(4);
+        });
+        ConView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            ConView.setVisible(false);
+            practices();
         });
         ConView.menu.addActionListener((ActionEvent e) -> {
             ConView.setVisible(false);
@@ -122,9 +128,19 @@ public class Controlador {
         ConView.code3.setText(Condi.EjeCond());
  
         ConView.code4.setText(Condi.EjeCondbegin());
-
-        //van3 = (van3 >= 6)?van3 = 0:van3;   
         
+    }
+    
+    public void practices(){
+        this.Practices.setVisible(true);
+        this.Practices.setTitle("Practicas");
+        this.Practices.setLocationRelativeTo(null);
+        Practices.menu.addActionListener((ActionEvent e) -> {
+            ConView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+     
     }
     
     public void cadenasview(){

@@ -9,15 +9,15 @@ package View;
  *
  * @author Niko
  */
-public class CondicionalView extends javax.swing.JFrame {
+public class CadenasView extends javax.swing.JFrame {
 
     /**
-     * Creates new form CondicionalView
+     * Creates new form CadenasView
      */
-    
     NumeroLinea numerolinea;
     
-    public CondicionalView() {
+    
+    public CadenasView() {
         setResizable(false);
         initComponents();
         numerolinea = new NumeroLinea(code);
@@ -43,7 +43,6 @@ public class CondicionalView extends javax.swing.JFrame {
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
@@ -90,22 +89,15 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        menu = new javax.swing.JButton();
-        jLabel8 = new javax.swing.JLabel();
         letsgo = new javax.swing.JButton();
+        jLabel8 = new javax.swing.JLabel();
+        menu = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMinimumSize(new java.awt.Dimension(1070, 705));
 
-        jPanel1.setMaximumSize(new java.awt.Dimension(1070, 705));
-        jPanel1.setMinimumSize(new java.awt.Dimension(1070, 705));
-        jPanel1.setPreferredSize(new java.awt.Dimension(1070, 705));
+        jPanel1.setMaximumSize(new java.awt.Dimension(1090, 748));
+        jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
-
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("Condicionales");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(430, 10, 160, 30);
 
         conif.setColumns(20);
         conif.setRows(5);
@@ -121,7 +113,7 @@ public class CondicionalView extends javax.swing.JFrame {
 
         jLabel3.setText("Boleanos y Relaciones");
 
-        jLabel4.setText("¿Que es una condicional?");
+        jLabel4.setText("¿Que es una cadena?");
 
         jLabel5.setText("Condicional IF");
 
@@ -428,47 +420,47 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel1.add(jPanel7);
         jPanel7.setBounds(490, 70, 590, 600);
 
-        menu.setText("Menu");
-        jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        letsgo.setText("Vamos alla");
+        jPanel1.add(letsgo);
+        letsgo.setBounds(440, 710, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
-        letsgo.setText("Vamos alla");
-        jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        menu.setText("Menu");
+        jPanel1.add(menu);
+        menu.setBounds(990, 700, 73, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1095, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 748, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
+    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
 
-    }//GEN-LAST:event_run4ActionPerformed
-
-    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
-
-    }//GEN-LAST:event_run3ActionPerformed
+    }//GEN-LAST:event_run1ActionPerformed
 
     private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
 
     }//GEN-LAST:event_run2ActionPerformed
 
-    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
 
-    }//GEN-LAST:event_run1ActionPerformed
+    }//GEN-LAST:event_run3ActionPerformed
+
+    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
+
+    }//GEN-LAST:event_run4ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -487,20 +479,20 @@ public class CondicionalView extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(CondicionalView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadenasView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(CondicionalView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadenasView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(CondicionalView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadenasView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(CondicionalView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(CadenasView.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
         //</editor-fold>
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new CondicionalView().setVisible(true);
+                new CadenasView().setVisible(true);
             }
         });
     }
@@ -518,7 +510,6 @@ public class CondicionalView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
