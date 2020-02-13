@@ -19,6 +19,7 @@ public class Controlador {
     private int van2 = 0;
     private Menu menu;
     private Cadenas_Strings CadString;
+    private CadenasView CadView;
     private CodeExplain CodeExp;
     private CondicionalView ConView;
     private Condicionales Condi;
@@ -29,8 +30,8 @@ public class Controlador {
         this.menu.cadenas.addActionListener((ActionEvent e) -> {
             this.CadString = new Cadenas_Strings();
             menu.setVisible(false);
-            CodeExp = new CodeExplain();
-            CodeExp.setVisible(true);
+            CadView = new CadenasView();
+            CadView.setVisible(true);
             DoCode();
             cadenasview();
         });
@@ -144,25 +145,22 @@ public class Controlador {
     }
     
     public void cadenasview(){
-        this.CodeExp.setTitle("Logging");
-        this.CodeExp.setLocationRelativeTo(null);
-        /*CodeExp.vereje.addActionListener((ActionEvent e) -> {
-            CodeExp.examples.setText(CadString.Ejercicios());
-        });
-        CodeExp.sigexample.addActionListener((ActionEvent e) ->{
-            makeExamples();
-        });
-        CodeExp.salir.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
+        this.CadView.setTitle("Cadenas");
+        this.CadView.setLocationRelativeTo(null);
+        CadView.quecadena.setText(CadString.Ques());
+        CadView.makecadena.setText(CadString.makeString());
+        CadView.stringfuncion.setText(CadString.IsString());
+        CadView.lenghtcadena.setText(CadString.lenght());
+        CadView.setcadena.setText(CadString.setSring());
+        CadView.strcomparar.setText(CadString.Stringcmp());
+        CadView.caracdena.setText(CadString.stringref());
+        CadView.cadunion.setText(CadString.unioncad());
+        CadView.menu.addActionListener((ActionEvent e) -> {
+            CadView.setVisible(false);
             menu.setVisible(true);
             iniciar();
         });
-        CodeExp.MoreCode.addActionListener((ActionEvent e) ->{
-            DoCode();
-        });
-        CodeExp.RunCode.addActionListener((ActionEvent e) ->{
-            runCode();
-        });*/
+     
     }
     
     public void runCode(){
