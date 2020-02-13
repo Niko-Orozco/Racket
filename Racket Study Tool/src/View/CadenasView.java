@@ -74,6 +74,20 @@ public class CadenasView extends javax.swing.JFrame {
         verinfo1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         run1 = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        code1 = new javax.swing.JTextPane();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        verinfo2 = new javax.swing.JTextArea();
+        jLabel18 = new javax.swing.JLabel();
+        run2 = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        code2 = new javax.swing.JTextPane();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        verinfo3 = new javax.swing.JTextArea();
+        jLabel19 = new javax.swing.JLabel();
+        run3 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
@@ -279,7 +293,111 @@ public class CadenasView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Cadenas", jPanel3);
+        jTabbedPane1.addTab("make-string", jPanel3);
+
+        code1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code1.setFocusable(false);
+        jScrollPane9.setViewportView(code1);
+
+        verinfo2.setColumns(20);
+        verinfo2.setRows(5);
+        verinfo2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo2.setFocusable(false);
+        jScrollPane10.setViewportView(verinfo2);
+
+        jLabel18.setText("Consola");
+
+        run2.setText("Ejecutar");
+        run2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run2ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane9)
+                    .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
+                .addContainerGap(59, Short.MAX_VALUE)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run2)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("string?", jPanel4);
+
+        code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
+        jScrollPane16.setViewportView(code2);
+
+        verinfo3.setColumns(20);
+        verinfo3.setRows(5);
+        verinfo3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo3.setFocusable(false);
+        jScrollPane17.setViewportView(verinfo3);
+
+        jLabel19.setText("Consola");
+
+        run3.setText("Ejecutar");
+        run3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane16)
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
+                .addContainerGap(59, Short.MAX_VALUE)
+                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run3)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("lenght", jPanel5);
 
         jLabel7.setText("Ejemplos");
 
@@ -399,6 +517,14 @@ public class CadenasView extends javax.swing.JFrame {
 
     }//GEN-LAST:event_run1ActionPerformed
 
+    private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run2ActionPerformed
+
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run3ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -438,6 +564,8 @@ public class CadenasView extends javax.swing.JFrame {
     public javax.swing.JTextArea cadunion;
     public javax.swing.JTextArea caracdena;
     public javax.swing.JTextPane code;
+    public javax.swing.JTextPane code1;
+    public javax.swing.JTextPane code2;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -448,6 +576,8 @@ public class CadenasView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -459,13 +589,18 @@ public class CadenasView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel1;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
     public javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -473,6 +608,7 @@ public class CadenasView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
     public javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTextArea jTextArea1;
     public javax.swing.JTextArea lenghtcadena;
@@ -481,9 +617,13 @@ public class CadenasView extends javax.swing.JFrame {
     public javax.swing.JButton menu;
     public javax.swing.JTextArea quecadena;
     public javax.swing.JButton run1;
+    public javax.swing.JButton run2;
+    public javax.swing.JButton run3;
     public javax.swing.JTextArea setcadena;
     public javax.swing.JTextArea strcomparar;
     public javax.swing.JTextArea stringfuncion;
     public javax.swing.JTextArea verinfo1;
+    public javax.swing.JTextArea verinfo2;
+    public javax.swing.JTextArea verinfo3;
     // End of variables declaration//GEN-END:variables
 }

@@ -11,4 +11,8 @@ package Model;
  */
 public class Caracteres_Documentacion {
     
+    public void pollito(){
+        
+    }
+    
 }
