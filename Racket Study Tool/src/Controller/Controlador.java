@@ -23,6 +23,8 @@ public class Controlador {
     private CondicionalView ConView;
     private Condicionales Condi;
     private Practicas Practices;
+    private Vectores Vect;
+    private VectoresView VectView;
 
     public Controlador(Menu menu) {
         this.menu = menu;
@@ -32,6 +34,13 @@ public class Controlador {
             CadView = new CadenasView();
             CadView.setVisible(true);
             cadenasview();
+        });
+        this.menu.vectores.addActionListener((ActionEvent e) -> {
+            this.Vect = new Vectores();
+            menu.setVisible(false);
+            VectView = new VectoresView();
+            VectView.setVisible(true);
+            vectoresview();
         });
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
             Condi = new Condicionales();
@@ -43,8 +52,29 @@ public class Controlador {
         });
     }
     
+    public void vectoresview(){
+        this.VectView.setTitle("Logging");
+        this.VectView.setLocationRelativeTo(null);
+        VectView.quevect.setText(Vect.quevect());
+        VectView.makevect.setText(Vect.makevect());
+        VectView.vectref.setText(Vect.vectref());
+        VectView.fillvect.setText(Vect.vectfill());
+        VectView.setvect.setText(Vect.vectset());
+        VectView.lenvect.setText(Vect.vectlen());
+        VectView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            VectView.setVisible(false);
+            practices();
+        });
+        VectView.menu.addActionListener((ActionEvent e) -> {
+            ConView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
+    
     public void condicionlaesview(){
-        this.ConView.setTitle("Logging");
+        this.ConView.setTitle("Condicionales");
         this.ConView.setLocationRelativeTo(null);
         ConView.ques.setText(Condi.Quees());
         ConView.bolerel.setText(Condi.bol());

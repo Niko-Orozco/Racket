@@ -88,20 +88,6 @@ public class VectoresView extends javax.swing.JFrame {
         verinfo5 = new javax.swing.JTextArea();
         jLabel21 = new javax.swing.JLabel();
         run5 = new javax.swing.JButton();
-        jPanel9 = new javax.swing.JPanel();
-        jScrollPane22 = new javax.swing.JScrollPane();
-        code6 = new javax.swing.JTextPane();
-        jScrollPane23 = new javax.swing.JScrollPane();
-        verinfo6 = new javax.swing.JTextArea();
-        jLabel22 = new javax.swing.JLabel();
-        run6 = new javax.swing.JButton();
-        jPanel10 = new javax.swing.JPanel();
-        jScrollPane24 = new javax.swing.JScrollPane();
-        code7 = new javax.swing.JTextPane();
-        jScrollPane25 = new javax.swing.JScrollPane();
-        verinfo7 = new javax.swing.JTextArea();
-        jLabel23 = new javax.swing.JLabel();
-        run7 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
@@ -137,7 +123,6 @@ public class VectoresView extends javax.swing.JFrame {
         quevect.setColumns(20);
         quevect.setRows(5);
         quevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        quevect.setFocusable(false);
         jScrollPane1.setViewportView(quevect);
 
         jLabel3.setText("Creacion de Vectores");
@@ -335,7 +320,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("string?", jPanel4);
+        jTabbedPane1.addTab("vector-ref", jPanel4);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane16.setViewportView(code3);
@@ -386,7 +371,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("string-length", jPanel5);
+        jTabbedPane1.addTab("vector-set!", jPanel5);
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane18.setViewportView(code4);
@@ -437,7 +422,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("string-append", jPanel6);
+        jTabbedPane1.addTab("vector-fill!", jPanel6);
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane20.setViewportView(code5);
@@ -488,109 +473,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("string-ref", jPanel8);
-
-        code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane22.setViewportView(code6);
-
-        verinfo6.setColumns(20);
-        verinfo6.setRows(5);
-        verinfo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo6.setFocusable(false);
-        jScrollPane23.setViewportView(verinfo6);
-
-        jLabel22.setText("Consola");
-
-        run6.setText("Ejecutar");
-        run6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run6ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane22)
-                    .addComponent(jScrollPane23, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jScrollPane22, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane23, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run6)
-                .addGap(31, 31, 31))
-        );
-
-        jTabbedPane1.addTab("string-set!", jPanel9);
-
-        code7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane24.setViewportView(code7);
-
-        verinfo7.setColumns(20);
-        verinfo7.setRows(5);
-        verinfo7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo7.setFocusable(false);
-        jScrollPane25.setViewportView(verinfo7);
-
-        jLabel23.setText("Consola");
-
-        run7.setText("Ejecutar");
-        run7.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run7ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane24)
-                    .addComponent(jScrollPane25, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jLabel23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap(27, Short.MAX_VALUE)
-                .addComponent(jScrollPane24, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel23)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane25, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run7)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("string=", jPanel10);
+        jTabbedPane1.addTab("vector-length", jPanel8);
 
         jLabel7.setText("Ejemplos");
 
@@ -631,7 +514,7 @@ public class VectoresView extends javax.swing.JFrame {
 
         crear.setText("Crear Vector");
         jPanel11.add(crear);
-        crear.setBounds(100, 90, 110, 23);
+        crear.setBounds(70, 90, 130, 23);
 
         mostrar.setText("Mostrar Vector");
         mostrar.addActionListener(new java.awt.event.ActionListener() {
@@ -640,7 +523,7 @@ public class VectoresView extends javax.swing.JFrame {
             }
         });
         jPanel11.add(mostrar);
-        mostrar.setBounds(230, 90, 110, 23);
+        mostrar.setBounds(220, 90, 130, 23);
 
         limpiar.setText("Limpiar celdas");
         limpiar.addActionListener(new java.awt.event.ActionListener() {
@@ -649,7 +532,7 @@ public class VectoresView extends javax.swing.JFrame {
             }
         });
         jPanel11.add(limpiar);
-        limpiar.setBounds(360, 90, 110, 23);
+        limpiar.setBounds(370, 90, 130, 23);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -670,7 +553,7 @@ public class VectoresView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 583, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(557, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -685,7 +568,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(164, Short.MAX_VALUE))
+                .addContainerGap(33, Short.MAX_VALUE))
         );
 
         jScrollPane13.setViewportView(jPanel7);
@@ -744,14 +627,6 @@ public class VectoresView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run5ActionPerformed
 
-    private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run6ActionPerformed
-
-    private void run7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run7ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run7ActionPerformed
-
     private void v1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_v1ActionPerformed
@@ -808,8 +683,6 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JTextPane code3;
     public javax.swing.JTextPane code4;
     public javax.swing.JTextPane code5;
-    public javax.swing.JTextPane code6;
-    public javax.swing.JTextPane code7;
     public javax.swing.JButton crear;
     public javax.swing.JTextArea fillvect;
     public javax.swing.JButton jButton2;
@@ -822,8 +695,6 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -832,7 +703,6 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
@@ -841,7 +711,6 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     public javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -854,10 +723,6 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane21;
-    private javax.swing.JScrollPane jScrollPane22;
-    private javax.swing.JScrollPane jScrollPane23;
-    private javax.swing.JScrollPane jScrollPane24;
-    private javax.swing.JScrollPane jScrollPane25;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -877,8 +742,6 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JButton run3;
     public javax.swing.JButton run4;
     public javax.swing.JButton run5;
-    public javax.swing.JButton run6;
-    public javax.swing.JButton run7;
     public javax.swing.JTextArea setvect;
     public javax.swing.JTextField v1;
     public javax.swing.JTextField v2;
@@ -890,7 +753,5 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JTextArea verinfo3;
     public javax.swing.JTextArea verinfo4;
     public javax.swing.JTextArea verinfo5;
-    public javax.swing.JTextArea verinfo6;
-    public javax.swing.JTextArea verinfo7;
     // End of variables declaration//GEN-END:variables
 }
