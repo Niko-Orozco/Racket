@@ -149,6 +149,8 @@ public class CadenasView extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
 
+        jPanel2.setFocusable(false);
+
         stringfuncion.setColumns(20);
         stringfuncion.setRows(5);
         stringfuncion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -285,6 +287,7 @@ public class CadenasView extends javax.swing.JFrame {
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);

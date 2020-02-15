@@ -107,6 +107,8 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(430, 10, 160, 30);
 
+        jPanel2.setFocusable(false);
+
         conif.setColumns(20);
         conif.setRows(5);
         conif.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
