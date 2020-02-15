@@ -123,6 +123,7 @@ public class VectoresView extends javax.swing.JFrame {
         quevect.setColumns(20);
         quevect.setRows(5);
         quevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        quevect.setFocusable(false);
         jScrollPane1.setViewportView(quevect);
 
         jLabel3.setText("Creacion de Vectores");
