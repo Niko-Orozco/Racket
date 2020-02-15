@@ -16,7 +16,6 @@ import javax.swing.JOptionPane;
  */
 public class Controlador {
     private int van = 0;
-    private int van2 = 0;
     private Menu menu;
     private Cadenas_Strings CadString;
     private CadenasView CadView;
@@ -155,6 +154,19 @@ public class Controlador {
         CadView.strcomparar.setText(CadString.Stringcmp());
         CadView.caracdena.setText(CadString.stringref());
         CadView.cadunion.setText(CadString.unioncad());
+        CadView.code.setText(CadString.makeseje());
+        CadView.code2.setText(CadString.stringeje());
+        CadView.code3.setText(CadString.lengtheje());
+        CadView.code4.setText(CadString.appendeje());
+        CadView.code5.setText(CadString.refeje());
+        CadView.code6.setText(CadString.seteje());
+        CadView.code7.setText(CadString.strincmpeje());
+        CadView.run1.addActionListener((ActionEvent e) -> {
+            CadView.verinfo5.setText(runCode(5));
+        });
+        CadView.run7.addActionListener((ActionEvent e) -> {
+            CadView.verinfo7.setText(runCode(7));
+        });
         CadView.menu.addActionListener((ActionEvent e) -> {
             CadView.setVisible(false);
             menu.setVisible(true);
@@ -163,10 +175,10 @@ public class Controlador {
      
     }
     
-    public void runCode(){
+    public String runCode(int van2){
         String respuesta = "",n1,n2,n3;
         switch(van2){
-            case 1:  try {
+            case 5:  try {
                         n1 = (String)JOptionPane.showInputDialog("Ingrese el nombre");
                         n2 = (String)JOptionPane.showInputDialog("Ingrese primer Apellido");
                         n3 = (String)JOptionPane.showInputDialog("Ingrese segundo Apellido");
@@ -176,15 +188,16 @@ public class Controlador {
                         JOptionPane.showMessageDialog(null, "Code Error line 1 substring small string");
                      }
                 break;
-            default: String cad = (String)JOptionPane.showInputDialog("Ingrese la cadena");
+            case 7: String cad = (String)JOptionPane.showInputDialog("Ingrese la cadena");
                      cad = cad.replaceAll("[a,á,e,é,i,í,o,ó,u,ú]", "");
                      JOptionPane.showMessageDialog(null, cad);
+                break;
                     
         }
+        return respuesta;
     }
     
     public void DoCode(){
-        van2++;
         /*switch(van2){
             case 1: CodeExp.outputs.setText(CadString.Ejemplos(van2));
                     break;
