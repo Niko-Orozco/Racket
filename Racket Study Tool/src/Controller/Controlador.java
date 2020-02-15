@@ -31,7 +31,6 @@ public class Controlador {
             menu.setVisible(false);
             CadView = new CadenasView();
             CadView.setVisible(true);
-            DoCode();
             cadenasview();
         });
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
@@ -136,7 +135,7 @@ public class Controlador {
         this.Practices.setTitle("Practicas");
         this.Practices.setLocationRelativeTo(null);
         Practices.menu.addActionListener((ActionEvent e) -> {
-            ConView.setVisible(false);
+            Practices.setVisible(false);
             menu.setVisible(true);
             iniciar();
         });
@@ -162,10 +161,30 @@ public class Controlador {
         CadView.code6.setText(CadString.seteje());
         CadView.code7.setText(CadString.strincmpeje());
         CadView.run1.addActionListener((ActionEvent e) -> {
+            CadView.verinfo1.setText(runCode(1));
+        });
+        CadView.run2.addActionListener((ActionEvent e) -> {
+            CadView.verinfo2.setText(runCode(2));
+        });
+        CadView.run3.addActionListener((ActionEvent e) -> {
+            CadView.verinfo3.setText(runCode(3));
+        });
+        CadView.run4.addActionListener((ActionEvent e) -> {
+            CadView.verinfo4.setText(runCode(4));
+        });
+        CadView.run5.addActionListener((ActionEvent e) -> {
             CadView.verinfo5.setText(runCode(5));
+        });
+        CadView.run6.addActionListener((ActionEvent e) -> {
+            CadView.verinfo6.setText(runCode(6));
         });
         CadView.run7.addActionListener((ActionEvent e) -> {
             CadView.verinfo7.setText(runCode(7));
+        });
+        CadView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            CadView.setVisible(false);
+            practices();
         });
         CadView.menu.addActionListener((ActionEvent e) -> {
             CadView.setVisible(false);
@@ -177,20 +196,50 @@ public class Controlador {
     
     public String runCode(int van2){
         String respuesta = "",n1,n2,n3;
+        int n;
         switch(van2){
+            case 1: respuesta = "jjjj"+"\n\n"+"Hola que tal tu dia";
+                break;
+            case 2: try {
+                        n = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cadena"));
+                        respuesta = "No es una cadena";
+                     } catch (Exception e) {
+                        respuesta = "Si es una cadena";
+                     }
+                break;
+            case 3: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese la cadena");
+                        respuesta = (n1.length() < 10)? "cadena de tamaño menor a diez":"cadena de tamaño mayor a diez.";
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Ingrese solo texto");
+                     }
+                break;
+            case 4: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese la cadena 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese la cadena 2");
+                        respuesta = n1+n2;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Ingrese solo texto");
+                     }
+                break;
             case 5:  try {
                         n1 = (String)JOptionPane.showInputDialog("Ingrese el nombre");
                         n2 = (String)JOptionPane.showInputDialog("Ingrese primer Apellido");
                         n3 = (String)JOptionPane.showInputDialog("Ingrese segundo Apellido");
                         respuesta = n2.substring(0,3) + n3.substring(0,3) + n1.substring(0,3);
-                        JOptionPane.showMessageDialog(null, respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error line 1 substring small string");
                      }
                 break;
-            case 7: String cad = (String)JOptionPane.showInputDialog("Ingrese la cadena");
-                     cad = cad.replaceAll("[a,á,e,é,i,í,o,ó,u,ú]", "");
-                     JOptionPane.showMessageDialog(null, cad);
+            case 6: respuesta = "Es hora de zenar";
+                break;
+            case 7: try {
+                        String cad = (String)JOptionPane.showInputDialog("Ingrese la cadena");
+                        cad = cad.replaceAll("[a,á,e,é,i,í,o,ó,u,ú]", "");
+                        respuesta = cad;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Ingrese solo texto");
+                     }
                 break;
                     
         }

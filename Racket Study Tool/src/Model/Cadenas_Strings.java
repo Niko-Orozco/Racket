@@ -217,7 +217,7 @@ public class Cadenas_Strings {
                         "(define (MiCadena cd)\n" +
                         "     (if  (< (string-length cd) 10)\n" +
                         "            (displayln \"cadena de tamaño menor a diez\")\n" +
-                        "            (displayln \"cadena de tamaño menor a diez.\")\n" +
+                        "            (displayln \"cadena de tamaño mayor a diez.\")\n" +
                         "      )\n" +
                         ")\n" +
                         "\n" +
