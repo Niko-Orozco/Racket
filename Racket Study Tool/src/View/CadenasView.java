@@ -23,8 +23,23 @@ public class CadenasView extends javax.swing.JFrame {
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
         
-        numerolinea = new NumeroLinea(verinfo7);
+        numerolinea = new NumeroLinea(code2);
         jScrollPane9.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane16.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane18.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane20.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code6);
+        jScrollPane22.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code7);
+        jScrollPane24.setRowHeaderView(numerolinea);
         
     }
 
