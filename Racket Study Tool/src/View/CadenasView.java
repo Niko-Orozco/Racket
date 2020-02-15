@@ -437,7 +437,7 @@ public class CadenasView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("lenght", jPanel5);
+        jTabbedPane1.addTab("string-length", jPanel5);
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane18.setViewportView(code4);

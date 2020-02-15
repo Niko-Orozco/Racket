@@ -176,58 +176,135 @@ public class Cadenas_Strings {
                         "(string-ci=? ''futbolbar'' ''futbol')	    f; cadena 2 prefijo menor";
        return data;
    }
-
-
-   public String Ejemplos(int r){
-       String data ="";
-       switch(r){
-           case 1: data =   ";Construir un programa que permita genrear codigos de usarios con el \n" +
-                            ";procedimiento siguiente:debde de leer el nombre y los dos apellidos \n" +
-                            ";de una persona y devolver un codigo de usario formado por las tres \n" +
-                            ";primeras letras del primer apellido, segundo apellido y del nombre\n" +
-                            "\n" +
-                            ";ejemplo:\n" +
-                            ";Balvin Sanches Ana\n" +
-                            "\n" +
-                            ";BalSanAna\n\n"+
-                            ";(define(Codigo nom ap1 ap2)\n" +
-                                  "    (display(substring nom 0 3))\n" +
-                                  "    (display(substring ap1 0 3))\n" +
-                                  "    (display(substring ap2 0 3))\n" +
-                                  ")\n"+
-                                  "(codigo(read)(read)(read))";
-                    break;
-           default: data =  ";Construir un programa que reciva una cadena y devuelva una cadena \n" +
-                        ";equivalente, pero sin las vocales\n" +
-                        "(define(Cadena read);lee y almacena nuestra cadena.\n" +
-                        "    (Read)\n" +
-                        ")\n" +
-                        "(define(Tamaño read)\n;Define y almacena el tamaño de nuestra Cadena.\n" +
-                        "     (string-length(Cadena read)\n" +
-                        ")\n" +
-                        "(define(Sinvocls CAD LENGTH POS)\n" +
-                        "    (if(=LENGTH POS)\n" +
-                        "       (display'' '')\n" +
-                        "       (begin\n" +
-                        "           (if(or(char-cir=?(string-ref(Cadena CAD)POS)#/a)\n" +
-                        "            \n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/e)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/i)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/o)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/u))\n" +
-                        "                  (display '' '');De cumplirse,devolver vacío.\n" +
-                        "                  (display(string-ref(Cadena CAD)POS))\n" +
-                        "            )\n" +
-                        "          (Sinvocls CAD LENGTH(+ POS 1))\n" +
-                        "       )\n" +
+   
+   public String makeseje(){
+       String data =    " ;Al momento de usar la funcion meke-string solo  nos sirve para crear una cadena con los\n" +
+                        " ;mismos caracteres, aunque estas cadenas pueden ser modificadas\n" +
+                        "\n" +
+                        " ;Crear  una  funcion  que llena  una  caden a  de  4  posiciones  con  el  caracter  J  usando \n" +
+                        " ;make-string.  Luego  cree  una cadena con la funcion string que di ga  \"Hola que tal tu dia\"  \n" +
+                        " ;y  por ultimo muestra  las cadenas creadas usando la funcion (displayln)\n" +
+                        "\n" +
+                        "(define cad1 (make-string 4 #\\j))\n" +
+                        "\n" +
+                        "(displayln cad1)\n" +
+                        "\n" +
+                        "(define cad2 (string #\\H #\\o #\\l #\\a #\\q #\\u #\\e #\\t #\\a #\\l #\\t #\\u #\\d #\\i #\\a))\n" +
+                        "\n" +
+                        "(displayln cad2)";
+       return data;
+   }
+   
+   public String stringeje(){
+       String data =    ";crear una funcion que diga si los datos ingresados por teclado es una cadena o no\n" +
+                        "\n" +
+                        "(define (MiCadena cd)\n" +
+                        "     (if  (string? cd)\n" +
+                        "            (displayln \"si es una cadena\")\n" +
+                        "            (displayln \"no es una cadena\")\n" +
                         "      )\n" +
-                        "   )\n" +
-                        "(define(Principal usrdef)\n" +
-                        "    (Sinvocls(Cadena usrdef)(Tamaño usrdef)0)\n" +
                         ")\n" +
-                        "(Principal (read))";
-
-       }
+                        "\n" +
+                        "(MiCadena (read))";
+       return data;
+   }
+   
+   public String lengtheje(){
+       String data =    ";Construir un programa que usando la funcion string-length muestre por pantalla si una\n" +
+                        ";cadena   es   mayor    que   10,   si  lo es imprimir cadena de tamaño menor a diez de lo \n" +
+                        ";contrario impirmir cadena de tamaño menor a diez.\n" +
+                        "\n" +
+                        "(define (MiCadena cd)\n" +
+                        "     (if  (< (string-length cd) 10)\n" +
+                        "            (displayln \"cadena de tamaño menor a diez\")\n" +
+                        "            (displayln \"cadena de tamaño menor a diez.\")\n" +
+                        "      )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(MiCadena (read))";
+       return data;
+   }
+   
+   public String appendeje(){
+       String data =    ";Cree una programa que una dos cadenas usando la funcion string-append, luego mostrar\n" +
+                        ";el resultado por pantalla\n" +
+                        "\n" +
+                        "(define (MisCadena cd cd2)\n" +
+                        "\n" +
+                        "        (displayln (string-append cd cd2))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(MisCadena (read))";
+       return data;
+   }
+   
+   public String seteje(){
+       String data =    ";Cree  una cadena con la funcion string que diga  \"Es hora de cenar\", luego  mediante la \n" +
+                        ";funcion  string-set!  cambiar  la  letra  c  de la cadena por una  z y  por ultimo  muestra  la\n" +
+                        ";cadena creada usando la funcion (displayln)\n" +
+                        "\n" +
+                        "\n" +
+                        "(define cad (string #\\E #\\s #\\h #\\o #\\r #\\a #\\d #\\e #\\c #\\e #\\a #\\r))\n" +
+                        "\n" +
+                        "(displayln (string-set! cad 9 #\\z))";
+       return data;
+   }
+   
+   public String refeje(){
+       String data =    ";Construir  un  programa  que  permita  genrear  codigos  de  usarios  con  el  procedimiento\n" +
+                        ";siguiente :debde de leer el nombre y los dos apellidos de una persona y devolver un codigo\n" +
+                        ";de usario  formado  por   las tres primeras letras del primer apellido, segundo apellido y del\n" +
+                        ";nombre\n" +
+                        "\n" +
+                        ";ejemplo:\n" +
+                        "\n" +
+                        ";Balvin Sanches Ana\\n\n" +
+                        ";BalSanAna\n" +
+                        "\n" +
+                        ";(define(Codigo nom ap1 ap2)\n" +
+                        "    (display(substring nom 0 3))\n" +
+                        "    (display(substring ap1 0 3))\n" +
+                        "    (display(substring ap2 0 3))\n" +
+                        ")\n" +
+                        "(codigo(read)(read)(read))";
+       return data;
+   }
+   
+   public String strincmpeje(){
+       String data =";Construir un programa que reciva una cadena y devuelva una cadena equivalente, pero\n" +
+                    ";sin las vocales\n" +
+                    "\n" +
+                    "(define(Cadena read);lee y almacena nuestra cadena.\n" +
+                    "    (Read)\n" +
+                    ")\n" +
+                    "\n" +
+                    "(define(Tamaño read) ;Define y almacena el tamaño de nuestra Cadena.\n" +
+                    "     (string-length(Cadena read)\n" +
+                    ")\n" +
+                    "\n" +
+                    "(define(Sinvocls CAD LENGTH POS)\n" +
+                    "    (if(=LENGTH POS)\n" +
+                    "       (display'' '')\n" +
+                    "       (begin\n" +
+                    "           (if(or(char-cir=?(string-ref(Cadena CAD)POS)#/a)\n" +
+                    "            \n" +
+                    "                  (char-cir=?(string-ref(Cadena CAD)POS)#/e)\n" +
+                    "                  (char-cir=?(string-ref(Cadena CAD)POS)#/i)\n" +
+                    "                  (char-cir=?(string-ref(Cadena CAD)POS)#/o)\n" +
+                    "                  (char-cir=?(string-ref(Cadena CAD)POS)#/u))\n" +
+                    "                  (display '' '');De cumplirse,devolver vacío.\n" +
+                    "                  (display(string-ref(Cadena CAD)POS))\n" +
+                    "            )\n" +
+                    "          (Sinvocls CAD LENGTH(+ POS 1))\n" +
+                    "       )\n" +
+                    "      )\n" +
+                    "   )\n" +
+                    "\n" +
+                    "(define(Principal usrdef)\n" +
+                    "    (Sinvocls(Cadena usrdef)(Tamaño usrdef)0)\n" +
+                    ")\n" +
+                    "\n" +
+                    "(Principal (read))";
        return data;
    }
 
