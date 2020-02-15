@@ -172,9 +172,9 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(27, Short.MAX_VALUE)
+                .addContainerGap(20, Short.MAX_VALUE)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -240,7 +240,7 @@ public class Estructuras extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
 
-        jLabel15.setText("Reprecentacion grafica de un Vector");
+        jLabel15.setText("Reprecentacion grafica de una estructura de datos");
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -293,7 +293,7 @@ public class Estructuras extends javax.swing.JFrame {
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Estructoras de datos ");
+        jLabel2.setText("Estructuras de datos ");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 
