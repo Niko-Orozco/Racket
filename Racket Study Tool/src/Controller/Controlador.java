@@ -25,6 +25,7 @@ public class Controlador {
     private Practicas Practices;
     private Vectores Vect;
     private VectoresView VectView;
+    private Estructuras_De_Datos Estrucs;
 
     public Controlador(Menu menu) {
         this.menu = menu;

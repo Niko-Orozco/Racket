@@ -11,9 +11,12 @@ package Model;
  */
 public class Estructuras_De_Datos {
 
+
     public Estructuras_De_Datos(){
-        
+
     }
+    
+    
     
     public String quees(){
         String data =   "Es una forma de organizar un conjunto de datos \n" +

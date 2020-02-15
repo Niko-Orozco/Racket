@@ -31,14 +31,14 @@ public class Estructuras extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        vectref = new javax.swing.JTextArea();
+        makestruc = new javax.swing.JTextArea();
         jScrollPane1 = new javax.swing.JScrollPane();
-        quevect = new javax.swing.JTextArea();
+        questruct = new javax.swing.JTextArea();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        makevect = new javax.swing.JTextArea();
+        defstruct = new javax.swing.JTextArea();
         jScrollPane13 = new javax.swing.JScrollPane();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
@@ -70,16 +70,16 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
 
-        vectref.setColumns(20);
-        vectref.setRows(5);
-        vectref.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        vectref.setFocusable(false);
-        jScrollPane5.setViewportView(vectref);
+        makestruc.setColumns(20);
+        makestruc.setRows(5);
+        makestruc.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        makestruc.setFocusable(false);
+        jScrollPane5.setViewportView(makestruc);
 
-        quevect.setColumns(20);
-        quevect.setRows(5);
-        quevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane1.setViewportView(quevect);
+        questruct.setColumns(20);
+        questruct.setRows(5);
+        questruct.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane1.setViewportView(questruct);
 
         jLabel3.setText("Define-struct");
 
@@ -87,11 +87,11 @@ public class Estructuras extends javax.swing.JFrame {
 
         jLabel5.setText("Make-struct");
 
-        makevect.setColumns(20);
-        makevect.setRows(5);
-        makevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        makevect.setFocusable(false);
-        jScrollPane3.setViewportView(makevect);
+        defstruct.setColumns(20);
+        defstruct.setRows(5);
+        defstruct.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        defstruct.setFocusable(false);
+        jScrollPane3.setViewportView(defstruct);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -357,6 +357,7 @@ public class Estructuras extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JTextPane code;
     public javax.swing.JTextPane code2;
+    public javax.swing.JTextArea defstruct;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel15;
@@ -383,12 +384,11 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane9;
     public javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton letsgo;
-    public javax.swing.JTextArea makevect;
+    public javax.swing.JTextArea makestruc;
     public javax.swing.JButton menu;
-    public javax.swing.JTextArea quevect;
+    public javax.swing.JTextArea questruct;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
-    public javax.swing.JTextArea vectref;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     // End of variables declaration//GEN-END:variables

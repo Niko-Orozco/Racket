@@ -14,9 +14,28 @@ public class VectoresView extends javax.swing.JFrame {
     /**
      * Creates new form VectoresView
      */
+    NumeroLinea numerolinea;
+    
     public VectoresView() {
         setResizable(false); 
         initComponents();
+        
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane9.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane16.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane18.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane20.setRowHeaderView(numerolinea);
+        
+        
     }
 
     /**
