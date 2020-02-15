@@ -33,29 +33,23 @@ public class VectoresView extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        stringfuncion = new javax.swing.JTextArea();
+        vectref = new javax.swing.JTextArea();
         jScrollPane1 = new javax.swing.JScrollPane();
-        quecadena = new javax.swing.JTextArea();
+        quevect = new javax.swing.JTextArea();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        lenghtcadena = new javax.swing.JTextArea();
+        setvect = new javax.swing.JTextArea();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        makecadena = new javax.swing.JTextArea();
+        makevect = new javax.swing.JTextArea();
         jScrollPane11 = new javax.swing.JScrollPane();
-        setcadena = new javax.swing.JTextArea();
+        fillvect = new javax.swing.JTextArea();
         jLabel9 = new javax.swing.JLabel();
-        jScrollPane12 = new javax.swing.JScrollPane();
-        strcomparar = new javax.swing.JTextArea();
-        jLabel10 = new javax.swing.JLabel();
         jScrollPane14 = new javax.swing.JScrollPane();
-        cadunion = new javax.swing.JTextArea();
+        lenvect = new javax.swing.JTextArea();
         jLabel16 = new javax.swing.JLabel();
-        jScrollPane15 = new javax.swing.JScrollPane();
-        caracdena = new javax.swing.JTextArea();
-        jLabel17 = new javax.swing.JLabel();
         jScrollPane13 = new javax.swing.JScrollPane();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
@@ -110,15 +104,22 @@ public class VectoresView extends javax.swing.JFrame {
         run7 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jLabel11 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
+        jPanel11 = new javax.swing.JPanel();
+        jLabel11 = new javax.swing.JLabel();
+        v1 = new javax.swing.JTextField();
+        v2 = new javax.swing.JTextField();
+        v3 = new javax.swing.JTextField();
+        v4 = new javax.swing.JTextField();
+        crear = new javax.swing.JButton();
+        mostrar = new javax.swing.JButton();
+        limpiar = new javax.swing.JButton();
         letsgo = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(860, 600));
         setMinimumSize(new java.awt.Dimension(860, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(860, 600));
@@ -127,69 +128,53 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
 
-        stringfuncion.setColumns(20);
-        stringfuncion.setRows(5);
-        stringfuncion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        stringfuncion.setFocusable(false);
-        jScrollPane5.setViewportView(stringfuncion);
+        vectref.setColumns(20);
+        vectref.setRows(5);
+        vectref.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        vectref.setFocusable(false);
+        jScrollPane5.setViewportView(vectref);
 
-        quecadena.setColumns(20);
-        quecadena.setRows(5);
-        quecadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        quecadena.setFocusable(false);
-        jScrollPane1.setViewportView(quecadena);
+        quevect.setColumns(20);
+        quevect.setRows(5);
+        quevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        quevect.setFocusable(false);
+        jScrollPane1.setViewportView(quevect);
 
-        jLabel3.setText("Creacion de cadenas");
+        jLabel3.setText("Creacion de Vectores");
 
-        jLabel4.setText("¿Que es una cadena?");
+        jLabel4.setText("¿Que es un Vector?");
 
-        jLabel5.setText("La funcion (String?)");
+        jLabel5.setText("vector-ref");
 
-        lenghtcadena.setColumns(20);
-        lenghtcadena.setRows(5);
-        lenghtcadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        lenghtcadena.setFocusable(false);
-        jScrollPane7.setViewportView(lenghtcadena);
+        setvect.setColumns(20);
+        setvect.setRows(5);
+        setvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setvect.setFocusable(false);
+        jScrollPane7.setViewportView(setvect);
 
-        jLabel6.setText("¿Una cadena tiene tamaño?");
+        jLabel6.setText("vector-set!");
 
-        makecadena.setColumns(20);
-        makecadena.setRows(5);
-        makecadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        makecadena.setFocusable(false);
-        jScrollPane3.setViewportView(makecadena);
+        makevect.setColumns(20);
+        makevect.setRows(5);
+        makevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        makevect.setFocusable(false);
+        jScrollPane3.setViewportView(makevect);
 
-        setcadena.setColumns(20);
-        setcadena.setRows(5);
-        setcadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        setcadena.setFocusable(false);
-        jScrollPane11.setViewportView(setcadena);
+        fillvect.setColumns(20);
+        fillvect.setRows(5);
+        fillvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        fillvect.setFocusable(false);
+        jScrollPane11.setViewportView(fillvect);
 
-        jLabel9.setText("Modificacion de cadenas");
+        jLabel9.setText("vector-fill!");
 
-        strcomparar.setColumns(20);
-        strcomparar.setRows(5);
-        strcomparar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        strcomparar.setFocusable(false);
-        jScrollPane12.setViewportView(strcomparar);
+        lenvect.setColumns(20);
+        lenvect.setRows(5);
+        lenvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        lenvect.setFocusable(false);
+        jScrollPane14.setViewportView(lenvect);
 
-        jLabel10.setText("Comparacion de cadenas");
-
-        cadunion.setColumns(20);
-        cadunion.setRows(5);
-        cadunion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        cadunion.setFocusable(false);
-        jScrollPane14.setViewportView(cadunion);
-
-        jLabel16.setText("Union de cadenas");
-
-        caracdena.setColumns(20);
-        caracdena.setRows(5);
-        caracdena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracdena.setFocusable(false);
-        jScrollPane15.setViewportView(caracdena);
-
-        jLabel17.setText("Caracteres de una cadena");
+        jLabel16.setText("vector-length");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -198,12 +183,8 @@ public class VectoresView extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
@@ -244,15 +225,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(47, Short.MAX_VALUE))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
 
         jScrollPane6.setViewportView(jPanel2);
@@ -311,7 +284,7 @@ public class VectoresView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("make-string", jPanel3);
+        jTabbedPane1.addTab("make-vector", jPanel3);
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane9.setViewportView(code2);
@@ -623,9 +596,60 @@ public class VectoresView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
 
-        jLabel11.setText("|   0      |     1     |     2     |     3      |");
+        jLabel15.setText("Reprecentacion grafica de un Vector");
 
-        jLabel15.setText("Reprecentacion de un Vector en Racket");
+        jPanel11.setLayout(null);
+
+        jLabel11.setText("|     0      |       1      |       2       |      3      |");
+        jPanel11.add(jLabel11);
+        jLabel11.setBounds(180, 50, 230, 35);
+
+        v1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        v1.setText("1");
+        v1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                v1ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(v1);
+        v1.setBounds(180, 20, 39, 36);
+
+        v2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        v2.setText("2");
+        jPanel11.add(v2);
+        v2.setBounds(230, 20, 39, 36);
+
+        v3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        v3.setText("3");
+        jPanel11.add(v3);
+        v3.setBounds(280, 20, 39, 36);
+
+        v4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        v4.setText("4");
+        jPanel11.add(v4);
+        v4.setBounds(330, 20, 39, 36);
+
+        crear.setText("Crear Vector");
+        jPanel11.add(crear);
+        crear.setBounds(100, 90, 110, 23);
+
+        mostrar.setText("Mostrar Vector");
+        mostrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                mostrarActionPerformed(evt);
+            }
+        });
+        jPanel11.add(mostrar);
+        mostrar.setBounds(230, 90, 110, 23);
+
+        limpiar.setText("Limpiar celdas");
+        limpiar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                limpiarActionPerformed(evt);
+            }
+        });
+        jPanel11.add(limpiar);
+        limpiar.setBounds(360, 90, 110, 23);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -635,19 +659,18 @@ public class VectoresView extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(405, 405, 405)
+                        .addComponent(jButton2))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addGroup(jPanel7Layout.createSequentialGroup()
-                                .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(405, 405, 405)
-                                .addComponent(jButton2))
-                            .addGroup(jPanel7Layout.createSequentialGroup()
-                                .addGap(79, 79, 79)
-                                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, 567, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 583, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
+                .addContainerGap(557, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -656,13 +679,13 @@ public class VectoresView extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jButton2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGap(19, 19, 19)
                 .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(192, 192, 192)
-                .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(2, 2, 2)
+                .addComponent(jPanel11, javax.swing.GroupLayout.PREFERRED_SIZE, 130, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(60, Short.MAX_VALUE))
+                .addContainerGap(164, Short.MAX_VALUE))
         );
 
         jScrollPane13.setViewportView(jPanel7);
@@ -729,6 +752,21 @@ public class VectoresView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run7ActionPerformed
 
+    private void v1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_v1ActionPerformed
+
+    private void mostrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mostrarActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_mostrarActionPerformed
+
+    private void limpiarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_limpiarActionPerformed
+        v1.setText("");
+        v2.setText("");
+        v3.setText("");
+        v4.setText("");
+    }//GEN-LAST:event_limpiarActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -765,8 +803,6 @@ public class VectoresView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JTextArea cadunion;
-    public javax.swing.JTextArea caracdena;
     public javax.swing.JTextPane code;
     public javax.swing.JTextPane code2;
     public javax.swing.JTextPane code3;
@@ -774,13 +810,13 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JTextPane code5;
     public javax.swing.JTextPane code6;
     public javax.swing.JTextPane code7;
+    public javax.swing.JButton crear;
+    public javax.swing.JTextArea fillvect;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
@@ -797,6 +833,7 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -808,10 +845,8 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
-    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
     private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane18;
@@ -830,11 +865,13 @@ public class VectoresView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane9;
     public javax.swing.JTabbedPane jTabbedPane1;
-    public javax.swing.JTextArea lenghtcadena;
+    public javax.swing.JTextArea lenvect;
     public javax.swing.JButton letsgo;
-    public javax.swing.JTextArea makecadena;
+    public javax.swing.JButton limpiar;
+    public javax.swing.JTextArea makevect;
     public javax.swing.JButton menu;
-    public javax.swing.JTextArea quecadena;
+    public javax.swing.JButton mostrar;
+    public javax.swing.JTextArea quevect;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
     public javax.swing.JButton run3;
@@ -842,9 +879,12 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JButton run5;
     public javax.swing.JButton run6;
     public javax.swing.JButton run7;
-    public javax.swing.JTextArea setcadena;
-    public javax.swing.JTextArea strcomparar;
-    public javax.swing.JTextArea stringfuncion;
+    public javax.swing.JTextArea setvect;
+    public javax.swing.JTextField v1;
+    public javax.swing.JTextField v2;
+    public javax.swing.JTextField v3;
+    public javax.swing.JTextField v4;
+    public javax.swing.JTextArea vectref;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;
