@@ -590,7 +590,7 @@ public class VectoresView extends javax.swing.JFrame {
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        jLabel2.setText("Cadenas y Strings");
+        jLabel2.setText("Vectores");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 
