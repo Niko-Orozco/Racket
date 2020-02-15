@@ -67,7 +67,7 @@ public class Controlador {
             practices();
         });
         VectView.menu.addActionListener((ActionEvent e) -> {
-            ConView.setVisible(false);
+            VectView.setVisible(false);
             menu.setVisible(true);
             iniciar();
         });
