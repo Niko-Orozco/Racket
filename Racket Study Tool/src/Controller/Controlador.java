@@ -246,31 +246,6 @@ public class Controlador {
         return respuesta;
     }
     
-    public void DoCode(){
-        /*switch(van2){
-            case 1: CodeExp.outputs.setText(CadString.Ejemplos(van2));
-                    break;
-            default: CodeExp.outputs.setText(CadString.Ejemplos(van2));
-                      van2 = (van2 >= 2)?van2 = 0:van2;   
-        }*/
-    }
-    
-    public void makeExamples(){
-        van++;
-        /*switch(van){
-            case 1: CodeExp.examples.setText(CadString.IsString());
-                    break;
-            case 2: CodeExp.examples.setText(CadString.makeString());
-                    break;
-            case 3: CodeExp.examples.setText(CadString.lenght());
-                    break;
-            case 4: CodeExp.examples.setText(CadString.setSring());
-                    break;
-            default : CodeExp.examples.setText(CadString.Stringcmp());
-                      van = (van >= 4)?van = 0:van;   
-        }*/
-    }
-    
     public void iniciar() {
         this.menu.setTitle("Menu Dr. Racket");
         this.menu.setLocationRelativeTo(null);
