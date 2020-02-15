@@ -15,8 +15,7 @@ public class VectoresView extends javax.swing.JFrame {
      * Creates new form VectoresView
      */
     public VectoresView() {
-        setResizable(false);
-        
+        setResizable(false); 
         initComponents();
     }
 
