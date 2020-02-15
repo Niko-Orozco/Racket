@@ -122,9 +122,57 @@ public class Vectores {
         return data;
     }
     
+    public String makeeje(){
+        String data =   ";Defina una funcion tal que cree un vector de 5 posiciones con la letra J y luego mostrar el \n" +
+                        ";resultado  por pantalla\n" +
+                        "\n" +
+                        "(define vec (make-vector 5 # \\j))\n" +
+                        "(displayln vec)\n" +
+                        "";
+        return data;
+    }
+    
+    public String refeje(){
+        String data = "";
+        return data;
+    }
+    
+    public String seteje(){
+        String data = "";
+        return data;
+    }
+    
+    public String filleje(){
+        String data = "";
+        return data;
+    }
+    
+    public String leneje(){
+        String data = ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
+                        ";recursiva:\n" +
+                        "\n" +
+                        "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
+                        " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
+                        "(define (DisplayVectLength Pos)\n" +
+                        "    (if (= (- Length 1) Pos)\n" +
+                        "\n" +
+                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 (porque  empiezan  a  contar\n" +
+                        ";en 0)  por  lo  tanto  Length  se  debe restar en 1 \n" +
+                        "\n" +
+                        " (display(vector-refVect Pos))\n" +
+                        "    (begin\n" +
+                        "       (display (vector-refVect Pos))\n" +
+                        "        (display VectLength (+ 1 Pos))\n" +
+                        "         )\n" +
+                        "     )\n" +
+                        " )\n" +
+                        "(DisplayVect (vector-lengthVect) 0) ";
+        return data;
+    }
+    
     public String codigo(){
         String data =   ";Hacer un  programa  que  reciba  un numero entero y cree un vector de tamaño  n,  donde  cada\n" +
-                        ";posicion   de l  vector   se   llene  del indice  0 al 9 con  los  numeros  del  1  al  10.   En  caso  de\n" +
+                        ";posicion   del  vector   se   llene  del indice  0 al 9 con  los  numeros  del  1  al  10.   En  caso  de\n" +
                         ";que el vector sea mayor que  10  posiciones,  las  restantes  se  deben  llenar con las letras del\n" +
                         ";abecedario   desde    la   \"a\"  hasta la   \"z\"  y  en caso tal que el numero de posiciones del vector\n" +
                         ";sea  aun  mayor , las  posiciones  siguientes  deben  llenarse   con   la   misma   secuencia  de\n" +
@@ -150,25 +198,6 @@ public class Vectores {
                         "               )\n" +
                         "\n" +
                         "         (LlenarVect(vector-lengthVect) 0 1 97 1)";
-        String code2 = ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
-                        ";recursiva:\n" +
-                        "\n" +
-                        "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
-                        " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
-                        "(define (DisplayVectLength Pos)\n" +
-                        "    (if (= (- Length 1) Pos)\n" +
-                        "\n" +
-                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 (porque  empiezan  a  contar\n" +
-                        ";en 0)  por  lo  tanto  Length  se  debe restar en 1 \n" +
-                        "\n" +
-                        " (display(vector-refVect Pos))\n" +
-                        "    (begin\n" +
-                        "       (display (vector-refVect Pos))\n" +
-                        "        (display VectLength (+ 1 Pos))\n" +
-                        "         )\n" +
-                        "     )\n" +
-                        " )\n" +
-                        "(DisplayVect (vector-lengthVect) 0) ";
         return data;
     }
      
