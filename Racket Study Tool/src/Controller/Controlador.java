@@ -62,6 +62,26 @@ public class Controlador {
         VectView.fillvect.setText(Vect.vectfill());
         VectView.setvect.setText(Vect.vectset());
         VectView.lenvect.setText(Vect.vectlen());
+        VectView.code.setText(Vect.makeeje());
+        VectView.code2.setText(Vect.refeje());
+        VectView.code3.setText(Vect.seteje());
+        VectView.code4.setText(Vect.filleje());
+        VectView.code5.setText(Vect.leneje());   
+        VectView.run1.addActionListener((ActionEvent e) -> {
+            VectView.verinfo1.setText(runCodevec(1));
+        });
+        VectView.run2.addActionListener((ActionEvent e) -> {
+            VectView.verinfo2.setText(runCodevec(2));
+        });
+        VectView.run3.addActionListener((ActionEvent e) -> {
+            VectView.verinfo3.setText(runCodevec(3));
+        });
+        VectView.run4.addActionListener((ActionEvent e) -> {
+            VectView.verinfo4.setText(runCodevec(4));
+        });
+        VectView.run5.addActionListener((ActionEvent e) -> {
+            VectView.verinfo5.setText(runCodevec(5));
+        });
         VectView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             VectView.setVisible(false);
@@ -223,6 +243,46 @@ public class Controlador {
             iniciar();
         });
      
+    }
+    
+    public String runCodevec(int van2){
+        String respuesta = "",n1,n2,n3;
+        int n,l=0,j=1;
+        switch(van2){
+            case 1: respuesta = "j,j,j,j,j"+"\n\n";
+                break;
+            case 2: respuesta = "34";
+                break;
+            case 3: respuesta = "q, ''Hola'', ''pollito'' #t";
+                break;
+            case 4: try {
+                        n = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cadena 1"));
+                        String abc = "abcdefghijklmnopqrstuvwxyz";
+                        String[] datos = new String[n];
+                        for(int i = 1; n >= 0; i++){
+                            if((i >= 11)){
+                                respuesta += abc.charAt(l)+ ", ";
+                                if(abc.charAt(l) == 'z'){
+                                    i=0;
+                                }
+                                l++;
+                                j=1;
+                                
+                            }else{
+                                respuesta += j + ", ";
+                                j++;
+                                l = 0;
+                            }
+                            n--;
+                        }
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "code error");
+                     }
+                break;
+            case 5:  respuesta = "Esto 0\n"+"Es 1\n"+"Un 2\n"+"Vector 3\n"+"Leido 4\n"+"Recursivamente 6";
+                break;                   
+        }
+        return respuesta;
     }
     
     public String runCode(int van2){

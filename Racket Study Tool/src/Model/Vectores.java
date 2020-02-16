@@ -14,38 +14,6 @@ public class Vectores {
     public Vectores() {
     }
     
-    public String ejercicios(){
-        String data =   "1. Construir un programa  que reciba un vector y muestre el ultimo\n" +
-                        "dato del vector.\n" +
-                        "\n" +
-                        "2. Construir un programa que reciba un valor entero N y devuelva  un\n" +
-                        "vector de tamaño N, donde cada posicion del vector contiene el valor\n" +
-                        "-1.\n" +
-                        "\n" +
-                        "3. Dado un vector con diferentes valores imprimir dichos valores del\n" +
-                        "vector leyendolos uno por uno de manera recursiva.\n" +
-                        "\n" +
-                        "4. Dado un numero n, crear un vector de tamaño n y  luego  ingresar\n" +
-                        "en  el  vector  los  numeros  del  1  hasta  n,  e  imprimir  el vector. Ej:\n" +
-                        "Dado el numero =5 ingresar en el vector (vector 1 2 3 4 5).\n" +
-                        "\n" +
-                        "5. Dado  un  vector  con  solo  numeros ,  realizar  la  suma  de  sus \n" +
-                        "elementos.\n" +
-                        "\n" +
-                        "7. Dada  un  vector  con  n  numeros  calcular  el  promedio  de  los \n" +
-                        "elementos del vector.\n" +
-                        "\n" +
-                        "8. Construir un programa que reciba un entero N y devuelva un \n" +
-                        "vector de tamaño N almacenamiento los valores  leidos por teclado.\n" +
-                        "\n" +
-                        "11. Construir un programa que reciba un vector de enteros y un \n" +
-                        "numero x. La funcion debe borrar el numero si lo encuentra y debe\n" +
-                        " (mover a la izquierda) todos los elementos siguientes y dejando \n" +
-                        "el valor -1 en la ultima posicion. Considerar que todos los numeros\n" +
-                        "son diferentes.";
-        return data;
-    }
-    
     public String quevect(){
         String data =   "Un vector   se puede ver como un conjunto  de  elementos  ordenados\n" +
                         "en filas o ( filas y culmnas si tuviera dos dimenciones ) \n" +
@@ -133,50 +101,34 @@ public class Vectores {
     }
     
     public String refeje(){
-        String data = "";
+        String data =   ";Cree una funcion que nos muestre los daos de la posicion dos de un vector, luego mostrarlos\n" +
+                        ";por pantalla con la funcion displayln\n" +
+                        "\n" +
+                        "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "\n" +
+                        "(displayln (vector-ref vect 2))";
         return data;
     }
     
     public String seteje(){
-        String data = "";
+        String data =   ";Cree un vector, llenelo de datos y cambie el dato de la poscion 2 por \"pollito\", luego muestrelo por\n" +
+                        ";pantalla usando la funcion displayln\n" +
+                        "\n" +
+                        "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "\n" +
+                        "(vector-set! vect 2 \"pollito\")\n" +
+                        "\n" +
+                        "(displayln vect)";
         return data;
     }
     
     public String filleje(){
-        String data = "";
-        return data;
-    }
-    
-    public String leneje(){
-        String data = ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
-                        ";recursiva:\n" +
-                        "\n" +
-                        "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
-                        " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
-                        "(define (DisplayVectLength Pos)\n" +
-                        "    (if (= (- Length 1) Pos)\n" +
-                        "\n" +
-                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 (porque  empiezan  a  contar\n" +
-                        ";en 0)  por  lo  tanto  Length  se  debe restar en 1 \n" +
-                        "\n" +
-                        " (display(vector-refVect Pos))\n" +
-                        "    (begin\n" +
-                        "       (display (vector-refVect Pos))\n" +
-                        "        (display VectLength (+ 1 Pos))\n" +
-                        "         )\n" +
-                        "     )\n" +
-                        " )\n" +
-                        "(DisplayVect (vector-lengthVect) 0) ";
-        return data;
-    }
-    
-    public String codigo(){
-        String data =   ";Hacer un  programa  que  reciba  un numero entero y cree un vector de tamaño  n,  donde  cada\n" +
-                        ";posicion   del  vector   se   llene  del indice  0 al 9 con  los  numeros  del  1  al  10.   En  caso  de\n" +
-                        ";que el vector sea mayor que  10  posiciones,  las  restantes  se  deben  llenar con las letras del\n" +
-                        ";abecedario   desde    la   \"a\"  hasta la   \"z\"  y  en caso tal que el numero de posiciones del vector\n" +
-                        ";sea  aun  mayor , las  posiciones  siguientes  deben  llenarse   con   la   misma   secuencia  de\n" +
-                        ";numeros (1 al 10) y seguido las letras del abecedario.\n" +
+        String data = ";Hacer un  programa  que  reciba  un numero entero y cree un vector de tamaño  n,  donde\n" +
+                        ";cada   posicion   del  vector   se   llene  del indice  0  al 9  con  los  numeros   del  1  al  10.  \n" +
+                        ";En caso  de que el vector sea mayor que  10  posiciones,  las  restantes  se  deben  llenar\n" +
+                        ";con las letras del abecedario   desde    la   \"a\"  hasta la    \"z\"   y   en  caso tal que el numero\n" +
+                        ";de posiciones  del vector sea   aun   mayor , las   posiciones   siguientes   deben   llenarse\n" +
+                        ":con   la   misma   secuencia  de   numeros (1 al 10) y seguido las letras del abecedario.\n" +
                         "\n" +
                         "(defineVect(make-vector (read)))\n" +
                         "(define(LlenarVectLength Pos LlenarNumLlenarChar n)\n" +
@@ -197,8 +149,64 @@ public class Vectores {
                         "                 ))\n" +
                         "               )\n" +
                         "\n" +
-                        "         (LlenarVect(vector-lengthVect) 0 1 97 1)";
+                        "         (LlenarVect(vector-lengthVect) 0 1 (read) 1)";
         return data;
     }
-     
+    
+    public String leneje(){
+        String data =   ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
+                        ";recursiva:\n" +
+                        "\n" +
+                        "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
+                        " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
+                        "(define (DisplayVectLength Pos)\n" +
+                        "    (if (= (- Length 1) Pos)\n" +
+                        "\n" +
+                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 (porque  empiezan  a  contar\n" +
+                        ";en 0)  por  lo  tanto  Length  se  debe restar en 1 \n" +
+                        "\n" +
+                        " (display(vector-refVect Pos))\n" +
+                        "    (begin\n" +
+                        "       (display (vector-ref Vect Pos))\n" +
+                        "        (display VectLength (+ 1 Pos))\n" +
+                        "         )\n" +
+                        "     )\n" +
+                        " )\n" +
+                        "(DisplayVect (vector-lengthVect) 0) ";
+        return data;
+    }
+    
+    public String ejercicios(){
+        String data =   "1. Construir un programa  que reciba un vector y muestre el ultimo\n" +
+                        "dato del vector.\n" +
+                        "\n" +
+                        "2. Construir un programa que reciba un valor entero N y devuelva  un\n" +
+                        "vector de tamaño N, donde cada posicion del vector contiene el valor\n" +
+                        "-1.\n" +
+                        "\n" +
+                        "3. Dado un vector con diferentes valores imprimir dichos valores del\n" +
+                        "vector leyendolos uno por uno de manera recursiva.\n" +
+                        "\n" +
+                        "4. Dado un numero n, crear un vector de tamaño n y  luego  ingresar\n" +
+                        "en  el  vector  los  numeros  del  1  hasta  n,  e  imprimir  el vector. Ej:\n" +
+                        "Dado el numero =5 ingresar en el vector (vector 1 2 3 4 5).\n" +
+                        "\n" +
+                        "5. Dado  un  vector  con  solo  numeros ,  realizar  la  suma  de  sus \n" +
+                        "elementos.\n" +
+                        "\n" +
+                        "7. Dada  un  vector  con  n  numeros  calcular  el  promedio  de  los \n" +
+                        "elementos del vector.\n" +
+                        "\n" +
+                        "8. Construir un programa que reciba un entero N y devuelva un \n" +
+                        "vector de tamaño N almacenamiento los valores  leidos por teclado.\n" +
+                        "\n" +
+                        "11. Construir un programa que reciba un vector de enteros y un \n" +
+                        "numero x. La funcion debe borrar el numero si lo encuentra y debe\n" +
+                        " (mover a la izquierda) todos los elementos siguientes y dejando \n" +
+                        "el valor -1 en la ultima posicion. Considerar que todos los numeros\n" +
+                        "son diferentes.";
+        return data;
+    }
+    
+       
 }
