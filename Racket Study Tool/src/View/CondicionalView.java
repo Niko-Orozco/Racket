@@ -105,7 +105,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Condicionales");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(430, 10, 160, 30);
+        jLabel2.setBounds(10, 20, 160, 30);
 
         jPanel2.setFocusable(false);
 

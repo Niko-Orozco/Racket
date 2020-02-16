@@ -66,13 +66,6 @@ public class ParesView extends javax.swing.JFrame {
         verinfo3 = new javax.swing.JTextArea();
         run3 = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
-        jPanel6 = new javax.swing.JPanel();
-        jScrollPane18 = new javax.swing.JScrollPane();
-        code4 = new javax.swing.JTextPane();
-        jScrollPane19 = new javax.swing.JScrollPane();
-        verinfo4 = new javax.swing.JTextArea();
-        run4 = new javax.swing.JButton();
-        jLabel13 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         menu = new javax.swing.JButton();
@@ -220,7 +213,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF", jPanel3);
+        jTabbedPane1.addTab("cons", jPanel3);
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code2.setFocusable(false);
@@ -272,7 +265,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF-begin", jPanel4);
+        jTabbedPane1.addTab("cdr", jPanel4);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code3.setFocusable(false);
@@ -324,61 +317,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond", jPanel5);
-
-        jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-
-        code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code4.setFocusable(false);
-        jScrollPane18.setViewportView(code4);
-
-        verinfo4.setColumns(20);
-        verinfo4.setRows(5);
-        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo4.setFocusable(false);
-        jScrollPane19.setViewportView(verinfo4);
-
-        run4.setText("Ejecutar");
-        run4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run4ActionPerformed(evt);
-            }
-        });
-
-        jLabel13.setText("Consola");
-
-        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
-        jPanel6.setLayout(jPanel6Layout);
-        jPanel6Layout.setHorizontalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel6Layout.createSequentialGroup()
-                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane18)
-                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 539, Short.MAX_VALUE)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        jPanel6Layout.setVerticalGroup(
-            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(57, Short.MAX_VALUE)
-                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel13)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run4)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("cond-begin", jPanel6);
+        jTabbedPane1.addTab("pais?", jPanel5);
 
         jLabel7.setText("Ejemplos");
 
@@ -411,7 +350,7 @@ public class ParesView extends javax.swing.JFrame {
         );
 
         jPanel1.add(jPanel7);
-        jPanel7.setBounds(490, 70, 590, 600);
+        jPanel7.setBounds(500, 70, 590, 600);
 
         menu.setText("Menu");
         jPanel1.add(menu);
@@ -429,7 +368,7 @@ public class ParesView extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1088, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1099, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -439,21 +378,17 @@ public class ParesView extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
 
-    }//GEN-LAST:event_run1ActionPerformed
+    }//GEN-LAST:event_run3ActionPerformed
 
     private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
 
     }//GEN-LAST:event_run2ActionPerformed
 
-    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
+    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
 
-    }//GEN-LAST:event_run3ActionPerformed
-
-    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
-
-    }//GEN-LAST:event_run4ActionPerformed
+    }//GEN-LAST:event_run1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -498,14 +433,12 @@ public class ParesView extends javax.swing.JFrame {
     private javax.swing.JTextPane code;
     private javax.swing.JTextPane code2;
     private javax.swing.JTextPane code3;
-    private javax.swing.JTextPane code4;
     private javax.swing.JTextArea concond;
     private javax.swing.JTextArea conif;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -518,13 +451,10 @@ public class ParesView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane17;
-    private javax.swing.JScrollPane jScrollPane18;
-    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -540,10 +470,8 @@ public class ParesView extends javax.swing.JFrame {
     private javax.swing.JButton run1;
     private javax.swing.JButton run2;
     private javax.swing.JButton run3;
-    private javax.swing.JButton run4;
     private javax.swing.JTextArea verinfo1;
     private javax.swing.JTextArea verinfo2;
     private javax.swing.JTextArea verinfo3;
-    private javax.swing.JTextArea verinfo4;
     // End of variables declaration//GEN-END:variables
 }
