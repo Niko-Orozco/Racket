@@ -25,6 +25,7 @@ public class Controlador {
     private Practicas Practices;
     private Vectores Vect;
     private VectoresView VectView;
+    private Estructuras EstrucView;
     private Estructuras_De_Datos Estrucs;
 
     public Controlador(Menu menu) {
@@ -43,6 +44,13 @@ public class Controlador {
             VectView.setVisible(true);
             vectoresview();
         });
+        this.menu.estructuras.addActionListener((ActionEvent e) -> {
+            this.EstrucView = new Estructuras();
+            menu.setVisible(false);
+            EstrucView = new Estructuras();
+            EstrucView.setVisible(true);
+            estructurasview();
+        });
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
             Condi = new Condicionales();
             menu.setVisible(false);
@@ -53,15 +61,57 @@ public class Controlador {
         });
     }
     
+    public void estructurasview(){
+        this.EstrucView.setTitle("Estructuras de datos");
+        this.EstrucView.setLocationRelativeTo(null);
+        EstrucView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            EstrucView.setVisible(false);
+            practices();
+        });
+        EstrucView.menu.addActionListener((ActionEvent e) -> {
+            EstrucView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
+    
     public void vectoresview(){
-        this.VectView.setTitle("Logging");
+        this.VectView.setTitle("Vectores");
         this.VectView.setLocationRelativeTo(null);
+        String respuesta;
         VectView.quevect.setText(Vect.quevect());
         VectView.makevect.setText(Vect.makevect());
         VectView.vectref.setText(Vect.vectref());
         VectView.fillvect.setText(Vect.vectfill());
         VectView.setvect.setText(Vect.vectset());
         VectView.lenvect.setText(Vect.vectlen());
+        VectView.code.setText(Vect.makeeje());
+        VectView.code2.setText(Vect.refeje());
+        VectView.code3.setText(Vect.seteje());
+        VectView.code4.setText(Vect.filleje());
+        VectView.code5.setText(Vect.leneje());   
+        VectView.run1.addActionListener((ActionEvent e) -> {
+            VectView.verinfo1.setText(runCodevec(1));
+        });
+        VectView.run2.addActionListener((ActionEvent e) -> {
+            VectView.verinfo2.setText(runCodevec(2));
+        });
+        VectView.run3.addActionListener((ActionEvent e) -> {
+            VectView.verinfo3.setText(runCodevec(3));
+        });
+        VectView.run4.addActionListener((ActionEvent e) -> {
+            VectView.verinfo4.setText(runCodevec(4));
+        });
+        VectView.run5.addActionListener((ActionEvent e) -> {
+            VectView.verinfo5.setText(runCodevec(5));
+        });
+        VectView.crear.addActionListener((ActionEvent e) -> {
+            JOptionPane.showMessageDialog(null, "Cadena Creada");
+        });
+        VectView.mostrar.addActionListener((ActionEvent e) -> {
+            JOptionPane.showMessageDialog(null, "Datos: "+runCodevec(99)+"\n Tamaño: 4");
+        });
         VectView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             VectView.setVisible(false);
@@ -223,6 +273,51 @@ public class Controlador {
             iniciar();
         });
      
+    }
+    
+    public String runCodevec(int van2){
+        String respuesta = "",n1,n2,n3;
+        int n,l=0,j=1;
+        switch(van2){
+            case 1: respuesta = "j,j,j,j,j"+"\n\n";
+                break;
+            case 2: respuesta = "34";
+                break;
+            case 3: respuesta = "q, ''Hola'', ''pollito'' #t";
+                break;
+            case 4: try {
+                        n = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cadena 1"));
+                        String abc = "abcdefghijklmnopqrstuvwxyz";
+                        String[] datos = new String[n];
+                        for(int i = 1; n >= 0; i++){
+                            if((i >= 11)){
+                                respuesta += abc.charAt(l)+ ", ";
+                                if(abc.charAt(l) == 'z'){
+                                    i=0;
+                                }
+                                l++;
+                                j=1;
+                                
+                            }else{
+                                respuesta += j + ", ";
+                                j++;
+                                l = 0;
+                            }
+                            n--;
+                        }
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "code error");
+                     }
+                break;
+            case 5:  respuesta = "Esto 0\n"+"Es 1\n"+"Un 2\n"+"Vector 3\n"+"Leido 4\n"+"Recursivamente 6";
+                break;
+            case 99: respuesta =    VectView.v1.getText()+", "+
+                                    VectView.v2.getText()+", "+
+                                    VectView.v3.getText()+", "+
+                                    VectView.v4.getText();
+                break;
+        }
+        return respuesta;
     }
     
     public String runCode(int van2){
