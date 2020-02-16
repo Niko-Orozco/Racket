@@ -7,15 +7,21 @@ package Controller;
 
 import View.*;
 import Model.*;
+import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import javax.swing.JOptionPane;
+import javax.swing.table.DefaultTableModel;
 
 /**
  *
  * @author Niko
  */
 public class Controlador {
+    private int n = 4;
     private int van = 0;
+    private String Nombre="",Apellido="",Telefono="",Correo="";
+    String datos[][] = new String[1000][4];
+    String namescols[] = {"Nombre","Apellido","Telefono","Correo"};  
     private Menu menu;
     private Cadenas_Strings CadString;
     private CadenasView CadView;
@@ -27,7 +33,9 @@ public class Controlador {
     private VectoresView VectView;
     private Estructuras EstrucView;
     private Estructuras_De_Datos Estrucs;
-
+    private codex Codex;
+    
+    
     public Controlador(Menu menu) {
         this.menu = menu;
         this.menu.cadenas.addActionListener((ActionEvent e) -> {
@@ -45,9 +53,9 @@ public class Controlador {
             vectoresview();
         });
         this.menu.estructuras.addActionListener((ActionEvent e) -> {
-            this.EstrucView = new Estructuras();
+            this.EstrucView = new Estructuras();   
+            Estrucs = new Estructuras_De_Datos();
             menu.setVisible(false);
-            EstrucView = new Estructuras();
             EstrucView.setVisible(true);
             estructurasview();
         });
@@ -64,6 +72,26 @@ public class Controlador {
     public void estructurasview(){
         this.EstrucView.setTitle("Estructuras de datos");
         this.EstrucView.setLocationRelativeTo(null);
+        EstrucView.questruct.setText(Estrucs.quees());
+        EstrucView.defstruct.setText(Estrucs.defstruct());
+        EstrucView.makestruc.setText(Estrucs.makestr());  
+        EstrucView.code.setText(Estrucs.defeje());
+        EstrucView.code2.setText(Estrucs.makeeje());     
+        llenar_tabla(5); 
+        EstrucView.run1.addActionListener((ActionEvent e) -> {
+            EstrucView.verinfo1.setText(runCodestrcut(1));
+        });
+        EstrucView.run2.addActionListener((ActionEvent e) -> {
+            EstrucView.verinfo2.setText(runCodestrcut(2));
+        });   
+        EstrucView.adddata.addActionListener((ActionEvent e) -> {
+            addata();
+        });
+        EstrucView.seecode.addActionListener((ActionEvent e) -> {
+            Codex = new codex();
+            Codex.setVisible(true);
+            SeeCode();
+        });
         EstrucView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             EstrucView.setVisible(false);
@@ -74,6 +102,97 @@ public class Controlador {
             menu.setVisible(true);
             iniciar();
         });
+    }
+    
+    public void SeeCode(){
+        this.Codex.setTitle("Codigo");
+        this.Codex.setLocationRelativeTo(null);
+        String data =   ";Creamos la estructura para los clientes\n" +
+                        "(define-struct Clinetes(nombre apellido telefono correo))\n" +
+                        "\n" +
+                        ";Le ingresamos datos a la estructura clientes\n" +
+                        "(define dato (make-Clientes (read) (read) (read) (read)))";
+        this.Codex.codes.setText(data);
+        Codex.ok.addActionListener((ActionEvent e) -> {
+            Codex.setVisible(false);
+        });
+    }
+    
+    public void addata(){
+        this.n+=1;
+            try {
+                    this.Nombre = JOptionPane.showInputDialog("Ingrese el nombre");
+                    this.Apellido = JOptionPane.showInputDialog("Ingrese el apellido");
+                    this.Telefono = JOptionPane.showInputDialog("Ingrese el telefono");
+                    this.Correo = JOptionPane.showInputDialog("Ingrese el correo");
+                    llenar_tabla(this.n-1);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error empty field");
+                }
+    }
+    
+    public void llenar_tabla(int n){      
+            datos[0][0]="Nicolas";
+            datos[0][1]="Orozco";
+            datos[0][2]="3114257895";
+            datos[0][3]="nicolas@gmail.com";
+            
+            datos[1][0]="Laura";
+            datos[1][1]="Gomez";
+            datos[1][2]="3132452878";
+            datos[1][3]="laura@gmail.com";
+            
+            datos[2][0]="Alejandro";
+            datos[2][1]="Smith";
+            datos[2][2]="3154856656";
+            datos[2][3]="alejo@gmail.com";
+            
+            datos[3][0]="Sara";
+            datos[3][1]="Miller";
+            datos[3][2]="3208566027";
+            datos[3][3]="sarita@gmail.com";
+            
+            datos[3][0]="Sofia";
+            datos[3][1]="Nixon";
+            datos[3][2]="3058856995";
+            datos[3][3]="nixonsofia@gmail.com";
+            
+            datos[n][0]=this.Nombre;
+            datos[n][1]=this.Apellido;
+            datos[n][2]=this.Telefono;
+            datos[n][3]=this.Correo;
+
+        EstrucView.DatosStruct.setModel(new DefaultTableModel(datos,namescols));
+    }
+    
+    public String runCodestrcut(int ns){
+        int n1=0;
+        String respuesta="",Nombre,Apellido,Telefono,Correo;
+        switch(ns){
+            case 1:  try {
+                        respuesta = "Estructuras creadas exitosamente\nDoctores\nEnfermeros\nClinetes";
+                        EstrucView.verinfo1.setText(respuesta);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "error empty field");
+                     }
+                break;
+            case 2:  
+                try {
+                    while(n1<3){
+                        Nombre = JOptionPane.showInputDialog("Ingrese el nombre");
+                        Apellido = JOptionPane.showInputDialog("Ingrese el apellido");
+                        Telefono = JOptionPane.showInputDialog("Ingrese el telefono");
+                        Correo = JOptionPane.showInputDialog("Ingrese el direccion");
+                        respuesta += Apellido + "\n";
+                        n1++;
+                    }
+                    EstrucView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error empty field");
+                }
+                break;
+        }
+        return respuesta;
     }
     
     public void vectoresview(){
