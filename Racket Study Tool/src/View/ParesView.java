@@ -94,7 +94,6 @@ public class ParesView extends javax.swing.JFrame {
         ques.setColumns(20);
         ques.setRows(5);
         ques.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        ques.setFocusable(false);
         jScrollPane1.setViewportView(ques);
 
         jLabel3.setText("la Funcion cons");

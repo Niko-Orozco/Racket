@@ -138,7 +138,6 @@ public class ListasView extends javax.swing.JFrame {
         concond1.setColumns(20);
         concond1.setRows(5);
         concond1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond1.setFocusable(false);
         jScrollPane11.setViewportView(concond1);
 
         jLabel9.setText("¿Que es una lista?");
