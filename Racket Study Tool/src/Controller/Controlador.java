@@ -34,6 +34,9 @@ public class Controlador {
     private Estructuras EstrucView;
     private Estructuras_De_Datos Estrucs;
     private codex Codex;
+    private ListasView ListView;
+    private ParesView ParView;
+    private Listas_Pares listPares;
     
     
     public Controlador(Menu menu) {
@@ -59,6 +62,26 @@ public class Controlador {
             EstrucView.setVisible(true);
             estructurasview();
         });
+        
+        
+        
+        this.menu.listas.addActionListener((ActionEvent e) -> {
+            this.ListView = new ListasView();   
+            listPares = new Listas_Pares();
+            menu.setVisible(false);
+            ListView.setVisible(true);
+        });
+        this.menu.Pares.addActionListener((ActionEvent e) -> {
+            this.ParView = new ParesView();   
+            listPares = new Listas_Pares();
+            menu.setVisible(false);
+            ParView.setVisible(true);
+        });
+        
+        
+        
+        
+        
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
             Condi = new Condicionales();
             menu.setVisible(false);

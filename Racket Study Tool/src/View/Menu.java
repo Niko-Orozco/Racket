@@ -57,15 +57,18 @@ public class Menu extends javax.swing.JFrame {
         vectores = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
-        listas_Pares = new javax.swing.JButton();
+        listas = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
         jPanel21 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
         grafico = new javax.swing.JButton();
+        jLabel14 = new javax.swing.JLabel();
         jPanel19 = new javax.swing.JPanel();
         estructuras = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        Pares = new javax.swing.JButton();
+        jLabel15 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -208,15 +211,15 @@ public class Menu extends javax.swing.JFrame {
         jPanel18.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel18.setLayout(null);
 
-        listas_Pares.setBackground(new java.awt.Color(255, 255, 255));
-        listas_Pares.setText("Listas/Pares");
-        listas_Pares.addActionListener(new java.awt.event.ActionListener() {
+        listas.setBackground(new java.awt.Color(255, 255, 255));
+        listas.setText("Listas");
+        listas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listas_ParesActionPerformed(evt);
+                listasActionPerformed(evt);
             }
         });
-        jPanel18.add(listas_Pares);
-        listas_Pares.setBounds(50, 310, 260, 40);
+        jPanel18.add(listas);
+        listas.setBounds(50, 310, 260, 40);
 
         jLabel11.setText("jLabel2");
         jPanel18.add(jLabel11);
@@ -227,10 +230,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel21.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel21.setLayout(null);
 
-        jLabel14.setText("jLabel2");
-        jPanel21.add(jLabel14);
-        jLabel14.setBounds(0, 0, 350, 380);
-
         grafico.setText("Modo Grafico");
         grafico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -239,6 +238,10 @@ public class Menu extends javax.swing.JFrame {
         });
         jPanel21.add(grafico);
         grafico.setBounds(50, 310, 260, 40);
+
+        jLabel14.setText("jLabel2");
+        jPanel21.add(jLabel14);
+        jLabel14.setBounds(0, 20, 350, 360);
 
         jPanel19.setBackground(new java.awt.Color(51, 255, 255));
         jPanel19.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -256,16 +259,36 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/isc utp 126x126.png"))); // NOI18N
 
+        jPanel22.setBackground(new java.awt.Color(51, 255, 255));
+        jPanel22.setMaximumSize(new java.awt.Dimension(355, 383));
+        jPanel22.setMinimumSize(new java.awt.Dimension(355, 383));
+        jPanel22.setLayout(null);
+
+        Pares.setText("Pares");
+        Pares.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ParesActionPerformed(evt);
+            }
+        });
+        jPanel22.add(Pares);
+        Pares.setBounds(50, 310, 260, 40);
+
+        jLabel15.setText("jLabel2");
+        jPanel22.add(jLabel15);
+        jLabel15.setBounds(0, 20, 350, 360);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(30, 30, 30)
                 .addComponent(jPanel19, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(57, 57, 57)
+                .addGap(39, 39, 39)
                 .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(181, 181, 181))
+                .addGap(19, 19, 19))
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
@@ -304,7 +327,10 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(jLabel4)
                 .addGap(611, 611, 611)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(1295, 1295, 1295)
+                        .addComponent(jPanel21, javax.swing.GroupLayout.PREFERRED_SIZE, 383, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -320,10 +346,13 @@ public class Menu extends javax.swing.JFrame {
                             .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel17, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jPanel16, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addGap(42, 42, 42)
-                        .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel21, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 383, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(40, Short.MAX_VALUE))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(42, 42, 42)
+                                .addComponent(jPanel19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 383, javax.swing.GroupLayout.PREFERRED_SIZE))))))
         );
 
         jScrollPane1.setViewportView(jPanel1);
@@ -358,9 +387,13 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_recursividadActionPerformed
 
-    private void listas_ParesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listas_ParesActionPerformed
+    private void listasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_listasActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_listas_ParesActionPerformed
+    }//GEN-LAST:event_listasActionPerformed
+
+    private void ParesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ParesActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ParesActionPerformed
 
     /**
      * @param args the command line arguments
@@ -398,6 +431,7 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    public javax.swing.JButton Pares;
     public javax.swing.JButton cadenas;
     public javax.swing.JButton caracteres;
     public javax.swing.JButton condicionales;
@@ -411,6 +445,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -430,9 +465,10 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JButton listas_Pares;
+    public javax.swing.JButton listas;
     public javax.swing.JButton recursividad;
     public javax.swing.JButton vectores;
     // End of variables declaration//GEN-END:variables
