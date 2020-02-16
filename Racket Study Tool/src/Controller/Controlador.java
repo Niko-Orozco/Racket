@@ -70,12 +70,14 @@ public class Controlador {
             listPares = new Listas_Pares();
             menu.setVisible(false);
             ListView.setVisible(true);
+            listas();
         });
         this.menu.Pares.addActionListener((ActionEvent e) -> {
             this.ParView = new ParesView();   
             listPares = new Listas_Pares();
             menu.setVisible(false);
             ParView.setVisible(true);
+            pares();
         });
         
         
@@ -90,6 +92,49 @@ public class Controlador {
             NexCode();
             condicionlaesview();
         });
+    }
+    
+    public void listas(){
+        this.ListView.setTitle("Listas");
+        this.ListView.setLocationRelativeTo(null);
+    }
+    
+    public void pares(){
+        this.ParView.setTitle("Pares");
+        this.ParView.setLocationRelativeTo(null);
+        ParView.paresview1.setText(listPares.Pares1());
+        ParView.paresview2.setText(listPares.Pares2());
+        ParView.paresview3.setText(listPares.Pares3());
+        ParView.paresview4.setText(listPares.Pares4());
+        ParView.paresview5.setText(listPares.Pares5());
+        ParView.code.setText(listPares.EjePares1());
+        ParView.code2.setText(listPares.EjePares2());
+        ParView.code3.setText(listPares.EjePares3());
+        ParView.code4.setText(listPares.EjePares4());
+        ParView.run1.addActionListener((ActionEvent e) -> {
+            ParView.verinfo1.setText(runCodestrcut(1));
+        });
+        ParView.run2.addActionListener((ActionEvent e) -> {
+            ParView.verinfo2.setText(runCodestrcut(2));
+        });  
+        ParView.run3.addActionListener((ActionEvent e) -> {
+            ParView.verinfo3.setText(runCodestrcut(2));
+        }); 
+        ParView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            ParView.setVisible(false);
+            practices();
+        });
+        ParView.menu.addActionListener((ActionEvent e) -> {
+            ParView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
+    
+    public String runCodePar(int n){
+        String respuesta="";
+        return  respuesta;
     }
     
     public void estructurasview(){

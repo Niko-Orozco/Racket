@@ -32,17 +32,20 @@ public class ParesView extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        conif = new javax.swing.JTextArea();
+        paresview3 = new javax.swing.JTextArea();
         jScrollPane1 = new javax.swing.JScrollPane();
-        ques = new javax.swing.JTextArea();
+        paresview1 = new javax.swing.JTextArea();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane7 = new javax.swing.JScrollPane();
-        concond = new javax.swing.JTextArea();
+        paresview4 = new javax.swing.JTextArea();
         jLabel6 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        bolerel = new javax.swing.JTextArea();
+        paresview2 = new javax.swing.JTextArea();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        paresview5 = new javax.swing.JTextArea();
+        jLabel9 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
@@ -66,6 +69,13 @@ public class ParesView extends javax.swing.JFrame {
         verinfo3 = new javax.swing.JTextArea();
         run3 = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        code4 = new javax.swing.JTextPane();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        verinfo4 = new javax.swing.JTextArea();
+        run4 = new javax.swing.JButton();
+        jLabel13 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         menu = new javax.swing.JButton();
@@ -85,36 +95,45 @@ public class ParesView extends javax.swing.JFrame {
 
         jPanel2.setFocusable(false);
 
-        conif.setColumns(20);
-        conif.setRows(5);
-        conif.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        conif.setFocusable(false);
-        jScrollPane5.setViewportView(conif);
+        paresview3.setColumns(20);
+        paresview3.setRows(5);
+        paresview3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview3.setFocusable(false);
+        jScrollPane5.setViewportView(paresview3);
 
-        ques.setColumns(20);
-        ques.setRows(5);
-        ques.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane1.setViewportView(ques);
+        paresview1.setColumns(20);
+        paresview1.setRows(5);
+        paresview1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview1.setFocusable(false);
+        jScrollPane1.setViewportView(paresview1);
 
         jLabel3.setText("la Funcion cons");
 
         jLabel4.setText("¿Que es un Par?");
 
-        jLabel5.setText("Cdr");
+        jLabel5.setText("Car");
 
-        concond.setColumns(20);
-        concond.setRows(5);
-        concond.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond.setFocusable(false);
-        jScrollPane7.setViewportView(concond);
+        paresview4.setColumns(20);
+        paresview4.setRows(5);
+        paresview4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview4.setFocusable(false);
+        jScrollPane7.setViewportView(paresview4);
 
-        jLabel6.setText("Pair?");
+        jLabel6.setText("Cdr");
 
-        bolerel.setColumns(20);
-        bolerel.setRows(5);
-        bolerel.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        bolerel.setFocusable(false);
-        jScrollPane3.setViewportView(bolerel);
+        paresview2.setColumns(20);
+        paresview2.setRows(5);
+        paresview2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview2.setFocusable(false);
+        jScrollPane3.setViewportView(paresview2);
+
+        paresview5.setColumns(20);
+        paresview5.setRows(5);
+        paresview5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview5.setFocusable(false);
+        jScrollPane11.setViewportView(paresview5);
+
+        jLabel9.setText("Pair?");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -122,15 +141,18 @@ public class ParesView extends javax.swing.JFrame {
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(27, 27, 27)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane1)
-                    .addComponent(jScrollPane3)
-                    .addComponent(jScrollPane5)
-                    .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                        .addComponent(jScrollPane1)
+                        .addComponent(jScrollPane3)
+                        .addComponent(jScrollPane5)
+                        .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(31, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
@@ -152,7 +174,11 @@ public class ParesView extends javax.swing.JFrame {
                 .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(19, Short.MAX_VALUE))
+                .addGap(18, 18, 18)
+                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(39, Short.MAX_VALUE))
         );
 
         jScrollPane6.setViewportView(jPanel2);
@@ -264,7 +290,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cdr", jPanel4);
+        jTabbedPane1.addTab("car", jPanel4);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code3.setFocusable(false);
@@ -316,7 +342,59 @@ public class ParesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("pais?", jPanel5);
+        jTabbedPane1.addTab("cdr", jPanel5);
+
+        code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
+        jScrollPane12.setViewportView(code4);
+
+        verinfo4.setColumns(20);
+        verinfo4.setRows(5);
+        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo4.setFocusable(false);
+        jScrollPane18.setViewportView(verinfo4);
+
+        run4.setText("Ejecutar");
+        run4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run4ActionPerformed(evt);
+            }
+        });
+
+        jLabel13.setText("Consola");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(jLabel13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane12)
+                    .addComponent(jScrollPane18, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap(59, Short.MAX_VALUE)
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel13)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run4)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("pair?", jPanel6);
 
         jLabel7.setText("Ejemplos");
 
@@ -389,6 +467,10 @@ public class ParesView extends javax.swing.JFrame {
 
     }//GEN-LAST:event_run1ActionPerformed
 
+    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run4ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -428,16 +510,15 @@ public class ParesView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextArea bolerel;
-    private javax.swing.JTextPane code;
-    private javax.swing.JTextPane code2;
-    private javax.swing.JTextPane code3;
-    private javax.swing.JTextArea concond;
-    private javax.swing.JTextArea conif;
-    private javax.swing.JButton jButton2;
+    public javax.swing.JTextPane code;
+    public javax.swing.JTextPane code2;
+    public javax.swing.JTextPane code3;
+    public javax.swing.JTextPane code4;
+    public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -445,32 +526,43 @@ public class ParesView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel2;
+    public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel6;
+    public javax.swing.JPanel jPanel7;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
+    public javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JButton letsgo;
-    private javax.swing.JButton menu;
-    private javax.swing.JTextArea ques;
-    private javax.swing.JButton run1;
-    private javax.swing.JButton run2;
-    private javax.swing.JButton run3;
-    private javax.swing.JTextArea verinfo1;
-    private javax.swing.JTextArea verinfo2;
-    private javax.swing.JTextArea verinfo3;
+    public javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JButton letsgo;
+    public javax.swing.JButton menu;
+    public javax.swing.JTextArea paresview1;
+    public javax.swing.JTextArea paresview2;
+    public javax.swing.JTextArea paresview3;
+    public javax.swing.JTextArea paresview4;
+    public javax.swing.JTextArea paresview5;
+    public javax.swing.JButton run1;
+    public javax.swing.JButton run2;
+    public javax.swing.JButton run3;
+    public javax.swing.JButton run4;
+    public javax.swing.JTextArea verinfo1;
+    public javax.swing.JTextArea verinfo2;
+    public javax.swing.JTextArea verinfo3;
+    public javax.swing.JTextArea verinfo4;
     // End of variables declaration//GEN-END:variables
 }
