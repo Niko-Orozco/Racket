@@ -118,7 +118,10 @@ public class Controlador {
             ParView.verinfo2.setText(runCodestrcut(2));
         });  
         ParView.run3.addActionListener((ActionEvent e) -> {
-            ParView.verinfo3.setText(runCodestrcut(2));
+            ParView.verinfo3.setText(runCodestrcut(3));
+        }); 
+        ParView.run4.addActionListener((ActionEvent e) -> {
+            ParView.verinfo4.setText(runCodestrcut(4));
         }); 
         ParView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
@@ -132,8 +135,66 @@ public class Controlador {
         });
     }
     
-    public String runCodePar(int n){
-        String respuesta="";
+    public String runCodePar(int ns){
+        String respuesta="",t,t2,t3;
+        int n1 = 0,t1,t4=0;
+        switch(ns){
+            case 1:  
+                try {
+                    while(n1<3){
+                        t = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        respuesta += t +" " + t2 + " " +t3 + "\n";
+                        n1++;
+                    }
+                    respuesta = t4 + "\n";
+                    EstrucView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data is not a number ");
+                }
+                break;
+            case 2:  
+                try {
+                    while(n1<3){
+                        t1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t4+=t1;
+                        n1++;
+                    }
+                    respuesta = t4 + "\n";
+                    EstrucView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data is not a number ");
+                }
+                break;
+            case 3:  
+                try {
+                    while(n1<2){
+                        t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        respuesta += t3 + "\n";
+                        n1++;
+                    }
+                    
+                    EstrucView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data  ");
+                }
+                break;
+            case 4:  
+                try {
+                        t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
+                        respuesta = "Es par " + t2 + "\n" + t3 + "\n";                 
+                    EstrucView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data ");
+                }
+                break;
+            
+        }
         return  respuesta;
     }
     
