@@ -14,8 +14,22 @@ public class ParesView extends javax.swing.JFrame {
     /**
      * Creates new form listaspares
      */
+    NumeroLinea numerolinea;
+    
     public ParesView() {
+        setResizable(false);
         initComponents();
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane8.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane10.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane12.setRowHeaderView(numerolinea);
     }
 
     /**

@@ -112,16 +112,16 @@ public class Controlador {
         ParView.code3.setText(listPares.EjePares3());
         ParView.code4.setText(listPares.EjePares4());
         ParView.run1.addActionListener((ActionEvent e) -> {
-            ParView.verinfo1.setText(runCodestrcut(1));
+            ParView.verinfo1.setText(runCodePar(1));
         });
         ParView.run2.addActionListener((ActionEvent e) -> {
-            ParView.verinfo2.setText(runCodestrcut(2));
+            ParView.verinfo2.setText(runCodePar(2));
         });  
         ParView.run3.addActionListener((ActionEvent e) -> {
-            ParView.verinfo3.setText(runCodestrcut(3));
+            ParView.verinfo3.setText(runCodePar(3));
         }); 
         ParView.run4.addActionListener((ActionEvent e) -> {
-            ParView.verinfo4.setText(runCodestrcut(4));
+            ParView.verinfo4.setText(runCodePar(4));
         }); 
         ParView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
@@ -149,7 +149,7 @@ public class Controlador {
                         n1++;
                     }
                     respuesta = t4 + "\n";
-                    EstrucView.verinfo1.setText(respuesta);
+                    ParView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error  data is not a number ");
                 }
@@ -164,7 +164,7 @@ public class Controlador {
                         n1++;
                     }
                     respuesta = t4 + "\n";
-                    EstrucView.verinfo1.setText(respuesta);
+                    ParView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error  data is not a number ");
                 }
@@ -178,7 +178,7 @@ public class Controlador {
                         n1++;
                     }
                     
-                    EstrucView.verinfo1.setText(respuesta);
+                    ParView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error  data  ");
                 }
@@ -188,7 +188,7 @@ public class Controlador {
                         t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
                         t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
                         respuesta = "Es par " + t2 + "\n" + t3 + "\n";                 
-                    EstrucView.verinfo1.setText(respuesta);
+                    ParView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error  data ");
                 }
