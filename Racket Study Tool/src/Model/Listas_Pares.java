@@ -96,11 +96,9 @@ public class Listas_Pares {
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
                         "(define par2 (cons (read) (read)))\n" +
-                        "(define par3 (cons (read) (read)))\n" +
                         "\n" +
                         "(displayln (cdr par1)) \n" +
-                        "(displayln (cdr par2))\n" +
-                        "(displayln  (cdr par3))";
+                        "(displayln (cdr par2))\n";
         return data;
     }
     
@@ -112,7 +110,7 @@ public class Listas_Pares {
                         "(define par1 (cons (read) (read)))\n" +
                         "(define (espar?)\n" +
                         "    (if (pair? par1)\n" +
-                        "          (displayln \"Es par\")\n" +
+                        "          (displayln \"Es par es:\")(displayln par1)\n" +
                         "          (displayln \"No es par\")\n" +
                         "     )\n" +
                         ")\n" +
