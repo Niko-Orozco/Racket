@@ -118,6 +118,36 @@ public class Listas_Pares {
                         "(espar?)";
         return data;
     }
+    
+    public String Listas1(){
+        String data = "";
+        return data;
+    }
+    
+    public String Listas2(){
+        String data = "";
+        return data;
+    }
+    
+    public String Listas3(){
+        String data = "";
+        return data;
+    }
+    
+    public String Listas4(){
+        String data = "";
+        return data;
+    }
+    
+    public String Listas5(){
+        String data = "";
+        return data;
+    }
+    
+    public String Listas6(){
+        String data = "";
+        return data;
+    }
    
     public String Ejercicios(){
         String data = "";
