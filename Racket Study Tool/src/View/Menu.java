@@ -88,7 +88,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel9.add(jLabel2);
         jLabel2.setBounds(0, 0, 350, 380);
 
-        jPanel10.setBackground(new java.awt.Color(51, 255, 255));
+        jPanel10.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder(javax.swing.border.EtchedBorder.RAISED, java.awt.Color.darkGray, java.awt.Color.darkGray));
+        jPanel10.setForeground(new java.awt.Color(0, 51, 255));
+        jPanel10.setToolTipText("");
         jPanel10.setMaximumSize(new java.awt.Dimension(355, 383));
         jPanel10.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel10.setPreferredSize(new java.awt.Dimension(355, 383));
@@ -103,9 +106,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel10.add(funciones);
         funciones.setBounds(50, 320, 260, 40);
 
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/funciones.jpg"))); // NOI18N
         jLabel3.setText("[355, 383]");
         jPanel10.add(jLabel3);
-        jLabel3.setBounds(0, 0, 350, 380);
+        jLabel3.setBounds(0, 0, 355, 383);
 
         jPanel12.setBackground(new java.awt.Color(51, 255, 255));
         jPanel12.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -131,9 +135,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel13.add(expreciones);
         expreciones.setBounds(50, 320, 260, 40);
 
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/aritmeticos.jpg"))); // NOI18N
         jLabel6.setText("jLabel2");
         jPanel13.add(jLabel6);
-        jLabel6.setBounds(0, 0, 350, 380);
+        jLabel6.setBounds(0, 0, 355, 383);
 
         jPanel14.setBackground(new java.awt.Color(51, 255, 255));
         jPanel14.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -325,7 +330,7 @@ public class Menu extends javax.swing.JFrame {
                 .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 60, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(jLabel4)
-                .addGap(611, 611, 611)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(1295, 1295, 1295)
