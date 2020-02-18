@@ -121,10 +121,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel12.add(condicionales);
         condicionales.setBounds(50, 320, 260, 40);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales.jpg"))); // NOI18N
         jLabel5.setText("jLabel2");
         jPanel12.add(jLabel5);
-        jLabel5.setBounds(0, 0, 355, 383);
+        jLabel5.setBounds(0, 0, 350, 380);
 
         jPanel13.setBackground(new java.awt.Color(51, 255, 255));
         jPanel13.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -156,10 +155,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel14.add(recursividad);
         recursividad.setBounds(50, 320, 260, 40);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursividad.jpg"))); // NOI18N
         jLabel7.setText("jLabel2");
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(0, 0, 355, 383);
+        jLabel7.setBounds(0, 0, 350, 380);
 
         jPanel15.setBackground(new java.awt.Color(51, 255, 255));
         jPanel15.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -168,12 +166,11 @@ public class Menu extends javax.swing.JFrame {
 
         caracteres.setText("Caracteres y Documentacion");
         jPanel15.add(caracteres);
-        caracteres.setBounds(50, 320, 260, 40);
+        caracteres.setBounds(50, 290, 260, 40);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/caracteres.jpg"))); // NOI18N
         jLabel8.setText("imagen ");
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(0, 0, 355, 383);
+        jLabel8.setBounds(0, 0, 360, 380);
 
         jPanel16.setBackground(new java.awt.Color(51, 255, 255));
         jPanel16.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -187,10 +184,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel16.add(cadenas);
         cadenas.setBounds(50, 310, 260, 40);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jLabel9.setText("jLabel2");
         jPanel16.add(jLabel9);
-        jLabel9.setBounds(0, 0, 355, 383);
+        jLabel9.setBounds(0, 0, 350, 380);
 
         jPanel17.setBackground(new java.awt.Color(51, 255, 255));
         jPanel17.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -319,7 +315,7 @@ public class Menu extends javax.swing.JFrame {
                                 .addGap(38, 38, 38)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(90, 90, 90)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
