@@ -231,7 +231,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas3(){
-        String data =   ";cree una funcion que pida por teclado llenar una lista si esta esta vacia, luego mostrar \n" +
+        String data =   ";cree una funcion que pida por teclado llenar una lista si esta está vacia, luego mostrar \n" +
                         ";los datos por pantalla\n" +
                         "\n" +
                         "(define lista (list))\n" +
@@ -266,7 +266,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas5(){
-        String data =   ";cree una funcion tal que al recivir un argumento es una lista o no.\n" +
+        String data =   ";cree una funcion tal que al recivir un argumento nos diga si es una lista o no.\n" +
                         "\n" +
                         "(define lista(list))\n" +
                         "(define (islista)\n" +

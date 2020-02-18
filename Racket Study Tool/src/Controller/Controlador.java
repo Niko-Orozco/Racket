@@ -37,10 +37,19 @@ public class Controlador {
     private ListasView ListView;
     private ParesView ParView;
     private Listas_Pares listPares;
+    private Funciones Functions;
+    private FuncionesView FuncView;
     
     
     public Controlador(Menu menu) {
         this.menu = menu;
+        this.menu.funciones.addActionListener((ActionEvent e) -> {
+            this.Functions = new Funciones();
+            menu.setVisible(false);
+            FuncView = new FuncionesView();
+            FuncView.setVisible(true);
+            FuncionesView();
+        });
         this.menu.cadenas.addActionListener((ActionEvent e) -> {
             this.CadString = new Cadenas_Strings();
             menu.setVisible(false);
@@ -61,10 +70,7 @@ public class Controlador {
             menu.setVisible(false);
             EstrucView.setVisible(true);
             estructurasview();
-        });
-        
-        
-        
+        });   
         this.menu.listas.addActionListener((ActionEvent e) -> {
             this.ListView = new ListasView();   
             listPares = new Listas_Pares();
@@ -78,12 +84,7 @@ public class Controlador {
             menu.setVisible(false);
             ParView.setVisible(true);
             pares();
-        });
-        
-        
-        
-        
-        
+        });     
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
             Condi = new Condicionales();
             menu.setVisible(false);
@@ -91,6 +92,26 @@ public class Controlador {
             ConView.setVisible(true);
             NexCode();
             condicionlaesview();
+        });
+    }
+    
+    public void FuncionesView(){
+        this.FuncView.setTitle("Funciones");
+        this.FuncView.setLocationRelativeTo(null);
+        FuncView.funciones1.setText(Functions.funciones1());
+        FuncView.funciones2.setText(Functions.funciones2());
+        FuncView.code.setText(Functions.Ejefunciones1());
+        FuncView.code2.setText(Functions.Ejefunciones2());
+        FuncView.code3.setText(Functions.Ejefunciones3());
+        FuncView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            FuncView.setVisible(false);
+            practices();
+        });
+        FuncView.menu.addActionListener((ActionEvent e) -> {
+            FuncView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
         });
     }
     
@@ -114,7 +135,31 @@ public class Controlador {
         ListView.code6.setText(listPares.EjeListas6());
         ListView.code7.setText(listPares.EjeListas7());
         ListView.code8.setText(listPares.EjeListas8());
-
+        
+        ListView.run1.addActionListener((ActionEvent e) -> {
+            ListView.verinfo1.setText(runCodeLis(1));
+        });
+        ListView.run2.addActionListener((ActionEvent e) -> {
+            ListView.verinfo2.setText(runCodeLis(2));
+        });  
+        ListView.run3.addActionListener((ActionEvent e) -> {
+            ListView.verinfo3.setText(runCodeLis(3));
+        }); 
+        ListView.run4.addActionListener((ActionEvent e) -> {
+            ListView.verinfo4.setText(runCodeLis(4));
+        });
+        ListView.run5.addActionListener((ActionEvent e) -> {
+            ListView.verinfo5.setText(runCodeLis(5));
+        });
+        ListView.run6.addActionListener((ActionEvent e) -> {
+            ListView.verinfo6.setText(runCodeLis(6));
+        });
+        ListView.run7.addActionListener((ActionEvent e) -> {
+            ListView.verinfo7.setText(runCodeLis(7));
+        });
+        ListView.run8.addActionListener((ActionEvent e) -> {
+            ListView.verinfo8.setText(runCodeLis(8));
+        });     
         ListView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ListView.setVisible(false);
@@ -127,7 +172,99 @@ public class Controlador {
         });
     }
     
+    public String runCodeLis(int ns){
+        String respuesta = "",aux="",n1,n2,n3,n4;
+        int nes = 1;
+        switch(ns){
+            case 1: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n1 +" "+ n2 +" "+ n3 +" "+ n4;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n1;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 3: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        respuesta = n1 + " " + n2 +" " + n3;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 4: try {
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        for(int i = 1; i < 11;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato "+i);
+                            respuesta += n1 + " ";
+                        }                            
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 5:  respuesta = "Es una lista";
+                break;
+            case 6: try {
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        for(int i = 0; i < nes;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato ");
+                            aux += n1 + " ";
+                        }
+                        if(nes < 5){
+                             respuesta = ""+nes;
+                        }else{
+                            respuesta = aux;
+                        }
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 7:
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        String[] as = new String[nes];
+                        int nes2 = nes;
+                        for(int i = 0; i < nes;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato ");
+                            as[i] = n1;
+                        }
+                        if(nes < 5){
+                             respuesta = ""+nes;
+                        }else{
+                            for(int i = nes-1; i >= 0;i--){
+                                respuesta += as[i]+" ";
+                            }
+                        }
+                break;
+            case 8: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n2 +" "+ n3 +" "+ n4;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+                    
+        }
+        return respuesta;
+    }
+    
     public void pares(){
+        System.out.println(a[0]);
         this.ParView.setTitle("Pares");
         this.ParView.setLocationRelativeTo(null);
         ParView.paresview1.setText(listPares.Pares1());
