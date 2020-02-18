@@ -210,9 +210,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel17.add(vectores);
         vectores.setBounds(50, 310, 260, 40);
 
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vector.jpg"))); // NOI18N
         jLabel10.setText("jLabel2");
         jPanel17.add(jLabel10);
-        jLabel10.setBounds(0, 0, 350, 380);
+        jLabel10.setBounds(0, 0, 355, 383);
 
         jPanel18.setBackground(new java.awt.Color(51, 255, 255));
         jPanel18.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -230,9 +231,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel18.add(listas);
         listas.setBounds(50, 310, 260, 40);
 
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/listas.jpg"))); // NOI18N
         jLabel11.setText("jLabel2");
         jPanel18.add(jLabel11);
-        jLabel11.setBounds(0, 0, 350, 380);
+        jLabel11.setBounds(0, 0, 410, 383);
 
         jPanel21.setBackground(new java.awt.Color(51, 255, 255));
         jPanel21.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -248,9 +250,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel21.add(grafico);
         grafico.setBounds(50, 310, 260, 40);
 
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/graficos.jpg"))); // NOI18N
         jLabel14.setText("jLabel2");
         jPanel21.add(jLabel14);
-        jLabel14.setBounds(0, 20, 350, 360);
+        jLabel14.setBounds(0, 0, 355, 383);
 
         jPanel19.setBackground(new java.awt.Color(51, 255, 255));
         jPanel19.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -262,9 +265,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel19.add(estructuras);
         estructuras.setBounds(50, 310, 260, 40);
 
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/estructuras.jpg"))); // NOI18N
         jLabel12.setText("jLabel2");
         jPanel19.add(jLabel12);
-        jLabel12.setBounds(-10, 30, 350, 380);
+        jLabel12.setBounds(0, 0, 355, 383);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/isc utp 126x126.png"))); // NOI18N
 
@@ -282,9 +286,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel22.add(Pares);
         Pares.setBounds(50, 310, 260, 40);
 
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/pares.jpg"))); // NOI18N
         jLabel15.setText("jLabel2");
         jPanel22.add(jLabel15);
-        jLabel15.setBounds(0, 20, 350, 360);
+        jLabel15.setBounds(0, 0, 355, 383);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
