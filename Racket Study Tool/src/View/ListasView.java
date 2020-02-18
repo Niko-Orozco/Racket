@@ -14,8 +14,35 @@ public class ListasView extends javax.swing.JFrame {
     /**
      * Creates new form ListasView
      */
+    NumeroLinea numerolinea;
+    
     public ListasView() {
+        setResizable(false);
         initComponents();
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane8.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane10.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane18.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane23.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code6);
+        jScrollPane25.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code7);
+        jScrollPane27.setRowHeaderView(numerolinea);
+
+        numerolinea = new NumeroLinea(code8);
+        jScrollPane29.setRowHeaderView(numerolinea);
+
     }
 
     /**
@@ -32,31 +59,31 @@ public class ListasView extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel2 = new javax.swing.JPanel();
         jScrollPane11 = new javax.swing.JScrollPane();
-        concond1 = new javax.swing.JTextArea();
+        listas1 = new javax.swing.JTextArea();
         jLabel9 = new javax.swing.JLabel();
         jScrollPane12 = new javax.swing.JScrollPane();
-        concond2 = new javax.swing.JTextArea();
+        listas2 = new javax.swing.JTextArea();
         jLabel10 = new javax.swing.JLabel();
         jScrollPane13 = new javax.swing.JScrollPane();
-        concond3 = new javax.swing.JTextArea();
+        listas3 = new javax.swing.JTextArea();
         jLabel14 = new javax.swing.JLabel();
         jScrollPane14 = new javax.swing.JScrollPane();
-        concond4 = new javax.swing.JTextArea();
+        listas4 = new javax.swing.JTextArea();
         jLabel15 = new javax.swing.JLabel();
         jScrollPane15 = new javax.swing.JScrollPane();
-        concond5 = new javax.swing.JTextArea();
+        listas5 = new javax.swing.JTextArea();
         jLabel16 = new javax.swing.JLabel();
         jScrollPane16 = new javax.swing.JScrollPane();
-        concond6 = new javax.swing.JTextArea();
+        listas6 = new javax.swing.JTextArea();
         jLabel17 = new javax.swing.JLabel();
         jScrollPane20 = new javax.swing.JScrollPane();
-        concond7 = new javax.swing.JTextArea();
+        listas7 = new javax.swing.JTextArea();
         jLabel18 = new javax.swing.JLabel();
         jScrollPane21 = new javax.swing.JScrollPane();
-        concond8 = new javax.swing.JTextArea();
+        listas8 = new javax.swing.JTextArea();
         jLabel19 = new javax.swing.JLabel();
         jScrollPane22 = new javax.swing.JScrollPane();
-        concond9 = new javax.swing.JTextArea();
+        listas9 = new javax.swing.JTextArea();
         jLabel20 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
@@ -135,74 +162,75 @@ public class ListasView extends javax.swing.JFrame {
 
         jPanel2.setFocusable(false);
 
-        concond1.setColumns(20);
-        concond1.setRows(5);
-        concond1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane11.setViewportView(concond1);
+        listas1.setColumns(20);
+        listas1.setRows(5);
+        listas1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas1.setFocusable(false);
+        jScrollPane11.setViewportView(listas1);
 
         jLabel9.setText("¿Que es una lista?");
 
-        concond2.setColumns(20);
-        concond2.setRows(5);
-        concond2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond2.setFocusable(false);
-        jScrollPane12.setViewportView(concond2);
+        listas2.setColumns(20);
+        listas2.setRows(5);
+        listas2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas2.setFocusable(false);
+        jScrollPane12.setViewportView(listas2);
 
         jLabel10.setText("La funcion list");
 
-        concond3.setColumns(20);
-        concond3.setRows(5);
-        concond3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond3.setFocusable(false);
-        jScrollPane13.setViewportView(concond3);
+        listas3.setColumns(20);
+        listas3.setRows(5);
+        listas3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas3.setFocusable(false);
+        jScrollPane13.setViewportView(listas3);
 
         jLabel14.setText("Car");
 
-        concond4.setColumns(20);
-        concond4.setRows(5);
-        concond4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond4.setFocusable(false);
-        jScrollPane14.setViewportView(concond4);
+        listas4.setColumns(20);
+        listas4.setRows(5);
+        listas4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas4.setFocusable(false);
+        jScrollPane14.setViewportView(listas4);
 
         jLabel15.setText("Null?");
 
-        concond5.setColumns(20);
-        concond5.setRows(5);
-        concond5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond5.setFocusable(false);
-        jScrollPane15.setViewportView(concond5);
+        listas5.setColumns(20);
+        listas5.setRows(5);
+        listas5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas5.setFocusable(false);
+        jScrollPane15.setViewportView(listas5);
 
         jLabel16.setText("Append");
 
-        concond6.setColumns(20);
-        concond6.setRows(5);
-        concond6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond6.setFocusable(false);
-        jScrollPane16.setViewportView(concond6);
+        listas6.setColumns(20);
+        listas6.setRows(5);
+        listas6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas6.setFocusable(false);
+        jScrollPane16.setViewportView(listas6);
 
         jLabel17.setText("List?");
 
-        concond7.setColumns(20);
-        concond7.setRows(5);
-        concond7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond7.setFocusable(false);
-        jScrollPane20.setViewportView(concond7);
+        listas7.setColumns(20);
+        listas7.setRows(5);
+        listas7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas7.setFocusable(false);
+        jScrollPane20.setViewportView(listas7);
 
         jLabel18.setText("Length");
 
-        concond8.setColumns(20);
-        concond8.setRows(5);
-        concond8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond8.setFocusable(false);
-        jScrollPane21.setViewportView(concond8);
+        listas8.setColumns(20);
+        listas8.setRows(5);
+        listas8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas8.setFocusable(false);
+        jScrollPane21.setViewportView(listas8);
 
         jLabel19.setText("Reverse");
 
-        concond9.setColumns(20);
-        concond9.setRows(5);
-        concond9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        concond9.setFocusable(false);
-        jScrollPane22.setViewportView(concond9);
+        listas9.setColumns(20);
+        listas9.setRows(5);
+        listas9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas9.setFocusable(false);
+        jScrollPane22.setViewportView(listas9);
 
         jLabel20.setText("List-tail");
 
@@ -843,15 +871,6 @@ public class ListasView extends javax.swing.JFrame {
     public javax.swing.JTextPane code6;
     public javax.swing.JTextPane code7;
     public javax.swing.JTextPane code8;
-    public javax.swing.JTextArea concond1;
-    public javax.swing.JTextArea concond2;
-    public javax.swing.JTextArea concond3;
-    public javax.swing.JTextArea concond4;
-    public javax.swing.JTextArea concond5;
-    public javax.swing.JTextArea concond6;
-    public javax.swing.JTextArea concond7;
-    public javax.swing.JTextArea concond8;
-    public javax.swing.JTextArea concond9;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -912,6 +931,15 @@ public class ListasView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane9;
     public javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton letsgo;
+    public javax.swing.JTextArea listas1;
+    public javax.swing.JTextArea listas2;
+    public javax.swing.JTextArea listas3;
+    public javax.swing.JTextArea listas4;
+    public javax.swing.JTextArea listas5;
+    public javax.swing.JTextArea listas6;
+    public javax.swing.JTextArea listas7;
+    public javax.swing.JTextArea listas8;
+    public javax.swing.JTextArea listas9;
     public javax.swing.JButton menu;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
