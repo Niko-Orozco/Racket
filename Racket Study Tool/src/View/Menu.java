@@ -168,7 +168,7 @@ public class Menu extends javax.swing.JFrame {
 
         caracteres.setText("Caracteres y Documentacion");
         jPanel15.add(caracteres);
-        caracteres.setBounds(50, 290, 260, 40);
+        caracteres.setBounds(50, 320, 260, 40);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/caracteres.jpg"))); // NOI18N
         jLabel8.setText("imagen ");
@@ -187,9 +187,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel16.add(cadenas);
         cadenas.setBounds(50, 310, 260, 40);
 
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jLabel9.setText("jLabel2");
         jPanel16.add(jLabel9);
-        jLabel9.setBounds(0, 0, 350, 380);
+        jLabel9.setBounds(0, 0, 355, 383);
 
         jPanel17.setBackground(new java.awt.Color(51, 255, 255));
         jPanel17.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -318,7 +319,7 @@ public class Menu extends javax.swing.JFrame {
                                 .addGap(38, 38, 38)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(90, 90, 90)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
