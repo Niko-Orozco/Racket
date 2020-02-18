@@ -121,9 +121,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel12.add(condicionales);
         condicionales.setBounds(50, 320, 260, 40);
 
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales.jpg"))); // NOI18N
         jLabel5.setText("jLabel2");
         jPanel12.add(jLabel5);
-        jLabel5.setBounds(0, 0, 350, 380);
+        jLabel5.setBounds(0, 0, 355, 383);
 
         jPanel13.setBackground(new java.awt.Color(51, 255, 255));
         jPanel13.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -155,9 +156,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel14.add(recursividad);
         recursividad.setBounds(50, 320, 260, 40);
 
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursividad.jpg"))); // NOI18N
         jLabel7.setText("jLabel2");
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(0, 0, 350, 380);
+        jLabel7.setBounds(0, 0, 355, 383);
 
         jPanel15.setBackground(new java.awt.Color(51, 255, 255));
         jPanel15.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -168,9 +170,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel15.add(caracteres);
         caracteres.setBounds(50, 290, 260, 40);
 
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/caracteres.jpg"))); // NOI18N
         jLabel8.setText("imagen ");
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(0, 0, 360, 380);
+        jLabel8.setBounds(0, 0, 355, 383);
 
         jPanel16.setBackground(new java.awt.Color(51, 255, 255));
         jPanel16.setMaximumSize(new java.awt.Dimension(355, 383));
