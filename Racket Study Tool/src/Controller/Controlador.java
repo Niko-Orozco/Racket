@@ -61,10 +61,7 @@ public class Controlador {
             menu.setVisible(false);
             EstrucView.setVisible(true);
             estructurasview();
-        });
-        
-        
-        
+        });  
         this.menu.listas.addActionListener((ActionEvent e) -> {
             this.ListView = new ListasView();   
             listPares = new Listas_Pares();
@@ -79,11 +76,6 @@ public class Controlador {
             ParView.setVisible(true);
             pares();
         });
-        
-        
-        
-        
-        
         this.menu.condicionales.addActionListener((ActionEvent e) -> {
             Condi = new Condicionales();
             menu.setVisible(false);
@@ -97,6 +89,34 @@ public class Controlador {
     public void listas(){
         this.ListView.setTitle("Listas");
         this.ListView.setLocationRelativeTo(null);
+        ListView.listas1.setText(listPares.Listas1());
+        ListView.listas2.setText(listPares.Listas2());
+        ListView.listas3.setText(listPares.Listas3());
+        ListView.listas4.setText(listPares.Listas4());
+        ListView.listas5.setText(listPares.Listas5());
+        ListView.listas6.setText(listPares.Listas6());
+        ListView.listas7.setText(listPares.Listas7());
+        ListView.listas8.setText(listPares.Listas8());
+        ListView.listas9.setText(listPares.Listas9());
+        ListView.code.setText(listPares.EjeListas1());
+        ListView.code2.setText(listPares.EjeListas2());
+        ListView.code3.setText(listPares.EjeListas3());
+        ListView.code4.setText(listPares.EjeListas4());
+        ListView.code.setText(listPares.EjeListas5());
+        ListView.code2.setText(listPares.EjeListas6());
+        ListView.code3.setText(listPares.EjeListas7());
+        ListView.code4.setText(listPares.EjeListas8());
+        
+        ListView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            ListView.setVisible(false);
+            practices();
+        });
+        ListView.menu.addActionListener((ActionEvent e) -> {
+            ListView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
     }
     
     public void pares(){

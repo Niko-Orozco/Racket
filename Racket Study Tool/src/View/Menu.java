@@ -121,10 +121,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel12.add(condicionales);
         condicionales.setBounds(50, 320, 260, 40);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales.jpg"))); // NOI18N
         jLabel5.setText("jLabel2");
         jPanel12.add(jLabel5);
-        jLabel5.setBounds(0, 0, 355, 383);
+        jLabel5.setBounds(0, 0, 350, 380);
 
         jPanel13.setBackground(new java.awt.Color(51, 255, 255));
         jPanel13.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -156,10 +155,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel14.add(recursividad);
         recursividad.setBounds(50, 320, 260, 40);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursividad.jpg"))); // NOI18N
         jLabel7.setText("jLabel2");
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(0, 0, 355, 383);
+        jLabel7.setBounds(0, 0, 350, 380);
 
         jPanel15.setBackground(new java.awt.Color(51, 255, 255));
         jPanel15.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -168,12 +166,11 @@ public class Menu extends javax.swing.JFrame {
 
         caracteres.setText("Caracteres y Documentacion");
         jPanel15.add(caracteres);
-        caracteres.setBounds(50, 320, 260, 40);
+        caracteres.setBounds(50, 290, 260, 40);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/caracteres.jpg"))); // NOI18N
         jLabel8.setText("imagen ");
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(0, 0, 355, 383);
+        jLabel8.setBounds(0, 0, 360, 380);
 
         jPanel16.setBackground(new java.awt.Color(51, 255, 255));
         jPanel16.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -187,10 +184,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel16.add(cadenas);
         cadenas.setBounds(50, 310, 260, 40);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jLabel9.setText("jLabel2");
         jPanel16.add(jLabel9);
-        jLabel9.setBounds(0, 0, 355, 383);
+        jLabel9.setBounds(0, 0, 350, 380);
 
         jPanel17.setBackground(new java.awt.Color(51, 255, 255));
         jPanel17.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -210,10 +206,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel17.add(vectores);
         vectores.setBounds(50, 310, 260, 40);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vector.jpg"))); // NOI18N
         jLabel10.setText("jLabel2");
         jPanel17.add(jLabel10);
-        jLabel10.setBounds(0, 0, 355, 383);
+        jLabel10.setBounds(0, 0, 350, 380);
 
         jPanel18.setBackground(new java.awt.Color(51, 255, 255));
         jPanel18.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -231,10 +226,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel18.add(listas);
         listas.setBounds(50, 310, 260, 40);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/listas.jpg"))); // NOI18N
         jLabel11.setText("jLabel2");
         jPanel18.add(jLabel11);
-        jLabel11.setBounds(0, 0, 410, 383);
+        jLabel11.setBounds(0, 0, 350, 380);
 
         jPanel21.setBackground(new java.awt.Color(51, 255, 255));
         jPanel21.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -250,10 +244,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel21.add(grafico);
         grafico.setBounds(50, 310, 260, 40);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/graficos.jpg"))); // NOI18N
         jLabel14.setText("jLabel2");
         jPanel21.add(jLabel14);
-        jLabel14.setBounds(0, 0, 355, 383);
+        jLabel14.setBounds(0, 20, 350, 360);
 
         jPanel19.setBackground(new java.awt.Color(51, 255, 255));
         jPanel19.setMaximumSize(new java.awt.Dimension(355, 383));
@@ -265,10 +258,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel19.add(estructuras);
         estructuras.setBounds(50, 310, 260, 40);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/estructuras.jpg"))); // NOI18N
         jLabel12.setText("jLabel2");
         jPanel19.add(jLabel12);
-        jLabel12.setBounds(0, 0, 355, 383);
+        jLabel12.setBounds(-10, 30, 350, 380);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/isc utp 126x126.png"))); // NOI18N
 
@@ -286,10 +278,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel22.add(Pares);
         Pares.setBounds(50, 310, 260, 40);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/pares.jpg"))); // NOI18N
         jLabel15.setText("jLabel2");
         jPanel22.add(jLabel15);
-        jLabel15.setBounds(0, 0, 355, 383);
+        jLabel15.setBounds(0, 20, 350, 360);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -324,7 +315,7 @@ public class Menu extends javax.swing.JFrame {
                                 .addGap(38, 38, 38)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jPanel18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 355, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(jPanel15, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(90, 90, 90)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
