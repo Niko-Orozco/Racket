@@ -34,6 +34,8 @@ public class Menu extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         introduccion = new javax.swing.JButton();
+        jPanel2 = new javax.swing.JPanel();
+        jLabel6 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         funciones = new javax.swing.JButton();
@@ -75,15 +77,28 @@ public class Menu extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(237, 236, 236));
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel1.setText("Dr. Racket Study Tool");
+        jLabel1.setText("Guia lenguaje Racket");
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
         jPanel9.setLayout(null);
 
         introduccion.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        introduccion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/bt_intro.png"))); // NOI18N
         introduccion.setText(" Introducción");
+        introduccion.setBorderPainted(false);
+        introduccion.setContentAreaFilled(false);
+        introduccion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jPanel9.add(introduccion);
-        introduccion.setBounds(90, 280, 150, 40);
+        introduccion.setBounds(30, 270, 270, 50);
+
+        jPanel2.setLayout(null);
+
+        jLabel6.setText("Soy una introducción");
+        jPanel2.add(jLabel6);
+        jLabel6.setBounds(20, 20, 290, 40);
+
+        jPanel9.add(jPanel2);
+        jPanel2.setBounds(0, 190, 340, 150);
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
         jPanel9.add(jLabel13);
@@ -449,6 +464,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
@@ -462,6 +478,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel17;
     private javax.swing.JPanel jPanel18;
     private javax.swing.JPanel jPanel19;
+    private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel9;
