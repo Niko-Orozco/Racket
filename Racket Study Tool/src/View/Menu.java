@@ -35,6 +35,9 @@ public class Menu extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         introduccion = new javax.swing.JButton();
@@ -83,24 +86,36 @@ public class Menu extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(237, 236, 236));
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(102, 102, 102)));
+        jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel1.setText("Guia lenguaje Racket");
+        jLabel1.setText("Guia programacion Funcional");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(0, 10, 370, 60);
+        jLabel1.setBounds(0, 10, 500, 60);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/FINAL 1 LINEA NEGRA con circunf delgada blanca y negra.png"))); // NOI18N
         jPanel3.add(jLabel4);
-        jLabel4.setBounds(770, 0, 420, 420);
+        jLabel4.setBounds(770, 40, 420, 420);
 
         jLabel16.setText("Aqui toda la info de la intro de la app");
         jPanel3.add(jLabel16);
         jLabel16.setBounds(10, 80, 210, 40);
 
+        jButton1.setText("Ayuda");
+        jPanel3.add(jButton1);
+        jButton1.setBounds(1110, 0, 63, 23);
+
+        jButton2.setText("Acerca de");
+        jPanel3.add(jButton2);
+        jButton2.setBounds(1020, 0, 90, 23);
+
+        jButton3.setText("Inicio");
+        jPanel3.add(jButton3);
+        jButton3.setBounds(950, 0, 73, 23);
+
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
-        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 51)));
+        jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel4.setLayout(null);
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
@@ -512,6 +527,9 @@ public class Menu extends javax.swing.JFrame {
     public javax.swing.JButton funciones;
     public javax.swing.JButton grafico;
     public javax.swing.JButton introduccion;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
