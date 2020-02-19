@@ -264,7 +264,6 @@ public class Controlador {
     }
     
     public void pares(){
-        System.out.println(a[0]);
         this.ParView.setTitle("Pares");
         this.ParView.setLocationRelativeTo(null);
         ParView.paresview1.setText(listPares.Pares1());
