@@ -35,9 +35,10 @@ public class Menu extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
+        jLabel17 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
         introduccion = new javax.swing.JButton();
@@ -112,28 +113,35 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("GUIA PROGRAMACION FUNCIONAL");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(10, 10, 500, 60);
+        jLabel1.setBounds(10, 110, 500, 60);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/utp.png"))); // NOI18N
         jPanel3.add(jLabel4);
-        jLabel4.setBounds(690, 80, 480, 260);
+        jLabel4.setBounds(700, 90, 480, 260);
 
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel16.setText("El software tiene como objetivo brindarle a estudiantes de ingenieria");
         jPanel3.add(jLabel16);
-        jLabel16.setBounds(20, 70, 450, 40);
+        jLabel16.setBounds(40, 170, 450, 40);
+
+        jPanel6.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel6.setLayout(null);
 
         jButton1.setText("Ayuda");
-        jPanel3.add(jButton1);
-        jButton1.setBounds(1110, 0, 63, 23);
+        jPanel6.add(jButton1);
+        jButton1.setBounds(1120, 10, 63, 23);
 
         jButton2.setText("Acerca de");
-        jPanel3.add(jButton2);
-        jButton2.setBounds(1020, 0, 90, 23);
+        jPanel6.add(jButton2);
+        jButton2.setBounds(1020, 10, 90, 23);
 
-        jButton3.setText("Inicio");
-        jPanel3.add(jButton3);
-        jButton3.setBounds(950, 0, 73, 23);
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jPanel6.add(jLabel17);
+        jLabel17.setBounds(20, 0, 180, 60);
+
+        jPanel3.add(jPanel6);
+        jPanel6.setBounds(0, 0, 1190, 60);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -646,7 +654,6 @@ public class Menu extends javax.swing.JFrame {
     public javax.swing.JButton introduccion;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -655,6 +662,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
@@ -699,6 +707,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
