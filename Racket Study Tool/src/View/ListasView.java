@@ -148,9 +148,11 @@ public class ListasView extends javax.swing.JFrame {
         menu = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         letsgo = new javax.swing.JButton();
+        jLabel25 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(252, 252, 252));
         jPanel1.setMaximumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setMinimumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
@@ -160,6 +162,7 @@ public class ListasView extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 160, 30);
 
+        jPanel2.setBackground(new java.awt.Color(252, 252, 252));
         jPanel2.setFocusable(false);
 
         listas1.setColumns(20);
@@ -308,7 +311,10 @@ public class ListasView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane6);
         jScrollPane6.setBounds(10, 70, 490, 600);
 
-        jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel7.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code.setFocusable(false);
@@ -362,6 +368,8 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("list", jPanel3);
 
+        jPanel4.setBackground(new java.awt.Color(252, 252, 252));
+
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
@@ -413,6 +421,8 @@ public class ListasView extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("car", jPanel4);
+
+        jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code3.setFocusable(false);
@@ -466,6 +476,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("null?", jPanel5);
 
+        jPanel6.setBackground(new java.awt.Color(252, 252, 252));
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -520,6 +531,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("append", jPanel6);
 
+        jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -574,6 +586,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("list?", jPanel8);
 
+        jPanel9.setBackground(new java.awt.Color(252, 252, 252));
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -628,6 +641,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("length", jPanel9);
 
+        jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -682,6 +696,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("reverse", jPanel10);
 
+        jPanel11.setBackground(new java.awt.Color(252, 252, 252));
         jPanel11.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
@@ -780,6 +795,10 @@ public class ListasView extends javax.swing.JFrame {
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
         letsgo.setBounds(440, 710, 150, 23);
+
+        jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
+        jPanel1.add(jLabel25);
+        jLabel25.setBounds(930, 0, 160, 70);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -889,6 +908,7 @@ public class ListasView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;

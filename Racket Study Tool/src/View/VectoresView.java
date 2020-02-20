@@ -122,15 +122,19 @@ public class VectoresView extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
+        jLabel10 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(860, 600));
         setResizable(false);
         setSize(new java.awt.Dimension(860, 600));
 
+        jPanel1.setBackground(new java.awt.Color(252, 252, 252));
         jPanel1.setMaximumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
+
+        jPanel2.setBackground(new java.awt.Color(252, 252, 252));
 
         vectref.setColumns(20);
         vectref.setRows(5);
@@ -237,7 +241,10 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane6);
         jScrollPane6.setBounds(10, 70, 500, 600);
 
+        jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane4.setViewportView(code);
@@ -290,6 +297,8 @@ public class VectoresView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("make-vector", jPanel3);
 
+        jPanel4.setBackground(new java.awt.Color(252, 252, 252));
+
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane9.setViewportView(code2);
 
@@ -340,6 +349,8 @@ public class VectoresView extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("vector-ref", jPanel4);
+
+        jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane16.setViewportView(code3);
@@ -392,6 +403,8 @@ public class VectoresView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("vector-set!", jPanel5);
 
+        jPanel6.setBackground(new java.awt.Color(252, 252, 252));
+
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane18.setViewportView(code4);
 
@@ -442,6 +455,8 @@ public class VectoresView extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("vector-fill!", jPanel6);
+
+        jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         jScrollPane20.setViewportView(code5);
@@ -500,6 +515,7 @@ public class VectoresView extends javax.swing.JFrame {
 
         jLabel15.setText("Reprecentacion grafica de un Vector");
 
+        jPanel11.setBackground(new java.awt.Color(252, 252, 252));
         jPanel11.setLayout(null);
 
         jLabel11.setText("|     0      |       1      |       2       |      3      |");
@@ -612,6 +628,10 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
+        jPanel1.add(jLabel10);
+        jLabel10.setBounds(960, 0, 180, 70);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -706,6 +726,7 @@ public class VectoresView extends javax.swing.JFrame {
     public javax.swing.JTextArea fillvect;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;

@@ -86,9 +86,12 @@ public class Estructuras extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(252, 252, 252));
         jPanel1.setMaximumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setMinimumSize(new java.awt.Dimension(1090, 748));
         jPanel1.setLayout(null);
+
+        jPanel2.setBackground(new java.awt.Color(252, 252, 252));
 
         makestruc.setColumns(20);
         makestruc.setRows(5);
@@ -152,7 +155,10 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.add(jScrollPane6);
         jScrollPane6.setBounds(10, 70, 500, 600);
 
+        jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code.setFocusable(false);
@@ -300,6 +306,7 @@ public class Estructuras extends javax.swing.JFrame {
 
         jScrollPane7.setViewportView(jPanel5);
 
+        jPanel6.setBackground(new java.awt.Color(252, 252, 252));
         jPanel6.setLayout(null);
 
         adddata.setText("Agregar Datos");
@@ -371,9 +378,10 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 
-        jLabel6.setText("aqui logo utp");
+        jLabel6.setBackground(new java.awt.Color(252, 252, 252));
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel6);
-        jLabel6.setBounds(1050, -6, 100, 80);
+        jLabel6.setBounds(980, 0, 160, 70);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

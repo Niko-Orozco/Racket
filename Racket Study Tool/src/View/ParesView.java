@@ -95,9 +95,11 @@ public class ParesView extends javax.swing.JFrame {
         menu = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
         letsgo = new javax.swing.JButton();
+        jLabel24 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
+        jPanel1.setBackground(new java.awt.Color(252, 252, 252));
         jPanel1.setMaximumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setMinimumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
@@ -107,6 +109,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 160, 30);
 
+        jPanel2.setBackground(new java.awt.Color(252, 252, 252));
         jPanel2.setFocusable(false);
 
         paresview3.setColumns(20);
@@ -200,7 +203,10 @@ public class ParesView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane6);
         jScrollPane6.setBounds(10, 70, 490, 600);
 
-        jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel7.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+
+        jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code.setFocusable(false);
@@ -254,6 +260,8 @@ public class ParesView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("cons", jPanel3);
 
+        jPanel4.setBackground(new java.awt.Color(252, 252, 252));
+
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
@@ -306,6 +314,8 @@ public class ParesView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("car", jPanel4);
 
+        jPanel5.setBackground(new java.awt.Color(252, 252, 252));
+
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code3.setFocusable(false);
         jScrollPane10.setViewportView(code3);
@@ -357,6 +367,8 @@ public class ParesView extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("cdr", jPanel5);
+
+        jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code4.setFocusable(false);
@@ -455,6 +467,10 @@ public class ParesView extends javax.swing.JFrame {
         jPanel1.add(letsgo);
         letsgo.setBounds(440, 710, 150, 23);
 
+        jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
+        jPanel1.add(jLabel24);
+        jLabel24.setBounds(930, 0, 160, 70);
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -534,6 +550,7 @@ public class ParesView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
