@@ -164,9 +164,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel2.setBounds(0, 190, 326, 140);
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recorrido.png"))); // NOI18N
         jPanel9.add(jLabel13);
-        jLabel13.setBounds(0, 0, 320, 245);
+        jLabel13.setBounds(10, 10, 310, 180);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -279,9 +279,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel14.add(jPanel20);
         jPanel20.setBounds(0, 190, 326, 140);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursion.png"))); // NOI18N
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(0, 0, 320, 240);
+        jLabel7.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel14);
         jPanel14.setBounds(410, 390, 328, 332);
@@ -308,9 +308,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel12.add(jPanel11);
         jPanel11.setBounds(0, 190, 326, 140);
 
-        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales_anidadas_yoaprendoinformatica.png"))); // NOI18N
         jPanel12.add(jLabel5);
-        jLabel5.setBounds(0, 0, 320, 240);
+        jLabel5.setBounds(0, 10, 320, 180);
 
         jPanel4.add(jPanel12);
         jPanel12.setBounds(50, 390, 325, 332);
@@ -336,9 +336,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel15.add(jPanel23);
         jPanel23.setBounds(0, 190, 326, 140);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Comentario.jpg"))); // NOI18N
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(0, 0, 330, 230);
+        jLabel8.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel15);
         jPanel15.setBounds(770, 390, 330, 333);
@@ -367,9 +367,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel16.add(jPanel24);
         jPanel24.setBounds(0, 190, 326, 140);
 
-        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jPanel16.add(jLabel9);
-        jLabel9.setBounds(0, 0, 320, 250);
+        jLabel9.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel16);
         jPanel16.setBounds(50, 760, 325, 333);
@@ -404,9 +404,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel17.add(jPanel25);
         jPanel25.setBounds(0, 190, 326, 140);
 
-        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vectores.PNG"))); // NOI18N
         jPanel17.add(jLabel10);
-        jLabel10.setBounds(0, 0, 330, 240);
+        jLabel10.setBounds(0, 10, 330, 180);
 
         jPanel4.add(jPanel17);
         jPanel17.setBounds(410, 760, 328, 333);
@@ -439,9 +439,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel18.add(jPanel26);
         jPanel26.setBounds(0, 190, 326, 140);
 
-        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/listas.png"))); // NOI18N
         jPanel18.add(jLabel11);
-        jLabel11.setBounds(0, 0, 320, 240);
+        jLabel11.setBounds(10, 0, 310, 190);
 
         jPanel4.add(jPanel18);
         jPanel18.setBounds(770, 760, 326, 333);
@@ -472,9 +472,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel22.add(jPanel27);
         jPanel27.setBounds(0, 190, 326, 140);
 
-        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Pares.png"))); // NOI18N
         jPanel22.add(jLabel15);
-        jLabel15.setBounds(0, 0, 330, 240);
+        jLabel15.setBounds(10, 0, 310, 190);
 
         jPanel4.add(jPanel22);
         jPanel22.setBounds(50, 1120, 328, 330);
@@ -501,9 +501,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel19.add(jPanel28);
         jPanel28.setBounds(0, 190, 326, 140);
 
-        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/estructuras.jpg"))); // NOI18N
         jPanel19.add(jLabel12);
-        jLabel12.setBounds(0, 0, 320, 230);
+        jLabel12.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel19);
         jPanel19.setBounds(410, 1120, 326, 335);
@@ -534,9 +534,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel21.add(jPanel29);
         jPanel29.setBounds(0, 190, 326, 140);
 
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/graficos.jpg"))); // NOI18N
         jPanel21.add(jLabel14);
-        jLabel14.setBounds(0, 0, 320, 250);
+        jLabel14.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel21);
         jPanel21.setBounds(770, 1120, 328, 335);
@@ -547,7 +547,7 @@ public class Menu extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 1191, Short.MAX_VALUE)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 1192, Short.MAX_VALUE)
                     .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(0, 0, 0))
         );
@@ -565,7 +565,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1210, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1211, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
