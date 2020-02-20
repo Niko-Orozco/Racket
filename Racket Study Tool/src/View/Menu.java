@@ -110,7 +110,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel3.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel1.setText("Guia programacion Funcional");
+        jLabel1.setText("GUIA PROGRAMACION FUNCIONAL");
         jPanel3.add(jLabel1);
         jLabel1.setBounds(10, 10, 500, 60);
 
@@ -166,7 +166,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
         jPanel9.add(jLabel13);
-        jLabel13.setBounds(0, 0, 320, 240);
+        jLabel13.setBounds(0, 0, 320, 245);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
