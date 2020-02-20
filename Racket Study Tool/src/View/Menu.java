@@ -106,14 +106,14 @@ public class Menu extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(237, 236, 236));
 
-        jPanel3.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel3.setBackground(new java.awt.Color(237, 237, 237));
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel1.setText("GUIA PROGRAMACION FUNCIONAL");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(10, 110, 500, 60);
+        jLabel1.setBounds(20, 100, 500, 60);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/utp.png"))); // NOI18N
         jPanel3.add(jLabel4);
@@ -122,7 +122,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel16.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
         jLabel16.setText("El software tiene como objetivo brindarle a estudiantes de ingenieria");
         jPanel3.add(jLabel16);
-        jLabel16.setBounds(40, 170, 450, 40);
+        jLabel16.setBounds(70, 160, 450, 40);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -130,18 +130,19 @@ public class Menu extends javax.swing.JFrame {
 
         jButton1.setText("Ayuda");
         jPanel6.add(jButton1);
-        jButton1.setBounds(1120, 10, 63, 23);
+        jButton1.setBounds(1113, 0, 70, 23);
 
         jButton2.setText("Acerca de");
         jPanel6.add(jButton2);
-        jButton2.setBounds(1020, 10, 90, 23);
+        jButton2.setBounds(1020, 0, 90, 23);
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/330.png"))); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel17.setText("Dr Racket");
         jPanel6.add(jLabel17);
-        jLabel17.setBounds(20, 0, 180, 60);
+        jLabel17.setBounds(10, 0, 130, 40);
 
         jPanel3.add(jPanel6);
-        jPanel6.setBounds(0, 0, 1190, 60);
+        jPanel6.setBounds(0, 0, 1190, 40);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
