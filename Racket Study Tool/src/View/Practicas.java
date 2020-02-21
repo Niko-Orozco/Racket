@@ -189,9 +189,10 @@ public class Practicas extends javax.swing.JFrame {
 
         jPanel23.setLayout(null);
 
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif2.jpg"))); // NOI18N
         jLabel2.setText("imagen 1");
         jPanel23.add(jLabel2);
-        jLabel2.setBounds(0, 0, 240, 170);
+        jLabel2.setBounds(60, 0, 370, 250);
         jPanel23.add(r1);
         r1.setBounds(0, 180, 29, 29);
 
