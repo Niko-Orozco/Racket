@@ -41,30 +41,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jPanel9 = new javax.swing.JPanel();
-        introduccion = new javax.swing.JButton();
         jPanel2 = new javax.swing.JPanel();
         jLabel6 = new javax.swing.JLabel();
+        introduccion = new javax.swing.JButton();
+        jLabel32 = new javax.swing.JLabel();
         jLabel13 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
-        funciones = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
+        funciones = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jPanel13 = new javax.swing.JPanel();
-        expreciones = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         jLabel19 = new javax.swing.JLabel();
+        expreciones = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
-        recursividad = new javax.swing.JButton();
         jPanel20 = new javax.swing.JPanel();
         jLabel21 = new javax.swing.JLabel();
+        recursividad = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jPanel12 = new javax.swing.JPanel();
-        condicionales = new javax.swing.JButton();
         jPanel11 = new javax.swing.JPanel();
         jLabel20 = new javax.swing.JLabel();
+        condicionales = new javax.swing.JButton();
         jLabel5 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
         caracteres = new javax.swing.JButton();
@@ -72,35 +73,46 @@ public class Menu extends javax.swing.JFrame {
         jLabel22 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
-        cadenas = new javax.swing.JButton();
         jPanel24 = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
+        cadenas = new javax.swing.JButton();
         jLabel9 = new javax.swing.JLabel();
         jPanel17 = new javax.swing.JPanel();
-        vectores = new javax.swing.JButton();
         jPanel25 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
+        vectores = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
-        listas = new javax.swing.JButton();
         jPanel26 = new javax.swing.JPanel();
         jLabel25 = new javax.swing.JLabel();
+        listas = new javax.swing.JButton();
         jLabel11 = new javax.swing.JLabel();
         jPanel22 = new javax.swing.JPanel();
-        Pares = new javax.swing.JButton();
         jPanel27 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
+        Pares = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
         jPanel19 = new javax.swing.JPanel();
-        estructuras = new javax.swing.JButton();
         jPanel28 = new javax.swing.JPanel();
         jLabel27 = new javax.swing.JLabel();
+        estructuras = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
         jPanel21 = new javax.swing.JPanel();
-        grafico = new javax.swing.JButton();
         jPanel29 = new javax.swing.JPanel();
         jLabel28 = new javax.swing.JLabel();
+        grafico = new javax.swing.JButton();
         jLabel14 = new javax.swing.JLabel();
+        jLabel29 = new javax.swing.JLabel();
+        jPanel30 = new javax.swing.JPanel();
+        Pares1 = new javax.swing.JButton();
+        jPanel31 = new javax.swing.JPanel();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
+        jPanel34 = new javax.swing.JPanel();
+        Pares3 = new javax.swing.JButton();
+        jPanel35 = new javax.swing.JPanel();
+        jLabel34 = new javax.swing.JLabel();
+        jLabel35 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -152,15 +164,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel9.setLayout(null);
 
-        introduccion.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
-        introduccion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/bt_intro.png"))); // NOI18N
-        introduccion.setText(" Introducción");
-        introduccion.setBorderPainted(false);
-        introduccion.setContentAreaFilled(false);
-        introduccion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
-        jPanel9.add(introduccion);
-        introduccion.setBounds(30, 270, 270, 50);
-
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setLayout(null);
@@ -169,13 +172,32 @@ public class Menu extends javax.swing.JFrame {
         jPanel2.add(jLabel6);
         jLabel6.setBounds(10, 10, 290, 40);
 
+        introduccion.setBackground(new java.awt.Color(255, 255, 255));
+        introduccion.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
+        introduccion.setText(" Introducción");
+        introduccion.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        introduccion.setBorderPainted(false);
+        introduccion.setContentAreaFilled(false);
+        introduccion.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        introduccion.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                introduccionActionPerformed(evt);
+            }
+        });
+        jPanel2.add(introduccion);
+        introduccion.setBounds(50, 90, 210, 40);
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
+        jPanel2.add(jLabel32);
+        jLabel32.setBounds(50, 90, 210, 40);
+
         jPanel9.add(jPanel2);
         jPanel2.setBounds(0, 190, 326, 140);
 
         jLabel13.setBackground(new java.awt.Color(255, 255, 255));
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recorrido.png"))); // NOI18N
         jPanel9.add(jLabel13);
-        jLabel13.setBounds(10, 10, 310, 180);
+        jLabel13.setBounds(10, 20, 310, 170);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -192,7 +214,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel5.setBounds(10, 70, 100, 100);
 
         jPanel4.add(jPanel9);
-        jPanel9.setBounds(50, 20, 325, 330);
+        jPanel9.setBounds(50, 160, 325, 330);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -203,15 +225,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel10.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel10.setLayout(null);
 
-        funciones.setText("Funciones");
-        funciones.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                funcionesActionPerformed(evt);
-            }
-        });
-        jPanel10.add(funciones);
-        funciones.setBounds(80, 280, 170, 40);
-
         jPanel7.setBackground(new java.awt.Color(255, 255, 255));
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel7.setLayout(null);
@@ -220,16 +233,26 @@ public class Menu extends javax.swing.JFrame {
         jPanel7.add(jLabel18);
         jLabel18.setBounds(10, 10, 290, 40);
 
+        funciones.setBackground(new java.awt.Color(255, 255, 255));
+        funciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
+        funciones.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                funcionesActionPerformed(evt);
+            }
+        });
+        jPanel7.add(funciones);
+        funciones.setBounds(60, 90, 210, 40);
+
         jPanel10.add(jPanel7);
         jPanel7.setBounds(0, 190, 326, 140);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/funciones .jpg"))); // NOI18N
         jLabel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel10.add(jLabel3);
-        jLabel3.setBounds(0, 0, 330, 190);
+        jLabel3.setBounds(0, 20, 330, 170);
 
         jPanel4.add(jPanel10);
-        jPanel10.setBounds(410, 20, 328, 330);
+        jPanel10.setBounds(410, 160, 328, 330);
 
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
         jPanel13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -237,10 +260,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel13.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel13.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel13.setLayout(null);
-
-        expreciones.setText("Expreciones Matematicas");
-        jPanel13.add(expreciones);
-        expreciones.setBounds(80, 280, 180, 40);
 
         jPanel8.setBackground(new java.awt.Color(255, 255, 255));
         jPanel8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -250,16 +269,21 @@ public class Menu extends javax.swing.JFrame {
         jPanel8.add(jLabel19);
         jLabel19.setBounds(10, 10, 290, 40);
 
+        expreciones.setBackground(new java.awt.Color(255, 255, 255));
+        expreciones.setText("Expreciones Matematicas");
+        jPanel8.add(expreciones);
+        expreciones.setBounds(50, 90, 210, 40);
+
         jPanel13.add(jPanel8);
         jPanel8.setBounds(0, 190, 326, 140);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/mate.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel13.add(jLabel2);
-        jLabel2.setBounds(0, 0, 330, 190);
+        jLabel2.setBounds(0, 30, 330, 160);
 
         jPanel4.add(jPanel13);
-        jPanel13.setBounds(770, 20, 330, 330);
+        jPanel13.setBounds(770, 160, 330, 330);
 
         jPanel14.setBackground(new java.awt.Color(255, 255, 255));
         jPanel14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -267,15 +291,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel14.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel14.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel14.setLayout(null);
-
-        recursividad.setText("Recursividad");
-        recursividad.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                recursividadActionPerformed(evt);
-            }
-        });
-        jPanel14.add(recursividad);
-        recursividad.setBounds(90, 280, 160, 40);
 
         jPanel20.setBackground(new java.awt.Color(255, 255, 255));
         jPanel20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -285,15 +300,25 @@ public class Menu extends javax.swing.JFrame {
         jPanel20.add(jLabel21);
         jLabel21.setBounds(10, 10, 290, 40);
 
+        recursividad.setBackground(new java.awt.Color(255, 255, 255));
+        recursividad.setText("Recursividad");
+        recursividad.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                recursividadActionPerformed(evt);
+            }
+        });
+        jPanel20.add(recursividad);
+        recursividad.setBounds(60, 90, 210, 40);
+
         jPanel14.add(jPanel20);
         jPanel20.setBounds(0, 190, 326, 140);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursion.png"))); // NOI18N
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(10, 10, 310, 180);
+        jLabel7.setBounds(10, 30, 310, 160);
 
         jPanel4.add(jPanel14);
-        jPanel14.setBounds(410, 390, 328, 332);
+        jPanel14.setBounds(410, 530, 328, 332);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -301,10 +326,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel12.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel12.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel12.setLayout(null);
-
-        condicionales.setText("Condicionales");
-        jPanel12.add(condicionales);
-        condicionales.setBounds(90, 280, 160, 40);
 
         jPanel11.setBackground(new java.awt.Color(255, 255, 255));
         jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -314,15 +335,20 @@ public class Menu extends javax.swing.JFrame {
         jPanel11.add(jLabel20);
         jLabel20.setBounds(10, 10, 290, 40);
 
+        condicionales.setBackground(new java.awt.Color(255, 255, 255));
+        condicionales.setText("Condicionales");
+        jPanel11.add(condicionales);
+        condicionales.setBounds(50, 90, 210, 40);
+
         jPanel12.add(jPanel11);
         jPanel11.setBounds(0, 190, 326, 140);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales_anidadas_yoaprendoinformatica.png"))); // NOI18N
         jPanel12.add(jLabel5);
-        jLabel5.setBounds(0, 10, 320, 180);
+        jLabel5.setBounds(0, 40, 320, 150);
 
         jPanel4.add(jPanel12);
-        jPanel12.setBounds(50, 390, 325, 332);
+        jPanel12.setBounds(50, 530, 325, 332);
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
         jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -330,9 +356,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel15.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel15.setLayout(null);
 
+        caracteres.setBackground(new java.awt.Color(255, 255, 255));
         caracteres.setText("Caracteres y Documentacion");
         jPanel15.add(caracteres);
-        caracteres.setBounds(70, 280, 190, 40);
+        caracteres.setBounds(70, 280, 210, 40);
 
         jPanel23.setBackground(new java.awt.Color(255, 255, 255));
         jPanel23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -347,10 +374,10 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Comentario.jpg"))); // NOI18N
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(10, 10, 310, 180);
+        jLabel8.setBounds(10, 30, 310, 160);
 
         jPanel4.add(jPanel15);
-        jPanel15.setBounds(770, 390, 330, 333);
+        jPanel15.setBounds(770, 530, 330, 333);
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
         jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -361,10 +388,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel16.setVerifyInputWhenFocusTarget(false);
         jPanel16.setLayout(null);
 
-        cadenas.setText("Cadenas/Strings");
-        jPanel16.add(cadenas);
-        cadenas.setBounds(60, 280, 190, 40);
-
         jPanel24.setBackground(new java.awt.Color(255, 255, 255));
         jPanel24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel24.setLayout(null);
@@ -373,15 +396,20 @@ public class Menu extends javax.swing.JFrame {
         jPanel24.add(jLabel23);
         jLabel23.setBounds(10, 10, 290, 40);
 
+        cadenas.setBackground(new java.awt.Color(255, 255, 255));
+        cadenas.setText("Cadenas/Strings");
+        jPanel24.add(cadenas);
+        cadenas.setBounds(60, 90, 210, 40);
+
         jPanel16.add(jPanel24);
         jPanel24.setBounds(0, 190, 326, 140);
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jPanel16.add(jLabel9);
-        jLabel9.setBounds(10, 10, 310, 180);
+        jLabel9.setBounds(10, 40, 310, 150);
 
         jPanel4.add(jPanel16);
-        jPanel16.setBounds(50, 760, 325, 333);
+        jPanel16.setBounds(50, 900, 325, 333);
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
         jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -389,18 +417,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel17.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel17.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel17.setLayout(null);
-
-        vectores.setText("Vectores");
-        vectores.setMaximumSize(new java.awt.Dimension(103, 29));
-        vectores.setMinimumSize(new java.awt.Dimension(103, 29));
-        vectores.setPreferredSize(new java.awt.Dimension(103, 29));
-        vectores.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                vectoresActionPerformed(evt);
-            }
-        });
-        jPanel17.add(vectores);
-        vectores.setBounds(80, 270, 160, 40);
 
         jPanel25.setBackground(new java.awt.Color(255, 255, 255));
         jPanel25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -410,15 +426,28 @@ public class Menu extends javax.swing.JFrame {
         jPanel25.add(jLabel24);
         jLabel24.setBounds(10, 10, 290, 40);
 
+        vectores.setBackground(new java.awt.Color(255, 255, 255));
+        vectores.setText("Vectores");
+        vectores.setMaximumSize(new java.awt.Dimension(103, 29));
+        vectores.setMinimumSize(new java.awt.Dimension(103, 29));
+        vectores.setPreferredSize(new java.awt.Dimension(103, 29));
+        vectores.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                vectoresActionPerformed(evt);
+            }
+        });
+        jPanel25.add(vectores);
+        vectores.setBounds(60, 90, 210, 40);
+
         jPanel17.add(jPanel25);
         jPanel25.setBounds(0, 190, 326, 140);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vectores.PNG"))); // NOI18N
         jPanel17.add(jLabel10);
-        jLabel10.setBounds(0, 10, 330, 180);
+        jLabel10.setBounds(0, 40, 330, 150);
 
         jPanel4.add(jPanel17);
-        jPanel17.setBounds(410, 760, 328, 333);
+        jPanel17.setBounds(410, 900, 328, 333);
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -426,16 +455,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel18.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel18.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel18.setLayout(null);
-
-        listas.setBackground(new java.awt.Color(255, 255, 255));
-        listas.setText("Listas");
-        listas.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                listasActionPerformed(evt);
-            }
-        });
-        jPanel18.add(listas);
-        listas.setBounds(90, 280, 170, 40);
 
         jPanel26.setBackground(new java.awt.Color(255, 255, 255));
         jPanel26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -445,30 +464,31 @@ public class Menu extends javax.swing.JFrame {
         jPanel26.add(jLabel25);
         jLabel25.setBounds(10, 10, 290, 40);
 
+        listas.setBackground(new java.awt.Color(255, 255, 255));
+        listas.setText("Listas");
+        listas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                listasActionPerformed(evt);
+            }
+        });
+        jPanel26.add(listas);
+        listas.setBounds(60, 90, 210, 40);
+
         jPanel18.add(jPanel26);
         jPanel26.setBounds(0, 190, 326, 140);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/listas.png"))); // NOI18N
         jPanel18.add(jLabel11);
-        jLabel11.setBounds(10, 0, 310, 190);
+        jLabel11.setBounds(10, 40, 310, 150);
 
         jPanel4.add(jPanel18);
-        jPanel18.setBounds(770, 760, 326, 333);
+        jPanel18.setBounds(770, 900, 326, 333);
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
         jPanel22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel22.setMaximumSize(new java.awt.Dimension(355, 383));
         jPanel22.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel22.setLayout(null);
-
-        Pares.setText("Pares");
-        Pares.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                ParesActionPerformed(evt);
-            }
-        });
-        jPanel22.add(Pares);
-        Pares.setBounds(90, 270, 160, 40);
 
         jPanel27.setBackground(new java.awt.Color(255, 255, 255));
         jPanel27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -478,15 +498,25 @@ public class Menu extends javax.swing.JFrame {
         jPanel27.add(jLabel26);
         jLabel26.setBounds(10, 10, 290, 40);
 
+        Pares.setBackground(new java.awt.Color(255, 255, 255));
+        Pares.setText("Pares");
+        Pares.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ParesActionPerformed(evt);
+            }
+        });
+        jPanel27.add(Pares);
+        Pares.setBounds(50, 90, 210, 40);
+
         jPanel22.add(jPanel27);
         jPanel27.setBounds(0, 190, 326, 140);
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Pares.png"))); // NOI18N
         jPanel22.add(jLabel15);
-        jLabel15.setBounds(10, 0, 310, 190);
+        jLabel15.setBounds(10, 80, 310, 110);
 
         jPanel4.add(jPanel22);
-        jPanel22.setBounds(50, 1120, 328, 330);
+        jPanel22.setBounds(50, 1260, 328, 330);
 
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
         jPanel19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -494,10 +524,6 @@ public class Menu extends javax.swing.JFrame {
         jPanel19.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel19.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel19.setLayout(null);
-
-        estructuras.setText("Estructuras de datos");
-        jPanel19.add(estructuras);
-        estructuras.setBounds(70, 280, 200, 40);
 
         jPanel28.setBackground(new java.awt.Color(255, 255, 255));
         jPanel28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -507,30 +533,26 @@ public class Menu extends javax.swing.JFrame {
         jPanel28.add(jLabel27);
         jLabel27.setBounds(10, 10, 290, 40);
 
+        estructuras.setBackground(new java.awt.Color(255, 255, 255));
+        estructuras.setText("Estructuras de datos");
+        jPanel28.add(estructuras);
+        estructuras.setBounds(60, 90, 210, 40);
+
         jPanel19.add(jPanel28);
         jPanel28.setBounds(0, 190, 326, 140);
 
         jLabel12.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/estructuras.jpg"))); // NOI18N
         jPanel19.add(jLabel12);
-        jLabel12.setBounds(10, 10, 310, 180);
+        jLabel12.setBounds(10, 100, 310, 90);
 
         jPanel4.add(jPanel19);
-        jPanel19.setBounds(410, 1120, 326, 335);
+        jPanel19.setBounds(410, 1260, 326, 335);
 
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
         jPanel21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel21.setMaximumSize(new java.awt.Dimension(355, 383));
         jPanel21.setMinimumSize(new java.awt.Dimension(355, 383));
         jPanel21.setLayout(null);
-
-        grafico.setText("Modo Grafico");
-        grafico.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                graficoActionPerformed(evt);
-            }
-        });
-        jPanel21.add(grafico);
-        grafico.setBounds(90, 280, 150, 40);
 
         jPanel29.setBackground(new java.awt.Color(255, 255, 255));
         jPanel29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -540,15 +562,96 @@ public class Menu extends javax.swing.JFrame {
         jPanel29.add(jLabel28);
         jLabel28.setBounds(10, 10, 290, 40);
 
+        grafico.setBackground(new java.awt.Color(255, 255, 255));
+        grafico.setText("Modo Grafico");
+        grafico.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                graficoActionPerformed(evt);
+            }
+        });
+        jPanel29.add(grafico);
+        grafico.setBounds(60, 90, 210, 40);
+
         jPanel21.add(jPanel29);
         jPanel29.setBounds(0, 190, 326, 140);
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/graficos.jpg"))); // NOI18N
         jPanel21.add(jLabel14);
-        jLabel14.setBounds(10, 10, 310, 180);
+        jLabel14.setBounds(10, 80, 310, 110);
 
         jPanel4.add(jPanel21);
-        jPanel21.setBounds(770, 1120, 328, 335);
+        jPanel21.setBounds(770, 1260, 328, 335);
+
+        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel29.setText("Guia  Lenguaje Racket");
+        jPanel4.add(jLabel29);
+        jLabel29.setBounds(470, 30, 280, 40);
+
+        jPanel30.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel30.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel30.setMaximumSize(new java.awt.Dimension(355, 383));
+        jPanel30.setMinimumSize(new java.awt.Dimension(355, 383));
+        jPanel30.setLayout(null);
+
+        Pares1.setText("Pares");
+        Pares1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Pares1ActionPerformed(evt);
+            }
+        });
+        jPanel30.add(Pares1);
+        Pares1.setBounds(90, 270, 160, 40);
+
+        jPanel31.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel31.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel31.setLayout(null);
+
+        jLabel30.setText("Soy una introducción");
+        jPanel31.add(jLabel30);
+        jLabel30.setBounds(10, 10, 290, 40);
+
+        jPanel30.add(jPanel31);
+        jPanel31.setBounds(0, 190, 326, 140);
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Pares.png"))); // NOI18N
+        jPanel30.add(jLabel31);
+        jLabel31.setBounds(10, 80, 310, 110);
+
+        jPanel4.add(jPanel30);
+        jPanel30.setBounds(620, 1620, 328, 330);
+
+        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel34.setMaximumSize(new java.awt.Dimension(355, 383));
+        jPanel34.setMinimumSize(new java.awt.Dimension(355, 383));
+        jPanel34.setLayout(null);
+
+        Pares3.setText("Pares");
+        Pares3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Pares3ActionPerformed(evt);
+            }
+        });
+        jPanel34.add(Pares3);
+        Pares3.setBounds(90, 270, 160, 40);
+
+        jPanel35.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel35.setLayout(null);
+
+        jLabel34.setText("Soy una introducción");
+        jPanel35.add(jLabel34);
+        jLabel34.setBounds(10, 10, 290, 40);
+
+        jPanel34.add(jPanel35);
+        jPanel35.setBounds(0, 190, 326, 140);
+
+        jLabel35.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Pares.png"))); // NOI18N
+        jPanel34.add(jLabel35);
+        jLabel35.setBounds(10, 80, 310, 110);
+
+        jPanel4.add(jPanel34);
+        jPanel34.setBounds(260, 1620, 328, 330);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -574,7 +677,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1211, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1192, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -607,6 +710,18 @@ public class Menu extends javax.swing.JFrame {
     private void ParesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ParesActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_ParesActionPerformed
+
+    private void Pares1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pares1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Pares1ActionPerformed
+
+    private void Pares3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Pares3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Pares3ActionPerformed
+
+    private void introduccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_introduccionActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_introduccionActionPerformed
 
     /**
      * @param args the command line arguments
@@ -645,6 +760,8 @@ public class Menu extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Pares;
+    public javax.swing.JButton Pares1;
+    public javax.swing.JButton Pares3;
     public javax.swing.JButton cadenas;
     public javax.swing.JButton caracteres;
     public javax.swing.JButton condicionales;
@@ -676,7 +793,13 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel27;
     private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
@@ -706,6 +829,10 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel28;
     private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
