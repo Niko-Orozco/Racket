@@ -16,10 +16,23 @@ public class Caracteres_Documentacion {
     }
     
     public String Ejecaracter1(){
-        String data= "Recibir un caracter que represente una nota. Si es la letra E (mayuscula) o la "
-                + "letra e (minuscula) primir \"excelente\" ,,"
-                + " si es la letra B o la letra b imprimir \"Bueno\" , si es la letra A o la letra a imprimir \n" +
-                  "\"Aceptable\" , si es la letra D o la letra d imprimir  \"Define\", y si es la letra I o la letra i imprimir  \"Insuficiente\".";
+            String data=    "Recibir un caracter que represente una nota. Si es la letra E (mayuscula) o la "
+                          + "letra e (minuscula) primir \"excelente\" ,,"
+                          + " si es la letra B o la letra b imprimir \"Bueno\" , si es la letra A o la letra a imprimir \n" +
+                            "\"Aceptable\" , si es la letra D o la letra d imprimir  \"Define\","
+                          + " y si es la letra I o la letra i imprimir  \"Insuficiente\".(define (Notas X) ;El argumento X debe ser reemplazado con uncaracter\n" +
+                            "      (cond ;Usamos cond ya que es idoneo para este tipo de ejercicios\n" +
+                            "	[ (char-ci=? X #/e)   (display\"Execelente\") ]\n" +
+                            "	[ (char-ci=? X #/s)   (display\"Sobresaliente\") ]\n" +
+                            "	[ (char-ci=? X #/a)   (display \"Aceptable\") ]\n" +
+                            "	[ (char-ci=? X #/i)    (display \"Insuficiente\") ]\n" +
+                            "	[ (char-ci=? X #/d)   (display \"Deficiente\") ]\n" +
+                            "	(else  (display \"No es una nota valida.\") );Si se introduce un caracter inesperado.\n" +
+                            "                     )\n" +
+                            "                  )\n" +
+                            "(Notas  (read) )"+
+       
+                    
         return data;
     } 
     

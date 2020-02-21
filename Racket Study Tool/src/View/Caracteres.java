@@ -122,7 +122,7 @@ public class Caracteres extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("Listas");
+        jLabel2.setText("Caracteres");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 160, 30);
 
