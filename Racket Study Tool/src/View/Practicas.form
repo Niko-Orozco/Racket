@@ -233,6 +233,13 @@
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel22">
+                          <Properties>
+                            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                              <Border info="org.netbeans.modules.form.compat2.border.BevelBorderInfo">
+                                <BevelBorder/>
+                              </Border>
+                            </Property>
+                          </Properties>
 
                           <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
                             <Property name="useNullLayout" type="boolean" value="true"/>
@@ -240,37 +247,39 @@
                           <SubComponents>
                             <Component class="javax.swing.JLabel" name="jLabel6">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="imagen "/>
+                                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                                  <Image iconType="3" name="/Images/practica/ejemploif1.jpg"/>
+                                </Property>
                               </Properties>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="10" y="0" width="450" height="270"/>
+                                  <AbsoluteConstraints x="30" y="10" width="370" height="270"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="t1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Total 87"/>
+                                <Property name="text" type="java.lang.String" value="el primero es mayor que el segundo"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="70" y="290" width="110" height="-1"/>
+                                  <AbsoluteConstraints x="70" y="290" width="320" height="-1"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="t2">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="15 Pollitos"/>
+                                <Property name="text" type="java.lang.String" value="El segundo numero es mayor"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="240" y="290" width="110" height="-1"/>
+                                  <AbsoluteConstraints x="70" y="320" width="290" height="-1"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
@@ -775,6 +784,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Menu"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="menuActionPerformed"/>
+          </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>
@@ -798,6 +810,9 @@
           <Properties>
             <Property name="text" type="java.lang.String" value="Mi puntaje"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
           </AuxValues>

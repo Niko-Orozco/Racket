@@ -164,27 +164,28 @@ public class Practicas extends javax.swing.JFrame {
 
         jLabel5.setText("Selecione la opcion correcta");
 
+        jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
-        jLabel6.setText("imagen ");
+        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif1.jpg"))); // NOI18N
         jPanel22.add(jLabel6);
-        jLabel6.setBounds(10, 0, 450, 270);
+        jLabel6.setBounds(30, 10, 370, 270);
 
-        t1.setText("Total 87");
+        t1.setText("el primero es mayor que el segundo");
         jPanel22.add(t1);
-        t1.setBounds(70, 290, 110, 23);
+        t1.setBounds(70, 290, 320, 29);
 
-        t2.setText("15 Pollitos");
+        t2.setText("El segundo numero es mayor");
         jPanel22.add(t2);
-        t2.setBounds(240, 290, 110, 23);
+        t2.setBounds(70, 320, 290, 29);
 
         t3.setText("No hace nada");
         jPanel22.add(t3);
-        t3.setBounds(70, 370, 110, 23);
+        t3.setBounds(70, 370, 110, 29);
 
         t4.setText("Valor de a: 33");
         jPanel22.add(t4);
-        t4.setBounds(240, 370, 110, 23);
+        t4.setBounds(240, 370, 110, 29);
 
         jPanel23.setLayout(null);
 
@@ -192,25 +193,25 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23.add(jLabel2);
         jLabel2.setBounds(0, 0, 240, 170);
         jPanel23.add(r1);
-        r1.setBounds(0, 180, 21, 21);
+        r1.setBounds(0, 180, 29, 29);
 
         jLabel4.setText("imagen 3");
         jPanel23.add(jLabel4);
         jLabel4.setBounds(0, 210, 240, 160);
         jPanel23.add(r3);
-        r3.setBounds(0, 370, 21, 21);
+        r3.setBounds(0, 370, 29, 29);
 
         jLabel7.setText("imagen 2");
         jPanel23.add(jLabel7);
         jLabel7.setBounds(260, 0, 240, 170);
         jPanel23.add(r2);
-        r2.setBounds(250, 180, 21, 21);
+        r2.setBounds(250, 180, 29, 29);
 
         jLabel8.setText("imagen 4");
         jPanel23.add(jLabel8);
         jLabel8.setBounds(260, 210, 240, 160);
         jPanel23.add(r4);
-        r4.setBounds(260, 370, 21, 21);
+        r4.setBounds(260, 370, 29, 29);
 
         jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
 
@@ -477,16 +478,26 @@ public class Practicas extends javax.swing.JFrame {
         jTabbedPane1.setBounds(20, 80, 980, 490);
 
         menu.setText("Menu");
+        menu.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                menuActionPerformed(evt);
+            }
+        });
         jPanel1.add(menu);
-        menu.setBounds(10, 590, 80, 23);
+        menu.setBounds(10, 590, 80, 29);
 
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas..  ¿Podras  lograrlo?");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 14);
+        jLabel3.setBounds(10, 60, 480, 20);
 
         jButton1.setText("Mi puntaje");
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jPanel1.add(jButton1);
-        jButton1.setBounds(860, 570, 130, 23);
+        jButton1.setBounds(860, 570, 130, 29);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -501,6 +512,14 @@ public class Practicas extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void menuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_menuActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
