@@ -9,6 +9,7 @@ import View.*;
 import Model.*;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
+import static java.lang.Math.pow;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
@@ -103,6 +104,17 @@ public class Controlador {
         FuncView.code.setText(Functions.Ejefunciones1());
         FuncView.code2.setText(Functions.Ejefunciones2());
         FuncView.code3.setText(Functions.Ejefunciones3());
+        
+        FuncView.run1.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo1.setText(runCodeFunc(1));
+        });
+        FuncView.run2.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo2.setText(runCodeFunc(2));
+        });  
+        FuncView.run3.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo3.setText(runCodeFunc(3));
+        }); 
+        
         FuncView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             FuncView.setVisible(false);
@@ -114,6 +126,35 @@ public class Controlador {
             iniciar();
         });
     }
+    
+    public String runCodeFunc(int ns){
+        String respuesta = "",aux="",n1,n2,n3,n4;
+        int nes = 1,nes2,nes3;
+        switch(ns){
+            case 1: try {
+                        respuesta = " "+ pow(3, 2);
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        nes2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        nes3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        respuesta = nes2 + " "+nes3 +" " + nes2+nes3 + " " + nes2*nes3;
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;   
+            case 3: try {
+                        respuesta = "Lunes\n"+"Martes\n"+"Miercoles\n"+"Jueves\n"+"Viernes\n";
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;                   
+        }
+        return respuesta;
+    }
+    
     
     public void listas(){
         this.ListView.setTitle("Listas");
@@ -171,6 +212,8 @@ public class Controlador {
             iniciar();
         });
     }
+    
+    
     
     public String runCodeLis(int ns){
         String respuesta = "",aux="",n1,n2,n3,n4;
