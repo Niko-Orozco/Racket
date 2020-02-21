@@ -115,6 +115,98 @@ public class Controlador {
         });
     }
     
+    public String runCodeFunc(int ns){
+        String respuesta = "",aux="",n1,n2,n3,n4;
+        int nes = 1;
+        switch(ns){
+            case 1: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n1 +" "+ n2 +" "+ n3 +" "+ n4;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n1;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 3: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        respuesta = n1 + " " + n2 +" " + n3;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 4: try {
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        for(int i = 1; i < 11;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato "+i);
+                            respuesta += n1 + " ";
+                        }                            
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 5:  respuesta = "Es una lista";
+                break;
+            case 6: try {
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        for(int i = 0; i < nes;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato ");
+                            aux += n1 + " ";
+                        }
+                        if(nes < 5){
+                             respuesta = ""+nes;
+                        }else{
+                            respuesta = aux;
+                        }
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 7:
+                        nes = Integer.parseInt(JOptionPane.showInputDialog("Ingrese tamaño de la cadena"));
+                        String[] as = new String[nes];
+                        int nes2 = nes;
+                        for(int i = 0; i < nes;i++){
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese dato ");
+                            as[i] = n1;
+                        }
+                        if(nes < 5){
+                             respuesta = ""+nes;
+                        }else{
+                            for(int i = nes-1; i >= 0;i--){
+                                respuesta += as[i]+" ";
+                            }
+                        }
+                break;
+            case 8: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese dato 1");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese dato 2");
+                        n3 = (String)JOptionPane.showInputDialog("Ingrese dato 3");
+                        n4 = (String)JOptionPane.showInputDialog("Ingrese dato 4");
+                        respuesta = n2 +" "+ n3 +" "+ n4;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+                    
+        }
+        return respuesta;
+    }
+    
+    
     public void listas(){
         this.ListView.setTitle("Listas");
         this.ListView.setLocationRelativeTo(null);
@@ -171,6 +263,8 @@ public class Controlador {
             iniciar();
         });
     }
+    
+    
     
     public String runCodeLis(int ns){
         String respuesta = "",aux="",n1,n2,n3,n4;
