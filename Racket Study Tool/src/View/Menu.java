@@ -567,7 +567,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel26.setText("Pares, operaciones con pares, uso de pares");
         jPanel27.add(jLabel26);
-        jLabel26.setBounds(10, 10, 310, 40);
+        jLabel26.setBounds(0, 50, 310, 40);
 
         Pares.setBackground(new java.awt.Color(255, 255, 255));
         Pares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
