@@ -174,7 +174,7 @@ public class Menu extends javax.swing.JFrame {
 
         introduccion.setBackground(new java.awt.Color(255, 255, 255));
         introduccion.setFont(new java.awt.Font("Tahoma", 3, 11)); // NOI18N
-        introduccion.setText(" Introducción");
+        introduccion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
         introduccion.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         introduccion.setBorderPainted(false);
         introduccion.setContentAreaFilled(false);
@@ -185,7 +185,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel2.add(introduccion);
-        introduccion.setBounds(50, 90, 210, 40);
+        introduccion.setBounds(30, 90, 250, 40);
 
         jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
         jPanel2.add(jLabel32);
@@ -270,7 +270,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel19.setBounds(10, 10, 290, 40);
 
         expreciones.setBackground(new java.awt.Color(255, 255, 255));
-        expreciones.setText("Expreciones Matematicas");
+        expreciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b3.png"))); // NOI18N
         jPanel8.add(expreciones);
         expreciones.setBounds(50, 90, 210, 40);
 
