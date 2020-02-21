@@ -16,7 +16,7 @@ public class Caracteres_Documentacion {
     }
     
     public String Ejecaracter1(){
-            String data=    "Recibir un caracter que represente una nota. Si es la letra E (mayuscula) o la "
+           String data=    "Recibir un caracter que represente una nota. Si es la letra E (mayuscula) o la "
                           + "letra e (minuscula) primir \"excelente\" ,,"
                           + " si es la letra B o la letra b imprimir \"Bueno\" , si es la letra A o la letra a imprimir \n" +
                             "\"Aceptable\" , si es la letra D o la letra d imprimir  \"Define\","
@@ -30,7 +30,7 @@ public class Caracteres_Documentacion {
                             "	(else  (display \"No es una nota valida.\") );Si se introduce un caracter inesperado.\n" +
                             "                     )\n" +
                             "                  )\n" +
-                            "(Notas  (read) )"+
+                            "(Notas  (read) )";
        
                     
         return data;

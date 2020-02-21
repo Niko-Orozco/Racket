@@ -25,6 +25,10 @@ public class Practicas extends javax.swing.JFrame {
         grupo2.add(r2);
         grupo2.add(r3);
         grupo2.add(r4);
+        
+        GRUPO3.add(Z1);
+        GRUPO3.add(Z2);
+        GRUPO3.add(Z3);
     }
 
     /**
@@ -38,6 +42,7 @@ public class Practicas extends javax.swing.JFrame {
 
         grupo1 = new javax.swing.ButtonGroup();
         grupo2 = new javax.swing.ButtonGroup();
+        GRUPO3 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
@@ -70,6 +75,10 @@ public class Practicas extends javax.swing.JFrame {
         jPanel5 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
+        jPanel24 = new javax.swing.JPanel();
+        Z1 = new javax.swing.JRadioButton();
+        Z2 = new javax.swing.JRadioButton();
+        Z3 = new javax.swing.JRadioButton();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
@@ -250,15 +259,47 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Condicionales", jPanel4);
 
+        Z1.setText("jRadioButton1");
+
+        Z2.setText("jRadioButton2");
+
+        Z3.setText("jRadioButton3");
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addGap(69, 69, 69)
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Z3)
+                    .addComponent(Z2)
+                    .addComponent(Z1))
+                .addContainerGap(298, Short.MAX_VALUE))
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addGap(110, 110, 110)
+                .addComponent(Z1)
+                .addGap(18, 18, 18)
+                .addComponent(Z2)
+                .addGap(18, 18, 18)
+                .addComponent(Z3)
+                .addContainerGap(228, Short.MAX_VALUE))
+        );
+
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
         jPanel16.setLayout(jPanel16Layout);
         jPanel16Layout.setHorizontalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addComponent(jPanel24, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 558, Short.MAX_VALUE))
         );
         jPanel16Layout.setVerticalGroup(
             jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addComponent(jPanel24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
         jScrollPane5.setViewportView(jPanel16);
@@ -497,6 +538,10 @@ public class Practicas extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.ButtonGroup GRUPO3;
+    private javax.swing.JRadioButton Z1;
+    private javax.swing.JRadioButton Z2;
+    private javax.swing.JRadioButton Z3;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
@@ -525,6 +570,7 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
