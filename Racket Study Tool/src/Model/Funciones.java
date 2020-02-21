@@ -30,16 +30,26 @@ public class Funciones {
     }
     
     public String funciones2(){
-        String data =   "Al igual que en otros lenguajes de programacion en Racket podemos\n" +
-                        "Asociar valores a nombres, Esto se puede usar usando la funcion define\n" +
+        String data =   "Al  igual   que   en  otros  lenguajes  de  programacion  en Racket podemos\n" +
+                        "Asociar valores a  nombres,  Esto  se  puede usar usando la funcion define\n" +
                         "\n" +
-                        "Muchas veces cuando programamos necesitamos usar un mismo valor\n" +
-                        "en repetidas ocasiones, seria muy tedioso he ineficiente tener que \n" +
-                        "escribir el mismo valor tantas veces para ello le asiga un nombre o\n" +
+                        "Muchas  veces  cuando  programamos  necesitamos  usar un mismo valor\n" +
+                        "en   repetidas   ocasiones,   seria   muy    tedioso  he  ineficiente  tener  que \n" +
+                        "escribir   el   mismo   valor  tantas  veces  para   ello  le  asiga  un nombre o\n" +
                         "(variable) a el valor. Por ejemplo\n" +
                         "\n" +
                         "(define numer 234)\n" +
                         "(define letras \"Hola\")";
+        return data;
+    }
+    
+    public String funciones3(){
+        String data =   "A  diferencia  de  la   definición   de   parámetros,   los   argumentos   no   tienen\n" +
+                        "nombres.  Cada argumento  es una expresión, que puede contener cero o más\n" +
+                        "variables, constantes y literales. El tipo de datos de la expresión evaluada debe\n" +
+                        "coincidir    normalmente   con  el  tipo   de  datos   definido   para   el  parámetro \n" +
+                        "correspondiente   y,   en  cualquier   caso,   debe   ser  convertible  en  el tipo de \n" +
+                        "parámetro.";
         return data;
     }
     
@@ -71,7 +81,10 @@ public class Funciones {
                         "      (display (+ n1 n2))\n" +
                         "      (display \" \")\n" +
                         "      (display (* n1 n2))\n" +
-                        ")";
+                        ")\n" +
+                        ";Llamamos lafuncion enviando como parametro lo que se ingrese por teclado\n" +
+                        ";meiante la fucnion read\n" +
+                        "(datos (read) (read))";
         return data;
     }
     
