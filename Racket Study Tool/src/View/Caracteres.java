@@ -46,12 +46,6 @@ public class Caracteres extends javax.swing.JFrame {
         jScrollPane15 = new javax.swing.JScrollPane();
         listas5 = new javax.swing.JTextArea();
         jLabel16 = new javax.swing.JLabel();
-        jScrollPane16 = new javax.swing.JScrollPane();
-        listas6 = new javax.swing.JTextArea();
-        jLabel17 = new javax.swing.JLabel();
-        jScrollPane20 = new javax.swing.JScrollPane();
-        listas7 = new javax.swing.JTextArea();
-        jLabel18 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel3 = new javax.swing.JPanel();
@@ -98,8 +92,9 @@ public class Caracteres extends javax.swing.JFrame {
         jPanel2.setFocusable(false);
 
         listas1.setColumns(20);
+        listas1.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         listas1.setRows(5);
-        listas1.setText("Son un tipo  de  dato. Los caracteres se utilizan \npara  mostrarlos  en  pantalla  y asi comunicarno \ncon el usuario.");
+        listas1.setText("Son un tipo  de  dato. Los caracteres se utilizan para  mostrarlos  en  pantalla\ny asi comunicarno con el usuario.");
         listas1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         listas1.setFocusable(false);
         jScrollPane11.setViewportView(listas1);
@@ -107,8 +102,9 @@ public class Caracteres extends javax.swing.JFrame {
         jLabel9.setText("¿Que son Caracteres?");
 
         listas2.setColumns(20);
+        listas2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         listas2.setRows(5);
-        listas2.setText("Es una funcion que sirve para determinar si algun \ndato es un caracter.");
+        listas2.setText("Es una funcion que sirve para determinar si algun dato es un caracter.");
         listas2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         listas2.setFocusable(false);
         jScrollPane12.setViewportView(listas2);
@@ -116,8 +112,9 @@ public class Caracteres extends javax.swing.JFrame {
         jLabel10.setText("Char?");
 
         listas3.setColumns(20);
+        listas3.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         listas3.setRows(5);
-        listas3.setText("se utiliza para un caso insensible , es decir , \nmayusculas o minusculas Racket las tomara como \niguales.\n\n(Racket tambien provee funciones para encontar \nque tipo de caracter se esta evaluando . Puede \nser un alfabetico, numerico, espacio en blanco, \nmayusculas o miscula).");
+        listas3.setText("Se  utiliza  para  un  caso  insensible,  es   decir ,   mayusculas   o   minusculas \nRacket las tomara como iguales.\n\n(Racket  tambien  provee  funciones  para encontar que tipo de caracter se \nesta  evaluando .  Puede   ser  un  alfabetico,  numerico,  espacio en blanco, \nmayusculas o miscula).");
         listas3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         listas3.setFocusable(false);
         jScrollPane13.setViewportView(listas3);
@@ -125,8 +122,9 @@ public class Caracteres extends javax.swing.JFrame {
         jLabel14.setText("Char-ci");
 
         listas4.setColumns(20);
+        listas4.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         listas4.setRows(5);
-        listas4.setText("Como habiamos  visto anteriormente , se comienza\nusando  el caracter  punto y  coma y terminan en\nel  siguiente salto  de linea . Tambien  tenemos \nlas  \"Cajas de comentarios\"  que  son  recuadros \nen los que (Sin importar  la  cantidad de saltos\no el texto que incluyamos todo lo que ete dentro \nde el sera considerado comentario.\n\nPara usar una  caja de  comentarios basta con ir \nal menu \"insert\" y  luego  dar clic en la opcion\n\"insertar caja de comentarios\".\n\nCon  comentarios  tambien  podemos  dividir  el \ncodigo  en  secciones   y  de  esta  forma  nos \nfacilitaremos  mucho  el trabajo a  la  hora de \ncorregir, revisar y/o optimizar.");
+        listas4.setText("Como   habiamos   visto   anteriormente,  se comienza usando  el caracter\npunto y coma y terminan en el siguiente salto  de linea. Tambien tenemos\nlas   \"Cajas de comentarios\"   que   son  recuadros en los que (Sin importar\nla  cantidad de saltos o  el texto que incluyamos todo lo que ete dentro de\nel sera considerado comentario.\n\nPara usar una  caja de  comentarios basta con ir al menu \"insert\" y  luego\ndar clic en la opcion\n\"insertar caja de comentarios\".\n\nCon  comentarios  tambien  podemos  dividir  el \ncodigo  en  secciones   y  de  esta  forma  nos \nfacilitaremos  mucho  el trabajo a  la  hora de \ncorregir, revisar y/o optimizar.");
         listas4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         listas4.setFocusable(false);
         jScrollPane14.setViewportView(listas4);
@@ -134,31 +132,14 @@ public class Caracteres extends javax.swing.JFrame {
         jLabel15.setText("COMENTARIOS");
 
         listas5.setColumns(20);
+        listas5.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         listas5.setRows(5);
-        listas5.setText("La  documentacion  de  un  programa  va  desde \ncomentarsus  lineas   de  codigo  al  escribir \nel manual del usuario.\n\nEn nuestro caso , veremos a grandes rasgos dos\nelementos  importantes en la documentacion: el\ndiseño  guiado  por  recetas  (tambien llamado\ncontrato ) y el uso de los comentarios. ");
+        listas5.setText("La  documentacion   de   un   programa  va  desde comentarsus  lineas   de  \ncodigo  al  escribir el manual del usuario.\n\nEn nuestro caso , veremos a grandes rasgos dos elementos  importantes en\nla   documentacion:   el  diseño   guiado   por   recetas   (tambien   llamado\ncontrato ) y el uso de los comentarios. ");
         listas5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         listas5.setFocusable(false);
         jScrollPane15.setViewportView(listas5);
 
         jLabel16.setText("Documentacion");
-
-        listas6.setColumns(20);
-        listas6.setRows(5);
-        listas6.setText("Necesitamos detrminar que es lo relevante en  la\ndeclaracion de un problema y que podemos ignora.\nNecesitamos entender que recibe el programa, que\nprodece y como  se  relacionan  sus  entradas y \nsalidas.  Debemos  conocer o encontrar si Rcket \nprovee  ciertas  operaciones  basicas que sean \nutiles  en nuestro programa. En caso contrario, \ndebemos  desarrollar  programas auxiliares que \nimplementas esta operaciones. Una vez tengamos \nun programa,  debemos comprabar si el programa \nhace lo que  debe hacer. Esto pude relevar los \ndiferentes tipos de errores.");
-        listas6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        listas6.setFocusable(false);
-        jScrollPane16.setViewportView(listas6);
-
-        jLabel17.setText("Diseño guiado por Contrato");
-
-        listas7.setColumns(20);
-        listas7.setRows(5);
-        listas7.setText("1.Construir una funcion que reciba un para metro y devuelva  Verdadero si es un caracter. \nFalso si no lo es.\n\n2.Construir una funcion que reciba un parametro. Si el parametro es un caracter alfabetico, determinar si esta en minuscula.  El  programa  debe  pasarlo  a  mayusculas  y retornarlo. \nHacer lo mismo en caso contrario.\n\n4.Construir una funcion que reciba un caracter e imprima  \"Es una vocal\"  si el caracter es \nuna vocal   o devuelva  un  mensaje  de  error en  caso  contrario.  Usar la funcion anterior.\n\n7.Construir una funcion que reciba un parametro. Si el parametro es un caracter  devolver \nel numero  que  corresponda  en  la  tabla  del  codigo ASCII y si es un numero devolver el \ncaracter que  corresponda  en  la tabla. Nota: la funcion (number? n), retorna verdadero si \nn es un numero y falso de lo contrario.\n\n9.Escribir un programa que reciba una palabra acabada en un  punto  y  cuente las letras \nque contiene.");
-        listas7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        listas7.setFocusable(false);
-        jScrollPane20.setViewportView(listas7);
-
-        jLabel18.setText("Actividades");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -167,10 +148,6 @@ public class Caracteres extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addGap(28, 28, 28)
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 413, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -206,15 +183,7 @@ public class Caracteres extends javax.swing.JFrame {
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel17, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jLabel18, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addContainerGap(38, Short.MAX_VALUE))
         );
 
         jScrollPane6.setViewportView(jPanel2);
@@ -497,9 +466,9 @@ public class Caracteres extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTextPane code;
-    private javax.swing.JTextPane code2;
-    private javax.swing.JTextPane code3;
+    public javax.swing.JTextPane code;
+    public javax.swing.JTextPane code2;
+    public javax.swing.JTextPane code3;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -508,8 +477,6 @@ public class Caracteres extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel7;
@@ -527,29 +494,25 @@ public class Caracteres extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
-    private javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton letsgo;
     public javax.swing.JTextArea listas1;
     public javax.swing.JTextArea listas2;
     public javax.swing.JTextArea listas3;
     public javax.swing.JTextArea listas4;
     public javax.swing.JTextArea listas5;
-    public javax.swing.JTextArea listas6;
-    public javax.swing.JTextArea listas7;
     public javax.swing.JButton menu;
-    private javax.swing.JButton run1;
-    private javax.swing.JButton run2;
-    private javax.swing.JButton run3;
-    private javax.swing.JTextArea verinfo1;
-    private javax.swing.JTextArea verinfo2;
-    private javax.swing.JTextArea verinfo3;
+    public javax.swing.JButton run1;
+    public javax.swing.JButton run2;
+    public javax.swing.JButton run3;
+    public javax.swing.JTextArea verinfo1;
+    public javax.swing.JTextArea verinfo2;
+    public javax.swing.JTextArea verinfo3;
     // End of variables declaration//GEN-END:variables
 }

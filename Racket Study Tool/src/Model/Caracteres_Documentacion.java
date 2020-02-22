@@ -90,5 +90,24 @@ public class Caracteres_Documentacion {
         return data;
     }
     
+    public String Ejercicios(){
+        String data =   "1.Construir una funcion que reciba un para metro y devuelva  Verdadero si es un caracter. \n" +
+                        "Falso si no lo es.\n" +
+                        "\n" +
+                        "2.Construir una funcion que reciba un parametro. Si el parametro es un caracter alfabetico, determinar si esta en minuscula.  El  programa  debe  pasarlo  a  mayusculas  y retornarlo. \n" +
+                        "Hacer lo mismo en caso contrario.\n" +
+                        "\n" +
+                        "4.Construir una funcion que reciba un caracter e imprima  \"Es una vocal\"  si el caracter es \n" +
+                        "una vocal   o devuelva  un  mensaje  de  error en  caso  contrario.  Usar la funcion anterior.\n" +
+                        "\n" +
+                        "7.Construir una funcion que reciba un parametro. Si el parametro es un caracter  devolver \n" +
+                        "el numero  que  corresponda  en  la  tabla  del  codigo ASCII y si es un numero devolver el \n" +
+                        "caracter que  corresponda  en  la tabla. Nota: la funcion (number? n), retorna verdadero si \n" +
+                        "n es un numero y falso de lo contrario.\n" +
+                        "\n" +
+                        "9.Escribir un programa que reciba una palabra acabada en un  punto  y  cuente las letras \n" +
+                        "que contiene.";
+        return data;
+    }
  
 }
