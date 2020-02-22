@@ -529,7 +529,7 @@ public class FuncionesView extends javax.swing.JFrame {
                                "real-part","real?","remainder","round",
                                "sgn","sin","sinh","sqrt",
                                "sub1","tan","zero?"};
-        String descripcion[] = {"Multiplicacion","Suna","Resta","Division","Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
+        String descripcion[] = {"Multiplicacion","Suma","Resta","Division","Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
                                 "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f","Valor absoluto de un numero","Arco-coseno",
                                 "Aumenta un numero en 1","Calcula el angulo de un real","Arco-seno","Arco-tangente","proxima un valor real",
                                 "Evalua si algo es un numero complejo","El conjugado complejo de un numero","Coseno","Coseno Hiperbolico","Devuelve la hora actual en segundos",
