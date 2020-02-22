@@ -28,7 +28,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" min="-2" pref="741" max="-2" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="741" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -89,22 +89,18 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jLabel18" min="-2" pref="176" max="-2" attributes="0"/>
-                              <Component id="jScrollPane20" min="-2" pref="413" max="-2" attributes="0"/>
-                              <Component id="jScrollPane16" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
-                              <Component id="jLabel17" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
-                              <Component id="jScrollPane15" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
+                              <Component id="jScrollPane15" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel16" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
                               <Component id="jScrollPane14" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
                               <Component id="jLabel15" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
-                              <Component id="jScrollPane13" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
+                              <Component id="jScrollPane13" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel14" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
-                              <Component id="jScrollPane12" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
+                              <Component id="jScrollPane12" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel10" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
-                              <Component id="jScrollPane11" alignment="0" min="-2" pref="413" max="-2" attributes="0"/>
+                              <Component id="jScrollPane11" alignment="0" max="32767" attributes="0"/>
                               <Component id="jLabel9" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
                           </Group>
-                          <EmptySpace pref="30" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -113,33 +109,25 @@
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                           <Component id="jLabel9" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane11" min="-2" pref="140" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane11" pref="140" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel10" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane12" min="-2" pref="140" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane12" pref="140" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel14" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane13" min="-2" pref="140" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane13" pref="140" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
                           <Component id="jScrollPane14" min="-2" pref="140" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                           <Component id="jLabel16" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane15" min="-2" pref="140" max="-2" attributes="0"/>
-                          <EmptySpace type="separate" max="-2" attributes="0"/>
-                          <Component id="jLabel17" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane16" min="-2" pref="140" max="-2" attributes="0"/>
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Component id="jLabel18" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jScrollPane20" min="-2" pref="140" max="-2" attributes="0"/>
                           <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Component id="jScrollPane15" pref="140" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -152,11 +140,13 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas1">
+                    <Component class="javax.swing.JTextArea" name="caracter1">
                       <Properties>
                         <Property name="columns" type="int" value="20"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Sylfaen" size="13" style="0"/>
+                        </Property>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Son un tipo  de  dato. Los caracteres se utilizan &#xa;para  mostrarlos  en  pantalla  y asi comunicarno &#xa;con el usuario."/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
@@ -180,11 +170,13 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas2">
+                    <Component class="javax.swing.JTextArea" name="caracter2">
                       <Properties>
                         <Property name="columns" type="int" value="20"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Sylfaen" size="13" style="0"/>
+                        </Property>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Es una funcion que sirve para determinar si algun &#xa;dato es un caracter."/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
@@ -208,11 +200,13 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas3">
+                    <Component class="javax.swing.JTextArea" name="caracter3">
                       <Properties>
                         <Property name="columns" type="int" value="20"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Sylfaen" size="13" style="0"/>
+                        </Property>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="se utiliza para un caso insensible , es decir , &#xa;mayusculas o minusculas Racket las tomara como &#xa;iguales.&#xa;&#xa;(Racket tambien provee funciones para encontar &#xa;que tipo de caracter se esta evaluando . Puede &#xa;ser un alfabetico, numerico, espacio en blanco, &#xa;mayusculas o miscula)."/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
@@ -236,11 +230,13 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas4">
+                    <Component class="javax.swing.JTextArea" name="caracter4">
                       <Properties>
                         <Property name="columns" type="int" value="20"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Sylfaen" size="13" style="0"/>
+                        </Property>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Como habiamos  visto anteriormente , se comienza&#xa;usando  el caracter  punto y  coma y terminan en&#xa;el  siguiente salto  de linea . Tambien  tenemos &#xa;las  &quot;Cajas de comentarios&quot;  que  son  recuadros &#xa;en los que (Sin importar  la  cantidad de saltos&#xa;o el texto que incluyamos todo lo que ete dentro &#xa;de el sera considerado comentario.&#xa;&#xa;Para usar una  caja de  comentarios basta con ir &#xa;al menu &quot;insert&quot; y  luego  dar clic en la opcion&#xa;&quot;insertar caja de comentarios&quot;.&#xa;&#xa;Con  comentarios  tambien  podemos  dividir  el &#xa;codigo  en  secciones   y  de  esta  forma  nos &#xa;facilitaremos  mucho  el trabajo a  la  hora de &#xa;corregir, revisar y/o optimizar."/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
@@ -264,11 +260,13 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas5">
+                    <Component class="javax.swing.JTextArea" name="caracter5">
                       <Properties>
                         <Property name="columns" type="int" value="20"/>
+                        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                          <Font name="Sylfaen" size="13" style="0"/>
+                        </Property>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="La  documentacion  de  un  programa  va  desde &#xa;comentarsus  lineas   de  codigo  al  escribir &#xa;el manual del usuario.&#xa;&#xa;En nuestro caso , veremos a grandes rasgos dos&#xa;elementos  importantes en la documentacion: el&#xa;dise&#xf1;o  guiado  por  recetas  (tambien llamado&#xa;contrato ) y el uso de los comentarios. "/>
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
@@ -283,62 +281,6 @@
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Documentacion"/>
-                  </Properties>
-                </Component>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane16">
-                  <AuxValues>
-                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                  </AuxValues>
-
-                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                  <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas6">
-                      <Properties>
-                        <Property name="columns" type="int" value="20"/>
-                        <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="Necesitamos detrminar que es lo relevante en  la&#xa;declaracion de un problema y que podemos ignora.&#xa;Necesitamos entender que recibe el programa, que&#xa;prodece y como  se  relacionan  sus  entradas y &#xa;salidas.  Debemos  conocer o encontrar si Rcket &#xa;provee  ciertas  operaciones  basicas que sean &#xa;utiles  en nuestro programa. En caso contrario, &#xa;debemos  desarrollar  programas auxiliares que &#xa;implementas esta operaciones. Una vez tengamos &#xa;un programa,  debemos comprabar si el programa &#xa;hace lo que  debe hacer. Esto pude relevar los &#xa;diferentes tipos de errores."/>
-                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                          <Color id="Cursor Por defecto"/>
-                        </Property>
-                        <Property name="focusable" type="boolean" value="false"/>
-                      </Properties>
-                      <AuxValues>
-                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-                      </AuxValues>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Component class="javax.swing.JLabel" name="jLabel17">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Dise&#xf1;o guiado por Contrato"/>
-                  </Properties>
-                </Component>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane20">
-                  <AuxValues>
-                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                  </AuxValues>
-
-                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                  <SubComponents>
-                    <Component class="javax.swing.JTextArea" name="listas7">
-                      <Properties>
-                        <Property name="columns" type="int" value="20"/>
-                        <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="1.Construir una funcion que reciba un para metro y devuelva  Verdadero si es un caracter. &#xa;Falso si no lo es.&#xa;&#xa;2.Construir una funcion que reciba un parametro. Si el parametro es un caracter alfabetico, determinar si esta en minuscula.  El  programa  debe  pasarlo  a  mayusculas  y retornarlo. &#xa;Hacer lo mismo en caso contrario.&#xa;&#xa;4.Construir una funcion que reciba un caracter e imprima  &quot;Es una vocal&quot;  si el caracter es &#xa;una vocal   o devuelva  un  mensaje  de  error en  caso  contrario.  Usar la funcion anterior.&#xa;&#xa;7.Construir una funcion que reciba un parametro. Si el parametro es un caracter  devolver &#xa;el numero  que  corresponda  en  la  tabla  del  codigo ASCII y si es un numero devolver el &#xa;caracter que  corresponda  en  la tabla. Nota: la funcion (number? n), retorna verdadero si &#xa;n es un numero y falso de lo contrario.&#xa;&#xa;9.Escribir un programa que reciba una palabra acabada en un  punto  y  cuente las letras &#xa;que contiene."/>
-                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
-                          <Color id="Cursor Por defecto"/>
-                        </Property>
-                        <Property name="focusable" type="boolean" value="false"/>
-                      </Properties>
-                      <AuxValues>
-                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-                      </AuxValues>
-                    </Component>
-                  </SubComponents>
-                </Container>
-                <Component class="javax.swing.JLabel" name="jLabel18">
-                  <Properties>
-                    <Property name="text" type="java.lang.String" value="Actividades"/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -443,15 +385,15 @@
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="59" max="32767" attributes="0"/>
-                              <Component id="jScrollPane4" min="-2" pref="270" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="jScrollPane4" pref="270" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane2" min="-2" pref="119" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane2" pref="119" max="32767" attributes="0"/>
                               <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                               <Component id="run1" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
@@ -469,6 +411,7 @@
                             <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                               <Color id="Cursor Por defecto"/>
                             </Property>
+                            <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                           <AuxValues>
                             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -534,7 +477,7 @@
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
                                       <Component id="jLabel11" min="-2" pref="50" max="-2" attributes="0"/>
@@ -543,26 +486,26 @@
                                   <Component id="jScrollPane8" alignment="0" max="32767" attributes="0"/>
                                   <Component id="jScrollPane9" alignment="0" pref="541" max="32767" attributes="0"/>
                                   <Group type="102" alignment="1" attributes="0">
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <EmptySpace pref="441" max="32767" attributes="0"/>
                                       <Component id="run2" min="-2" pref="100" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>
                     <DimensionLayout dim="1">
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <EmptySpace pref="59" max="32767" attributes="0"/>
-                              <Component id="jScrollPane8" min="-2" pref="270" max="-2" attributes="0"/>
-                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="59" max="-2" attributes="0"/>
+                              <Component id="jScrollPane8" pref="270" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
                               <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="jScrollPane9" min="-2" pref="119" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
+                              <Component id="jScrollPane9" pref="119" max="32767" attributes="0"/>
                               <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
                               <Component id="run2" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
+                              <EmptySpace min="-2" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                     </DimensionLayout>

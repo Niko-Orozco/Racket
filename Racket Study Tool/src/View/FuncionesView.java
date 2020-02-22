@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.table.DefaultTableModel;
+
 /**
  *
  * @author xlOnly
@@ -24,6 +26,8 @@ public class FuncionesView extends javax.swing.JFrame {
         
         numerolinea = new NumeroLinea(code2);
         jScrollPane9.setRowHeaderView(numerolinea);
+        
+        llenarTabla();
     }
 
     /**
@@ -508,6 +512,46 @@ public class FuncionesView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run3ActionPerformed
 
+    private void llenarTabla(){
+        String datos[][] = new String[60][3];
+        String namescols[] = {"Funcion","Entrada-Salida","Descripcion"};  
+        String funcionesD[] = {"*","+","-","/","<","<","<=",">",">=", 
+                               "abs","acos","add1","angle","asin",
+                               "atan","ceiling","complex?","conjugate",
+                               "cos","cosh","current-secconds","e",
+                               "event?","exact->inexact","exact?","exp",
+                               "expt","floor","gcd","imag-part",
+                               "integer->char","integer-sqrt","integer?","log",
+                               "magnitude","make-polar","make-rectangular","max",
+                               "min","modulo","negative?","number->string",
+                               "number?","numerator","odd?","Pi",
+                               "positive?","quotient","random","rational?",
+                               "real-part","real?","remainder","round",
+                               "sgn","sin","sinh","sqrt",
+                               "sub1","tan","zero?"};
+        String descripcion[] = {"Multiplicacion","Suna","Resta","Division","comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
+                                "comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f","comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f","comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f","valor absoluto de un numero","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+                                "","","","","",
+        };
+        
+        DatosStruct.setModel(new DefaultTableModel(datos,namescols));
+    }
     /**
      * @param args the command line arguments
      */

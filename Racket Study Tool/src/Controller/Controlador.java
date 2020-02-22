@@ -40,6 +40,8 @@ public class Controlador {
     private Listas_Pares listPares;
     private Funciones Functions;
     private FuncionesView FuncView;
+    private CaracteresView CaracView;
+    private Caracteres_Documentacion CaracD;
     
     
     public Controlador(Menu menu) {
@@ -50,6 +52,13 @@ public class Controlador {
             FuncView = new FuncionesView();
             FuncView.setVisible(true);
             FuncionesView();
+        });
+        this.menu.caracteres.addActionListener((ActionEvent e) -> {
+            this.CaracD = new Caracteres_Documentacion();
+            menu.setVisible(false);
+            CaracView = new CaracteresView();
+            CaracView.setVisible(true);
+            caracteresView();
         });
         this.menu.cadenas.addActionListener((ActionEvent e) -> {
             this.CadString = new Cadenas_Strings();
@@ -96,12 +105,83 @@ public class Controlador {
         });
     }
     
+    public void caracteresView(){
+        this.CaracView.setTitle("Caracteres");
+        this.CaracView.setLocationRelativeTo(null);
+        CaracView.caracter1.setText(CaracD.caracter1());
+        CaracView.caracter2.setText(CaracD.caracter2());
+        CaracView.caracter3.setText(CaracD.caracter3());
+        CaracView.caracter4.setText(CaracD.caracter4());
+        CaracView.caracter5.setText(CaracD.caracter5());
+        CaracView.code.setText(CaracD.Ejecaracter1());
+        CaracView.code2.setText(CaracD.Ejecaracter2()); 
+        CaracView.code3.setText(CaracD.Ejecaracter3());
+        CaracView.run1.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo1.setText(runCodeCar(1));
+        });
+        CaracView.run2.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo2.setText(runCodeCar(2));
+        });  
+        CaracView.run3.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo3.setText(runCodeCar(3));
+        }); 
+    }
+    
+    public String runCodeCar(int ns){
+        String respuesta = "",aux="",n1,n2,n3,n4;
+        int nes = 1,nes2,nes3=0;
+        switch(ns){
+            case 1: try {
+                        n1 = JOptionPane.showInputDialog("Ingrese un numero");
+                        
+                        respuesta =
+                                n1.equals("A")? 
+                                      "Aceptable":n1.equals("a")?
+                                      "Aceptable":n1.equals("E")? 
+                                      "Exelente":n1.equals("e")? 
+                                      "Exelente":n1.equals("S")? 
+                                      "Sobresaliente":n1.equals("s")?
+                                      "Sobresaliente":n1.equals("I")?
+                                      "Insuficiente":n1.equals("i")?
+                                      "Insuficiente":n1.equals("D")?
+                                      "Deficiente":n1.equals("d")?
+                                      "Deficiente":"No es una nota valida";
+                        
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        while(nes < 1025 ){
+                            respuesta += Character.toString((char)nes)+" ";
+                            nes++;
+                        } 
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+               
+            case 3: try {
+                        nes2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        while(nes3 < 11 ){
+                            respuesta += ""+nes2 + " * " + nes3 + " = " + nes2*nes3+"\n";
+                            nes3++;
+                        }
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error...\nRemind int max value 4294967296 ");
+                     }
+                break;                   
+        }
+        return respuesta;
+    }
+    
     public void FuncionesView(){
         this.FuncView.setTitle("Funciones");
         this.FuncView.setLocationRelativeTo(null);
         FuncView.funciones1.setText(Functions.funciones1());
         FuncView.funciones2.setText(Functions.funciones2());
-        FuncView.code.setText(Functions.Ejefunciones1());
+        FuncView.funciones3.setText(Functions.funciones3());
+        FuncView.code.setText (Functions.Ejefunciones1());
         FuncView.code2.setText(Functions.Ejefunciones2());
         FuncView.code3.setText(Functions.Ejefunciones3());
         

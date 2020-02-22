@@ -17,19 +17,7 @@ public class Condicionales {
     public String Quees(){
         String data="Una expresión condicional es una instrucción o grupo de instrucciones\nque se pueden " +
                     "ejecutar o no\n" +
-                    "\n" +
-                    "Gráficamente tendríamos\n" +
-                    "                	   -----------\n" +
-                    "               	   |  a > b  |\n" +
-                    "               	   -----------\n" +
-                    "        si       	         |                     no\n" +
-                    "       ----------------------------------------------\n" +
-                    "       |             	                                      |\n" +
-                    "''a es mayor que b''                 ‘’b es mayor que a’’\n" +
-                    "       |             	                                      |\n" +
-                    "       ---------------------------------------------\n" +
-                    "                     	         |\n" +
-                    "                            Respuesta";
+                    "\n";
         return data;
     }
     
