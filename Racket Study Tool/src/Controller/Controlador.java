@@ -101,7 +101,8 @@ public class Controlador {
         this.FuncView.setLocationRelativeTo(null);
         FuncView.funciones1.setText(Functions.funciones1());
         FuncView.funciones2.setText(Functions.funciones2());
-        FuncView.code.setText(Functions.Ejefunciones1());
+        FuncView.funciones3.setText(Functions.funciones3());
+        FuncView.code.setText (Functions.Ejefunciones1());
         FuncView.code2.setText(Functions.Ejefunciones2());
         FuncView.code3.setText(Functions.Ejefunciones3());
         
