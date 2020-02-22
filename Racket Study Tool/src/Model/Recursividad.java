@@ -10,5 +10,19 @@ package Model;
  * @author Niko
  */
 public class Recursividad {
+
+    public Recursividad() {
+        
+    }
+    
+    public String recursividad1(){
+        String data = "";
+        return data;
+    }
+    
+    public String Ejerecursividad1(){
+        String data = "";
+        return data;
+    }
     
 }
