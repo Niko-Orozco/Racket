@@ -529,15 +529,20 @@ public class FuncionesView extends javax.swing.JFrame {
                                "real-part","real?","remainder","round",
                                "sgn","sin","sinh","sqrt",
                                "sub1","tan","zero?"};
+<<<<<<< Updated upstream
         String descripcion[] = {"Multiplicacion","Suma","Resta","Division","Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
+=======
+        
+        String descripcion[] = {"Multiplicacion","Suna","Resta","Division","Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
+>>>>>>> Stashed changes
                                 "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f","Valor absoluto de un numero","Arco-coseno",
                                 "Aumenta un numero en 1","Calcula el angulo de un real","Arco-seno","Arco-tangente","proxima un valor real",
                                 "Evalua si algo es un numero complejo","El conjugado complejo de un numero","Coseno","Coseno Hiperbolico","Devuelve la hora actual en segundos",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
+                                "''e'' es Euler 2.718281","Nos dice si el numero es exacto o no","Eleva un numero a determinada potencia","Aproxima a piso","Maximo comun divisor",
+                                "Nos dice si algo es un numero entero o no","Calcula el rogaritmo de un numero","Evalua dos o mas numeros y nos dice cual es el mayor de todos","Evalua dos o mas numeros y nos dice cual es el menor de todos","Devuelve el modulo de la division entre dos numeros",
+                                "Evalua un numero y dice si es negativo o no","Evalua el valor y nos dice si es un numero","''pi'' es igual a:314159265","Devuelve el contenido de la division entre dos numeros","Devuelve un numero aleatorio",
+                                "Evalua un valor y nos dice si es real","Devuelve el residuo de la division entre dos numeros","redondea un numero","Devuelve el seno de un numero","Calcula la raiz cuadrada de un numero",
+                                "Devuelve la tagente de un numero","Evalua un numero y nos dice si es cero o no","","","",
                                 "","","","","",
                                 "","","","","",
                                 "","","","","",
