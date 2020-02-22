@@ -538,18 +538,7 @@ public class FuncionesView extends javax.swing.JFrame {
                                 "Nos dice si algo es un numero entero o no","Calcula el rogaritmo de un numero","Evalua dos o mas numeros y nos dice cual es el mayor de todos","Evalua dos o mas numeros y nos dice cual es el menor de todos","Devuelve el modulo de la division entre dos numeros",
                                 "Evalua un numero y dice si es negativo o no","Evalua el valor y nos dice si es un numero","''pi'' es igual a:314159265","Devuelve el contenido de la division entre dos numeros","Devuelve un numero aleatorio",
                                 "Evalua un valor y nos dice si es real","Devuelve el residuo de la division entre dos numeros","redondea un numero","Devuelve el seno de un numero","Calcula la raiz cuadrada de un numero",
-                                "Devuelve la tagente de un numero","Evalua un numero y nos dice si es cero o no","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-                                "","","","","",
-        };
+                                "Devuelve la tagente de un numero","Evalua un numero y nos dice si es cero o no"};
         
         DatosStruct.setModel(new DefaultTableModel(datos,namescols));
     }
