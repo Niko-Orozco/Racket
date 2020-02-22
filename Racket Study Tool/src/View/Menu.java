@@ -33,12 +33,15 @@ public class Menu extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        jPanel31 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jLabel17 = new javax.swing.JLabel();
         jPanel30 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
+        jPanel33 = new javax.swing.JPanel();
+        jPanel32 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jTextArea1 = new javax.swing.JTextArea();
         jPanel4 = new javax.swing.JPanel();
@@ -127,10 +130,26 @@ public class Menu extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel1.setText("GUIA PROGRAMACION FUNCIONAL");
         jPanel3.add(jLabel1);
         jLabel1.setBounds(20, 100, 500, 60);
+
+        jPanel31.setBackground(new java.awt.Color(237, 237, 237));
+
+        javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
+        jPanel31.setLayout(jPanel31Layout);
+        jPanel31Layout.setHorizontalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 20, Short.MAX_VALUE)
+        );
+        jPanel31Layout.setVerticalGroup(
+            jPanel31Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 120, Short.MAX_VALUE)
+        );
+
+        jPanel3.add(jPanel31);
+        jPanel31.setBounds(20, 180, 20, 120);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -144,7 +163,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel6.add(jButton2);
         jButton2.setBounds(990, 0, 81, 23);
 
-        jLabel17.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel17.setText("Dr Racket");
         jPanel6.add(jLabel17);
         jLabel17.setBounds(10, 0, 130, 40);
@@ -176,17 +195,49 @@ public class Menu extends javax.swing.JFrame {
         jPanel3.add(jPanel30);
         jPanel30.setBounds(650, 40, 520, 440);
 
+        jPanel33.setBackground(new java.awt.Color(237, 237, 237));
+
+        javax.swing.GroupLayout jPanel33Layout = new javax.swing.GroupLayout(jPanel33);
+        jPanel33.setLayout(jPanel33Layout);
+        jPanel33Layout.setHorizontalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 630, Short.MAX_VALUE)
+        );
+        jPanel33Layout.setVerticalGroup(
+            jPanel33Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 30, Short.MAX_VALUE)
+        );
+
+        jPanel3.add(jPanel33);
+        jPanel33.setBounds(30, 150, 630, 30);
+
+        jPanel32.setBackground(new java.awt.Color(237, 237, 237));
+
+        javax.swing.GroupLayout jPanel32Layout = new javax.swing.GroupLayout(jPanel32);
+        jPanel32.setLayout(jPanel32Layout);
+        jPanel32Layout.setHorizontalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 630, Short.MAX_VALUE)
+        );
+        jPanel32Layout.setVerticalGroup(
+            jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 30, Short.MAX_VALUE)
+        );
+
+        jPanel3.add(jPanel32);
+        jPanel32.setBounds(30, 300, 630, 30);
+
         jScrollPane2.setBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
         jTextArea1.setEditable(false);
-        jTextArea1.setBackground(new java.awt.Color(240, 240, 240));
+        jTextArea1.setBackground(new java.awt.Color(237, 237, 237));
         jTextArea1.setColumns(20);
-        jTextArea1.setFont(new java.awt.Font("Monospaced", 0, 18)); // NOI18N
+        jTextArea1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("El software tiene como objetivo brindarle a estudiantes\nde ingenieria de sistemas de primer semestre una guia\npara el desarrollo del curso Programacion I, donde\nabordaran el paradigma funcional, veran sus ventajas, \ndesventajas  y aplicaciones.");
+        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de sistemas de\n  primer  semestre  una guia  para  el   desarrollo  del  curso  Programacion I,  donde\n  abordaran el paradigma funcional, veran sus ventajas,  desventajas  y aplicaciones.");
         jTextArea1.setToolTipText("");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(null);
@@ -196,7 +247,7 @@ public class Menu extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea1);
 
         jPanel3.add(jScrollPane2);
-        jScrollPane2.setBounds(30, 170, 640, 150);
+        jScrollPane2.setBounds(30, 170, 670, 150);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -210,10 +261,12 @@ public class Menu extends javax.swing.JFrame {
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setLayout(null);
 
+        jLabel6.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel6.setText("conceptos fundamentales, notaciones");
         jPanel2.add(jLabel6);
         jLabel6.setBounds(10, 30, 290, 20);
 
+        jLabel33.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel33.setText("Que es la programacion, paradigmas,");
         jPanel2.add(jLabel33);
         jLabel33.setBounds(10, 10, 290, 20);
@@ -266,6 +319,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel7.setLayout(null);
 
+        jLabel18.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel18.setText("por que hacerlas, modularidad...");
         jPanel7.add(jLabel18);
         jLabel18.setBounds(10, 30, 200, 20);
@@ -280,6 +334,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel7.add(funciones);
         funciones.setBounds(90, 100, 130, 30);
 
+        jLabel36.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel36.setText("Funciones, como hacerlas, para que sirven");
         jPanel7.add(jLabel36);
         jLabel36.setBounds(10, 10, 300, 20);
@@ -306,6 +361,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel8.setLayout(null);
 
+        jLabel19.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel19.setText("Uso de operadores aritméticos");
         jPanel8.add(jLabel19);
@@ -316,10 +372,11 @@ public class Menu extends javax.swing.JFrame {
         jPanel8.add(expreciones);
         expreciones.setBounds(100, 100, 130, 30);
 
+        jLabel16.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel16.setText("suma, resta, multiplicación y división");
         jPanel8.add(jLabel16);
-        jLabel16.setBounds(30, 40, 270, 14);
+        jLabel16.setBounds(30, 40, 270, 17);
 
         jPanel13.add(jPanel8);
         jPanel8.setBounds(0, 190, 326, 140);
@@ -343,6 +400,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel20.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel20.setLayout(null);
 
+        jLabel21.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel21.setText("procesos basados en su propia definicion");
         jPanel20.add(jLabel21);
         jLabel21.setBounds(10, 30, 290, 20);
@@ -357,6 +415,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel20.add(recursividad);
         recursividad.setBounds(90, 100, 130, 30);
 
+        jLabel37.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel37.setText("Recursividad, bucles, criterios de parada");
         jPanel20.add(jLabel37);
         jLabel37.setBounds(10, 10, 290, 20);
@@ -382,6 +441,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel11.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel11.setLayout(null);
 
+        jLabel20.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel20.setText("cond, booleanos...");
         jPanel11.add(jLabel20);
         jLabel20.setBounds(10, 30, 300, 30);
@@ -391,6 +451,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel11.add(condicionales);
         condicionales.setBounds(90, 100, 130, 30);
 
+        jLabel38.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel38.setText("Expresiones falsas y verdaeras, uso de if y");
         jPanel11.add(jLabel38);
         jLabel38.setBounds(10, 10, 300, 30);
@@ -415,10 +476,12 @@ public class Menu extends javax.swing.JFrame {
         jPanel23.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel23.setLayout(null);
 
+        jLabel22.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel22.setText("la importancia de hacerlos");
         jPanel23.add(jLabel22);
         jLabel22.setBounds(10, 30, 290, 20);
 
+        jLabel39.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel39.setText("Caracteres, documentacion, comentarios y");
         jPanel23.add(jLabel39);
         jLabel39.setBounds(10, 10, 300, 20);
@@ -451,6 +514,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel24.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel24.setLayout(null);
 
+        jLabel23.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel23.setText("operaciones ");
         jPanel24.add(jLabel23);
         jLabel23.setBounds(10, 30, 290, 30);
@@ -460,6 +524,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel24.add(cadenas);
         cadenas.setBounds(90, 100, 130, 30);
 
+        jLabel40.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel40.setText("Cadenas, definicion de variables, uso y ");
         jPanel24.add(jLabel40);
         jLabel40.setBounds(10, 10, 290, 30);
@@ -485,6 +550,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel25.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel25.setLayout(null);
 
+        jLabel24.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel24.setText("y manipulacion de vectores");
         jPanel25.add(jLabel24);
         jLabel24.setBounds(10, 30, 290, 20);
@@ -502,6 +568,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel25.add(vectores);
         vectores.setBounds(100, 100, 130, 30);
 
+        jLabel41.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel41.setText("Que es un vector, creacion, modificacion ");
         jPanel25.add(jLabel41);
         jLabel41.setBounds(10, 10, 300, 20);
@@ -527,6 +594,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel26.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel26.setLayout(null);
 
+        jLabel25.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel25.setText("de listas");
         jPanel26.add(jLabel25);
         jLabel25.setBounds(10, 30, 300, 40);
@@ -541,6 +609,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel26.add(listas);
         listas.setBounds(110, 100, 130, 30);
 
+        jLabel42.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel42.setText("Creacion, modificacion y manipulacion de");
         jPanel26.add(jLabel42);
         jLabel42.setBounds(10, 10, 300, 40);
@@ -565,6 +634,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel27.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel27.setLayout(null);
 
+        jLabel26.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel26.setText("Pares, operaciones con pares, uso de pares");
         jPanel27.add(jLabel26);
         jLabel26.setBounds(0, 50, 310, 40);
@@ -600,6 +670,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel28.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel28.setLayout(null);
 
+        jLabel27.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel27.setText("como implementarlo en racket");
         jPanel28.add(jLabel27);
         jLabel27.setBounds(10, 30, 300, 40);
@@ -609,6 +680,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel28.add(estructuras);
         estructuras.setBounds(90, 100, 130, 30);
 
+        jLabel43.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel43.setText("Estructuras de datos, operaciones basicas");
         jPanel28.add(jLabel43);
         jLabel43.setBounds(10, 10, 300, 40);
@@ -633,6 +705,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel29.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel29.setLayout(null);
 
+        jLabel28.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel28.setText("el teclado y el mouse, uso de graficos");
         jPanel29.add(jLabel28);
         jLabel28.setBounds(10, 30, 290, 30);
@@ -647,6 +720,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel29.add(grafico);
         grafico.setBounds(100, 100, 130, 30);
 
+        jLabel44.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
         jLabel44.setText("Modo grafico, interaccion con la pantalla,");
         jPanel29.add(jLabel44);
         jLabel44.setBounds(10, 10, 290, 30);
@@ -661,7 +735,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel4.add(jPanel21);
         jPanel21.setBounds(770, 1260, 328, 335);
 
-        jLabel29.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel29.setText("Guia  Lenguaje Racket");
         jPanel4.add(jLabel29);
         jLabel29.setBounds(470, 30, 280, 40);
@@ -838,6 +912,9 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
