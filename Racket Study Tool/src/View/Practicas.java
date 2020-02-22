@@ -52,6 +52,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jPanel14 = new javax.swing.JPanel();
+        jPanel25 = new javax.swing.JPanel();
+        jLabel8 = new javax.swing.JLabel();
+        op2 = new javax.swing.JRadioButton();
+        op4 = new javax.swing.JRadioButton();
+        t7 = new javax.swing.JRadioButton();
+        t8 = new javax.swing.JRadioButton();
+        op1 = new javax.swing.JRadioButton();
+        op3 = new javax.swing.JRadioButton();
+        jPanel26 = new javax.swing.JPanel();
+        jLabel4 = new javax.swing.JLabel();
+        op8 = new javax.swing.JRadioButton();
+        r8 = new javax.swing.JRadioButton();
+        jLabel10 = new javax.swing.JLabel();
+        r9 = new javax.swing.JRadioButton();
+        r10 = new javax.swing.JRadioButton();
+        op7 = new javax.swing.JRadioButton();
+        op5 = new javax.swing.JRadioButton();
+        op6 = new javax.swing.JRadioButton();
+        jLabel11 = new javax.swing.JLabel();
+        jLabel12 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         jPanel15 = new javax.swing.JPanel();
@@ -65,12 +85,12 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         r1 = new javax.swing.JRadioButton();
-        jLabel4 = new javax.swing.JLabel();
         r3 = new javax.swing.JRadioButton();
         jLabel7 = new javax.swing.JLabel();
         r2 = new javax.swing.JRadioButton();
-        jLabel8 = new javax.swing.JLabel();
         r4 = new javax.swing.JRadioButton();
+        r5 = new javax.swing.JRadioButton();
+        r6 = new javax.swing.JRadioButton();
         jLabel9 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
@@ -105,10 +125,10 @@ public class Practicas extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("¡¡ Herramienta de Practica !!");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(400, 0, 210, 50);
+        jLabel1.setBounds(270, 0, 400, 50);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -136,15 +156,107 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Funciones", jPanel2);
 
+        jPanel25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel25.setLayout(null);
+
+        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/operacionej1.jpg"))); // NOI18N
+        jPanel25.add(jLabel8);
+        jLabel8.setBounds(30, 10, 380, 270);
+
+        op2.setText("342132");
+        jPanel25.add(op2);
+        op2.setBounds(240, 290, 120, 29);
+
+        op4.setText("17000000");
+        jPanel25.add(op4);
+        op4.setBounds(240, 320, 120, 29);
+
+        t7.setText("No hace nada");
+        jPanel25.add(t7);
+        t7.setBounds(70, 370, 110, 29);
+
+        t8.setText("Valor de a: 33");
+        jPanel25.add(t8);
+        t8.setBounds(240, 370, 110, 29);
+
+        op1.setText("170000");
+        jPanel25.add(op1);
+        op1.setBounds(70, 290, 100, 29);
+
+        op3.setText("1700000");
+        jPanel25.add(op3);
+        op3.setBounds(70, 320, 120, 29);
+
+        jPanel26.setLayout(null);
+
+        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/operacionej2.jpg"))); // NOI18N
+        jLabel4.setText("imagen 1");
+        jPanel26.add(jLabel4);
+        jLabel4.setBounds(60, 10, 370, 270);
+
+        op8.setText("14.34");
+        op8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op8ActionPerformed(evt);
+            }
+        });
+        jPanel26.add(op8);
+        op8.setBounds(240, 320, 110, 29);
+        jPanel26.add(r8);
+        r8.setBounds(0, 370, 29, 29);
+
+        jLabel10.setText("imagen 2");
+        jPanel26.add(jLabel10);
+        jLabel10.setBounds(260, 0, 240, 170);
+        jPanel26.add(r9);
+        r9.setBounds(250, 180, 29, 29);
+        jPanel26.add(r10);
+        r10.setBounds(260, 370, 29, 29);
+
+        op7.setText("15.76");
+        jPanel26.add(op7);
+        op7.setBounds(240, 290, 200, 29);
+
+        op5.setText("14.183");
+        jPanel26.add(op5);
+        op5.setBounds(70, 290, 110, 29);
+
+        op6.setText("13.45");
+        jPanel26.add(op6);
+        op6.setBounds(70, 320, 110, 29);
+
+        jLabel11.setText("Si ingresamos el valor 250 en el read(), cual seria la salida?");
+
+        jLabel12.setText("Si ingresamos el valor 15 en el read(), cual seria la salida?");
+
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
         jPanel14Layout.setHorizontalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addComponent(jPanel25, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel26, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(47, 47, 47)
+                        .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(40, Short.MAX_VALUE))
         );
         jPanel14Layout.setVerticalGroup(
             jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel11, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(1, 1, 1)
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel26, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         jScrollPane3.setViewportView(jPanel14);
@@ -153,11 +265,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel3.setLayout(jPanel3Layout);
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane3)
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane3)
         );
 
         jTabbedPane1.addTab("Expreciones Aritmeticas", jPanel3);
@@ -192,13 +304,11 @@ public class Practicas extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif2.jpg"))); // NOI18N
         jLabel2.setText("imagen 1");
         jPanel23.add(jLabel2);
-        jLabel2.setBounds(60, 0, 370, 250);
-        jPanel23.add(r1);
-        r1.setBounds(0, 180, 29, 29);
+        jLabel2.setBounds(60, 10, 370, 270);
 
-        jLabel4.setText("imagen 3");
-        jPanel23.add(jLabel4);
-        jLabel4.setBounds(0, 210, 240, 160);
+        r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
+        jPanel23.add(r1);
+        r1.setBounds(20, 320, 460, 29);
         jPanel23.add(r3);
         r3.setBounds(0, 370, 29, 29);
 
@@ -207,12 +317,16 @@ public class Practicas extends javax.swing.JFrame {
         jLabel7.setBounds(260, 0, 240, 170);
         jPanel23.add(r2);
         r2.setBounds(250, 180, 29, 29);
-
-        jLabel8.setText("imagen 4");
-        jPanel23.add(jLabel8);
-        jLabel8.setBounds(260, 210, 240, 160);
         jPanel23.add(r4);
         r4.setBounds(260, 370, 29, 29);
+
+        r5.setText("La opcion no es valida");
+        jPanel23.add(r5);
+        r5.setBounds(240, 290, 200, 29);
+
+        r6.setText("reproducir El CAPITAL");
+        jPanel23.add(r6);
+        r6.setBounds(20, 290, 200, 29);
 
         jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
 
@@ -522,6 +636,10 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void op8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op8ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -566,6 +684,9 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
+    private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
@@ -591,6 +712,8 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel23;
     private javax.swing.JPanel jPanel24;
+    private javax.swing.JPanel jPanel25;
+    private javax.swing.JPanel jPanel26;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -610,13 +733,28 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton menu;
+    public javax.swing.JRadioButton op1;
+    public javax.swing.JRadioButton op2;
+    public javax.swing.JRadioButton op3;
+    public javax.swing.JRadioButton op4;
+    public javax.swing.JRadioButton op5;
+    public javax.swing.JRadioButton op6;
+    public javax.swing.JRadioButton op7;
+    public javax.swing.JRadioButton op8;
     public javax.swing.JRadioButton r1;
+    public javax.swing.JRadioButton r10;
     public javax.swing.JRadioButton r2;
     public javax.swing.JRadioButton r3;
     public javax.swing.JRadioButton r4;
+    public javax.swing.JRadioButton r5;
+    public javax.swing.JRadioButton r6;
+    public javax.swing.JRadioButton r8;
+    public javax.swing.JRadioButton r9;
     public javax.swing.JRadioButton t1;
     public javax.swing.JRadioButton t2;
     public javax.swing.JRadioButton t3;
     public javax.swing.JRadioButton t4;
+    public javax.swing.JRadioButton t7;
+    public javax.swing.JRadioButton t8;
     // End of variables declaration//GEN-END:variables
 }
