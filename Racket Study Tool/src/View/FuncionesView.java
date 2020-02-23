@@ -393,6 +393,7 @@ public class FuncionesView extends javax.swing.JFrame {
                 {null, null, null},
                 {null, null, null},
                 {null, null, null},
+                {null, null, null},
                 {null, null, null}
             },
             new String [] {
@@ -407,6 +408,7 @@ public class FuncionesView extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        DatosStruct.setFocusable(false);
         jScrollPane11.setViewportView(DatosStruct);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -513,7 +515,7 @@ public class FuncionesView extends javax.swing.JFrame {
     }//GEN-LAST:event_run3ActionPerformed
 
     private void llenarTabla(){
-        String datos[][] = new String[60][3];
+        String datos[][] = new String[61][3];
         String namescols[] = {"Funcion","Entrada-Salida","Descripcion"};  
         String funcionesD[] = {"*","+","-","/","<","<","<=",">",">=", 
                                "abs","acos","add1","angle","asin",
@@ -540,7 +542,14 @@ public class FuncionesView extends javax.swing.JFrame {
                                 "Evalua un valor y nos dice si es real","Devuelve el residuo de la division entre dos numeros","redondea un numero","Devuelve el seno de un numero","Calcula la raiz cuadrada de un numero",
                                 "Devuelve la tagente de un numero","Evalua un numero y nos dice si es cero o no"};
         
+        for(int i=0; i < 61;i++){
+            datos[i][0] = descripcion[i];
+            
+        } 
+
+        
         DatosStruct.setModel(new DefaultTableModel(datos,namescols));
+        DatosStruct.setFocusable(false);
     }
     /**
      * @param args the command line arguments

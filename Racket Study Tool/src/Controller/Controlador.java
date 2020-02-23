@@ -125,6 +125,16 @@ public class Controlador {
         CaracView.run3.addActionListener((ActionEvent e) -> {
             CaracView.verinfo3.setText(runCodeCar(3));
         }); 
+        CaracView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            CaracView.setVisible(false);
+            practices();
+        });
+        CaracView.menu.addActionListener((ActionEvent e) -> {
+            CaracView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
     }
     
     public String runCodeCar(int ns){
