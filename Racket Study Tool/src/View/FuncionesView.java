@@ -5,6 +5,7 @@
  */
 package View;
 
+import java.util.concurrent.ExecutionException;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -27,7 +28,9 @@ public class FuncionesView extends javax.swing.JFrame {
         numerolinea = new NumeroLinea(code2);
         jScrollPane9.setRowHeaderView(numerolinea);
         
-        llenarTabla();
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane12.setRowHeaderView(numerolinea);
+
     }
 
     /**
@@ -334,80 +337,88 @@ public class FuncionesView extends javax.swing.JFrame {
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null},
-                {null, null, null}
+                {"*", "(* num1 num2) -> num", "Multiplicacion"},
+                {"+", "(+ num1 num2) -> num", "Suma"},
+                {"-", "(-  num1 num2) -> num", "Resta"},
+                {"/", "(/  num1 num2) -> num", "Division"},
+                {"<", "(< num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"},
+                {"<=", "<= num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"},
+                {">", "(>  num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"},
+                {">=", "(>= num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f"},
+                {"abs", "(abs  num) -> num", "Valor absoluto de un numero"},
+                {"acos", "(acos  num) -> num", "Arco-coseno"},
+                {"add1", "(add1  num) -> num+1", "Aumenta un numero en 1"},
+                {"angle", "(angle  num) -> num", "Calcula el angulo de un real"},
+                {"asin", "(asin  num) -> num", "Arco-seno"},
+                {"atan", "(atan  num) -> num", "Arco-tangente"},
+                {"ceiling", "(celing  num) -> num", "Aproxima un valor real"},
+                {"complex?", "(any  data) -> #t o #f", "Evalua si algo es un numero complejo"},
+                {"conjugate", "(conjugate  num) -> num", "El conjugado complejo de un numero"},
+                {"cos", "(cos  num) -> num", "Coseno"},
+                {"cosh", "(cosh  num) -> num", "Coseno Hiperbolico"},
+                {"current-secconds", "date", "Devuelve la hora actual en segundos"},
+                {"e", "( e ) -> num", "''e'' es Euler 2.718281"},
+                {"event?", "(even?  num) -> #t o #f", "Prueba un numero para una propiedad particular devolviendo segun sea el caso #t o #f"},
+                {"exact->inexact", "(exact->inexact  num) -> num", "Las operaciones especiales exact->inexact son vasados en los tipos de datos numericos asegurando que el tipo respectivo es exacto o no"},
+                {"exact?", "(exact?  num) -> #t  o #f", "Nos dice si el numero es exacto o no"},
+                {"exp", "(exp num) -> num", "Devuelve el valor de Euler elevado a la potencia indicada"},
+                {"expt", "(expt num1 num2) -> num", "Eleva un numero a determinada potencia"},
+                {"floor", "(floor num) -> num", "Aproxima a piso"},
+                {"gcd", "(gcd num1 num2) -> num", "Maximo comun divisor"},
+                {"imag-part", "(image-part  num ) -> num", "Devuelve la parte imaginaria de un numero complejo en coordenadas rectangulares"},
+                {"integer->char", "(integer->char num) -> char", "Entero o Caracter"},
+                {"integer-sqrt", "(integer-sqrt  num) -> raiz( num)", "Saca la raiz de un numero entero"},
+                {"integer?", "(integer? any) -> #f t o #f", "Nos dice si algo es un numero entero o no"},
+                {"log", "(log  num) -> num", "Calcula el logaritmo de un numero"},
+                {"magnitude", "(magnitude  num) -> num", "Devuelve la magnitud de un numero complejo en coordenadas rectangulares"},
+                {"make-polar", "(make-polar num1 num2) -> num", "Devuelve el resultado de la operacion (+(* magnitude (cos num))(* magnitude (cos num)))"},
+                {"make-rectangular", "(make-rectangular num1 num2) -> num", "Devuelve el resultado de la operacion (+ x (* y + 0+li))"},
+                {"max", "(max num1  num2) -> num", "Evalua dos o mas numeros y nos dice cual es el mayor de todos"},
+                {"min", "(min num1  num2) -> num", "Evalua dos o mas numeros y nos dice cual es el menor de todos"},
+                {"modulo", "(modulo num1  num2) -> num", "Devuelve el modulo de la division entre dos numeros"},
+                {"negative?", "(negative?  num) -> #t  o #f", "Evalua un numero y dice si es negativo o no"},
+                {"number->string", "(number->string num) -> string", "Devuelve una cadena que es la forma impresa de num es la base especificada por r (2,8,10,16)"},
+                {"number?", "(number? any) -> #f t o #f", "Evalua el valor y nos dice si es un numero"},
+                {"numerator", "(numerator num) -> num", "Encuentra el numerado del numero expresado, obliga al numero racinal a ser un numero exacto"},
+                {"odd?", "(add? num) -> #f t o #f", "Devuelve el resultado de evaluar (not(even? n))"},
+                {"Pi", "( Pi ) -> num", "''pi'' es igual a:3.14159265"},
+                {"positive?", "(positive? num) -> #f t o #f", "Devuelve #t si num es mayor a 0, #f en caso contrario"},
+                {"quotient", "(quotient num1  num2) -> num", "Devuelve el cociente de la division entre dos numeros"},
+                {"random", "( random ) -> num", "Devuelve un numero aleatorio"},
+                {"rational?", "(rational? any) -> #f t o #f", "Devuelve #t si any es un numero racional, #f en otro caso"},
+                {"real-part", "(real-part num) -> num", "Devuelve la parte real de un numero complejo en coordenadas rectangulares"},
+                {"real?", "(real? any) -> #f t o #f", "Evalua un valor y nos dice si es real"},
+                {"remainder", "(reminder  num1  num2) -> num", "Devuelve el residuo de la division entre dos numeros"},
+                {"round", "(round  num) -> num", "Redondea un numero"},
+                {"sgn", "(sgn  num) -> num", "Devuelve el signo de un numero como -1,0,1"},
+                {"sin", "(sin  num) -> num", "Devuelve el seno de un numero"},
+                {"sinh", "(sinh  num) -> num", "Devuelve el seno hiperbolico de un numero"},
+                {"sqrt", "(sqrt  num) -> raiz(num)", "Calcula la raiz cuadrada de un numero"},
+                {"sub1", "(sub1  num) -> num-1", "Devuelve el resultado de la operacion (- num 1)"},
+                {"tan", "(tan  num) -> num", "Devuelve la tagente de un numero"},
+                {"zero?", "(zero? num) -> #f t o #f", "Evalua un numero y nos dice si es cero o no"}
             },
             new String [] {
                 "Funcion", "Entrada-salida", "Descripcion"
             }
         ) {
+            Class[] types = new Class [] {
+                java.lang.String.class, java.lang.String.class, java.lang.String.class
+            };
             boolean[] canEdit = new boolean [] {
                 false, false, false
             };
+
+            public Class getColumnClass(int columnIndex) {
+                return types [columnIndex];
+            }
 
             public boolean isCellEditable(int rowIndex, int columnIndex) {
                 return canEdit [columnIndex];
             }
         });
+        DatosStruct.setToolTipText("");
+        DatosStruct.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_ALL_COLUMNS);
         DatosStruct.setFocusable(false);
         jScrollPane11.setViewportView(DatosStruct);
 
@@ -514,43 +525,6 @@ public class FuncionesView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run3ActionPerformed
 
-    private void llenarTabla(){
-        String datos[][] = new String[61][3];
-        String namescols[] = {"Funcion","Entrada-Salida","Descripcion"};  
-        String funcionesD[] = {"*","+","-","/","<","<","<=",">",">=", 
-                               "abs","acos","add1","angle","asin",
-                               "atan","ceiling","complex?","conjugate",
-                               "cos","cosh","current-secconds","e",
-                               "event?","exact->inexact","exact?","exp",
-                               "expt","floor","gcd","imag-part",
-                               "integer->char","integer-sqrt","integer?","log",
-                               "magnitude","make-polar","make-rectangular","max",
-                               "min","modulo","negative?","number->string",
-                               "number?","numerator","odd?","Pi",
-                               "positive?","quotient","random","rational?",
-                               "real-part","real?","remainder","round",
-                               "sgn","sin","sinh","sqrt",
-                               "sub1","tan","zero?"};
-
-        String descripcion[] = {"Multiplicacion","Suma","Resta","Division","Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f",
-                                "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f","Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f","Valor absoluto de un numero","Arco-coseno",
-                                "Aumenta un numero en 1","Calcula el angulo de un real","Arco-seno","Arco-tangente","proxima un valor real",
-                                "Evalua si algo es un numero complejo","El conjugado complejo de un numero","Coseno","Coseno Hiperbolico","Devuelve la hora actual en segundos",
-                                "''e'' es Euler 2.718281","Nos dice si el numero es exacto o no","Eleva un numero a determinada potencia","Aproxima a piso","Maximo comun divisor",
-                                "Nos dice si algo es un numero entero o no","Calcula el rogaritmo de un numero","Evalua dos o mas numeros y nos dice cual es el mayor de todos","Evalua dos o mas numeros y nos dice cual es el menor de todos","Devuelve el modulo de la division entre dos numeros",
-                                "Evalua un numero y dice si es negativo o no","Evalua el valor y nos dice si es un numero","''pi'' es igual a:314159265","Devuelve el contenido de la division entre dos numeros","Devuelve un numero aleatorio",
-                                "Evalua un valor y nos dice si es real","Devuelve el residuo de la division entre dos numeros","redondea un numero","Devuelve el seno de un numero","Calcula la raiz cuadrada de un numero",
-                                "Devuelve la tagente de un numero","Evalua un numero y nos dice si es cero o no"};
-        
-        for(int i=0; i < 61;i++){
-            datos[i][0] = descripcion[i];
-            
-        } 
-
-        
-        DatosStruct.setModel(new DefaultTableModel(datos,namescols));
-        DatosStruct.setFocusable(false);
-    }
     /**
      * @param args the command line arguments
      */

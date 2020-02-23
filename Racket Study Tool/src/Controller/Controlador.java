@@ -177,7 +177,7 @@ public class Controlador {
                             respuesta += ""+nes2 + " * " + nes3 + " = " + nes2*nes3+"\n";
                             nes3++;
                         }
-                     } catch (Exception e) {
+                     } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error...\nRemind int max value 4294967296 ");
                      }
                 break;                   
