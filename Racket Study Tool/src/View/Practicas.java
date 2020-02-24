@@ -58,10 +58,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel28 = new javax.swing.JPanel();
         jLabel14 = new javax.swing.JLabel();
         op13 = new javax.swing.JRadioButton();
-        r11 = new javax.swing.JRadioButton();
         jLabel15 = new javax.swing.JLabel();
         r12 = new javax.swing.JRadioButton();
-        r13 = new javax.swing.JRadioButton();
         op14 = new javax.swing.JRadioButton();
         op15 = new javax.swing.JRadioButton();
         op16 = new javax.swing.JRadioButton();
@@ -134,37 +132,89 @@ public class Practicas extends javax.swing.JFrame {
         jPanel6 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
+        jLabel37 = new javax.swing.JLabel();
+        jLabel38 = new javax.swing.JLabel();
+        jPanel37 = new javax.swing.JPanel();
+        jLabel39 = new javax.swing.JLabel();
+        op41 = new javax.swing.JRadioButton();
+        op42 = new javax.swing.JRadioButton();
+        t15 = new javax.swing.JRadioButton();
+        t16 = new javax.swing.JRadioButton();
+        op43 = new javax.swing.JRadioButton();
+        op44 = new javax.swing.JRadioButton();
+        jPanel38 = new javax.swing.JPanel();
+        jLabel40 = new javax.swing.JLabel();
+        op45 = new javax.swing.JRadioButton();
+        jLabel41 = new javax.swing.JLabel();
+        r17 = new javax.swing.JRadioButton();
+        op46 = new javax.swing.JRadioButton();
+        op47 = new javax.swing.JRadioButton();
+        op48 = new javax.swing.JRadioButton();
         jPanel7 = new javax.swing.JPanel();
         jScrollPane7 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
+        jPanel35 = new javax.swing.JPanel();
+        jLabel32 = new javax.swing.JLabel();
+        op21 = new javax.swing.JRadioButton();
+        op26 = new javax.swing.JRadioButton();
+        op35 = new javax.swing.JRadioButton();
+        op36 = new javax.swing.JRadioButton();
+        jPanel36 = new javax.swing.JPanel();
+        jLabel33 = new javax.swing.JLabel();
+        op37 = new javax.swing.JRadioButton();
+        jLabel34 = new javax.swing.JLabel();
+        r13 = new javax.swing.JRadioButton();
+        op38 = new javax.swing.JRadioButton();
+        op39 = new javax.swing.JRadioButton();
+        op40 = new javax.swing.JRadioButton();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane8 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
+        jPanel33 = new javax.swing.JPanel();
+        jLabel26 = new javax.swing.JLabel();
+        op29 = new javax.swing.JRadioButton();
+        op30 = new javax.swing.JRadioButton();
+        op31 = new javax.swing.JRadioButton();
+        op32 = new javax.swing.JRadioButton();
+        jPanel34 = new javax.swing.JPanel();
+        jLabel27 = new javax.swing.JLabel();
+        jLabel28 = new javax.swing.JLabel();
+        r21 = new javax.swing.JRadioButton();
+        op33 = new javax.swing.JRadioButton();
+        op34 = new javax.swing.JRadioButton();
+        jLabel29 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
         jPanel20 = new javax.swing.JPanel();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
+        jLabel46 = new javax.swing.JLabel();
+        jPanel40 = new javax.swing.JPanel();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        jTextArea3 = new javax.swing.JTextArea();
+        jPanel42 = new javax.swing.JPanel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTextArea4 = new javax.swing.JTextArea();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel12 = new javax.swing.JPanel();
         jPanel31 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
-        op21 = new javax.swing.JRadioButton();
         op22 = new javax.swing.JRadioButton();
-        t13 = new javax.swing.JRadioButton();
-        t14 = new javax.swing.JRadioButton();
         op25 = new javax.swing.JRadioButton();
-        op26 = new javax.swing.JRadioButton();
+        jRadioButton1 = new javax.swing.JRadioButton();
+        jRadioButton2 = new javax.swing.JRadioButton();
         jPanel32 = new javax.swing.JPanel();
         jLabel23 = new javax.swing.JLabel();
-        r17 = new javax.swing.JRadioButton();
         jLabel24 = new javax.swing.JLabel();
         r18 = new javax.swing.JRadioButton();
-        r19 = new javax.swing.JRadioButton();
         op27 = new javax.swing.JRadioButton();
         op28 = new javax.swing.JRadioButton();
+        jLabel30 = new javax.swing.JLabel();
+        jLabel31 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
@@ -225,16 +275,12 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel28.add(op13);
         op13.setBounds(240, 320, 110, 29);
-        jPanel28.add(r11);
-        r11.setBounds(0, 370, 29, 29);
 
         jLabel15.setText("imagen 2");
         jPanel28.add(jLabel15);
         jLabel15.setBounds(260, 0, 240, 170);
         jPanel28.add(r12);
         r12.setBounds(250, 180, 29, 29);
-        jPanel28.add(r13);
-        r13.setBounds(260, 370, 29, 29);
 
         op14.setText("213");
         jPanel28.add(op14);
@@ -625,15 +671,102 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Recursividad", jPanel5);
 
+        jLabel37.setText("cual seria la salida?");
+
+        jLabel38.setText("cual seria la salida?");
+
+        jPanel37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel37.setLayout(null);
+
+        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/caracteres1.jpg"))); // NOI18N
+        jPanel37.add(jLabel39);
+        jLabel39.setBounds(30, 10, 380, 270);
+
+        op41.setText("#\\7");
+        jPanel37.add(op41);
+        op41.setBounds(240, 290, 120, 29);
+
+        op42.setText("7");
+        jPanel37.add(op42);
+        op42.setBounds(240, 320, 120, 29);
+
+        t15.setText("No hace nada");
+        jPanel37.add(t15);
+        t15.setBounds(70, 370, 110, 29);
+
+        t16.setText("Valor de a: 33");
+        jPanel37.add(t16);
+        t16.setBounds(240, 370, 110, 29);
+
+        op43.setText("#\\t");
+        jPanel37.add(op43);
+        op43.setBounds(70, 290, 100, 29);
+
+        op44.setText("#\\f");
+        jPanel37.add(op44);
+        op44.setBounds(70, 320, 120, 29);
+
+        jPanel38.setLayout(null);
+
+        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/caracteres2.jpg"))); // NOI18N
+        jLabel40.setText("imagen 1");
+        jPanel38.add(jLabel40);
+        jLabel40.setBounds(60, 10, 370, 270);
+
+        op45.setText("e");
+        op45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op45ActionPerformed(evt);
+            }
+        });
+        jPanel38.add(op45);
+        op45.setBounds(240, 320, 110, 29);
+
+        jLabel41.setText("imagen 2");
+        jPanel38.add(jLabel41);
+        jLabel41.setBounds(260, 0, 240, 170);
+        jPanel38.add(r17);
+        r17.setBounds(250, 180, 29, 29);
+
+        op46.setText("#\\e");
+        jPanel38.add(op46);
+        op46.setBounds(240, 290, 200, 29);
+
+        op47.setText("es vocal");
+        jPanel38.add(op47);
+        op47.setBounds(70, 290, 110, 29);
+
+        op48.setText("no es vocal");
+        jPanel38.add(op48);
+        op48.setBounds(70, 320, 140, 29);
+
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
         jPanel17Layout.setHorizontalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel38, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 81, Short.MAX_VALUE))
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38)
+                .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(12, 12, 12)
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel38, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         jScrollPane6.setViewportView(jPanel17);
@@ -651,15 +784,94 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Caracteres", jPanel6);
 
+        jPanel35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel35.setLayout(null);
+
+        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/cadenas1.jpg"))); // NOI18N
+        jPanel35.add(jLabel32);
+        jLabel32.setBounds(30, 10, 380, 270);
+
+        op21.setText("es menor largo");
+        jPanel35.add(op21);
+        op21.setBounds(240, 290, 150, 29);
+
+        op26.setText("corto es menor");
+        jPanel35.add(op26);
+        op26.setBounds(240, 320, 150, 29);
+
+        op35.setText("es menor corto");
+        jPanel35.add(op35);
+        op35.setBounds(70, 290, 150, 29);
+
+        op36.setText("son iguales");
+        jPanel35.add(op36);
+        op36.setBounds(70, 320, 120, 29);
+
+        jPanel36.setLayout(null);
+
+        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/cadenas2.jpg"))); // NOI18N
+        jLabel33.setText("imagen 1");
+        jPanel36.add(jLabel33);
+        jLabel33.setBounds(60, 10, 370, 270);
+
+        op37.setText("ES CARACTER");
+        op37.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op37ActionPerformed(evt);
+            }
+        });
+        jPanel36.add(op37);
+        op37.setBounds(240, 320, 140, 29);
+
+        jLabel34.setText("imagen 2");
+        jPanel36.add(jLabel34);
+        jLabel34.setBounds(260, 0, 240, 170);
+        jPanel36.add(r13);
+        r13.setBounds(250, 180, 29, 29);
+
+        op38.setText("ES CADENA");
+        jPanel36.add(op38);
+        op38.setBounds(240, 290, 200, 29);
+
+        op39.setText("ARIEREP");
+        jPanel36.add(op39);
+        op39.setBounds(70, 290, 110, 29);
+
+        op40.setText("PEREIRA");
+        jPanel36.add(op40);
+        op40.setBounds(70, 320, 110, 29);
+
+        jLabel35.setText("cual seria la salida?");
+
+        jLabel36.setText("cual seria la salida?");
+
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
         jPanel18Layout.setHorizontalGroup(
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addComponent(jPanel35, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel36, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 81, Short.MAX_VALUE))
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38)
+                .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel18Layout.setVerticalGroup(
             jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel35, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel36, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(12, 12, 12)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)
+                    .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(43, Short.MAX_VALUE))
         );
 
         jScrollPane7.setViewportView(jPanel18);
@@ -672,20 +884,79 @@ public class Practicas extends javax.swing.JFrame {
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 473, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Cadenas", jPanel7);
+
+        jPanel33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel33.setLayout(null);
+
+        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores1.jpg"))); // NOI18N
+        jPanel33.add(jLabel26);
+        jLabel26.setBounds(30, 10, 380, 270);
+
+        op29.setText("No esta ordenado");
+        jPanel33.add(op29);
+        op29.setBounds(240, 290, 160, 29);
+
+        op30.setText("(4 5 6 9 8)");
+        jPanel33.add(op30);
+        op30.setBounds(240, 320, 120, 29);
+
+        op31.setText("esta ordenado ");
+        jPanel33.add(op31);
+        op31.setBounds(70, 290, 160, 29);
+
+        op32.setText("(4 5 6 8 9)");
+        jPanel33.add(op32);
+        op32.setBounds(70, 320, 120, 29);
+
+        jPanel34.setLayout(null);
+
+        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores2.jpg"))); // NOI18N
+        jLabel27.setText("imagen 1");
+        jPanel34.add(jLabel27);
+        jLabel27.setBounds(60, 10, 370, 270);
+
+        jLabel28.setText("imagen 2");
+        jPanel34.add(jLabel28);
+        jLabel28.setBounds(260, 0, 240, 170);
+        jPanel34.add(r21);
+        r21.setBounds(250, 180, 29, 29);
+
+        op33.setText("17 16 15 14 13 12 11 10");
+        jPanel34.add(op33);
+        op33.setBounds(70, 290, 260, 29);
+
+        op34.setText("10 11 12 13 14 15 16");
+        jPanel34.add(op34);
+        op34.setBounds(70, 320, 280, 29);
+
+        jLabel29.setText("cual seria la salida si ingresamos 7 en el read?");
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
         jPanel19Layout.setHorizontalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 30, Short.MAX_VALUE))
         );
         jPanel19Layout.setVerticalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addGap(7, 7, 7)
+                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(234, 234, 234))
         );
 
         jScrollPane8.setViewportView(jPanel19);
@@ -698,7 +969,9 @@ public class Practicas extends javax.swing.JFrame {
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Vectores", jPanel8);
@@ -707,11 +980,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel20.setLayout(jPanel20Layout);
         jPanel20Layout.setHorizontalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGap(0, 967, Short.MAX_VALUE)
         );
         jPanel20Layout.setVerticalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGap(0, 674, Short.MAX_VALUE)
         );
 
         jScrollPane9.setViewportView(jPanel20);
@@ -729,15 +1002,52 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Listas", jPanel9);
 
+        jLabel46.setText("Ingrese el ejemplo en racket y evalue el codigo");
+
+        jPanel40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel40.setLayout(null);
+
+        jTextArea3.setColumns(20);
+        jTextArea3.setRows(5);
+        jTextArea3.setText("(display\"Digite la cantidad de empleados: \")\n(define v1 (make-vector(read)))\n(define-struct nomina (cedula nombre cargo sueldo))\n(define v2 (make-vector(vector-length v1)))\n\n\n\n(define (ingresar_datos a i)\n  (if (< a (vector-length v1))\n      (begin\n          (vector-set! v1 i (make-nomina (begin \n                                                (display \"Digite Numero de cedula: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el Nombre del Empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el cargo del empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el sueldo del empleado: \")\n                                                (newline)\n                                                (read))\n                                               )\n                       )                                \n          (ingresar_datos (+ a 1) (+ i 1))\n          )\n      )\n  )\n\n(define(ordenar v1 v2 i j)\n  (if(< i (vector-length v1))\n     (if(< j(vector-length v1))\n        (if(<= (nomina-cedula(vector-ref v1 i))(nomina-cedula(vector-ref v1 j)))\n           (ordenar v1 v2 i (+ j 1))\n           (begin\n             (vector-set! v2 0 (vector-ref v1 i))\n             (vector-set! v1 i (vector-ref v1 j))\n             (vector-set! v1 j (vector-ref v2 0))\n             (ordenar v1 v2 i j)\n             )\n           )\n        (ordenar v1 v2 (+ i 1)(+ i 2))\n        )\n     \n     )\n  )\n\n(define (mostrar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        (display \" \")\n        (newline)\n        (mostrar (+ i 1))\n        (newline))\n        )\n      )\n(define (visualizar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        )\n      )\n  )\n\n(define (modificar_datos i)\n  (begin\n    (displayln \"Puede modificar los datos, por favor.\")\n    (vector-set! v1 i (make-nomina (begin\n                                     (display \"Digite Numero de cedula: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el Nombre del Empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el cargo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el sueldo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   )\n                       )\n    )\n  )\n          \n\n(define(buscar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (visualizar n)\n          (buscar x (+ n 1))\n          )\n      (begin\n        (modificar_datos 0)\n        (ordenar v1 v2 0 1)\n        )\n      )\n  )\n\n(define(modsueldo x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Modificara el salario del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (display \"Salario: \")\n            (displayln (nomina-sueldo(vector-ref v1 n)))\n            (displayln \"Esta seguro que desea modificarlo? \")\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (begin\n                 (vector-set! v1 n (make-nomina (begin\n                                                  x\n                                                  )\n                                                (begin\n                                                  (nomina-nombre (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (nomina-cargo (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (display \"Digite el nuevo salario del empleado: \")\n                                                  (newline)\n                                                  (read))\n                                                )\n                              )\n                 )\n               (displayln \"Decidio no modificar ningun valor \")\n               )\n            )\n          (modsueldo x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  )\n\n;elmina un registro de la estructura\n(define(eliminar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Eliminara el registro del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (newline)\n            (displayln \"Esta seguro que desea eliminarlo? \")\n            (newline)\n            (displayln \"Al hacer esto el empleado sera reemplazado por el empleado siguente en la base de datos \")\n            (newline)\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (if (< n (vector-length v1))\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   )\n               (displayln \"Decidio no eliminar el registro\")\n               )\n            )\n          (eliminar x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  ) \n\n(define(menu-principal x)\n  (if(and(number? x)(> x 0))\n       (cond\n         ((= x 1)(ingresar_datos 0 0))\n         ((= x 2)(ordenar v1 v2 0 1))\n         ((= x 3)(begin(display \" Digite el numero de cedula: \")(buscar (read) 0 )))\n         ((= x 4)(begin(display \" Digite el numero de cedula: \")(modsueldo (read) 0 )))\n         ((= x 5)(begin(display \" Digite el numero de cedula: \")(eliminar (read) 0 )))\n         ((= x 6)(mostrar 0 ))\n         )\n       )\n    )\n\n(define(menuprincipal)\n  (begin\n    (newline)\n    (newline)\n    (displayln \"                    Menu Principal                    \")\n    (newline)\n    (displayln \"******************************************************\")\n    (displayln \"*                                                    *\")\n    (displayln \"*  1. Ingresar datos de en la base de datos          *\")\n    (displayln \"*  2. ordenar datos por dedula                       *\")\n    (displayln \"*  3. Buscar por cedula                              *\")\n    (displayln \"*  4. Modificar sueldo de empleados                  *\")\n    (displayln \"*  5. Eliminar empleado                              *\")\n    (displayln \"*  6. Visualizar base de datos                       *\")\n    (displayln \"*                                                    *\")\n    (displayln \"******************************************************\")\n    (display \" Escoge una opción: \")\n    (menu-principal(read))\n    (menuprincipal)\n    ))\n\n(menuprincipal)");
+        jScrollPane13.setViewportView(jTextArea3);
+
+        jPanel40.add(jScrollPane13);
+        jScrollPane13.setBounds(20, 20, 420, 310);
+
+        jPanel42.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel42.setLayout(null);
+
+        jTextArea4.setColumns(20);
+        jTextArea4.setRows(5);
+        jTextArea4.setText("(display \"Defina la cantidad de profesores: \")\n(define v1 (make-vector (read)))\n(define-struct profesores (nombre numero edad))\n\n; (+ (profesores-nota1 (vector-ref v1 i)) (profesores-nota2 (vector-ref v1 i)))\n\n;(+(vector-ref v1 i)(vector-ref v1 i))\n\n\n(define (pollito a i)\n  (if (< a (vector-length v1))\n      (begin\n          (vector-set! v1 i (make-profesores (begin \n                                                (display \"Digite nombre del profesor\")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el telefono del profesor\")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite la edad del profesor\")\n                                                (newline)\n                                                (read))                                \n                                               )\n                       )                                \n          (pollito (+ a 1) (+ i 1))\n          )\n      )\n  )\n\n(define(prom n cont)\n  (if(< n (vector-length v1))\n     (prom (+ n 1)(+ cont (profesores-edad (vector-ref v1 n))))\n     (/ cont n)\n     )\n  )\n\n\n(define(promedio n cont)\n  (if(< n (vector-length v1))\n     (promedio (+ n 1)(+ cont (profesores-edad (vector-ref v1 n))))\n     (begin\n       (display \"Edad promedio de los profesores: \")\n       (displayln (/ cont n))\n       )\n     )\n  )\n\n(define (joven i n m)\n  (if (< i (vector-length v1))\n      (if\n       (< (profesores-edad(vector-ref v1 i))n)\n       (joven (+ i 1) (profesores-edad(vector-ref v1 i))i)\n       (joven (+ i 1) n m)\n       )\n      (begin\n        (display \"El profesor mas joven es: \")\n        (display (profesores-nombre(vector-ref v1 m)))\n        )\n      )\n  )\n\n\n(define (viejo i n m)\n  (if (< i (vector-length v1))\n      (if\n       (> (profesores-edad(vector-ref v1 i))n)\n       (viejo (+ i 1) (profesores-edad(vector-ref v1 i))i)\n       (viejo (+ i 1) n m)\n       )\n      (begin\n        (display \"El profesor mayor es: \")\n        (displayln (profesores-nombre(vector-ref v1 m)))\n        )\n      )\n  )\n\n(define(mayorprom i)\n  (if(< i (vector-length v1))\n     (if (>(profesores-edad(vector-ref v1 i))(prom 0 0))\n         (begin\n           (display \"Telefono de profesor mayor al promedio: \")\n           (displayln (profesores-numero(vector-ref v1 i)))\n           (mayorprom (+ i 1))\n           )\n         (mayorprom(+ i 1))\n         )\n     )\n  )\n\n(define(mayor40 i)\n  (if(< i (vector-length v1))\n     (if (>(profesores-edad(vector-ref v1 i))40)\n         (begin\n           (display \"Telefono de profesores mayores a 40 años: \")\n           (displayln (profesores-numero(vector-ref v1 i)))\n           (mayor40 (+ i 1))\n           )\n         (mayor40(+ i 1))\n         )\n     )\n  )\n\n(define(menorprom i)\n  (if(< i (vector-length v1))\n     (if (<(profesores-edad(vector-ref v1 i))(prom 0 0))\n         (begin\n           (display \"Telefono de profesor menor al promedio: \")\n           (displayln (profesores-numero(vector-ref v1 i)))\n           (menorprom (+ i 1))\n           )\n         (menorprom(+ i 1))\n         )\n     )\n  )\n                   \n           \n\n(define (mostrar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (profesores-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (profesores-numero (vector-ref v1 i)))\n        (display \" \")\n        (display (profesores-edad (vector-ref v1 i)))\n        (display \" \")\n        (newline)\n        (mostrar (+ i 1))\n        (newline))\n        )\n      )\n \n(define(menu-principal x)\n  (if(and(number? x)(> x 0))\n       (cond\n         ((= x 1)(pollito 0 0))\n         ((= x 2)(promedio 0 0))\n         ((= x 3)(joven 0 500 0))\n         ((= x 4)(viejo 0 0 0))\n         ((= x 5)(mayorprom 0))\n         ((= x 6)(menorprom 0 ))\n         ((= x 7)(mayor40 0))\n         ((= x 8)(mostrar 0))\n         )\n       )\n    )\n  \n\n\n(define(menuprincipal)\n  (begin\n    (newline)\n    (displayln \"           Menu Principal\")\n    (displayln \"______________________________________________________\")\n    (displayln \"|                                                    |\")\n    (displayln \"|  1. Ingresar datos de profesores                   |\")\n    (displayln \"|  2. Edad promedio de los profesores                |\")\n    (displayln \"|  3. Nombre del profesor más joven                  |\")\n    (displayln \"|  4. Nombre del profesor de más edad                |\")\n    (displayln \"|  5. Número del profesor edad mayor al promedio     |\")\n    (displayln \"|  6. Número de profesores edad menor al promedio    |\")\n    (displayln \"|  7. Teléfono de los profesores con mas de 40 años  |\")\n    (displayln \"|                                                    |\")\n    (displayln \"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\")\n    (display \" Escoge una opción \")\n    (menu-principal(read))\n    (menuprincipal)\n    ))\n\n(menuprincipal)");
+        jScrollPane14.setViewportView(jTextArea4);
+
+        jPanel42.add(jScrollPane14);
+        jScrollPane14.setBounds(20, 20, 420, 310);
+
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
         jPanel21Layout.setHorizontalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 30, Short.MAX_VALUE))
         );
         jPanel21Layout.setVerticalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
+                .addGap(7, 7, 7)
+                .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel42, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
+                    .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(267, Short.MAX_VALUE))
         );
 
         jScrollPane10.setViewportView(jPanel21);
@@ -758,58 +1068,50 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel31.setLayout(null);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores1.jpg"))); // NOI18N
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/grafico1.jpg"))); // NOI18N
         jPanel31.add(jLabel22);
         jLabel22.setBounds(30, 10, 380, 270);
 
-        op21.setText("No esta ordenado");
-        jPanel31.add(op21);
-        op21.setBounds(240, 290, 160, 29);
-
-        op22.setText("(4 5 6 9 8)");
+        op22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores2.jpg"))); // NOI18N
         jPanel31.add(op22);
-        op22.setBounds(240, 320, 120, 29);
+        op22.setBounds(250, 300, 160, 110);
 
-        t13.setText("No hace nada");
-        jPanel31.add(t13);
-        t13.setBounds(70, 370, 110, 29);
-
-        t14.setText("Valor de a: 33");
-        jPanel31.add(t14);
-        t14.setBounds(240, 370, 110, 29);
-
-        op25.setText("esta ordenado ");
+        op25.setDisabledIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
+        op25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
+        op25.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
         jPanel31.add(op25);
-        op25.setBounds(70, 290, 160, 29);
+        op25.setBounds(60, 300, 160, 120);
+        jPanel31.add(jRadioButton1);
+        jRadioButton1.setBounds(20, 330, 40, 29);
 
-        op26.setText("(4 5 6 8 9)");
-        jPanel31.add(op26);
-        op26.setBounds(70, 320, 120, 29);
+        jRadioButton2.setText("jRadioButton2");
+        jPanel31.add(jRadioButton2);
+        jRadioButton2.setBounds(220, 330, 30, 29);
 
         jPanel32.setLayout(null);
 
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores2.jpg"))); // NOI18N
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/grafico2.jpg"))); // NOI18N
         jLabel23.setText("imagen 1");
         jPanel32.add(jLabel23);
         jLabel23.setBounds(60, 10, 370, 270);
-        jPanel32.add(r17);
-        r17.setBounds(0, 370, 29, 29);
 
         jLabel24.setText("imagen 2");
         jPanel32.add(jLabel24);
         jLabel24.setBounds(260, 0, 240, 170);
         jPanel32.add(r18);
         r18.setBounds(250, 180, 29, 29);
-        jPanel32.add(r19);
-        r19.setBounds(260, 370, 29, 29);
-
-        op27.setText("17 16 15 14 13 12 11 10");
         jPanel32.add(op27);
-        op27.setBounds(70, 290, 260, 29);
-
-        op28.setText("10 11 12 13 14 15 16");
+        op27.setBounds(110, 290, 30, 29);
         jPanel32.add(op28);
-        op28.setBounds(70, 320, 280, 29);
+        op28.setBounds(300, 300, 30, 29);
+
+        jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores3.jpg"))); // NOI18N
+        jPanel32.add(jLabel30);
+        jLabel30.setBounds(50, 320, 170, 120);
+
+        jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores4.jpg"))); // NOI18N
+        jPanel32.add(jLabel31);
+        jLabel31.setBounds(240, 330, 160, 90);
 
         jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
 
@@ -831,10 +1133,10 @@ public class Practicas extends javax.swing.JFrame {
                 .addGap(7, 7, 7)
                 .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, 456, Short.MAX_VALUE)
                     .addComponent(jPanel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(234, 234, 234))
+                .addContainerGap(162, Short.MAX_VALUE))
         );
 
         jScrollPane1.setViewportView(jPanel12);
@@ -847,7 +1149,7 @@ public class Practicas extends javax.swing.JFrame {
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Modo Grafico", jPanel11);
@@ -907,6 +1209,14 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_op13ActionPerformed
 
+    private void op37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op37ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op37ActionPerformed
+
+    private void op45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op45ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op45ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -965,8 +1275,25 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel23;
     private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
+    private javax.swing.JLabel jLabel27;
+    private javax.swing.JLabel jLabel28;
+    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel30;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel32;
+    private javax.swing.JLabel jLabel33;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
     private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -998,14 +1325,26 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel30;
     private javax.swing.JPanel jPanel31;
     private javax.swing.JPanel jPanel32;
+    private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
     private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel42;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JRadioButton jRadioButton1;
+    private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -1015,6 +1354,8 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTextArea jTextArea3;
+    private javax.swing.JTextArea jTextArea4;
     public javax.swing.JButton menu;
     public javax.swing.JRadioButton op1;
     public javax.swing.JRadioButton op10;
@@ -1037,8 +1378,28 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op26;
     public javax.swing.JRadioButton op27;
     public javax.swing.JRadioButton op28;
+    public javax.swing.JRadioButton op29;
     public javax.swing.JRadioButton op3;
+    public javax.swing.JRadioButton op30;
+    public javax.swing.JRadioButton op31;
+    public javax.swing.JRadioButton op32;
+    public javax.swing.JRadioButton op33;
+    public javax.swing.JRadioButton op34;
+    public javax.swing.JRadioButton op35;
+    public javax.swing.JRadioButton op36;
+    public javax.swing.JRadioButton op37;
+    public javax.swing.JRadioButton op38;
+    public javax.swing.JRadioButton op39;
     public javax.swing.JRadioButton op4;
+    public javax.swing.JRadioButton op40;
+    public javax.swing.JRadioButton op41;
+    public javax.swing.JRadioButton op42;
+    public javax.swing.JRadioButton op43;
+    public javax.swing.JRadioButton op44;
+    public javax.swing.JRadioButton op45;
+    public javax.swing.JRadioButton op46;
+    public javax.swing.JRadioButton op47;
+    public javax.swing.JRadioButton op48;
     public javax.swing.JRadioButton op5;
     public javax.swing.JRadioButton op6;
     public javax.swing.JRadioButton op7;
@@ -1046,7 +1407,6 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op9;
     public javax.swing.JRadioButton r1;
     public javax.swing.JRadioButton r10;
-    public javax.swing.JRadioButton r11;
     public javax.swing.JRadioButton r12;
     public javax.swing.JRadioButton r13;
     public javax.swing.JRadioButton r14;
@@ -1054,8 +1414,8 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton r16;
     public javax.swing.JRadioButton r17;
     public javax.swing.JRadioButton r18;
-    public javax.swing.JRadioButton r19;
     public javax.swing.JRadioButton r2;
+    public javax.swing.JRadioButton r21;
     public javax.swing.JRadioButton r3;
     public javax.swing.JRadioButton r4;
     public javax.swing.JRadioButton r5;
@@ -1066,8 +1426,8 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton t10;
     public javax.swing.JRadioButton t11;
     public javax.swing.JRadioButton t12;
-    public javax.swing.JRadioButton t13;
-    public javax.swing.JRadioButton t14;
+    public javax.swing.JRadioButton t15;
+    public javax.swing.JRadioButton t16;
     public javax.swing.JRadioButton t2;
     public javax.swing.JRadioButton t3;
     public javax.swing.JRadioButton t4;
