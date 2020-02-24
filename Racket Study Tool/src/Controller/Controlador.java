@@ -154,6 +154,12 @@ public class Controlador {
         
     }
     
+    public void CodeExplain(){
+        this.CodeExp.setTitle("Recursividad");
+        this.CodeExp.setLocationRelativeTo(null);
+        
+    }
+    
     public void SeeCode2(){
         this.Codex.setTitle("Codigo");
         this.Codex.setLocationRelativeTo(null);

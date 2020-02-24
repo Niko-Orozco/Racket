@@ -79,36 +79,40 @@ public class CodeExplain extends javax.swing.JFrame {
         jScrollPane4.setViewportView(Codigo);
 
         jPanel1.add(jScrollPane4);
-        jScrollPane4.setBounds(324, 140, 640, 500);
+        jScrollPane4.setBounds(320, 140, 640, 500);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setText("Condicionales");
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
+        jLabel2.setText("¿Que tal una explicacion paso a paso?");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(390, 20, 160, 40);
+        jLabel2.setBounds(270, 20, 430, 40);
 
         Ejecutar.setText("Ejecutar");
         jPanel1.add(Ejecutar);
-        Ejecutar.setBounds(860, 650, 100, 23);
+        Ejecutar.setBounds(320, 650, 100, 23);
 
         Menu.setText("Menu");
         jPanel1.add(Menu);
         Menu.setBounds(10, 670, 80, 23);
 
+        jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(20, 110, 100, 20);
 
+        jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel3.setText("Codigo");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(330, 110, 60, 14);
+        jLabel3.setBounds(330, 110, 60, 19);
 
+        jLabel4.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel4.setText("Valores de las variables");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(20, 290, 130, 14);
+        jLabel4.setBounds(20, 290, 130, 19);
 
+        jLabel5.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel5.setText("Salida");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(20, 480, 60, 14);
+        jLabel5.setBounds(20, 480, 60, 19);
 
         Ayuda.setText("Ayuda");
         Ayuda.addActionListener(new java.awt.event.ActionListener() {
@@ -117,7 +121,7 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(843, 40, 110, 23);
+        Ayuda.setBounds(850, 650, 110, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
