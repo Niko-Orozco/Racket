@@ -44,6 +44,8 @@ public class Controlador {
     private Caracteres_Documentacion CaracD;
     private Recursividad Recurs;
     private RecursividadView RecursView;
+    private Expreciones_Matematicas Expres;
+    private ExprecrionesView ExpresView;
     
     
     public Controlador(Menu menu) {
@@ -54,6 +56,13 @@ public class Controlador {
             FuncView = new FuncionesView();
             FuncView.setVisible(true);
             FuncionesView();
+        });
+        this.menu.expreciones.addActionListener((ActionEvent e) -> {
+            this.Expres = new Expreciones_Matematicas();
+            menu.setVisible(false);
+            ExpresView = new ExprecrionesView();
+            ExpresView.setVisible(true);
+            exprecionesview();
         });
         this.menu.caracteres.addActionListener((ActionEvent e) -> {
             this.CaracD = new Caracteres_Documentacion();
@@ -112,6 +121,91 @@ public class Controlador {
             NexCode();
             condicionlaesview();
         });
+    }
+    
+    public void exprecionesview(){
+        this.ExpresView.setTitle("Recursividad");
+        this.ExpresView.setLocationRelativeTo(null);
+        ExpresView.Expreciones1.setText(Expres.expreciones1());
+        ExpresView.Expresiones2.setText(Expres.expreciones2());
+        ExpresView.code.setText(Expres.Ejeexpreciones1());
+        ExpresView.code2.setText(Expres.Ejeexpreciones2()); 
+        ExpresView.run1.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo1.setText(runCodeExp(1));
+        });
+        ExpresView.run2.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo2.setText(runCodeExp(2));
+        }); 
+        ExpresView.seecode.addActionListener((ActionEvent e) -> {
+            Codex = new codex();
+            Codex.setVisible(true);
+            SeeCode2();
+        }); 
+        ExpresView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            ExpresView.setVisible(false);
+            practices();
+        });
+        ExpresView.menu.addActionListener((ActionEvent e) -> {
+            ExpresView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        
+    }
+    
+    public void SeeCode2(){
+        this.Codex.setTitle("Codigo");
+        this.Codex.setLocationRelativeTo(null);
+        String data =   ";Funcion Suma\n" +
+                        "(define (Suma a b)\n" +
+                        "        (+ a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Resta\n" +
+                        "(define (Resta a b)\n" +
+                        "        (- a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Multiplicacion\n" +
+                        "(define (Multiplicacion a b)\n" +
+                        "        (* a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Division\n" +
+                        "(define (Division a b)\n" +
+                        "        (/ a b)\n" +
+                        ")";
+        this.Codex.codes.setText(data);
+        Codex.ok.addActionListener((ActionEvent e) -> {
+            Codex.setVisible(false);
+        });
+    }
+    
+    public String runCodeExp(int ns){
+        String respuesta = "",aux="";
+        int nes = 1,nes2,nes3=0,n1,n2,n3,n4;
+        switch(ns){
+            case 1: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        respuesta = "Area del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 3"));
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 4"));
+                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break; 
+        }
+        return respuesta;
     }
     
     public void recursividad(){  
