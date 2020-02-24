@@ -26,9 +26,7 @@ public class Practicas extends javax.swing.JFrame {
         grupo2.add(r3);
         grupo2.add(r4);
         
-        GRUPO3.add(Z1);
-        GRUPO3.add(Z2);
-        GRUPO3.add(Z3);
+
     }
 
     /**
@@ -49,6 +47,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel13 = new javax.swing.JPanel();
+        jPanel27 = new javax.swing.JPanel();
+        jLabel13 = new javax.swing.JLabel();
+        op9 = new javax.swing.JRadioButton();
+        op10 = new javax.swing.JRadioButton();
+        t9 = new javax.swing.JRadioButton();
+        t10 = new javax.swing.JRadioButton();
+        op11 = new javax.swing.JRadioButton();
+        op12 = new javax.swing.JRadioButton();
+        jPanel28 = new javax.swing.JPanel();
+        jLabel14 = new javax.swing.JLabel();
+        op13 = new javax.swing.JRadioButton();
+        r11 = new javax.swing.JRadioButton();
+        jLabel15 = new javax.swing.JLabel();
+        r12 = new javax.swing.JRadioButton();
+        r13 = new javax.swing.JRadioButton();
+        op14 = new javax.swing.JRadioButton();
+        op15 = new javax.swing.JRadioButton();
+        op16 = new javax.swing.JRadioButton();
+        jLabel16 = new javax.swing.JLabel();
+        jLabel20 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jPanel14 = new javax.swing.JPanel();
@@ -96,9 +114,23 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane5 = new javax.swing.JScrollPane();
         jPanel16 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
-        Z1 = new javax.swing.JRadioButton();
-        Z2 = new javax.swing.JRadioButton();
-        Z3 = new javax.swing.JRadioButton();
+        jPanel29 = new javax.swing.JPanel();
+        jLabel17 = new javax.swing.JLabel();
+        op17 = new javax.swing.JRadioButton();
+        op18 = new javax.swing.JRadioButton();
+        t11 = new javax.swing.JRadioButton();
+        t12 = new javax.swing.JRadioButton();
+        op19 = new javax.swing.JRadioButton();
+        op20 = new javax.swing.JRadioButton();
+        jPanel30 = new javax.swing.JPanel();
+        jLabel18 = new javax.swing.JLabel();
+        r14 = new javax.swing.JRadioButton();
+        jLabel19 = new javax.swing.JLabel();
+        r15 = new javax.swing.JRadioButton();
+        r16 = new javax.swing.JRadioButton();
+        op23 = new javax.swing.JRadioButton();
+        op24 = new javax.swing.JRadioButton();
+        jLabel21 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
@@ -117,6 +149,23 @@ public class Practicas extends javax.swing.JFrame {
         jPanel11 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel12 = new javax.swing.JPanel();
+        jPanel31 = new javax.swing.JPanel();
+        jLabel22 = new javax.swing.JLabel();
+        op21 = new javax.swing.JRadioButton();
+        op22 = new javax.swing.JRadioButton();
+        t13 = new javax.swing.JRadioButton();
+        t14 = new javax.swing.JRadioButton();
+        op25 = new javax.swing.JRadioButton();
+        op26 = new javax.swing.JRadioButton();
+        jPanel32 = new javax.swing.JPanel();
+        jLabel23 = new javax.swing.JLabel();
+        r17 = new javax.swing.JRadioButton();
+        jLabel24 = new javax.swing.JLabel();
+        r18 = new javax.swing.JRadioButton();
+        r19 = new javax.swing.JRadioButton();
+        op27 = new javax.swing.JRadioButton();
+        op28 = new javax.swing.JRadioButton();
+        jLabel25 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
@@ -130,15 +179,106 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(270, 0, 400, 50);
 
+        jPanel27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel27.setLayout(null);
+
+        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones3.jpg"))); // NOI18N
+        jPanel27.add(jLabel13);
+        jLabel13.setBounds(30, 10, 380, 270);
+
+        op9.setText("1212344");
+        jPanel27.add(op9);
+        op9.setBounds(240, 290, 120, 29);
+
+        op10.setText("12121234");
+        jPanel27.add(op10);
+        op10.setBounds(240, 320, 120, 29);
+
+        t9.setText("No hace nada");
+        jPanel27.add(t9);
+        t9.setBounds(70, 370, 110, 29);
+
+        t10.setText("Valor de a: 33");
+        jPanel27.add(t10);
+        t10.setBounds(240, 370, 110, 29);
+
+        op11.setText("231334");
+        jPanel27.add(op11);
+        op11.setBounds(70, 290, 100, 29);
+
+        op12.setText("11520000");
+        jPanel27.add(op12);
+        op12.setBounds(70, 320, 120, 29);
+
+        jPanel28.setLayout(null);
+
+        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones2.jpg"))); // NOI18N
+        jLabel14.setText("imagen 1");
+        jPanel28.add(jLabel14);
+        jLabel14.setBounds(60, 10, 370, 270);
+
+        op13.setText("21312");
+        op13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op13ActionPerformed(evt);
+            }
+        });
+        jPanel28.add(op13);
+        op13.setBounds(240, 320, 110, 29);
+        jPanel28.add(r11);
+        r11.setBounds(0, 370, 29, 29);
+
+        jLabel15.setText("imagen 2");
+        jPanel28.add(jLabel15);
+        jLabel15.setBounds(260, 0, 240, 170);
+        jPanel28.add(r12);
+        r12.setBounds(250, 180, 29, 29);
+        jPanel28.add(r13);
+        r13.setBounds(260, 370, 29, 29);
+
+        op14.setText("213");
+        jPanel28.add(op14);
+        op14.setBounds(240, 290, 200, 29);
+
+        op15.setText("1212");
+        jPanel28.add(op15);
+        op15.setBounds(70, 290, 110, 29);
+
+        op16.setText("32133");
+        jPanel28.add(op16);
+        op16.setBounds(70, 320, 110, 29);
+
+        jLabel16.setText("cual seria la salida?");
+
+        jLabel20.setText("cual seria la salida?");
+
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
         jPanel13Layout.setHorizontalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 81, Short.MAX_VALUE))
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(38, 38, 38)
+                .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(12, 12, 12)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
         );
 
         jScrollPane2.setViewportView(jPanel13);
@@ -375,34 +515,86 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Condicionales", jPanel4);
 
-        Z1.setText("jRadioButton1");
+        jPanel29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel29.setLayout(null);
 
-        Z2.setText("jRadioButton2");
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones1.jpg"))); // NOI18N
+        jPanel29.add(jLabel17);
+        jLabel17.setBounds(30, 10, 380, 270);
 
-        Z3.setText("jRadioButton3");
+        op17.setText("11");
+        jPanel29.add(op17);
+        op17.setBounds(240, 290, 120, 29);
+
+        op18.setText("32");
+        jPanel29.add(op18);
+        op18.setBounds(240, 320, 120, 29);
+
+        t11.setText("No hace nada");
+        jPanel29.add(t11);
+        t11.setBounds(70, 370, 110, 29);
+
+        t12.setText("Valor de a: 33");
+        jPanel29.add(t12);
+        t12.setBounds(240, 370, 110, 29);
+
+        op19.setText("13");
+        jPanel29.add(op19);
+        op19.setBounds(70, 290, 100, 29);
+
+        op20.setText("17");
+        jPanel29.add(op20);
+        op20.setBounds(70, 320, 120, 29);
+
+        jPanel30.setLayout(null);
+
+        jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/recursividad2.jpg"))); // NOI18N
+        jLabel18.setText("imagen 1");
+        jPanel30.add(jLabel18);
+        jLabel18.setBounds(60, 10, 370, 270);
+        jPanel30.add(r14);
+        r14.setBounds(0, 370, 29, 29);
+
+        jLabel19.setText("imagen 2");
+        jPanel30.add(jLabel19);
+        jLabel19.setBounds(260, 0, 240, 170);
+        jPanel30.add(r15);
+        r15.setBounds(250, 180, 29, 29);
+        jPanel30.add(r16);
+        r16.setBounds(260, 370, 29, 29);
+
+        op23.setText("(3 5 7 11 13 17 19 23 29 31)");
+        jPanel30.add(op23);
+        op23.setBounds(70, 290, 260, 29);
+
+        op24.setText("(3 5 7 9 11 13 17 21 23 25)");
+        jPanel30.add(op24);
+        op24.setBounds(70, 320, 280, 29);
+
+        jLabel21.setText("cual seria la salida si ingresamos 7 en el read?");
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
         jPanel24Layout.setHorizontalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel24Layout.createSequentialGroup()
-                .addGap(69, 69, 69)
-                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(Z3)
-                    .addComponent(Z2)
-                    .addComponent(Z1))
-                .addContainerGap(298, Short.MAX_VALUE))
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel29, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 30, Short.MAX_VALUE))
         );
         jPanel24Layout.setVerticalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel24Layout.createSequentialGroup()
-                .addGap(110, 110, 110)
-                .addComponent(Z1)
+                .addGap(7, 7, 7)
+                .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addComponent(Z2)
-                .addGap(18, 18, 18)
-                .addComponent(Z3)
-                .addContainerGap(228, Short.MAX_VALUE))
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(234, 234, 234))
         );
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
@@ -563,15 +755,86 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Estructura de datos", jPanel10);
 
+        jPanel31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel31.setLayout(null);
+
+        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores1.jpg"))); // NOI18N
+        jPanel31.add(jLabel22);
+        jLabel22.setBounds(30, 10, 380, 270);
+
+        op21.setText("No esta ordenado");
+        jPanel31.add(op21);
+        op21.setBounds(240, 290, 160, 29);
+
+        op22.setText("(4 5 6 9 8)");
+        jPanel31.add(op22);
+        op22.setBounds(240, 320, 120, 29);
+
+        t13.setText("No hace nada");
+        jPanel31.add(t13);
+        t13.setBounds(70, 370, 110, 29);
+
+        t14.setText("Valor de a: 33");
+        jPanel31.add(t14);
+        t14.setBounds(240, 370, 110, 29);
+
+        op25.setText("esta ordenado ");
+        jPanel31.add(op25);
+        op25.setBounds(70, 290, 160, 29);
+
+        op26.setText("(4 5 6 8 9)");
+        jPanel31.add(op26);
+        op26.setBounds(70, 320, 120, 29);
+
+        jPanel32.setLayout(null);
+
+        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores2.jpg"))); // NOI18N
+        jLabel23.setText("imagen 1");
+        jPanel32.add(jLabel23);
+        jLabel23.setBounds(60, 10, 370, 270);
+        jPanel32.add(r17);
+        r17.setBounds(0, 370, 29, 29);
+
+        jLabel24.setText("imagen 2");
+        jPanel32.add(jLabel24);
+        jLabel24.setBounds(260, 0, 240, 170);
+        jPanel32.add(r18);
+        r18.setBounds(250, 180, 29, 29);
+        jPanel32.add(r19);
+        r19.setBounds(260, 370, 29, 29);
+
+        op27.setText("17 16 15 14 13 12 11 10");
+        jPanel32.add(op27);
+        op27.setBounds(70, 290, 260, 29);
+
+        op28.setText("10 11 12 13 14 15 16");
+        jPanel32.add(op28);
+        op28.setBounds(70, 320, 280, 29);
+
+        jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
+
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 1018, Short.MAX_VALUE)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 30, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 443, Short.MAX_VALUE)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addGap(7, 7, 7)
+                .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(234, 234, 234))
         );
 
         jScrollPane1.setViewportView(jPanel12);
@@ -640,6 +903,10 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_op8ActionPerformed
 
+    private void op13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op13ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -677,9 +944,6 @@ public class Practicas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup GRUPO3;
-    private javax.swing.JRadioButton Z1;
-    private javax.swing.JRadioButton Z2;
-    private javax.swing.JRadioButton Z3;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
@@ -687,7 +951,20 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
+    private javax.swing.JLabel jLabel13;
+    private javax.swing.JLabel jLabel14;
+    private javax.swing.JLabel jLabel15;
+    private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel17;
+    private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
+    private javax.swing.JLabel jLabel23;
+    private javax.swing.JLabel jLabel24;
+    private javax.swing.JLabel jLabel25;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -714,7 +991,13 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel25;
     private javax.swing.JPanel jPanel26;
+    private javax.swing.JPanel jPanel27;
+    private javax.swing.JPanel jPanel28;
+    private javax.swing.JPanel jPanel29;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel30;
+    private javax.swing.JPanel jPanel31;
+    private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -734,15 +1017,44 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton menu;
     public javax.swing.JRadioButton op1;
+    public javax.swing.JRadioButton op10;
+    public javax.swing.JRadioButton op11;
+    public javax.swing.JRadioButton op12;
+    public javax.swing.JRadioButton op13;
+    public javax.swing.JRadioButton op14;
+    public javax.swing.JRadioButton op15;
+    public javax.swing.JRadioButton op16;
+    public javax.swing.JRadioButton op17;
+    public javax.swing.JRadioButton op18;
+    public javax.swing.JRadioButton op19;
     public javax.swing.JRadioButton op2;
+    public javax.swing.JRadioButton op20;
+    public javax.swing.JRadioButton op21;
+    public javax.swing.JRadioButton op22;
+    public javax.swing.JRadioButton op23;
+    public javax.swing.JRadioButton op24;
+    public javax.swing.JRadioButton op25;
+    public javax.swing.JRadioButton op26;
+    public javax.swing.JRadioButton op27;
+    public javax.swing.JRadioButton op28;
     public javax.swing.JRadioButton op3;
     public javax.swing.JRadioButton op4;
     public javax.swing.JRadioButton op5;
     public javax.swing.JRadioButton op6;
     public javax.swing.JRadioButton op7;
     public javax.swing.JRadioButton op8;
+    public javax.swing.JRadioButton op9;
     public javax.swing.JRadioButton r1;
     public javax.swing.JRadioButton r10;
+    public javax.swing.JRadioButton r11;
+    public javax.swing.JRadioButton r12;
+    public javax.swing.JRadioButton r13;
+    public javax.swing.JRadioButton r14;
+    public javax.swing.JRadioButton r15;
+    public javax.swing.JRadioButton r16;
+    public javax.swing.JRadioButton r17;
+    public javax.swing.JRadioButton r18;
+    public javax.swing.JRadioButton r19;
     public javax.swing.JRadioButton r2;
     public javax.swing.JRadioButton r3;
     public javax.swing.JRadioButton r4;
@@ -751,10 +1063,16 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton r8;
     public javax.swing.JRadioButton r9;
     public javax.swing.JRadioButton t1;
+    public javax.swing.JRadioButton t10;
+    public javax.swing.JRadioButton t11;
+    public javax.swing.JRadioButton t12;
+    public javax.swing.JRadioButton t13;
+    public javax.swing.JRadioButton t14;
     public javax.swing.JRadioButton t2;
     public javax.swing.JRadioButton t3;
     public javax.swing.JRadioButton t4;
     public javax.swing.JRadioButton t7;
     public javax.swing.JRadioButton t8;
+    public javax.swing.JRadioButton t9;
     // End of variables declaration//GEN-END:variables
 }
