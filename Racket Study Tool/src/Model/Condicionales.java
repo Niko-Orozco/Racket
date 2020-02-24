@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 package Model;
-
+import java.awt.Color;
+import java.awt.Font; 
 /**
  *
  * @author Niko
