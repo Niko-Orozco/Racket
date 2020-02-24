@@ -169,11 +169,11 @@ public class Menu extends javax.swing.JFrame {
 
         jButton1.setText("Ayuda");
         jPanel6.add(jButton1);
-        jButton1.setBounds(1103, 0, 80, 29);
+        jButton1.setBounds(1103, 0, 80, 23);
 
         jButton2.setText("Acerca de");
         jPanel6.add(jButton2);
-        jButton2.setBounds(990, 0, 101, 29);
+        jButton2.setBounds(990, 0, 81, 23);
 
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel17.setText("Dr Racket");
@@ -667,7 +667,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel42.setBounds(10, 40, 300, 40);
 
         jLabel48.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
-        jLabel48.setText("Introducción");
+        jLabel48.setText("Listas");
         jPanel26.add(jLabel48);
         jLabel48.setBounds(10, 10, 140, 33);
 

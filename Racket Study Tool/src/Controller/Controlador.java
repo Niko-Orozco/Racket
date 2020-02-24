@@ -42,6 +42,10 @@ public class Controlador {
     private FuncionesView FuncView;
     private CaracteresView CaracView;
     private Caracteres_Documentacion CaracD;
+    private Recursividad Recurs;
+    private RecursividadView RecursView;
+    private Expreciones_Matematicas Expres;
+    private ExprecrionesView ExpresView;
     
     
     public Controlador(Menu menu) {
@@ -52,6 +56,13 @@ public class Controlador {
             FuncView = new FuncionesView();
             FuncView.setVisible(true);
             FuncionesView();
+        });
+        this.menu.expreciones.addActionListener((ActionEvent e) -> {
+            this.Expres = new Expreciones_Matematicas();
+            menu.setVisible(false);
+            ExpresView = new ExprecrionesView();
+            ExpresView.setVisible(true);
+            exprecionesview();
         });
         this.menu.caracteres.addActionListener((ActionEvent e) -> {
             this.CaracD = new Caracteres_Documentacion();
@@ -88,6 +99,13 @@ public class Controlador {
             ListView.setVisible(true);
             listas();
         });
+        this.menu.recursividad.addActionListener((ActionEvent e) -> {
+            this.RecursView = new RecursividadView();   
+            Recurs = new Recursividad();
+            menu.setVisible(false);
+            RecursView.setVisible(true);
+            recursividad();
+        });
         this.menu.Pares.addActionListener((ActionEvent e) -> {
             this.ParView = new ParesView();   
             listPares = new Listas_Pares();
@@ -103,6 +121,179 @@ public class Controlador {
             NexCode();
             condicionlaesview();
         });
+    }
+    
+    public void exprecionesview(){
+        this.ExpresView.setTitle("Recursividad");
+        this.ExpresView.setLocationRelativeTo(null);
+        ExpresView.Expreciones1.setText(Expres.expreciones1());
+        ExpresView.Expresiones2.setText(Expres.expreciones2());
+        ExpresView.code.setText(Expres.Ejeexpreciones1());
+        ExpresView.code2.setText(Expres.Ejeexpreciones2()); 
+        ExpresView.run1.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo1.setText(runCodeExp(1));
+        });
+        ExpresView.run2.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo2.setText(runCodeExp(2));
+        }); 
+        ExpresView.seecode.addActionListener((ActionEvent e) -> {
+            Codex = new codex();
+            Codex.setVisible(true);
+            SeeCode2();
+        }); 
+        ExpresView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            ExpresView.setVisible(false);
+            practices();
+        });
+        ExpresView.menu.addActionListener((ActionEvent e) -> {
+            ExpresView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        
+    }
+    
+    public void SeeCode2(){
+        this.Codex.setTitle("Codigo");
+        this.Codex.setLocationRelativeTo(null);
+        String data =   ";Funcion Suma\n" +
+                        "(define (Suma a b)\n" +
+                        "        (+ a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Resta\n" +
+                        "(define (Resta a b)\n" +
+                        "        (- a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Multiplicacion\n" +
+                        "(define (Multiplicacion a b)\n" +
+                        "        (* a b)\n" +
+                        ")\n" +
+                        "\n" +
+                        ";Funcion Division\n" +
+                        "(define (Division a b)\n" +
+                        "        (/ a b)\n" +
+                        ")";
+        this.Codex.codes.setText(data);
+        Codex.ok.addActionListener((ActionEvent e) -> {
+            Codex.setVisible(false);
+        });
+    }
+    
+    public String runCodeExp(int ns){
+        String respuesta = "",aux="";
+        int nes = 1,nes2,nes3=0,n1,n2,n3,n4;
+        switch(ns){
+            case 1: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        respuesta = "Area del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 3"));
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 4"));
+                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break; 
+        }
+        return respuesta;
+    }
+    
+    public void recursividad(){  
+        this.RecursView.setTitle("Recursividad");
+        this.RecursView.setLocationRelativeTo(null);
+        RecursView.recursiones1.setText(Recurs.recursividad1());
+        RecursView.recursiones2.setText(Recurs.recursividad2());
+        RecursView.recursiones3.setText(Recurs.recursividad3());
+        RecursView.code.setText(Recurs.Ejerecursividad1());
+        RecursView.code2.setText(Recurs.Ejerecursividad2()); 
+        RecursView.code3.setText(Recurs.Ejerecursividad3());
+        RecursView.code4.setText(Recurs.Ejerecursividad4());
+        RecursView.run1.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo1.setText(runCodeRac(1));
+        });
+        RecursView.run2.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo2.setText(runCodeRac(2));
+        });  
+        RecursView.run3.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo3.setText(runCodeRac(3));
+        }); 
+        RecursView.run4.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo4.setText(runCodeRac(4));
+        });   
+        RecursView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            RecursView.setVisible(false);
+            practices();
+        });
+        RecursView.menu.addActionListener((ActionEvent e) -> {
+            RecursView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
+    
+    public String runCodeRac(int ns){
+        String respuesta = "",aux="",n1,n2,n3,n4;
+        int nes = 1,nes2,nes3=0;
+        switch(ns){
+            case 1: try {
+                        for(int i = 1; i< 11;i++){
+                            respuesta += " "+nes;
+                            nes++;
+                        } 
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 2: try {
+                        for (int i = 1 ; i <= 110240 ; i++){
+                            if (110240 % i == 0)
+                                respuesta += "\n"+i;
+                        }
+                            
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break; 
+            case 3: try {
+                        int i, suma = 0;
+                        nes2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        for (i = 1; i < nes2; i++) {  // i son los divisores. Se divide desde 1 hasta n-1
+                            if (nes2 % i == 0) {
+                                suma = suma + i;     // si es divisor se suma
+                            }
+                        }
+                        if (suma == nes2) {  // si el numero es igual a la suma de sus divisores es perfecto
+                            respuesta = "Perfecto";
+                        } else {
+                            respuesta = "No es perfecto";
+                        }
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error...\nRemind int max value 4294967296 ");
+                     }
+                break;
+            case 4: 
+                        nes3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese cantidad de renglones"));
+                        for(int z = 0; z < nes3; z++){
+                            respuesta += "A\n";
+                            for(int h = 0; h < z+1; h++){
+                                respuesta += "   ";
+                            }
+                        }
+                     
+                break;  
+        }
+        return respuesta;
     }
     
     public void caracteresView(){
@@ -125,6 +316,16 @@ public class Controlador {
         CaracView.run3.addActionListener((ActionEvent e) -> {
             CaracView.verinfo3.setText(runCodeCar(3));
         }); 
+        CaracView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            CaracView.setVisible(false);
+            practices();
+        });
+        CaracView.menu.addActionListener((ActionEvent e) -> {
+            CaracView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
     }
     
     public String runCodeCar(int ns){
@@ -167,7 +368,7 @@ public class Controlador {
                             respuesta += ""+nes2 + " * " + nes3 + " = " + nes2*nes3+"\n";
                             nes3++;
                         }
-                     } catch (Exception e) {
+                     } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error...\nRemind int max value 4294967296 ");
                      }
                 break;                   

@@ -663,11 +663,196 @@
                               <Properties>
                                 <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
                                   <Table columnCount="3" rowCount="60">
-                                    <Column editable="false" title="Funcion" type="java.lang.Object"/>
-                                    <Column editable="false" title="Entrada-salida" type="java.lang.Object"/>
-                                    <Column editable="false" title="Descripcion" type="java.lang.Object"/>
+                                    <Column editable="false" title="Funcion" type="java.lang.String">
+                                      <Data value="*"/>
+                                      <Data value="+"/>
+                                      <Data value="-"/>
+                                      <Data value="/"/>
+                                      <Data value="&lt;"/>
+                                      <Data value="&lt;="/>
+                                      <Data value="&gt;"/>
+                                      <Data value="&gt;="/>
+                                      <Data value="abs"/>
+                                      <Data value="acos"/>
+                                      <Data value="add1"/>
+                                      <Data value="angle"/>
+                                      <Data value="asin"/>
+                                      <Data value="atan"/>
+                                      <Data value="ceiling"/>
+                                      <Data value="complex?"/>
+                                      <Data value="conjugate"/>
+                                      <Data value="cos"/>
+                                      <Data value="cosh"/>
+                                      <Data value="current-secconds"/>
+                                      <Data value="e"/>
+                                      <Data value="event?"/>
+                                      <Data value="exact-&gt;inexact"/>
+                                      <Data value="exact?"/>
+                                      <Data value="exp"/>
+                                      <Data value="expt"/>
+                                      <Data value="floor"/>
+                                      <Data value="gcd"/>
+                                      <Data value="imag-part"/>
+                                      <Data value="integer-&gt;char"/>
+                                      <Data value="integer-sqrt"/>
+                                      <Data value="integer?"/>
+                                      <Data value="log"/>
+                                      <Data value="magnitude"/>
+                                      <Data value="make-polar"/>
+                                      <Data value="make-rectangular"/>
+                                      <Data value="max"/>
+                                      <Data value="min"/>
+                                      <Data value="modulo"/>
+                                      <Data value="negative?"/>
+                                      <Data value="number-&gt;string"/>
+                                      <Data value="number?"/>
+                                      <Data value="numerator"/>
+                                      <Data value="odd?"/>
+                                      <Data value="Pi"/>
+                                      <Data value="positive?"/>
+                                      <Data value="quotient"/>
+                                      <Data value="random"/>
+                                      <Data value="rational?"/>
+                                      <Data value="real-part"/>
+                                      <Data value="real?"/>
+                                      <Data value="remainder"/>
+                                      <Data value="round"/>
+                                      <Data value="sgn"/>
+                                      <Data value="sin"/>
+                                      <Data value="sinh"/>
+                                      <Data value="sqrt"/>
+                                      <Data value="sub1"/>
+                                      <Data value="tan"/>
+                                      <Data value="zero?"/>
+                                    </Column>
+                                    <Column editable="false" title="Entrada-salida" type="java.lang.String">
+                                      <Data value="(* num1 num2) -&gt; num"/>
+                                      <Data value="(+ num1 num2) -&gt; num"/>
+                                      <Data value="(-  num1 num2) -&gt; num"/>
+                                      <Data value="(/  num1 num2) -&gt; num"/>
+                                      <Data value="(&lt; num1 num2) -&gt; #t o #f"/>
+                                      <Data value="&lt;= num1 num2) -&gt; #t o #f"/>
+                                      <Data value="(&gt;  num1 num2) -&gt; #t o #f"/>
+                                      <Data value="(&gt;= num1 num2) -&gt; #t o #f"/>
+                                      <Data value="(abs  num) -&gt; num"/>
+                                      <Data value="(acos  num) -&gt; num"/>
+                                      <Data value="(add1  num) -&gt; num+1"/>
+                                      <Data value="(angle  num) -&gt; num"/>
+                                      <Data value="(asin  num) -&gt; num"/>
+                                      <Data value="(atan  num) -&gt; num"/>
+                                      <Data value="(celing  num) -&gt; num"/>
+                                      <Data value="(any  data) -&gt; #t o #f"/>
+                                      <Data value="(conjugate  num) -&gt; num"/>
+                                      <Data value="(cos  num) -&gt; num"/>
+                                      <Data value="(cosh  num) -&gt; num"/>
+                                      <Data value="date"/>
+                                      <Data value="( e ) -&gt; num"/>
+                                      <Data value="(even?  num) -&gt; #t o #f"/>
+                                      <Data value="(exact-&gt;inexact  num) -&gt; num"/>
+                                      <Data value="(exact?  num) -&gt; #t  o #f"/>
+                                      <Data value="(exp num) -&gt; num"/>
+                                      <Data value="(expt num1 num2) -&gt; num"/>
+                                      <Data value="(floor num) -&gt; num"/>
+                                      <Data value="(gcd num1 num2) -&gt; num"/>
+                                      <Data value="(image-part  num ) -&gt; num"/>
+                                      <Data value="(integer-&gt;char num) -&gt; char"/>
+                                      <Data value="(integer-sqrt  num) -&gt; raiz( num)"/>
+                                      <Data value="(integer? any) -&gt; #f t o #f"/>
+                                      <Data value="(log  num) -&gt; num"/>
+                                      <Data value="(magnitude  num) -&gt; num"/>
+                                      <Data value="(make-polar num1 num2) -&gt; num"/>
+                                      <Data value="(make-rectangular num1 num2) -&gt; num"/>
+                                      <Data value="(max num1  num2) -&gt; num"/>
+                                      <Data value="(min num1  num2) -&gt; num"/>
+                                      <Data value="(modulo num1  num2) -&gt; num"/>
+                                      <Data value="(negative?  num) -&gt; #t  o #f"/>
+                                      <Data value="(number-&gt;string num) -&gt; string"/>
+                                      <Data value="(number? any) -&gt; #f t o #f"/>
+                                      <Data value="(numerator num) -&gt; num"/>
+                                      <Data value="(add? num) -&gt; #f t o #f"/>
+                                      <Data value="( Pi ) -&gt; num"/>
+                                      <Data value="(positive? num) -&gt; #f t o #f"/>
+                                      <Data value="(quotient num1  num2) -&gt; num"/>
+                                      <Data value="( random ) -&gt; num"/>
+                                      <Data value="(rational? any) -&gt; #f t o #f"/>
+                                      <Data value="(real-part num) -&gt; num"/>
+                                      <Data value="(real? any) -&gt; #f t o #f"/>
+                                      <Data value="(reminder  num1  num2) -&gt; num"/>
+                                      <Data value="(round  num) -&gt; num"/>
+                                      <Data value="(sgn  num) -&gt; num"/>
+                                      <Data value="(sin  num) -&gt; num"/>
+                                      <Data value="(sinh  num) -&gt; num"/>
+                                      <Data value="(sqrt  num) -&gt; raiz(num)"/>
+                                      <Data value="(sub1  num) -&gt; num-1"/>
+                                      <Data value="(tan  num) -&gt; num"/>
+                                      <Data value="(zero? num) -&gt; #f t o #f"/>
+                                    </Column>
+                                    <Column editable="false" title="Descripcion" type="java.lang.String">
+                                      <Data value="Multiplicacion"/>
+                                      <Data value="Suma"/>
+                                      <Data value="Resta"/>
+                                      <Data value="Division"/>
+                                      <Data value="Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"/>
+                                      <Data value="Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"/>
+                                      <Data value="Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"/>
+                                      <Data value="Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f"/>
+                                      <Data value="Valor absoluto de un numero"/>
+                                      <Data value="Arco-coseno"/>
+                                      <Data value="Aumenta un numero en 1"/>
+                                      <Data value="Calcula el angulo de un real"/>
+                                      <Data value="Arco-seno"/>
+                                      <Data value="Arco-tangente"/>
+                                      <Data value="Aproxima un valor real"/>
+                                      <Data value="Evalua si algo es un numero complejo"/>
+                                      <Data value="El conjugado complejo de un numero"/>
+                                      <Data value="Coseno"/>
+                                      <Data value="Coseno Hiperbolico"/>
+                                      <Data value="Devuelve la hora actual en segundos"/>
+                                      <Data value="&apos;&apos;e&apos;&apos; es Euler 2.718281"/>
+                                      <Data value="Prueba un numero para una propiedad particular devolviendo segun sea el caso #t o #f"/>
+                                      <Data value="Las operaciones especiales exact-&gt;inexact son vasados en los tipos de datos numericos asegurando que el tipo respectivo es exacto o no"/>
+                                      <Data value="Nos dice si el numero es exacto o no"/>
+                                      <Data value="Devuelve el valor de Euler elevado a la potencia indicada"/>
+                                      <Data value="Eleva un numero a determinada potencia"/>
+                                      <Data value="Aproxima a piso"/>
+                                      <Data value="Maximo comun divisor"/>
+                                      <Data value="Devuelve la parte imaginaria de un numero complejo en coordenadas rectangulares"/>
+                                      <Data value="Entero o Caracter"/>
+                                      <Data value="Saca la raiz de un numero entero"/>
+                                      <Data value="Nos dice si algo es un numero entero o no"/>
+                                      <Data value="Calcula el logaritmo de un numero"/>
+                                      <Data value="Devuelve la magnitud de un numero complejo en coordenadas rectangulares"/>
+                                      <Data value="Devuelve el resultado de la operacion (+(* magnitude (cos num))(* magnitude (cos num)))"/>
+                                      <Data value="Devuelve el resultado de la operacion (+ x (* y + 0+li))"/>
+                                      <Data value="Evalua dos o mas numeros y nos dice cual es el mayor de todos"/>
+                                      <Data value="Evalua dos o mas numeros y nos dice cual es el menor de todos"/>
+                                      <Data value="Devuelve el modulo de la division entre dos numeros"/>
+                                      <Data value="Evalua un numero y dice si es negativo o no"/>
+                                      <Data value="Devuelve una cadena que es la forma impresa de num es la base especificada por r (2,8,10,16)"/>
+                                      <Data value="Evalua el valor y nos dice si es un numero"/>
+                                      <Data value="Encuentra el numerado del numero expresado, obliga al numero racinal a ser un numero exacto"/>
+                                      <Data value="Devuelve el resultado de evaluar (not(even? n))"/>
+                                      <Data value="&apos;&apos;pi&apos;&apos; es igual a:3.14159265"/>
+                                      <Data value="Devuelve #t si num es mayor a 0, #f en caso contrario"/>
+                                      <Data value="Devuelve el cociente de la division entre dos numeros"/>
+                                      <Data value="Devuelve un numero aleatorio"/>
+                                      <Data value="Devuelve #t si any es un numero racional, #f en otro caso"/>
+                                      <Data value="Devuelve la parte real de un numero complejo en coordenadas rectangulares"/>
+                                      <Data value="Evalua un valor y nos dice si es real"/>
+                                      <Data value="Devuelve el residuo de la division entre dos numeros"/>
+                                      <Data value="Redondea un numero"/>
+                                      <Data value="Devuelve el signo de un numero como -1,0,1"/>
+                                      <Data value="Devuelve el seno de un numero"/>
+                                      <Data value="Devuelve el seno hiperbolico de un numero"/>
+                                      <Data value="Calcula la raiz cuadrada de un numero"/>
+                                      <Data value="Devuelve el resultado de la operacion (- num 1)"/>
+                                      <Data value="Devuelve la tagente de un numero"/>
+                                      <Data value="Evalua un numero y nos dice si es cero o no"/>
+                                    </Column>
                                   </Table>
                                 </Property>
+                                <Property name="toolTipText" type="java.lang.String" value=""/>
+                                <Property name="autoResizeMode" type="int" value="4"/>
                                 <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
                                   <TableColumnModel selectionModel="0">
                                     <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
@@ -687,6 +872,7 @@
                                     </Column>
                                   </TableColumnModel>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                                 <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
                                   <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
                                 </Property>
