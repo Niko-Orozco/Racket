@@ -130,6 +130,18 @@ public class Menu extends javax.swing.JFrame {
         jLabel51 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
+        jPanel34 = new javax.swing.JPanel();
+        jPanel35 = new javax.swing.JPanel();
+        jLabel52 = new javax.swing.JLabel();
+        practicas = new javax.swing.JButton();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jPanel36 = new javax.swing.JPanel();
+        jPanel37 = new javax.swing.JPanel();
+        jLabel55 = new javax.swing.JLabel();
+        quiz = new javax.swing.JButton();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -169,11 +181,11 @@ public class Menu extends javax.swing.JFrame {
 
         jButton1.setText("Ayuda");
         jPanel6.add(jButton1);
-        jButton1.setBounds(1103, 0, 80, 23);
+        jButton1.setBounds(1050, 0, 80, 23);
 
         jButton2.setText("Acerca de");
         jPanel6.add(jButton2);
-        jButton2.setBounds(990, 0, 81, 23);
+        jButton2.setBounds(950, 0, 81, 23);
 
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel17.setText("Dr Racket");
@@ -229,15 +241,15 @@ public class Menu extends javax.swing.JFrame {
         jPanel32.setLayout(jPanel32Layout);
         jPanel32Layout.setHorizontalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 630, Short.MAX_VALUE)
+            .addGap(0, 660, Short.MAX_VALUE)
         );
         jPanel32Layout.setVerticalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 30, Short.MAX_VALUE)
+            .addGap(0, 190, Short.MAX_VALUE)
         );
 
         jPanel3.add(jPanel32);
-        jPanel32.setBounds(30, 300, 630, 30);
+        jPanel32.setBounds(0, 300, 660, 190);
 
         jScrollPane2.setBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -760,7 +772,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel12.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel19);
-        jPanel19.setBounds(410, 1260, 326, 335);
+        jPanel19.setBounds(410, 1260, 326, 330);
 
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
         jPanel21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -805,29 +817,109 @@ public class Menu extends javax.swing.JFrame {
         jLabel14.setBounds(0, 0, 320, 190);
 
         jPanel4.add(jPanel21);
-        jPanel21.setBounds(770, 1260, 328, 335);
+        jPanel21.setBounds(770, 1260, 328, 330);
 
         jLabel29.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel29.setText("Guia  Lenguaje Racket");
         jPanel4.add(jLabel29);
         jLabel29.setBounds(470, 30, 280, 40);
 
+        jPanel34.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel34.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel34.setMaximumSize(new java.awt.Dimension(355, 383));
+        jPanel34.setMinimumSize(new java.awt.Dimension(355, 383));
+        jPanel34.setLayout(null);
+
+        jPanel35.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel35.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel35.setLayout(null);
+
+        jLabel52.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
+        jLabel52.setText("Pares, operaciones con pares, uso de pares");
+        jPanel35.add(jLabel52);
+        jLabel52.setBounds(0, 50, 310, 40);
+
+        practicas.setBackground(new java.awt.Color(255, 255, 255));
+        practicas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
+        practicas.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                practicasActionPerformed(evt);
+            }
+        });
+        jPanel35.add(practicas);
+        practicas.setBounds(90, 100, 130, 30);
+
+        jLabel53.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        jLabel53.setText("Herramienta de Practica");
+        jPanel35.add(jLabel53);
+        jLabel53.setBounds(0, 20, 250, 24);
+
+        jPanel34.add(jPanel35);
+        jPanel35.setBounds(0, 190, 326, 140);
+
+        jLabel54.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/practicas.jpg"))); // NOI18N
+        jPanel34.add(jLabel54);
+        jLabel54.setBounds(10, 10, 310, 180);
+
+        jPanel4.add(jPanel34);
+        jPanel34.setBounds(240, 1620, 328, 330);
+
+        jPanel36.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel36.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel36.setMaximumSize(new java.awt.Dimension(355, 383));
+        jPanel36.setMinimumSize(new java.awt.Dimension(355, 383));
+        jPanel36.setLayout(null);
+
+        jPanel37.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel37.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel37.setLayout(null);
+
+        jLabel55.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
+        jLabel55.setText("Pares, operaciones con pares, uso de pares");
+        jPanel37.add(jLabel55);
+        jLabel55.setBounds(0, 50, 310, 40);
+
+        quiz.setBackground(new java.awt.Color(255, 255, 255));
+        quiz.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b4.png"))); // NOI18N
+        quiz.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                quizActionPerformed(evt);
+            }
+        });
+        jPanel37.add(quiz);
+        quiz.setBounds(90, 100, 130, 30);
+
+        jLabel56.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
+        jLabel56.setText("¿Te atreves?");
+        jPanel37.add(jLabel56);
+        jLabel56.setBounds(10, 10, 140, 33);
+
+        jPanel36.add(jPanel37);
+        jPanel37.setBounds(0, 190, 326, 140);
+
+        jLabel57.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/quiz.png"))); // NOI18N
+        jPanel36.add(jLabel57);
+        jLabel57.setBounds(10, 10, 310, 180);
+
+        jPanel4.add(jPanel36);
+        jPanel36.setBounds(600, 1620, 328, 330);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jPanel4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 1192, Short.MAX_VALUE)
-                    .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 0, 0))
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 1148, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 48, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, 0)
-                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 1608, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 2019, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, 0))
         );
 
         jScrollPane1.setViewportView(jPanel1);
@@ -836,7 +928,7 @@ public class Menu extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1212, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1164, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -873,6 +965,14 @@ public class Menu extends javax.swing.JFrame {
     private void introduccionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_introduccionActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_introduccionActionPerformed
+
+    private void practicasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_practicasActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_practicasActionPerformed
+
+    private void quizActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_quizActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_quizActionPerformed
 
     /**
      * @param args the command line arguments
@@ -968,6 +1068,12 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel50;
     private javax.swing.JLabel jLabel51;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
@@ -999,6 +1105,10 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel31;
     private javax.swing.JPanel jPanel32;
     private javax.swing.JPanel jPanel33;
+    private javax.swing.JPanel jPanel34;
+    private javax.swing.JPanel jPanel35;
+    private javax.swing.JPanel jPanel36;
+    private javax.swing.JPanel jPanel37;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -1009,6 +1119,8 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
     public javax.swing.JButton listas;
+    public javax.swing.JButton practicas;
+    public javax.swing.JButton quiz;
     public javax.swing.JButton recursividad;
     public javax.swing.JButton vectores;
     // End of variables declaration//GEN-END:variables

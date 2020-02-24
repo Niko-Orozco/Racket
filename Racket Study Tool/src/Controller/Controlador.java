@@ -7,10 +7,12 @@ package Controller;
 
 import View.*;
 import Model.*;
+import java.awt.Color;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import static java.lang.Math.pow;
 import javax.swing.JOptionPane;
+import javax.swing.JTextPane;
 import javax.swing.table.DefaultTableModel;
 
 /**
@@ -46,6 +48,7 @@ public class Controlador {
     private RecursividadView RecursView;
     private Expreciones_Matematicas Expres;
     private ExprecrionesView ExpresView;
+    private CuadroTexto ct;
     
     
     public Controlador(Menu menu) {
@@ -120,6 +123,56 @@ public class Controlador {
             ConView.setVisible(true);
             NexCode();
             condicionlaesview();
+        });
+        
+        this.menu.practicas.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            menu.setVisible(false);
+            explicacioncodigo();
+        });
+        
+        this.menu.quiz.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            menu.setVisible(false);
+            practices();
+        });
+    }
+    
+    public void explicacioncodigo(){
+        this.CodeExp.setVisible(true);
+        this.CodeExp.setTitle("Paso a Paso");
+        this.CodeExp.setLocationRelativeTo(null);
+        
+        CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        CodeExp.Ejecutar2.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        CodeExp.Ejecutar3.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        CodeExp.Ejecutar4.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+        
+        CodeExp.menu.addActionListener((ActionEvent e) -> {
+            CodeExp.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
         });
     }
     
@@ -698,8 +751,8 @@ public class Controlador {
         EstrucView.questruct.setText(Estrucs.quees());
         EstrucView.defstruct.setText(Estrucs.defstruct());
         EstrucView.makestruc.setText(Estrucs.makestr());  
-        EstrucView.code.setText(Estrucs.defeje());
-        EstrucView.code2.setText(Estrucs.makeeje());     
+        PonerColor(EstrucView.code,Estrucs.makeeje());
+        PonerColor(EstrucView.code2,Estrucs.defeje());
         llenar_tabla(5); 
         EstrucView.run1.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo1.setText(runCodestrcut(1));
@@ -725,6 +778,12 @@ public class Controlador {
             menu.setVisible(true);
             iniciar();
         });
+    }
+    
+    public void PonerColor(JTextPane modif, String str){
+        ct=new CuadroTexto();
+        ct.setPrueva(modif);
+        ct.append(Color.blue, str);
     }
     
     public void SeeCode(){

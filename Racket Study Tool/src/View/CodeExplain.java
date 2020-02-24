@@ -15,7 +15,20 @@ public class CodeExplain extends javax.swing.JFrame {
     public CodeExplain() {
         initComponents();
         numerolinea = new NumeroLinea(Codigo);
-        jScrollPane4.setRowHeaderView(numerolinea);
+        jScrollPane9.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo1);
+        jScrollPane5.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo2);
+        jScrollPane6.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo3);
+        jScrollPane7.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo4);
+        jScrollPane8.setRowHeaderView(numerolinea);
+        
     }
 
     /** This method is called from within the constructor to
@@ -34,16 +47,34 @@ public class CodeExplain extends javax.swing.JFrame {
         Valores = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
         outputs = new javax.swing.JTextArea();
-        jScrollPane4 = new javax.swing.JScrollPane();
-        Codigo = new javax.swing.JTextArea();
         jLabel2 = new javax.swing.JLabel();
-        Ejecutar = new javax.swing.JButton();
-        Menu = new javax.swing.JButton();
+        menu = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         Ayuda = new javax.swing.JButton();
+        jTabbedPane1 = new javax.swing.JTabbedPane();
+        jPanel2 = new javax.swing.JPanel();
+        Ejecutar = new javax.swing.JButton();
+        jScrollPane9 = new javax.swing.JScrollPane();
+        Codigo = new javax.swing.JTextPane();
+        jPanel3 = new javax.swing.JPanel();
+        jScrollPane5 = new javax.swing.JScrollPane();
+        Codigo1 = new javax.swing.JTextArea();
+        Ejecutar1 = new javax.swing.JButton();
+        jPanel4 = new javax.swing.JPanel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        Codigo2 = new javax.swing.JTextArea();
+        Ejecutar2 = new javax.swing.JButton();
+        jPanel5 = new javax.swing.JPanel();
+        jScrollPane7 = new javax.swing.JScrollPane();
+        Codigo3 = new javax.swing.JTextArea();
+        Ejecutar3 = new javax.swing.JButton();
+        jPanel6 = new javax.swing.JPanel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        Codigo4 = new javax.swing.JTextArea();
+        Ejecutar4 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -70,29 +101,14 @@ public class CodeExplain extends javax.swing.JFrame {
         jPanel1.add(jScrollPane3);
         jScrollPane3.setBounds(20, 500, 270, 143);
 
-        jScrollPane4.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane4.setForeground(new java.awt.Color(255, 255, 255));
-
-        Codigo.setColumns(20);
-        Codigo.setForeground(new java.awt.Color(0, 51, 255));
-        Codigo.setRows(5);
-        jScrollPane4.setViewportView(Codigo);
-
-        jPanel1.add(jScrollPane4);
-        jScrollPane4.setBounds(320, 140, 640, 500);
-
         jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("¿Que tal una explicacion paso a paso?");
         jPanel1.add(jLabel2);
         jLabel2.setBounds(270, 20, 430, 40);
 
-        Ejecutar.setText("Ejecutar");
-        jPanel1.add(Ejecutar);
-        Ejecutar.setBounds(320, 650, 100, 23);
-
-        Menu.setText("Menu");
-        jPanel1.add(Menu);
-        Menu.setBounds(10, 670, 80, 23);
+        menu.setText("Menu");
+        jPanel1.add(menu);
+        menu.setBounds(10, 670, 80, 23);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
@@ -121,7 +137,182 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(850, 650, 110, 23);
+        Ayuda.setBounds(850, 670, 110, 23);
+
+        jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+
+        Ejecutar.setText("Ejecutar");
+
+        jScrollPane9.setViewportView(Codigo);
+
+        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
+        jPanel2.setLayout(jPanel2Layout);
+        jPanel2Layout.setHorizontalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(Ejecutar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel2Layout.createSequentialGroup()
+                        .addGap(19, 19, 19)
+                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 616, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(28, Short.MAX_VALUE))
+        );
+        jPanel2Layout.setVerticalGroup(
+            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(Ejecutar)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Funciones", jPanel2);
+
+        jScrollPane5.setBackground(new java.awt.Color(255, 255, 255));
+        jScrollPane5.setForeground(new java.awt.Color(255, 255, 255));
+
+        Codigo1.setColumns(20);
+        Codigo1.setForeground(new java.awt.Color(0, 51, 255));
+        Codigo1.setRows(5);
+        jScrollPane5.setViewportView(Codigo1);
+
+        Ejecutar1.setText("Ejecutar");
+
+        javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
+        jPanel3.setLayout(jPanel3Layout);
+        jPanel3Layout.setHorizontalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(Ejecutar1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel3Layout.setVerticalGroup(
+            jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel3Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Ejecutar1)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Condicionales", jPanel3);
+
+        jScrollPane6.setBackground(new java.awt.Color(255, 255, 255));
+        jScrollPane6.setForeground(new java.awt.Color(255, 255, 255));
+
+        Codigo2.setColumns(20);
+        Codigo2.setForeground(new java.awt.Color(0, 51, 255));
+        Codigo2.setRows(5);
+        jScrollPane6.setViewportView(Codigo2);
+
+        Ejecutar2.setText("Ejecutar");
+
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addGroup(jPanel4Layout.createSequentialGroup()
+                        .addComponent(Ejecutar2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Ejecutar2)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Recursividad", jPanel4);
+
+        jScrollPane7.setBackground(new java.awt.Color(255, 255, 255));
+        jScrollPane7.setForeground(new java.awt.Color(255, 255, 255));
+
+        Codigo3.setColumns(20);
+        Codigo3.setForeground(new java.awt.Color(0, 51, 255));
+        Codigo3.setRows(5);
+        jScrollPane7.setViewportView(Codigo3);
+
+        Ejecutar3.setText("Ejecutar");
+
+        javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
+        jPanel5.setLayout(jPanel5Layout);
+        jPanel5Layout.setHorizontalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addGroup(jPanel5Layout.createSequentialGroup()
+                        .addComponent(Ejecutar3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel5Layout.setVerticalGroup(
+            jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel5Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Ejecutar3)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Cadenas", jPanel5);
+
+        jScrollPane8.setBackground(new java.awt.Color(255, 255, 255));
+        jScrollPane8.setForeground(new java.awt.Color(255, 255, 255));
+
+        Codigo4.setColumns(20);
+        Codigo4.setForeground(new java.awt.Color(0, 51, 255));
+        Codigo4.setRows(5);
+        jScrollPane8.setViewportView(Codigo4);
+
+        Ejecutar4.setText("Ejecutar");
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addGroup(jPanel6Layout.createSequentialGroup()
+                        .addComponent(Ejecutar4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addComponent(Ejecutar4)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Estructuras de daros", jPanel6);
+
+        jPanel1.add(jTabbedPane1);
+        jTabbedPane1.setBounds(320, 140, 670, 560);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -179,9 +370,16 @@ public class CodeExplain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Ayuda;
-    public javax.swing.JTextArea Codigo;
+    private javax.swing.JTextPane Codigo;
+    public javax.swing.JTextArea Codigo1;
+    public javax.swing.JTextArea Codigo2;
+    public javax.swing.JTextArea Codigo3;
+    public javax.swing.JTextArea Codigo4;
     public javax.swing.JButton Ejecutar;
-    public javax.swing.JButton Menu;
+    public javax.swing.JButton Ejecutar1;
+    public javax.swing.JButton Ejecutar2;
+    public javax.swing.JButton Ejecutar3;
+    public javax.swing.JButton Ejecutar4;
     public javax.swing.JTextArea Pasos;
     public javax.swing.JTextArea Valores;
     private javax.swing.JLabel jLabel1;
@@ -190,10 +388,21 @@ public class CodeExplain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane5;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane7;
+    private javax.swing.JScrollPane jScrollPane8;
+    private javax.swing.JScrollPane jScrollPane9;
+    private javax.swing.JTabbedPane jTabbedPane1;
+    public javax.swing.JButton menu;
     public javax.swing.JTextArea outputs;
     // End of variables declaration//GEN-END:variables
 

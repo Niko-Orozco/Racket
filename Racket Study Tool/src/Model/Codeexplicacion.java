@@ -10,6 +10,13 @@ package Model;
  * @author xlOnly
  */
 public class Codeexplicacion {
+
+    public Codeexplicacion() {
+        
+    }
+    
+    
+    
     String data =  " ;Ejemplo de cond \n" +
                             "\n" +
                             "  ;Suponga que el banco paga 4% para  depositos  menores \n" +
