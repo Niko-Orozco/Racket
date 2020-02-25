@@ -18,13 +18,11 @@ public class Practicas extends javax.swing.JFrame {
         initComponents();
         grupo1.add(t1);
         grupo1.add(t2);
-        grupo1.add(t3);
-        grupo1.add(t4);
+
         
         grupo2.add(r1);
         grupo2.add(r2);
-        grupo2.add(r3);
-        grupo2.add(r4);
+
         
 
     }
@@ -51,8 +49,6 @@ public class Practicas extends javax.swing.JFrame {
         jLabel13 = new javax.swing.JLabel();
         op9 = new javax.swing.JRadioButton();
         op10 = new javax.swing.JRadioButton();
-        t9 = new javax.swing.JRadioButton();
-        t10 = new javax.swing.JRadioButton();
         op11 = new javax.swing.JRadioButton();
         op12 = new javax.swing.JRadioButton();
         jPanel28 = new javax.swing.JPanel();
@@ -72,17 +68,13 @@ public class Practicas extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         op2 = new javax.swing.JRadioButton();
         op4 = new javax.swing.JRadioButton();
-        t7 = new javax.swing.JRadioButton();
-        t8 = new javax.swing.JRadioButton();
         op1 = new javax.swing.JRadioButton();
         op3 = new javax.swing.JRadioButton();
         jPanel26 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
         op8 = new javax.swing.JRadioButton();
-        r8 = new javax.swing.JRadioButton();
         jLabel10 = new javax.swing.JLabel();
         r9 = new javax.swing.JRadioButton();
-        r10 = new javax.swing.JRadioButton();
         op7 = new javax.swing.JRadioButton();
         op5 = new javax.swing.JRadioButton();
         op6 = new javax.swing.JRadioButton();
@@ -96,15 +88,11 @@ public class Practicas extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         t1 = new javax.swing.JRadioButton();
         t2 = new javax.swing.JRadioButton();
-        t3 = new javax.swing.JRadioButton();
-        t4 = new javax.swing.JRadioButton();
         jPanel23 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         r1 = new javax.swing.JRadioButton();
-        r3 = new javax.swing.JRadioButton();
         jLabel7 = new javax.swing.JLabel();
         r2 = new javax.swing.JRadioButton();
-        r4 = new javax.swing.JRadioButton();
         r5 = new javax.swing.JRadioButton();
         r6 = new javax.swing.JRadioButton();
         jLabel9 = new javax.swing.JLabel();
@@ -116,16 +104,12 @@ public class Practicas extends javax.swing.JFrame {
         jLabel17 = new javax.swing.JLabel();
         op17 = new javax.swing.JRadioButton();
         op18 = new javax.swing.JRadioButton();
-        t11 = new javax.swing.JRadioButton();
-        t12 = new javax.swing.JRadioButton();
         op19 = new javax.swing.JRadioButton();
         op20 = new javax.swing.JRadioButton();
         jPanel30 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
-        r14 = new javax.swing.JRadioButton();
         jLabel19 = new javax.swing.JLabel();
         r15 = new javax.swing.JRadioButton();
-        r16 = new javax.swing.JRadioButton();
         op23 = new javax.swing.JRadioButton();
         op24 = new javax.swing.JRadioButton();
         jLabel21 = new javax.swing.JLabel();
@@ -138,8 +122,6 @@ public class Practicas extends javax.swing.JFrame {
         jLabel39 = new javax.swing.JLabel();
         op41 = new javax.swing.JRadioButton();
         op42 = new javax.swing.JRadioButton();
-        t15 = new javax.swing.JRadioButton();
-        t16 = new javax.swing.JRadioButton();
         op43 = new javax.swing.JRadioButton();
         op44 = new javax.swing.JRadioButton();
         jPanel38 = new javax.swing.JPanel();
@@ -198,6 +180,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel42 = new javax.swing.JPanel();
         jScrollPane14 = new javax.swing.JScrollPane();
         jTextArea4 = new javax.swing.JTextArea();
+        jLabel47 = new javax.swing.JLabel();
         jPanel11 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel12 = new javax.swing.JPanel();
@@ -229,6 +212,9 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(270, 0, 400, 50);
 
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel27.setLayout(null);
 
@@ -244,14 +230,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(op10);
         op10.setBounds(240, 320, 120, 29);
 
-        t9.setText("No hace nada");
-        jPanel27.add(t9);
-        t9.setBounds(70, 370, 110, 29);
-
-        t10.setText("Valor de a: 33");
-        jPanel27.add(t10);
-        t10.setBounds(240, 370, 110, 29);
-
         op11.setText("231334");
         jPanel27.add(op11);
         op11.setBounds(70, 290, 100, 29);
@@ -260,6 +238,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(op12);
         op12.setBounds(70, 320, 120, 29);
 
+        jPanel28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel28.setLayout(null);
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones2.jpg"))); // NOI18N
@@ -342,6 +321,9 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Funciones", jPanel2);
 
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane3.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel25.setLayout(null);
 
@@ -357,14 +339,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.add(op4);
         op4.setBounds(240, 320, 120, 29);
 
-        t7.setText("No hace nada");
-        jPanel25.add(t7);
-        t7.setBounds(70, 370, 110, 29);
-
-        t8.setText("Valor de a: 33");
-        jPanel25.add(t8);
-        t8.setBounds(240, 370, 110, 29);
-
         op1.setText("170000");
         jPanel25.add(op1);
         op1.setBounds(70, 290, 100, 29);
@@ -373,6 +347,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.add(op3);
         op3.setBounds(70, 320, 120, 29);
 
+        jPanel26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel26.setLayout(null);
 
         jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/operacionej2.jpg"))); // NOI18N
@@ -388,16 +363,12 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel26.add(op8);
         op8.setBounds(240, 320, 110, 29);
-        jPanel26.add(r8);
-        r8.setBounds(0, 370, 29, 29);
 
         jLabel10.setText("imagen 2");
         jPanel26.add(jLabel10);
         jLabel10.setBounds(260, 0, 240, 170);
         jPanel26.add(r9);
         r9.setBounds(250, 180, 29, 29);
-        jPanel26.add(r10);
-        r10.setBounds(260, 370, 29, 29);
 
         op7.setText("15.76");
         jPanel26.add(op7);
@@ -460,6 +431,10 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Expreciones Aritmeticas", jPanel3);
 
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane4.setToolTipText("");
+        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jLabel5.setText("Selecione la opcion correcta");
 
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -477,14 +452,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.add(t2);
         t2.setBounds(70, 320, 290, 29);
 
-        t3.setText("No hace nada");
-        jPanel22.add(t3);
-        t3.setBounds(70, 370, 110, 29);
-
-        t4.setText("Valor de a: 33");
-        jPanel22.add(t4);
-        t4.setBounds(240, 370, 110, 29);
-
+        jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif2.jpg"))); // NOI18N
@@ -495,16 +463,12 @@ public class Practicas extends javax.swing.JFrame {
         r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(r1);
         r1.setBounds(20, 320, 460, 29);
-        jPanel23.add(r3);
-        r3.setBounds(0, 370, 29, 29);
 
         jLabel7.setText("imagen 2");
         jPanel23.add(jLabel7);
         jLabel7.setBounds(260, 0, 240, 170);
         jPanel23.add(r2);
         r2.setBounds(250, 180, 29, 29);
-        jPanel23.add(r4);
-        r4.setBounds(260, 370, 29, 29);
 
         r5.setText("La opcion no es valida");
         jPanel23.add(r5);
@@ -561,6 +525,9 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Condicionales", jPanel4);
 
+        jScrollPane5.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane5.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel29.setLayout(null);
 
@@ -576,14 +543,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.add(op18);
         op18.setBounds(240, 320, 120, 29);
 
-        t11.setText("No hace nada");
-        jPanel29.add(t11);
-        t11.setBounds(70, 370, 110, 29);
-
-        t12.setText("Valor de a: 33");
-        jPanel29.add(t12);
-        t12.setBounds(240, 370, 110, 29);
-
         op19.setText("13");
         jPanel29.add(op19);
         op19.setBounds(70, 290, 100, 29);
@@ -592,22 +551,19 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.add(op20);
         op20.setBounds(70, 320, 120, 29);
 
+        jPanel30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel30.setLayout(null);
 
         jLabel18.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/recursividad2.jpg"))); // NOI18N
         jLabel18.setText("imagen 1");
         jPanel30.add(jLabel18);
         jLabel18.setBounds(60, 10, 370, 270);
-        jPanel30.add(r14);
-        r14.setBounds(0, 370, 29, 29);
 
         jLabel19.setText("imagen 2");
         jPanel30.add(jLabel19);
         jLabel19.setBounds(260, 0, 240, 170);
         jPanel30.add(r15);
         r15.setBounds(250, 180, 29, 29);
-        jPanel30.add(r16);
-        r16.setBounds(260, 370, 29, 29);
 
         op23.setText("(3 5 7 11 13 17 19 23 29 31)");
         jPanel30.add(op23);
@@ -637,10 +593,10 @@ public class Practicas extends javax.swing.JFrame {
                 .addGap(7, 7, 7)
                 .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
                     .addComponent(jPanel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(234, 234, 234))
+                .addContainerGap(242, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
@@ -666,10 +622,13 @@ public class Practicas extends javax.swing.JFrame {
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 434, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Recursividad", jPanel5);
+
+        jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
         jLabel37.setText("cual seria la salida?");
 
@@ -690,14 +649,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(op42);
         op42.setBounds(240, 320, 120, 29);
 
-        t15.setText("No hace nada");
-        jPanel37.add(t15);
-        t15.setBounds(70, 370, 110, 29);
-
-        t16.setText("Valor de a: 33");
-        jPanel37.add(t16);
-        t16.setBounds(240, 370, 110, 29);
-
         op43.setText("#\\t");
         jPanel37.add(op43);
         op43.setBounds(70, 290, 100, 29);
@@ -706,6 +657,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(op44);
         op44.setBounds(70, 320, 120, 29);
 
+        jPanel38.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel38.setLayout(null);
 
         jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/caracteres2.jpg"))); // NOI18N
@@ -746,15 +698,15 @@ public class Practicas extends javax.swing.JFrame {
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel17Layout.createSequentialGroup()
                 .addComponent(jPanel37, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(18, 18, 18)
                 .addComponent(jPanel38, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 81, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(jPanel17Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel37, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(38, 38, 38)
                 .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(107, Short.MAX_VALUE))
         );
         jPanel17Layout.setVerticalGroup(
             jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -784,6 +736,9 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Caracteres", jPanel6);
 
+        jScrollPane7.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane7.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel35.setLayout(null);
 
@@ -807,6 +762,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel35.add(op36);
         op36.setBounds(70, 320, 120, 29);
 
+        jPanel36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel36.setLayout(null);
 
         jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/cadenas2.jpg"))); // NOI18N
@@ -889,6 +845,9 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Cadenas", jPanel7);
 
+        jScrollPane8.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane8.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
         jPanel33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel33.setLayout(null);
 
@@ -912,6 +871,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.add(op32);
         op32.setBounds(70, 320, 120, 29);
 
+        jPanel34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel34.setLayout(null);
 
         jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores2.jpg"))); // NOI18N
@@ -945,7 +905,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 30, Short.MAX_VALUE))
+                .addGap(0, 36, Short.MAX_VALUE))
         );
         jPanel19Layout.setVerticalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -953,10 +913,10 @@ public class Practicas extends javax.swing.JFrame {
                 .addGap(7, 7, 7)
                 .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
-                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
                     .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(234, 234, 234))
+                .addContainerGap(242, Short.MAX_VALUE))
         );
 
         jScrollPane8.setViewportView(jPanel19);
@@ -1002,6 +962,8 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Listas", jPanel9);
 
+        jScrollPane10.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+
         jLabel46.setText("Ingrese el ejemplo en racket y evalue el codigo");
 
         jPanel40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -1009,11 +971,11 @@ public class Practicas extends javax.swing.JFrame {
 
         jTextArea3.setColumns(20);
         jTextArea3.setRows(5);
-        jTextArea3.setText("(display\"Digite la cantidad de empleados: \")\n(define v1 (make-vector(read)))\n(define-struct nomina (cedula nombre cargo sueldo))\n(define v2 (make-vector(vector-length v1)))\n\n\n\n(define (ingresar_datos a i)\n  (if (< a (vector-length v1))\n      (begin\n          (vector-set! v1 i (make-nomina (begin \n                                                (display \"Digite Numero de cedula: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el Nombre del Empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el cargo del empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el sueldo del empleado: \")\n                                                (newline)\n                                                (read))\n                                               )\n                       )                                \n          (ingresar_datos (+ a 1) (+ i 1))\n          )\n      )\n  )\n\n(define(ordenar v1 v2 i j)\n  (if(< i (vector-length v1))\n     (if(< j(vector-length v1))\n        (if(<= (nomina-cedula(vector-ref v1 i))(nomina-cedula(vector-ref v1 j)))\n           (ordenar v1 v2 i (+ j 1))\n           (begin\n             (vector-set! v2 0 (vector-ref v1 i))\n             (vector-set! v1 i (vector-ref v1 j))\n             (vector-set! v1 j (vector-ref v2 0))\n             (ordenar v1 v2 i j)\n             )\n           )\n        (ordenar v1 v2 (+ i 1)(+ i 2))\n        )\n     \n     )\n  )\n\n(define (mostrar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        (display \" \")\n        (newline)\n        (mostrar (+ i 1))\n        (newline))\n        )\n      )\n(define (visualizar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        )\n      )\n  )\n\n(define (modificar_datos i)\n  (begin\n    (displayln \"Puede modificar los datos, por favor.\")\n    (vector-set! v1 i (make-nomina (begin\n                                     (display \"Digite Numero de cedula: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el Nombre del Empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el cargo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el sueldo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   )\n                       )\n    )\n  )\n          \n\n(define(buscar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (visualizar n)\n          (buscar x (+ n 1))\n          )\n      (begin\n        (modificar_datos 0)\n        (ordenar v1 v2 0 1)\n        )\n      )\n  )\n\n(define(modsueldo x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Modificara el salario del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (display \"Salario: \")\n            (displayln (nomina-sueldo(vector-ref v1 n)))\n            (displayln \"Esta seguro que desea modificarlo? \")\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (begin\n                 (vector-set! v1 n (make-nomina (begin\n                                                  x\n                                                  )\n                                                (begin\n                                                  (nomina-nombre (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (nomina-cargo (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (display \"Digite el nuevo salario del empleado: \")\n                                                  (newline)\n                                                  (read))\n                                                )\n                              )\n                 )\n               (displayln \"Decidio no modificar ningun valor \")\n               )\n            )\n          (modsueldo x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  )\n\n;elmina un registro de la estructura\n(define(eliminar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Eliminara el registro del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (newline)\n            (displayln \"Esta seguro que desea eliminarlo? \")\n            (newline)\n            (displayln \"Al hacer esto el empleado sera reemplazado por el empleado siguente en la base de datos \")\n            (newline)\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (if (< n (vector-length v1))\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   )\n               (displayln \"Decidio no eliminar el registro\")\n               )\n            )\n          (eliminar x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  ) \n\n(define(menu-principal x)\n  (if(and(number? x)(> x 0))\n       (cond\n         ((= x 1)(ingresar_datos 0 0))\n         ((= x 2)(ordenar v1 v2 0 1))\n         ((= x 3)(begin(display \" Digite el numero de cedula: \")(buscar (read) 0 )))\n         ((= x 4)(begin(display \" Digite el numero de cedula: \")(modsueldo (read) 0 )))\n         ((= x 5)(begin(display \" Digite el numero de cedula: \")(eliminar (read) 0 )))\n         ((= x 6)(mostrar 0 ))\n         )\n       )\n    )\n\n(define(menuprincipal)\n  (begin\n    (newline)\n    (newline)\n    (displayln \"                    Menu Principal                    \")\n    (newline)\n    (displayln \"******************************************************\")\n    (displayln \"*                                                    *\")\n    (displayln \"*  1. Ingresar datos de en la base de datos          *\")\n    (displayln \"*  2. ordenar datos por dedula                       *\")\n    (displayln \"*  3. Buscar por cedula                              *\")\n    (displayln \"*  4. Modificar sueldo de empleados                  *\")\n    (displayln \"*  5. Eliminar empleado                              *\")\n    (displayln \"*  6. Visualizar base de datos                       *\")\n    (displayln \"*                                                    *\")\n    (displayln \"******************************************************\")\n    (display \" Escoge una opción: \")\n    (menu-principal(read))\n    (menuprincipal)\n    ))\n\n(menuprincipal)");
+        jTextArea3.setText("(display\"Digite la cantidad de empleados: \")\n(define v1 (make-vector(read)))\n(define-struct nomina (cedula nombre cargo sueldo))\n(define v2 (make-vector(vector-length v1)))\n\n\n\n(define (ingresar_datos a i)\n  (if (< a (vector-length v1))\n      (begin\n          (vector-set! v1 i (make-nomina (begin \n                                                (display \"Digite Numero de cedula: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el Nombre del Empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el cargo del empleado: \")\n                                                (newline)\n                                                (read))\n                                              (begin\n                                                (display \"Digite el sueldo del empleado: \")\n                                                (newline)\n                                                (read))\n                                               )\n                       )                                \n          (ingresar_datos (+ a 1) (+ i 1))\n          )\n      )\n  )\n\n(define(ordenar v1 v2 i j)\n  (if(< i (vector-length v1))\n     (if(< j(vector-length v1))\n        (if(<= (nomina-cedula(vector-ref v1 i))(nomina-cedula(vector-ref v1 j)))\n           (ordenar v1 v2 i (+ j 1))\n           (begin\n             (vector-set! v2 0 (vector-ref v1 i))\n             (vector-set! v1 i (vector-ref v1 j))\n             (vector-set! v1 j (vector-ref v2 0))\n             (ordenar v1 v2 i j)\n             )\n           )\n        (ordenar v1 v2 (+ i 1)(+ i 2))\n        )\n     \n     )\n  )\n\n(define (mostrar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        (display \" \")\n        (newline)\n        (mostrar (+ i 1))\n        (newline))\n        )\n      )\n(define (visualizar i)\n  (if (< i (vector-length v1))\n      (begin\n        (display (nomina-cedula (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-nombre (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-cargo (vector-ref v1 i)))\n        (display \" \")\n        (display (nomina-sueldo (vector-ref v1 i)))\n        )\n      )\n  )\n\n(define (modificar_datos i)\n  (begin\n    (displayln \"Puede modificar los datos, por favor.\")\n    (vector-set! v1 i (make-nomina (begin\n                                     (display \"Digite Numero de cedula: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el Nombre del Empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el cargo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   (begin\n                                     (display \"Digite el sueldo del empleado: \")\n                                     (newline)\n                                     (read))\n                                   )\n                       )\n    )\n  )\n          \n\n(define(buscar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (visualizar n)\n          (buscar x (+ n 1))\n          )\n      (begin\n        (modificar_datos 0)\n        (ordenar v1 v2 0 1)\n        )\n      )\n  )\n\n(define(modsueldo x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Modificara el salario del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (display \"Salario: \")\n            (displayln (nomina-sueldo(vector-ref v1 n)))\n            (displayln \"Esta seguro que desea modificarlo? \")\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (begin\n                 (vector-set! v1 n (make-nomina (begin\n                                                  x\n                                                  )\n                                                (begin\n                                                  (nomina-nombre (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (nomina-cargo (vector-ref v1 n))\n                                                  )\n                                                (begin\n                                                  (display \"Digite el nuevo salario del empleado: \")\n                                                  (newline)\n                                                  (read))\n                                                )\n                              )\n                 )\n               (displayln \"Decidio no modificar ningun valor \")\n               )\n            )\n          (modsueldo x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  )\n\n;elmina un registro de la estructura\n(define(eliminar x n)\n  (if (< n (vector-length v1))\n      (if (= x (nomina-cedula(vector-ref v1 n)))\n          (begin\n            (displayln \"Eliminara el registro del siguiente empleado: \")\n            (display \"Nombre: \")\n            (displayln (nomina-nombre(vector-ref v1 n)))\n            (newline)\n            (displayln \"Esta seguro que desea eliminarlo? \")\n            (newline)\n            (displayln \"Al hacer esto el empleado sera reemplazado por el empleado siguente en la base de datos\")\n            (newline)\n            (displayln \"Digite 1 para si\")\n            (displayln \"Digite 2 para no\")\n            (if(= 1 (read))\n               (if (< n (vector-length v1))\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (+ n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   (begin\n                     (vector-set! v1 n (make-nomina (begin\n                                                      (nomina-cedula (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-nombre (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-cargo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    (begin\n                                                      (nomina-sueldo (vector-ref v1 (- n 1)))\n                                                      )\n                                                    )\n                                  )\n                     )\n                   )\n               (displayln \"Decidio no eliminar el registro\")\n               )\n            )\n          (eliminar x (+ n 1))\n          )\n      (displayln \"El empleado no se encuetra en la base de datos\")\n      )\n  ) \n\n(define(menu-principal x)\n  (if(and(number? x)(> x 0))\n       (cond\n         ((= x 1)(ingresar_datos 0 0))\n         ((= x 2)(ordenar v1 v2 0 1))\n         ((= x 3)(begin(display \" Digite el numero de cedula: \")(buscar (read) 0 )))\n         ((= x 4)(begin(display \" Digite el numero de cedula: \")(modsueldo (read) 0 )))\n         ((= x 5)(begin(display \" Digite el numero de cedula: \")(eliminar (read) 0 )))\n         ((= x 6)(mostrar 0 ))\n         )\n       )\n    )\n\n(define(menuprincipal)\n  (begin\n    (newline)\n    (newline)\n    (displayln \"                    Menu Principal                    \")\n    (newline)\n    (displayln \"******************************************************\")\n    (displayln \"*                                                    *\")\n    (displayln \"*  1. Ingresar datos de en la base de datos          *\")\n    (displayln \"*  2. ordenar datos por dedula                       *\")\n    (displayln \"*  3. Buscar por cedula                              *\")\n    (displayln \"*  4. Modificar sueldo de empleados                  *\")\n    (displayln \"*  5. Eliminar empleado                              *\")\n    (displayln \"*  6. Visualizar base de datos                       *\")\n    (displayln \"*                                                    *\")\n    (displayln \"******************************************************\")\n    (display \" Escoge una opción: \")\n    (menu-principal(read))\n    (menuprincipal)\n    ))\n\n(menuprincipal)");
         jScrollPane13.setViewportView(jTextArea3);
 
         jPanel40.add(jScrollPane13);
-        jScrollPane13.setBounds(20, 20, 420, 310);
+        jScrollPane13.setBounds(20, 20, 900, 310);
 
         jPanel42.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel42.setLayout(null);
@@ -1024,30 +986,43 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane14.setViewportView(jTextArea4);
 
         jPanel42.add(jScrollPane14);
-        jScrollPane14.setBounds(20, 20, 420, 310);
+        jScrollPane14.setBounds(20, 20, 900, 310);
+
+        jLabel47.setText("Ingrese el ejemplo en racket y evalue el codigo");
 
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
         jPanel21Layout.setHorizontalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel21Layout.createSequentialGroup()
-                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 30, Short.MAX_VALUE))
+                .addGap(35, 35, 35)
+                .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, 939, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jPanel42, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addGap(35, 35, 35)
+                .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel21Layout.setVerticalGroup(
             jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
-                .addGap(7, 7, 7)
+                .addContainerGap()
                 .addComponent(jLabel46, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jPanel42, javax.swing.GroupLayout.DEFAULT_SIZE, 351, Short.MAX_VALUE)
-                    .addComponent(jPanel40, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(267, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel40, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel47, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jPanel42, javax.swing.GroupLayout.PREFERRED_SIZE, 351, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jScrollPane10.setViewportView(jPanel21);
@@ -1064,6 +1039,8 @@ public class Practicas extends javax.swing.JFrame {
         );
 
         jTabbedPane1.addTab("Estructura de datos", jPanel10);
+
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
         jPanel31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel31.setLayout(null);
@@ -1088,6 +1065,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.add(jRadioButton2);
         jRadioButton2.setBounds(220, 330, 30, 29);
 
+        jPanel32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel32.setLayout(null);
 
         jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/grafico2.jpg"))); // NOI18N
@@ -1294,6 +1272,7 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -1406,33 +1385,17 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op8;
     public javax.swing.JRadioButton op9;
     public javax.swing.JRadioButton r1;
-    public javax.swing.JRadioButton r10;
     public javax.swing.JRadioButton r12;
     public javax.swing.JRadioButton r13;
-    public javax.swing.JRadioButton r14;
     public javax.swing.JRadioButton r15;
-    public javax.swing.JRadioButton r16;
     public javax.swing.JRadioButton r17;
     public javax.swing.JRadioButton r18;
     public javax.swing.JRadioButton r2;
     public javax.swing.JRadioButton r21;
-    public javax.swing.JRadioButton r3;
-    public javax.swing.JRadioButton r4;
     public javax.swing.JRadioButton r5;
     public javax.swing.JRadioButton r6;
-    public javax.swing.JRadioButton r8;
     public javax.swing.JRadioButton r9;
     public javax.swing.JRadioButton t1;
-    public javax.swing.JRadioButton t10;
-    public javax.swing.JRadioButton t11;
-    public javax.swing.JRadioButton t12;
-    public javax.swing.JRadioButton t15;
-    public javax.swing.JRadioButton t16;
     public javax.swing.JRadioButton t2;
-    public javax.swing.JRadioButton t3;
-    public javax.swing.JRadioButton t4;
-    public javax.swing.JRadioButton t7;
-    public javax.swing.JRadioButton t8;
-    public javax.swing.JRadioButton t9;
     // End of variables declaration//GEN-END:variables
 }
