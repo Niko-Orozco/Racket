@@ -7,6 +7,7 @@ import java.awt.Color;
 
 
 public class CuadroTexto extends JTextPane {
+    
    private JTextPane NewColor;
 
     public void setPrueva(JTextPane NewColor) {

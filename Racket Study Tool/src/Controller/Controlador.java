@@ -48,7 +48,7 @@ public class Controlador {
     private RecursividadView RecursView;
     private Expreciones_Matematicas Expres;
     private ExprecrionesView ExpresView;
-    private CuadroTexto ct;
+    private CuadroTexto ChangeColor;
     
     
     public Controlador(Menu menu) {
@@ -781,9 +781,29 @@ public class Controlador {
     }
     
     public void PonerColor(JTextPane modif, String str){
-        ct=new CuadroTexto();
-        ct.setPrueva(modif);
-        ct.append(Color.blue, str);
+        //new Color(153,102,0) color cafe
+        ChangeColor=new CuadroTexto();
+        ChangeColor.setPrueva(modif);
+        String an ="";
+        int d = 0;
+        for(int i=0; i < str.length();i++){
+            an += str.charAt(i);
+            d = ((i+1) < str.length())? i+1 : i;
+           if((str.charAt(i) == ';')){ //(str.charAt(d) == '\n')
+               for(int z = i;(str.charAt(i) == '\n'); i++){
+                   an += str.charAt(i);
+               }
+               ChangeColor.append(new Color(153,102,0), an);
+           }
+           
+           if((str.charAt(i) == '(')){
+               for(int z = i;(str.charAt(i) == '\n'); i++){
+                   an += str.charAt(i);
+               }
+               ChangeColor.append(Color.blue, an);
+           }
+           
+        }     
     }
     
     public void SeeCode(){

@@ -14,20 +14,20 @@ public class CodeExplain extends javax.swing.JFrame {
     NumeroLinea numerolinea;
     public CodeExplain() {
         initComponents();
-        numerolinea = new NumeroLinea(Codigo);
+        numerolinea = new NumeroLinea(Codigo1);
         jScrollPane9.setRowHeaderView(numerolinea);
         
-        numerolinea = new NumeroLinea(Codigo1);
-        jScrollPane5.setRowHeaderView(numerolinea);
-        
         numerolinea = new NumeroLinea(Codigo2);
-        jScrollPane6.setRowHeaderView(numerolinea);
+        jScrollPane11.setRowHeaderView(numerolinea);
         
         numerolinea = new NumeroLinea(Codigo3);
-        jScrollPane7.setRowHeaderView(numerolinea);
+        jScrollPane12.setRowHeaderView(numerolinea);
         
         numerolinea = new NumeroLinea(Codigo4);
-        jScrollPane8.setRowHeaderView(numerolinea);
+        jScrollPane13.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo5);
+        jScrollPane14.setRowHeaderView(numerolinea);
         
     }
 
@@ -58,23 +58,23 @@ public class CodeExplain extends javax.swing.JFrame {
         jPanel2 = new javax.swing.JPanel();
         Ejecutar = new javax.swing.JButton();
         jScrollPane9 = new javax.swing.JScrollPane();
-        Codigo = new javax.swing.JTextPane();
+        Codigo1 = new javax.swing.JTextPane();
         jPanel3 = new javax.swing.JPanel();
-        jScrollPane5 = new javax.swing.JScrollPane();
-        Codigo1 = new javax.swing.JTextArea();
         Ejecutar1 = new javax.swing.JButton();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        Codigo2 = new javax.swing.JTextPane();
         jPanel4 = new javax.swing.JPanel();
-        jScrollPane6 = new javax.swing.JScrollPane();
-        Codigo2 = new javax.swing.JTextArea();
         Ejecutar2 = new javax.swing.JButton();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        Codigo3 = new javax.swing.JTextPane();
         jPanel5 = new javax.swing.JPanel();
-        jScrollPane7 = new javax.swing.JScrollPane();
-        Codigo3 = new javax.swing.JTextArea();
         Ejecutar3 = new javax.swing.JButton();
+        jScrollPane13 = new javax.swing.JScrollPane();
+        Codigo4 = new javax.swing.JTextPane();
         jPanel6 = new javax.swing.JPanel();
-        jScrollPane8 = new javax.swing.JScrollPane();
-        Codigo4 = new javax.swing.JTextArea();
         Ejecutar4 = new javax.swing.JButton();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        Codigo5 = new javax.swing.JTextPane();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -143,21 +143,20 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar.setText("Ejecutar");
 
-        jScrollPane9.setViewportView(Codigo);
+        jScrollPane9.setViewportView(Codigo1);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel2Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(Ejecutar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(19, 19, 19)
-                        .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 616, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(28, Short.MAX_VALUE))
+                        .addComponent(Ejecutar, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 543, Short.MAX_VALUE))
+                    .addComponent(jScrollPane9))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -171,15 +170,9 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Funciones", jPanel2);
 
-        jScrollPane5.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane5.setForeground(new java.awt.Color(255, 255, 255));
-
-        Codigo1.setColumns(20);
-        Codigo1.setForeground(new java.awt.Color(0, 51, 255));
-        Codigo1.setRows(5);
-        jScrollPane5.setViewportView(Codigo1);
-
         Ejecutar1.setText("Ejecutar");
+
+        jScrollPane11.setViewportView(Codigo2);
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -188,33 +181,27 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(jPanel3Layout.createSequentialGroup()
                         .addComponent(Ejecutar1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 543, Short.MAX_VALUE))
+                    .addComponent(jScrollPane11))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
                 .addComponent(Ejecutar1)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Condicionales", jPanel3);
 
-        jScrollPane6.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane6.setForeground(new java.awt.Color(255, 255, 255));
-
-        Codigo2.setColumns(20);
-        Codigo2.setForeground(new java.awt.Color(0, 51, 255));
-        Codigo2.setRows(5);
-        jScrollPane6.setViewportView(Codigo2);
-
         Ejecutar2.setText("Ejecutar");
+
+        jScrollPane12.setViewportView(Codigo3);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -223,33 +210,27 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(jPanel4Layout.createSequentialGroup()
                         .addComponent(Ejecutar2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 543, Short.MAX_VALUE))
+                    .addComponent(jScrollPane12))
                 .addContainerGap())
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
                 .addComponent(Ejecutar2)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Recursividad", jPanel4);
 
-        jScrollPane7.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane7.setForeground(new java.awt.Color(255, 255, 255));
-
-        Codigo3.setColumns(20);
-        Codigo3.setForeground(new java.awt.Color(0, 51, 255));
-        Codigo3.setRows(5);
-        jScrollPane7.setViewportView(Codigo3);
-
         Ejecutar3.setText("Ejecutar");
+
+        jScrollPane13.setViewportView(Codigo4);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
@@ -258,33 +239,27 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(jPanel5Layout.createSequentialGroup()
                         .addComponent(Ejecutar3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 543, Short.MAX_VALUE))
+                    .addComponent(jScrollPane13, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel5Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addComponent(jScrollPane13, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
                 .addComponent(Ejecutar3)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Cadenas", jPanel5);
 
-        jScrollPane8.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane8.setForeground(new java.awt.Color(255, 255, 255));
-
-        Codigo4.setColumns(20);
-        Codigo4.setForeground(new java.awt.Color(0, 51, 255));
-        Codigo4.setRows(5);
-        jScrollPane8.setViewportView(Codigo4);
-
         Ejecutar4.setText("Ejecutar");
+
+        jScrollPane14.setViewportView(Codigo5);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -293,17 +268,17 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel6Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(jPanel6Layout.createSequentialGroup()
                         .addComponent(Ejecutar4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 543, Short.MAX_VALUE))
+                    .addComponent(jScrollPane14, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addContainerGap())
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 472, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(4, 4, 4)
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(Ejecutar4)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -370,11 +345,11 @@ public class CodeExplain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Ayuda;
-    private javax.swing.JTextPane Codigo;
-    public javax.swing.JTextArea Codigo1;
-    public javax.swing.JTextArea Codigo2;
-    public javax.swing.JTextArea Codigo3;
-    public javax.swing.JTextArea Codigo4;
+    private javax.swing.JTextPane Codigo1;
+    private javax.swing.JTextPane Codigo2;
+    private javax.swing.JTextPane Codigo3;
+    private javax.swing.JTextPane Codigo4;
+    private javax.swing.JTextPane Codigo5;
     public javax.swing.JButton Ejecutar;
     public javax.swing.JButton Ejecutar1;
     public javax.swing.JButton Ejecutar2;
@@ -394,12 +369,12 @@ public class CodeExplain extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
+    private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane5;
-    private javax.swing.JScrollPane jScrollPane6;
-    private javax.swing.JScrollPane jScrollPane7;
-    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton menu;
