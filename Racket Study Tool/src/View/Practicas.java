@@ -167,9 +167,24 @@ public class Practicas extends javax.swing.JFrame {
         op33 = new javax.swing.JRadioButton();
         op34 = new javax.swing.JRadioButton();
         jLabel29 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
         jPanel20 = new javax.swing.JPanel();
+        jLabel43 = new javax.swing.JLabel();
+        jLabel44 = new javax.swing.JLabel();
+        jPanel39 = new javax.swing.JPanel();
+        jLabel45 = new javax.swing.JLabel();
+        op49 = new javax.swing.JRadioButton();
+        op50 = new javax.swing.JRadioButton();
+        op51 = new javax.swing.JRadioButton();
+        op52 = new javax.swing.JRadioButton();
+        jPanel41 = new javax.swing.JPanel();
+        jLabel48 = new javax.swing.JLabel();
+        r14 = new javax.swing.JRadioButton();
+        op54 = new javax.swing.JRadioButton();
+        op55 = new javax.swing.JRadioButton();
+        op56 = new javax.swing.JRadioButton();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
@@ -893,7 +908,9 @@ public class Practicas extends javax.swing.JFrame {
         jPanel34.add(op34);
         op34.setBounds(70, 320, 280, 29);
 
-        jLabel29.setText("cual seria la salida si ingresamos 7 en el read?");
+        jLabel29.setText("cual seria la salida?");
+
+        jLabel42.setText("cual seria la salida?");
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -903,16 +920,26 @@ public class Practicas extends javax.swing.JFrame {
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jPanel33, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jPanel34, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addGap(24, 24, 24)
+                        .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addGap(0, 36, Short.MAX_VALUE))
         );
         jPanel19Layout.setVerticalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel19Layout.createSequentialGroup()
-                .addGap(7, 7, 7)
-                .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addGap(7, 7, 7)
+                        .addComponent(jLabel29, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel34, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
                     .addComponent(jPanel33, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -925,7 +952,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane8)
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -936,15 +963,90 @@ public class Practicas extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Vectores", jPanel8);
 
+        jScrollPane9.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane9.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
+
+        jLabel43.setText("cual seria la salida?");
+
+        jLabel44.setText("Que hace la siguiente función? discuta su respues con su compañero ");
+
+        jPanel39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel39.setLayout(null);
+
+        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/listas1.jpg"))); // NOI18N
+        jPanel39.add(jLabel45);
+        jLabel45.setBounds(40, 10, 380, 270);
+
+        op49.setText("532205493");
+        jPanel39.add(op49);
+        op49.setBounds(240, 290, 120, 29);
+
+        op50.setText("543201293");
+        jPanel39.add(op50);
+        op50.setBounds(240, 320, 120, 29);
+
+        op51.setText("398102345");
+        jPanel39.add(op51);
+        op51.setBounds(70, 290, 120, 29);
+
+        op52.setText("543261293");
+        jPanel39.add(op52);
+        op52.setBounds(70, 320, 120, 29);
+
+        jPanel41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel41.setLayout(null);
+
+        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/listas2.jpg"))); // NOI18N
+        jLabel48.setText("imagen 1");
+        jPanel41.add(jLabel48);
+        jLabel48.setBounds(60, 10, 370, 270);
+        jPanel41.add(r14);
+        r14.setBounds(250, 180, 29, 29);
+
+        op54.setText("Se llena con -1");
+        jPanel41.add(op54);
+        op54.setBounds(240, 290, 200, 29);
+
+        op55.setText("Recibe una lista infinita");
+        jPanel41.add(op55);
+        op55.setBounds(20, 290, 210, 29);
+
+        op56.setText("Imprime en pantalla la lista cuando se ingresa -1");
+        op56.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op56ActionPerformed(evt);
+            }
+        });
+        jPanel41.add(op56);
+        op56.setBounds(20, 320, 410, 29);
+
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
         jPanel20Layout.setHorizontalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 967, Short.MAX_VALUE)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel39, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(18, 18, 18)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel44)
+                    .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(55, Short.MAX_VALUE))
         );
         jPanel20Layout.setVerticalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 674, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel43, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel41, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(35, 35, 35))
         );
 
         jScrollPane9.setViewportView(jPanel20);
@@ -1195,6 +1297,10 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_op45ActionPerformed
 
+    private void op56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op56ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op56ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1271,8 +1377,13 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel40;
     private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel44;
+    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
@@ -1310,8 +1421,10 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel37;
     private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel40;
+    private javax.swing.JPanel jPanel41;
     private javax.swing.JPanel jPanel42;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
@@ -1379,7 +1492,14 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op46;
     public javax.swing.JRadioButton op47;
     public javax.swing.JRadioButton op48;
+    public javax.swing.JRadioButton op49;
     public javax.swing.JRadioButton op5;
+    public javax.swing.JRadioButton op50;
+    public javax.swing.JRadioButton op51;
+    public javax.swing.JRadioButton op52;
+    public javax.swing.JRadioButton op54;
+    public javax.swing.JRadioButton op55;
+    public javax.swing.JRadioButton op56;
     public javax.swing.JRadioButton op6;
     public javax.swing.JRadioButton op7;
     public javax.swing.JRadioButton op8;
@@ -1387,6 +1507,7 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton r1;
     public javax.swing.JRadioButton r12;
     public javax.swing.JRadioButton r13;
+    public javax.swing.JRadioButton r14;
     public javax.swing.JRadioButton r15;
     public javax.swing.JRadioButton r17;
     public javax.swing.JRadioButton r18;
