@@ -144,9 +144,7 @@ public class Controlador {
         this.CodeExp.setLocationRelativeTo(null);
         
         CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
+            runCodeExp(2);
         });
         CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
             CodeExp.setVisible(false);
