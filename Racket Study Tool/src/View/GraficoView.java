@@ -364,14 +364,14 @@ public class GraficoView extends javax.swing.JFrame {
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/ayuda.png"))); // NOI18N
 
-        jLabel15.setText("Reprecentacion de una recursion mediante la torre de hanoi");
+        jLabel15.setText("Ejemplo modo grafico y uso de botones");
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(null);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/semaforo.gif"))); // NOI18N
         jPanel6.add(jLabel3);
-        jLabel3.setBounds(6, 0, 550, 328);
+        jLabel3.setBounds(-20, 0, 570, 328);
 
         jScrollPane7.setViewportView(jPanel6);
 

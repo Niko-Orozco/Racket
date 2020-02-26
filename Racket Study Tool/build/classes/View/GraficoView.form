@@ -764,7 +764,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Reprecentacion de una recursion mediante la torre de hanoi"/>
+                        <Property name="text" type="java.lang.String" value="Ejemplo modo grafico y uso de botones"/>
                       </Properties>
                     </Component>
                     <Container class="javax.swing.JScrollPane" name="jScrollPane7">
@@ -790,7 +790,7 @@
                               </Properties>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="6" y="0" width="550" height="328"/>
+                                  <AbsoluteConstraints x="-20" y="0" width="570" height="328"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
