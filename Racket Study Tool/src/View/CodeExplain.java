@@ -112,9 +112,9 @@ public class CodeExplain extends javax.swing.JFrame {
         jScrollPane3.setBounds(20, 500, 270, 143);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
-        jLabel2.setText("¿Que tal una explicacion paso a paso?");
+        jLabel2.setText("Paso a Paso");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(270, 20, 430, 40);
+        jLabel2.setBounds(420, 20, 160, 40);
 
         menu.setText("Menu");
         jPanel1.add(menu);
@@ -181,11 +181,11 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jScrollPane9, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Ejecutar)
+                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next1)
-                        .addComponent(previus1)))
+                        .addComponent(previus1))
+                    .addComponent(Ejecutar))
                 .addContainerGap())
         );
 
@@ -260,11 +260,11 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addContainerGap()
                 .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Ejecutar2)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next3)
-                        .addComponent(previus3)))
+                        .addComponent(previus3))
+                    .addComponent(Ejecutar2))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 

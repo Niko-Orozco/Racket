@@ -15,6 +15,56 @@ public class Codeexplicacion {
         
     }
     
+    public String Ejemplo1(){
+        String data = "";
+        return data;
+    }
+    
+    public String Ejemplo2(){
+        String data = "";
+        return data;
+    }
+    
+    public String Ejemplo3(){
+        String data = "";
+        return data;
+    }
+    
+    public String Ejemplo4(){
+        String data = "";
+        return data;
+    }
+    
+    public String Ejemplo5(){
+        String data = "";
+        return data;
+    }
+    
+    public String Paso1(int este){
+        String data = "";
+        return data;
+    }
+    
+    public String Paso2(int este){
+        String data = "";
+        return data;
+    }
+    
+    public String Paso3(int este){
+        String data = "";
+        return data;
+    }
+    
+    public String Paso4(int este){
+        String data = "";
+        return data;
+    }
+    
+    public String Paso5(int este){
+        String data = "";
+        return data;
+    }
+    
     
     
     String data =  " ;Ejemplo de cond \n" +
