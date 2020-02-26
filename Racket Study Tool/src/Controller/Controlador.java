@@ -136,6 +136,15 @@ public class Controlador {
             menu.setVisible(false);
             practices();
         });
+        
+        this.menu.grafico.addActionListener((ActionEvent e) -> {
+
+            menu.setVisible(false);
+            GraficoView GrafView = new GraficoView();
+            GrafView.setVisible(true);
+            NexCode();
+          
+        });
     }
     
     public void explicacioncodigo(){
