@@ -18,7 +18,7 @@ public class CuadroTexto extends JTextPane {
      StyleContext sc = StyleContext.getDefaultStyleContext();
      AttributeSet aset = sc.addAttribute(SimpleAttributeSet.EMPTY,StyleConstants.Foreground, c);
    
-     int len = getDocument().getLength(); 
+     int len = NewColor.getDocument().getLength(); 
      NewColor.setCaretPosition(len); 
      NewColor.setCharacterAttributes(aset, false);
      NewColor.replaceSelection(s); 
