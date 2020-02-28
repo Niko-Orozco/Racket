@@ -96,20 +96,27 @@ public class Modo_Grafico {
         return data;
     }
     
-    public String Ejerecursividad1(){
-        String data =   ";Imprimir los numeros del uno al 10 recursivamente:\n" +
-                        "\n" +
-                        "(define(prinNum-10 X)\n" +
-                        "     (if (= X 10)                                            ;El caso base se dara cuando X sea igual a 10\n" +
-                        "        (display X)                                         ;Cuando el caso base se cumpla se imprimira \"X\"\n" +
-                        "            (begin                                            ;Casos generales, cuando X no es igual a 10\n" +
-                        "                 (displlay X)                               ;Si X es diferente de 10 imprimir \"X\"\n" +
-                        "                 (PrinNum- 10  (+  1  X)))        ;Si X diferente de 10, volver a llamar la funcion  \n" +
-                        "                                                                    ;estableciendo a X como X+1\n" +
-                        "      )\n" +
-                        "   )\n" +
-                        "\n" +
-                        "  (PrinNum-10   0)                                   ;llamado de la funcion";
+    public String Ejegrafico1(){
+        String data =   
+                ";Construya un programa en donde en una ventana de 800*600 se dibuje un pixel \n"
+                + ";en la posición (0.50), luego debe dibujarse otro pixel en la posicion(1,50), \n"
+                + ";(2,50), (3,50) hasta llegar a la posición (800,50). Use recursividad.\n" +
+                        "\n"
+                +"(require (lib \"graphics.ss\" \"graphics\"))\n" +
+                "(open-graphics) ;Llamado de librería\n" +
+                "\n" +
+                "(define ventanal (open-viewport \"Linea de puntos\" 800 600))\n" +
+                "(define (linea x y) ;x, y, son coordenadas.\n" +
+                "  (if (= x 799) ; Caso base\n" +
+                "      ((draw-pixel ventanal) (make-posn 800 50) \"green\") ; Dibuja el ultimo pixel\n" +
+                "      (begin\n" +
+                "        ((draw-pixel ventanal) (make-posn x y) \"green\") ;Dibuja el pixel en la posición (x, y)\n" +
+                "        (sleep 0.001) ; Tiempo de espera para dibujar el siguiente pixel.\n" +
+                "        (linea (+ x 1) y) ;Llamado recursivo\n" +
+                "        )\n" +
+                "      )\n" +
+                "  )\n" +
+                "(linea 0 50) ;llamado de la función"; 
         return data;
     }
     

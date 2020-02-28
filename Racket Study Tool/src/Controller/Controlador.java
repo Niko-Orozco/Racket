@@ -60,7 +60,7 @@ public class Controlador {
         GraficView.grafico1.setText(Mgrafico.grafico1());
         GraficView.grafico2.setText(Mgrafico.grafico2());
         GraficView.grafico3.setText(Mgrafico.grafico3());
-        GraficView.code1.setText(Recurs.Ejerecursividad1());
+        GraficView.code1.setText(Mgrafico.Ejegrafico1());
         GraficView.code2.setText(Recurs.Ejerecursividad2()); 
         GraficView.code3.setText(Recurs.Ejerecursividad3());
         GraficView.code4.setText(Recurs.Ejerecursividad4());
