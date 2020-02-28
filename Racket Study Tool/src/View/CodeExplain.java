@@ -133,7 +133,7 @@ public class CodeExplain extends javax.swing.JFrame {
         jLabel4.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel4.setText("Valores de las variables");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(20, 290, 130, 19);
+        jLabel4.setBounds(20, 290, 170, 19);
 
         jLabel5.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel5.setText("Salida");
