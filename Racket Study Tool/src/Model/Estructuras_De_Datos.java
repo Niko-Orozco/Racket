@@ -52,19 +52,19 @@ public class Estructuras_De_Datos {
     }
     
     public String defeje(){
-        String data =   ";Cree 5 estructuras para doctores pasiente y Enfermeros  tales que contengan los datos \n" +
-                        ";nombre, apellido, telefono y direccion\n" +
+        String data =   ";Cree 5 estructuras para doctores, pacientes y Enfermeros  tales que contengan los datos \n" +
+                        ";nombre, apellido, telefono y direccion\n\n" +
                         "\n" +
                         "(define-struct Doctores(nombre apellido telefono direccion))\n" +
                         "(define-struct Enfermeros(nombre apellido telefono direccion))\n" +
-                        "(define-struct Clinetes(nombre apellido telefono direccion))";
+                        "(define-struct Clinetes(nombre apellido telefono direccion))\n\n";
         return data;
     }
     
     public String makeeje(){
-        String data =   ";Tomando como referencia el ejemplo anterior de (define-struct), cree una funcion que llene\n" +
-                        ";los datos de estas estructuras mediante el procedimiento (make-struct), luego mostrar los\n" +
-                        ";apellidos de cada uno.\n" +
+        String data =   ";Tomando como referencia el ejemplo anterior de define-struc), cree una funcion que llene\n" +
+                        ";los datos de estas estructuras mediante el procedimiento make-struct, luego mostrar los\n" +
+                        ";apellidos de cada uno.\n\n" +
                         "\n" +
                         "(define-struct Doctores(nombre apellido telefono direccion))\n" +
                         "(define-struct Enfermeros(nombre apellido telefono direccion))\n" +
