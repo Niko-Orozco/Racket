@@ -17,10 +17,10 @@ public class Modo_Grafico {
     
     public String grafico1(){
         String data =   
-                 "La gran mayoria de lenguajes de programacion nos ofrece un modo \n "
-                +"grafico o un conjunto de instrucciones y/o funciones que \n" +
-                 "permiten usar ventanas, pixeles,multimedia y raton, con el fin \n" +
-                 "de desarrollar programas en modo grafico. \n";
+                 "La gran mayoria de lenguajes de programacion nos ofrece un modo grafico \n "
+                +"o un conjunto de instrucciones y/o funciones que permiten usar ventanas, \n" +
+                 "pixeles,multimedia y raton, con el fin de desarrollar programas en modo \n" +
+                 "grafico. \n";
         return data;
     }
     
