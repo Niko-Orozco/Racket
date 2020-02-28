@@ -49,6 +49,44 @@ public class Controlador {
     private Expreciones_Matematicas Expres;
     private ExprecrionesView ExpresView;
     private CuadroTexto ChangeColor;
+    private GraficoView GraficView;
+    private Modo_Grafico Mgrafico;
+    
+    
+    
+    public void Graficos(){  
+        this.GraficView.setTitle("Modo Grafico");
+        this.GraficView.setLocationRelativeTo(null);
+        GraficView.grafico1.setText(Mgrafico.grafico1());
+        GraficView.grafico2.setText(Mgrafico.grafico2());
+        GraficView.grafico3.setText(Mgrafico.grafico3());
+        GraficView.code1.setText(Recurs.Ejerecursividad1());
+        GraficView.code2.setText(Recurs.Ejerecursividad2()); 
+        GraficView.code3.setText(Recurs.Ejerecursividad3());
+        GraficView.code4.setText(Recurs.Ejerecursividad4());
+        GraficView.run1.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo1.setText(runCodeRac(1));
+        });
+        GraficView.run2.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo2.setText(runCodeRac(2));
+        });  
+        GraficView.run3.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo3.setText(runCodeRac(3));
+        }); 
+        GraficView.run4.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo4.setText(runCodeRac(4));
+        });   
+        GraficView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            GraficView.setVisible(false);
+            practices();
+        });
+        GraficView.menu.addActionListener((ActionEvent e) -> {
+            GraficView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
     
     
     public Controlador(Menu menu) {
@@ -108,6 +146,17 @@ public class Controlador {
             menu.setVisible(false);
             RecursView.setVisible(true);
             recursividad();
+            
+        });
+        
+        this.menu.grafico.addActionListener((ActionEvent e) -> {
+            this.GraficView = new GraficoView();   
+            Mgrafico = new Modo_Grafico();
+            menu.setVisible(false);
+            GraficView.setVisible(true);
+            Graficos();
+            
+          
         });
         this.menu.Pares.addActionListener((ActionEvent e) -> {
             this.ParView = new ParesView();   
@@ -137,14 +186,7 @@ public class Controlador {
             practices();
         });
         
-        this.menu.grafico.addActionListener((ActionEvent e) -> {
-
-            menu.setVisible(false);
-            GraficoView GrafView = new GraficoView();
-            GrafView.setVisible(true);
-            NexCode();
-          
-        });
+        
     }
     
     public void explicacioncodigo(){

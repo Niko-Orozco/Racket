@@ -33,20 +33,20 @@ public class GraficoView extends javax.swing.JFrame {
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
-        recursiones3 = new javax.swing.JTextArea();
+        grafico3 = new javax.swing.JTextArea();
         jScrollPane1 = new javax.swing.JScrollPane();
-        recursiones1 = new javax.swing.JTextArea();
+        grafico1 = new javax.swing.JTextArea();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jScrollPane3 = new javax.swing.JScrollPane();
-        recursiones2 = new javax.swing.JTextArea();
+        grafico2 = new javax.swing.JTextArea();
         jLabel9 = new javax.swing.JLabel();
         jScrollPane13 = new javax.swing.JScrollPane();
         jPanel7 = new javax.swing.JPanel();
-        jTabbedPane1 = new javax.swing.JTabbedPane();
+        EjemplosGraficos = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
-        code = new javax.swing.JTextPane();
+        code1 = new javax.swing.JTextPane();
         jScrollPane2 = new javax.swing.JScrollPane();
         verinfo1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
@@ -85,7 +85,6 @@ public class GraficoView extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(860, 600));
         setMinimumSize(new java.awt.Dimension(860, 600));
         setSize(new java.awt.Dimension(860, 600));
 
@@ -103,20 +102,20 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.setMinimumSize(new java.awt.Dimension(457, 598));
         jPanel3.setLayout(null);
 
-        recursiones3.setColumns(20);
-        recursiones3.setRows(5);
-        recursiones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        recursiones3.setFocusable(false);
-        jScrollPane5.setViewportView(recursiones3);
+        grafico3.setColumns(20);
+        grafico3.setRows(5);
+        grafico3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        grafico3.setFocusable(false);
+        jScrollPane5.setViewportView(grafico3);
 
         jPanel3.add(jScrollPane5);
         jScrollPane5.setBounds(50, 420, 413, 140);
 
-        recursiones1.setColumns(20);
-        recursiones1.setRows(5);
-        recursiones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        recursiones1.setFocusable(false);
-        jScrollPane1.setViewportView(recursiones1);
+        grafico1.setColumns(20);
+        grafico1.setRows(5);
+        grafico1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        grafico1.setFocusable(false);
+        jScrollPane1.setViewportView(grafico1);
 
         jPanel3.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
@@ -125,20 +124,20 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
-        jLabel5.setText("¿Que es la iteracion?");
+        jLabel5.setText("Funciones Basicas");
         jPanel3.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
 
-        recursiones2.setColumns(20);
-        recursiones2.setRows(5);
-        recursiones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        recursiones2.setFocusable(false);
-        jScrollPane3.setViewportView(recursiones2);
+        grafico2.setColumns(20);
+        grafico2.setRows(5);
+        grafico2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        grafico2.setFocusable(false);
+        jScrollPane3.setViewportView(grafico2);
 
         jPanel3.add(jScrollPane3);
         jScrollPane3.setBounds(50, 240, 413, 140);
 
-        jLabel9.setText("¿Que es la recursividad?");
+        jLabel9.setText("Libreria Grahics");
         jPanel3.add(jLabel9);
         jLabel9.setBounds(50, 210, 184, 22);
 
@@ -152,9 +151,9 @@ public class GraficoView extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
-        code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code.setFocusable(false);
-        jScrollPane4.setViewportView(code);
+        code1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code1.setFocusable(false);
+        jScrollPane4.setViewportView(code1);
 
         verinfo1.setColumns(20);
         verinfo1.setRows(5);
@@ -202,7 +201,7 @@ public class GraficoView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo #1", jPanel4);
+        EjemplosGraficos.addTab("Ejemplo #1", jPanel4);
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code2.setFocusable(false);
@@ -254,7 +253,7 @@ public class GraficoView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo #2", jPanel5);
+        EjemplosGraficos.addTab("Ejemplo #2", jPanel5);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code3.setFocusable(false);
@@ -306,7 +305,7 @@ public class GraficoView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo #3", jPanel8);
+        EjemplosGraficos.addTab("Ejemplo #3", jPanel8);
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         code4.setFocusable(false);
@@ -358,7 +357,7 @@ public class GraficoView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo #4", jPanel9);
+        EjemplosGraficos.addTab("Ejemplo #4", jPanel9);
 
         jLabel7.setText("Ejemplos");
 
@@ -389,7 +388,7 @@ public class GraficoView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(EjemplosGraficos, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap(22, Short.MAX_VALUE))
@@ -406,7 +405,7 @@ public class GraficoView extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 330, Short.MAX_VALUE)
                 .addGap(18, 18, 18)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(EjemplosGraficos, javax.swing.GroupLayout.PREFERRED_SIZE, 516, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
 
@@ -506,10 +505,14 @@ public class GraficoView extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    public javax.swing.JTextPane code;
+    public javax.swing.JTabbedPane EjemplosGraficos;
+    public javax.swing.JTextPane code1;
     public javax.swing.JTextPane code2;
     public javax.swing.JTextPane code3;
     public javax.swing.JTextPane code4;
+    public javax.swing.JTextArea grafico1;
+    public javax.swing.JTextArea grafico2;
+    public javax.swing.JTextArea grafico3;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel15;
@@ -547,12 +550,8 @@ public class GraficoView extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane6;
     private javax.swing.JScrollPane jScrollPane7;
     private javax.swing.JScrollPane jScrollPane9;
-    public javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton letsgo;
     public javax.swing.JButton menu;
-    public javax.swing.JTextArea recursiones1;
-    public javax.swing.JTextArea recursiones2;
-    public javax.swing.JTextArea recursiones3;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
     public javax.swing.JButton run3;
