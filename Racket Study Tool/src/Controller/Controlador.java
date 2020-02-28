@@ -758,8 +758,8 @@ public class Controlador {
         EstrucView.questruct.setText(Estrucs.quees());
         EstrucView.defstruct.setText(Estrucs.defstruct());
         EstrucView.makestruc.setText(Estrucs.makestr());  
-        PonerColor(EstrucView.code,Estrucs.makeeje());
-        PonerColor(EstrucView.code2,Estrucs.defeje());
+        PonerColor(EstrucView.code,Estrucs.defeje());
+        PonerColor(EstrucView.code2,Estrucs.makeeje());
         llenar_tabla(5); 
         EstrucView.run1.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo1.setText(runCodestrcut(1));
@@ -791,25 +791,35 @@ public class Controlador {
         //new Color(153,102,0) color cafe
         ChangeColor=new CuadroTexto();
         ChangeColor.setPrueva(modif);
+        //ChangeColor.append(new Color(153,102,0), an); color cafe
+        //ChangeColor.append(Color.blue, an); color azul
         String an ="";
+        
         int d = 0;
-        for(int i=0; i < str.length();i++){
-            an += str.charAt(i);
-            d = ((i+1) < str.length())? i+1 : i;
-           if((str.charAt(i) == ';')){ //(str.charAt(d) == '\n')
-               for(int z = i;(str.charAt(i) == '\n'); i++){
-                   an += str.charAt(i);
-               }
-               ChangeColor.append(new Color(153,102,0), an);
+        while(d < str.length()){
+            if(str.charAt(d) == ';'){
+                for(int i = d; i < str.length();i++){
+                    if(str.charAt(d+1) != '('){
+                        an += str.charAt(d);
+                        d++;
+                    }
+                }
+                ChangeColor.append(new Color(153,102,0), an);
+                an = "";
+            }
+           if(str.charAt(d) == '('){
+               for(int i = d; i < str.length();i++){
+                    if(str.charAt(d) != ';'){
+                        an += str.charAt(d);
+                        d++;
+                    }else{
+                        i = str.length();
+                    }
+                }
+                ChangeColor.append(Color.blue, an);
+                an = "";
            }
-           
-           if((str.charAt(i) == '(')){
-               for(int z = i;(str.charAt(i) == '\n'); i++){
-                   an += str.charAt(i);
-               }
-               ChangeColor.append(Color.blue, an);
-           }
-           
+           d++;
         }     
     }
     

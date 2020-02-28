@@ -16,12 +16,29 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo1(){
-        String data = "";
+        String data =   "(define (ElevarpotenciaN num pot)\n" +
+                        "           (define a (expt num pot))\n" +
+                        "           (displayln a)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ElevarpotenciaN (read) (read) )";
         return data;
     }
     
     public String Ejemplo2(){
-        String data = "";
+        String data =       "  ;Suponga que el banco paga 4% para  depositos  menores \n" +
+                            "  ;a $50.000 (inclusive) , 4.5% para  depositos  menores \n" +
+                            "  ;a $250.000  (inclusive), y 5% para depositos  mayores\n" +
+                            "  ; a $250.000.  Realize   una   funcion  que reciba  un \n"+
+                            "reciba un deposito y devuelva el procentaje asignado \n" +
+                            "\n" +
+                            "   (define (interes cantidad)\n" +
+                            "         (cond\n" +
+                            "             [(<= cantidad 50000) 0.040]\n" +
+                            "             [(<= cantidad 250000) 0.045]\n" +
+                            "             [(> cantidad 250000) 0.050]\n" +
+                            "         )\n" +
+                            "     )\n\nm  (interes (read))";;
         return data;
     }
     
@@ -64,22 +81,5 @@ public class Codeexplicacion {
         String data = "";
         return data;
     }
-    
-    
-    
-    String data =  " ;Ejemplo de cond \n" +
-                            "\n" +
-                            "  ;Suponga que el banco paga 4% para  depositos  menores \n" +
-                            "  ;a $50.000 (inclusive) , 4.5% para  depositos  menores \n" +
-                            "  ;a $250.000  (inclusive), y 5% para depositos  mayores\n" +
-                            "  ; a $250.000.  Realize   una   funcion  que reciba  un \n"+
-                            "reciba un deposito y devuelva el procentaje asignado \n" +
-                            "\n" +
-                            "   (define (interes cantidad)\n" +
-                            "         (cond\n" +
-                            "             [(<= cantidad 50000) 0.040]\n" +
-                            "             [(<= cantidad 250000) 0.045]\n" +
-                            "             [(> cantidad 250000) 0.050]\n" +
-                            "         )\n" +
-                            "     )\n\nm  (interes (read))";
+        
 }
