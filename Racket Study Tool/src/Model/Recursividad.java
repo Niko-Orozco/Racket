@@ -41,37 +41,37 @@ public class Recursividad {
     }
     
     public String Ejerecursividad1(){
-        String data =   ";Imprimir los numeros del uno al 10 recursivamente:\n" +
+        String data =   ";Imprimir los numeros del uno al 10 recursivamente:\n\n" +
                         "\n" +
                         "(define(prinNum-10 X)\n" +
-                        "     (if (= X 10)                                            ;El caso base se dara cuando X sea igual a 10\n" +
-                        "        (display X)                                         ;Cuando el caso base se cumpla se imprimira \"X\"\n" +
-                        "            (begin                                            ;Casos generales, cuando X no es igual a 10\n" +
-                        "                 (displlay X)                               ;Si X es diferente de 10 imprimir \"X\"\n" +
-                        "                 (PrinNum- 10  (+  1  X)))        ;Si X diferente de 10, volver a llamar la funcion  \n" +
-                        "                                                                    ;estableciendo a X como X+1\n" +
+                        "     (if (= X 10)                                            \n;El caso base se dara cuando X sea igual a 10\n" +
+                        "        (display X)                                         \n;Cuando el caso base se cumpla se imprimira \"X\"\n" +
+                        "            (begin                                            \n;Casos generales, cuando X no es igual a 10\n" +
+                        "                 (displlay X)                               \n;Si X es diferente de 10 imprimir \"X\"\n" +
+                        "                 (PrinNum- 10  (+  1  X)))        \n;Si X diferente de 10, volver a llamar la funcion  \n" +
+                        "                                                                    \n;estableciendo a X como X+1\n" +
                         "      )\n" +
                         "   )\n" +
                         "\n" +
-                        "  (PrinNum-10   0)                                   ;llamado de la funcion";
+                        "  (PrinNum-10   0)                                   \n;llamado de la funcion";
         return data;
     }
     
     
      public String Ejerecursividad2(){
-        String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n" +
+        String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n\n" +
                         "\n" +
                         "   (define(Divs A Cont)\n" +
-                        "        (if  (= Cont 1)                                            ;Caso base cuando Cont = 1\n" +
-                        "          (display (/ A Cont))                                ;Imprimir el # divisor\n" +
-                        "          (begin                                                      ;Casos generales, cuando cont no es igual a 1\n" +
+                        "        (if  (= Cont 1)                                            \n;Caso base cuando Cont = 1\n" +
+                        "          (display (/ A Cont))                                \n;Imprimir el # divisor\n" +
+                        "          (begin                                                      \n;Casos generales, cuando cont no es igual a 1\n" +
                         "            (if (interger? (/ A Cont))\n" +
                         "              (begin\n" +
                         "               (display( / A Cont))\n" +
-                        "               (newline)                                              ;Salto de linea\n" +
-                        "               (Divs A (- Cont 1) )                              ;Llamado recursivo\n" +
+                        "               (newline)                                             \n;Salto de linea\n" +
+                        "               (Divs A (- Cont 1) )                              \n;Llamado recursivo\n" +
                         "           )\n" +
-                        "         (Divs A (- Cont 1) )                                    ;Llamado recursivo\n" +
+                        "         (Divs A (- Cont 1) )                                    \n;Llamado recursivo\n" +
                         "  )  )  )  )\n" +
                         "\n" +
                         "  (define  (Divisores X)\n" +
@@ -84,7 +84,7 @@ public class Recursividad {
         String data =   ";Hacer  un  programa  que  reciba   un  numero  y  determine  si  es  un numero perfecto. Un \n" +
                         ";numero es perfecto  cuando la suma de sus divisores menores a el ,da como resultado el \n" +
                         ";mismo numero. Ej: 28 es un numero perfecto pues sus divisores son 14,7,4,2,1 y la suma \n" +
-                        ";de estos numeros da 28.\n" +
+                        ";de estos numeros da 28.\n\n" +
                         "\n" +
                         " (define (Divs A Cont Suma)\n" +
                         "       (if  (= Cont 1)\n" +
@@ -118,7 +118,7 @@ public class Recursividad {
                         ";\"A\" y despues se debe saltar al nuevo renglon.\n" +
                         "\n" +
                         ";Para el cuarto renglon se debe colocar tres espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y despues se debe saltar al nuevo renglon\n" +
+                        ";\"A\" y despues se debe saltar al nuevo renglon\n\n" +
                         "\n" +
                         "\n" +
                         "  (define  (Espacios a)\n" +

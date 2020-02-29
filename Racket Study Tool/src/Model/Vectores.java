@@ -80,7 +80,7 @@ public class Vectores {
     
     public String vectref(){
         String data =   "Al  igual  que  con  las  cadenas  podemos  obtener   datos   de   un   vector\n" +
-                        "haciendo  uso  de  la  funcion  (vector-ref)\n" +
+                        "haciendo  uso  de  la  funcion  (vector-ref)\n\n" +
                         "\n" +
                         "Sintaxis\n" +
                         "\n" +
@@ -92,7 +92,7 @@ public class Vectores {
     
     public String makeeje(){
         String data =   ";Defina una funcion tal que cree un vector de 5 posiciones con la letra J y luego mostrar el \n" +
-                        ";resultado  por pantalla\n" +
+                        ";resultado  por pantalla\n\n" +
                         "\n" +
                         "(define vec (make-vector 5 # \\j))\n" +
                         "(displayln vec)\n" +
@@ -102,7 +102,7 @@ public class Vectores {
     
     public String refeje(){
         String data =   ";Cree una funcion que nos muestre los daos de la posicion dos de un vector, luego mostrarlos\n" +
-                        ";por pantalla con la funcion displayln\n" +
+                        ";por pantalla con la funcion displayln\n\n" +
                         "\n" +
                         "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
                         "\n" +
@@ -112,7 +112,7 @@ public class Vectores {
     
     public String seteje(){
         String data =   ";Cree un vector, llenelo de datos y cambie el dato de la poscion 2 por \"pollito\", luego muestrelo por\n" +
-                        ";pantalla usando la funcion displayln\n" +
+                        ";pantalla usando la funcion displayln\n\n" +
                         "\n" +
                         "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
                         "\n" +
@@ -128,7 +128,7 @@ public class Vectores {
                         ";En caso  de que el vector sea mayor que  10  posiciones,  las  restantes  se  deben  llenar\n" +
                         ";con las letras del abecedario   desde    la   \"a\"  hasta la    \"z\"   y   en  caso tal que el numero\n" +
                         ";de posiciones  del vector sea   aun   mayor , las   posiciones   siguientes   deben   llenarse\n" +
-                        ":con   la   misma   secuencia  de   numeros (1 al 10) y seguido las letras del abecedario.\n" +
+                        ":con   la   misma   secuencia  de   numeros [1 al 10] y seguido las letras del abecedario.\n\n" +
                         "\n" +
                         "(defineVect(make-vector (read)))\n" +
                         "(define(LlenarVectLength Pos LlenarNumLlenarChar n)\n" +
@@ -155,15 +155,15 @@ public class Vectores {
     
     public String leneje(){
         String data =   ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
-                        ";recursiva:\n" +
+                        ";recursiva:\n\n" +
                         "\n" +
                         "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
                         " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
                         "(define (DisplayVectLength Pos)\n" +
                         "    (if (= (- Length 1) Pos)\n" +
                         "\n" +
-                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 (porque  empiezan  a  contar\n" +
-                        ";en 0)  por  lo  tanto  Length  se  debe restar en 1 \n" +
+                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 porque  empiezan  a  contar\n" +
+                        ";en 0  por  lo  tanto  Length  se  debe restar en 1 \n" +
                         "\n" +
                         " (display(vector-refVect Pos))\n" +
                         "    (begin\n" +

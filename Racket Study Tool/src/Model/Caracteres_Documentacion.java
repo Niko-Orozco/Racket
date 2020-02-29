@@ -65,9 +65,9 @@ public class Caracteres_Documentacion {
     
     public String Ejecaracter1(){
            String data=    ";Recibir   un  caracter  que  represente   una   nota.  Si   es  la  letra  E  (mayuscula)  o  la  letra  e\n" +
-                            ";(minuscula)  imprimir \"excelente\" ,  si es la letra B o la letra b imprimir \"Bueno\" , si  es la letra A\n" +
+                            ";minuscula  imprimir \"excelente\" ,  si es la letra B o la letra b imprimir \"Bueno\" , si  es la letra A\n" +
                             ";o la letra a imprimir  \"Aceptable\" , si es la letra D o la letra d imprimir \"Define\", y si es la letra I o \n" +
-                            ";la   letra  i imprimir   \"Insuficiente\".\n" +
+                            ";la   letra  i imprimir   \"Insuficiente\".\n\n" +
                             "(define (Notas X)              ;El argumento X debe ser reemplazado con un caracter\n" +
                             "      (cond                              ;Usamos cond ya que es idoneo para este tipo de ejercicios\n" +
                             "	[ (char-ci=? X #/e)   (display\"Execelente\") ]\n" +
@@ -85,7 +85,7 @@ public class Caracteres_Documentacion {
     } 
     
     public String Ejecaracter2(){
-        String data=    ";Imprimir los caracteres que equivalen a los numeros asta el 1024 (codigo ASCII)\n" +
+        String data=    ";Imprimir los caracteres que equivalen a los numeros asta el 1024 codigo ASCII\n" +
                         "\n" +
                         "(define(CodASCII Cont)\n" +
                         "   (if(=Cont 1024)                                      ; Cont aumentara hasta 1024 y se dara el caso base\n" +
@@ -116,7 +116,7 @@ public class Caracteres_Documentacion {
                         ";        a: Indica que numero multiplicar\n" +
                         ";        b:Actua como contador y siempre debe iniciar en 0\n" +
                         "\n" +
-                        ";Definicion:\n" +
+                        ";Definicion:\n\n" +
                         "\n" +
                         "(define(TablaMultiplicar a b)\n" +
                         "    (if(=b 10)\n" +

@@ -55,7 +55,7 @@ public class Funciones {
     
     public String Ejefunciones1(){
         String data =   ";crear un programa en Racket tal que eleve un numero a una potencia, luego ese mismo \n" +
-                        ";numero mostrarlo por pantalla\n" +
+                        ";numero mostrarlo por pantalla\n\n" +
                         "\n" +
                         "(define (MostrarPotencia n)\n" +
                         "          ;elevamos el numero al cuadrado y luego lo mostramos\n" +
@@ -69,7 +69,7 @@ public class Funciones {
     
     public String Ejefunciones2(){
         String data =   ";crear un programa en Racket tal que reciva dos numeros por teclado y los muestre por\n" +
-                        ";pantalla, muestre la suma de los numeros y su multiplicacion\n" +
+                        ";pantalla, muestre la suma de los numeros y su multiplicacion\n\n" +
                         "\n" +
                         ";Creamos la fucnon con dos argumentos\n" +
                         "(define (datos n1 n2)\n" +
@@ -94,7 +94,7 @@ public class Funciones {
                         "\n" +
                         ";la funcion displayln nos sirve para dar un salto de linea es decir, es como dar un enter\n" +
                         "\n" +
-                        ";Creamos la fucnon \n" +
+                        ";Creamos la fucnon \n\n" +
                         "(define (DiasSemana)\n" +
                         "      ;mostramos los datos usando la funcion display\n" +
                         "      (displayln \" Lunes\")\n" +

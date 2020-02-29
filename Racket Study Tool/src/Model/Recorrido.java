@@ -34,7 +34,7 @@ public class Recorrido {
     
     public void cdebuger_ejemplo(){
         String data =  ";Construir un programa que reciva una cadena y devuelva una cadena \n" +
-                        ";equivalente, pero sin las vocales\n" +
+                        ";equivalente, pero sin las vocales\n\n" +
                         "(define(Cadena read);lee y almacena nuestra cadena.\n" +
                         "    (Read)\n" +
                         ")\n" +

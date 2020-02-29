@@ -257,9 +257,9 @@ public class Controlador {
         this.ExpresView.setTitle("Recursividad");
         this.ExpresView.setLocationRelativeTo(null);
         ExpresView.Expreciones1.setText(Expres.expreciones1());
-        ExpresView.Expresiones2.setText(Expres.expreciones2());
-        ExpresView.code.setText(Expres.Ejeexpreciones1());
-        ExpresView.code2.setText(Expres.Ejeexpreciones2()); 
+        ExpresView.Expresiones2.setText(Expres.expreciones2()); 
+        PonerColor(ExpresView.code, Expres.Ejeexpreciones1());
+        PonerColor(ExpresView.code2, Expres.Ejeexpreciones2());
         ExpresView.run1.addActionListener((ActionEvent e) -> {
             ExpresView.verinfo1.setText(runCodeExp(1));
         });
@@ -350,10 +350,11 @@ public class Controlador {
         RecursView.recursiones1.setText(Recurs.recursividad1());
         RecursView.recursiones2.setText(Recurs.recursividad2());
         RecursView.recursiones3.setText(Recurs.recursividad3());
-        RecursView.code.setText(Recurs.Ejerecursividad1());
-        RecursView.code2.setText(Recurs.Ejerecursividad2()); 
-        RecursView.code3.setText(Recurs.Ejerecursividad3());
-        RecursView.code4.setText(Recurs.Ejerecursividad4());
+         
+        PonerColor(RecursView.code, Recurs.Ejerecursividad1());
+        PonerColor(RecursView.code2, Recurs.Ejerecursividad2());
+        PonerColor(RecursView.code3, Recurs.Ejerecursividad3());
+        PonerColor(RecursView.code4, Recurs.Ejerecursividad4());
         RecursView.run1.addActionListener((ActionEvent e) -> {
             RecursView.verinfo1.setText(runCodeRac(1));
         });
@@ -440,9 +441,11 @@ public class Controlador {
         CaracView.caracter3.setText(CaracD.caracter3());
         CaracView.caracter4.setText(CaracD.caracter4());
         CaracView.caracter5.setText(CaracD.caracter5());
-        CaracView.code.setText(CaracD.Ejecaracter1());
-        CaracView.code2.setText(CaracD.Ejecaracter2()); 
-        CaracView.code3.setText(CaracD.Ejecaracter3());
+        
+        PonerColor(CaracView.code, CaracD.Ejecaracter1());
+        PonerColor(CaracView.code2, CaracD.Ejecaracter2());
+        PonerColor(CaracView.code3, CaracD.Ejecaracter3());
+      
         CaracView.run1.addActionListener((ActionEvent e) -> {
             CaracView.verinfo1.setText(runCodeCar(1));
         });
@@ -518,9 +521,10 @@ public class Controlador {
         FuncView.funciones1.setText(Functions.funciones1());
         FuncView.funciones2.setText(Functions.funciones2());
         FuncView.funciones3.setText(Functions.funciones3());
-        FuncView.code.setText (Functions.Ejefunciones1());
-        FuncView.code2.setText(Functions.Ejefunciones2());
-        FuncView.code3.setText(Functions.Ejefunciones3());
+        
+        PonerColor(FuncView.code, Functions.Ejefunciones1());
+        PonerColor(FuncView.code2, Functions.Ejefunciones2());
+        PonerColor(FuncView.code3, Functions.Ejefunciones3());
         
         FuncView.run1.addActionListener((ActionEvent e) -> {
             FuncView.verinfo1.setText(runCodeFunc(1));
@@ -585,14 +589,15 @@ public class Controlador {
         ListView.listas7.setText(listPares.Listas7());
         ListView.listas8.setText(listPares.Listas8());
         ListView.listas9.setText(listPares.Listas9());
-        ListView.code.setText(listPares.EjeListas1());
-        ListView.code2.setText(listPares.EjeListas2()); 
-        ListView.code3.setText(listPares.EjeListas3());
-        ListView.code4.setText(listPares.EjeListas4());
-        ListView.code5.setText(listPares.EjeListas5());
-        ListView.code6.setText(listPares.EjeListas6());
-        ListView.code7.setText(listPares.EjeListas7());
-        ListView.code8.setText(listPares.EjeListas8());
+        
+        PonerColor(ListView.code, listPares.EjeListas1());
+        PonerColor(ListView.code2, listPares.EjeListas2());
+        PonerColor(ListView.code3, listPares.EjeListas3());
+        PonerColor(ListView.code4, listPares.EjeListas4());
+        PonerColor(ListView.code5, listPares.EjeListas5());
+        PonerColor(ListView.code6, listPares.EjeListas6());
+        PonerColor(ListView.code7, listPares.EjeListas7());
+        PonerColor(ListView.code8, listPares.EjeListas8());
         
         ListView.run1.addActionListener((ActionEvent e) -> {
             ListView.verinfo1.setText(runCodeLis(1));
@@ -731,10 +736,12 @@ public class Controlador {
         ParView.paresview3.setText(listPares.Pares3());
         ParView.paresview4.setText(listPares.Pares4());
         ParView.paresview5.setText(listPares.Pares5());
-        ParView.code.setText(listPares.EjePares1());
-        ParView.code2.setText(listPares.EjePares2());
-        ParView.code3.setText(listPares.EjePares3());
-        ParView.code4.setText(listPares.EjePares4());
+        
+        PonerColor(ParView.code, listPares.EjePares1());
+        PonerColor(ParView.code2, listPares.EjePares2());
+        PonerColor(ParView.code3, listPares.EjePares3());
+        PonerColor(ParView.code4, listPares.EjePares4());
+        
         ParView.run1.addActionListener((ActionEvent e) -> {
             ParView.verinfo1.setText(runCodePar(1));
         });
@@ -994,11 +1001,14 @@ public class Controlador {
         VectView.fillvect.setText(Vect.vectfill());
         VectView.setvect.setText(Vect.vectset());
         VectView.lenvect.setText(Vect.vectlen());
-        VectView.code.setText(Vect.makeeje());
-        VectView.code2.setText(Vect.refeje());
-        VectView.code3.setText(Vect.seteje());
-        VectView.code4.setText(Vect.filleje());
-        VectView.code5.setText(Vect.leneje());   
+        
+        PonerColor(VectView.code, Vect.makeeje());
+        PonerColor(VectView.code2, Vect.refeje());
+        PonerColor(VectView.code3, Vect.seteje());
+        PonerColor(VectView.code4, Vect.filleje());
+        PonerColor(VectView.code5, Vect.leneje());
+        
+       
         VectView.run1.addActionListener((ActionEvent e) -> {
             VectView.verinfo1.setText(runCodevec(1));
         });
@@ -1109,13 +1119,14 @@ public class Controlador {
     }
     
     public void NexCode(){
-        ConView.code.setText(Condi.EjeIf());
- 
-        ConView.code2.setText(Condi.EjeIfbegin());
+        
+        PonerColor(ConView.code, Condi.EjeIf());
+        
+        PonerColor(ConView.code2, Condi.EjeIfbegin());
   
-        ConView.code3.setText(Condi.EjeCond());
+        PonerColor(ConView.code3, Condi.EjeCond());
  
-        ConView.code4.setText(Condi.EjeCondbegin());
+        PonerColor(ConView.code4, Condi.EjeCondbegin());
         
     }
     
@@ -1142,13 +1153,15 @@ public class Controlador {
         CadView.strcomparar.setText(CadString.Stringcmp());
         CadView.caracdena.setText(CadString.stringref());
         CadView.cadunion.setText(CadString.unioncad());
-        CadView.code.setText(CadString.makeseje());
-        CadView.code2.setText(CadString.stringeje());
-        CadView.code3.setText(CadString.lengtheje());
-        CadView.code4.setText(CadString.appendeje());
-        CadView.code5.setText(CadString.refeje());
-        CadView.code6.setText(CadString.seteje());
-        CadView.code7.setText(CadString.strincmpeje());
+        
+        PonerColor(CadView.code, CadString.makeseje());
+        PonerColor(CadView.code2, CadString.stringeje());
+        PonerColor(CadView.code3, CadString.lengtheje());
+        PonerColor(CadView.code4, CadString.appendeje());
+        PonerColor(CadView.code5, CadString.refeje());
+        PonerColor(CadView.code6, CadString.seteje());
+        PonerColor(CadView.code7, CadString.strincmpeje());
+
         CadView.run1.addActionListener((ActionEvent e) -> {
             CadView.verinfo1.setText(runCode(1));
         });

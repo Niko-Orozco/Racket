@@ -135,6 +135,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel52 = new javax.swing.JLabel();
         practicas = new javax.swing.JButton();
         jLabel53 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
         jLabel54 = new javax.swing.JLabel();
         jPanel36 = new javax.swing.JPanel();
         jPanel37 = new javax.swing.JPanel();
@@ -835,9 +836,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel35.setLayout(null);
 
         jLabel52.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
-        jLabel52.setText("Pares, operaciones con pares, uso de pares");
+        jLabel52.setText("del codigo");
         jPanel35.add(jLabel52);
-        jLabel52.setBounds(0, 50, 310, 40);
+        jLabel52.setBounds(0, 60, 310, 30);
 
         practicas.setBackground(new java.awt.Color(255, 255, 255));
         practicas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
@@ -850,9 +851,14 @@ public class Menu extends javax.swing.JFrame {
         practicas.setBounds(90, 100, 130, 30);
 
         jLabel53.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel53.setText("Herramienta de Practica");
+        jLabel53.setText("Paso a Paso");
         jPanel35.add(jLabel53);
         jLabel53.setBounds(0, 20, 250, 24);
+
+        jLabel58.setFont(new java.awt.Font("Sylfaen", 0, 12)); // NOI18N
+        jLabel58.setText("Refuerza lo aprendido haciendo un seguimiento paso a paso");
+        jPanel35.add(jLabel58);
+        jLabel58.setBounds(0, 40, 310, 30);
 
         jPanel34.add(jPanel35);
         jPanel35.setBounds(0, 190, 326, 140);
@@ -1074,6 +1080,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel55;
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;

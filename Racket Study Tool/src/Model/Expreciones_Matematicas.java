@@ -36,7 +36,7 @@ public class Expreciones_Matematicas {
     }
      
       public String Ejeexpreciones1(){
-        String data =   ";Calcular el area de un anillo\n" +
+        String data =   ";Calcular el area de un anillo\n\n" +
                         "\n" +
                         "(define (AreaAnillo R-int R-ext)\n" +
                         "          (-  (* pi (expt R-ext 2)) (* pi (expt R-int 2)))                      ;Area = ( Pi*r^2 ) - ( Pi*r^2 )\n" +
@@ -56,9 +56,9 @@ public class Expreciones_Matematicas {
     public String Ejeexpreciones2(){
         String data =   ";Definir una funcion que calcule la distancia entre dos puntos de una recta\n" +
                         "\n" +
-                        ";La formula para esto es:  raiz ( (x2-x1)^2 + (y2-y1)^2 )\n" +
+                        ";La formula para esto es:  raiz [ [x2-x1]^2 + [y2-y1]^2 ]\n" +
                         "\n" +
-                        ";Creamos la funcion de distancia\n" +
+                        ";Creamos la funcion de distancia\n\n" +
                         "\n" +
                         "(define (Distancia x1 x2 y1 y2)\n" +
                         "          (displayln \"Distancia\")\n" +
