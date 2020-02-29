@@ -69,11 +69,10 @@ public class Funciones {
     
     public String Ejefunciones2(){
         String data =   ";crear un programa en Racket tal que reciva dos numeros por teclado y los muestre por\n" +
-                        ";pantalla, muestre la suma de los numeros y su multiplicacion\n\n" +
+                        ";pantalla, muestre la suma de los numeros y su multiplicacion\n" +
                         "\n" +
-                        ";Creamos la fucnon con dos argumentos\n" +
-                        "(define (datos n1 n2)\n" +
-                        "      ;mostramos los datos usando la funcion display\n" +
+                        ";Creamos la fucnon con dos argumentos\n\n" +
+                        "\n(define (datos n1 n2)\n" +
                         "      (display n1)\n" +
                         "      (display \" \")\n" +
                         "      (display n2)\n" +
@@ -82,19 +81,17 @@ public class Funciones {
                         "      (display \" \")\n" +
                         "      (display (* n1 n2))\n" +
                         ")\n" +
-                        ";Llamamos lafuncion enviando como parametro lo que se ingrese por teclado\n" +
-                        ";meiante la fucnion read\n" +
                         "(datos (read) (read))";
+                       
         return data;
     }
     
     public String Ejefunciones3(){
         String data =   ";crear un programa en Racket tal que mediante la funcion displayln mostrar los dias de la\n" +
                         ";semana\n" +
-                        "\n" +
                         ";la funcion displayln nos sirve para dar un salto de linea es decir, es como dar un enter\n" +
                         "\n" +
-                        ";Creamos la fucnon \n\n" +
+                        ";Creamos la funcion DiasSemana\n\n" +
                         "(define (DiasSemana)\n" +
                         "      ;mostramos los datos usando la funcion display\n" +
                         "      (displayln \" Lunes\")\n" +

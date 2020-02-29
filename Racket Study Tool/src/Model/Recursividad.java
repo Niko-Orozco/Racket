@@ -44,16 +44,15 @@ public class Recursividad {
         String data =   ";Imprimir los numeros del uno al 10 recursivamente:\n\n" +
                         "\n" +
                         "(define(prinNum-10 X)\n" +
-                        "     (if (= X 10)                                            \n;El caso base se dara cuando X sea igual a 10\n" +
-                        "        (display X)                                         \n;Cuando el caso base se cumpla se imprimira \"X\"\n" +
-                        "            (begin                                            \n;Casos generales, cuando X no es igual a 10\n" +
-                        "                 (displlay X)                               \n;Si X es diferente de 10 imprimir \"X\"\n" +
-                        "                 (PrinNum- 10  (+  1  X)))        \n;Si X diferente de 10, volver a llamar la funcion  \n" +
-                        "                                                                    \n;estableciendo a X como X+1\n" +
+                        "     (if (= X 10)   \n" +
+                        "        (display X)  \n" +
+                        "            (begin \n" +
+                        "                 (displlay X) \n" +
+                        "                 (PrinNum- 10  (+  1  X))) \n" +
                         "      )\n" +
                         "   )\n" +
                         "\n" +
-                        "  (PrinNum-10   0)                                   \n;llamado de la funcion";
+                        "  (PrinNum-10   0)";
         return data;
     }
     
@@ -62,16 +61,16 @@ public class Recursividad {
         String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n\n" +
                         "\n" +
                         "   (define(Divs A Cont)\n" +
-                        "        (if  (= Cont 1)                                            \n;Caso base cuando Cont = 1\n" +
-                        "          (display (/ A Cont))                                \n;Imprimir el # divisor\n" +
-                        "          (begin                                                      \n;Casos generales, cuando cont no es igual a 1\n" +
+                        "        (if  (= Cont 1) \n" +
+                        "          (display (/ A Cont))  \n" +
+                        "          (begin    \n" +
                         "            (if (interger? (/ A Cont))\n" +
                         "              (begin\n" +
                         "               (display( / A Cont))\n" +
-                        "               (newline)                                             \n;Salto de linea\n" +
-                        "               (Divs A (- Cont 1) )                              \n;Llamado recursivo\n" +
+                        "               (newline)  \n" +
+                        "               (Divs A (- Cont 1) )  \n" +
                         "           )\n" +
-                        "         (Divs A (- Cont 1) )                                    \n;Llamado recursivo\n" +
+                        "         (Divs A (- Cont 1) )   \n" +
                         "  )  )  )  )\n" +
                         "\n" +
                         "  (define  (Divisores X)\n" +

@@ -39,16 +39,14 @@ public class Expreciones_Matematicas {
         String data =   ";Calcular el area de un anillo\n\n" +
                         "\n" +
                         "(define (AreaAnillo R-int R-ext)\n" +
-                        "          (-  (* pi (expt R-ext 2)) (* pi (expt R-int 2)))                      ;Area = ( Pi*r^2 ) - ( Pi*r^2 )\n" +
+                        "         (-  (* pi (expt R-ext 2)) (* pi (expt R-int 2))) \n" +
                         ")\n" +
                         "\n" +
-                        ";Definimos la funcion para mostrar el area\n" +
                         "(define (Area var1 var2)\n" +
                         "    (display \"Area del Anillo\")\n" +
                         "    (display (AreaAnillo var1 var2))\n" +
                         ")\n" +
                         "\n" +
-                        ";Llamamos la funcion\n" +
                         "(Area (read) (read))";
         return data;
     }
@@ -62,10 +60,9 @@ public class Expreciones_Matematicas {
                         "\n" +
                         "(define (Distancia x1 x2 y1 y2)\n" +
                         "          (displayln \"Distancia\")\n" +
-                        "          [sqrt (+ (expt (- x2 x1) 2) (expt (- y2 y1) 2)) ]   ;Expresamos la ecuacion en terminologia Racket\n" +
+                        "          [sqrt (+ (expt (- x2 x1) 2) (expt (- y2 y1) 2)) ] \n" +
                         ")\n" +
                         "\n" +
-                        ";Llamamos la funcion y pedimos al usuaro que ingrese los puntos\n" +
                         "(Distancia (read) (read) (read) (read))";
         return data;
     }

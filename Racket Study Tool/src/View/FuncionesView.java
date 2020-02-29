@@ -99,6 +99,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jPanel2.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel2.setLayout(null);
 
         funciones1.setColumns(20);
         funciones1.setRows(5);
@@ -106,9 +107,16 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones1.setFocusable(false);
         jScrollPane1.setViewportView(funciones1);
 
+        jPanel2.add(jScrollPane1);
+        jScrollPane1.setBounds(20, 50, 439, 140);
+
         jLabel3.setText("Funciones Construidads (Definidas por el Usuario");
+        jPanel2.add(jLabel3);
+        jLabel3.setBounds(20, 220, 400, 22);
 
         jLabel4.setText("Funciones Primitivas");
+        jPanel2.add(jLabel4);
+        jLabel4.setBounds(20, 20, 184, 22);
 
         funciones2.setColumns(20);
         funciones2.setRows(5);
@@ -116,46 +124,21 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones2.setFocusable(false);
         jScrollPane3.setViewportView(funciones2);
 
+        jPanel2.add(jScrollPane3);
+        jScrollPane3.setBounds(20, 250, 439, 140);
+
         funciones3.setColumns(20);
         funciones3.setRows(5);
         funciones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         funciones3.setFocusable(false);
         jScrollPane5.setViewportView(funciones3);
 
-        jLabel5.setText("¿Que es un argumento?");
+        jPanel2.add(jScrollPane5);
+        jScrollPane5.setBounds(20, 440, 439, 140);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(20, 20, 20)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 439, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 400, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(40, 40, 40)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(8, 8, 8)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(27, 27, 27)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(20, Short.MAX_VALUE))
-        );
+        jLabel5.setText("¿Que es un argumento?");
+        jPanel2.add(jLabel5);
+        jLabel5.setBounds(20, 410, 400, 22);
 
         jScrollPane6.setViewportView(jPanel2);
 

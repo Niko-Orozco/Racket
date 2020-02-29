@@ -80,10 +80,9 @@ public class Vectores {
     
     public String vectref(){
         String data =   "Al  igual  que  con  las  cadenas  podemos  obtener   datos   de   un   vector\n" +
-                        "haciendo  uso  de  la  funcion  (vector-ref)\n\n" +
+                        "haciendo  uso  de  la  funcion  (vector-ref)\n" +
                         "\n" +
                         "Sintaxis\n" +
-                        "\n" +
                         "(vector-ref vect n) \n" +
                         "vect  es  el  vector  al  cual  queremos  sacar uno o mas datos y la \"n\" hace\n" +
                         "referencia a la posicion en el vector donde queremos sacar la informacion";    
@@ -161,9 +160,6 @@ public class Vectores {
                         " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
                         "(define (DisplayVectLength Pos)\n" +
                         "    (if (= (- Length 1) Pos)\n" +
-                        "\n" +
-                        ";El  tamaño  del  vector  es  12,  pero  su  ultima posicion es de 11 porque  empiezan  a  contar\n" +
-                        ";en 0  por  lo  tanto  Length  se  debe restar en 1 \n" +
                         "\n" +
                         " (display(vector-refVect Pos))\n" +
                         "    (begin\n" +

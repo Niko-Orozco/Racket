@@ -140,7 +140,6 @@ public class Controlador {
             menu.setVisible(false);
             ConView = new CondicionalView();
             ConView.setVisible(true);
-            NexCode();
             condicionlaesview();
         });
         
@@ -1049,7 +1048,10 @@ public class Controlador {
         ConView.bolerel.setText(Condi.bol());
         ConView.conif.setText(Condi.elif());
         ConView.concond.setText(Condi.elcond());
-        NexCode();
+        PonerColor(ConView.code, Condi.EjeIf());     
+        PonerColor(ConView.code2, Condi.EjeIfbegin()); 
+        PonerColor(ConView.code3, Condi.EjeCond());
+        PonerColor(ConView.code4, Condi.EjeCondbegin());
         ConView.run1.addActionListener((ActionEvent e) -> {
             RConCode(1);
         });
@@ -1117,18 +1119,7 @@ public class Controlador {
                     
         }
     }
-    
-    public void NexCode(){
-        
-        PonerColor(ConView.code, Condi.EjeIf());
-        
-        PonerColor(ConView.code2, Condi.EjeIfbegin());
-  
-        PonerColor(ConView.code3, Condi.EjeCond());
- 
-        PonerColor(ConView.code4, Condi.EjeCondbegin());
-        
-    }
+
     
     public void practices(){
         this.Practices.setVisible(true);

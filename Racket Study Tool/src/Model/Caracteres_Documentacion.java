@@ -64,18 +64,18 @@ public class Caracteres_Documentacion {
     
     
     public String Ejecaracter1(){
-           String data=    ";Recibir   un  caracter  que  represente   una   nota.  Si   es  la  letra  E  (mayuscula)  o  la  letra  e\n" +
+           String data=    ";Recibir   un  caracter  que  represente   una   nota.  Si   es  la  letra  E  mayuscula  o  la  letra  e\n" +
                             ";minuscula  imprimir \"excelente\" ,  si es la letra B o la letra b imprimir \"Bueno\" , si  es la letra A\n" +
                             ";o la letra a imprimir  \"Aceptable\" , si es la letra D o la letra d imprimir \"Define\", y si es la letra I o \n" +
                             ";la   letra  i imprimir   \"Insuficiente\".\n\n" +
-                            "(define (Notas X)              ;El argumento X debe ser reemplazado con un caracter\n" +
-                            "      (cond                              ;Usamos cond ya que es idoneo para este tipo de ejercicios\n" +
+                            "(define (Notas X) \n" +
+                            "      (cond \n" +
                             "	[ (char-ci=? X #/e)   (display\"Execelente\") ]\n" +
                             "	[ (char-ci=? X #/s)   (display\"Sobresaliente\") ]\n" +
                             "	[ (char-ci=? X #/a)   (display \"Aceptable\") ]\n" +
                             "	[ (char-ci=? X #/i)    (display \"Insuficiente\") ]\n" +
                             "	[ (char-ci=? X #/d)   (display \"Deficiente\") ]\n" +
-                            "	(else  (display \"No es una nota valida.\") );Si se introduce un caracter inesperado.\n" +
+                            "	(else  (display \"No es una nota valida.\") )\n" +
                             "                     )\n" +
                             "                  )\n" +
                             "(Notas  (read) )";
@@ -88,12 +88,12 @@ public class Caracteres_Documentacion {
         String data=    ";Imprimir los caracteres que equivalen a los numeros asta el 1024 codigo ASCII\n" +
                         "\n" +
                         "(define(CodASCII Cont)\n" +
-                        "   (if(=Cont 1024)                                      ; Cont aumentara hasta 1024 y se dara el caso base\n" +
-                        "      (display(integer->char Cont))          ;(caso base)\n" +
-                        "      (begin                                                   ; Para todos los casos generales\n" +
-                        "           (display (integer->char Cont))     ;Imprimir Cont como un caracter\n" +
-                        "           (display \" \")                                      ; Imprimir un espacio para separar los caracteres \n" +
-                        "           (CodASCII(+ 1 Cont))                    ;Llamado recursivo, aumenta Cond en 1\n" +
+                        "   (if(=Cont 1024)\n" +
+                        "      (display(integer->char Cont))  \n" +
+                        "      (begin                                         \n" +
+                        "           (display (integer->char Cont))    \n" +
+                        "           (display \" \")       \n" +
+                        "           (CodASCII(+ 1 Cont)) \n" +
                         "           )\n" +
                         "        )\n" +
                         "    )\n" +
@@ -109,7 +109,7 @@ public class Caracteres_Documentacion {
                         "\n" +
                         "; Proposito: Visualizar determinada tabla de multiplicar.\n" +
                         "\n" +
-                        "; Ejemplo: (]TablaMultiplicar 8 0) debe producir la tabla de multiplicar del numero 8 hasta el \n" +
+                        "; Ejemplo: {TablaMultiplicar 8 0} debe producir la tabla de multiplicar del numero 8 hasta el \n" +
                         ";10, con el formato: 8*0 = 0... 8*10 =80\n" +
                         "\n" +
                         "; Parametros:\n" +
@@ -136,13 +136,7 @@ public class Caracteres_Documentacion {
                         "            )\n" +
                         ")\n" +
                         ")\n" +
-                        ";Pruebas:\n" +
-                        "(TablaMultiplicar (read) 0)\n" +
-                        "; Valor esperado: Debe devolver la tabla de multiplicar del numero ingresado\n" +
-                        "; por  teclado hasta multiplicarse por 10, con el siguiente formato:\n" +
-                        ";              a*0=0\n" +
-                        ";                      ...\n" +
-                        ";              a*10=a*10";
+                        "(TablaMultiplicar (read) 0)\n";
         return data;
     }
     

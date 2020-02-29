@@ -90,6 +90,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jPanel2.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel2.setLayout(null);
 
         makestruc.setColumns(20);
         makestruc.setRows(5);
@@ -97,17 +98,29 @@ public class Estructuras extends javax.swing.JFrame {
         makestruc.setFocusable(false);
         jScrollPane5.setViewportView(makestruc);
 
+        jPanel2.add(jScrollPane5);
+        jScrollPane5.setBounds(27, 404, 413, 140);
+
         questruct.setColumns(20);
         questruct.setRows(5);
         questruct.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         questruct.setFocusable(false);
         jScrollPane1.setViewportView(questruct);
 
+        jPanel2.add(jScrollPane1);
+        jScrollPane1.setBounds(27, 39, 413, 140);
+
         jLabel3.setText("Define-struct");
+        jPanel2.add(jLabel3);
+        jLabel3.setBounds(27, 190, 215, 22);
 
         jLabel4.setText("¿Que es una estructura de datos?");
+        jPanel2.add(jLabel4);
+        jLabel4.setBounds(27, 11, 184, 22);
 
         jLabel5.setText("Make-struct");
+        jPanel2.add(jLabel5);
+        jLabel5.setBounds(27, 376, 196, 22);
 
         defstruct.setColumns(20);
         defstruct.setRows(5);
@@ -115,38 +128,8 @@ public class Estructuras extends javax.swing.JFrame {
         defstruct.setFocusable(false);
         jScrollPane3.setViewportView(defstruct);
 
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addGap(27, 27, 27)
-                .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 413, Short.MAX_VALUE)
-                    .addComponent(jScrollPane3)
-                    .addComponent(jScrollPane5)
-                    .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(21, Short.MAX_VALUE))
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel2Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(13, 13, 13)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(54, Short.MAX_VALUE))
-        );
+        jPanel2.add(jScrollPane3);
+        jScrollPane3.setBounds(27, 225, 413, 140);
 
         jScrollPane6.setViewportView(jPanel2);
 
