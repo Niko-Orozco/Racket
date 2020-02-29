@@ -48,9 +48,9 @@ public class GraficoView extends javax.swing.JFrame {
         jScrollPane4 = new javax.swing.JScrollPane();
         code1 = new javax.swing.JTextPane();
         jScrollPane2 = new javax.swing.JScrollPane();
-        verinfo1 = new javax.swing.JTextArea();
         jLabel1 = new javax.swing.JLabel();
         run1 = new javax.swing.JButton();
+        verinfo1 = new javax.swing.JTextArea();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane9 = new javax.swing.JScrollPane();
         code2 = new javax.swing.JTextPane();
@@ -155,12 +155,6 @@ public class GraficoView extends javax.swing.JFrame {
         code1.setFocusable(false);
         jScrollPane4.setViewportView(code1);
 
-        verinfo1.setColumns(20);
-        verinfo1.setRows(5);
-        verinfo1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo1.setFocusable(false);
-        jScrollPane2.setViewportView(verinfo1);
-
         jLabel1.setText("Consola");
 
         run1.setText("Ejecutar");
@@ -169,6 +163,11 @@ public class GraficoView extends javax.swing.JFrame {
                 run1ActionPerformed(evt);
             }
         });
+
+        verinfo1.setColumns(20);
+        verinfo1.setRows(5);
+        verinfo1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo1.setFocusable(false);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -186,6 +185,11 @@ public class GraficoView extends javax.swing.JFrame {
                         .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
             .addComponent(jScrollPane4)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(verinfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 522, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -199,6 +203,11 @@ public class GraficoView extends javax.swing.JFrame {
                 .addGap(7, 7, 7)
                 .addComponent(run1)
                 .addContainerGap())
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(verinfo1, javax.swing.GroupLayout.PREFERRED_SIZE, 117, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
         );
 
         EjemplosGraficos.addTab("Ejemplo #1", jPanel4);
