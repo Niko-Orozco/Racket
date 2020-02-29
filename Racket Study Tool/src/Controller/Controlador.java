@@ -29,6 +29,7 @@ public class Controlador {
     private Cadenas_Strings CadString;
     private CadenasView CadView;
     private CodeExplain CodeExp;
+    private Codeexplicacion codexp;
     private CondicionalView ConView;
     private Condicionales Condi;
     private Practicas Practices;
@@ -54,43 +55,12 @@ public class Controlador {
     
     
     
-    public void Graficos(){  
-        this.GraficView.setTitle("Modo Grafico");
-        this.GraficView.setLocationRelativeTo(null);
-        GraficView.grafico1.setText(Mgrafico.grafico1());
-        GraficView.grafico2.setText(Mgrafico.grafico2());
-        GraficView.grafico3.setText(Mgrafico.grafico3());
-        GraficView.code1.setText(Mgrafico.Ejegrafico1());
-        GraficView.code2.setText(Recurs.Ejerecursividad2()); 
-        GraficView.code3.setText(Recurs.Ejerecursividad3());
-        GraficView.code4.setText(Recurs.Ejerecursividad4());
-        GraficView.run1.addActionListener((ActionEvent e) -> {
-            GraficView.verinfo1.setText(runCodeRac(1));
-        });
-        GraficView.run2.addActionListener((ActionEvent e) -> {
-            GraficView.verinfo2.setText(runCodeRac(2));
-        });  
-        GraficView.run3.addActionListener((ActionEvent e) -> {
-            GraficView.verinfo3.setText(runCodeRac(3));
-        }); 
-        GraficView.run4.addActionListener((ActionEvent e) -> {
-            GraficView.verinfo4.setText(runCodeRac(4));
-        });   
-        GraficView.letsgo.addActionListener((ActionEvent e) -> {
-            Practices = new Practicas();
-            GraficView.setVisible(false);
-            practices();
-        });
-        GraficView.menu.addActionListener((ActionEvent e) -> {
-            GraficView.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
-        });
-    }
+    
     
     
     public Controlador(Menu menu) {
         this.menu = menu;
+        codexp = new Codeexplicacion();
         this.menu.funciones.addActionListener((ActionEvent e) -> {
             this.Functions = new Funciones();
             menu.setVisible(false);
@@ -189,33 +159,60 @@ public class Controlador {
         
     }
     
+    public void Graficos(){  
+        this.GraficView.setTitle("Modo Grafico");
+        this.GraficView.setLocationRelativeTo(null);
+        GraficView.grafico1.setText(Mgrafico.grafico1());
+        GraficView.grafico2.setText(Mgrafico.grafico2());
+        GraficView.grafico3.setText(Mgrafico.grafico3());
+        GraficView.code1.setText(Mgrafico.Ejegrafico1());
+        GraficView.code2.setText(Recurs.Ejerecursividad2()); 
+        GraficView.code3.setText(Recurs.Ejerecursividad3());
+        GraficView.code4.setText(Recurs.Ejerecursividad4());
+        GraficView.run1.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo1.setText(runCodeRac(1));
+        });
+        GraficView.run2.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo2.setText(runCodeRac(2));
+        });  
+        GraficView.run3.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo3.setText(runCodeRac(3));
+        }); 
+        GraficView.run4.addActionListener((ActionEvent e) -> {
+            GraficView.verinfo4.setText(runCodeRac(4));
+        });   
+        GraficView.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            GraficView.setVisible(false);
+            practices();
+        });
+        GraficView.menu.addActionListener((ActionEvent e) -> {
+            GraficView.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
+    }
+    
     public void explicacioncodigo(){
         this.CodeExp.setVisible(true);
         this.CodeExp.setTitle("Paso a Paso");
         this.CodeExp.setLocationRelativeTo(null);
-        
+        PonerColor(CodeExp.Codigo1, codexp.Ejemplo1());
+        PonerColor(CodeExp.Codigo2, codexp.Ejemplo2());
         CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {
-            runCodeExp(2);
+           explaincode(1);
         });
         CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
+            explaincode(2);
         });
         CodeExp.Ejecutar2.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
+            explaincode(3);
         });
         CodeExp.Ejecutar3.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
+            explaincode(4);
         });
         CodeExp.Ejecutar4.addActionListener((ActionEvent e) -> {
-            CodeExp.setVisible(false);
-            menu.setVisible(true);
-            iniciar();
+            explaincode(5);
         });
         
         CodeExp.menu.addActionListener((ActionEvent e) -> {
@@ -223,6 +220,37 @@ public class Controlador {
             menu.setVisible(true);
             iniciar();
         });
+    }
+    
+    public String explaincode(int ns){
+        String respuesta = "",aux="";
+        int nes = 1,nes2,nes3=0,n1,n2,n3,n4;
+        switch(ns){
+            case 1: 
+                respuesta = ""+codexp.Paso1(nes);
+                CodeExp.next1.addActionListener((ActionEvent e) -> {
+                    GraficView.verinfo4.setText(codexp.Paso1(nes));
+                });
+                try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        aux = "num: " + n1 + "\npot: " + n2;
+                } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                }
+                break;
+            case 2: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 3"));
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 4"));
+                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break; 
+        }
+        return respuesta;
     }
     
     public void exprecionesview(){

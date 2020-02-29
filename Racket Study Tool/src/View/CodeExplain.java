@@ -153,6 +153,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar.setText("Ejecutar");
 
+        Codigo1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jScrollPane9.setViewportView(Codigo1);
 
         previus1.setText("Pasi anterior");
@@ -193,6 +194,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar1.setText("Ejecutar");
 
+        Codigo2.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jScrollPane11.setViewportView(Codigo2);
 
         previus2.setText("Pasi anterior");
@@ -409,11 +411,11 @@ public class CodeExplain extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Ayuda;
-    private javax.swing.JTextPane Codigo1;
-    private javax.swing.JTextPane Codigo2;
-    private javax.swing.JTextPane Codigo3;
-    private javax.swing.JTextPane Codigo4;
-    private javax.swing.JTextPane Codigo5;
+    public javax.swing.JTextPane Codigo1;
+    public javax.swing.JTextPane Codigo2;
+    public javax.swing.JTextPane Codigo3;
+    public javax.swing.JTextPane Codigo4;
+    public javax.swing.JTextPane Codigo5;
     public javax.swing.JButton Ejecutar;
     public javax.swing.JButton Ejecutar1;
     public javax.swing.JButton Ejecutar2;
@@ -442,17 +444,17 @@ public class CodeExplain extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton menu;
-    private javax.swing.JButton next1;
-    private javax.swing.JButton next2;
-    private javax.swing.JButton next3;
-    private javax.swing.JButton next4;
-    private javax.swing.JButton next5;
+    public javax.swing.JButton next1;
+    public javax.swing.JButton next2;
+    public javax.swing.JButton next3;
+    public javax.swing.JButton next4;
+    public javax.swing.JButton next5;
     public javax.swing.JTextArea outputs;
-    private javax.swing.JButton previus1;
-    private javax.swing.JButton previus2;
-    private javax.swing.JButton previus3;
-    private javax.swing.JButton previus4;
-    private javax.swing.JButton previus5;
+    public javax.swing.JButton previus1;
+    public javax.swing.JButton previus2;
+    public javax.swing.JButton previus3;
+    public javax.swing.JButton previus4;
+    public javax.swing.JButton previus5;
     // End of variables declaration//GEN-END:variables
 
 }
