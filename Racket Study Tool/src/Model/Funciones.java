@@ -58,11 +58,9 @@ public class Funciones {
                         ";numero mostrarlo por pantalla\n\n" +
                         "\n" +
                         "(define (MostrarPotencia n)\n" +
-                        "          ;elevamos el numero al cuadrado y luego lo mostramos\n" +
                         "          (display (expt n 2))\n" +
                         ")\n" +
                         "\n" +
-                        ";llamamos la funcion\n" +
                         "(MostrarPotencia 3)";
         return data;
     }
@@ -93,7 +91,6 @@ public class Funciones {
                         "\n" +
                         ";Creamos la funcion DiasSemana\n\n" +
                         "(define (DiasSemana)\n" +
-                        "      ;mostramos los datos usando la funcion display\n" +
                         "      (displayln \" Lunes\")\n" +
                         "      (displayln \" Martes\")\n" +
                         "      (displayln \" Miercoles\")\n" +
