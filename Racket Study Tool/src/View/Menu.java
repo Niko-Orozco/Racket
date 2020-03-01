@@ -14,10 +14,11 @@ public class Menu extends javax.swing.JFrame {
     /**
      * Creates new form Menu
      */
+    
     public Menu() {
         setResizable(false);
         initComponents();
-        
+        AcercaInfo.setVisible(false);        
     }
 
     /**
@@ -33,10 +34,17 @@ public class Menu extends javax.swing.JFrame {
         jPanel1 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
+        AcercaInfo = new javax.swing.JDesktopPane();
+        jPanel38 = new javax.swing.JPanel();
+        jLabel59 = new javax.swing.JLabel();
+        jPanel39 = new javax.swing.JPanel();
+        jLabel60 = new javax.swing.JLabel();
+        Cerrar = new javax.swing.JButton();
+        jLabel61 = new javax.swing.JLabel();
         jPanel31 = new javax.swing.JPanel();
         jPanel6 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
-        jButton2 = new javax.swing.JButton();
+        AbrirAcerca = new javax.swing.JButton();
         jLabel17 = new javax.swing.JLabel();
         jPanel30 = new javax.swing.JPanel();
         jLabel4 = new javax.swing.JLabel();
@@ -160,6 +168,61 @@ public class Menu extends javax.swing.JFrame {
         jPanel3.add(jLabel1);
         jLabel1.setBounds(20, 100, 500, 60);
 
+        AcercaInfo.setBackground(new java.awt.Color(204, 204, 204));
+        AcercaInfo.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        AcercaInfo.setForeground(new java.awt.Color(255, 255, 255));
+
+        jPanel38.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel38.setLayout(null);
+
+        jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/racket-logo.png"))); // NOI18N
+        jPanel38.add(jLabel59);
+        jLabel59.setBounds(0, 0, 40, 40);
+
+        jPanel39.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel39.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel39.setLayout(null);
+
+        jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/Acerca de texto.png"))); // NOI18N
+        jPanel39.add(jLabel60);
+        jLabel60.setBounds(0, 10, 501, 120);
+
+        jPanel38.add(jPanel39);
+        jPanel39.setBounds(0, 40, 510, 140);
+
+        Cerrar.setBackground(new java.awt.Color(255, 255, 255));
+        Cerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/cerrar.png"))); // NOI18N
+        Cerrar.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CerrarActionPerformed(evt);
+            }
+        });
+        jPanel38.add(Cerrar);
+        Cerrar.setBounds(410, 190, 80, 30);
+
+        jLabel61.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
+        jLabel61.setText("Acerca de");
+        jPanel38.add(jLabel61);
+        jLabel61.setBounds(40, 10, 100, 30);
+
+        AcercaInfo.setLayer(jPanel38, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        javax.swing.GroupLayout AcercaInfoLayout = new javax.swing.GroupLayout(AcercaInfo);
+        AcercaInfo.setLayout(AcercaInfoLayout);
+        AcercaInfoLayout.setHorizontalGroup(
+            AcercaInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel38, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
+        );
+        AcercaInfoLayout.setVerticalGroup(
+            AcercaInfoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, AcercaInfoLayout.createSequentialGroup()
+                .addComponent(jPanel38, javax.swing.GroupLayout.PREFERRED_SIZE, 226, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+
+        jPanel3.add(AcercaInfo);
+        AcercaInfo.setBounds(570, 29, 510, 230);
+
         jPanel31.setBackground(new java.awt.Color(237, 237, 237));
 
         javax.swing.GroupLayout jPanel31Layout = new javax.swing.GroupLayout(jPanel31);
@@ -180,13 +243,20 @@ public class Menu extends javax.swing.JFrame {
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel6.setLayout(null);
 
-        jButton1.setText("Ayuda");
+        jButton1.setBackground(new java.awt.Color(255, 255, 255));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/ayudas.png"))); // NOI18N
         jPanel6.add(jButton1);
-        jButton1.setBounds(1050, 0, 80, 23);
+        jButton1.setBounds(1060, 0, 80, 20);
 
-        jButton2.setText("Acerca de");
-        jPanel6.add(jButton2);
-        jButton2.setBounds(950, 0, 81, 23);
+        AbrirAcerca.setBackground(new java.awt.Color(255, 255, 255));
+        AbrirAcerca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/AcercaDe.png"))); // NOI18N
+        AbrirAcerca.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                AbrirAcercaActionPerformed(evt);
+            }
+        });
+        jPanel6.add(AbrirAcerca);
+        AbrirAcerca.setBounds(980, 0, 81, 20);
 
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel17.setText("Dr Racket");
@@ -980,6 +1050,14 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_quizActionPerformed
 
+    private void AbrirAcercaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AbrirAcercaActionPerformed
+        AcercaInfo.setVisible(true);
+    }//GEN-LAST:event_AbrirAcercaActionPerformed
+
+    private void CerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CerrarActionPerformed
+        AcercaInfo.setVisible(false);
+    }//GEN-LAST:event_CerrarActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1016,6 +1094,9 @@ public class Menu extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton AbrirAcerca;
+    private javax.swing.JDesktopPane AcercaInfo;
+    private javax.swing.JButton Cerrar;
     public javax.swing.JButton Pares;
     public javax.swing.JButton cadenas;
     public javax.swing.JButton caracteres;
@@ -1026,7 +1107,6 @@ public class Menu extends javax.swing.JFrame {
     public javax.swing.JButton grafico;
     public javax.swing.JButton introduccion;
     private javax.swing.JButton jButton1;
-    private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1081,7 +1161,10 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel56;
     private javax.swing.JLabel jLabel57;
     private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
@@ -1116,6 +1199,8 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel35;
     private javax.swing.JPanel jPanel36;
     private javax.swing.JPanel jPanel37;
+    private javax.swing.JPanel jPanel38;
+    private javax.swing.JPanel jPanel39;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
