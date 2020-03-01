@@ -66,7 +66,7 @@ public class Listas_Pares {
 
     public String EjePares1(){
         String data =   "; mediante el procedimiento cons cree 3 pares y llenelos con difrentes tipos de datos, luego \n" +
-                        ";mostrar los datos almacenados en el par\n" +
+                        ";mostrar los datos almacenados en el par\n\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
                         "(define par2 (cons (read) (read)))\n" +
@@ -80,7 +80,7 @@ public class Listas_Pares {
 
     public String EjePares2(){
         String data =   "; mediante el procedimiento cons cree 3 pares y llene las cabezas con numero, luego \n" +
-                        ";mostrar la suma de las cabezas de los pares\n" +
+                        ";mostrar la suma de las cabezas de los pares\n\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
                         "(define par2 (cons (read) (read)))\n" +
@@ -92,7 +92,7 @@ public class Listas_Pares {
 
     public String EjePares3(){
         String data =   "; mediante el procedimiento cons cree 2 pares y llene las colas con cadenas, luego \n" +
-                        ";mostrar los datos de las colas de los pares\n" +
+                        ";mostrar los datos de las colas de los pares\n\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
                         "(define par2 (cons (read) (read)))\n" +
@@ -104,7 +104,7 @@ public class Listas_Pares {
 
     public String EjePares4(){
         String data =   "; mediante el procedimiento cons cree un par y llenelo de cualquier tipo de dato luego mediante\n" +
-                        ";el procedimiento pair?, decir si es par o si no lo es\n" +
+                        ";el procedimiento pair?, decir si es par o si no lo es\n\n" +
                         "\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
@@ -211,7 +211,7 @@ public class Listas_Pares {
 
     public String EjeListas1(){
         String data =   ";definir una funcion que cree una lista y llene 4 datos de las lista por teclado luego \n" +
-                        ";mostrar los datos por pantalla con la funcion displayln\n" +
+                        ";mostrar los datos por pantalla con la funcion displayln\n\n" +
                         "\n" +
                         "(define Lista(list (read) (read) (read) (read)))\n" +
                         "\n" +
@@ -221,7 +221,7 @@ public class Listas_Pares {
 
     public String EjeListas2(){
         String data =   ";definir una funcion que cree una lista y llene 4 datos de las lista por teclado luego \n" +
-                        ";mostrar la cabeza de la lista  por pantalla con la funcion displayln\n" +
+                        ";mostrar la cabeza de la lista  por pantalla con la funcion displayln\n\n" +
                         "\n" +
                         "\n" +
                         "(define Lista(list (read) (read) (read) (read)))\n" +
@@ -232,7 +232,7 @@ public class Listas_Pares {
 
     public String EjeListas3(){
         String data =   ";cree una funcion que pida por teclado llenar una lista si esta está vacia, luego mostrar \n" +
-                        ";los datos por pantalla\n" +
+                        ";los datos por pantalla\n\n" +
                         "\n" +
                         "(define lista (list))\n" +
                         "(define (isEmpty)\n" +
@@ -248,7 +248,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas4(){
-        String data =   ";cree una funcion que permita adicionar diez numeros a una lista\n" +
+        String data =   ";cree una funcion que permita adicionar diez numeros a una lista\n\n" +
                         "\n" +
                         "(define lista (list))\n" +
                         "(define (adicionar  n)\n" +
@@ -266,7 +266,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas5(){
-        String data =   ";cree una funcion tal que al recivir un argumento nos diga si es una lista o no.\n" +
+        String data =   ";cree una funcion tal que al recivir un argumento nos diga si es una lista o no.\n\n" +
                         "\n" +
                         "(define lista(list))\n" +
                         "(define (islista)\n" +
@@ -283,7 +283,7 @@ public class Listas_Pares {
     public String EjeListas6(){
         String data =   ";cree  una  funcion  que  pida por  teclado el  numero de datos  a ingrear en una lista,\n" +
                         ";luego nos muestre los datos de la lista si el tamaño de la misma es mayor a 5, de lo \n" +
-                        ";contrario mostrar el tamaño de la lista\n" +
+                        ";contrario mostrar el tamaño de la lista\n\n" +
                         "\n" +
                         "(define lista(list))\n" +
                         "(define (medir  n n2)\n" +
@@ -306,7 +306,7 @@ public class Listas_Pares {
     public String EjeListas7(){
         String data =   ";cree  una  funcion  que  pida por  teclado el numero de datos  a ingrear en una lista,\n" +
                         ";luego nos muestre al reves los datos de la lista si el tamaño de la misma es mayor  \n" +
-                        ";a 5, de lo contrario mostrar el tamaño de la lista\n" +
+                        ";a 5, de lo contrario mostrar el tamaño de la lista\n\n" +
                         "\n" +
                         "(define lista(list))\n" +
                         "(define (addlist  n n2)\n" +
@@ -328,7 +328,7 @@ public class Listas_Pares {
 
     public String EjeListas8(){
         String data =   ";cree una funcion  que llene una lista con cuatro datos y luego que a partir del dato 1 nos\n" +
-                        ";muestre su contenido\n" +
+                        ";muestre su contenido\n\n" +
                         "\n" +
                         "(define lista(list (read) (read) (read) (read)))\n" +
                         "(define (datos)\n" +

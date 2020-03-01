@@ -99,7 +99,7 @@ public class Modo_Grafico {
     public String Ejegrafico1(){
         String data =   
                 ";Construya un programa en donde en una ventana de 800*600 se dibuje un pixel \n"
-                + ";en la posición (0.50), luego debe dibujarse otro pixel en la posicion(1,50), \n"
+                + ";en la posición [0.50], luego debe dibujarse otro pixel en la posicion[1,50], \n"
                 + ";(2,50), (3,50) hasta llegar a la posición (800,50). Use recursividad.\n" +
                         "\n"
                 +"(require (lib \"graphics.ss\" \"graphics\"))\n" +
@@ -122,19 +122,19 @@ public class Modo_Grafico {
     
     
      public String Ejerecursividad2(){
-        String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n" +
+        String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n\n" +
                         "\n" +
                         "   (define(Divs A Cont)\n" +
-                        "        (if  (= Cont 1)                                            ;Caso base cuando Cont = 1\n" +
-                        "          (display (/ A Cont))                                ;Imprimir el # divisor\n" +
-                        "          (begin                                                      ;Casos generales, cuando cont no es igual a 1\n" +
+                        "        (if  (= Cont 1)                                            \n;Caso base cuando Cont = 1\n" +
+                        "          (display (/ A Cont))                               \n ;Imprimir el # divisor\n" +
+                        "          (begin                                                     \n ;Casos generales, cuando cont no es igual a 1\n" +
                         "            (if (interger? (/ A Cont))\n" +
                         "              (begin\n" +
                         "               (display( / A Cont))\n" +
-                        "               (newline)                                              ;Salto de linea\n" +
-                        "               (Divs A (- Cont 1) )                              ;Llamado recursivo\n" +
+                        "               (newline)                                              \n;Salto de linea\n" +
+                        "               (Divs A (- Cont 1) )                              \n;Llamado recursivo\n" +
                         "           )\n" +
-                        "         (Divs A (- Cont 1) )                                    ;Llamado recursivo\n" +
+                        "         (Divs A (- Cont 1) )                                   \n ;Llamado recursivo\n" +
                         "  )  )  )  )\n" +
                         "\n" +
                         "  (define  (Divisores X)\n" +
@@ -147,7 +147,7 @@ public class Modo_Grafico {
         String data =   ";Hacer  un  programa  que  reciba   un  numero  y  determine  si  es  un numero perfecto. Un \n" +
                         ";numero es perfecto  cuando la suma de sus divisores menores a el ,da como resultado el \n" +
                         ";mismo numero. Ej: 28 es un numero perfecto pues sus divisores son 14,7,4,2,1 y la suma \n" +
-                        ";de estos numeros da 28.\n" +
+                        ";de estos numeros da 28.\n\n" +
                         "\n" +
                         " (define (Divs A Cont Suma)\n" +
                         "       (if  (= Cont 1)\n" +
@@ -181,7 +181,7 @@ public class Modo_Grafico {
                         ";\"A\" y despues se debe saltar al nuevo renglon.\n" +
                         "\n" +
                         ";Para el cuarto renglon se debe colocar tres espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y despues se debe saltar al nuevo renglon\n" +
+                        ";\"A\" y despues se debe saltar al nuevo renglon\n\n" +
                         "\n" +
                         "\n" +
                         "  (define  (Espacios a)\n" +

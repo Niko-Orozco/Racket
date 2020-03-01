@@ -30,7 +30,7 @@ public class Codeexplicacion {
                             "  ;a $50.000 inclusive , 4.5% para  depositos  menores \n" +
                             "  ;a $250.000  inclusive, y 5% para depositos  mayores\n" +
                             "  ;a $250.000.  Realize   una   funcion  que reciba  un \n"+
-                            "  ;reciba un deposito y devuelva el procentaje asignado \n" +
+                            "  ;reciba un deposito y devuelva el procentaje asignado \n\n" +
                             "\n" +
                             "   (define (interes cantidad)\n" +
                             "         (cond\n" +
@@ -43,12 +43,28 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo3(){
-        String data = "";
+        String data =   ";Factorial de un numero\n" +
+                        "\n" +
+                        "( define ( calcular-factorial n )\n" +
+                        "    ( cond\n" +
+                        "          [ ( = n 0  1 ]\n" +
+                        "           [ ( = n 1 ) 1 ]\n" +
+                        "       [ else\n" +
+                        "          ( * n ( calcular-factorial (- n 1 ) ) ) ]\n" +
+                        "))\n" +
+                        "\n" +
+                        "( calcular-factorial 4 )";
         return data;
     }
     
     public String Ejemplo4(){
-        String data = "";
+        String data =   ";Crear una cadena de tamaño n  y luego llenar ese tamaño con la letra H\n" +
+                        "( define ( s n )\n" +
+                        "       ( make-string n #\\H )		\n" +
+                        " )\n" +
+                        "\n" +
+                        "(display \"Ingrese valor de N: \\n\")\n" +
+                        "(s (read))	";
         return data;
     }
     
@@ -104,12 +120,38 @@ public class Codeexplicacion {
     }
     
     public String Paso3(int este){
-        String data = "";
+        String data =   "Definimos la funcion calcular-factorial";
+        String data1 =  "Llamamos la funcion calcular-factorial y como \n" +
+                        "parametro le enviamos el numero 4";
+        String data2 =  "Evaluamos la funcion cond";
+        String data3 =  "comparamos si la variable n es igual a 0, de ser\n" +
+                        "asi  devolvemos  el  numero  1 y  terminamos  la \n" +
+                        "condicion";
+        String data4 =  "comparamos si la variable n es igual a 1, de ser\n" +
+                        "asi  devolvemos  el  numero  1 y  terminamos  la \n" +
+                        "condicion";
+        String data5 =  "Evaluamos la funcion else de la condicion con \n" +
+                        "nos encargamos  de hacer la recuersion dado\n" +
+                        "que no se cumpla el paso anterior";
+        String data6 =  "Hacemos  el  llamado recursivo  de la funcion \n" +
+                        "para  calcular   el  factorial  de el numero dado\n" +
+                        "multiplicacios   e l  valor  que  tiene  n  en  ese \n" +
+                        "momento por el valor de n -1 y luego llamamo\n" +
+                        "la funcion decrementando a n en uno";
         return data;
     }
     
     public String Paso4(int este){
-        String data = "";
+        String data =   "Definimos  la funcion  s y recive un argumente\n" +
+                        "el cual es el numero de caracteres que tendra\n" +
+                        "la cadena";
+        String data2 =  "Llamamos la funcion s y como parametro le\n" +
+                        "enviamos un numero leido por teclado";
+        String data3 =  "mediante la funcion make-string creamos la\n" +
+                        "cadena  a  llenar  con  el tamaño n asignado\n" +
+                        "con los caracteres #\\H";
+        String data4 =  "usamos la funcion display para mostrar un texto\n" +
+                        "guia por pantalla";
         return data;
     }
     

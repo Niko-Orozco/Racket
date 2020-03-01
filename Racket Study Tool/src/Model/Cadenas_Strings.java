@@ -183,7 +183,7 @@ public class Cadenas_Strings {
                         "\n" +
                         " ;Crear  una  funcion  que llena  una  caden a  de  4  posiciones  con  el  caracter  J  usando \n" +
                         " ;make-string.  Luego  cree  una cadena con la funcion string que di ga  \"Hola que tal tu dia\"  \n" +
-                        " ;y  por ultimo muestra  las cadenas creadas usando la funcion (displayln)\n" +
+                        " ;y  por ultimo muestra  las cadenas creadas usando la funcion displayln\n\n" +
                         "\n" +
                         "(define cad1 (make-string 4 #\\j))\n" +
                         "\n" +
@@ -196,7 +196,7 @@ public class Cadenas_Strings {
    }
    
    public String stringeje(){
-       String data =    ";crear una funcion que diga si los datos ingresados por teclado es una cadena o no\n" +
+       String data =    ";crear una funcion que diga si los datos ingresados por teclado es una cadena o no\n\n" +
                         "\n" +
                         "(define (MiCadena cd)\n" +
                         "     (if  (string? cd)\n" +
@@ -212,7 +212,7 @@ public class Cadenas_Strings {
    public String lengtheje(){
        String data =    ";Construir un programa que usando la funcion string-length muestre por pantalla si una\n" +
                         ";cadena   es   mayor    que   10,   si  lo es imprimir cadena de tamaño menor a diez de lo \n" +
-                        ";contrario impirmir cadena de tamaño menor a diez.\n" +
+                        ";contrario impirmir cadena de tamaño menor a diez.\n\n" +
                         "\n" +
                         "(define (MiCadena cd)\n" +
                         "     (if  (< (string-length cd) 10)\n" +
@@ -227,7 +227,7 @@ public class Cadenas_Strings {
    
    public String appendeje(){
        String data =    ";Cree una programa que una dos cadenas usando la funcion string-append, luego mostrar\n" +
-                        ";el resultado por pantalla\n" +
+                        ";el resultado por pantalla\n\n" +
                         "\n" +
                         "(define (MisCadena cd cd2)\n" +
                         "\n" +
@@ -241,7 +241,7 @@ public class Cadenas_Strings {
    public String seteje(){
        String data =    ";Cree  una cadena con la funcion string que diga  \"Es hora de cenar\", luego  mediante la \n" +
                         ";funcion  string-set!  cambiar  la  letra  c  de la cadena por una  z y  por ultimo  muestra  la\n" +
-                        ";cadena creada usando la funcion (displayln)\n" +
+                        ";cadena creada usando la funcion displayln\n\n" +
                         "\n" +
                         "\n" +
                         "(define cad (string #\\E #\\s #\\h #\\o #\\r #\\a #\\d #\\e #\\c #\\e #\\a #\\r))\n" +
@@ -259,7 +259,7 @@ public class Cadenas_Strings {
                         ";ejemplo:\n" +
                         "\n" +
                         ";Balvin Sanches Ana\\n\n" +
-                        ";BalSanAna\n" +
+                        ";BalSanAna\n\n" +
                         "\n" +
                         ";(define(Codigo nom ap1 ap2)\n" +
                         "    (display(substring nom 0 3))\n" +

@@ -62,7 +62,7 @@ public class Estructuras_De_Datos {
     }
     
     public String makeeje(){
-        String data =   ";Tomando como referencia el ejemplo anterior de define-struc), cree una funcion que llene\n" +
+        String data =   ";Tomando como referencia el ejemplo anterior de define-struc, cree una funcion que llene\n" +
                         ";los datos de estas estructuras mediante el procedimiento make-struct, luego mostrar los\n" +
                         ";apellidos de cada uno.\n\n" +
                         "\n" +

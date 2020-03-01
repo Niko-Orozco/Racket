@@ -92,6 +92,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Expreciones1.setColumns(20);
         Expreciones1.setRows(5);
         Expreciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Expreciones1.setFocusable(false);
         jScrollPane1.setViewportView(Expreciones1);
 
         jPanel2.add(jScrollPane1);
@@ -108,6 +109,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Expresiones2.setColumns(20);
         Expresiones2.setRows(5);
         Expresiones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Expresiones2.setFocusable(false);
         jScrollPane3.setViewportView(Expresiones2);
 
         jPanel2.add(jScrollPane3);
@@ -386,7 +388,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
-        letsgo.setBounds(490, 700, 150, 29);
+        letsgo.setBounds(490, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
@@ -394,7 +396,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 29);
+        menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
         jLabel2.setText("Expreciones matematicas");
