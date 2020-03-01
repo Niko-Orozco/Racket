@@ -867,10 +867,7 @@ public class Controlador {
         //new Color(153,102,0) color cafe
         ChangeColor=new CuadroTexto();
         ChangeColor.setPrueva(modif);
-        //ChangeColor.append(new Color(153,102,0), an); color cafe
-        //ChangeColor.append(Color.blue, an); color azul
-        String an ="";
-        
+        String an ="";    
         int d = 0;
         while(d < str.length()){
             if(str.charAt(d) == ';'){
