@@ -21,7 +21,7 @@ public class Codeexplicacion {
                         "           (displayln a)\n" +
                         ")\n" +
                         "\n" +
-                        "(ElevarpotenciaN (read) (read) )";
+                        "(ElevarpotenciaN 4 6 )";
         return data;
     }
     

@@ -97,7 +97,7 @@
 
           <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
           <SubComponents>
-            <Component class="javax.swing.JTextArea" name="outputs">
+            <Component class="javax.swing.JTextArea" name="Salida">
               <Properties>
                 <Property name="columns" type="int" value="20"/>
                 <Property name="rows" type="int" value="5"/>
@@ -238,7 +238,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jScrollPane9" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="previus1" min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="stop" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="next1" min="-2" pref="123" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -258,7 +258,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="next1" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="previus1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stop" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="Ejecutar" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -295,9 +295,9 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="previus1">
+                <Component class="javax.swing.JButton" name="stop">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Pasi anterior"/>
+                    <Property name="text" type="java.lang.String" value="Parar"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>

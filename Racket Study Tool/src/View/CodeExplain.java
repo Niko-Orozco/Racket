@@ -46,7 +46,7 @@ public class CodeExplain extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         Valores = new javax.swing.JTextArea();
         jScrollPane3 = new javax.swing.JScrollPane();
-        outputs = new javax.swing.JTextArea();
+        Salida = new javax.swing.JTextArea();
         jLabel2 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
@@ -59,7 +59,7 @@ public class CodeExplain extends javax.swing.JFrame {
         Ejecutar = new javax.swing.JButton();
         jScrollPane9 = new javax.swing.JScrollPane();
         Codigo1 = new javax.swing.JTextPane();
-        previus1 = new javax.swing.JButton();
+        stop = new javax.swing.JButton();
         next1 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         Ejecutar1 = new javax.swing.JButton();
@@ -104,9 +104,9 @@ public class CodeExplain extends javax.swing.JFrame {
         jPanel1.add(jScrollPane2);
         jScrollPane2.setBounds(20, 310, 270, 145);
 
-        outputs.setColumns(20);
-        outputs.setRows(5);
-        jScrollPane3.setViewportView(outputs);
+        Salida.setColumns(20);
+        Salida.setRows(5);
+        jScrollPane3.setViewportView(Salida);
 
         jPanel1.add(jScrollPane3);
         jScrollPane3.setBounds(20, 500, 270, 143);
@@ -118,7 +118,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(20, 660, 80, 23);
+        menu.setBounds(20, 660, 80, 29);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
@@ -147,7 +147,7 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(180, 660, 110, 23);
+        Ayuda.setBounds(180, 660, 110, 29);
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
@@ -156,7 +156,7 @@ public class CodeExplain extends javax.swing.JFrame {
         Codigo1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jScrollPane9.setViewportView(Codigo1);
 
-        previus1.setText("Pasi anterior");
+        stop.setText("Parar");
 
         next1.setText("Paso siguiente");
 
@@ -169,7 +169,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
-                        .addComponent(previus1, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stop, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(next1, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -185,7 +185,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next1)
-                        .addComponent(previus1))
+                        .addComponent(stop))
                     .addComponent(Ejecutar))
                 .addContainerGap())
         );
@@ -422,6 +422,7 @@ public class CodeExplain extends javax.swing.JFrame {
     public javax.swing.JButton Ejecutar3;
     public javax.swing.JButton Ejecutar4;
     public javax.swing.JTextArea Pasos;
+    public javax.swing.JTextArea Salida;
     public javax.swing.JTextArea Valores;
     private javax.swing.JLabel jLabel1;
     public javax.swing.JLabel jLabel2;
@@ -449,12 +450,11 @@ public class CodeExplain extends javax.swing.JFrame {
     public javax.swing.JButton next3;
     public javax.swing.JButton next4;
     public javax.swing.JButton next5;
-    public javax.swing.JTextArea outputs;
-    public javax.swing.JButton previus1;
     public javax.swing.JButton previus2;
     public javax.swing.JButton previus3;
     public javax.swing.JButton previus4;
     public javax.swing.JButton previus5;
+    public javax.swing.JButton stop;
     // End of variables declaration//GEN-END:variables
 
 }

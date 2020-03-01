@@ -191,15 +191,20 @@ public class Controlador {
             iniciar();
         });
     }
-    
+        
     public void explicacioncodigo(){
         this.CodeExp.setVisible(true);
         this.CodeExp.setTitle("Paso a Paso");
         this.CodeExp.setLocationRelativeTo(null);
         PonerColor(CodeExp.Codigo1, codexp.Ejemplo1());
         PonerColor(CodeExp.Codigo2, codexp.Ejemplo2());
-        CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {
-           explaincode(1);
+        CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {//bonton que inicia la funcion de funciones
+        
+           CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
+           
+           explaincode(1);//ejecuta la funcion explaincode , no es necesaria la variable
         });
         CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
             explaincode(2);
@@ -221,36 +226,40 @@ public class Controlador {
         });
     }
     
-    public String explaincode(int ns){
-        String respuesta = "",aux="";
-        int nes = 1,nes2,nes3=0,n1,n2,n3,n4;
-        switch(ns){
-            case 1: 
-                respuesta = ""+codexp.Paso1(nes);
-                CodeExp.next1.addActionListener((ActionEvent e) -> {
-                    GraficView.verinfo4.setText(codexp.Paso1(nes));
+int linea=0; //Variable Global
+   
+    public void explaincode(int ns){
+        
+        CodeExp.stop.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
                 });
-                try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
-                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
-                        aux = "num: " + n1 + "\npot: " + n2;
-                } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "Code Error");
-                }
-                break;
-            case 2: try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
-                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
-                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 3"));
-                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 4"));
-                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
-                     } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "Code Error");
-                     }
-                break; 
-        }
-        return respuesta;
-    }
+        
+        CodeExp.next1.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"6","ElevarpotenciaN","",""},
+                {"1","define","num=>4 \npot=> 6",""},
+                {"2","expt","num=>4 \npot=> 6",""},
+                {"2","expt","num=>4 \npot=> 6",""},
+                {"3","displayln","a=>4096 \nnum=>4 \npot=> 6","displayln = 4096"},
+            };
+            
+            if(linea <5)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
+                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
+       
+    };
     
     public void exprecionesview(){
         this.ExpresView.setTitle("Recursividad");
