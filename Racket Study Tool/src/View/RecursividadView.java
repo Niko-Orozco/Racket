@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Niko
@@ -14,9 +16,24 @@ public class RecursividadView extends javax.swing.JFrame {
     /**
      * Creates new form Recursividad
      */
+    NumeroLinea numerolinea;
+    
     public RecursividadView() {
         setResizable(false);
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
+        
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane9.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane11.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane14.setRowHeaderView(numerolinea);
     }
 
     /**

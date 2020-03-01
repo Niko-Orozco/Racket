@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Niko
@@ -16,6 +18,7 @@ public class Practicas extends javax.swing.JFrame {
      */
     public Practicas() {
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         grupo1.add(t1);
         grupo1.add(t2);
 

@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author xlOnly
@@ -14,8 +16,20 @@ public class CaracteresView extends javax.swing.JFrame {
     /**
      * Creates new form Caracteres
      */
+    NumeroLinea numerolinea;
+    
     public CaracteresView() {
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
+        
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane8.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane10.setRowHeaderView(numerolinea);
     }
 
     /**

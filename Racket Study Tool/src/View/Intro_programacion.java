@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author ALEJO
@@ -16,6 +18,7 @@ public class Intro_programacion extends javax.swing.JFrame {
      */
     public Intro_programacion() {
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
     }
 
     /**

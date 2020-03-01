@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author xlOnly
@@ -14,9 +16,18 @@ public class ExprecrionesView extends javax.swing.JFrame {
     /**
      * Creates new form ExprionesView
      */
+    NumeroLinea numerolinea;
+    
     public ExprecrionesView() {
         setResizable(false);
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
+        
+        numerolinea = new NumeroLinea(code);
+        jScrollPane4.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code2);
+        jScrollPane9.setRowHeaderView(numerolinea);
     }
 
     /**

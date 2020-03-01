@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Niko
@@ -20,6 +22,7 @@ public class CadenasView extends javax.swing.JFrame {
     public CadenasView() {
         setResizable(false);
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
         
@@ -898,4 +901,8 @@ public class CadenasView extends javax.swing.JFrame {
     public javax.swing.JTextArea verinfo6;
     public javax.swing.JTextArea verinfo7;
     // End of variables declaration//GEN-END:variables
+
+    private void setIconImage(ImageIcon imageIcon) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

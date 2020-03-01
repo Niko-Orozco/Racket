@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author xlOnly
@@ -19,6 +21,7 @@ public class ParesView extends javax.swing.JFrame {
     public ParesView() {
         setResizable(false);
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
         

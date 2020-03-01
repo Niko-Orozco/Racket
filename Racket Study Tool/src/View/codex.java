@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author Niko
@@ -19,6 +21,7 @@ public class codex extends javax.swing.JFrame {
     public codex() {
         setResizable(false);
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         numerolinea = new NumeroLinea(codes);
         jScrollPane1.setRowHeaderView(numerolinea);
     }

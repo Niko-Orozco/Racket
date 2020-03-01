@@ -5,6 +5,8 @@
  */
 package View;
 
+import javax.swing.ImageIcon;
+
 /**
  *
  * @author xlOnly
@@ -16,6 +18,7 @@ public class ejerciciosView extends javax.swing.JFrame {
      */
     public ejerciciosView() {
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
     }
 
     /**
