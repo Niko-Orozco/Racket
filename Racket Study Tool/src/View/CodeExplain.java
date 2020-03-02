@@ -240,7 +240,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane12.setViewportView(Codigo3);
 
-        stop3.setText("Pasi anterior");
+        stop3.setText("Parar");
 
         next3.setText("Paso siguiente");
 
@@ -280,7 +280,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane15.setViewportView(Codigo4);
 
-        stop4.setText("Pasi anterior");
+        stop4.setText("Parar");
 
         next4.setText("Paso siguiente");
 
@@ -320,7 +320,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane16.setViewportView(Codigo5);
 
-        stop5.setText("Pasi anterior");
+        stop5.setText("Parar");
 
         next5.setText("Paso siguiente");
 

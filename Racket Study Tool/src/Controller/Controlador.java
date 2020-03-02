@@ -263,7 +263,7 @@ int linea=0; //Variable Global
         CodeExp.stop5.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
-        
+        //funciones
         CodeExp.next1.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
@@ -288,6 +288,7 @@ int linea=0; //Variable Global
                 
             }
         });
+        //condicionales
         CodeExp.next2.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
@@ -313,19 +314,66 @@ int linea=0; //Variable Global
                 
             }
         });
-       
+       //Recursividad
         CodeExp.next3.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
-                {"16","intereses","",""},
-                {"9","cond","cantidad => 2312312",""},
-                {"10","(<= cantidad 50000)","cantidad => 2312312",""},
-                {"11","(<= cantidad 250000)","cantidad => 2312312",""},
-                {"12","(> cantidad 250000)","cantidad => 2312312",""},
-                {"16","","cantidad => 2312312","0.05"},
+                {"10","( calcular-factorial 4 )","",""},
+                {"9","(cond","n => 4",""},
+                {"4","( = n 0  1 )","n => 4",""},
+                {"5","(( = n 1 ) 1","c1 => #f\n" +"n => 4",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 4",""},
+                {"7","( calcular-factorial (- n 1 ) )","c1 => #f\n" +"n => 4",""},
+                {"7"," (- n 1 ) ","c1 => #f\n" +"n => 4",""},
+                {"3"," (cond ","n => 3",""},
+                {"4","( = n 0  1 )","n => 3",""},
+                {"5","(( = n 1 ) 1","c1 => #f\n" +"n => 3",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 3",""},
+                {"7","( calcular-factorial (- n 1 ) )","c1 => #f\n" +"n => 3",""},
+                {"7"," (- n 1 ) ","c1 => #f\n" +"n => 3",""},
+                {"3"," (cond ","n => 2",""},
+                {"4","( = n 0  1 )","n => 2",""},
+                {"5","(( = n 1 ) 1","c1 => #f\n" +"n => 2",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 2",""},
+                {"7","( calcular-factorial (- n 1 ) )","c1 => #f\n" +"n => 2",""},
+                {"7"," (- n 1 ) ","c1 => #f\n" +"n => 2",""},
+                {"3"," (cond ","n => 1",""},
+                {"4","( = n 0  1 )","n => 1",""},
+                {"5","(( = n 1 ) 1","c1 => #f\n" +"n => 1",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 2",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 3",""},
+                {"7","( * n ( calcular-factorial (- n 1 ) ) )","c1 => #f\n" +"n => 4",""},
+                {"7","( calcular-factorial 4 )","","24"},
             };
             
-            if(linea <6)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <26)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
+                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
+        
+        //cadenas
+        
+        CodeExp.next4.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"7","(s 10)","",""},
+                {"4"," ( make-string n #\\H )","n => 10",""},
+                {"7","(s 10)","",""},
+                {"7","(s 10)","","\"HHHHHHHHHH\""},
+
+            };
+            
+            if(linea <5)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables

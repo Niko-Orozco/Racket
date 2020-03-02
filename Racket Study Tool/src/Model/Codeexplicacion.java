@@ -47,7 +47,7 @@ public class Codeexplicacion {
                         "\n" +
                         "( define ( calcular-factorial n )\n" +
                         "    ( cond\n" +
-                        "          [ ( = n 0  1 ]\n" +
+                        "          [ ( = n 0  1 )]\n" +
                         "           [ ( = n 1 ) 1 ]\n" +
                         "       [ else\n" +
                         "          ( * n ( calcular-factorial (- n 1 ) ) ) ]\n" +
@@ -63,8 +63,7 @@ public class Codeexplicacion {
                         "       ( make-string n #\\H )		\n" +
                         " )\n" +
                         "\n" +
-                        "(display \"Ingrese valor de N: \\n\")\n" +
-                        "(s (read))	";
+                        "(s 10)	";
         return data;
     }
     

@@ -474,7 +474,7 @@
                 </Container>
                 <Component class="javax.swing.JButton" name="stop3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Pasi anterior"/>
+                    <Property name="text" type="java.lang.String" value="Parar"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -561,7 +561,7 @@
                 </Container>
                 <Component class="javax.swing.JButton" name="stop4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Pasi anterior"/>
+                    <Property name="text" type="java.lang.String" value="Parar"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -648,7 +648,7 @@
                 </Container>
                 <Component class="javax.swing.JButton" name="stop5">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Pasi anterior"/>
+                    <Property name="text" type="java.lang.String" value="Parar"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
