@@ -69,25 +69,25 @@ public class CodeExplain extends javax.swing.JFrame {
         Ejecutar1 = new javax.swing.JButton();
         jScrollPane11 = new javax.swing.JScrollPane();
         Codigo2 = new javax.swing.JTextPane();
-        previus2 = new javax.swing.JButton();
+        stop2 = new javax.swing.JButton();
         next2 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         Ejecutar2 = new javax.swing.JButton();
         jScrollPane12 = new javax.swing.JScrollPane();
         Codigo3 = new javax.swing.JTextPane();
-        previus3 = new javax.swing.JButton();
+        stop3 = new javax.swing.JButton();
         next3 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         Ejecutar3 = new javax.swing.JButton();
         jScrollPane15 = new javax.swing.JScrollPane();
         Codigo4 = new javax.swing.JTextPane();
-        previus4 = new javax.swing.JButton();
+        stop4 = new javax.swing.JButton();
         next4 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         Ejecutar4 = new javax.swing.JButton();
         jScrollPane16 = new javax.swing.JScrollPane();
         Codigo5 = new javax.swing.JTextPane();
-        previus5 = new javax.swing.JButton();
+        stop5 = new javax.swing.JButton();
         next5 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -201,7 +201,7 @@ public class CodeExplain extends javax.swing.JFrame {
         Codigo2.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jScrollPane11.setViewportView(Codigo2);
 
-        previus2.setText("Pasi anterior");
+        stop2.setText("Parar");
 
         next2.setText("Paso siguiente");
 
@@ -214,7 +214,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                        .addComponent(previus2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stop2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(next2, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -229,7 +229,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(next2)
-                    .addComponent(previus2)
+                    .addComponent(stop2)
                     .addComponent(Ejecutar1))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -240,7 +240,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane12.setViewportView(Codigo3);
 
-        previus3.setText("Pasi anterior");
+        stop3.setText("Pasi anterior");
 
         next3.setText("Paso siguiente");
 
@@ -253,7 +253,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                        .addComponent(previus3, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stop3, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(next3, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -269,7 +269,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next3)
-                        .addComponent(previus3))
+                        .addComponent(stop3))
                     .addComponent(Ejecutar2))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -280,7 +280,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane15.setViewportView(Codigo4);
 
-        previus4.setText("Pasi anterior");
+        stop4.setText("Pasi anterior");
 
         next4.setText("Paso siguiente");
 
@@ -293,7 +293,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                        .addComponent(previus4, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stop4, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(next4, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -309,7 +309,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next4)
-                        .addComponent(previus4))
+                        .addComponent(stop4))
                     .addComponent(Ejecutar3))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -320,7 +320,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jScrollPane16.setViewportView(Codigo5);
 
-        previus5.setText("Pasi anterior");
+        stop5.setText("Pasi anterior");
 
         next5.setText("Paso siguiente");
 
@@ -333,7 +333,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                        .addComponent(previus5, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addComponent(stop5, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                         .addComponent(next5, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -349,7 +349,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                         .addComponent(next5)
-                        .addComponent(previus5))
+                        .addComponent(stop5))
                     .addComponent(Ejecutar4))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -454,11 +454,11 @@ public class CodeExplain extends javax.swing.JFrame {
     public javax.swing.JButton next3;
     public javax.swing.JButton next4;
     public javax.swing.JButton next5;
-    public javax.swing.JButton previus2;
-    public javax.swing.JButton previus3;
-    public javax.swing.JButton previus4;
-    public javax.swing.JButton previus5;
     public javax.swing.JButton stop;
+    public javax.swing.JButton stop2;
+    public javax.swing.JButton stop3;
+    public javax.swing.JButton stop4;
+    public javax.swing.JButton stop5;
     // End of variables declaration//GEN-END:variables
 
 }

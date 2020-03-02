@@ -207,15 +207,30 @@ public class Controlador {
            explaincode(1);//ejecuta la funcion explaincode , no es necesaria la variable
         });
         CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
+            
+           CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
             explaincode(2);
         });
         CodeExp.Ejecutar2.addActionListener((ActionEvent e) -> {
+            
+            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
             explaincode(3);
         });
         CodeExp.Ejecutar3.addActionListener((ActionEvent e) -> {
+            
+            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
             explaincode(4);
         });
         CodeExp.Ejecutar4.addActionListener((ActionEvent e) -> {
+            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
             explaincode(5);
         });
         
@@ -231,6 +246,18 @@ int linea=0; //Variable Global
     public void explaincode(int ns){
         
         CodeExp.stop.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop2.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop3.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop4.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop5.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
         
@@ -258,7 +285,57 @@ int linea=0; //Variable Global
                 
             }
         });
+        CodeExp.next2.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"16","intereses","",""},
+                {"9","cond","cantidad => 2312312",""},
+                {"10","(<= cantidad 50000)","cantidad => 2312312",""},
+                {"11","(<= cantidad 250000)","cantidad => 2312312",""},
+                {"12","(> cantidad 250000)","cantidad => 2312312",""},
+                {"16","","cantidad => 2312312","0.05"},
+            };
+            
+            if(linea <6)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
+                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
        
+        CodeExp.next3.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"16","intereses","",""},
+                {"9","cond","cantidad => 2312312",""},
+                {"10","(<= cantidad 50000)","cantidad => 2312312",""},
+                {"11","(<= cantidad 250000)","cantidad => 2312312",""},
+                {"12","(> cantidad 250000)","cantidad => 2312312",""},
+                {"16","","cantidad => 2312312","0.05"},
+            };
+            
+            if(linea <6)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
+                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
     };
     
     public void exprecionesview(){

@@ -38,7 +38,7 @@ public class Codeexplicacion {
                             "             [(<= cantidad 250000) 0.045]\n" +
                             "             [(> cantidad 250000) 0.050]\n" +
                             "         )\n" +
-                            "     )\n\n(interes (read))";;
+                            "     )\n\n(interes 2312312)";
         return data;
     }
     

@@ -330,7 +330,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jScrollPane11" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="previus2" min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="stop2" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="next2" min="-2" pref="123" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -349,7 +349,7 @@
                           <EmptySpace max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="3" attributes="0">
                               <Component id="next2" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="previus2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="stop2" alignment="3" min="-2" max="-2" attributes="0"/>
                               <Component id="Ejecutar1" alignment="3" min="-2" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="32767" attributes="0"/>
@@ -385,9 +385,9 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="previus2">
+                <Component class="javax.swing.JButton" name="stop2">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Pasi anterior"/>
+                    <Property name="text" type="java.lang.String" value="Parar"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -420,7 +420,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jScrollPane12" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="previus3" min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="stop3" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="next3" min="-2" pref="123" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -440,7 +440,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="next3" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="previus3" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stop3" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="Ejecutar2" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -472,7 +472,7 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="previus3">
+                <Component class="javax.swing.JButton" name="stop3">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Pasi anterior"/>
                   </Properties>
@@ -507,7 +507,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jScrollPane15" alignment="0" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="previus4" min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="stop4" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="next4" min="-2" pref="123" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -527,7 +527,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="next4" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="previus4" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stop4" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="Ejecutar3" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -559,7 +559,7 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="previus4">
+                <Component class="javax.swing.JButton" name="stop4">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Pasi anterior"/>
                   </Properties>
@@ -594,7 +594,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Component id="jScrollPane16" alignment="0" pref="643" max="32767" attributes="0"/>
                               <Group type="102" alignment="1" attributes="0">
-                                  <Component id="previus5" min="-2" pref="132" max="-2" attributes="0"/>
+                                  <Component id="stop5" min="-2" pref="132" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="next5" min="-2" pref="123" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
@@ -614,7 +614,7 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="103" alignment="0" groupAlignment="3" attributes="0">
                                   <Component id="next5" alignment="3" min="-2" max="-2" attributes="0"/>
-                                  <Component id="previus5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="stop5" alignment="3" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <Component id="Ejecutar4" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
@@ -646,7 +646,7 @@
                     </Component>
                   </SubComponents>
                 </Container>
-                <Component class="javax.swing.JButton" name="previus5">
+                <Component class="javax.swing.JButton" name="stop5">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Pasi anterior"/>
                   </Properties>
