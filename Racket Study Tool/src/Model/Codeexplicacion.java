@@ -58,7 +58,7 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo4(){
-        String data =   ";Crear una cadena de tamaño n  y luego llenar ese tamaño con la letra H\n" +
+        String data =   ";Crear una cadena de tamaño n  y luego llenar ese tamaño con la letra H\n\n\n" +
                         "( define ( s n )\n" +
                         "       ( make-string n #\\H )		\n" +
                         " )\n" +
