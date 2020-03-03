@@ -992,7 +992,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel62.setBounds(60, 110, 1010, 20);
 
         jLabel63.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel63.setText("Menu principal, aqui encontraras todo el menu que te adentrara en el mundo de la programaciónfuncional y dentro ");
+        jLabel63.setText("Menu principal, aqui encontraras todo el menu que te adentrara en el mundo de la programación funcional y dentro ");
         jPanel4.add(jLabel63);
         jLabel63.setBounds(100, 70, 940, 20);
 

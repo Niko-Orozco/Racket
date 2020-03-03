@@ -71,7 +71,7 @@ public class Codeexplicacion {
         String data =   "( define-struct  Tienda ( Producto Precio descripcion ) )\n" +
                         "\n" +
                         "(define (CrearTienda)\n" +
-                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"!0 mil\"  \"Consumir antes de terminar el año\"))\n" +
+                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))\n" +
                         "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
                         "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde japon\"))\n" +
                         "\n" +

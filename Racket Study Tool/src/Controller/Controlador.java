@@ -387,6 +387,55 @@ int linea=0; //Variable Global
                 
             }
         });
+        
+        //estructuras
+        
+        CodeExp.next5.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"?","?","struct: => #<struct-type:Tienda>\n" +"make- => #<procedure:Tienda>\n" +"? => #<procedure:Tienda?>\n" +"-ref => #<procedure:Tienda-ref>\n" +"-set! => #<procedure:Tienda-set!>",""},
+                {"18","( CrearTienda )","",""},
+                {"3","(define (CrearTienda)","",""},
+                {"4","( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))","",""},
+                {"5","( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))","p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
+                {"6","( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde japon\"))","p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
+                {"8"," ( display ( Tienda-Producto p1 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate"},
+                {"9","( display ( Tienda-Precio p1 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 mil"},
+                {"11","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos"},
+                {"12","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 mil"},
+                {"14","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos"},
+                {"15","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos8 mil"},
+                {"18","","","Chocolate10 milHuevos8 milHuevos8 mil"},
+            
+            };
+            
+            if(linea <13)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
+                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
     };
     
     public void exprecionesview(){
