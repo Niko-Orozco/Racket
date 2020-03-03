@@ -289,7 +289,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
             }
         });
         jPanel5.add(menos);
-        menos.setBounds(30, 130, 40, 30);
+        menos.setBounds(20, 130, 50, 30);
 
         mas.setText("+");
         mas.addActionListener(new java.awt.event.ActionListener() {
@@ -298,7 +298,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
             }
         });
         jPanel5.add(mas);
-        mas.setBounds(30, 90, 40, 30);
+        mas.setBounds(20, 90, 50, 40);
 
         por.setText("*");
         por.addActionListener(new java.awt.event.ActionListener() {
@@ -307,7 +307,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
             }
         });
         jPanel5.add(por);
-        por.setBounds(90, 90, 40, 30);
+        por.setBounds(80, 90, 50, 40);
 
         dividido.setText("/");
         dividido.addActionListener(new java.awt.event.ActionListener() {
@@ -316,7 +316,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
             }
         });
         jPanel5.add(dividido);
-        dividido.setBounds(90, 130, 40, 30);
+        dividido.setBounds(80, 130, 50, 30);
 
         jLabel10.setText("Calculadora con operaciones basicas");
         jPanel5.add(jLabel10);

@@ -112,7 +112,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(20, 50, 439, 140);
 
-        jLabel3.setText("Funciones Construidads (Definidas por el Usuario");
+        jLabel3.setText("Funciones Construidas (Definidas por el Usuario)");
         jPanel2.add(jLabel3);
         jLabel3.setBounds(20, 220, 400, 22);
 
