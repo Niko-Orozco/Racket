@@ -122,7 +122,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(20, 660, 80, 29);
+        menu.setBounds(20, 660, 80, 23);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
@@ -151,7 +151,7 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(180, 660, 110, 29);
+        Ayuda.setBounds(180, 660, 110, 23);
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
@@ -161,6 +161,11 @@ public class CodeExplain extends javax.swing.JFrame {
         jScrollPane9.setViewportView(Codigo1);
 
         stop.setText("Parar");
+        stop.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                stopActionPerformed(evt);
+            }
+        });
 
         next1.setText("Paso siguiente");
 
@@ -376,6 +381,10 @@ public class CodeExplain extends javax.swing.JFrame {
     private void AyudaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AyudaActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_AyudaActionPerformed
+
+    private void stopActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_stopActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_stopActionPerformed
 
     /**
      * @param args the command line arguments

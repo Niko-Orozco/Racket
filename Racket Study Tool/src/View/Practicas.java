@@ -226,7 +226,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("¡¡ Herramienta de Practica !!");
+        jLabel1.setText("¡¡¿ Que tanto has aprendido ?!!");
         jPanel1.add(jLabel1);
         jLabel1.setBounds(270, 0, 400, 50);
 
@@ -464,11 +464,11 @@ public class Practicas extends javax.swing.JFrame {
 
         t1.setText("el primero es mayor que el segundo");
         jPanel22.add(t1);
-        t1.setBounds(70, 290, 320, 23);
+        t1.setBounds(20, 310, 320, 23);
 
         t2.setText("El segundo numero es mayor");
         jPanel22.add(t2);
-        t2.setBounds(70, 320, 290, 23);
+        t2.setBounds(20, 350, 290, 23);
 
         jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
@@ -480,7 +480,7 @@ public class Practicas extends javax.swing.JFrame {
 
         r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(r1);
-        r1.setBounds(20, 320, 460, 23);
+        r1.setBounds(20, 380, 460, 23);
 
         jLabel7.setText("imagen 2");
         jPanel23.add(jLabel7);
@@ -490,11 +490,11 @@ public class Practicas extends javax.swing.JFrame {
 
         r5.setText("La opcion no es valida");
         jPanel23.add(r5);
-        r5.setBounds(240, 290, 200, 23);
+        r5.setBounds(20, 320, 200, 23);
 
         r6.setText("reproducir El CAPITAL");
         jPanel23.add(r6);
-        r6.setBounds(20, 290, 200, 23);
+        r6.setBounds(20, 350, 200, 23);
 
         jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
 
@@ -1008,11 +1008,11 @@ public class Practicas extends javax.swing.JFrame {
 
         op54.setText("Se llena con -1");
         jPanel41.add(op54);
-        op54.setBounds(240, 290, 200, 23);
+        op54.setBounds(20, 300, 200, 23);
 
         op55.setText("Recibe una lista infinita");
         jPanel41.add(op55);
-        op55.setBounds(20, 290, 210, 23);
+        op55.setBounds(20, 330, 210, 23);
 
         op56.setText("Imprime en pantalla la lista cuando se ingresa -1");
         op56.addActionListener(new java.awt.event.ActionListener() {
@@ -1021,7 +1021,7 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel41.add(op56);
-        op56.setBounds(20, 320, 410, 23);
+        op56.setBounds(20, 360, 410, 23);
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1162,13 +1162,11 @@ public class Practicas extends javax.swing.JFrame {
         op25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
         op25.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
         jPanel31.add(op25);
-        op25.setBounds(60, 300, 160, 120);
+        op25.setBounds(40, 300, 160, 120);
         jPanel31.add(jRadioButton1);
-        jRadioButton1.setBounds(20, 330, 40, 21);
-
-        jRadioButton2.setText("jRadioButton2");
+        jRadioButton1.setBounds(20, 311, 30, 100);
         jPanel31.add(jRadioButton2);
-        jRadioButton2.setBounds(220, 330, 30, 23);
+        jRadioButton2.setBounds(230, 311, 30, 90);
 
         jPanel32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel32.setLayout(null);
@@ -1184,17 +1182,17 @@ public class Practicas extends javax.swing.JFrame {
         jPanel32.add(r18);
         r18.setBounds(250, 180, 21, 21);
         jPanel32.add(op27);
-        op27.setBounds(110, 290, 30, 21);
+        op27.setBounds(40, 311, 30, 90);
         jPanel32.add(op28);
-        op28.setBounds(300, 300, 30, 21);
+        op28.setBounds(250, 310, 30, 80);
 
         jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores3.jpg"))); // NOI18N
         jPanel32.add(jLabel30);
-        jLabel30.setBounds(50, 320, 170, 120);
+        jLabel30.setBounds(40, 300, 140, 120);
 
         jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores4.jpg"))); // NOI18N
         jPanel32.add(jLabel31);
-        jLabel31.setBounds(240, 330, 160, 90);
+        jLabel31.setBounds(270, 310, 160, 90);
 
         jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
 

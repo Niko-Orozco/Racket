@@ -1028,7 +1028,7 @@ int linea=0; //Variable Global
                             i = (i++ < str.length())? i++ : i;
                         }
                    }
-                   if(d < str.length()){
+                   /*if(d < str.length()){
                            if(str.charAt(d) == '"'){
                                d = (d++ < str.length())? d++ : d;
                                i = (i++ < str.length())? i++ : i;
@@ -1043,7 +1043,7 @@ int linea=0; //Variable Global
                                ChangeColor.append(new Color(0,0,0), an);
                                an = "";
                            }
-                   }
+                   }*/
                    if(d < str.length()){
                        for(int z = d; z < str.length(); z++)
                                 if(((str.charAt(d) == '0') && (str.charAt(d) == ' ')) || ((str.charAt(d) == '1') && (str.charAt(d) == ' '))){
