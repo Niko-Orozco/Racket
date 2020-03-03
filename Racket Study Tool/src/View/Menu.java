@@ -154,6 +154,9 @@ public class Menu extends javax.swing.JFrame {
         quiz = new javax.swing.JButton();
         jLabel56 = new javax.swing.JLabel();
         jLabel57 = new javax.swing.JLabel();
+        jLabel62 = new javax.swing.JLabel();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -983,6 +986,21 @@ public class Menu extends javax.swing.JFrame {
         jPanel4.add(jPanel36);
         jPanel36.setBounds(600, 1620, 328, 330);
 
+        jLabel62.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel62.setText("ejercicios practicos desde lo mas basico, hasta llegar a una aplicación con ventanas, animate a explorar este maravilloso mundo ");
+        jPanel4.add(jLabel62);
+        jLabel62.setBounds(60, 110, 1010, 20);
+
+        jLabel63.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel63.setText("Menu principal, aqui encontraras todo el menu que te adentrara en el mundo de la programaciónfuncional y dentro ");
+        jPanel4.add(jLabel63);
+        jLabel63.setBounds(100, 70, 940, 20);
+
+        jLabel64.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel64.setText("funcional y dentro del entorno de desarrollo de Dr Racket, aprenderas de manera interactiva, con ejemplos y ejercicios");
+        jPanel4.add(jLabel64);
+        jLabel64.setBounds(90, 90, 940, 20);
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -1168,6 +1186,9 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
