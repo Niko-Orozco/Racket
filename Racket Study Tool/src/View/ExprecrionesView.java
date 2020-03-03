@@ -320,7 +320,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jLabel10.setText("Calculadora con operaciones basicas");
         jPanel5.add(jLabel10);
-        jLabel10.setBounds(10, 0, 190, 20);
+        jLabel10.setBounds(10, 0, 300, 20);
 
         seecode.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
         seecode.setText("Ver codigo ");

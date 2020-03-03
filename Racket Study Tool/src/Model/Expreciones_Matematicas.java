@@ -47,7 +47,7 @@ public class Expreciones_Matematicas {
                         "    (display (AreaAnillo var1 var2))\n" +
                         ")\n" +
                         "\n" +
-                        "(Area (read) (read))";
+                        "(Area (read) (read)))";
         return data;
     }
       

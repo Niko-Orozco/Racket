@@ -1020,41 +1020,58 @@ int linea=0; //Variable Global
            if(str.charAt(d) == '('){
                ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
                d++;
-               for(int i = d; i < str.length();i++){         
-                   if(str.charAt(d) == '('){
-                       ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
-                       d = (d++ < str.length())? d++ : d;
-                       i = (i++ < str.length())? i++ : i;
-                   }
-
+               for(int i = d; i < str.length();i++){ 
                    if(d < str.length()){
-                       for(int h = d; h < str.length();h++){
-                            if(((str.charAt(d) == '0') && (str.charAt(d) == ' ')) || ((str.charAt(d) == '1') && (str.charAt(d) == ' '))){
-                                ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
-                                d = (d++ < str.length())? d++ : d;
-                                i = (i++ < str.length())? i++ : i;
-                            }
-                            if(((str.charAt(d) == '2') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '3') && (str.charAt(d-1) == ' '))){
-                                ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
-                                d = (d++ < str.length())? d++ : d;
-                                i = (i++ < str.length())? i++ : i;
-                            }
-                            if(((str.charAt(d) == '4') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '5') && (str.charAt(d-1) == ' '))){
-                                ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
-                                d = (d++ < str.length())? d++ : d;
-                                i = (i++ < str.length())? i++ : i;
-                            }
-                            if(((str.charAt(d) == '6') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '7') && (str.charAt(d-1) == ' '))){
-                                ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
-                                d = (d++ < str.length())? d++ : d;
-                                i = (i++ < str.length())? i++ : i;
-                            }
-                            if(((str.charAt(d) == '8') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '9') && (str.charAt(d-1) == ' '))){
-                                ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
-                                d = (d++ < str.length())? d++ : d;
-                                i = (i++ < str.length())? i++ : i;
-                            }
+                        if(str.charAt(d) == '('){
+                            ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+                            d = (d++ < str.length())? d++ : d;
+                            i = (i++ < str.length())? i++ : i;
                         }
+                   }
+                   /*if(d < str.length()){
+                           if(str.charAt(d) == '"'){
+                               d = (d++ < str.length())? d++ : d;
+                               i = (i++ < str.length())? i++ : i;
+                               for(int q = d; (str.charAt(d) != '"') && (str.charAt(d+1) != ' '); q++){
+                                   
+                                        System.out.println("si estoy mucho");
+                                        an += str.charAt(d);
+                                        i++;
+                                        d++;
+
+                               }
+                               ChangeColor.append(new Color(0,0,0), an);
+                               an = "";
+                           }
+                   }*/
+                   if(d < str.length()){
+                       for(int z = d; z < str.length(); z++)
+                                if(((str.charAt(d) == '0') && (str.charAt(d) == ' ')) || ((str.charAt(d) == '1') && (str.charAt(d) == ' '))){
+                                    ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
+                                    d = (d++ < str.length())? d++ : d;
+                                    i = (i++ < str.length())? i++ : i;
+                                }
+                                if(((str.charAt(d) == '2') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '3') && (str.charAt(d-1) == ' '))){
+                                    ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
+                                    d = (d++ < str.length())? d++ : d;
+                                    i = (i++ < str.length())? i++ : i;
+                                }
+                                if(((str.charAt(d) == '4') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '5') && (str.charAt(d-1) == ' '))){
+                                    ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
+                                    d = (d++ < str.length())? d++ : d;
+                                    i = (i++ < str.length())? i++ : i;
+                                }
+                                if(((str.charAt(d) == '6') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '7') && (str.charAt(d-1) == ' '))){
+                                    ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
+                                    d = (d++ < str.length())? d++ : d;
+                                    i = (i++ < str.length())? i++ : i;
+                                }
+                                if(((str.charAt(d) == '8') && (str.charAt(d-1) == ' ')) || ((str.charAt(d) == '9') && (str.charAt(d-1) == ' '))){
+                                    ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
+                                    d = (d++ < str.length())? d++ : d;
+                                    i = (i++ < str.length())? i++ : i;
+                                }
+                         
                    }
                    if(d < str.length()){
                        for(int b = d; b < str.length();b++){

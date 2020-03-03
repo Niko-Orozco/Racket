@@ -68,7 +68,24 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo5(){
-        String data = "";
+        String data =   "( define-struct  Tienda ( Producto Precio descripcion ) )\n" +
+                        "\n" +
+                        "(define (CrearTienda)\n" +
+                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"!0 mil\"  \"Consumir antes de terminar el año\"))\n" +
+                        "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
+                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde japon\"))\n" +
+                        "\n" +
+                        "       ( display ( Tienda-Producto p1 ) )\n" +
+                        "       ( display ( Tienda-Precio p1 ))\n" +
+                        "\n" +
+                        "       ( display ( Tienda-Producto p2 ) )\n" +
+                        "       ( display ( Tienda-Precio p2 ))\n" +
+                        "\n" +
+                        "       ( display ( Tienda-Producto p2 ) )\n" +
+                        "       ( display ( Tienda-Precio p2 ))\n" +
+                        ")\n" +
+                        "\n" +
+                        "( CrearTienda )";
         return data;
     }
     
