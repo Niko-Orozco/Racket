@@ -52,6 +52,7 @@ public class Controlador {
     private CuadroTexto ChangeColor;
     private GraficoView GraficView;
     private Modo_Grafico Mgrafico;
+    private IntroView introview;
     
     
     
@@ -61,6 +62,13 @@ public class Controlador {
     public Controlador(Menu menu) {
         this.menu = menu;
         codexp = new Codeexplicacion();
+        this.menu.introduccion.addActionListener((ActionEvent e) -> {
+            
+            menu.setVisible(false);
+            introview = new IntroView();
+            introview.setVisible(true);
+            
+        });
         this.menu.funciones.addActionListener((ActionEvent e) -> {
             this.Functions = new Funciones();
             menu.setVisible(false);
