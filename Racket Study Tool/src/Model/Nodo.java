@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 package Model;
 
 /** 
@@ -38,7 +38,7 @@ public class Nodo {
         this.der = der;
     } 
 }
-=======
+
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -85,4 +85,3 @@ public class Nodo {
     } 
 
 }
->>>>>>> 440dac23fe272a34a928ced00d7683077233678c
