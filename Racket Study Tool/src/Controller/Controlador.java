@@ -24,7 +24,7 @@ public class Controlador {
     private int van = 0;
     private String Nombre="",Apellido="",Telefono="",Correo="";
     String datos[][] = new String[1000][4];
-    String namescols[] = {"Nombre","Apellido","Telefono","Correo"};  
+    String namescols[] = {"Nombre","Apellido","Teléfono","Correo"};  
     private Menu menu;
     private Cadenas_Strings CadString;
     private CadenasView CadView;
@@ -209,7 +209,7 @@ public class Controlador {
         PonerColor(CodeExp.Codigo3, codexp.Ejemplo3());
         PonerColor(CodeExp.Codigo4, codexp.Ejemplo4());
         PonerColor(CodeExp.Codigo5, codexp.Ejemplo5());
-        CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {//bonton que inicia la funcion de funciones
+        CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {//botón que inicia la funcion de funciones
         
            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
            CodeExp.Valores.setText("");//pone campo en blanco 
@@ -256,23 +256,23 @@ int linea=0; //Variable Global
    
     public void explaincode(int ns){
         
-        CodeExp.stop.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+        CodeExp.stop.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
-        CodeExp.stop2.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+        CodeExp.stop2.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
-        CodeExp.stop3.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+        CodeExp.stop3.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
-        CodeExp.stop4.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+        CodeExp.stop4.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
-        CodeExp.stop5.addActionListener((ActionEvent p) -> {//boton qeu finaliza el codigo dejando la variable global en 0 y reiniciando el proceso
+        CodeExp.stop5.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
         //funciones
-        CodeExp.next1.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+        CodeExp.next1.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
                 {"6","ElevarpotenciaN","",""},
@@ -282,14 +282,14 @@ int linea=0; //Variable Global
                 {"3","displayln","a=>4096 \nnum=>4 \npot=> 6","displayln = 4096"},
             };
             
-            if(linea <5)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <5)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
-            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
-                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
                 CodeExp.Salida.setText("");//pone el campo en blanco
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
@@ -297,7 +297,7 @@ int linea=0; //Variable Global
             }
         });
         //condicionales
-        CodeExp.next2.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+        CodeExp.next2.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
                 {"16","intereses","",""},
@@ -308,14 +308,14 @@ int linea=0; //Variable Global
                 {"16","","cantidad => 2312312","0.05"},
             };
             
-            if(linea <6)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <6)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
-            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
-                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
                 CodeExp.Salida.setText("");//pone el campo en blanco
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
@@ -323,7 +323,7 @@ int linea=0; //Variable Global
             }
         });
        //Recursividad
-        CodeExp.next3.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+        CodeExp.next3.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
                 {"10","( calcular-factorial 4 )","",""},
@@ -354,14 +354,14 @@ int linea=0; //Variable Global
                 {"7","( calcular-factorial 4 )","","24"},
             };
             
-            if(linea <26)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <26)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
-            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
-                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
                 CodeExp.Salida.setText("");//pone el campo en blanco
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
@@ -371,7 +371,7 @@ int linea=0; //Variable Global
         
         //cadenas
         
-        CodeExp.next4.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+        CodeExp.next4.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
                 {"7","(s 10)","",""},
@@ -381,14 +381,14 @@ int linea=0; //Variable Global
 
             };
             
-            if(linea <5)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <5)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
-            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
-                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
                 CodeExp.Salida.setText("");//pone el campo en blanco
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
@@ -398,7 +398,7 @@ int linea=0; //Variable Global
         
         //estructuras
         
-        CodeExp.next5.addActionListener((ActionEvent e) -> {// boton que me inicia paso a paso de las funciones          
+        CodeExp.next5.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
             
             String funciones[][]  = {//array que contiene cada paso de la funcion
                 {"?","?","struct: => #<struct-type:Tienda>\n" +"make- => #<procedure:Tienda>\n" +"? => #<procedure:Tienda?>\n" +"-ref => #<procedure:Tienda-ref>\n" +"-set! => #<procedure:Tienda-set!>",""},
@@ -406,38 +406,38 @@ int linea=0; //Variable Global
                 {"3","(define (CrearTienda)","",""},
                 {"4","( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))","",""},
                 {"5","( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))","p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
-                {"6","( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde japon\"))","p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                {"6","( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))","p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
-                {"8"," ( display ( Tienda-Producto p1 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"8"," ( display ( Tienda-Producto p1 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate"},
-                {"9","( display ( Tienda-Precio p1 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"9","( display ( Tienda-Precio p1 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 mil"},
-                {"11","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"11","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos"},
-                {"12","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"12","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 mil"},
-                {"14","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"14","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos"},
-                {"15","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde japon\")\n" +
+                {"15","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
 "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
 "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos8 mil"},
                 {"18","","","Chocolate10 milHuevos8 milHuevos8 mil"},
             
             };
             
-            if(linea <13)//verifica que la variable que recorre el array, no sea mayor al numero de filas del mismo
+            if(linea <13)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
-            }else{// valor falso del if, si entra aqui es por que el codigo ya finalizo
-                CodeExp.Pasos.setText("Codigo finalizado");//indica que el codigo finalizo
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
                 CodeExp.Salida.setText("");//pone el campo en blanco
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
@@ -484,7 +484,7 @@ int linea=0; //Variable Global
     }
     
     public void SeeCode2(){
-        this.Codex.setTitle("Codigo");
+        this.Codex.setTitle("Código");
         this.Codex.setLocationRelativeTo(null);
         String data =   ";Funcion Suma\n" +
                         "(define (Suma a b)\n" +
@@ -496,12 +496,12 @@ int linea=0; //Variable Global
                         "        (- a b)\n" +
                         ")\n" +
                         "\n" +
-                        ";Funcion Multiplicacion\n" +
+                        ";Funcion Multiplicación\n" +
                         "(define (Multiplicacion a b)\n" +
                         "        (* a b)\n" +
                         ")\n" +
                         "\n" +
-                        ";Funcion Division\n" +
+                        ";Funcion División\n" +
                         "(define (Division a b)\n" +
                         "        (/ a b)\n" +
                         ")";
@@ -603,7 +603,7 @@ int linea=0; //Variable Global
                                 suma = suma + i;     // si es divisor se suma
                             }
                         }
-                        if (suma == nes2) {  // si el numero es igual a la suma de sus divisores es perfecto
+                        if (suma == nes2) {  // si el número es igual a la suma de sus divisores es perfecto
                             respuesta = "Perfecto";
                         } else {
                             respuesta = "No es perfecto";
@@ -760,7 +760,7 @@ int linea=0; //Variable Global
                      }
                 break;   
             case 3: try {
-                        respuesta = "Lunes\n"+"Martes\n"+"Miercoles\n"+"Jueves\n"+"Viernes\n";
+                        respuesta = "Lunes\n"+"Martes\n"+"Miércoles\n"+"Jueves\n"+"Viernes\n";
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
@@ -1154,10 +1154,10 @@ int linea=0; //Variable Global
     }
     
     public void SeeCode(){
-        this.Codex.setTitle("Codigo");
+        this.Codex.setTitle("Código");
         this.Codex.setLocationRelativeTo(null);
         String data =   ";Creamos la estructura para los clientes\n" +
-                        "(define-struct Clinetes(nombre apellido telefono correo))\n" +
+                        "(define-struct Clientes(nombre apellido teléfono correo))\n" +
                         "\n" +
                         ";Le ingresamos datos a la estructura clientes\n" +
                         "(define dato (make-Clientes (read) (read) (read) (read)))";
@@ -1172,7 +1172,7 @@ int linea=0; //Variable Global
             try {
                     this.Nombre = JOptionPane.showInputDialog("Ingrese el nombre");
                     this.Apellido = JOptionPane.showInputDialog("Ingrese el apellido");
-                    this.Telefono = JOptionPane.showInputDialog("Ingrese el telefono");
+                    this.Telefono = JOptionPane.showInputDialog("Ingrese el teléfono");
                     this.Correo = JOptionPane.showInputDialog("Ingrese el correo");
                     llenar_tabla(this.n-1);
                 } catch (HeadlessException e) {
@@ -1187,7 +1187,7 @@ int linea=0; //Variable Global
             datos[0][3]="nicolas@gmail.com";
             
             datos[1][0]="Laura";
-            datos[1][1]="Gomez";
+            datos[1][1]="Gómez";
             datos[1][2]="3132452878";
             datos[1][3]="laura@gmail.com";
             
@@ -1216,10 +1216,10 @@ int linea=0; //Variable Global
     
     public String runCodestrcut(int ns){
         int n1=0;
-        String respuesta="",Nombre,Apellido,Telefono,Correo;
+        String respuesta="",Nombre, Apellido, Telefono, Correo;
         switch(ns){
             case 1:  try {
-                        respuesta = "Estructuras creadas exitosamente\nDoctores\nEnfermeros\nClinetes";
+                        respuesta = "Estructuras creadas exitosamente\nDoctores\nEnfermeros\nClientes";
                         EstrucView.verinfo1.setText(respuesta);
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
@@ -1230,8 +1230,8 @@ int linea=0; //Variable Global
                     while(n1<3){
                         Nombre = JOptionPane.showInputDialog("Ingrese el nombre");
                         Apellido = JOptionPane.showInputDialog("Ingrese el apellido");
-                        Telefono = JOptionPane.showInputDialog("Ingrese el telefono");
-                        Correo = JOptionPane.showInputDialog("Ingrese el direccion");
+                        Telefono = JOptionPane.showInputDialog("Ingrese el teléfono");
+                        Correo = JOptionPane.showInputDialog("Ingrese la dirección");
                         respuesta += Apellido + "\n";
                         n1++;
                     }
@@ -1490,7 +1490,7 @@ int linea=0; //Variable Global
         String respuesta = "",n1,n2,n3;
         int n;
         switch(van2){
-            case 1: respuesta = "jjjj"+"\n\n"+"Hola que tal tu dia";
+            case 1: respuesta = "jjjj"+"\n\n"+"Hola que tal tu día";
                 break;
             case 2: try {
                         n = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la cadena"));
@@ -1523,7 +1523,7 @@ int linea=0; //Variable Global
                         JOptionPane.showMessageDialog(null, "Code Error line 1 substring small string");
                      }
                 break;
-            case 6: respuesta = "Es hora de zenar";
+            case 6: respuesta = "Es hora de cenar";
                 break;
             case 7: try {
                         String cad = (String)JOptionPane.showInputDialog("Ingrese la cadena");
