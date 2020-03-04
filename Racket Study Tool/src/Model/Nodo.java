@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package Model;
 
 /** 
@@ -37,3 +38,51 @@ public class Nodo {
         this.der = der;
     } 
 }
+=======
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Model;
+
+/**
+ *
+ * @author ploks
+ */
+public class Nodo {
+    
+    private int dato;
+    private Nodo izq, der;
+
+    public Nodo(int dato, Nodo izq, Nodo der) {
+        this.dato = dato;
+        this.izq = izq;
+        this.der = der;
+    }
+
+    public int getDato() {
+        return dato;
+    }
+
+    public void setDato(int dato) {
+        this.dato = dato;
+    }
+
+    public Nodo getIzq() {
+        return izq;
+    }
+
+    public void setIzq(Nodo izq) {
+        this.izq = izq;
+    }
+
+    public Nodo getDer() {
+        return der;
+    }
+
+    public void setDer(Nodo der) {
+        this.der = der;
+    } 
+
+}
+>>>>>>> 440dac23fe272a34a928ced00d7683077233678c
