@@ -30,7 +30,7 @@ public class Arbol {
     }
 
     public boolean agregar(int dato) {
-        Nodo nuevo = new Nodo(dato, null, null);
+        Nodo nuevo = new Nodo(dato);
         insertar(nuevo, raiz);
         return true;
     }
