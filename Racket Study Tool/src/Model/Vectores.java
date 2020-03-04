@@ -16,22 +16,22 @@ public class Vectores {
     
     public String quevect(){
         String data =   "Un vector   se puede ver como un conjunto  de  elementos  ordenados\n" +
-                        "en filas o ( filas y culmnas si tuviera dos dimenciones ) \n" +
+                        "en filas o ( filas y columnas si tuviera dos dimensiones ) \n" +
                         "\n" +
-                        "En    programacion,    una   matriz    o    un   vector   es   una   zona    de \n" +
+                        "En    programación,    una   matriz    o    un   vector   es   una   zona    de \n" +
                         "almacenamiento continuo   que   contiene   una   serie   de  elementos\n" +
-                        "del msimo tipo. Los elementos del vector.\n" +
+                        "del mismo tipo. Los elementos del vector.\n" +
                         "\n" +
                         "El  tipo  de  dato  vector,  es conocido como un tipo de dato compuesto \n" +
-                        "de uno  o  mas  tipos  de  dato  basico,  primitivo  o  de  otros  tipos  de \n" +
+                        "de uno  o  más  tipos  de  dato  básico,  primitivo  o  de  otros  tipos  de \n" +
                         "datos compuestos, inclusive vectores mismos.";    
         return data;
     }
     
     public String vectset(){
-        String data =   "vector-set!  es una funcion de  Racket  que toma tres parametros como \n" +
-                        "referencia para modificar un dato de un vector, lo primero que recive es\n" +
-                        "el vector  el  segundo  dato  es  la  posicion del elemento a cambiar y el\n" +
+        String data =   "vector-set!  es una funcion de  Racket  que toma tres parámetros como \n" +
+                        "referencia para modificar un dato de un vector, lo primero que recibe es\n" +
+                        "el vector  el  segundo  dato  es  la  posición del elemento a cambiar y el\n" +
                         "tercero es el dato por el que deseamos reemplazar\n" +
                         "\n" +
                         "Sintaxis\n" +
@@ -42,8 +42,8 @@ public class Vectores {
     
     public String vectfill(){
         String data =   "vector-fill  es una funcion de  Racket  permite ingresar el mismo dato en \n" +
-                        "todas las posiciones de un vector, tomando dos parametros, el nombre\n" +
-                        "del vecotr y el dato a introducir en todas las posociones\n" +
+                        "todas las posiciones de un vector, tomando dos parámetros, el nombre\n" +
+                        "del vector y el dato a introducir en todas las posiciones\n" +
                         "\n" +
                         "Sintaxis\n" +
                         "\n" +
@@ -52,7 +52,7 @@ public class Vectores {
     }
     
     public String vectlen(){
-        String data =   "vector-length  es una funcion que nos permite saber cuantas posiciones\n" +
+        String data =   "vector-length  es una funcion que nos permite saber cuántas posiciones\n" +
                         "tiene un vector, es decir su tamaño y solo toma un vector\n" +
                         "\n" +
                         "Sintaxis\n" +
@@ -62,19 +62,19 @@ public class Vectores {
     }
     
     public String makevect(){
-        String data =   "La funcions make-vector, crea un vector unicamente  con los  elementos\n" +
+        String data =   "La función make-vector, crea un vector únicamente  con los  elementos\n" +
                         "que   se   le   indiquen   en   el   momento   de   declarar   dicha    funcion.\n" +
-                        "Adicionalmente.   En  Racket  a diferencia de  la mayoria   de   lenguajes\n" +
-                        "de  programacion   podemos   almacenar  absolumente  cualquier  tipo  \n" +
+                        "Adicionalmente.   En  Racket  a diferencia de  la mayoría   de   los lenguajes\n" +
+                        "de  programación   podemos   almacenar  absolutamente  cualquier  tipo  \n" +
                         "de  dato  en  nuestros  vectores.\n" + 
-                        "Para la creacion de vectores podemos usar la  funcion make-vector\n" +
+                        "Para la creación de vectores podemos usar la  funcion make-vector\n" +
                         "\n" +
                         "Sintaxis\n" +
                         "\n" +
                         "(make-vector 6 # 'w)\n" +
                         "\n" +
                         "(make-vector 5 )  \n" +
-                        "Crea un vector de 5 posiciones vacio o con el elemento 0";    
+                        "Crea un vector de 5 posiciones vacío o con el elemento 0";    
         return data;
     }
     
@@ -84,8 +84,8 @@ public class Vectores {
                         "\n" +
                         "Sintaxis\n" +
                         "(vector-ref vect n) \n" +
-                        "vect  es  el  vector  al  cual  queremos  sacar uno o mas datos y la \"n\" hace\n" +
-                        "referencia a la posicion en el vector donde queremos sacar la informacion";    
+                        "vect  es  el  vector  al  cual  queremos  sacar uno o más datos y la \"n\" hace\n" +
+                        "referencia a la posición en el vector donde queremos sacar la información";    
         return data;
     }
     
@@ -100,7 +100,7 @@ public class Vectores {
     }
     
     public String refeje(){
-        String data =   ";Cree una funcion que nos muestre los daos de la posicion dos de un vector, luego mostrarlos\n" +
+        String data =   ";Cree una funcion que nos muestre los daos de la posición dos de un vector, luego mostrarlos\n" +
                         ";por pantalla con la funcion displayln\n\n" +
                         "\n" +
                         "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
@@ -110,7 +110,7 @@ public class Vectores {
     }
     
     public String seteje(){
-        String data =   ";Cree un vector, llenelo de datos y cambie el dato de la poscion 2 por \"pollito\", luego muestrelo por\n" +
+        String data =   ";Cree un vector, llénelo de datos y cambie el dato de la posición 2 por \"pollito\", luego muéstrelo por\n" +
                         ";pantalla usando la funcion displayln\n\n" +
                         "\n" +
                         "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
@@ -123,11 +123,11 @@ public class Vectores {
     
     public String filleje(){
         String data = ";Hacer un  programa  que  reciba  un numero entero y cree un vector de tamaño  n,  donde\n" +
-                        ";cada   posicion   del  vector   se   llene  del indice  0  al 9  con  los  numeros   del  1  al  10.  \n" +
+                        ";cada   posición   del  vector   se   llene  del índice  0  al 9  con  los  números   del  1  al  10.  \n" +
                         ";En caso  de que el vector sea mayor que  10  posiciones,  las  restantes  se  deben  llenar\n" +
                         ";con las letras del abecedario   desde    la   \"a\"  hasta la    \"z\"   y   en  caso tal que el numero\n" +
-                        ";de posiciones  del vector sea   aun   mayor , las   posiciones   siguientes   deben   llenarse\n" +
-                        ":con   la   misma   secuencia  de   numeros [1 al 10] y seguido las letras del abecedario.\n\n" +
+                        ";de posiciones  del vector sea   aún   mayor , las   posiciones   siguientes   deben   llenarse\n" +
+                        ":con   la   misma   secuencia  de   números [1 al 10] y seguido las letras del abecedario.\n\n" +
                         "\n" +
                         "(defineVect(make-vector (read)))\n" +
                         "(define(LlenarVectLength Pos LlenarNumLlenarChar n)\n" +
@@ -153,11 +153,11 @@ public class Vectores {
     }
     
     public String leneje(){
-        String data =   ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyendolos uno de manera\n" +
+        String data =   ";Dado un  vector  con  diferentes  valores  imprimir  dichos  valores leyéndolos uno de manera\n" +
                         ";recursiva:\n\n" +
                         "\n" +
                         "(define Vect (vector \"Esto\" \" \"Es\" \" \"Un\" \"\n" +
-                        " \"Vector\" \" \" \"Leido\" \" \" \"Recursivamente\" \".\") )\n" +
+                        " \"Vector\" \" \" \"Leído\" \" \" \"Recursivamente\" \".\") )\n" +
                         "(define (DisplayVectLength Pos)\n" +
                         "    (if (= (- Length 1) Pos)\n" +
                         "\n" +
@@ -177,29 +177,29 @@ public class Vectores {
                         "dato del vector.\n" +
                         "\n" +
                         "2. Construir un programa que reciba un valor entero N y devuelva  un\n" +
-                        "vector de tamaño N, donde cada posicion del vector contiene el valor\n" +
+                        "vector de tamaño N, donde cada posición del vector contiene el valor\n" +
                         "-1.\n" +
                         "\n" +
                         "3. Dado un vector con diferentes valores imprimir dichos valores del\n" +
-                        "vector leyendolos uno por uno de manera recursiva.\n" +
+                        "vector leyéndolos uno por uno de manera recursiva.\n" +
                         "\n" +
                         "4. Dado un numero n, crear un vector de tamaño n y  luego  ingresar\n" +
-                        "en  el  vector  los  numeros  del  1  hasta  n,  e  imprimir  el vector. Ej:\n" +
+                        "en  el  vector  los  números  del  1  hasta  n,  e  imprimir  el vector. Ej:\n" +
                         "Dado el numero =5 ingresar en el vector (vector 1 2 3 4 5).\n" +
                         "\n" +
-                        "5. Dado  un  vector  con  solo  numeros ,  realizar  la  suma  de  sus \n" +
+                        "5. Dado  un  vector  con  solo  números ,  realizar  la  suma  de  sus \n" +
                         "elementos.\n" +
                         "\n" +
-                        "7. Dada  un  vector  con  n  numeros  calcular  el  promedio  de  los \n" +
+                        "7. Dada  un  vector  con  n  números  calcular  el  promedio  de  los \n" +
                         "elementos del vector.\n" +
                         "\n" +
                         "8. Construir un programa que reciba un entero N y devuelva un \n" +
-                        "vector de tamaño N almacenamiento los valores  leidos por teclado.\n" +
+                        "vector de tamaño N almacenamiento los valores  leídos por teclado.\n" +
                         "\n" +
                         "11. Construir un programa que reciba un vector de enteros y un \n" +
                         "numero x. La funcion debe borrar el numero si lo encuentra y debe\n" +
                         " (mover a la izquierda) todos los elementos siguientes y dejando \n" +
-                        "el valor -1 en la ultima posicion. Considerar que todos los numeros\n" +
+                        "el valor -1 en la última posición. Hay que considerar que todos los números\n" +
                         "son diferentes.";
         return data;
     }

@@ -35,13 +35,13 @@ public class Recursividad {
     }
     
     public String recursividad3(){
-        String data =   "En   programacion,   una   iteracion   es   la   repeticion   de   una   serie  de \n" +
-                        "instruciones en un programa de computadora";
+        String data =   "En   programación,   una   iteración   es   la   repetición   de   una   serie  de \n" +
+                        "instrucciones en un programa de computadora";
         return data;
     }
     
     public String Ejerecursividad1(){
-        String data =   ";Imprimir los numeros del uno al 10 recursivamente:\n\n" +
+        String data =   ";Imprimir los números del uno al 10 recursivamente:\n\n" +
                         "\n" +
                         "(define(prinNum-10 X)\n" +
                         "     (if (= X 10)   \n" +
@@ -80,10 +80,10 @@ public class Recursividad {
     }
      
       public String Ejerecursividad3(){
-        String data =   ";Hacer  un  programa  que  reciba   un  numero  y  determine  si  es  un numero perfecto. Un \n" +
-                        ";numero es perfecto  cuando la suma de sus divisores menores a el ,da como resultado el \n" +
-                        ";mismo numero. Ej: 28 es un numero perfecto pues sus divisores son 14,7,4,2,1 y la suma \n" +
-                        ";de estos numeros da 28.\n\n" +
+        String data =   ";Hacer  un  programa  que  reciba   un  número  y  determine  si  es  un numero perfecto. Un \n" +
+                        ";número es perfecto  cuando la suma de sus divisores menores a el ,da como resultado el \n" +
+                        ";mismo número. Ej: 28 es un numero perfecto pues sus divisores son 14,7,4,2,1 y la suma \n" +
+                        ";de estos números da 28.\n\n" +
                         "\n" +
                         " (define (Divs A Cont Suma)\n" +
                         "       (if  (= Cont 1)\n" +
@@ -107,17 +107,17 @@ public class Recursividad {
     }
       
        public String Ejerecursividad4(){
-        String data =   ";Para el primer renglon solo se pide imprimir una letra \"A\" y luego se debe saltar al nuevo \n" +
-                        ";renglon, sin espacios en blanco.\n" +
+        String data =   ";Para el primer renglón solo se pide imprimir una letra \"A\" y luego se debe saltar al nuevo \n" +
+                        ";renglón, sin espacios en blanco.\n" +
                         "\n" +
-                        ";Para el segundo renglon se debe colocar un espacio en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y despues se debe saltar al nuevo renglon\n" +
+                        ";Para el segundo renglón se debe colocar un espacio en blanco, luego imprimir una letra \n" +
+                        ";\"A\" y después se debe saltar al nuevo renglón\n" +
                         "\n" +
-                        ";Para el tercer  renglon se debe colocar dos espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y despues se debe saltar al nuevo renglon.\n" +
+                        ";Para el tercer  renglón se debe colocar dos espacios en blanco, luego imprimir una letra \n" +
+                        ";\"A\" y después se debe saltar al nuevo renglón.\n" +
                         "\n" +
-                        ";Para el cuarto renglon se debe colocar tres espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y despues se debe saltar al nuevo renglon\n\n" +
+                        ";Para el cuarto renglón se debe colocar tres espacios en blanco, luego imprimir una letra \n" +
+                        ";\"A\" y después se debe saltar al nuevo renglón\n\n" +
                         "\n" +
                         "\n" +
                         "  (define  (Espacios a)\n" +

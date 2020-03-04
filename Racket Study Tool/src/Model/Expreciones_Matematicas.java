@@ -15,9 +15,9 @@ public class Expreciones_Matematicas {
     }
     
     public String expreciones1(){
-        String data =   "Se entiende por exprecion aritmetica a aquella donde los operandos que \n" +
-                        "intervienen  en  dicha exprecion son numeros, el resultado es un numero \n" +
-                        "y los operadores son aritmeticos.\n" +
+        String data =   "Se entiende por expresión aritmética a aquella donde los operandos que \n" +
+                        "intervienen  en  dicha expresión son números, el resultado es un numero \n" +
+                        "y los operadores son aritméticos.\n" +
                         "\n" +
                         "+,  - ,  * ,  /";
         return data;
@@ -25,8 +25,8 @@ public class Expreciones_Matematicas {
     
     
      public String expreciones2(){
-        String data =   "Los operadores logicos y de comparacion nos proporcionan un resultado\n" +
-                        "que indica el cumplimiento o no de una condicion, es decir:\n" +
+        String data =   "Los operadores lógicos y de comparación nos proporcionan un resultado\n" +
+                        "que indica el cumplimiento o no de una condición, es decir:\n" +
                         "\n" +
                         "Si a < b:\n" +
                         "       imprimir: a\n" +
@@ -36,7 +36,7 @@ public class Expreciones_Matematicas {
     }
      
       public String Ejeexpreciones1(){
-        String data =   ";Calcular el area de un anillo\n\n" +
+        String data =   ";Calcular el área de un anillo\n\n" +
                         "\n" +
                         "(define (AreaAnillo R-int R-ext)\n" +
                         "         (-  (* pi (expt R-ext 2)) (* pi (expt R-int 2))) \n" +
@@ -52,11 +52,11 @@ public class Expreciones_Matematicas {
     }
       
     public String Ejeexpreciones2(){
-        String data =   ";Definir una funcion que calcule la distancia entre dos puntos de una recta\n" +
+        String data =   ";Definir una función que calcule la distancia entre dos puntos de una recta\n" +
                         "\n" +
-                        ";La formula para esto es:  raiz [ [x2-x1]^2 + [y2-y1]^2 ]\n" +
+                        ";La fórmula para esto es:  raíz [ [x2-x1]^2 + [y2-y1]^2 ]\n" +
                         "\n" +
-                        ";Creamos la funcion de distancia\n\n" +
+                        ";Creamos la función de distancia\n\n" +
                         "\n" +
                         "(define (Distancia x1 x2 y1 y2)\n" +
                         "          (displayln \"Distancia\")\n" +

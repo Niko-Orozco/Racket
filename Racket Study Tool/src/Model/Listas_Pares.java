@@ -24,7 +24,7 @@ public class Listas_Pares {
     }
 
     public String Pares2(){
-        String data =   "La funcion cons permite crear un par y tiene dos argumentos. El primero:\n" +
+        String data =   "La función cons permite crear un par y tiene dos argumentos. El primero:\n" +
                         "la cabeza y el segundo: la cola\n" +
                         "\n" +
                         "Sintaxis\n" +
@@ -34,8 +34,8 @@ public class Listas_Pares {
     }
 
     public String Pares3(){
-        String data =   "La funcion car nos sirve para  extraer la cabeza  de un par   y el argumento\n" +
-                        "que recive es un par para ser analizado\n" +
+        String data =   "La función car nos sirve para  extraer la cabeza  de un par   y el argumento\n" +
+                        "que recibe es un par para ser analizado\n" +
                         "\n" +
                         "Sintaxis\n" +
                         "\n" +
@@ -45,8 +45,8 @@ public class Listas_Pares {
     }
 
     public String Pares4(){
-        String data =   "La funcion cdr nos sirve para    extraer   la  cola   de un par   y el argumento\n" +
-                        "que recive es un par para ser analizado\n" +
+        String data =   "La función cdr nos sirve para    extraer   la  cola   de un par   y el argumento\n" +
+                        "que recibe es un par para ser analizado\n" +
                         "\n" +
                         "Sintaxis\n" +
                         "\n" +
@@ -56,7 +56,7 @@ public class Listas_Pares {
     }
 
     public String Pares5(){
-        String data =   "El procediemiento pair? nos permite determinar si un objeto es o no, tiene\n" +
+        String data =   "El procedimiento pair? nos permite determinar si un objeto es o no, tiene\n" +
                         "un solo argumento y solo es el objeto a evaluar\n" +
                         "\n" +
                         "(define par (cons 3 \"pollito\"))\n" +
@@ -65,7 +65,7 @@ public class Listas_Pares {
     }
 
     public String EjePares1(){
-        String data =   "; mediante el procedimiento cons cree 3 pares y llenelos con difrentes tipos de datos, luego \n" +
+        String data =   "; mediante el procedimiento cons cree 3 pares y llénelos con diferentes tipos de datos, luego \n" +
                         ";mostrar los datos almacenados en el par\n\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
@@ -79,7 +79,7 @@ public class Listas_Pares {
     }
 
     public String EjePares2(){
-        String data =   "; mediante el procedimiento cons cree 3 pares y llene las cabezas con numero, luego \n" +
+        String data =   "; mediante el procedimiento cons cree 3 pares y llene las cabezas con número, luego \n" +
                         ";mostrar la suma de las cabezas de los pares\n\n" +
                         "\n" +
                         "(define par1 (cons (read) (read)))\n" +
@@ -103,7 +103,7 @@ public class Listas_Pares {
     }
 
     public String EjePares4(){
-        String data =   "; mediante el procedimiento cons cree un par y llenelo de cualquier tipo de dato luego mediante\n" +
+        String data =   "; mediante el procedimiento cons cree un par y llénelo de cualquier tipo de dato luego mediante\n" +
                         ";el procedimiento pair?, decir si es par o si no lo es\n\n" +
                         "\n" +
                         "\n" +
@@ -121,19 +121,19 @@ public class Listas_Pares {
 
     public String Listas1(){
         String data =   "Una lista es un tipo de dato con cierta similitud a un vector, pero  las  listas\n" +
-                        "se diferencian principlamente de los vectores en que estas son dinamicas\n" +
-                        "es decir, se les puede añadir informacion y las listas siempre terminan en \n" +
-                        "un espacion vacio (empty), Aunque este no se vea";
+                        "se diferencian principlamente de los vectores en que estas son dinámicas\n" +
+                        "es decir, se les puede añadir información y las listas siempre terminan en \n" +
+                        "un espacio vacío (empty), Aunque este no se vea";
         return data;
     }
 
     public String Listas2(){
-        String data =   "La funcion list nos sirve para crear listas y los argugemntos y/o elementos\n" +
+        String data =   "La función list nos sirve para crear listas y los argumentos y/o elementos\n" +
                         "que tiene son tantos como queramos incluir en la lista\n" +
                         "\n" +
                         "Ejemplo\n" +
                         "\n" +
-                        "(list 4 9 6 \"hola\" 'bl #\\a (vecotr 8 9 4) (list 2  7 1) (+ 2 5))";
+                        "(list 4 9 6 \"hola\" 'bl #\\a (vector 8 9 4) (list 2  7 1) (+ 2 5))";
         return data;
     }
 
@@ -147,8 +147,8 @@ public class Listas_Pares {
     }
 
     public String Listas4(){
-        String data =   "El procediemiento null se encarga de determinar si una lista esta vacia.\n" +
-                        "Tiene un argumento y es la lista a evaluar y devuelve un valor booleano\n" +
+        String data =   "El procedimiento null se encarga de determinar si una lista está vacía.\n" +
+                        "Tiene un argumento y es la lista para evaluar y devuelve un valor booleano\n" +
                         "\n" +
                         "#t o #f\n" +
                         "\n" +
@@ -173,8 +173,8 @@ public class Listas_Pares {
     }
 
     public String Listas6(){
-        String data =   "El procedimiento  list? determina  si  un  elemento es una lista, recive un \n" +
-                        "solo argumento y es la lista a evaluar.\n" +
+        String data =   "El procedimiento  list? determina  si  un  elemento es una lista, recibe un \n" +
+                        "solo argumento y es la lista por evaluar.\n" +
                         "\n" +
                         "(define Listas (list 1 2 3))\n" +
                         "(list? Lista)   -->  #t";
@@ -182,8 +182,8 @@ public class Listas_Pares {
     }
 
     public String Listas7(){
-        String data =   "El procedimiento length determina el tamaño de una lista y recive un solo\n" +
-                        "argumento y es la lista a evaluar.\n" +
+        String data =   "El procedimiento length determina el tamaño de una lista y recibe un solo\n" +
+                        "argumento y es la lista por evaluar.\n" +
                         "\n" +
                         "(define Listas (list 1 2 3))\n" +
                         "(length Lista)   -->  3";
@@ -191,8 +191,8 @@ public class Listas_Pares {
     }
 
     public String Listas8(){
-        String data =   "El   procedimiento   reverse   sirve   para   invertir   una  lista, recive un solo\n" +
-                        "argumento y es la lista a evaluar.\n" +
+        String data =   "El   procedimiento   reverse   sirve   para   invertir   una  lista, recibe un solo\n" +
+                        "argumento y es la lista por evaluar.\n" +
                         "\n" +
                         "(define Listas (list 1 2 3))\n" +
                         "(reverse Lista)   -->  (3 2 1)";
@@ -200,18 +200,18 @@ public class Listas_Pares {
     }
 
     public String Listas9(){
-        String data =   "La   funcion   list-tail   devuelve   una   subcola   de   una   lista,   tieme   dos \n" +
-                        "argumentos,  el   primero  es   la   lista  y  el  segundo  es  el  indice  donde \n" +
+        String data =   "La   función   list-tail   devuelve   una   subcola   de   una   lista,   tiene   dos \n" +
+                        "argumentos,  el   primero  es   la   lista  y  el  segundo  es  el  índice  donde \n" +
                         "comienza la cola\n" +
                         "\n" +
-                        "(define Listas (list \"Luneas\" \"Martes\" \"Miercoles\" \"Jueves\" \"Viernes\"))\n" +
-                        "(list-tail Lista 2)   -->  (\"Miercoles\" \"Jueves\" \"Viernes\")";
+                        "(define Listas (list \"Lunes\" \"Martes\" \"Miércoles\" \"Jueves\" \"Viernes\"))\n" +
+                        "(list-tail Lista 2)   -->  (\"Miércoles\" \"Jueves\" \"Viernes\")";
         return data;
     }
 
     public String EjeListas1(){
-        String data =   ";definir una funcion que cree una lista y llene 4 datos de las lista por teclado luego \n" +
-                        ";mostrar los datos por pantalla con la funcion displayln\n\n" +
+        String data =   ";definir una función que cree una lista y llene 4 datos de la lista por teclado luego \n" +
+                        ";mostrar los datos por pantalla con la función displayln\n\n" +
                         "\n" +
                         "(define Lista(list (read) (read) (read) (read)))\n" +
                         "\n" +
@@ -220,8 +220,8 @@ public class Listas_Pares {
     }
 
     public String EjeListas2(){
-        String data =   ";definir una funcion que cree una lista y llene 4 datos de las lista por teclado luego \n" +
-                        ";mostrar la cabeza de la lista  por pantalla con la funcion displayln\n\n" +
+        String data =   ";definir una función que cree una lista y llene 4 datos de la lista por teclado luego \n" +
+                        ";mostrar la cabeza de la lista  por pantalla con la función displayln\n\n" +
                         "\n" +
                         "\n" +
                         "(define Lista(list (read) (read) (read) (read)))\n" +
@@ -231,7 +231,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas3(){
-        String data =   ";cree una funcion que pida por teclado llenar una lista si esta está vacia, luego mostrar \n" +
+        String data =   ";cree una función que pida por teclado llenar una lista si esta está vacía, luego mostrar \n" +
                         ";los datos por pantalla\n\n" +
                         "\n" +
                         "(define lista (list))\n" +
@@ -248,7 +248,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas4(){
-        String data =   ";cree una funcion que permita adicionar diez numeros a una lista\n\n" +
+        String data =   ";cree una función que permita adicionar diez números a una lista\n\n" +
                         "\n" +
                         "(define lista (list))\n" +
                         "(define (adicionar  n)\n" +
@@ -266,7 +266,7 @@ public class Listas_Pares {
     }
 
     public String EjeListas5(){
-        String data =   ";cree una funcion tal que al recivir un argumento nos diga si es una lista o no.\n\n" +
+        String data =   ";cree una funcion tal que al recibir un argumento nos diga si es una lista o no.\n\n" +
                         "\n" +
                         "(define lista(list))\n" +
                         "(define (islista)\n" +
@@ -281,8 +281,8 @@ public class Listas_Pares {
     }
 
     public String EjeListas6(){
-        String data =   ";cree  una  funcion  que  pida por  teclado el  numero de datos  a ingrear en una lista,\n" +
-                        ";luego nos muestre los datos de la lista si el tamaño de la misma es mayor a 5, de lo \n" +
+        String data =   ";cree  una  funcion  que  pida por  teclado el  número de datos  a ingresar en una lista,\n" +
+                        ";luego nos muestre los datos de la lista si el tamaño de esta es mayor a 5, de lo \n" +
                         ";contrario mostrar el tamaño de la lista\n\n" +
                         "\n" +
                         "(define lista(list))\n" +
@@ -304,8 +304,8 @@ public class Listas_Pares {
     }
 
     public String EjeListas7(){
-        String data =   ";cree  una  funcion  que  pida por  teclado el numero de datos  a ingrear en una lista,\n" +
-                        ";luego nos muestre al reves los datos de la lista si el tamaño de la misma es mayor  \n" +
+        String data =   ";cree  una  funcion  que  pida por  teclado el número de datos  a ingresar en una lista,\n" +
+                        ";luego nos muestre al revés los datos de la lista si el tamaño de esta es mayor  \n" +
                         ";a 5, de lo contrario mostrar el tamaño de la lista\n\n" +
                         "\n" +
                         "(define lista(list))\n" +

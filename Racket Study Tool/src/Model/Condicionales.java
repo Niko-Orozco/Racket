@@ -23,11 +23,11 @@ public class Condicionales {
     }
     
     public String bol(){
-        String data =   "Los  boleanos  y  las sentencias de comparacion  esta estrechamente\n" +
-                        "ligados a los condicionales, cuando  queremos   crear una   condicion,\n" +
-                        "esta evalua sentencias de  comparacion que   arrojan como resultado \n" +
-                        "un boleano y dependiendo de  esta   se  ejecutara   una  accion  u otra. \n" +
-                        "Los boleanos son de la forma #t -> True  o  #f   False\n" +
+        String data =   "Los  booleanos  y  las sentencias de comparación  está estrechamente\n" +
+                        "ligados a los condicionales, cuando  queremos   crear una   condición,\n" +
+                        "esta evalúa sentencias de  comparación que   arrojan como resultado \n" +
+                        "un booleano y dependiendo de  esta   se  ejecutará   una  acción  u otra. \n" +
+                        "Los booleanos son de la forma #t -> True  o  #f   False\n" +
                         "\n" +
                         "Ejemplo:\n" +
                         "\n" +
@@ -41,7 +41,7 @@ public class Condicionales {
   
     public String elif(){
         String data =   "En Racket encontramos las funciones if y cond que nos ayudaran a \n" +
-                        "compara dos o mas cosas. Por ejemplo:\n" +
+                        "compara dos o más cosas. Por ejemplo:\n" +
                         "\n" +
                         "Si a > b\n" +
                         "    ''a es mayor que b''\n" +
@@ -49,9 +49,9 @@ public class Condicionales {
                         "    ‘’b es mayor que a’’\n" +
                         "\n" +
                         "\n" +
-                        "El codigo en racket seria:\n" +
+                        "El código en racket seria:\n" +
                         "\n" +
-                        "( if ( condicion )\n" +
+                        "( if ( condición )\n" +
                         "      ( Respuesta_Verdadera )\n" +
                         "      ( Respuesta_Falsa )\n" +
                         " )\n" +
@@ -59,25 +59,25 @@ public class Condicionales {
                         "Por ejemplo\n" +
                         "\n" +
                         "( if (< a b )\n" +
-                        "       (display ''a es menor que b'') ; si la condicion es verdadera\n" +
-                        "       (display ''a es mayor que b'') ; si la condicion es falsa\n" +
+                        "       (display ''a es menor que b'') ; si la condición es verdadera\n" +
+                        "       (display ''a es mayor que b'') ; si la condición es falsa\n" +
                         ")\n" +
                         "\n" +
-                        "Pero que pasa si queremos dar mas de una respuesta si la condicion \n" +
+                        "Pero que pasa si queremos dar más de una respuesta si la condición \n" +
                         "se  cumple o no, es decir:\n" +
                         "\n" +
-                        " si a < b \n" +
+                        " sí a < b \n" +
                         "        ''a menor que b''\n" +
-                        "        ''el numero menor es'' a\n" +
+                        "        ''el número menor es'' a\n" +
                         "sino:\n" +
                         "        ''a es mayor que b''\n" +
                         "\n" +
-                        "Racket tiene una funcion especial para estos casos la cual es ''begin'' \n" +
-                        "y su estrcutura es:\n" +
+                        "Racket tiene una función especial para estos casos la cual es ''begin'' \n" +
+                        "y su estructura es:\n" +
                         "\n" +
                         "( begin\n" +
                         "        (''a menor que b'')\n" +
-                        "        (''el numero de es:'' a)\n" +
+                        "        (''el número de es:'' a)\n" +
                         ")";
          return data;
      }
@@ -85,16 +85,16 @@ public class Condicionales {
     public String elcond(){
         String data="EL CONDICONAL: COND.\n" +
                     "\n" +
-                    "Al usar la  instuccion cond,   idependiente  de si   nuestro lenguaje este \n" +
+                    "Al usar la  instrucción cond,   independiente  de si   nuestro lenguaje este \n" +
                     "en modo estudiante  o avanzado  la parte falsa es opcional.  Se escribe\n" +
-                    "luego de  todas  las  condiciones  y  unicamente se ejecuta si  nunguna\n" +
+                    "luego de  todas  las  condiciones  y  únicamente se ejecuta si  ninguna\n" +
                     "de las condiciones anteriores es Verdadera\n" +
                     "\n" +
                     "Su formato general:\n" +
                     "   (cond\n" +
                     "       [(condicional)(Respuesta_Verdadero)]\n" +
                     "       [(condicion2)(Respuesta_Verdadero)]\n" +
-                    "       ....\n" +
+                    "       …\n" +
                     "       [(condición)(Respuesta_Verdadero)]\n" +
                     "       (else (Respuesta_Falso)\n" +
                     "   )";
@@ -103,12 +103,12 @@ public class Condicionales {
     
     public String EjeIf(){
         String data;
-        data =  " ;Ejemplo de if con funcion de suma\n" +
+        data =  " ;Ejemplo de if con función de suma\n" +
                 "\n" +
-                " ;Construir un programa que dada la suma de dos numeros \n" +
+                " ;Construir un programa que dada la suma de dos números \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
-                ";definimos la funcion encargada de sumar los numeros\n\n" +
+                ";definimos la función encargada de sumar los números\n\n" +
                 "  (define (Suma N1 N2)\n" +
                 "        (+ N1 N2)\n" +
                 "  )\n" +
@@ -126,12 +126,12 @@ public class Condicionales {
     
     public String EjeIfbegin(){
         String data;
-        data =  " ;Ejemplo de if con funcion begin y anidacion\n" +
+        data =  " ;Ejemplo de if con función begin y anidación\n" +
                 " \n" +
-                " ;Construir un programa que dada la suma de dos numeros \n" +
+                " ;Construir un programa que dada la suma de dos números \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
-                ";definimos la funcion y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
                 "  (define (MayorQ10? N1 N2)\n" +
                 "       (if ( >  (+  N1 N2) 10)\n" +
                 "             (begin\n" +
@@ -159,10 +159,10 @@ public class Condicionales {
         String data;
         data =  " ;Ejemplo de cond\n" +
                 "\n" +
-                " ;Construir un programa que dada la suma de dos numeros \n" +
+                " ;Construir un programa que dada la suma de dos números \n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
-                ";definimos la funcion y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
                 "(define(MayorQ10? N1 N2)\n" +
                 "   (cond\n" +
                 "          [(>(+N1 N2)10)(begin(display(+ N1 N2))(display “Es mayor que 10”))]\n" +
@@ -178,10 +178,10 @@ public class Condicionales {
        String data;
        data =   " ;Ejemplo de cond con else\n" +
                 "\n" +
-                " ;Construir un programa que dada la suma de dos numeros\n" +
+                " ;Construir un programa que dada la suma de dos números\n" +
                 " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
                 "\n" +
-                ";definimos la funcion y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
                 " (define(MayorQ10? N1 N2)\n" +
                 "  (cond\n" +
                 "        [(>(+ N1 N2)10)(begin (display(+ N1 N2))(display “Es Mayor que 10”))]\n" +
@@ -194,22 +194,22 @@ public class Condicionales {
    }
     
     public String Ejercicios(){
-        String data =   "1. Hacer una función que reciba un numero. Si el numero es mayor o igual \n" +
-                        "    que 10 imprima por pantalla ''El numero es mayor o igual que 10''. Si es \n" +
-                        "    menor que 10 muestre por pantalla ''El numero es menor que 10''.\n" +
+        String data =   "1. Hacer una función que reciba un número. Si el número es mayor o igual \n" +
+                        "    que 10 imprima por pantalla ''El número es mayor o igual que 10''. Si es \n" +
+                        "    menor que 10 muestre por pantalla ''El número es menor que 10''.\n" +
                         "\n" +
                         " 2.Se va a realizar un paseo en una escuela. Si van hasta 10 niños, el valor \n" +
-                        "     por   cada  niño  es de 3000 pesos. Si van mas 10 niños, pero menos o \n" +
-                        "     igual  que 50,  el valor  por cada  niño es de 2500 pesos. Si van mas de \n" +
+                        "     por   cada  niño  es de 3000 pesos. Si van más 10 niños, pero menos o \n" +
+                        "     igual  que 50,  el valor  por cada  niño es de 2500 pesos. Si van más de \n" +
                         "     50  niños,  pero  menos  o  igual   que 200,  el valor por cada niño es de \n" +
-                        "     2000.  Si  van  mas  de  200  niños,  el  valor  por  cada  niño es de 1800 \n" +
+                        "     2000.  Si  van  más  de  200  niños,  el  valor  por  cada  niño es de 1800 \n" +
                         "     pesos.  Construir  una  función  que  permita  calcular  el  dinero en total \n" +
                         "     que  se  va  a  recolectar  para el  paseo dependiendo de la cantidad de \n" +
                         "     niños que vayan a ir.\n" +
                         "\n" +
                         "3. Todas las ecuaciones cuadráticas (en una variable) tienen la siguiente \n" +
                         "    forma general: ax2+bx+c=0\n" +
-                        "   El numero de solicitudes de una  ecuación  cuadrática  depende  de los \n" +
+                        "   El número de solicitudes de una  ecuación  cuadrática  depende  de los \n" +
                         "   valores  de  a, b y c.  Si  el coeficiente  de  a  es  0, podemos decir que la\n" +
                         "   ecuación es degenerada y no  se  considera  cuantas  soluciones  tiene. \n" +
                         "   Asumiendo que a no es 0, la ecuación tiene:\n" +
@@ -224,7 +224,7 @@ public class Condicionales {
                         "\n" +
                         "\n" +
                         "4. Construir un programa que dado el día (en formato numérico),  el  mes \n" +
-                        "    (numero) y el año (en formato numerico), retorne el día (lunes, martes..) \n" +
+                        "    (numero) y el año (en formato numérico), retorne el día (lunes, martes...) \n" +
                         "    de la semana a la que pertenece la fecha ingresada.\n" +
                         "\n\n" +
                         "";

@@ -33,7 +33,7 @@ public class Recorrido {
     }
     
     public void cdebuger_ejemplo(){
-        String data =  ";Construir un programa que reciva una cadena y devuelva una cadena \n" +
+        String data =  ";Construir un programa que reciba una cadena y devuelva una cadena \n" +
                         ";equivalente, pero sin las vocales\n\n" +
                         "(define(Cadena read);lee y almacena nuestra cadena.\n" +
                         "    (Read)\n" +
@@ -51,7 +51,7 @@ public class Recorrido {
                         "                  (char-cir=?(string-ref(Cadena CAD)POS)#/i)\n" +
                         "                  (char-cir=?(string-ref(Cadena CAD)POS)#/o)\n" +
                         "                  (char-cir=?(string-ref(Cadena CAD)POS)#/u))\n" +
-                        "                  (display '' '');De cumplirse,devolver vacío.\n" +
+                        "                  (display '' '');De cumplirse, devolver vacío.\n" +
                         "                  (display(string-ref(Cadena CAD)POS))\n" +
                         "            )\n" +
                         "          (Sinvocls CAD LENGTH(+ POS 1))\n" +

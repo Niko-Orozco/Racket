@@ -26,11 +26,11 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo2(){
-        String data =       "  ;Suponga que el banco paga 4% para  depositos  menores \n" +
-                            "  ;a $50.000 inclusive , 4.5% para  depositos  menores \n" +
-                            "  ;a $250.000  inclusive, y 5% para depositos  mayores\n" +
-                            "  ;a $250.000.  Realize   una   funcion  que reciba  un \n"+
-                            "  ;reciba un deposito y devuelva el procentaje asignado \n\n" +
+        String data =       "  ;Suponga que el banco paga 4% para  depósitos  menores \n" +
+                            "  ;a $50.000 inclusive , 4.5% para  depósitos  menores \n" +
+                            "  ;a $250.000  inclusive, y 5% para depósitos  mayores\n" +
+                            "  ;a $250.000.  Realice   una   función  que reciba  un \n"+
+                            "  ;reciba un depósito y devuelva el porcentaje asignado \n\n" +
                             "\n" +
                             "   (define (interes cantidad)\n" +
                             "         (cond\n" +
@@ -68,12 +68,12 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo5(){
-        String data =   "( define-struct  Tienda ( Producto Precio descripcion ) )\n" +
+        String data =   "( define-struct  Tienda ( Producto Precio descripción ) )\n" +
                         "\n" +
                         "(define (CrearTienda)\n" +
                         "        ( define p1 ( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))\n" +
                         "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
-                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde japon\"))\n" +
+                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))\n" +
                         "\n" +
                         "       ( display ( Tienda-Producto p1 ) )\n" +
                         "       ( display ( Tienda-Precio p1 ))\n" +
@@ -92,16 +92,16 @@ public class Codeexplicacion {
     public String Paso1(int este){
         String data = "";
         switch(este){
-            case 1: data =  "Definimos la funcion ElevarpotenciaN y recive\n" +
+            case 1: data =  "Definimos la función ElevarpotenciaN y recibe\n" +
                             "dos argumentos";
                     break;
-            case 2: data =  "Llamaos la funcion ElevarpotenciaN y pedimos\n" +
+            case 2: data =  "Llamaos la función ElevarpotenciaN y pedimos\n" +
                             "dos datos por teclado";
                   break;
-            case 3: data =  "Definimos la variable que contendra el resultado\n" +
-                            "de elever los numeros";
+            case 3: data =  "Definimos la variable que contendrá el resultado\n" +
+                            "de elevar los números";
                   break;
-            case 4: data =  "Imprimimos el resultado de elevar el numero\n" +
+            case 4: data =  "Imprimimos el resultado de elevar el número\n" +
                             "ingresado a la potencia dada";
                   break;
         }
@@ -111,24 +111,24 @@ public class Codeexplicacion {
     public String Paso2(int este){
         String data = "";
         switch(este){
-            case 1: data =  "Definimos la funcion intereses y recibe un\n" +
+            case 1: data =  "Definimos la función intereses y recibe un\n" +
                             "argumento";
                     break;
-            case 2: data =  "Llamamos la funcion intereses y pedimos un\n" +
+            case 2: data =  "Llamamos la función intereses y pedimos un\n" +
                             "dato por teclado";
                   break;
-            case 3: data =  "Evaluamos la funcion cond";
+            case 3: data =  "Evaluamos la función cond";
                   break;
             case 4: data =  "Evaluamos si  la variable cantidad es menor\n" +
-                            "a 50.000, de ser asi devolvemos el valor del\n" +
+                            "a 50.000, de ser así devolvemos el valor del\n" +
                             "interes 0.040: 4%";
                   break;
             case 5: data =  "Evaluamos  si   la  variable  cantidad   es  menor\n" +
-                            "o igual a 250.000, de ser asi devolvemos el valor\n" +
+                            "o igual a 250.000, de ser así devolvemos el valor\n" +
                             "del interes 0.045: 4.5%";
                   break;
             case 6: data =  "Evaluamos si la variable cantidad es mayor\n" +
-                            "a 250.000, de  ser  asi  devolvemos el valor\n" +
+                            "a 250.000, de  ser  así  devolvemos el valor\n" +
                             "del interes 0.050: 5%";
                   break;
         }
@@ -136,38 +136,38 @@ public class Codeexplicacion {
     }
     
     public String Paso3(int este){
-        String data =   "Definimos la funcion calcular-factorial";
-        String data1 =  "Llamamos la funcion calcular-factorial y como \n" +
-                        "parametro le enviamos el numero 4";
-        String data2 =  "Evaluamos la funcion cond";
+        String data =   "Definimos la función calcular-factorial";
+        String data1 =  "Llamamos la función calcular-factorial y como \n" +
+                        "parámetro le enviamos el número 4";
+        String data2 =  "Evaluamos la función cond";
         String data3 =  "comparamos si la variable n es igual a 0, de ser\n" +
-                        "asi  devolvemos  el  numero  1 y  terminamos  la \n" +
-                        "condicion";
+                        "así  devolvemos  el  número  1 y  terminamos  la \n" +
+                        "condición";
         String data4 =  "comparamos si la variable n es igual a 1, de ser\n" +
-                        "asi  devolvemos  el  numero  1 y  terminamos  la \n" +
-                        "condicion";
-        String data5 =  "Evaluamos la funcion else de la condicion con \n" +
-                        "nos encargamos  de hacer la recuersion dado\n" +
+                        "así  devolvemos  el  número  1 y  terminamos  la \n" +
+                        "condición";
+        String data5 =  "Evaluamos la función else de la condición con \n" +
+                        "nos encargamos  de hacer la recursión dado\n" +
                         "que no se cumpla el paso anterior";
-        String data6 =  "Hacemos  el  llamado recursivo  de la funcion \n" +
+        String data6 =  "Hacemos  el  llamado recursivo  de la función \n" +
                         "para  calcular   el  factorial  de el numero dado\n" +
-                        "multiplicacios   e l  valor  que  tiene  n  en  ese \n" +
-                        "momento por el valor de n -1 y luego llamamo\n" +
-                        "la funcion decrementando a n en uno";
+                        "multiplicación   e l  valor  que  tiene  n  en  ese \n" +
+                        "momento por el valor de n -1 y luego llamamos\n" +
+                        "la función decrementando a n en uno";
         return data;
     }
     
     public String Paso4(int este){
-        String data =   "Definimos  la funcion  s y recive un argumente\n" +
-                        "el cual es el numero de caracteres que tendra\n" +
+        String data =   "Definimos  la función  s y recibe un argumente\n" +
+                        "el cual es el numero de caracteres que tendrá\n" +
                         "la cadena";
-        String data2 =  "Llamamos la funcion s y como parametro le\n" +
-                        "enviamos un numero leido por teclado";
-        String data3 =  "mediante la funcion make-string creamos la\n" +
+        String data2 =  "Llamamos la función s y como parámetro le\n" +
+                        "enviamos un numero leído por teclado";
+        String data3 =  "mediante la función make-string creamos la\n" +
                         "cadena  a  llenar  con  el tamaño n asignado\n" +
                         "con los caracteres #\\H";
-        String data4 =  "usamos la funcion display para mostrar un texto\n" +
-                        "guia por pantalla";
+        String data4 =  "usamos la función display para mostrar un texto\n" +
+                        "guía por pantalla";
         return data;
     }
     
