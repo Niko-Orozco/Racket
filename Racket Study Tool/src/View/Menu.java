@@ -500,7 +500,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/mate.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel13.add(jLabel2);
-        jLabel2.setBounds(0, 0, 330, 190);
+        jLabel2.setBounds(0, 10, 320, 180);
 
         jPanel4.add(jPanel13);
         jPanel13.setBounds(770, 160, 330, 330);
@@ -997,7 +997,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel63.setBounds(100, 70, 940, 20);
 
         jLabel64.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel64.setText("funcional y dentro del entorno de desarrollo de Dr Racket, aprenderas de manera interactiva, con ejemplos y ejercicios");
+        jLabel64.setText("del entorno de desarrollo de Dr Racket. aprenderas de manera interactiva, con ejemplos y ");
         jPanel4.add(jLabel64);
         jLabel64.setBounds(90, 90, 940, 20);
 
