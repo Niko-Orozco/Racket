@@ -208,7 +208,12 @@ public class Controlador {
         PonerColor(CodeExp.Codigo2, codexp.Ejemplo2());
         PonerColor(CodeExp.Codigo3, codexp.Ejemplo3());
         PonerColor(CodeExp.Codigo4, codexp.Ejemplo4());
-        PonerColor(CodeExp.Codigo5, codexp.Ejemplo5());
+        PonerColor(CodeExp.Codigo5, codexp.Ejemplo5());    
+        PonerColor(CodeExp.Codigo6, codexp.Ejemplo6());
+        PonerColor(CodeExp.Codigo10, codexp.Ejemplo7());
+        PonerColor(CodeExp.Codigo7, codexp.Ejemplo8());
+        PonerColor(CodeExp.Codigo9, codexp.Ejemplo9());
+        PonerColor(CodeExp.Codigo8, codexp.Ejemplo10());
         CodeExp.Ejecutar.addActionListener((ActionEvent e) -> {//botón que inicia la funcion de funciones
         
            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
