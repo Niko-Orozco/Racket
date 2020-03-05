@@ -523,26 +523,26 @@
                         <Component class="javax.swing.JLabel" name="jLabel6">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="conceptos fundamentales, notaciones"/>
+                            <Property name="text" type="java.lang.String" value="conceptos fundamentales, notaciones."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="60" width="290" height="20"/>
+                              <AbsoluteConstraints x="10" y="60" width="320" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel33">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Que es la programacion, paradigmas,"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="290" height="20"/>
+                              <AbsoluteConstraints x="10" y="40" width="320" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -677,13 +677,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel18">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="por que hacerlas, modularidad..."/>
+                            <Property name="text" type="java.lang.String" value="sirven, por que hacerlas, modularidad."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="60" width="200" height="20"/>
+                              <AbsoluteConstraints x="10" y="60" width="320" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -711,9 +711,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel36">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Funciones, como hacerlas, para que sirven"/>
+                            <Property name="text" type="java.lang.String" value="Funciones, como hacerlas, para que"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -809,14 +809,14 @@
                         <Component class="javax.swing.JLabel" name="jLabel19">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="2"/>
-                            <Property name="text" type="java.lang.String" value="Uso de operadores aritm&#xe9;ticos"/>
+                            <Property name="text" type="java.lang.String" value="Uso de operadores aritm&#xe9;ticos:"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="190" height="30"/>
+                              <AbsoluteConstraints x="10" y="40" width="290" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -841,14 +841,14 @@
                         <Component class="javax.swing.JLabel" name="jLabel16">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="2"/>
                             <Property name="text" type="java.lang.String" value="suma, resta, multiplicaci&#xf3;n y divisi&#xf3;n"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="70" width="270" height="-1"/>
+                              <AbsoluteConstraints x="10" y="70" width="310" height="-1"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -940,13 +940,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel21">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="procesos basados en su propia definicion"/>
+                            <Property name="text" type="java.lang.String" value="funci&#xf3;n basada en su propia definici&#xf3;n."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="60" width="290" height="20"/>
+                              <AbsoluteConstraints x="0" y="60" width="350" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -974,13 +974,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel37">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Recursividad, bucles, criterios de parada"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="290" height="20"/>
+                              <AbsoluteConstraints x="0" y="40" width="350" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1067,9 +1067,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel20">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="cond, booleanos..."/>
+                            <Property name="text" type="java.lang.String" value="de if y cond, booleanos."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1098,9 +1098,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel38">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Expresiones falsas y verdaeras, uso de if y"/>
+                            <Property name="text" type="java.lang.String" value="Expresiones falsas y verdaeras, uso"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1188,9 +1188,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel22">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="la importancia de hacerlos"/>
+                            <Property name="text" type="java.lang.String" value="tarios y la importancia de hacerlos"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1201,13 +1201,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel39">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Caracteres, documentacion, comentarios y"/>
+                            <Property name="text" type="java.lang.String" value="Caracteres, documentacion, comen-"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="300" height="20"/>
+                              <AbsoluteConstraints x="10" y="40" width="350" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1314,7 +1314,7 @@
                         <Component class="javax.swing.JLabel" name="jLabel23">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="operaciones "/>
                           </Properties>
@@ -1345,13 +1345,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel40">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Cadenas, definicion de variables, uso y "/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="290" height="30"/>
+                              <AbsoluteConstraints x="10" y="40" width="320" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1438,9 +1438,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel24">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="y manipulacion de vectores"/>
+                            <Property name="text" type="java.lang.String" value="modificacion y manipulacion."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1481,13 +1481,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel41">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Que es un vector, creacion, modificacion "/>
+                            <Property name="text" type="java.lang.String" value="Que es un vector, creacion, "/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="300" height="20"/>
+                              <AbsoluteConstraints x="10" y="40" width="340" height="20"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1574,9 +1574,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel25">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="de listas"/>
+                            <Property name="text" type="java.lang.String" value="manipulacion de de listas."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1608,13 +1608,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel42">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Creacion, modificacion y manipulacion de"/>
+                            <Property name="text" type="java.lang.String" value="Creacion, modificacion y "/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="300" height="40"/>
+                              <AbsoluteConstraints x="10" y="40" width="340" height="40"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1698,13 +1698,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel26">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Pares, operaciones con pares, uso de pares"/>
+                            <Property name="text" type="java.lang.String" value="casos de uso."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="0" y="50" width="310" height="40"/>
+                              <AbsoluteConstraints x="10" y="60" width="310" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1739,6 +1739,19 @@
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                               <AbsoluteConstraints x="10" y="10" width="140" height="-1"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel65">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Sylfaen" size="19" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Que es, operaciones con pares, "/>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                              <AbsoluteConstraints x="10" y="40" width="310" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1812,13 +1825,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel27">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="como implementarlo en racket"/>
+                            <Property name="text" type="java.lang.String" value="basicas como implementarlo en racket."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="50" width="300" height="40"/>
+                              <AbsoluteConstraints x="10" y="60" width="320" height="40"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1843,13 +1856,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel43">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Estructuras de datos, operaciones basicas"/>
+                            <Property name="text" type="java.lang.String" value="Estructuras de datos, operaciones "/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="30" width="300" height="40"/>
+                              <AbsoluteConstraints x="10" y="30" width="350" height="40"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1933,13 +1946,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel28">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="el teclado y el mouse, uso de graficos"/>
+                            <Property name="text" type="java.lang.String" value="el teclado y el mouse, uso de graficos."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="60" width="290" height="30"/>
+                              <AbsoluteConstraints x="0" y="60" width="330" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -1967,13 +1980,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel44">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
                             <Property name="text" type="java.lang.String" value="Modo grafico, interaccion con la pantalla,"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="10" y="40" width="290" height="30"/>
+                              <AbsoluteConstraints x="0" y="40" width="340" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -2070,9 +2083,9 @@
                         <Component class="javax.swing.JLabel" name="jLabel52">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="del codigo"/>
+                            <Property name="text" type="java.lang.String" value="un seguimiento paso a paso del codigo"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2117,13 +2130,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel58">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Refuerza lo aprendido haciendo un seguimiento paso a paso"/>
+                            <Property name="text" type="java.lang.String" value="Refuerza lo aprendido haciendo "/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="0" y="40" width="310" height="30"/>
+                              <AbsoluteConstraints x="0" y="40" width="360" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -2194,13 +2207,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel55">
                           <Properties>
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                              <Font name="Sylfaen" size="12" style="0"/>
+                              <Font name="Sylfaen" size="19" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Pares, operaciones con pares, uso de pares"/>
+                            <Property name="text" type="java.lang.String" value="el conocimeinto adquirido."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                              <AbsoluteConstraints x="0" y="50" width="310" height="40"/>
+                              <AbsoluteConstraints x="10" y="60" width="310" height="30"/>
                             </Constraint>
                           </Constraints>
                         </Component>
@@ -2238,6 +2251,19 @@
                             </Constraint>
                           </Constraints>
                         </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel66">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Sylfaen" size="19" style="0"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Has una peque&#xf1;a prueba para validar"/>
+                          </Properties>
+                          <Constraints>
+                            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                              <AbsoluteConstraints x="10" y="40" width="310" height="30"/>
+                            </Constraint>
+                          </Constraints>
+                        </Component>
                       </SubComponents>
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel57">
@@ -2259,11 +2285,11 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="18" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="ejercicios practicos desde lo mas basico, hasta llegar a una aplicaci&#xf3;n con ventanas. An&#xed;mate a explorar este maravilloso mundo. "/>
+                    <Property name="text" type="java.lang.String" value="soluciones mediante la programaci&#xf3;n y que lo haga de manera l&#xf3;gica, funcional y eficiente, a partir de un problema dado."/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="60" y="110" width="1010" height="20"/>
+                      <AbsoluteConstraints x="60" y="130" width="1010" height="20"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -2272,11 +2298,11 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="18" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value=" Encontraras mundo que te adentrar&#xe1; en el  de la programaci&#xf3;n funcional y dentro "/>
+                    <Property name="text" type="java.lang.String" value=" Encontraras  un mundo que te adentrar&#xe1; en la programaci&#xf3;n funcional y dentro del entorno de desarrollo de Dr Racket."/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="60" y="70" width="940" height="20"/>
+                      <AbsoluteConstraints x="50" y="70" width="980" height="20"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -2285,11 +2311,24 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Tahoma" size="18" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="del entorno de desarrollo de Dr Racket. Aprenderas de manera interactiva, con ejemplos y "/>
+                    <Property name="text" type="java.lang.String" value="Aprender&#xe1;s de manera interactiva, con ejemplos y ejercicios pr&#xe1;cticos desde lo m&#xe1;s b&#xe1;sico, hasta llegar a una aplicaci&#xf3;n"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="60" y="90" width="940" height="20"/>
+                      <AbsoluteConstraints x="60" y="90" width="970" height="20"/>
+                    </Constraint>
+                  </Constraints>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel67">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Tahoma" size="18" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value=" con ventanas. El objetivo es que el estudiante desarrolle habilidades que le permita identificar, implementar y desarrollar"/>
+                  </Properties>
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                      <AbsoluteConstraints x="50" y="110" width="1010" height="20"/>
                     </Constraint>
                   </Constraints>
                 </Component>
