@@ -67,7 +67,7 @@ public class Controlador {
             menu.setVisible(false);
             introview = new IntroView();
             introview.setVisible(true);
-            
+            introviews();
         });
         this.menu.funciones.addActionListener((ActionEvent e) -> {
             this.Functions = new Funciones();
@@ -164,6 +164,16 @@ public class Controlador {
         });
         
         
+    }
+    
+    public void introviews(){
+        this.introview.setTitle("Introduccion");
+        this.introview.setLocationRelativeTo(null);
+        introview.menu.addActionListener((ActionEvent e) -> {
+            introview.setVisible(false);
+            menu.setVisible(true);
+            iniciar();
+        });
     }
     
     public void Graficos(){  

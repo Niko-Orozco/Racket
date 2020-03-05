@@ -123,24 +123,13 @@ public class Codeexplicacion {
     }////////////////////////////// Asta aqui falta el 8 9 y 10
     
     public String Ejemplo8(){
-        String data =   "( define-struct  Tienda ( Producto Precio descripción ) )\n" +
+        String data =   ";Crear una vector de forma global de 10 posiciones, luego llenarlo de valores aleatorios y mostrarlos por pantalla\n\n" +
                         "\n" +
-                        "(define (CrearTienda)\n" +
-                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))\n" +
-                        "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
-                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))\n" +
+                        "( define vec (make-vector 12)\n" +
                         "\n" +
-                        "       ( display ( Tienda-Producto p1 ) )\n" +
-                        "       ( display ( Tienda-Precio p1 ))\n" +
+                        "( vector-fill! vec (random 220))\n" +
                         "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
-                        ")\n" +
-                        "\n" +
-                        "( CrearTienda )";
+                        "( display vec )";
         return data;
     }
     

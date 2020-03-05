@@ -341,7 +341,7 @@ public class Menu extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de sistemas de\n  primer  semestre  una guia  para  el   desarrollo  del  curso  Programacion I,  donde\n  abordaran el paradigma funcional, veran sus ventajas,  desventajas  y aplicaciones.");
+        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de sistemas de\n  primer  semestre  una guia  para  el   desarrollo  del  curso  Programacion I,  donde\n  abordaran el paradigma funcional, conoceran sus ventajas,  desventajas  y aplicaciones.");
         jTextArea1.setToolTipText("");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(null);
@@ -368,12 +368,12 @@ public class Menu extends javax.swing.JFrame {
         jLabel6.setFont(new java.awt.Font("Sylfaen", 0, 19)); // NOI18N
         jLabel6.setText("conceptos fundamentales, notaciones.");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(10, 60, 320, 20);
+        jLabel6.setBounds(10, 60, 350, 20);
 
         jLabel33.setFont(new java.awt.Font("Sylfaen", 0, 19)); // NOI18N
-        jLabel33.setText("Que es la programacion, paradigmas,");
+        jLabel33.setText("¿Que es la programacion?, paradigmas,");
         jPanel2.add(jLabel33);
-        jLabel33.setBounds(10, 40, 320, 20);
+        jLabel33.setBounds(10, 40, 360, 20);
 
         introduccion.setBackground(new java.awt.Color(255, 255, 255));
         introduccion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
@@ -429,9 +429,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel7.setLayout(null);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 0, 19)); // NOI18N
-        jLabel18.setText("sirven, por que hacerlas, modularidad.");
+        jLabel18.setText("sirven, por qué hacerlas, modularidad.");
         jPanel7.add(jLabel18);
-        jLabel18.setBounds(10, 60, 320, 20);
+        jLabel18.setBounds(10, 60, 350, 20);
 
         funciones.setBackground(new java.awt.Color(255, 255, 255));
         funciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
@@ -444,7 +444,7 @@ public class Menu extends javax.swing.JFrame {
         funciones.setBounds(90, 100, 130, 30);
 
         jLabel36.setFont(new java.awt.Font("Sylfaen", 0, 19)); // NOI18N
-        jLabel36.setText("Funciones, como hacerlas, para que");
+        jLabel36.setText("Funciones, como hacerlas, para qué");
         jPanel7.add(jLabel36);
         jLabel36.setBounds(10, 40, 300, 20);
 

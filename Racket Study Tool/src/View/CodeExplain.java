@@ -33,6 +33,21 @@ public class CodeExplain extends javax.swing.JFrame {
         numerolinea = new NumeroLinea(Codigo5);
         jScrollPane16.setRowHeaderView(numerolinea);
         
+        numerolinea = new NumeroLinea(Codigo6);
+        jScrollPane17.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo7);
+        jScrollPane18.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo9);
+        jScrollPane20.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo10);
+        jScrollPane21.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(Codigo8);
+        jScrollPane19.setRowHeaderView(numerolinea);
+        
     }
 
     /** This method is called from within the constructor to
@@ -152,7 +167,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(20, 650, 80, 23);
+        menu.setBounds(20, 650, 80, 30);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
@@ -181,7 +196,7 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(180, 650, 110, 23);
+        Ayuda.setBounds(180, 650, 110, 30);
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
