@@ -500,7 +500,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/mate.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel13.add(jLabel2);
-        jLabel2.setBounds(0, 0, 330, 190);
+        jLabel2.setBounds(0, 10, 320, 180);
 
         jPanel4.add(jPanel13);
         jPanel13.setBounds(770, 160, 330, 330);
@@ -897,7 +897,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel21.setBounds(770, 1260, 328, 330);
 
         jLabel29.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
-        jLabel29.setText("Guia  Lenguaje Racket");
+        jLabel29.setText("Lenguaje Racket");
         jPanel4.add(jLabel29);
         jLabel29.setBounds(470, 30, 280, 40);
 
@@ -987,19 +987,19 @@ public class Menu extends javax.swing.JFrame {
         jPanel36.setBounds(600, 1620, 328, 330);
 
         jLabel62.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel62.setText("ejercicios practicos desde lo mas basico, hasta llegar a una aplicación con ventanas, animate a explorar este maravilloso mundo ");
+        jLabel62.setText("ejercicios practicos desde lo mas basico, hasta llegar a una aplicación con ventanas. Anímate a explorar este maravilloso mundo. ");
         jPanel4.add(jLabel62);
         jLabel62.setBounds(60, 110, 1010, 20);
 
         jLabel63.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel63.setText("Menu principal, aqui encontraras todo el menu que te adentrara en el mundo de la programación funcional y dentro ");
+        jLabel63.setText(" Encontraras mundo que te adentrará en el  de la programación funcional y dentro ");
         jPanel4.add(jLabel63);
-        jLabel63.setBounds(100, 70, 940, 20);
+        jLabel63.setBounds(60, 70, 940, 20);
 
         jLabel64.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jLabel64.setText("funcional y dentro del entorno de desarrollo de Dr Racket, aprenderas de manera interactiva, con ejemplos y ejercicios");
+        jLabel64.setText("del entorno de desarrollo de Dr Racket. Aprenderas de manera interactiva, con ejemplos y ");
         jPanel4.add(jLabel64);
-        jLabel64.setBounds(90, 90, 940, 20);
+        jLabel64.setBounds(60, 90, 940, 20);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);

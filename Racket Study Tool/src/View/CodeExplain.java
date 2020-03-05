@@ -65,6 +65,12 @@ public class CodeExplain extends javax.swing.JFrame {
         Codigo1 = new javax.swing.JTextPane();
         stop = new javax.swing.JButton();
         next1 = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        Ejecutar5 = new javax.swing.JButton();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        Codigo6 = new javax.swing.JTextPane();
+        stop6 = new javax.swing.JButton();
+        next6 = new javax.swing.JButton();
         jPanel3 = new javax.swing.JPanel();
         Ejecutar1 = new javax.swing.JButton();
         jScrollPane11 = new javax.swing.JScrollPane();
@@ -77,12 +83,36 @@ public class CodeExplain extends javax.swing.JFrame {
         Codigo3 = new javax.swing.JTextPane();
         stop3 = new javax.swing.JButton();
         next3 = new javax.swing.JButton();
+        jPanel13 = new javax.swing.JPanel();
+        Ejecutar9 = new javax.swing.JButton();
+        jScrollPane21 = new javax.swing.JScrollPane();
+        Codigo10 = new javax.swing.JTextPane();
+        stop10 = new javax.swing.JButton();
+        next10 = new javax.swing.JButton();
         jPanel7 = new javax.swing.JPanel();
         Ejecutar3 = new javax.swing.JButton();
         jScrollPane15 = new javax.swing.JScrollPane();
         Codigo4 = new javax.swing.JTextPane();
         stop4 = new javax.swing.JButton();
         next4 = new javax.swing.JButton();
+        jPanel10 = new javax.swing.JPanel();
+        Ejecutar6 = new javax.swing.JButton();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        Codigo7 = new javax.swing.JTextPane();
+        stop7 = new javax.swing.JButton();
+        next7 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+        Ejecutar8 = new javax.swing.JButton();
+        jScrollPane20 = new javax.swing.JScrollPane();
+        Codigo9 = new javax.swing.JTextPane();
+        stop9 = new javax.swing.JButton();
+        next9 = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        Ejecutar7 = new javax.swing.JButton();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        Codigo8 = new javax.swing.JTextPane();
+        stop8 = new javax.swing.JButton();
+        next8 = new javax.swing.JButton();
         jPanel8 = new javax.swing.JPanel();
         Ejecutar4 = new javax.swing.JButton();
         jScrollPane16 = new javax.swing.JScrollPane();
@@ -99,21 +129,21 @@ public class CodeExplain extends javax.swing.JFrame {
         jScrollPane1.setViewportView(Pasos);
 
         jPanel1.add(jScrollPane1);
-        jScrollPane1.setBounds(20, 140, 270, 132);
+        jScrollPane1.setBounds(20, 130, 270, 132);
 
         Valores.setColumns(20);
         Valores.setRows(5);
         jScrollPane2.setViewportView(Valores);
 
         jPanel1.add(jScrollPane2);
-        jScrollPane2.setBounds(20, 310, 270, 145);
+        jScrollPane2.setBounds(20, 300, 270, 145);
 
         Salida.setColumns(20);
         Salida.setRows(5);
         jScrollPane3.setViewportView(Salida);
 
         jPanel1.add(jScrollPane3);
-        jScrollPane3.setBounds(20, 500, 270, 143);
+        jScrollPane3.setBounds(20, 490, 270, 143);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Paso a Paso");
@@ -122,27 +152,27 @@ public class CodeExplain extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(20, 660, 80, 23);
+        menu.setBounds(20, 650, 80, 23);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(20, 110, 100, 20);
+        jLabel1.setBounds(20, 100, 100, 20);
 
         jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
-        jLabel3.setText("Codigo");
+        jLabel3.setText(" Codigo");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(330, 110, 60, 19);
+        jLabel3.setBounds(300, 100, 60, 19);
 
         jLabel4.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel4.setText("Valores de las variables");
         jPanel1.add(jLabel4);
-        jLabel4.setBounds(20, 290, 170, 19);
+        jLabel4.setBounds(20, 280, 170, 19);
 
         jLabel5.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel5.setText("Salida");
         jPanel1.add(jLabel5);
-        jLabel5.setBounds(20, 480, 60, 19);
+        jLabel5.setBounds(20, 470, 60, 19);
 
         Ayuda.setText("Ayuda");
         Ayuda.addActionListener(new java.awt.event.ActionListener() {
@@ -151,7 +181,7 @@ public class CodeExplain extends javax.swing.JFrame {
             }
         });
         jPanel1.add(Ayuda);
-        Ayuda.setBounds(180, 660, 110, 23);
+        Ayuda.setBounds(180, 650, 110, 23);
 
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
@@ -176,7 +206,7 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                         .addComponent(stop, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -201,6 +231,46 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Funciones", jPanel2);
 
+        Ejecutar5.setText("Ejecutar");
+
+        jScrollPane17.setViewportView(Codigo6);
+
+        stop6.setText("Parar");
+
+        next6.setText("Paso siguiente");
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addComponent(stop6, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(next6, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ejecutar5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(next6)
+                        .addComponent(stop6))
+                    .addComponent(Ejecutar5))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Expreciones Matematicas", jPanel9);
+
         Ejecutar1.setText("Ejecutar");
 
         Codigo2.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
@@ -217,7 +287,7 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addComponent(stop2, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -256,7 +326,7 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
                         .addComponent(stop3, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -281,6 +351,46 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Recursividad", jPanel4);
 
+        Ejecutar9.setText("Ejecutar");
+
+        jScrollPane21.setViewportView(Codigo10);
+
+        stop10.setText("Parar");
+
+        next10.setText("Paso siguiente");
+
+        javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
+        jPanel13.setLayout(jPanel13Layout);
+        jPanel13Layout.setHorizontalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane21, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                        .addComponent(stop10, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(next10, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ejecutar9, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel13Layout.setVerticalGroup(
+            jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel13Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(next10)
+                        .addComponent(stop10))
+                    .addComponent(Ejecutar9))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Caracteres", jPanel13);
+
         Ejecutar3.setText("Ejecutar");
 
         jScrollPane15.setViewportView(Codigo4);
@@ -296,7 +406,7 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                         .addComponent(stop4, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -321,6 +431,126 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Cadenas", jPanel7);
 
+        Ejecutar6.setText("Ejecutar");
+
+        jScrollPane18.setViewportView(Codigo7);
+
+        stop7.setText("Parar");
+
+        next7.setText("Paso siguiente");
+
+        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
+        jPanel10.setLayout(jPanel10Layout);
+        jPanel10Layout.setHorizontalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane18, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
+                        .addComponent(stop7, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(next7, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ejecutar6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel10Layout.setVerticalGroup(
+            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(next7)
+                        .addComponent(stop7))
+                    .addComponent(Ejecutar6))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Vectores", jPanel10);
+
+        Ejecutar8.setText("Ejecutar");
+
+        jScrollPane20.setViewportView(Codigo9);
+
+        stop9.setText("Parar");
+
+        next9.setText("Paso siguiente");
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane20, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                        .addComponent(stop9, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(next9, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ejecutar8, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(next9)
+                        .addComponent(stop9))
+                    .addComponent(Ejecutar8))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Pares", jPanel12);
+
+        Ejecutar7.setText("Ejecutar");
+
+        jScrollPane19.setViewportView(Codigo8);
+
+        stop8.setText("Parar");
+
+        next8.setText("Paso siguiente");
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                        .addComponent(stop8, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(next8, javax.swing.GroupLayout.PREFERRED_SIZE, 123, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(Ejecutar7, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap())
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 479, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                        .addComponent(next8)
+                        .addComponent(stop8))
+                    .addComponent(Ejecutar7))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        jTabbedPane1.addTab("Listas", jPanel11);
+
         Ejecutar4.setText("Ejecutar");
 
         jScrollPane16.setViewportView(Codigo5);
@@ -336,7 +566,7 @@ public class CodeExplain extends javax.swing.JFrame {
             .addGroup(jPanel8Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 643, Short.MAX_VALUE)
+                    .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 913, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                         .addComponent(stop5, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
@@ -362,13 +592,13 @@ public class CodeExplain extends javax.swing.JFrame {
         jTabbedPane1.addTab("Estructuras de Datos", jPanel8);
 
         jPanel1.add(jTabbedPane1);
-        jTabbedPane1.setBounds(320, 140, 670, 560);
+        jTabbedPane1.setBounds(300, 130, 940, 560);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1000, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 1246, javax.swing.GroupLayout.PREFERRED_SIZE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -425,15 +655,25 @@ public class CodeExplain extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     public javax.swing.JButton Ayuda;
     public javax.swing.JTextPane Codigo1;
+    public javax.swing.JTextPane Codigo10;
     public javax.swing.JTextPane Codigo2;
     public javax.swing.JTextPane Codigo3;
     public javax.swing.JTextPane Codigo4;
     public javax.swing.JTextPane Codigo5;
+    public javax.swing.JTextPane Codigo6;
+    public javax.swing.JTextPane Codigo7;
+    public javax.swing.JTextPane Codigo8;
+    public javax.swing.JTextPane Codigo9;
     public javax.swing.JButton Ejecutar;
     public javax.swing.JButton Ejecutar1;
     public javax.swing.JButton Ejecutar2;
     public javax.swing.JButton Ejecutar3;
     public javax.swing.JButton Ejecutar4;
+    public javax.swing.JButton Ejecutar5;
+    public javax.swing.JButton Ejecutar6;
+    public javax.swing.JButton Ejecutar7;
+    public javax.swing.JButton Ejecutar8;
+    public javax.swing.JButton Ejecutar9;
     public javax.swing.JTextArea Pasos;
     public javax.swing.JTextArea Salida;
     public javax.swing.JTextArea Valores;
@@ -443,31 +683,51 @@ public class CodeExplain extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane15;
     private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane9;
     private javax.swing.JTabbedPane jTabbedPane1;
     public javax.swing.JButton menu;
     public javax.swing.JButton next1;
+    public javax.swing.JButton next10;
     public javax.swing.JButton next2;
     public javax.swing.JButton next3;
     public javax.swing.JButton next4;
     public javax.swing.JButton next5;
+    public javax.swing.JButton next6;
+    public javax.swing.JButton next7;
+    public javax.swing.JButton next8;
+    public javax.swing.JButton next9;
     public javax.swing.JButton stop;
+    public javax.swing.JButton stop10;
     public javax.swing.JButton stop2;
     public javax.swing.JButton stop3;
     public javax.swing.JButton stop4;
     public javax.swing.JButton stop5;
+    public javax.swing.JButton stop6;
+    public javax.swing.JButton stop7;
+    public javax.swing.JButton stop8;
+    public javax.swing.JButton stop9;
     // End of variables declaration//GEN-END:variables
 
 }
