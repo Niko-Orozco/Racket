@@ -232,8 +232,7 @@ public class Controlador {
            
            explaincode(1);//ejecuta la funcion explaincode , no es necesaria la variable
         });
-        CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {
-            
+        CodeExp.Ejecutar1.addActionListener((ActionEvent e) -> {           
            CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
            CodeExp.Valores.setText("");//pone campo en blanco 
            CodeExp.Salida.setText("");//pone campo en blanco
