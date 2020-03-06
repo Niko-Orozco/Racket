@@ -422,25 +422,25 @@ int linea=0; //Variable Global
                 {"4","( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))","",""},
                 {"5","( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))","p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
                 {"6","( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))","p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")",""},
                 {"8"," ( display ( Tienda-Producto p1 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate"},
                 {"9","( display ( Tienda-Precio p1 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 mil"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 mil"},
                 {"11","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos"},
                 {"12","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 mil"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 mil"},
                 {"14","( display ( Tienda-Producto p2 ) )","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos"},
                 {"15","( display ( Tienda-Precio p2 ))","p3 => #(struct:Tienda \"Salchicha\" \"50 mil\" \"Importada desde Japón\")\n" +
-"p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
-"p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos8 mil"},
+                "p2 => #(struct:Tienda \"Huevos\" \"8 mil\" \" Los mejores huevos de la ciudad \")\n" +
+                "p1 => #(struct:Tienda \"Chocolate\" \"10 mil\" \"Consumir antes de terminar el año\")","Chocolate10 milHuevos8 milHuevos8 mil"},
                 {"18","","","Chocolate10 milHuevos8 milHuevos8 mil"},
             
             };
@@ -1116,7 +1116,7 @@ int linea=0; //Variable Global
                                an = "";
                            }
                    }*/
-                   if(d < str.length()){
+                   /*if(d < str.length()){
                        for(int z = d; z < str.length(); z++)
                                 if(((str.charAt(d) == '0') && (str.charAt(d) == ' ')) || ((str.charAt(d) == '1') && (str.charAt(d) == ' '))){
                                     ChangeColor.append(new Color(0,102,0), Character.toString(str.charAt(d)));
@@ -1144,7 +1144,7 @@ int linea=0; //Variable Global
                                     i = (i++ < str.length())? i++ : i;
                                 }
                          
-                   }
+                   }*/
                    if(d < str.length()){
                        for(int b = d; b < str.length();b++){
                             if(str.charAt(d) == ')'){
@@ -1176,11 +1176,11 @@ int linea=0; //Variable Global
                         "\n" +
                         ";Le ingresamos datos a la estructura clientes\n" +
                         "(define dato (make-Clientes (read) (read) (read) (read)))";
-        this.Codex.codes.setText(data);
+        PonerColor(Codex.codes, data);
         Codex.ok.addActionListener((ActionEvent e) -> {
             Codex.setVisible(false);
         });
-    }
+    } 
     
     public void addata(){
         this.n+=1;

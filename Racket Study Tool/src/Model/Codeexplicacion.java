@@ -127,53 +127,66 @@ public class Codeexplicacion {
                         "\n" +
                         "( define vec (make-vector 12)\n" +
                         "\n" +
-                        "( vector-fill! vec (random 220))\n" +
+                        "( define (LlenarRandom)\n" +
+                        "        ( vector-fill! vec (random 220))\n" +
+                        "        ( display vec )\n" +
+                        ")\n" +
                         "\n" +
-                        "( display vec )";
+                        "(LlenarRandom)";
         return data;
     }
     
     public String Ejemplo9(){
-        String data =   "( define-struct  Tienda ( Producto Precio descripción ) )\n" +
+        String data =   ";Cree un par mediante la funcion cons, llenelo  con  los  datos: 12 y \"Mariana\". Defina una funcion\n" +
+                        ";tal que pregunte si el argumento recivido es un par;  Sí lo és,  mostrar  por  pantalla  \"Es  par\",  la\n" +
+                        ";suma de la cabeza y el dato almacenado en la cola\n\n" +
                         "\n" +
-                        "(define (CrearTienda)\n" +
-                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))\n" +
-                        "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
-                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p1 ) )\n" +
-                        "       ( display ( Tienda-Precio p1 ))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
+                        "( define par (cons 12 \"Mariana\"))\n" +
+                        "(define ( SumadePares )\n" +
+                        "       (if (pair? par)\n" +
+                        "             (begin\n" +
+                        "                     (display \"Es par\")\n" +
+                        "                     (display (+ (car par)  5))\n" +
+                        "                     (display (cdr par))\n" +
+                        "             )\n" +
+                        "             (display \"No es un par\")\n" +
                         ")\n" +
-                        "\n" +
-                        "( CrearTienda )";
+                        "(SumadePares)";
         return data;
     }
     
     public String Ejemplo10(){
-        String data =   "( define-struct  Tienda ( Producto Precio descripción ) )\n" +
+        String data =   ";Cree  una  lista  vacia   mediante  la  funcion list. Defina una funcion tal que reciva una lista, sí esta lista está vacia \n" +
+                        ";Llenarla con numeros del 1 al 8. Mostrar los datos almacenados, mostrar la suma de los numeros almacenados\n" +
+                        ";y agregue mediante la funcion append los numeros 12 y 45,\n" +
                         "\n" +
-                        "(define (CrearTienda)\n" +
-                        "        ( define p1 ( make-Tienda \"Chocolate\"  \"10 mil\"  \"Consumir antes de terminar el año\"))\n" +
-                        "        ( define p2 ( make-Tienda \"Huevos\"  \"8 mil\"  \" Los mejores huevos de la ciudad \"))\n" +
-                        "        ( define p3 ( make-Tienda \"Salchicha\"  \"50 mil\"  \"Importada desde Japón\"))\n" +
+                        "(define listas (list))\n" +
                         "\n" +
-                        "       ( display ( Tienda-Producto p1 ) )\n" +
-                        "       ( display ( Tienda-Precio p1 ))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
-                        "\n" +
-                        "       ( display ( Tienda-Producto p2 ) )\n" +
-                        "       ( display ( Tienda-Precio p2 ))\n" +
+                        "(define (AgregarDatos)\n" +
+                        "          (append listas 1)\n" +
+                        "          (append listas 2)\n" +
+                        "          (append listas 3)\n" +
+                        "          (append listas 4)\n" +
+                        "          (append listas 5)\n" +
+                        "          (append listas 6)\n" +
+                        "          (append listas 7)\n" +
+                        "          (append listas 8)\n" +
                         ")\n" +
                         "\n" +
-                        "( CrearTienda )";
+                        "(define (EsVacia)\n" +
+                        " (if  (null? listas)\n" +
+                        "   (begin \n" +
+                        "        (AgregarDatos)\n" +
+                        "        (display listas)\n" +
+                        "   (display (+(+(+(+(+(+(+(list-ref listas 0)(list-ref listas 1))(list-ref listas 2))(list-ref listas 3))(list-ref listas 4))(list-ref listas 5))(list-ref  listas 6))(list-ref  listas 7)))\n" +
+                        "     (append listas 12)\n" +
+                        "     (append listas 45)\n" +
+                        "     (display listas) \n" +
+                        "   )\n" +
+                        " )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(EsVacia)";
         return data;
     }
     
