@@ -732,6 +732,9 @@ int linea=0; //Variable Global
         PonerColor(FuncView.code, Functions.Ejefunciones1());
         PonerColor(FuncView.code2, Functions.Ejefunciones2());
         PonerColor(FuncView.code3, Functions.Ejefunciones3());
+        PonerColor(FuncView.code4, Functions.Ejefunciones4());
+        PonerColor(FuncView.code5, Functions.Ejefunciones5());
+        PonerColor(FuncView.code6, Functions.Ejefunciones6());
         
         FuncView.run1.addActionListener((ActionEvent e) -> {
             FuncView.verinfo1.setText(runCodeFunc(1));

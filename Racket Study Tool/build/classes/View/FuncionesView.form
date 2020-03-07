@@ -23,7 +23,10 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" min="-2" pref="1146" max="-2" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" pref="1151" max="32767" attributes="0"/>
+              <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+          </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
@@ -92,7 +95,6 @@
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
-                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -139,7 +141,6 @@
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
-                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -166,7 +167,6 @@
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
-                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -191,7 +191,7 @@
         <Container class="javax.swing.JScrollPane" name="jScrollPane13">
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="510" y="70" width="630" height="600"/>
+              <AbsoluteConstraints x="510" y="70" width="640" height="600"/>
             </Constraint>
           </Constraints>
 
@@ -215,26 +215,29 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="0" attributes="0">
+                      <Group type="102" attributes="0">
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jTabbedPane1" min="-2" pref="583" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
-                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Group type="102" alignment="0" attributes="0">
-                                      <Component id="jLabel15" min="-2" pref="500" max="-2" attributes="0"/>
-                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel15" alignment="0" min="-2" pref="500" max="-2" attributes="0"/>
+                                      <Component id="jTabbedPane1" alignment="0" min="-2" pref="598" max="-2" attributes="0"/>
+                                      <Component id="jScrollPane11" alignment="0" min="-2" pref="594" max="-2" attributes="0"/>
                                   </Group>
-                                  <Component id="jScrollPane7" alignment="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                               </Group>
                           </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="PasoPaso" min="-2" pref="136" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -248,11 +251,13 @@
                           </Group>
                           <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
                           <Component id="jLabel15" min="-2" pref="22" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                          <Component id="jScrollPane7" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace pref="57" max="32767" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Component id="jScrollPane11" min="-2" pref="200" max="-2" attributes="0"/>
+                          <EmptySpace pref="19" max="32767" attributes="0"/>
                           <Component id="jTabbedPane1" min="-2" pref="516" max="-2" attributes="0"/>
                           <EmptySpace max="-2" attributes="0"/>
+                          <Component id="PasoPaso" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -278,8 +283,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="define">
-                            <Property name="tabTitle" type="java.lang.String" value="define"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo1">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo1"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -291,7 +296,7 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jScrollPane2" alignment="0" pref="558" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane2" alignment="0" pref="573" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="run1" min="-2" pref="100" max="-2" attributes="0"/>
@@ -390,8 +395,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="read">
-                            <Property name="tabTitle" type="java.lang.String" value="read"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo2">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo2"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -403,7 +408,7 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jScrollPane9" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jScrollPane10" alignment="0" pref="558" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane10" alignment="0" pref="573" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="run2" min="-2" pref="100" max="-2" attributes="0"/>
@@ -502,8 +507,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="display">
-                            <Property name="tabTitle" type="java.lang.String" value="display"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo3">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo3"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -515,7 +520,7 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jScrollPane12" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jScrollPane14" alignment="0" pref="558" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane14" alignment="0" pref="573" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="run3" min="-2" pref="100" max="-2" attributes="0"/>
@@ -532,7 +537,7 @@
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="1" attributes="0">
-                                  <EmptySpace pref="24" max="32767" attributes="0"/>
+                                  <EmptySpace pref="27" max="32767" attributes="0"/>
                                   <Component id="jScrollPane12" min="-2" pref="270" max="-2" attributes="0"/>
                                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                                   <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
@@ -606,6 +611,339 @@
                         </Component>
                       </SubComponents>
                     </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel8">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="fc" green="fc" red="fc" type="rgb"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                          <JTabbedPaneConstraints tabName="Ejemplo4">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo4"/>
+                          </JTabbedPaneConstraints>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jScrollPane15" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane16" alignment="0" pref="573" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="run4" min="-2" pref="100" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel20" min="-2" pref="50" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane15" min="-2" pref="270" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane16" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Component id="run4" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane15">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextPane" name="code4">
+                              <Properties>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane16">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="verinfo4">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="jLabel20">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Consola"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="run4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Ejecutar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="run4ActionPerformed"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel9">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="fc" green="fc" red="fc" type="rgb"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                          <JTabbedPaneConstraints tabName="Ejemplo5">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo5"/>
+                          </JTabbedPaneConstraints>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jScrollPane17" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane18" alignment="0" pref="573" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="run5" min="-2" pref="100" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel21" min="-2" pref="50" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane17" min="-2" pref="270" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane18" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Component id="run5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane17">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextPane" name="code5">
+                              <Properties>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane18">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="verinfo5">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="jLabel21">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Consola"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="run5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Ejecutar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="run5ActionPerformed"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="jPanel10">
+                      <Properties>
+                        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                          <Color blue="fc" green="fc" red="fc" type="rgb"/>
+                        </Property>
+                      </Properties>
+                      <Constraints>
+                        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                          <JTabbedPaneConstraints tabName="Ejemplo6">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo6"/>
+                          </JTabbedPaneConstraints>
+                        </Constraint>
+                      </Constraints>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jScrollPane19" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="jScrollPane20" alignment="0" pref="573" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel22" min="-2" pref="50" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="run6" min="-2" pref="135" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace pref="27" max="32767" attributes="0"/>
+                                  <Component id="jScrollPane19" min="-2" pref="270" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="jScrollPane20" min="-2" pref="119" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <Component id="run6" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane19">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextPane" name="code6">
+                              <Properties>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane20">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTextArea" name="verinfo6">
+                              <Properties>
+                                <Property name="columns" type="int" value="20"/>
+                                <Property name="rows" type="int" value="5"/>
+                                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                  <Color id="Cursor Por defecto"/>
+                                </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
+                              </Properties>
+                              <AuxValues>
+                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                              </AuxValues>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JLabel" name="jLabel22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Consola"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="run6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Ejecutar"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="run6ActionPerformed"/>
+                          </Events>
+                          <AuxValues>
+                            <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                          </AuxValues>
+                        </Component>
+                      </SubComponents>
+                    </Container>
                   </SubComponents>
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel7">
@@ -626,263 +964,245 @@
                     <Property name="text" type="java.lang.String" value="Funciones que operan con valores numericos"/>
                   </Properties>
                 </Component>
-                <Container class="javax.swing.JScrollPane" name="jScrollPane7">
+                <Container class="javax.swing.JScrollPane" name="jScrollPane11">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                   <SubComponents>
-                    <Container class="javax.swing.JPanel" name="jPanel5">
-
-                      <Layout>
-                        <DimensionLayout dim="0">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Component id="jScrollPane11" alignment="0" pref="589" max="32767" attributes="0"/>
-                          </Group>
-                        </DimensionLayout>
-                        <DimensionLayout dim="1">
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
-                                  <Component id="jScrollPane11" min="-2" pref="200" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                              </Group>
-                          </Group>
-                        </DimensionLayout>
-                      </Layout>
-                      <SubComponents>
-                        <Container class="javax.swing.JScrollPane" name="jScrollPane11">
-                          <AuxValues>
-                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
-                          </AuxValues>
-
-                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
-                          <SubComponents>
-                            <Component class="javax.swing.JTable" name="DatosStruct">
-                              <Properties>
-                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
-                                  <Table columnCount="3" rowCount="60">
-                                    <Column editable="false" title="Funcion" type="java.lang.String">
-                                      <Data value="*"/>
-                                      <Data value="+"/>
-                                      <Data value="-"/>
-                                      <Data value="/"/>
-                                      <Data value="&lt;"/>
-                                      <Data value="&lt;="/>
-                                      <Data value="&gt;"/>
-                                      <Data value="&gt;="/>
-                                      <Data value="abs"/>
-                                      <Data value="acos"/>
-                                      <Data value="add1"/>
-                                      <Data value="angle"/>
-                                      <Data value="asin"/>
-                                      <Data value="atan"/>
-                                      <Data value="ceiling"/>
-                                      <Data value="complex?"/>
-                                      <Data value="conjugate"/>
-                                      <Data value="cos"/>
-                                      <Data value="cosh"/>
-                                      <Data value="current-secconds"/>
-                                      <Data value="e"/>
-                                      <Data value="event?"/>
-                                      <Data value="exact-&gt;inexact"/>
-                                      <Data value="exact?"/>
-                                      <Data value="exp"/>
-                                      <Data value="expt"/>
-                                      <Data value="floor"/>
-                                      <Data value="gcd"/>
-                                      <Data value="imag-part"/>
-                                      <Data value="integer-&gt;char"/>
-                                      <Data value="integer-sqrt"/>
-                                      <Data value="integer?"/>
-                                      <Data value="log"/>
-                                      <Data value="magnitude"/>
-                                      <Data value="make-polar"/>
-                                      <Data value="make-rectangular"/>
-                                      <Data value="max"/>
-                                      <Data value="min"/>
-                                      <Data value="modulo"/>
-                                      <Data value="negative?"/>
-                                      <Data value="number-&gt;string"/>
-                                      <Data value="number?"/>
-                                      <Data value="numerator"/>
-                                      <Data value="odd?"/>
-                                      <Data value="Pi"/>
-                                      <Data value="positive?"/>
-                                      <Data value="quotient"/>
-                                      <Data value="random"/>
-                                      <Data value="rational?"/>
-                                      <Data value="real-part"/>
-                                      <Data value="real?"/>
-                                      <Data value="remainder"/>
-                                      <Data value="round"/>
-                                      <Data value="sgn"/>
-                                      <Data value="sin"/>
-                                      <Data value="sinh"/>
-                                      <Data value="sqrt"/>
-                                      <Data value="sub1"/>
-                                      <Data value="tan"/>
-                                      <Data value="zero?"/>
-                                    </Column>
-                                    <Column editable="false" title="Entrada-salida" type="java.lang.String">
-                                      <Data value="(* num1 num2) -&gt; num"/>
-                                      <Data value="(+ num1 num2) -&gt; num"/>
-                                      <Data value="(-  num1 num2) -&gt; num"/>
-                                      <Data value="(/  num1 num2) -&gt; num"/>
-                                      <Data value="(&lt; num1 num2) -&gt; #t o #f"/>
-                                      <Data value="&lt;= num1 num2) -&gt; #t o #f"/>
-                                      <Data value="(&gt;  num1 num2) -&gt; #t o #f"/>
-                                      <Data value="(&gt;= num1 num2) -&gt; #t o #f"/>
-                                      <Data value="(abs  num) -&gt; num"/>
-                                      <Data value="(acos  num) -&gt; num"/>
-                                      <Data value="(add1  num) -&gt; num+1"/>
-                                      <Data value="(angle  num) -&gt; num"/>
-                                      <Data value="(asin  num) -&gt; num"/>
-                                      <Data value="(atan  num) -&gt; num"/>
-                                      <Data value="(celing  num) -&gt; num"/>
-                                      <Data value="(any  data) -&gt; #t o #f"/>
-                                      <Data value="(conjugate  num) -&gt; num"/>
-                                      <Data value="(cos  num) -&gt; num"/>
-                                      <Data value="(cosh  num) -&gt; num"/>
-                                      <Data value="date"/>
-                                      <Data value="( e ) -&gt; num"/>
-                                      <Data value="(even?  num) -&gt; #t o #f"/>
-                                      <Data value="(exact-&gt;inexact  num) -&gt; num"/>
-                                      <Data value="(exact?  num) -&gt; #t  o #f"/>
-                                      <Data value="(exp num) -&gt; num"/>
-                                      <Data value="(expt num1 num2) -&gt; num"/>
-                                      <Data value="(floor num) -&gt; num"/>
-                                      <Data value="(gcd num1 num2) -&gt; num"/>
-                                      <Data value="(image-part  num ) -&gt; num"/>
-                                      <Data value="(integer-&gt;char num) -&gt; char"/>
-                                      <Data value="(integer-sqrt  num) -&gt; raiz( num)"/>
-                                      <Data value="(integer? any) -&gt; #f t o #f"/>
-                                      <Data value="(log  num) -&gt; num"/>
-                                      <Data value="(magnitude  num) -&gt; num"/>
-                                      <Data value="(make-polar num1 num2) -&gt; num"/>
-                                      <Data value="(make-rectangular num1 num2) -&gt; num"/>
-                                      <Data value="(max num1  num2) -&gt; num"/>
-                                      <Data value="(min num1  num2) -&gt; num"/>
-                                      <Data value="(modulo num1  num2) -&gt; num"/>
-                                      <Data value="(negative?  num) -&gt; #t  o #f"/>
-                                      <Data value="(number-&gt;string num) -&gt; string"/>
-                                      <Data value="(number? any) -&gt; #f t o #f"/>
-                                      <Data value="(numerator num) -&gt; num"/>
-                                      <Data value="(add? num) -&gt; #f t o #f"/>
-                                      <Data value="( Pi ) -&gt; num"/>
-                                      <Data value="(positive? num) -&gt; #f t o #f"/>
-                                      <Data value="(quotient num1  num2) -&gt; num"/>
-                                      <Data value="( random ) -&gt; num"/>
-                                      <Data value="(rational? any) -&gt; #f t o #f"/>
-                                      <Data value="(real-part num) -&gt; num"/>
-                                      <Data value="(real? any) -&gt; #f t o #f"/>
-                                      <Data value="(reminder  num1  num2) -&gt; num"/>
-                                      <Data value="(round  num) -&gt; num"/>
-                                      <Data value="(sgn  num) -&gt; num"/>
-                                      <Data value="(sin  num) -&gt; num"/>
-                                      <Data value="(sinh  num) -&gt; num"/>
-                                      <Data value="(sqrt  num) -&gt; raiz(num)"/>
-                                      <Data value="(sub1  num) -&gt; num-1"/>
-                                      <Data value="(tan  num) -&gt; num"/>
-                                      <Data value="(zero? num) -&gt; #f t o #f"/>
-                                    </Column>
-                                    <Column editable="false" title="Descripcion" type="java.lang.String">
-                                      <Data value="Multiplicacion"/>
-                                      <Data value="Suma"/>
-                                      <Data value="Resta"/>
-                                      <Data value="Division"/>
-                                      <Data value="Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"/>
-                                      <Data value="Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"/>
-                                      <Data value="Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"/>
-                                      <Data value="Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f"/>
-                                      <Data value="Valor absoluto de un numero"/>
-                                      <Data value="Arco-coseno"/>
-                                      <Data value="Aumenta un numero en 1"/>
-                                      <Data value="Calcula el angulo de un real"/>
-                                      <Data value="Arco-seno"/>
-                                      <Data value="Arco-tangente"/>
-                                      <Data value="Aproxima un valor real"/>
-                                      <Data value="Evalua si algo es un numero complejo"/>
-                                      <Data value="El conjugado complejo de un numero"/>
-                                      <Data value="Coseno"/>
-                                      <Data value="Coseno Hiperbolico"/>
-                                      <Data value="Devuelve la hora actual en segundos"/>
-                                      <Data value="&apos;&apos;e&apos;&apos; es Euler 2.718281"/>
-                                      <Data value="Prueba un numero para una propiedad particular devolviendo segun sea el caso #t o #f"/>
-                                      <Data value="Las operaciones especiales exact-&gt;inexact son vasados en los tipos de datos numericos asegurando que el tipo respectivo es exacto o no"/>
-                                      <Data value="Nos dice si el numero es exacto o no"/>
-                                      <Data value="Devuelve el valor de Euler elevado a la potencia indicada"/>
-                                      <Data value="Eleva un numero a determinada potencia"/>
-                                      <Data value="Aproxima a piso"/>
-                                      <Data value="Maximo comun divisor"/>
-                                      <Data value="Devuelve la parte imaginaria de un numero complejo en coordenadas rectangulares"/>
-                                      <Data value="Entero o Caracter"/>
-                                      <Data value="Saca la raiz de un numero entero"/>
-                                      <Data value="Nos dice si algo es un numero entero o no"/>
-                                      <Data value="Calcula el logaritmo de un numero"/>
-                                      <Data value="Devuelve la magnitud de un numero complejo en coordenadas rectangulares"/>
-                                      <Data value="Devuelve el resultado de la operacion (+(* magnitude (cos num))(* magnitude (cos num)))"/>
-                                      <Data value="Devuelve el resultado de la operacion (+ x (* y + 0+li))"/>
-                                      <Data value="Evalua dos o mas numeros y nos dice cual es el mayor de todos"/>
-                                      <Data value="Evalua dos o mas numeros y nos dice cual es el menor de todos"/>
-                                      <Data value="Devuelve el modulo de la division entre dos numeros"/>
-                                      <Data value="Evalua un numero y dice si es negativo o no"/>
-                                      <Data value="Devuelve una cadena que es la forma impresa de num es la base especificada por r (2,8,10,16)"/>
-                                      <Data value="Evalua el valor y nos dice si es un numero"/>
-                                      <Data value="Encuentra el numerado del numero expresado, obliga al numero racinal a ser un numero exacto"/>
-                                      <Data value="Devuelve el resultado de evaluar (not(even? n))"/>
-                                      <Data value="&apos;&apos;pi&apos;&apos; es igual a:3.14159265"/>
-                                      <Data value="Devuelve #t si num es mayor a 0, #f en caso contrario"/>
-                                      <Data value="Devuelve el cociente de la division entre dos numeros"/>
-                                      <Data value="Devuelve un numero aleatorio"/>
-                                      <Data value="Devuelve #t si any es un numero racional, #f en otro caso"/>
-                                      <Data value="Devuelve la parte real de un numero complejo en coordenadas rectangulares"/>
-                                      <Data value="Evalua un valor y nos dice si es real"/>
-                                      <Data value="Devuelve el residuo de la division entre dos numeros"/>
-                                      <Data value="Redondea un numero"/>
-                                      <Data value="Devuelve el signo de un numero como -1,0,1"/>
-                                      <Data value="Devuelve el seno de un numero"/>
-                                      <Data value="Devuelve el seno hiperbolico de un numero"/>
-                                      <Data value="Calcula la raiz cuadrada de un numero"/>
-                                      <Data value="Devuelve el resultado de la operacion (- num 1)"/>
-                                      <Data value="Devuelve la tagente de un numero"/>
-                                      <Data value="Evalua un numero y nos dice si es cero o no"/>
-                                    </Column>
-                                  </Table>
-                                </Property>
-                                <Property name="toolTipText" type="java.lang.String" value=""/>
-                                <Property name="autoResizeMode" type="int" value="4"/>
-                                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
-                                  <TableColumnModel selectionModel="0">
-                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                      <Title/>
-                                      <Editor/>
-                                      <Renderer/>
-                                    </Column>
-                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                      <Title/>
-                                      <Editor/>
-                                      <Renderer/>
-                                    </Column>
-                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
-                                      <Title/>
-                                      <Editor/>
-                                      <Renderer/>
-                                    </Column>
-                                  </TableColumnModel>
-                                </Property>
-                                <Property name="focusable" type="boolean" value="false"/>
-                                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
-                                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
-                                </Property>
-                              </Properties>
-                              <AuxValues>
-                                <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
-                              </AuxValues>
-                            </Component>
-                          </SubComponents>
-                        </Container>
-                      </SubComponents>
-                    </Container>
+                    <Component class="javax.swing.JTable" name="DatosStruct">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="3" rowCount="60">
+                            <Column editable="false" title="Funcion" type="java.lang.String">
+                              <Data value="*"/>
+                              <Data value="+"/>
+                              <Data value="-"/>
+                              <Data value="/"/>
+                              <Data value="&lt;"/>
+                              <Data value="&lt;="/>
+                              <Data value="&gt;"/>
+                              <Data value="&gt;="/>
+                              <Data value="abs"/>
+                              <Data value="acos"/>
+                              <Data value="add1"/>
+                              <Data value="angle"/>
+                              <Data value="asin"/>
+                              <Data value="atan"/>
+                              <Data value="ceiling"/>
+                              <Data value="complex?"/>
+                              <Data value="conjugate"/>
+                              <Data value="cos"/>
+                              <Data value="cosh"/>
+                              <Data value="current-secconds"/>
+                              <Data value="e"/>
+                              <Data value="event?"/>
+                              <Data value="exact-&gt;inexact"/>
+                              <Data value="exact?"/>
+                              <Data value="exp"/>
+                              <Data value="expt"/>
+                              <Data value="floor"/>
+                              <Data value="gcd"/>
+                              <Data value="imag-part"/>
+                              <Data value="integer-&gt;char"/>
+                              <Data value="integer-sqrt"/>
+                              <Data value="integer?"/>
+                              <Data value="log"/>
+                              <Data value="magnitude"/>
+                              <Data value="make-polar"/>
+                              <Data value="make-rectangular"/>
+                              <Data value="max"/>
+                              <Data value="min"/>
+                              <Data value="modulo"/>
+                              <Data value="negative?"/>
+                              <Data value="number-&gt;string"/>
+                              <Data value="number?"/>
+                              <Data value="numerator"/>
+                              <Data value="odd?"/>
+                              <Data value="Pi"/>
+                              <Data value="positive?"/>
+                              <Data value="quotient"/>
+                              <Data value="random"/>
+                              <Data value="rational?"/>
+                              <Data value="real-part"/>
+                              <Data value="real?"/>
+                              <Data value="remainder"/>
+                              <Data value="round"/>
+                              <Data value="sgn"/>
+                              <Data value="sin"/>
+                              <Data value="sinh"/>
+                              <Data value="sqrt"/>
+                              <Data value="sub1"/>
+                              <Data value="tan"/>
+                              <Data value="zero?"/>
+                            </Column>
+                            <Column editable="false" title="Entrada-salida" type="java.lang.String">
+                              <Data value="(* num1 num2) -&gt; num"/>
+                              <Data value="(+ num1 num2) -&gt; num"/>
+                              <Data value="(-  num1 num2) -&gt; num"/>
+                              <Data value="(/  num1 num2) -&gt; num"/>
+                              <Data value="(&lt; num1 num2) -&gt; #t o #f"/>
+                              <Data value="&lt;= num1 num2) -&gt; #t o #f"/>
+                              <Data value="(&gt;  num1 num2) -&gt; #t o #f"/>
+                              <Data value="(&gt;= num1 num2) -&gt; #t o #f"/>
+                              <Data value="(abs  num) -&gt; num"/>
+                              <Data value="(acos  num) -&gt; num"/>
+                              <Data value="(add1  num) -&gt; num+1"/>
+                              <Data value="(angle  num) -&gt; num"/>
+                              <Data value="(asin  num) -&gt; num"/>
+                              <Data value="(atan  num) -&gt; num"/>
+                              <Data value="(celing  num) -&gt; num"/>
+                              <Data value="(any  data) -&gt; #t o #f"/>
+                              <Data value="(conjugate  num) -&gt; num"/>
+                              <Data value="(cos  num) -&gt; num"/>
+                              <Data value="(cosh  num) -&gt; num"/>
+                              <Data value="date"/>
+                              <Data value="( e ) -&gt; num"/>
+                              <Data value="(even?  num) -&gt; #t o #f"/>
+                              <Data value="(exact-&gt;inexact  num) -&gt; num"/>
+                              <Data value="(exact?  num) -&gt; #t  o #f"/>
+                              <Data value="(exp num) -&gt; num"/>
+                              <Data value="(expt num1 num2) -&gt; num"/>
+                              <Data value="(floor num) -&gt; num"/>
+                              <Data value="(gcd num1 num2) -&gt; num"/>
+                              <Data value="(image-part  num ) -&gt; num"/>
+                              <Data value="(integer-&gt;char num) -&gt; char"/>
+                              <Data value="(integer-sqrt  num) -&gt; raiz( num)"/>
+                              <Data value="(integer? any) -&gt; #f t o #f"/>
+                              <Data value="(log  num) -&gt; num"/>
+                              <Data value="(magnitude  num) -&gt; num"/>
+                              <Data value="(make-polar num1 num2) -&gt; num"/>
+                              <Data value="(make-rectangular num1 num2) -&gt; num"/>
+                              <Data value="(max num1  num2) -&gt; num"/>
+                              <Data value="(min num1  num2) -&gt; num"/>
+                              <Data value="(modulo num1  num2) -&gt; num"/>
+                              <Data value="(negative?  num) -&gt; #t  o #f"/>
+                              <Data value="(number-&gt;string num) -&gt; string"/>
+                              <Data value="(number? any) -&gt; #f t o #f"/>
+                              <Data value="(numerator num) -&gt; num"/>
+                              <Data value="(add? num) -&gt; #f t o #f"/>
+                              <Data value="( Pi ) -&gt; num"/>
+                              <Data value="(positive? num) -&gt; #f t o #f"/>
+                              <Data value="(quotient num1  num2) -&gt; num"/>
+                              <Data value="( random ) -&gt; num"/>
+                              <Data value="(rational? any) -&gt; #f t o #f"/>
+                              <Data value="(real-part num) -&gt; num"/>
+                              <Data value="(real? any) -&gt; #f t o #f"/>
+                              <Data value="(reminder  num1  num2) -&gt; num"/>
+                              <Data value="(round  num) -&gt; num"/>
+                              <Data value="(sgn  num) -&gt; num"/>
+                              <Data value="(sin  num) -&gt; num"/>
+                              <Data value="(sinh  num) -&gt; num"/>
+                              <Data value="(sqrt  num) -&gt; raiz(num)"/>
+                              <Data value="(sub1  num) -&gt; num-1"/>
+                              <Data value="(tan  num) -&gt; num"/>
+                              <Data value="(zero? num) -&gt; #f t o #f"/>
+                            </Column>
+                            <Column editable="false" title="Descripcion" type="java.lang.String">
+                              <Data value="Multiplicacion"/>
+                              <Data value="Suma"/>
+                              <Data value="Resta"/>
+                              <Data value="Division"/>
+                              <Data value="Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"/>
+                              <Data value="Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"/>
+                              <Data value="Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"/>
+                              <Data value="Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f"/>
+                              <Data value="Valor absoluto de un numero"/>
+                              <Data value="Arco-coseno"/>
+                              <Data value="Aumenta un numero en 1"/>
+                              <Data value="Calcula el angulo de un real"/>
+                              <Data value="Arco-seno"/>
+                              <Data value="Arco-tangente"/>
+                              <Data value="Aproxima un valor real"/>
+                              <Data value="Evalua si algo es un numero complejo"/>
+                              <Data value="El conjugado complejo de un numero"/>
+                              <Data value="Coseno"/>
+                              <Data value="Coseno Hiperbolico"/>
+                              <Data value="Devuelve la hora actual en segundos"/>
+                              <Data value="&apos;&apos;e&apos;&apos; es Euler 2.718281"/>
+                              <Data value="Prueba un numero para una propiedad particular devolviendo segun sea el caso #t o #f"/>
+                              <Data value="Las operaciones especiales exact-&gt;inexact son vasados en los tipos de datos numericos asegurando que el tipo respectivo es exacto o no"/>
+                              <Data value="Nos dice si el numero es exacto o no"/>
+                              <Data value="Devuelve el valor de Euler elevado a la potencia indicada"/>
+                              <Data value="Eleva un numero a determinada potencia"/>
+                              <Data value="Aproxima a piso"/>
+                              <Data value="Maximo comun divisor"/>
+                              <Data value="Devuelve la parte imaginaria de un numero complejo en coordenadas rectangulares"/>
+                              <Data value="Entero o Caracter"/>
+                              <Data value="Saca la raiz de un numero entero"/>
+                              <Data value="Nos dice si algo es un numero entero o no"/>
+                              <Data value="Calcula el logaritmo de un numero"/>
+                              <Data value="Devuelve la magnitud de un numero complejo en coordenadas rectangulares"/>
+                              <Data value="Devuelve el resultado de la operacion (+(* magnitude (cos num))(* magnitude (cos num)))"/>
+                              <Data value="Devuelve el resultado de la operacion (+ x (* y + 0+li))"/>
+                              <Data value="Evalua dos o mas numeros y nos dice cual es el mayor de todos"/>
+                              <Data value="Evalua dos o mas numeros y nos dice cual es el menor de todos"/>
+                              <Data value="Devuelve el modulo de la division entre dos numeros"/>
+                              <Data value="Evalua un numero y dice si es negativo o no"/>
+                              <Data value="Devuelve una cadena que es la forma impresa de num es la base especificada por r (2,8,10,16)"/>
+                              <Data value="Evalua el valor y nos dice si es un numero"/>
+                              <Data value="Encuentra el numerado del numero expresado, obliga al numero racinal a ser un numero exacto"/>
+                              <Data value="Devuelve el resultado de evaluar (not(even? n))"/>
+                              <Data value="&apos;&apos;pi&apos;&apos; es igual a:3.14159265"/>
+                              <Data value="Devuelve #t si num es mayor a 0, #f en caso contrario"/>
+                              <Data value="Devuelve el cociente de la division entre dos numeros"/>
+                              <Data value="Devuelve un numero aleatorio"/>
+                              <Data value="Devuelve #t si any es un numero racional, #f en otro caso"/>
+                              <Data value="Devuelve la parte real de un numero complejo en coordenadas rectangulares"/>
+                              <Data value="Evalua un valor y nos dice si es real"/>
+                              <Data value="Devuelve el residuo de la division entre dos numeros"/>
+                              <Data value="Redondea un numero"/>
+                              <Data value="Devuelve el signo de un numero como -1,0,1"/>
+                              <Data value="Devuelve el seno de un numero"/>
+                              <Data value="Devuelve el seno hiperbolico de un numero"/>
+                              <Data value="Calcula la raiz cuadrada de un numero"/>
+                              <Data value="Devuelve el resultado de la operacion (- num 1)"/>
+                              <Data value="Devuelve la tagente de un numero"/>
+                              <Data value="Evalua un numero y nos dice si es cero o no"/>
+                            </Column>
+                          </Table>
+                        </Property>
+                        <Property name="toolTipText" type="java.lang.String" value=""/>
+                        <Property name="autoResizeMode" type="int" value="4"/>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                      <AuxValues>
+                        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                      </AuxValues>
+                    </Component>
                   </SubComponents>
                 </Container>
+                <Component class="javax.swing.JButton" name="PasoPaso">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Paso a Paso"/>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+                  </AuxValues>
+                </Component>
               </SubComponents>
             </Container>
           </SubComponents>

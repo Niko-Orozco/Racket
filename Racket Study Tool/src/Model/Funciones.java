@@ -25,6 +25,9 @@ public class Funciones {
                         "creadas por el usuario\n" +
                         "\n" +
                         "Ejemplo\n" +
+                        "(escribir \"Hola Mundo\")\n" +
+                        "\n" +
+                        "Sintaxis Racket\n" +
                         "(display \"Hola Mundo\")";
         return data;
     }
@@ -36,20 +39,45 @@ public class Funciones {
                         "Muchas  veces  cuando  programamos  necesitamos  usar un mismo valor\n" +
                         "en   repetidas   ocasiones,   sería   muy    tedioso  he  ineficiente  tener  que \n" +
                         "escribir   el   mismo   valor  tantas  veces  para   ello  le  asigna  un nombre o\n" +
-                        "(variable) a el valor. Por ejemplo\n" +
+                        "(variable) a el valor. \n" +
                         "\n" +
+                        "Ejemplo\n" +
+                        "(definir numer 234)\n" +
+                        "(definir letras \"Hola\")\n" +
+                        "\n" +
+                        "Sintaxxis Racket\n" +
                         "(define numer 234)\n" +
                         "(define letras \"Hola\")";
         return data;
     }
     
     public String funciones3(){
-        String data =   "A  diferencia  de  la   definición   de   parámetros,   los   argumentos   no   tienen\n" +
-                        "nombres.  Cada argumento  es una expresión, que puede contener cero o más\n" +
-                        "variables, constantes y literales. El tipo de datos de la expresión evaluada debe\n" +
-                        "coincidir    normalmente   con  el  tipo   de  datos   definido   para   el  parámetro \n" +
-                        "correspondiente   y,   en  cualquier   caso,   debe   ser  convertible  en  el tipo de \n" +
-                        "parámetro.";
+        String data =   "A   diferencia    de   la    definición    de    parámetros,    los    argumentos   no\n" +
+                        "tienen nombres.  Cada argumento   es  una expresión,  que puede contener \n" +
+                        "cero o más variables, constantes y literales. El tipo de datos de la expresión \n" +
+                        "evaluada   debe   coincidir    normalmente   con  el   tipo   de  datos   definido  \n" +
+                        "para    el    parámetro    correspondiente   y   en  cualquier   caso,   debe   ser\n" +
+                        "convertible  en  el tipo de parámetro.\n" +
+                        "\n" +
+                        "Parametro:\n" +
+                        "es una variable utilizada para recibir valores de entrada de un metodo.\n" +
+                        "\n" +
+                        "Ejemplo\n" +
+                        "(definir (Suma parametroA parametroB)\n" +
+                        "         (+  parametroA   parametroB)\n" +
+                        ")\n" +
+                        "\n" +
+                        "Sintaxis Racket\n" +
+                        "(define (Suma parametroA parametroB))\n" +
+                        "         (+  parametroA   parametroB)\n" +
+                        ")\n" +
+                        "\n" +
+                        "Argumento\n" +
+                        "Valores que son enviados desde un metodo hacia una funcion\n" +
+                        "\n" +
+                        "Ejemplo                   Salida\n" +
+                        "(Suma 2 3)    ->       5\n" +
+                        "(Suma 6 9)    ->       15";
         return data;
     }
     
@@ -100,6 +128,53 @@ public class Funciones {
                         "      (displayln \" Domingo\")\n" +
                         ")\n" +
                         "(DiasSemana)";
+        return data;
+    }
+    
+    public String Ejefunciones4(){
+        String data =   ";Crear un programa que nos calcule el promedio de 4 notas\n" +
+                        "\n" +
+                        "(define n1 (read))\n" +
+                        "(define n2 (read))\n" +
+                        "(define n3 (read))\n" +
+                        "(define n4 (read))\n" +
+                        "\n" +
+                        "(define (promedio w x y z)\n" +
+                        "    (/ (+ w x y z)4)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(Promedio n1 n2 n3 n4)";
+        return data;
+    }
+    
+    public String Ejefunciones5(){
+        String data =   ";Crear un programa que nos calcule el volumen de una esfera\n" +
+                        "\n" +
+                        "(define (cubo a)\n" +
+                        "     (* a a a)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(define (Volumen radio)\n" +
+                        "      (* (/ 4 3) 3.1416 (cubo radio))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(Volumen (read))";
+        return data;
+    }
+    
+    public String Ejefunciones6(){
+        String data =   ";Calcular el perimetro de un Rectangulo.\n" +
+                        "\n" +
+                        "(define (Perimetro)\n" +
+                        "   (display \"de altura: \")\n" +
+                        "   (define l (read))\n" +
+                        "   (display \"y de base: \")\n" +
+                        "   (define y (read))\n" +
+                        "   (display\" es: \")\n" +
+                        "   (* 2 (+ l y))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(Perimetro)";
         return data;
     }
     

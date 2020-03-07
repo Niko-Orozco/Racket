@@ -262,7 +262,7 @@ public class IntroView extends javax.swing.JFrame {
         });
 
         opciones.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        opciones.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "ORDENAMIENTOS", "InOrden", "PreOrden", "PosOrden", "PorNiveles", "NivelOrdenado" }));
+        opciones.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "RECORRIDO", "InOrden", "PreOrden", "PosOrden", "PorNiveles", "NivelOrdenado" }));
         opciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 opcionesActionPerformed(evt);
