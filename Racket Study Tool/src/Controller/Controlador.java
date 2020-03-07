@@ -745,7 +745,20 @@ int linea=0; //Variable Global
         FuncView.run3.addActionListener((ActionEvent e) -> {
             FuncView.verinfo3.setText(runCodeFunc(3));
         }); 
-        
+        FuncView.run4.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo3.setText(runCodeFunc(4));
+        }); 
+        FuncView.run5.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo3.setText(runCodeFunc(5));
+        }); 
+        FuncView.run6.addActionListener((ActionEvent e) -> {
+            FuncView.verinfo3.setText(runCodeFunc(6));
+        }); 
+        FuncView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            FuncView.setVisible(false);
+            explicacioncodigo();
+        });
         FuncView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             FuncView.setVisible(false);
@@ -759,8 +772,8 @@ int linea=0; //Variable Global
     }
     
     public String runCodeFunc(int ns){
-        String respuesta = "",aux="",n1,n2,n3,n4;
-        int nes = 1,nes2,nes3;
+        String respuesta = "",aux="";
+        int nes = 1,nes2,nes3,n1,n2,n3,n4;
         switch(ns){
             case 1: try {
                         respuesta = " "+ pow(3, 2);
@@ -781,7 +794,32 @@ int linea=0; //Variable Global
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
-                break;                   
+                break;      
+            case 4: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese nota 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese nota 2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese nota 3"));
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese nota 4"));
+                        respuesta = "la nota 1 es: "+n1 +"\nla nota 2 es: "+ n2 +"\nla nota 3 es: "+ n3 +"\nla nota 4 es: "+ n4 + "\n El promedio de las notas es: "+((n1+n2+n3+n4)/4);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 5: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese el radio"));
+                        respuesta = "El radio de la esfera es: "+n1+"\nEl volumen de la esfera es: "+ ((Math.PI * pow(n,3))*(4/3));
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 6: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la altura"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese la base"));
+                        respuesta = "La altura es: " + n1 + "\nLa base es: " + n2 + "\nEl perimetro del rectangulo es: " + (2 * (n1 + n2));
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
         }
         return respuesta;
     }
