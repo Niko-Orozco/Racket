@@ -52,6 +52,22 @@ public class Expreciones_Matematicas {
     }
       
     public String Ejeexpreciones2(){
+        String data =   ";Desarrolle un programa que nos diga cual es el area del Arco de una Circunferencia\n" +
+                        "\n" +
+                        "(define (ArcoCircunferencia)\n" +
+                        "     (display \"de radio: \")\n" +
+                        "      (define r (read))\n" +
+                        "      (display \"de alfa: \")\n" +
+                        "      (define alfa (read))\n" +
+                        "      (display \"es: \")\n" +
+                        "      (/ (*(*(* 2 pi)r)alfa)360)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ArcoCircunferencia)";
+        return data;
+    }
+    
+    public String Ejeexpreciones3(){
         String data =   ";Definir una función que calcule la distancia entre dos puntos de una recta\n" +
                         "\n" +
                         ";La fórmula para esto es:  raíz [ [x2-x1]^2 + [y2-y1]^2 ]\n" +
@@ -60,10 +76,56 @@ public class Expreciones_Matematicas {
                         "\n" +
                         "(define (Distancia x1 x2 y1 y2)\n" +
                         "          (displayln \"Distancia\")\n" +
-                        "          [sqrt (+ (expt (- x2 x1) 2) (expt (- y2 y1) 2)) ] \n" +
+                        "          (sqrt (+ (expt (- x2 x1) 2) (expt (- y2 y1) 2)) ) \n" +
                         ")\n" +
                         "\n" +
                         "(Distancia (read) (read) (read) (read))";
+        return data;
+    }
+    
+    public String Ejeexpreciones4(){
+        String data =   ";Diseñe un programa en racket que nos diga cual es la pendiente de una racta\n\n" +
+                        "\n" +
+                        "(define (PendienteReckta)\n" +
+                        "    (display \"Valor y2= \")\n" +
+                        "    (define y2 (read))\n" +
+                        "    (display \" Valor y1=  \")\n" +
+                        "    (define y1 (read))\n" +
+                        "    (display \"Valor x2=  \")\n" +
+                        "    (define x2 (read))\n" +
+                        "    (display \" Valor x1=  \")\n" +
+                        "    (define x1 (read))\n" +
+                        "    (display \" Pendiente= \")\n" +
+                        "    (/ (-y2 y1)(- x2 x1))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(PendienteReckta)";
+        return data;
+    }
+    
+    public String Ejeexpreciones5(){
+        String data =   ";Desarrolle un programa que nos calcule el area de un Tetraedro\n\n" +
+                        "(define (AreaTetraedro)\n" +
+                        "     (display \"de el valor  a\")\n" +
+                        "     (define a (read))\n" +
+                        "      (display \" es: \")\n" +
+                        "      (* (sqrt 3) (* a a a))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(AreaTetraedro)";
+        return data;
+    }
+    
+    public String Ejeexpreciones6(){
+        String data =   ";Desarrolle un programa que nos calcule el volumen de un Octaedro\n\n" +
+                        "(define (VolumenOctaedro)\n" +
+                        "    (display \" de el valor de a \")\n" +
+                        "    (define a (read))\n" +
+                        "    (display \" es: \")\n" +
+                        "    (* (/ (sqrt 2)3) (* a a a))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(VolumenOctaedro)";
         return data;
     }
 }

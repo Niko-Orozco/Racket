@@ -459,23 +459,40 @@ int linea=0; //Variable Global
     };
     
     public void exprecionesview(){
-        this.ExpresView.setTitle("Recursividad");
+        this.ExpresView.setTitle("Expreciones Matematicas");
         this.ExpresView.setLocationRelativeTo(null);
         ExpresView.Expreciones1.setText(Expres.expreciones1());
-        ExpresView.Expresiones2.setText(Expres.expreciones2()); 
+        ExpresView.Expresiones2.setText(Expres.expreciones2());       
         PonerColor(ExpresView.code, Expres.Ejeexpreciones1());
-        PonerColor(ExpresView.code2, Expres.Ejeexpreciones2());
+        PonerColor(ExpresView.code2, Expres.Ejeexpreciones2());      
+        PonerColor(ExpresView.code3, Expres.Ejeexpreciones3());
+        PonerColor(ExpresView.code4, Expres.Ejeexpreciones4());
+        PonerColor(ExpresView.code5, Expres.Ejeexpreciones5());
+        PonerColor(ExpresView.code6, Expres.Ejeexpreciones6());
         ExpresView.run1.addActionListener((ActionEvent e) -> {
             ExpresView.verinfo1.setText(runCodeExp(1));
         });
         ExpresView.run2.addActionListener((ActionEvent e) -> {
             ExpresView.verinfo2.setText(runCodeExp(2));
         }); 
-        /*ExpresView.seecode.addActionListener((ActionEvent e) -> {
-            Codex = new codex();
-            Codex.setVisible(true);
-            SeeCode2();
-        }); */
+        
+        ExpresView.run3.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo3.setText(runCodeExp(3));
+        }); 
+        ExpresView.run4.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo4.setText(runCodeExp(4));
+        }); 
+        ExpresView.run5.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo5.setText(runCodeExp(5));
+        }); 
+        ExpresView.run6.addActionListener((ActionEvent e) -> {
+            ExpresView.verinfo6.setText(runCodeExp(6));
+        }); 
+        ExpresView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            ExpresView.setVisible(false);
+            explicacioncodigo();
+        });
         ExpresView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ExpresView.setVisible(false);
@@ -528,23 +545,54 @@ int linea=0; //Variable Global
         int nes = 1,nes2,nes3=0,n1,n2,n3,n4;
         switch(ns){
             case 1: try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
-                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
-                        respuesta = "Area del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
-                     } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "Code Error");
-                     }
-                break;
-            case 2: try {
-                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 1"));
-                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 2"));
-                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 3"));
-                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese dato 4"));
-                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese radio interior "));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese radio exterior "));
+                        respuesta = "Radio Interoir: "+ n1 + "\nRadio exterior: " + n2 +"\nArea del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
                 break; 
+            case 2: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese radio"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese alfa"));
+                        respuesta = "Radio: "+ n1 + "\nAlfa: " + n2 +"\nArea del Arco de la circunferencia: "+ ((((Math.PI *2) * n1) * n2)/360);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 3: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese x1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese x2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese y1"));
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese y2"));
+                        respuesta = "Distancia: "+ Math.sqrt((pow((n2-n1), 2) + pow((n4-n3), 2))) ;
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 4: try {
+                        n4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese y2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese y1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese x2"));
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese x1"));
+                        respuesta = "\n La pendiente de la recta es: "+((n4-n3)/(n2-n1));
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 5: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor de a"));
+                        respuesta = "El valor de a es: "+n1+"\nEl area del tetraedro es: "+ ((Math.sqrt(3) * pow(n1,3)));
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 6: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor de a"));
+                        respuesta = "El valor de a es: "+n1+"\nEl area del Octaedro es: "+ ((Math.sqrt(2)/3 * pow(n1,3)));
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
         }
         return respuesta;
     }
