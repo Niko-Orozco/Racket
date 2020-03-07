@@ -126,6 +126,7 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones1.setColumns(20);
         funciones1.setRows(5);
         funciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones1.setFocusable(false);
         jScrollPane1.setViewportView(funciones1);
 
         jPanel2.add(jScrollPane1);
@@ -142,6 +143,7 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones2.setColumns(20);
         funciones2.setRows(5);
         funciones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones2.setFocusable(false);
         jScrollPane3.setViewportView(funciones2);
 
         jPanel2.add(jScrollPane3);
@@ -150,6 +152,7 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones3.setColumns(20);
         funciones3.setRows(5);
         funciones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones3.setFocusable(false);
         jScrollPane5.setViewportView(funciones3);
 
         jPanel2.add(jScrollPane5);
@@ -221,12 +224,11 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo1", jPanel3);
+        jTabbedPane1.addTab("Ejemplo 1", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -275,12 +277,11 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo2", jPanel4);
+        jTabbedPane1.addTab("Ejemplo 2", jPanel4);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code3.setFocusable(false);
         jScrollPane12.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -329,11 +330,12 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo3", jPanel6);
+        jTabbedPane1.addTab("Ejemplo 3", jPanel6);
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane15.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -382,11 +384,12 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo4", jPanel8);
+        jTabbedPane1.addTab("Ejemplo 4", jPanel8);
 
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane17.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -435,11 +438,12 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo5", jPanel9);
+        jTabbedPane1.addTab("Ejemplo 5", jPanel9);
 
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane19.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -488,7 +492,7 @@ public class FuncionesView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Ejemplo6", jPanel10);
+        jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
         jLabel7.setText("Ejemplos");
 
@@ -592,12 +596,9 @@ public class FuncionesView extends javax.swing.JFrame {
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel7Layout.createSequentialGroup()
-                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 598, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 594, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 0, 0))
+                    .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 598, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 594, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -606,7 +607,7 @@ public class FuncionesView extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PasoPaso, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(23, 23, 23))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

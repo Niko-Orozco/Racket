@@ -52,12 +52,10 @@ public class Controlador {
     private CuadroTexto ChangeColor;
     private GraficoView GraficView;
     private Modo_Grafico Mgrafico;
-    private IntroView introview;
-    
-    
-    
-    
-    
+    private IntroView introview;  
+
+    public Controlador() {
+    }
     
     public Controlador(Menu menu) {
         this.menu = menu;
@@ -473,11 +471,11 @@ int linea=0; //Variable Global
         ExpresView.run2.addActionListener((ActionEvent e) -> {
             ExpresView.verinfo2.setText(runCodeExp(2));
         }); 
-        ExpresView.seecode.addActionListener((ActionEvent e) -> {
+        /*ExpresView.seecode.addActionListener((ActionEvent e) -> {
             Codex = new codex();
             Codex.setVisible(true);
             SeeCode2();
-        }); 
+        }); */
         ExpresView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ExpresView.setVisible(false);
@@ -519,7 +517,7 @@ int linea=0; //Variable Global
                         "(define (Division a b)\n" +
                         "        (/ a b)\n" +
                         ")";
-        this.Codex.codes.setText(data);
+        PonerColor(this.Codex.codes, data);
         Codex.ok.addActionListener((ActionEvent e) -> {
             Codex.setVisible(false);
         });

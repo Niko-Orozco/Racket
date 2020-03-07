@@ -28,10 +28,10 @@ public class Expreciones_Matematicas {
         String data =   "Los operadores lógicos y de comparación nos proporcionan un resultado\n" +
                         "que indica el cumplimiento o no de una condición, es decir:\n" +
                         "\n" +
-                        "Si a < b:\n" +
-                        "       imprimir: a\n" +
-                        "sino:\n" +
-                        "       imprimir: b";
+                        "Si (< a  b)\n" +
+                        "       escribir: a\n" +
+                        "sino\n" +
+                        "       escribir: b";
         return data;
     }
      

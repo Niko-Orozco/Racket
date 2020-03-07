@@ -5,7 +5,15 @@
  */
 package View;
 
+import Controller.Controlador;
+import java.awt.event.ActionEvent;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseMotionAdapter;
+import java.awt.event.MouseWheelEvent;
 import javax.swing.ImageIcon;
+import javax.swing.event.MouseInputAdapter;
+import javax.swing.plaf.basic.BasicTabbedPaneUI;
 
 /**
  *
@@ -16,11 +24,16 @@ public class ExprecrionesView extends javax.swing.JFrame {
     /**
      * Creates new form ExprionesView
      */
-    NumeroLinea numerolinea;
+    private codex Codex;
+    private Controlador Controller;
+    private NumeroLinea numerolinea;
+    private int posx, posy;
     
     public ExprecrionesView() {
         setResizable(false);
         initComponents();
+        Controller = new Controlador();
+        Codex = new codex();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         
         numerolinea = new NumeroLinea(code);
@@ -65,6 +78,34 @@ public class ExprecrionesView extends javax.swing.JFrame {
         verinfo2 = new javax.swing.JTextArea();
         jLabel18 = new javax.swing.JLabel();
         run2 = new javax.swing.JButton();
+        jPanel8 = new javax.swing.JPanel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        code3 = new javax.swing.JTextPane();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        verinfo3 = new javax.swing.JTextArea();
+        jLabel19 = new javax.swing.JLabel();
+        run3 = new javax.swing.JButton();
+        jPanel9 = new javax.swing.JPanel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        code4 = new javax.swing.JTextPane();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        verinfo4 = new javax.swing.JTextArea();
+        jLabel20 = new javax.swing.JLabel();
+        run4 = new javax.swing.JButton();
+        jPanel11 = new javax.swing.JPanel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        code5 = new javax.swing.JTextPane();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        verinfo5 = new javax.swing.JTextArea();
+        jLabel21 = new javax.swing.JLabel();
+        run5 = new javax.swing.JButton();
+        jPanel12 = new javax.swing.JPanel();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        code6 = new javax.swing.JTextPane();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        verinfo6 = new javax.swing.JTextArea();
+        jLabel22 = new javax.swing.JLabel();
+        run6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jPanel6 = new javax.swing.JPanel();
@@ -82,7 +123,6 @@ public class ExprecrionesView extends javax.swing.JFrame {
         por = new javax.swing.JButton();
         dividido = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
-        seecode = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
         letsgo = new javax.swing.JButton();
         jLabel8 = new javax.swing.JLabel();
@@ -103,7 +143,6 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Expreciones1.setColumns(20);
         Expreciones1.setRows(5);
         Expreciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        Expreciones1.setFocusable(false);
         jScrollPane1.setViewportView(Expreciones1);
 
         jPanel2.add(jScrollPane1);
@@ -120,7 +159,6 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Expresiones2.setColumns(20);
         Expresiones2.setRows(5);
         Expresiones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        Expresiones2.setFocusable(false);
         jScrollPane3.setViewportView(Expresiones2);
 
         jPanel2.add(jScrollPane3);
@@ -191,7 +229,6 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -242,6 +279,218 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Ejemplo #2", jPanel4);
 
+        jPanel8.setBackground(new java.awt.Color(252, 252, 252));
+
+        code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane11.setViewportView(code3);
+
+        verinfo3.setColumns(20);
+        verinfo3.setRows(5);
+        verinfo3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo3.setFocusable(false);
+        jScrollPane12.setViewportView(verinfo3);
+
+        jLabel19.setText("Consola");
+
+        run3.setText("Ejecutar");
+        run3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run3ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
+        jPanel8.setLayout(jPanel8Layout);
+        jPanel8Layout.setHorizontalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane11)
+                    .addComponent(jScrollPane12, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run3, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(jLabel19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel8Layout.setVerticalGroup(
+            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel19)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane12, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run3)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Ejemplo #3", jPanel8);
+
+        jPanel9.setBackground(new java.awt.Color(252, 252, 252));
+
+        code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane14.setViewportView(code4);
+
+        verinfo4.setColumns(20);
+        verinfo4.setRows(5);
+        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo4.setFocusable(false);
+        jScrollPane15.setViewportView(verinfo4);
+
+        jLabel20.setText("Consola");
+
+        run4.setText("Ejecutar");
+        run4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run4ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
+        jPanel9.setLayout(jPanel9Layout);
+        jPanel9Layout.setHorizontalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane14)
+                    .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel9Layout.setVerticalGroup(
+            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel20)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run4)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Ejemplo #4", jPanel9);
+
+        jPanel11.setBackground(new java.awt.Color(252, 252, 252));
+
+        code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane16.setViewportView(code5);
+
+        verinfo5.setColumns(20);
+        verinfo5.setRows(5);
+        verinfo5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo5.setFocusable(false);
+        jScrollPane17.setViewportView(verinfo5);
+
+        jLabel21.setText("Consola");
+
+        run5.setText("Ejecutar");
+        run5.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run5ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel11Layout = new javax.swing.GroupLayout(jPanel11);
+        jPanel11.setLayout(jPanel11Layout);
+        jPanel11Layout.setHorizontalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel11Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane16)
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run5, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel11Layout.createSequentialGroup()
+                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel11Layout.setVerticalGroup(
+            jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel21)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run5)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Ejemplo #5", jPanel11);
+
+        jPanel12.setBackground(new java.awt.Color(252, 252, 252));
+
+        code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        jScrollPane18.setViewportView(code6);
+
+        verinfo6.setColumns(20);
+        verinfo6.setRows(5);
+        verinfo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        verinfo6.setFocusable(false);
+        jScrollPane19.setViewportView(verinfo6);
+
+        jLabel22.setText("Consola");
+
+        run6.setText("Ejecutar");
+        run6.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                run6ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane18)
+                    .addComponent(jScrollPane19, javax.swing.GroupLayout.DEFAULT_SIZE, 558, Short.MAX_VALUE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(run6, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(7, 7, 7)
+                .addComponent(run6)
+                .addContainerGap())
+        );
+
+        jTabbedPane1.addTab("Ejemplo #6", jPanel12);
+
         jLabel7.setText("Ejemplos");
 
         jButton2.setText("ayuda");
@@ -262,6 +511,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jPanel5.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel5MouseEntered(evt);
+            }
+        });
         jPanel5.setLayout(null);
 
         resultado.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -283,6 +537,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jLabel9.setBounds(150, 50, 30, 30);
 
         menos.setText("-");
+        menos.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                menosMouseEntered(evt);
+            }
+        });
         menos.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menosActionPerformed(evt);
@@ -292,6 +551,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
         menos.setBounds(20, 130, 50, 30);
 
         mas.setText("+");
+        mas.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                masMouseEntered(evt);
+            }
+        });
         mas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 masActionPerformed(evt);
@@ -301,6 +565,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
         mas.setBounds(20, 90, 50, 40);
 
         por.setText("*");
+        por.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                porMouseEntered(evt);
+            }
+        });
         por.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 porActionPerformed(evt);
@@ -310,6 +579,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
         por.setBounds(80, 90, 50, 40);
 
         dividido.setText("/");
+        dividido.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                divididoMouseEntered(evt);
+            }
+        });
         dividido.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 divididoActionPerformed(evt);
@@ -321,11 +595,6 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jLabel10.setText("Calculadora con operaciones basicas");
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
-
-        seecode.setFont(new java.awt.Font("Tahoma", 0, 10)); // NOI18N
-        seecode.setText("Ver codigo ");
-        jPanel5.add(seecode);
-        seecode.setBounds(170, 100, 90, 60);
 
         jScrollPane7.setViewportView(jPanel5);
 
@@ -442,25 +711,120 @@ public class ExprecrionesView extends javax.swing.JFrame {
     }//GEN-LAST:event_run2ActionPerformed
 
     private void masActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masActionPerformed
-        String res = ""+(Integer.parseInt(num1.getText()) + Integer.parseInt(num2.getText()));
-        resultado.setText(res);
+        try{
+            String res = ""+(Integer.parseInt(num1.getText()) + Integer.parseInt(num2.getText()));
+            resultado.setText(res);
+        }catch(NumberFormatException e){
+            
+        }
+        
     }//GEN-LAST:event_masActionPerformed
 
     private void porActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_porActionPerformed
-        String res = ""+(Integer.parseInt(num1.getText()) * Integer.parseInt(num2.getText()));
-        resultado.setText(res);
+        try{
+            String res = ""+(Integer.parseInt(num1.getText()) * Integer.parseInt(num2.getText()));
+            resultado.setText(res);
+        }catch(NumberFormatException e){
+            
+        }
+        
     }//GEN-LAST:event_porActionPerformed
 
     private void menosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menosActionPerformed
-        String res = ""+(Integer.parseInt(num1.getText()) - Integer.parseInt(num2.getText()));
-        resultado.setText(res);
+        try{
+            String res = ""+(Integer.parseInt(num1.getText()) - Integer.parseInt(num2.getText()));
+            resultado.setText(res);
+        }catch(NumberFormatException e){
+            
+        }
+        
     }//GEN-LAST:event_menosActionPerformed
 
     private void divididoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divididoActionPerformed
-        String res = ""+(Float.parseFloat(num1.getText()) / Float.parseFloat(num2.getText()));
-        resultado.setText(res);
+        try{
+            String res = ""+(Float.parseFloat(num1.getText()) / Float.parseFloat(num2.getText()));
+            resultado.setText(res);
+        }catch(NumberFormatException e){
+            
+        }
+        
     }//GEN-LAST:event_divididoActionPerformed
 
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run3ActionPerformed
+
+    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run4ActionPerformed
+
+    private void run5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run5ActionPerformed
+
+    private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run6ActionPerformed
+
+    private void masMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_masMouseEntered
+        this.Codex.codes.setText("");    
+        SeeCode2(1);
+    }//GEN-LAST:event_masMouseEntered
+
+    private void menosMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_menosMouseEntered
+        this.Codex.codes.setText("");    
+        SeeCode2(2);         
+    }//GEN-LAST:event_menosMouseEntered
+
+    private void porMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_porMouseEntered
+        this.Codex.codes.setText("");     
+        SeeCode2(3);
+    }//GEN-LAST:event_porMouseEntered
+
+    private void divididoMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_divididoMouseEntered
+        this.Codex.codes.setText("");
+        SeeCode2(4);
+    }//GEN-LAST:event_divididoMouseEntered
+
+    private void jPanel5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jPanel5MouseEntered
+    
+    
+    public void SeeCode2(int a){
+        this.Codex.setVisible(true);
+        Codex.ok.setVisible(false);
+        this.Codex.setTitle("Código");
+        Codex.setLocation(400, 394);
+        String data = "";
+                        
+        switch(a){
+            case 1:data =   ";Funcion Suma\n\n" +
+                            "(define (Suma a b)\n" +
+                            "        (+ a b)\n" +
+                            ")\n";
+                break;
+            case 2:data =   ";Funcion Resta\n\n" +
+                            "(define (Resta a b)\n" +
+                            "        (- a b)\n" +
+                            ")\n";
+                break;
+            case 3:data =   ";Funcion Multiplicación\n\n" +
+                            "(define (Multiplicacion a b)\n" +
+                            "        (* a b)\n" +
+                            ")\n";
+                break;
+            case 4:data =   ";Funcion División\n\n" +
+                            "(define (Division a b)\n" +
+                            "        (/ a b)\n" +
+                            ")";
+                break;
+        }
+        Controller.PonerColor(this.Codex.codes, data);
+        Codex.ok.addActionListener((ActionEvent e) -> {
+            Codex.setVisible(false);
+        });
+    }
     /**
      * @param args the command line arguments
      */
@@ -502,6 +866,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JTextArea Expresiones2;
     public javax.swing.JTextPane code;
     public javax.swing.JTextPane code2;
+    public javax.swing.JTextPane code3;
+    public javax.swing.JTextPane code4;
+    public javax.swing.JTextPane code5;
+    public javax.swing.JTextPane code6;
     public javax.swing.JButton dividido;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -509,7 +877,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel18;
+    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel20;
+    private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -519,15 +891,27 @@ public class ExprecrionesView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
+    private javax.swing.JPanel jPanel11;
+    private javax.swing.JPanel jPanel12;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     public javax.swing.JPanel jPanel7;
+    private javax.swing.JPanel jPanel8;
+    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
@@ -545,8 +929,15 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JTextField resultado;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
-    public javax.swing.JButton seecode;
+    public javax.swing.JButton run3;
+    public javax.swing.JButton run4;
+    public javax.swing.JButton run5;
+    public javax.swing.JButton run6;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
+    public javax.swing.JTextArea verinfo3;
+    public javax.swing.JTextArea verinfo4;
+    public javax.swing.JTextArea verinfo5;
+    public javax.swing.JTextArea verinfo6;
     // End of variables declaration//GEN-END:variables
 }
