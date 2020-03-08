@@ -180,20 +180,21 @@ public class Cadenas_Strings {
    }
    
    public String makeseje(){
-       String data =    " ;Al momento de usar la función meke-string solo  nos sirve para crear una cadena con los\n" +
+       String data =    ";Al momento de usar la función meke-string solo  nos sirve para crear una cadena con los\n" +
                         " ;mismos caracteres, aunque estas cadenas pueden ser modificadas\n" +
                         "\n" +
                         " ;Crear  una  función  que llena  una  cadena   de  4  posiciones  con  el  carácter  J  usando \n" +
                         " ;make-string.  Luego  cree  una cadena con la función string que diga  \"Hola que tal tu día\"  \n" +
                         " ;y  por ultimo muestra  las cadenas creadas usando la función displayln\n\n" +
                         "\n" +
-                        "(define cad1 (make-string 4 #\\j))\n" +
+                        "(define (llenarCadena)\n" +
+                        "     (define cad1 (make-string 4 #\\j)) \n" +
+                        "     (displayln cad1)\n" +
+                        "     (define cad2 (string #\\H #\\o #\\l #\\a #\\q #\\u #\\e #\\t #\\a #\\l #\\t #\\u #\\d #\\i #\\a))\n" +
+                        "     (displayln cad2)\n" +
+                        ")\n" +
                         "\n" +
-                        "(displayln cad1)\n" +
-                        "\n" +
-                        "(define cad2 (string #\\H #\\o #\\l #\\a #\\q #\\u #\\e #\\t #\\a #\\l #\\t #\\u #\\d #\\i #\\a))\n" +
-                        "\n" +
-                        "(displayln cad2)";
+                        "(llenarCadena)";
        return data;
    }
    
@@ -245,10 +246,12 @@ public class Cadenas_Strings {
                         ";función  string-set!  cambiar  la  letra  c  de la cadena por una  z y  por ultimo  muestra  la\n" +
                         ";cadena creada usando la función displayln\n\n" +
                         "\n" +
+                        "(define (ModificarCadena )\n" +
+                        "       (define cad (string #\\E #\\s #\\h #\\o #\\r #\\a #\\d #\\e #\\c #\\e #\\a #\\r))\n" +
+                        "       (displayln (string-set! cad 9 #\\z))\n" +
+                        ")\n" +
                         "\n" +
-                        "(define cad (string #\\E #\\s #\\h #\\o #\\r #\\a #\\d #\\e #\\c #\\e #\\a #\\r))\n" +
-                        "\n" +
-                        "(displayln (string-set! cad 9 #\\z))";
+                        "(ModificarCadena )";
        return data;
    }
    

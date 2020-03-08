@@ -67,10 +67,11 @@ public class Caracteres_Documentacion {
     
     
     public String Ejecaracter1(){
-           String data=     ";Recibir   un  carácter  que  represente   una   nota.  Si   es  la  letra  E  mayúscula  o  la  letra  e\n" +
-                            ";minúscula  imprimir \"excelente\" ,  si es la letra B o la letra b imprimir \"Bueno\" , si  es la letra A\n" +
-                            ";o la letra a imprimir  \"Aceptable\" , si es la letra D o la letra d imprimir \"Define\", y si es la letra I o \n" +
-                            ";la   letra  i imprimir   \"Insuficiente\".\n" +
+           String data=     ";Recibir   un  carácter  que  represente   una   nota.  Si   es  la  letra  E  mayúscula  o  la \n" +
+                            ";letra  e minúscula  imprimir  \"excelente\" ,  si es la letra  B o la letra b imprimir \"Bueno\" , \n" +
+                            ";si  es la letra A o la  letra  a  imprimir  \"Aceptable\" , si es la letra D o la letra d imprimir \n" +
+                            "\"Define\", y si es la letra I o la   letra  i imprimir   \"Insuficiente\".\n\n" +
+                            "\n" +
                             "(define (Notas X) \n" +
                             "      (cond \n" +
                             "	( (char-ci=? X #/e)   (display\"Excelente\") ) \n" +
@@ -103,15 +104,15 @@ public class Caracteres_Documentacion {
     }
     
     public String Ejecaracter3(){
-        String data=    ";Realice  el   programa  propuesto  y  documente  el  código siguiendo el diseño guiado por \n" +
-                        ";contrato:  Escribir  un  programa  que  pida  un  número  y  saque  por  pantalla  su  tabla de \n" +
-                        ";multiplicar.; Contrato: TablaMultiplicar: número número -> número cadena número cadena \n" +
-                        ";numero...\n" +
+        String data=    ";Realice  el   programa  propuesto  y  documente  el  código siguiendo el diseño \n" +
+                        ";guiado por contrato:  Escribir  un  programa  que  pida  un  número  y  saque  por  \n" +
+                        ";pantalla  su  tabla de multiplicar.; Contrato: TablaMultiplicar: número número -> \n" +
+                        ";número cadena número cadena numero...\n" +
                         "\n" +
                         "; Propósito: Visualizar determinada tabla de multiplicar.\n" +
                         "\n" +
-                        "; Ejemplo: {TablaMultiplicar 8 0} debe producir la tabla de multiplicar del número 8 hasta el \n" +
-                        ";10, con el formato: 8*0 = 0... 8*10 =80\n" +
+                        "; Ejemplo: {TablaMultiplicar 8 0} debe producir la tabla de multiplicar del número 8 \n" +
+                        ";hasta el 10, con el formato: 8*0 = 0... 8*10 =80\n" +
                         "\n" +
                         "; Parámetros:\n" +
                         ";        a: Indica que numero multiplicar\n" +
@@ -145,7 +146,53 @@ public class Caracteres_Documentacion {
         String data=    ";Construir una funcion que reciba un caracter e imprima \"Es una vocal\" si el caracter es una\n" +
                         ";vocal, de lo contrario imprimir \"No es una vocal\".\n" +
                         "\n" +
-                        "(define (EsVocal? voc)";
+                        "(define (EsVocal?  voc)\n" +
+                        "       (cond\n" +
+                        "                  ( (char-ci=? voc #/a)   (display  \"Es una vocal\") )\n" +
+                        "                  ( (char-ci=? voc #/e)   (display  \"Es una vocal\") )\n" +
+                        "                  ( (char-ci=? voc #/i)   (display  \"Es una vocal\") ) \n" +
+                        "                  ( (char-ci=? voc #/o)   (display  \"Es una vocal\") )\n" +
+                        "                  ( (char-ci=? voc #/u)   (display  \"Es una vocal\") )\n" +
+                        "            (else \n" +
+                        "                    (display  \"No es una vocal\")\n" +
+                        "             )\n" +
+                        "       )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(EsVocal?  (read))";
+        return data;
+    }
+    
+    public String Ejecaracter5(){
+        String data=    ";Construir una funcion que reciba un caracter y lo convierta en una letra mayuscula, si la letra\n" +
+                        ";es mayuscula que la convierta en minuscula.\n" +
+                        "\n" +
+                        "(define (convertir  letra)\n" +
+                        "       (cond\n" +
+                        "                  ((char-upper-case? letra )    (display (char-upcase letra) ) )\n" +
+                        "                  ((char-lower-case?  letra) )   (display (downcase letra) ) )\n" +
+                        "            (else \n" +
+                        "                    (display  \"Ingrese un caractter\")\n" +
+                        "             )\n" +
+                        "       )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(convertir (read))";
+        return data;
+    }
+    
+    public String Ejecaracter6(){
+        String data=    ";Construir una funcion que reciba dos caracteres y compare cual es el mayor; si el primero\n" +
+                        ";es mayor que el segundo mostrar el caracter .\n" +
+                        "\n" +
+                        "(define (comparar  caract caract2)\n" +
+                        "       (cond\n" +
+                        "                  ((char>? caract caract2)    (display caract ) )\n" +
+                        "                  ((char<? caract caract2)    (display  caract2 ) )\n" +
+                        "       )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(comparar (read) (read))";
         return data;
     }
     
@@ -153,7 +200,8 @@ public class Caracteres_Documentacion {
         String data =   "1.Construir una función que reciba un para metro y devuelva  Verdadero si es un carácter. \n" +
                         "Falso si no lo es.\n" +
                         "\n" +
-                        "2.Construir una función que reciba un parámetro. Si el parámetro es un carácter alfabético, determinar si está en minúscula.  El  programa  debe  pasarlo  a  mayúsculas  y retornarlo. \n" +
+                        "2.Construir una función que reciba un parámetro. Si el parámetro es un carácter alfabético, "+
+                        "\ndeterminar si está en minúscula.  El  programa  debe  pasarlo  a  mayúsculas  y retornarlo. \n" +
                         "Hacer lo mismo en caso contrario.\n" +
                         "\n" +
                         "4.Construir una función que reciba un carácter e imprima  \"Es una vocal\"  si el carácter es \n" +

@@ -63,10 +63,10 @@ public class Vectores {
     
     public String makevect(){
         String data =   "La función make-vector, crea un vector únicamente  con los  elementos\n" +
-                        "que   se   le   indiquen   en   el   momento   de   declarar   dicha    funcion.\n" +
-                        "Adicionalmente.   En  Racket  a diferencia de  la mayoría   de   los lenguajes\n" +
-                        "de  programación   podemos   almacenar  absolutamente  cualquier  tipo  \n" +
-                        "de  dato  en  nuestros  vectores.\n" + 
+                        "que   se   le   indiquen   en   el   momento   de   declarar   dicha  funcion.\n" +
+                        "Adicionalmente. En Racket  a diferencia de  la mayoría  de lo lenguajes\n" +
+                        "de programación podemos  almacenar  absolutamente  cualquier  tipo  \n" +
+                        "de  dato  en  nuestros  vectores.\n" +
                         "Para la creación de vectores podemos usar la  funcion make-vector\n" +
                         "\n" +
                         "Sintaxis\n" +
@@ -93,31 +93,39 @@ public class Vectores {
         String data =   ";Defina una funcion tal que cree un vector de 5 posiciones con la letra J y luego mostrar el \n" +
                         ";resultado  por pantalla\n\n" +
                         "\n" +
-                        "(define vec (make-vector 5 # \\j))\n" +
-                        "(displayln vec)\n" +
-                        "";
+                        "(define (CrearVector)\n" +
+                        "     (define vec (make-vector 5 # \\j))\n" +
+                        "     (displayln vec)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(CrearVector)";
         return data;
     }
     
     public String refeje(){
-        String data =   ";Cree una funcion que nos muestre los daos de la posición dos de un vector, luego mostrarlos\n" +
-                        ";por pantalla con la funcion displayln\n\n" +
+        String data =   ";Cree una funcion que nos muestre los daos de la posición dos de un vector, luego \n" +
+                        ";mostrarlos por pantalla con la funcion displayln\n\n" +
                         "\n" +
-                        "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "(define (PosisionVector)\n" +
+                        "      (define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "      (displayln (vector-ref vect 2))\n" +
+                        ")\n" +
                         "\n" +
-                        "(displayln (vector-ref vect 2))";
+                        "(PosisionVector)";
         return data;
     }
     
     public String seteje(){
-        String data =   ";Cree un vector, llénelo de datos y cambie el dato de la posición 2 por \"pollito\", luego muéstrelo por\n" +
-                        ";pantalla usando la funcion displayln\n\n" +
+        String data =   ";Cree un vector, llénelo de datos y cambie el dato de la posición 2 por \"pollito\", luego \n" +
+                        ";muéstrelo por pantalla usando la funcion displayln\n\n" +
                         "\n" +
-                        "(define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "(define (ModificarVect)\n" +
+                        "      (define vect  (vector  #\\q \"Hola\" 34 #t))\n" +
+                        "      (vector-set! vect 2 \"pollito\")\n" +
+                        "      (displayln vect)\n" +
+                        ")\n" +
                         "\n" +
-                        "(vector-set! vect 2 \"pollito\")\n" +
-                        "\n" +
-                        "(displayln vect)";
+                        "(ModificarVect)";
         return data;
     }
     
@@ -169,6 +177,20 @@ public class Vectores {
                         "     )\n" +
                         " )\n" +
                         "(DisplayVect (vector-lengthVect) 0) ";
+        return data;
+    }
+    
+    public String buildeje(){
+        String data =   ";Construir un programa que llene un vector del 1 al 15 usando la funcion build-vector y \n" +
+                        ";mostrae\n" +
+                        ";el resultado por pantalla\n\n" +
+                        "\n" +
+                        "(define (construirVector)\n" +
+                        "         (define vect  (build-vector 5 add1))\n" +
+                        "         (display vect)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(construirVector)";
         return data;
     }
     

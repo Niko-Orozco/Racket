@@ -739,6 +739,9 @@ int linea=0; //Variable Global
         PonerColor(CaracView.code, CaracD.Ejecaracter1());
         PonerColor(CaracView.code2, CaracD.Ejecaracter2());
         PonerColor(CaracView.code3, CaracD.Ejecaracter3());
+        PonerColor(CaracView.code4, CaracD.Ejecaracter4());
+        PonerColor(CaracView.code5, CaracD.Ejecaracter5());
+        PonerColor(CaracView.code6, CaracD.Ejecaracter6());
       
         CaracView.run1.addActionListener((ActionEvent e) -> {
             CaracView.verinfo1.setText(runCodeCar(1));
@@ -749,6 +752,20 @@ int linea=0; //Variable Global
         CaracView.run3.addActionListener((ActionEvent e) -> {
             CaracView.verinfo3.setText(runCodeCar(3));
         }); 
+        CaracView.run4.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo4.setText(runCodeCar(4));
+        }); 
+        CaracView.run5.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo5.setText(runCodeCar(5));
+        }); 
+        CaracView.run6.addActionListener((ActionEvent e) -> {
+            CaracView.verinfo6.setText(runCodeCar(6));
+        }); 
+        CaracView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            CaracView.setVisible(false);
+            explicacioncodigo();
+        });
         CaracView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             CaracView.setVisible(false);
@@ -804,7 +821,38 @@ int linea=0; //Variable Global
                      } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error...\nRemind int max value 4294967296 ");
                      }
-                break;                   
+                break;      
+            case 4: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese un caracter");
+                        if(n1.equals("a") || n1.equals("e") || n1.equals("i") ||
+                            n1.equals("o") || n1.equals("u")){
+                            respuesta =" es vocal "+n1;
+                         }else{
+                            respuesta =" no es vocal";
+                         }
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error... ");
+                     }
+                break;   
+            case 5: try {
+                            n1 = (String)JOptionPane.showInputDialog("Ingrese un caracter");
+                            if(Character.isUpperCase(n1.charAt(0))){         
+                                  respuesta ="Mayuscula " + n1.toUpperCase();             
+                            }else{                  
+                                  respuesta ="Minuscula " + n1.toLowerCase();   
+                            }
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error..");
+                     }
+                break;   
+            case 6: try {
+                        n1 = (String)JOptionPane.showInputDialog("Ingrese un caracter");
+                        n2 = (String)JOptionPane.showInputDialog("Ingrese otro caracter");
+                        respuesta =((int)n1.charAt(0) > (int)n2.charAt(0))? "Caracter mayor " + n1 :"Caracter mayor " + n2;  
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error...");
+                     }
+                break;   
         }
         return respuesta;
     }
@@ -1402,6 +1450,7 @@ int linea=0; //Variable Global
         PonerColor(VectView.code3, Vect.seteje());
         PonerColor(VectView.code4, Vect.filleje());
         PonerColor(VectView.code5, Vect.leneje());
+        PonerColor(VectView.code6, Vect.buildeje());
         
        
         VectView.run1.addActionListener((ActionEvent e) -> {
@@ -1424,6 +1473,11 @@ int linea=0; //Variable Global
         });
         VectView.mostrar.addActionListener((ActionEvent e) -> {
             JOptionPane.showMessageDialog(null, "Datos: "+runCodevec(99)+"\n Tamaño: 4");
+        });
+        VectView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            VectView.setVisible(false);
+            explicacioncodigo();
         });
         VectView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
