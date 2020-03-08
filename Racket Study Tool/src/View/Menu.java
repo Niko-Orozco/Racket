@@ -480,7 +480,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/funciones .jpg"))); // NOI18N
         jLabel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel10.add(jLabel3);
-        jLabel3.setBounds(0, 10, 326, 180);
+        jLabel3.setBounds(0, 0, 326, 200);
 
         jPanel4.add(jPanel10);
         jPanel10.setBounds(410, 210, 328, 330);
