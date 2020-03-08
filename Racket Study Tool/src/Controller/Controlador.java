@@ -509,7 +509,6 @@ int linea=0; //Variable Global
     public void CodeExplain(){
         this.CodeExp.setTitle("Recursividad");
         this.CodeExp.setLocationRelativeTo(null);
-        
     }
     
     public void SeeCode2(){
@@ -608,6 +607,8 @@ int linea=0; //Variable Global
         PonerColor(RecursView.code2, Recurs.Ejerecursividad2());
         PonerColor(RecursView.code3, Recurs.Ejerecursividad3());
         PonerColor(RecursView.code4, Recurs.Ejerecursividad4());
+        PonerColor(RecursView.code5, Recurs.Ejerecursividad5());
+        PonerColor(RecursView.code6, Recurs.Ejerecursividad6());
         RecursView.run1.addActionListener((ActionEvent e) -> {
             RecursView.verinfo1.setText(runCodeRac(1));
         });
@@ -620,6 +621,17 @@ int linea=0; //Variable Global
         RecursView.run4.addActionListener((ActionEvent e) -> {
             RecursView.verinfo4.setText(runCodeRac(4));
         });   
+        RecursView.run5.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo5.setText(runCodeRac(5));
+        }); 
+        RecursView.run6.addActionListener((ActionEvent e) -> {
+            RecursView.verinfo6.setText(runCodeRac(6));
+        }); 
+        RecursView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            RecursView.setVisible(false);
+            explicacioncodigo();
+        });
         RecursView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             RecursView.setVisible(false);
@@ -634,7 +646,7 @@ int linea=0; //Variable Global
     
     public String runCodeRac(int ns){
         String respuesta = "",aux="",n1,n2,n3,n4;
-        int nes = 1,nes2,nes3=0;
+        int nes = 1,nes2,nes3=0,n1s,n2s;
         switch(ns){
             case 1: try {
                         for(int i = 1; i< 11;i++){
@@ -681,6 +693,35 @@ int linea=0; //Variable Global
                             }
                         }
                      
+                break;
+             
+            case 5: try {
+                        n1s = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero a multiplicar"));
+                        n2s = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero multiplicador"));
+                        String a = n1s+"";
+                        
+                        for (int i = 1; i < n2s; i++){
+                            System.out.println(n2s);
+                            a += " + "+n1s;
+                            System.out.println(a);
+                        }
+                        respuesta = "Multiplicación usando sumas"+"\nnumero multiplicador"+n1s+"\nnumero a multiplicar"+n2s+"\nEste es el resultado de la multiplicación "+ a +" = "+(n1s*n2s);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;
+            case 6: try {
+                        nes3 = Integer.parseInt(JOptionPane.showInputDialog("Cuantos numeros deseas generar?"));
+                        int f=0,t1=1,t2;
+                        for(int z = 0; z < nes3; z++){
+                            t2=f;
+                            f=t1+f;
+                            t1=t2;
+                            respuesta += t1 + " ";
+                        }
+                    } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
                 break;  
         }
         return respuesta;
@@ -1432,8 +1473,8 @@ int linea=0; //Variable Global
     }
     
     public void RConCode(int van3){
-        int n1,n2;
-        String respuesta;
+        int n1,n2,n3;
+        String respuesta,saludo;
         switch(van3){
             case 1:  try {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese valor 1"));
@@ -1470,7 +1511,34 @@ int linea=0; //Variable Global
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "error empty field");
                      }
-                break;
+                break;  
+            case 5: try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero 1"));
+                        n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero 2"));
+                        n3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese numero 3"));
+                        if (n1 > n2) {
+                            if (n1 > n3) {
+                                respuesta = "El mayor es: " + n1;
+                            } else {
+                                respuesta = "el mayor es: " + n3 ;
+                            }
+                        } else if (n2 > n3) {
+                            respuesta = "el mayor es: " + n2 ;
+                        } else {
+                            respuesta = "el mayor es: " + n3 ;
+                        }
+                        
+                     } catch (HeadlessException | NumberFormatException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
+            case 6:  try {
+                        saludo = (String)(JOptionPane.showInputDialog("Saludame"));
+                        respuesta = (saludo.equals("Hola"))? "hola , gusto de verte !":"perdón?";
+                     } catch (HeadlessException e) {
+                        JOptionPane.showMessageDialog(null, "Code Error");
+                     }
+                break;  
                     
         }
     }

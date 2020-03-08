@@ -28,9 +28,21 @@ public class Recursividad {
     }
     
     public String recursividad2(){
-        String data =   "La   recursividad   consiste   en   funciones   que  se  llaman  a  sí mismas, \n" +
-                        "evitando el uso de bucles y otros iteradores.\n" +
-                        "";
+        String data =   "La    recursividad    consiste    en    funciones    que   se   llaman   a   sí \n" +
+                        "mismas,  evitando  el  uso  de  bucles  y  otros  iteradores.\n" +
+                        "\n" +
+                        "Ejemplo\n" +
+                        "Hacer un programa que sume los numeros desde el 1 hasta el 10\n" +
+                        "(definir (Sumatoria n)\n" +
+                        "     (si (< n 10)\n" +
+                        "            (comenzar\n" +
+                        "                       (escribir n) \n" +
+                        "                       (Sumatoria (+ n 1))\n" +
+                        "            )\n" +
+                        "            (escribir \"Recursion finalizada\")\n" +
+                        "      )\n" +
+                        ")\n" +
+                        "(Sumatoria 1)";
         return data;
     }
     
@@ -137,6 +149,49 @@ public class Recursividad {
                         "    )\n" +
                         "  )\n" +
                         "  (Principal 1)";
+        return data;
+    }
+       
+    public String Ejerecursividad5(){
+        String data =   ";Contruir un programa que nso muestre el resultado de multiplicar dos numeros mediante el\n" +
+                        ";uso de sumas.\n" +
+                        "\n" +
+                        "(define (multiplicacion)\n" +
+                        "  (display \"multiplicacion usando sumas\")\n" +
+                        "  (newline)\n" +
+                        "  (newline)\n" +
+                        "  (display \"Introdusca los valores a multiplicar: \")\n" +
+                        "  (newline)\n" +
+                        "  (var(read)(read) 0)\n" +
+                        "  (display \", este es el resultado de tu miltiplicacion\")\n" +
+                        "  )\n" +
+                        "\n" +
+                        "(define (var MND MDR RTO)\n" +
+                        "  (if (>= MDR 1)\n" +
+                        "      (var MND (- MDR 1)(+ RTO MND))\n" +
+                        "           (display RTO)\n" +
+                        "           )\n" +
+                        "      )\n" +
+                        "\n" +
+                        " (multiplicacion)";
+        return data;
+    }
+    
+    public String Ejerecursividad6(){
+        String data =   ";Hacer un programa en Racket que reciva un numero y nos muestre la serie de fibonacci hasta \n" +
+                        ";ese numero dado\n" +
+                        "\n" +
+                        "(define (fibo n)\n" +
+                        "      (if (= n 1)\n" +
+                        "           1\n" +
+                        "            (if (= n 2( \n" +
+                        "                    1\n" +
+                        "                    (+ (fibo (- n 1)) (fibo (- n 2)))\n" +
+                        "              )\n" +
+                        "        )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(fibo (read))";
         return data;
     }
     

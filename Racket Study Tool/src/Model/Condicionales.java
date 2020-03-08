@@ -4,8 +4,6 @@
  * and open the template in the editor.
  */
 package Model;
-import java.awt.Color;
-import java.awt.Font; 
 /**
  *
  * @author Niko
@@ -43,7 +41,7 @@ public class Condicionales {
         String data =   "En Racket encontramos las funciones if y cond que nos ayudaran a \n" +
                         "compara dos o más cosas. Por ejemplo:\n" +
                         "\n" +
-                        "Si a > b\n" +
+                        "Si (> a  b)\n" +
                         "    ''a es mayor que b''\n" +
                         "sino\n" +
                         "    ‘’b es mayor que a’’\n" +
@@ -66,7 +64,7 @@ public class Condicionales {
                         "Pero que pasa si queremos dar más de una respuesta si la condición \n" +
                         "se  cumple o no, es decir:\n" +
                         "\n" +
-                        " sí a < b \n" +
+                        " sí (< a  b )\n" +
                         "        ''a menor que b''\n" +
                         "        ''el número menor es'' a\n" +
                         "sino:\n" +
@@ -85,10 +83,10 @@ public class Condicionales {
     public String elcond(){
         String data="EL CONDICONAL: COND.\n" +
                     "\n" +
-                    "Al usar la  instrucción cond,   independiente  de si   nuestro lenguaje este \n" +
-                    "en modo estudiante  o avanzado  la parte falsa es opcional.  Se escribe\n" +
-                    "luego de  todas  las  condiciones  y  únicamente se ejecuta si  ninguna\n" +
-                    "de las condiciones anteriores es Verdadera\n" +
+                    "Al usar  la  instrucción  cond,   independiente  de si   nuestro lenguaje\n" +
+                    "este en modo  estudiante  o  avanzado  la parte falsa es opcional.  Se \n" +
+                    "escribe luego de  todas  las  condiciones  y  únicamente se ejecuta si  \n" +
+                    "ninguna de las condiciones anteriores es Verdadera\n" +
                     "\n" +
                     "Su formato general:\n" +
                     "   (cond\n" +
@@ -190,6 +188,40 @@ public class Condicionales {
                 "   ))\n" +
                 "\n" +
                 "(MayorQ10? (read) (read))";
+       return data;
+   }
+    
+    public String Ejemplo5(){
+       String data;
+       data =   ";proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
+            ";mayor(mostrar el numero mayor)\n" +
+            "\n" +
+            ";plantilla\n" +
+            "(define (num_mayor n1 n2 n3)\n" +
+            "    (cond\n" +
+            "        ((and (> n1 n2) (> n1 n3) ) \"n1 es mayor\" )\n" +
+            "        ((and (< n1 n2) (> n2 n3) ) \"n2 es mayor\" )\n" +
+            "        ((and (< n1 n2) (< n2 n3) ) \"n3 es mayor\" )\n" +
+            "    )\n" +
+            ")\n" +
+            "\n" +
+            "(num_mayor (read) (read) (read))";
+       return data;
+   }
+    
+    public String Ejemplo6(){
+       String data;
+       data =   ";Construir un programa que responda a un saludo.\n" +
+                "\n" +
+                "( define ( responder - saludo s )\n" +
+                "         ( if ( string ? s )\n" +
+                "             ( if ( equal ? \" hola \" ( substring s 0 4) )\n" +
+                "                       \"hola , gusto de verte !\"\n" +
+                "                        \"perdón ?\"\n" +
+                "              )\n" +
+                "              \" perdón , qué ?\"\n" +
+                "          )\n" +
+                "  )";
        return data;
    }
     
