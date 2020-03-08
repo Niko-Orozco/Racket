@@ -36,8 +36,9 @@ public class Estructuras_De_Datos {
     }
     
     public String makestr(){
-        String data =   "La función make-struct nos sirve para agregar datos a la estructura, pero\n" +
-                        "para esto debe de estar previamente creada mediante define-struct\n" +
+        String data =   "La función make-struct nos sirve para agregar datos a  la estructura, \n" +
+                        "pero   para   esto   debe   de   estar   previamente   creada  mediante \n" +
+                        "define-struct\n" +
                         "\n" +
                         "Veamos cómo es:\n" +
                         "(define-struct Empleados (nombre apellido)\n" +
@@ -55,9 +56,13 @@ public class Estructuras_De_Datos {
         String data =   ";Cree 5 estructuras para doctores, pacientes y Enfermeros  tales que contengan los datos \n" +
                         ";nombre, apellido, teléfono y dirección\n\n" +
                         "\n" +
-                        "(define-struct Doctores(nombre apellido telefono direccion))\n" +
-                        "(define-struct Enfermeros(nombre apellido telefono direccion))\n" +
-                        "(define-struct Clientes(nombre apellido telefono direccion))\n\n";
+                        "(define (CrearEstructuras)\n" +
+                        "       (define-struct Doctores(nombre apellido telefono direccion))\n" +
+                        "       (define-struct Enfermeros(nombre apellido telefono direccion))\n" +
+                        "       (define-struct Clientes(nombre apellido telefono direccion))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(CrearEstructuras)";
         return data;
     }
     
@@ -81,6 +86,59 @@ public class Estructuras_De_Datos {
                         ")\n" +
                         "\n" +
                         "(LlenarDatos)";
+        return data;
+    }
+    
+    public String Ejemplo3(){
+        String data =   ";Crear  un  programa  en  Racket  para  el  manejo de  nomina  de  los  empleados  de  la \n" +
+                        ";empresa LabStar. Que cuente con los siguientes datos: Cedula, Nombre, Cargo, Sueldo.\n\n" +
+                        "\n" +
+                        "(define (ingresar_datos a i)\n" +
+                        "  (display \"Digite la cantidad de empleados: \")\n" +
+                        "  (define v1 (make-vector(read)))\n" +
+                        "  (define-struct nomina (cedula nombre cargo sueldo))\n" +
+                        "  (if (< a (vector-length v1))\n" +
+                        "      (begin\n" +
+                        "          (vector-set! v1 i (make-nomina (begin \n" +
+                        "                                                (display \"Digite Numero de cedula: \")\n" +
+                        "                                                (newline)\n" +
+                        "                                                (read))\n" +
+                        "                                              (begin\n" +
+                        "                                                (display \"Digite el Nombre del Empleado: \")\n" +
+                        "                                                (newline)\n" +
+                        "                                                (read))\n" +
+                        "                                              (begin\n" +
+                        "                                                (display \"Digite el cargo del empleado: \")\n" +
+                        "                                                (newline)\n" +
+                        "                                                (read))\n" +
+                        "                                              (begin\n" +
+                        "                                                (display \"Digite el sueldo del empleado: \")\n" +
+                        "                                                (newline)\n" +
+                        "                                                (read))\n" +
+                        "                                               )\n" +
+                        "                       )                                \n" +
+                        "          (ingresar_datos (+ a 1) (+ i 1))\n" +
+                        "          )\n" +
+                        "      (void)\n" +
+                        "      )\n" +
+                        "  )\n" +
+                        "\n" +
+                        "(ingresar_datos 0 0)";
+        return data;
+    }
+    
+    public String Ejemplo4(){
+        String data =   "";
+        return data;
+    }
+    
+    public String Ejemplo5(){
+        String data =   "";
+        return data;
+    }
+    
+    public String Ejemplo6(){
+        String data =   "";
         return data;
     }
     

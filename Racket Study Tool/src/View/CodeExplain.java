@@ -163,7 +163,7 @@ public class CodeExplain extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Paso a Paso");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(420, 20, 160, 40);
+        jLabel2.setBounds(560, 20, 160, 40);
 
         menu.setText("Menu");
         jPanel1.add(menu);

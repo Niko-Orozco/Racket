@@ -1262,12 +1262,16 @@ int linea=0; //Variable Global
         EstrucView.makestruc.setText(Estrucs.makestr());  
         PonerColor(EstrucView.code,Estrucs.defeje());
         PonerColor(EstrucView.code2,Estrucs.makeeje());
+        PonerColor(EstrucView.code3,Estrucs.Ejemplo3());
         llenar_tabla(5); 
         EstrucView.run1.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo1.setText(runCodestrcut(1));
         });
         EstrucView.run2.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo2.setText(runCodestrcut(2));
+        });   
+        EstrucView.run3.addActionListener((ActionEvent e) -> {
+            EstrucView.verinfo3.setText(runCodestrcut(3));
         });   
         EstrucView.adddata.addActionListener((ActionEvent e) -> {
             addata();
@@ -1471,6 +1475,20 @@ int linea=0; //Variable Global
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error empty field");
                 }
+                break;
+            case 3:  try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese cantidad de empleados"));
+                        for(int x = 0; x < n1; x++){
+                            Telefono = JOptionPane.showInputDialog("Ingrese el numero de cedula");
+                            Nombre = JOptionPane.showInputDialog("Ingrese el nombre del empleado");
+                            Apellido = JOptionPane.showInputDialog("Ingrese el Cargo del empleado");                           
+                            Correo = JOptionPane.showInputDialog("Ingrese el sueldo del empleado");
+                            respuesta += "Cedula del Empleado: "+Telefono+"\nNombre del empleado: "+Nombre+"\nCargo del empleado: "+Apellido+"\nSueldo del empleado: "+Correo + "\n\n";
+                        }                       
+                        EstrucView.verinfo1.setText(respuesta);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "error empty field");
+                     }
                 break;
         }
         return respuesta;
