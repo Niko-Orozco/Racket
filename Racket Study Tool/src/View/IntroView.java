@@ -9,6 +9,7 @@ import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
+import javax.swing.ImageIcon;
 import javax.swing.JInternalFrame;
 import javax.swing.JLayeredPane;
 import javax.swing.JOptionPane;
@@ -26,6 +27,7 @@ public class IntroView extends javax.swing.JFrame {
      */
     public IntroView() {
         initComponents();
+        this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         this.inicializar(false);
         PanelFondo F = new PanelFondo();
         this.add(F, BorderLayout.CENTER);
@@ -74,16 +76,6 @@ public class IntroView extends javax.swing.JFrame {
         jPanel8 = new javax.swing.JPanel();
         jLabel9 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
-        jPanel9 = new javax.swing.JPanel();
-        notacionesEntrada = new javax.swing.JTextField();
-        jLabel10 = new javax.swing.JLabel();
-        inorden = new javax.swing.JButton();
-        preorden = new javax.swing.JButton();
-        postorden = new javax.swing.JButton();
-        notacionesSalida = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
         jPanel2 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         botonInsertar = new javax.swing.JButton();
@@ -92,6 +84,7 @@ public class IntroView extends javax.swing.JFrame {
         botonBorrar = new javax.swing.JButton();
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jInternalFrame2 = new javax.swing.JInternalFrame();
+        jLabel10 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         lblCnodos = new javax.swing.JTextField();
@@ -122,7 +115,6 @@ public class IntroView extends javax.swing.JFrame {
         intro5.setColumns(20);
         intro5.setRows(5);
         intro5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        intro5.setFocusable(false);
         jScrollPane4.setViewportView(intro5);
 
         jLabel7.setText("¿Que es Dr.Racket?");
@@ -132,7 +124,6 @@ public class IntroView extends javax.swing.JFrame {
         intro6.setColumns(20);
         intro6.setRows(5);
         intro6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        intro6.setFocusable(false);
         jScrollPane9.setViewportView(intro6);
 
         jLabel13.setText("Paradigmas de la programacion");
@@ -140,13 +131,11 @@ public class IntroView extends javax.swing.JFrame {
         intro7.setColumns(20);
         intro7.setRows(5);
         intro7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        intro7.setFocusable(false);
         jScrollPane10.setViewportView(intro7);
 
         intro8.setColumns(20);
         intro8.setRows(5);
         intro8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        intro8.setFocusable(false);
         jScrollPane11.setViewportView(intro8);
 
         jLabel14.setText("Notaciones");
@@ -196,52 +185,15 @@ public class IntroView extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel8.setLayout(null);
 
         jLabel9.setText("Ejemplos");
+        jPanel8.add(jLabel9);
+        jLabel9.setBounds(12, 15, 81, 19);
 
         jButton2.setText("ayuda");
-
-        jPanel9.setBackground(new java.awt.Color(252, 252, 252));
-        jPanel9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
-        jPanel9.setLayout(null);
-
-        notacionesEntrada.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                notacionesEntradaActionPerformed(evt);
-            }
-        });
-        jPanel9.add(notacionesEntrada);
-        notacionesEntrada.setBounds(10, 80, 240, 30);
-
-        jLabel10.setText("Tipos de notacion");
-        jPanel9.add(jLabel10);
-        jLabel10.setBounds(10, 10, 140, 14);
-
-        inorden.setText("Inorden");
-        jPanel9.add(inorden);
-        inorden.setBounds(10, 120, 120, 23);
-
-        preorden.setText("Preorden");
-        jPanel9.add(preorden);
-        preorden.setBounds(140, 120, 110, 23);
-
-        postorden.setText("Postorden");
-        jPanel9.add(postorden);
-        postorden.setBounds(10, 150, 120, 23);
-        jPanel9.add(notacionesSalida);
-        notacionesSalida.setBounds(360, 80, 190, 30);
-
-        jButton1.setText("Borrar");
-        jPanel9.add(jButton1);
-        jButton1.setBounds(140, 150, 110, 23);
-
-        jLabel15.setText("Salida");
-        jPanel9.add(jLabel15);
-        jLabel15.setBounds(360, 50, 100, 30);
-
-        jLabel16.setText("Entrada");
-        jPanel9.add(jLabel16);
-        jLabel16.setBounds(10, 40, 100, 30);
+        jPanel8.add(jButton2);
+        jButton2.setBounds(623, 10, 80, 23);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -315,28 +267,38 @@ public class IntroView extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel3);
-        jPanel3.setBounds(10, 350, 660, 109);
+        jPanel3.setBounds(10, 350, 670, 109);
 
+        jDesktopPane1.setBackground(new java.awt.Color(255, 0, 0));
         jDesktopPane1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jDesktopPane1.setForeground(new java.awt.Color(255, 0, 0));
         jDesktopPane1.setFocusable(false);
         jDesktopPane1.setOpaque(false);
 
         jInternalFrame2.setBackground(new java.awt.Color(252, 252, 252));
         jInternalFrame2.setBorder(null);
+        jInternalFrame2.setForeground(new java.awt.Color(255, 0, 0));
         jInternalFrame2.setEnabled(false);
         jInternalFrame2.setFocusCycleRoot(false);
         jInternalFrame2.setFocusable(false);
         jInternalFrame2.setVisible(true);
 
+        jLabel10.setText("Tipos de notacion");
+
         javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
         jInternalFrame2.getContentPane().setLayout(jInternalFrame2Layout);
         jInternalFrame2Layout.setHorizontalGroup(
             jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 450, Short.MAX_VALUE)
+            .addGroup(jInternalFrame2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 140, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(300, Short.MAX_VALUE))
         );
         jInternalFrame2Layout.setVerticalGroup(
             jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 334, Short.MAX_VALUE)
+            .addGroup(jInternalFrame2Layout.createSequentialGroup()
+                .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 308, Short.MAX_VALUE))
         );
 
         jDesktopPane1.add(jInternalFrame2);
@@ -391,40 +353,10 @@ public class IntroView extends javax.swing.JFrame {
         jScrollPane1.setViewportView(impresion);
 
         jPanel2.add(jScrollPane1);
-        jScrollPane1.setBounds(446, 0, 230, 330);
+        jScrollPane1.setBounds(450, 20, 230, 310);
 
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jButton2)
-                .addContainerGap())
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addGap(63, 63, 63)
-                        .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 575, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 678, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 0, Short.MAX_VALUE))
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 19, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton2))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel9, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, 460, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-        );
+        jPanel8.add(jPanel2);
+        jPanel2.setBounds(20, 90, 690, 460);
 
         jScrollPane13.setViewportView(jPanel8);
 
@@ -432,16 +364,21 @@ public class IntroView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 730, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                letsgoActionPerformed(evt);
+            }
+        });
         jPanel6.add(letsgo);
-        letsgo.setBounds(490, 700, 150, 23);
+        letsgo.setBounds(530, 700, 150, 23);
 
         jLabel17.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel6.add(jLabel17);
-        jLabel17.setBounds(370, 670, 440, 30);
+        jLabel17.setBounds(410, 670, 580, 30);
 
         menu.setText("Menu");
         jPanel6.add(menu);
-        menu.setBounds(1040, 700, 73, 23);
+        menu.setBounds(1160, 690, 73, 23);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
         jLabel18.setText("Introduccion");
@@ -457,9 +394,7 @@ public class IntroView extends javax.swing.JFrame {
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel6, javax.swing.GroupLayout.DEFAULT_SIZE, 1241, Short.MAX_VALUE))
+            .addComponent(jPanel6, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 1251, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -470,10 +405,6 @@ public class IntroView extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void notacionesEntradaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_notacionesEntradaActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_notacionesEntradaActionPerformed
 
     private void botonInsertarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonInsertarActionPerformed
         try {
@@ -528,6 +459,10 @@ public class IntroView extends javax.swing.JFrame {
         } catch (Exception e) {
         }
     }//GEN-LAST:event_botonBorrarActionPerformed
+
+    private void letsgoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_letsgoActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_letsgoActionPerformed
 
     public void complementos(){
         this.repintarArbol();
@@ -597,12 +532,10 @@ public class IntroView extends javax.swing.JFrame {
     private javax.swing.JButton botonInsertar;
     private javax.swing.JButton cmdBuscar;
     public javax.swing.JTextArea impresion;
-    private javax.swing.JButton inorden;
     public javax.swing.JTextArea intro5;
     public javax.swing.JTextArea intro6;
     public javax.swing.JTextArea intro7;
     public javax.swing.JTextArea intro8;
-    private javax.swing.JButton jButton1;
     public javax.swing.JButton jButton2;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JInternalFrame jInternalFrame2;
@@ -610,8 +543,6 @@ public class IntroView extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel13;
     private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
@@ -627,7 +558,6 @@ public class IntroView extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     public javax.swing.JPanel jPanel7;
     public javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -641,10 +571,6 @@ public class IntroView extends javax.swing.JFrame {
     private javax.swing.JTextField lblVmenor;
     public javax.swing.JButton letsgo;
     public javax.swing.JButton menu;
-    private javax.swing.JTextField notacionesEntrada;
-    private javax.swing.JTextField notacionesSalida;
     private javax.swing.JComboBox opciones;
-    private javax.swing.JButton postorden;
-    private javax.swing.JButton preorden;
     // End of variables declaration//GEN-END:variables
 }

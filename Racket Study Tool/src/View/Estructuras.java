@@ -5,6 +5,8 @@
  */
 package View;
 
+import Controller.Controlador;
+import java.awt.event.ActionEvent;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
@@ -18,10 +20,14 @@ public class Estructuras extends javax.swing.JFrame {
      * Creates new form Estructuras
      */
     NumeroLinea numerolinea;
+    private codex Codex;
+    private Controlador Controller;
     
     public Estructuras() {
         setResizable(false);
         initComponents();
+        Controller = new Controlador();
+        Codex = new codex();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
@@ -85,7 +91,6 @@ public class Estructuras extends javax.swing.JFrame {
         jLabel15 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         adddata = new javax.swing.JButton();
-        seecode = new javax.swing.JButton();
         jScrollPane11 = new javax.swing.JScrollPane();
         DatosStruct = new javax.swing.JTable();
         PasoPaso = new javax.swing.JButton();
@@ -315,15 +320,21 @@ public class Estructuras extends javax.swing.JFrame {
         jLabel15.setText("Reprecentacion grafica de una estructura de datos");
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel6MouseEntered(evt);
+            }
+        });
         jPanel6.setLayout(null);
 
         adddata.setText("Agregar Datos");
+        adddata.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                adddataMouseEntered(evt);
+            }
+        });
         jPanel6.add(adddata);
-        adddata.setBounds(120, 10, 120, 23);
-
-        seecode.setText("Ver codigo");
-        jPanel6.add(seecode);
-        seecode.setBounds(300, 10, 140, 23);
+        adddata.setBounds(240, 10, 120, 23);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -452,6 +463,29 @@ public class Estructuras extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run3ActionPerformed
 
+    private void adddataMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_adddataMouseEntered
+        this.Codex.codes.setText("");
+        SeeCode();
+    }//GEN-LAST:event_adddataMouseEntered
+
+    private void jPanel6MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jPanel6MouseEntered
+
+    public void SeeCode(){
+        this.Codex.setVisible(true);
+        Codex.ok.setVisible(false);
+        this.Codex.setTitle("Código");
+        this.Codex.setLocationRelativeTo(null);
+        String data =   ";Creamos la estructura para los clientes\n\n" +
+                        "(define-struct Clientes(nombre apellido teléfono correo))\n" +
+                        "\n" ;
+        String data2 = ";Le ingresamos datos a la estructura clientes\n\n" +
+                        "(define dato (make-Clientes (read) (read) (read) (read)))";
+                        
+        Controller.PonerColor(Codex.codes, data);
+        Controller.PonerColor(Codex.codes, data2);
+    }
     /**
      * @param args the command line arguments
      */
@@ -534,7 +568,6 @@ public class Estructuras extends javax.swing.JFrame {
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
     public javax.swing.JButton run3;
-    public javax.swing.JButton seecode;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;

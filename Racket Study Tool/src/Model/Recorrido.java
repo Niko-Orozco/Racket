@@ -10,67 +10,43 @@ package Model;
  * @author Niko
  */
 public class Recorrido {
-    private String Simbolos;
-    private int numero;
-    
+
     public Recorrido() {
-        this.Simbolos = "+ - * /";
     }
     
-    public String Preorden(){
+    public String intro1(){
+        String data =   "La  programación  es  el  proceso  de diseñar, escribir, probar, depurar y\n" +
+                        "mantener  el  código  de  programas  computacionales.  El código fuente \n" +
+                        "está  escrito  en  un   lenguaje   de   programación.  El   propósito   de   la \n" +
+                        "programación   es   crear  programas  que  exhiban  un  comportamiento \n" +
+                        "deseado,  es  decir, que  cumplan con un objetivo. El proceso de escribir \n" +
+                        "código  requiere   frecuentemente   conocimientos   e n  distintas   áreas, \n" +
+                        "además del dominio del lenguaje de programación a utilizar, algoritmos \n" +
+                        "especializados y lógica formal.";
+        return data;
+    }
+    
+    public String intro2(){
         String data = "hi";
         return data;
     }
     
-    public String Inorden(){
-        String data = "hi";
+    public String intro3(){
+        String data =   "Un paradigma de programación se trata también de la forma en la que\n" +
+                        "se   analiza,   afronta   y   resuelve   un  problema  computable.  Muchos \n" +
+                        "lenguajes  de  programación  adoptan  paradigmas  precisos mientras \n" +
+                        "que otros  soportan múltiples paradigmas, esto quiere decir que, cada \n" +
+                        "lenguaje   se   especifica   para   que   su   uso   se   dé,  de  acuerdo  a \n" +
+                        "determinado(s) paradigma(s), por ejemplo, QUE se enfocó en soportar\n" +
+                        "el  paradigma  orientado a objetos, pero sin dejar de lado el paradigma \n" +
+                        "estructurado.  Entre  los  principales  paradigmas  de  programación se \n" +
+                        "encuentran:  Funcional,  Orientado   objetos, Imperativo,  Restricciones,\n" +
+                        "Lógico y Declarativo.";
         return data;
     }
     
-    public String Posorden(){
+    public String intro4(){
         String data = "hi";
         return data;
-    }
-    
-    public void cdebuger_ejemplo(){
-        String data =  ";Construir un programa que reciba una cadena y devuelva una cadena \n" +
-                        ";equivalente, pero sin las vocales\n\n" +
-                        "(define(Cadena read);lee y almacena nuestra cadena.\n" +
-                        "    (Read)\n" +
-                        ")\n" +
-                        "(define(Tamaño read)\n;Define y almacena el tamaño de nuestra Cadena.\n" +
-                        "     (string-length(Cadena read)\n" +
-                        ")\n" +
-                        "(define(Sinvocls CAD LENGTH POS)\n" +
-                        "    (if(=LENGTH POS)\n" +
-                        "       (display'' '')\n" +
-                        "       (begin\n" +
-                        "           (if(or(char-cir=?(string-ref(Cadena CAD)POS)#/a)\n" +
-                        "            \n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/e)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/i)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/o)\n" +
-                        "                  (char-cir=?(string-ref(Cadena CAD)POS)#/u))\n" +
-                        "                  (display '' '');De cumplirse, devolver vacío.\n" +
-                        "                  (display(string-ref(Cadena CAD)POS))\n" +
-                        "            )\n" +
-                        "          (Sinvocls CAD LENGTH(+ POS 1))\n" +
-                        "       )\n" +
-                        "      )\n" +
-                        "   )\n" +
-                        "(define(Principal usrdef)\n" +
-                        "    (Sinvocls(Cadena usrdef)(Tamaño usrdef)0)\n" +
-                        ")\n" +
-                        "(Principal (read))";
-        String an ="";
-        int d = 0;
-        for(int i=0; i < data.length();i++){
-            an += data.charAt(i);
-            d = ((i+1) < data.length())? i+1 : i;
-           if((data.charAt(i) == ')') &&  (data.charAt(d) == '\n')){
-                an += data.charAt(i)+"<-";
-            }
-        }
-      System.out.println(an);
     }
 }

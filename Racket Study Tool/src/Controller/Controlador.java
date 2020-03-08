@@ -26,6 +26,7 @@ public class Controlador {
     String datos[][] = new String[1000][4];
     String namescols[] = {"Nombre","Apellido","Teléfono","Correo"};  
     private Menu menu;
+    private Recorrido recorrido;
     private Cadenas_Strings CadString;
     private CadenasView CadView;
     private CodeExplain CodeExp;
@@ -61,7 +62,7 @@ public class Controlador {
         this.menu = menu;
         codexp = new Codeexplicacion();
         this.menu.introduccion.addActionListener((ActionEvent e) -> {
-            
+            recorrido = new Recorrido();
             menu.setVisible(false);
             introview = new IntroView();
             introview.setVisible(true);
@@ -167,6 +168,15 @@ public class Controlador {
     public void introviews(){
         this.introview.setTitle("Introduccion");
         this.introview.setLocationRelativeTo(null);
+        introview.intro5.setText(recorrido.intro1());
+        introview.intro6.setText(recorrido.intro2());
+        introview.intro7.setText(recorrido.intro3());
+        introview.intro8.setText(recorrido.intro4());
+        introview.letsgo.addActionListener((ActionEvent e) -> {
+            Practices = new Practicas();
+            introview.setVisible(false);
+            practices();
+        });
         introview.menu.addActionListener((ActionEvent e) -> {
             introview.setVisible(false);
             menu.setVisible(true);
@@ -1276,11 +1286,11 @@ int linea=0; //Variable Global
         EstrucView.adddata.addActionListener((ActionEvent e) -> {
             addata();
         });
-        EstrucView.seecode.addActionListener((ActionEvent e) -> {
+        /*EstrucView.seecode.addActionListener((ActionEvent e) -> {
             Codex = new codex();
             Codex.setVisible(true);
             SeeCode();
-        });
+        });*/
         EstrucView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             EstrucView.setVisible(false);
@@ -1392,7 +1402,7 @@ int linea=0; //Variable Global
     public void SeeCode(){
         this.Codex.setTitle("Código");
         this.Codex.setLocationRelativeTo(null);
-        String data =   ";Creamos la estructura para los clientes\n" +
+        String data =   ";Creamos la estructura para los clientes\n\n" +
                         "(define-struct Clientes(nombre apellido teléfono correo))\n" +
                         "\n" +
                         ";Le ingresamos datos a la estructura clientes\n" +
