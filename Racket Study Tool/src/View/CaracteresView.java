@@ -130,7 +130,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter1.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter1.setRows(5);
         caracter1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter1.setFocusable(false);
         jScrollPane11.setViewportView(caracter1);
 
         jLabel9.setText("¿Que son Caracteres?");
@@ -139,7 +138,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter2.setRows(5);
         caracter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter2.setFocusable(false);
         jScrollPane12.setViewportView(caracter2);
 
         jLabel10.setText("Char?");
@@ -148,7 +146,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter3.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter3.setRows(5);
         caracter3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter3.setFocusable(false);
         jScrollPane13.setViewportView(caracter3);
 
         jLabel14.setText("Char-ci");
@@ -157,7 +154,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter4.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter4.setRows(5);
         caracter4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter4.setFocusable(false);
         jScrollPane14.setViewportView(caracter4);
 
         jLabel15.setText("COMENTARIOS");
@@ -166,7 +162,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter5.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter5.setRows(5);
         caracter5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter5.setFocusable(false);
         jScrollPane15.setViewportView(caracter5);
 
         jLabel16.setText("Documentacion");
@@ -188,7 +183,7 @@ public class CaracteresView extends javax.swing.JFrame {
                     .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jScrollPane11)
                     .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(30, 30, 30))
+                .addGap(15, 15, 15))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -227,7 +222,6 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -265,12 +259,12 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel3Layout.setVerticalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addGap(59, 59, 59)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 294, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 143, Short.MAX_VALUE)
                 .addGap(7, 7, 7)
                 .addComponent(run1)
                 .addContainerGap())
@@ -281,7 +275,6 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -319,12 +312,12 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel4Layout.createSequentialGroup()
-                .addGap(59, 59, 59)
-                .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 270, Short.MAX_VALUE)
+                .addContainerGap()
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 293, Short.MAX_VALUE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel11)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 119, Short.MAX_VALUE)
+                .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 144, Short.MAX_VALUE)
                 .addGap(7, 7, 7)
                 .addComponent(run2)
                 .addContainerGap())
@@ -335,7 +328,6 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code3.setFocusable(false);
         jScrollPane10.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -373,7 +365,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel5Layout.createSequentialGroup()
-                .addContainerGap(59, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel12)
@@ -389,7 +381,6 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code4.setFocusable(false);
         jScrollPane16.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -427,7 +418,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
-                .addContainerGap(59, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel13)
@@ -481,7 +472,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addContainerGap(59, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel17)
@@ -535,7 +526,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                .addContainerGap(59, Short.MAX_VALUE)
+                .addContainerGap()
                 .addComponent(jScrollPane21, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel18)
@@ -583,7 +574,7 @@ public class CaracteresView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(990, 700, 73, 28);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
@@ -591,7 +582,7 @@ public class CaracteresView extends javax.swing.JFrame {
 
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        letsgo.setBounds(440, 710, 150, 28);
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel25);

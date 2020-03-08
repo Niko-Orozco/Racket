@@ -22,7 +22,10 @@ public class Caracteres_Documentacion {
     }
     
     public String caracter2(){
-        String data="Es una función que sirve para determinar si algún dato es un carácter.";
+        String data="Es una función que sirve para determinar si algún dato es un carácter.\n" +
+                    "\n" +
+                    "Sintaxis                                      Salida\n" +
+                    "(char? a)               ->                 #t o #f";
         return data;
     }
     
@@ -64,28 +67,26 @@ public class Caracteres_Documentacion {
     
     
     public String Ejecaracter1(){
-           String data=    ";Recibir   un  carácter  que  represente   una   nota.  Si   es  la  letra  E  mayúscula  o  la  letra  e\n" +
+           String data=     ";Recibir   un  carácter  que  represente   una   nota.  Si   es  la  letra  E  mayúscula  o  la  letra  e\n" +
                             ";minúscula  imprimir \"excelente\" ,  si es la letra B o la letra b imprimir \"Bueno\" , si  es la letra A\n" +
                             ";o la letra a imprimir  \"Aceptable\" , si es la letra D o la letra d imprimir \"Define\", y si es la letra I o \n" +
-                            ";la   letra  i imprimir   \"Insuficiente\".\n\n" +
+                            ";la   letra  i imprimir   \"Insuficiente\".\n" +
                             "(define (Notas X) \n" +
                             "      (cond \n" +
-                            "	[ (char-ci=? X #/e)   (display\"Excelente\") ]\n" +
-                            "	[ (char-ci=? X #/s)   (display\"Sobresaliente\") ]\n" +
-                            "	[ (char-ci=? X #/a)   (display \"Aceptable\") ]\n" +
-                            "	[ (char-ci=? X #/i)    (display \"Insuficiente\") ]\n" +
-                            "	[ (char-ci=? X #/d)   (display \"Deficiente\") ]\n" +
+                            "	( (char-ci=? X #/e)   (display\"Excelente\") ) \n" +
+                            "	( (char-ci=? X #/s)   (display\"Sobresaliente\")) \n" +
+                            "	( (char-ci=? X #/a)   (display \"Aceptable\") ) \n" +
+                            "	( (char-ci=? X #/i)    (display \"Insuficiente\") ) \n" +
+                            "	( (char-ci=? X #/d)   (display \"Deficiente\") ) \n" +
                             "	(else  (display \"No es una nota valida.\") )\n" +
                             "                     )\n" +
                             "                  )\n" +
                             "(Notas  (read) )";
-       
-                    
         return data;
     } 
     
     public String Ejecaracter2(){
-        String data=    ";Imprimir los caracteres que equivalen a los números hasta el 1024 código ASCII\n" +
+        String data=    ";Imprimir los caracteres que equivalen a los números hasta el 1024 código ASCII\n\n" +
                         "\n" +
                         "(define(CodASCII Cont)\n" +
                         "   (if(=Cont 1024)\n" +
@@ -120,23 +121,31 @@ public class Caracteres_Documentacion {
                         "\n" +
                         "(define(TablaMultiplicar a b)\n" +
                         "    (if(=b 10)\n" +
-                        "       (begin\n" +
-                        "         (display a)\n" +
-                        "         (display \"*\")\n" +
-                        "         (display b)\n" +
-                        "         (display \" = \")\n" +
-                        "         (display(* a b ))\n" +
-                        "         )\n" +
                         "         (begin\n" +
-                        "           (display a)\n" +
-                        "           (display b)\n" +
-                        "           (display\" = \")\n" +
-                        "           (display(* a b))(newline)\n" +
-                        "           (TablaMultiplicar a (+ 1 b))\n" +
-                        "            )\n" +
+                        "               (display a)\n" +
+                        "               (display \"*\")\n" +
+                        "               (display b)\n" +
+                        "               (display \" = \")\n" +
+                        "               (display(* a b ))\n" +
+                        "          )\n" +
+                        "         (begin\n" +
+                        "              (display a)\n" +
+                        "              (display b)\n" +
+                        "              (display\" = \")\n" +
+                        "              (display(* a b))(newline)\n" +
+                        "              (TablaMultiplicar a (+ 1 b))\n" +
+                        "           )\n" +
+                        "     )\n" +
                         ")\n" +
-                        ")\n" +
-                        "(TablaMultiplicar (read) 0)\n";
+                        "(TablaMultiplicar (read) 0)";
+        return data;
+    }
+    
+    public String Ejecaracter4(){
+        String data=    ";Construir una funcion que reciba un caracter e imprima \"Es una vocal\" si el caracter es una\n" +
+                        ";vocal, de lo contrario imprimir \"No es una vocal\".\n" +
+                        "\n" +
+                        "(define (EsVocal? voc)";
         return data;
     }
     
