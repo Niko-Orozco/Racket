@@ -881,13 +881,13 @@ int linea=0; //Variable Global
             FuncView.verinfo3.setText(runCodeFunc(3));
         }); 
         FuncView.run4.addActionListener((ActionEvent e) -> {
-            FuncView.verinfo3.setText(runCodeFunc(4));
+            FuncView.verinfo4.setText(runCodeFunc(4));
         }); 
         FuncView.run5.addActionListener((ActionEvent e) -> {
-            FuncView.verinfo3.setText(runCodeFunc(5));
+            FuncView.verinfo5.setText(runCodeFunc(5));
         }); 
         FuncView.run6.addActionListener((ActionEvent e) -> {
-            FuncView.verinfo3.setText(runCodeFunc(6));
+            FuncView.verinfo6.setText(runCodeFunc(6));
         }); 
         FuncView.PasoPaso.addActionListener((ActionEvent e) -> {
             CodeExp = new CodeExplain();
@@ -1006,6 +1006,11 @@ int linea=0; //Variable Global
         ListView.run8.addActionListener((ActionEvent e) -> {
             ListView.verinfo8.setText(runCodeLis(8));
         });     
+        ListView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            ListView.setVisible(false);
+            explicacioncodigo();
+        });
         ListView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ListView.setVisible(false);
@@ -1124,6 +1129,8 @@ int linea=0; //Variable Global
         PonerColor(ParView.code2, listPares.EjePares2());
         PonerColor(ParView.code3, listPares.EjePares3());
         PonerColor(ParView.code4, listPares.EjePares4());
+        PonerColor(ParView.code5, listPares.EjePares5());
+        PonerColor(ParView.code6, listPares.EjePares6());
         
         ParView.run1.addActionListener((ActionEvent e) -> {
             ParView.verinfo1.setText(runCodePar(1));
@@ -1137,6 +1144,17 @@ int linea=0; //Variable Global
         ParView.run4.addActionListener((ActionEvent e) -> {
             ParView.verinfo4.setText(runCodePar(4));
         }); 
+        ParView.run5.addActionListener((ActionEvent e) -> {
+            ParView.verinfo5.setText(runCodePar(5));
+        }); 
+        ParView.run6.addActionListener((ActionEvent e) -> {
+            ParView.verinfo6.setText(runCodePar(6));
+        }); 
+        ParView.PasoPaso.addActionListener((ActionEvent e) -> {
+            CodeExp = new CodeExplain();
+            ParView.setVisible(false);
+            explicacioncodigo();
+        });
         ParView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ParView.setVisible(false);
@@ -1150,8 +1168,8 @@ int linea=0; //Variable Global
     }
     
     public String runCodePar(int ns){
-        String respuesta="",t,t2,t3;
-        int n1 = 0,t1,t4=0;
+        String respuesta="",t,t2,t3,t5;
+        int n1 = 0,t1,t4=0,t6,t7;
         switch(ns){
             case 1:  
                 try {
@@ -1202,6 +1220,30 @@ int linea=0; //Variable Global
                         t2 = JOptionPane.showInputDialog("Ingrese cualquier dato");
                         t3 = JOptionPane.showInputDialog("Ingrese cualquier dato");
                         respuesta = "Es par " + t2 + "\n" + t3 + "\n";                 
+                    ParView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data ");
+                }
+                break;
+            case 5:  
+                try {
+                        t = JOptionPane.showInputDialog("Ingrese cualquier  tipo de dato");
+                        t2 = JOptionPane.showInputDialog("Ingrese cualquier tipo de dato");
+                        t3 = JOptionPane.showInputDialog("Ingrese cualquier tipo de dato");
+                        t5 = JOptionPane.showInputDialog("Ingrese cualquier tipo de dato");
+                        respuesta += "Cabeza Par" +" ("+t +" " + t2 + ") ";              
+                    ParView.verinfo1.setText(respuesta);
+                } catch (HeadlessException e) {
+                   JOptionPane.showMessageDialog(null, "error  data ");
+                }
+                break;
+            case 6:  
+                try {
+                        t1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        t4 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        t6 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        t7 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
+                        respuesta += "Cola Par" +" ("+t6 +" " + t7 + ") ";                    
                     ParView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
                    JOptionPane.showMessageDialog(null, "error  data ");

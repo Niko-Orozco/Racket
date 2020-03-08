@@ -519,7 +519,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel32.setBounds(10, 10, 270, 20);
 
         jPanel13.add(jPanel8);
-        jPanel8.setBounds(0, 190, 326, 140);
+        jPanel8.setBounds(0, 190, 330, 140);
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/mate.png"))); // NOI18N
         jLabel2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));

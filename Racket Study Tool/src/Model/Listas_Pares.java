@@ -65,40 +65,50 @@ public class Listas_Pares {
     }
 
     public String EjePares1(){
-        String data =   "; mediante el procedimiento cons cree 3 pares y llénelos con diferentes tipos de datos, luego \n" +
-                        ";mostrar los datos almacenados en el par\n\n" +
+        String data =   ";mediante el procedimiento cons cree 3 pares y llénelos con diferentes tipos de datos, \n" +
+                        ";luego mostrar los datos almacenados en el par\n\n" +
                         "\n" +
-                        "(define par1 (cons (read) (read)))\n" +
-                        "(define par2 (cons (read) (read)))\n" +
-                        "(define par3 (cons (read) (read)))\n" +
+                        "(define (CrearPares)\n" +
+                        "     (define par1 (cons (read) (read)))\n" +
+                        "     (define par2 (cons (read) (read)))\n" +
+                        "     (define par3 (cons (read) (read)))\n" +
                         "\n" +
-                        "(displayln par1)\n" +
-                        "(displayln par2)\n" +
-                        "(displayln par3)";
+                        "     (displayln par1)\n" +
+                        "     (displayln par2)\n" +
+                        "     (displayln par3)\n" +
+                        ")\n" +
+                        "\n" +
+                        "(CrearPares)";
         return data;
     }
 
     public String EjePares2(){
-        String data =   "; mediante el procedimiento cons cree 3 pares y llene las cabezas con número, luego \n" +
-                        ";mostrar la suma de las cabezas de los pares\n\n" +
+        String data =   ";mediante el procedimiento cons cree 3 pares y llene las cabezas con número, luego \n" +
+                        ";mostrar la suma de las cabezas de los pares\n" +
                         "\n" +
-                        "(define par1 (cons (read) (read)))\n" +
-                        "(define par2 (cons (read) (read)))\n" +
-                        "(define par3 (cons (read) (read)))\n" +
+                        "(define (SumaPares)\n" +
+                        "    (define par1 (cons (read) (read)))\n" +
+                        "    (define par2 (cons (read) (read)))\n" +
+                        "    (define par3 (cons (read) (read)))\n" +
+                        "    (displayln (+ (+ (car par1) (car par2)) (car par3)))\n" +
+                        ")\n" +
                         "\n" +
-                        "(displayln (+ (+ (car par1) (car par2)) (car par3)))";
+                        "(SumaPares)";
         return data;
     }
 
     public String EjePares3(){
-        String data =   "; mediante el procedimiento cons cree 2 pares y llene las colas con cadenas, luego \n" +
+        String data =   ";mediante el procedimiento cons cree 2 pares y llene las colas con cadenas, luego \n" +
                         ";mostrar los datos de las colas de los pares\n\n" +
                         "\n" +
-                        "(define par1 (cons (read) (read)))\n" +
-                        "(define par2 (cons (read) (read)))\n" +
+                        "(define (ColaPares)\n" +
+                        "     (define par1 (cons (read) (read)))\n" +
+                        "     (define par2 (cons (read) (read)))\n" +
+                        "     (displayln (cdr par1)) \n" +
+                        "     (displayln (cdr par2))\n" +
+                        ")\n" +
                         "\n" +
-                        "(displayln (cdr par1)) \n" +
-                        "(displayln (cdr par2))\n";
+                        "(ColaPares)";
         return data;
     }
 
@@ -116,6 +126,32 @@ public class Listas_Pares {
                         ")\n" +
                         "\n" +
                         "(espar?)";
+        return data;
+    }
+    
+    public String EjePares5(){
+        String data =   ";Construya un programa que almacene una lista en un par y mostrar la cabeza del par\n\n" +
+                        "\n" +
+                        "(define (ParesListas)\n" +
+                        "     (define par (cons (list (read) (read)) (list (read) (read))))\n" +
+                        "     (display \"Cabeza del par\")\n" +
+                        "     (display (car par))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ParesListas)";
+        return data;
+    }
+    
+    public String EjePares6(){
+        String data =   ";Construya un programa que almacene un vector en un par y mostrar la cola del par\n\n" +
+                        "\n" +
+                        "(define (ParesVector)\n" +
+                        "   (define par (vector (list (read) (read)) (vector (read) (read))))\n" +
+                        "   (display \"Cola del par\")\n" +
+                        "   (display (cdr par))\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ParesVector)";
         return data;
     }
 
@@ -148,7 +184,8 @@ public class Listas_Pares {
 
     public String Listas4(){
         String data =   "El procedimiento null se encarga de determinar si una lista está vacía.\n" +
-                        "Tiene un argumento y es la lista para evaluar y devuelve un valor booleano\n" +
+                        "Tiene  un  argumento  y  es  la  lista  para  evaluar  y  devuelve un valor\n" +
+                        "booleano\n" +
                         "\n" +
                         "#t o #f\n" +
                         "\n" +
@@ -213,9 +250,12 @@ public class Listas_Pares {
         String data =   ";definir una función que cree una lista y llene 4 datos de la lista por teclado luego \n" +
                         ";mostrar los datos por pantalla con la función displayln\n\n" +
                         "\n" +
-                        "(define Lista(list (read) (read) (read) (read)))\n" +
+                        "(define (CrearLista)\n" +
+                        "      (define Lista(list (read) (read) (read) (read)))\n" +
+                        "      (displayln Lista)\n" +
+                        ") \n" +
                         "\n" +
-                        "(displayln Lista)";
+                        "(CrearLista)";
         return data;
     }
 
@@ -223,10 +263,12 @@ public class Listas_Pares {
         String data =   ";definir una función que cree una lista y llene 4 datos de la lista por teclado luego \n" +
                         ";mostrar la cabeza de la lista  por pantalla con la función displayln\n\n" +
                         "\n" +
+                        "(define (VerCabezaLista)\n" +
+                        "     (define Lista(list (read) (read) (read) (read)))\n" +
+                        "     (displayln (car Lista))\n" +
+                        ")\n" +
                         "\n" +
-                        "(define Lista(list (read) (read) (read) (read)))\n" +
-                        "\n" +
-                        "(displayln (car Lista))";
+                        "(VerCabezaLista)";
         return data;
     }
 

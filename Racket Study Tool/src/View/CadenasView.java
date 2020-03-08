@@ -722,11 +722,11 @@ public class CadenasView extends javax.swing.JFrame {
 
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 23);
+        letsgo.setBounds(500, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(410, 670, 570, 30);
+        jLabel8.setBounds(390, 670, 570, 30);
 
         menu.setText("Menu");
         jPanel1.add(menu);
