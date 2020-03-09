@@ -18,11 +18,11 @@ public class Funciones {
     public String funciones1(){
         String data =   "Las funciones primitivas son aquellas que ya están definidas en el lenguaje\n" +
                         "de programación, por ejemplo la función de suma representada por \"+\"  y la\n" +
-                        "función \"display\", la cual nos sirve para mostrar por pantalla texto\n" +
+                        "función \"display\", la cual nos sirve para mostrar el texto por pantalla,\n" +
                         "\n" +
                         "En Racket para el uso de las funciones es necesario agruparlas por medio\n" +
                         "de  paréntesis \"(  )\",  bien  sean  tanto  funciones  propias,  como  funciones\n" +
-                        "creadas por el usuario\n" +
+                        "creadas por el usuario.\n" +
                         "\n" +
                         "Ejemplo\n" +
                         "(escribir \"Hola Mundo\")\n" +
@@ -34,12 +34,11 @@ public class Funciones {
     
     public String funciones2(){
         String data =   "Al  igual   que   en  otros  lenguajes  de  programación  en Racket podemos\n" +
-                        "Asociar valores a  nombres,  Esto  se  puede usar usando la función define\n" +
+                        "Asignar valores a variables,  Esto se puede usar usando la función \"define\".\n" +
                         "\n" +
                         "Muchas  veces  cuando  programamos  necesitamos  usar un mismo valor\n" +
-                        "en   repetidas   ocasiones,   sería   muy    tedioso  he  ineficiente  tener  que \n" +
-                        "escribir   el   mismo   valor  tantas  veces  para   ello  le  asigna  un nombre o\n" +
-                        "(variable) a el valor. \n" +
+                        "en   repetidas   ocasiones, para   ello, de forma más practica se  le  asigna  \n" +
+                        "un nombre o (variable) al valor. \n" +
                         "\n" +
                         "Ejemplo\n" +
                         "(definir numer 234)\n" +
@@ -60,7 +59,7 @@ public class Funciones {
                         "convertible  en  el tipo de parámetro.\n" +
                         "\n" +
                         "Parametro:\n" +
-                        "es una variable utilizada para recibir valores de entrada de un metodo.\n" +
+                        "Es una variable utilizada para recibir valores de entrada de un metodo.\n" +
                         "\n" +
                         "Ejemplo\n" +
                         "(definir (Suma parametroA parametroB)\n" +

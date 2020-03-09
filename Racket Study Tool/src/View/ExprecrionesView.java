@@ -123,6 +123,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         por = new javax.swing.JButton();
         dividido = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
+        jLabel11 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         PasoPaso = new javax.swing.JButton();
         letsgo = new javax.swing.JButton();
@@ -597,6 +598,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
 
+        jLabel11.setText("(* 3 4  )");
+        jPanel5.add(jLabel11);
+        jLabel11.setBounds(180, 80, 80, 30);
+
         jScrollPane7.setViewportView(jPanel5);
 
         jLabel15.setText("Expreciones Matematicas basicas");
@@ -884,6 +889,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
+    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel18;

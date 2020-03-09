@@ -126,7 +126,6 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones1.setColumns(20);
         funciones1.setRows(5);
         funciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        funciones1.setFocusable(false);
         jScrollPane1.setViewportView(funciones1);
 
         jPanel2.add(jScrollPane1);
@@ -143,7 +142,6 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones2.setColumns(20);
         funciones2.setRows(5);
         funciones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        funciones2.setFocusable(false);
         jScrollPane3.setViewportView(funciones2);
 
         jPanel2.add(jScrollPane3);
@@ -152,7 +150,6 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones3.setColumns(20);
         funciones3.setRows(5);
         funciones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        funciones3.setFocusable(false);
         jScrollPane5.setViewportView(funciones3);
 
         jPanel2.add(jScrollPane5);

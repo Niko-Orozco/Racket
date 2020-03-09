@@ -183,10 +183,10 @@ public class Menu extends javax.swing.JFrame {
         jPanel3.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel3.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
-        jLabel1.setText("GUIA PROGRAMACION FUNCIONAL");
+        jLabel1.setFont(new java.awt.Font("Sylfaen", 1, 22)); // NOI18N
+        jLabel1.setText("GUÍA DE PROGRAMACIÓN FUNCIONAL (RACKET)");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(20, 100, 500, 60);
+        jLabel1.setBounds(20, 120, 580, 60);
 
         AcercaInfo.setBackground(new java.awt.Color(204, 204, 204));
         AcercaInfo.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -498,7 +498,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel19.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel19.setText("Aprende a realizar operaciones logicas");
+        jLabel19.setText("Aprender a realizar operaciones logicas");
         jPanel8.add(jLabel19);
         jLabel19.setBounds(10, 30, 340, 20);
 
@@ -509,7 +509,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel16.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel16.setText("y aritmeticas de una forma sensilla.");
+        jLabel16.setText("y aritmeticas de una forma sencilla.");
         jPanel8.add(jLabel16);
         jLabel16.setBounds(10, 50, 310, 20);
 
@@ -556,7 +556,7 @@ public class Menu extends javax.swing.JFrame {
         recursividad.setBounds(90, 100, 130, 30);
 
         jLabel37.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel37.setText("Descubre que es la  recursivida,  como  y");
+        jLabel37.setText("Descubre que es la  recursividad,  como  y");
         jPanel20.add(jLabel37);
         jLabel37.setBounds(10, 30, 350, 20);
 
@@ -597,7 +597,7 @@ public class Menu extends javax.swing.JFrame {
         condicionales.setBounds(90, 100, 130, 30);
 
         jLabel38.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel38.setText("Aprende a usar las instrucciones condicio-");
+        jLabel38.setText("Aprender a usar las instrucciones condicio-");
         jPanel11.add(jLabel38);
         jLabel38.setBounds(10, 20, 330, 30);
 
@@ -970,7 +970,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel4.add(jPanel21);
         jPanel21.setBounds(770, 1300, 330, 350);
 
-        jLabel29.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
+        jLabel29.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel29.setText("Lenguaje Racket");
         jPanel4.add(jLabel29);
         jLabel29.setBounds(480, 30, 280, 40);

@@ -583,7 +583,7 @@ public class VectoresView extends javax.swing.JFrame {
         jLabel11.setBounds(180, 50, 230, 35);
 
         v1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        v1.setText("1");
+        v1.setText("6");
         v1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 v1ActionPerformed(evt);
@@ -594,16 +594,26 @@ public class VectoresView extends javax.swing.JFrame {
 
         v2.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         v2.setText("2");
+        v2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                v2ActionPerformed(evt);
+            }
+        });
         jPanel11.add(v2);
         v2.setBounds(230, 20, 39, 36);
 
         v3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        v3.setText("3");
+        v3.setText("5");
         jPanel11.add(v3);
         v3.setBounds(280, 20, 39, 36);
 
         v4.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        v4.setText("4");
+        v4.setText("9");
+        v4.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                v4ActionPerformed(evt);
+            }
+        });
         jPanel11.add(v4);
         v4.setBounds(330, 20, 39, 36);
 
@@ -752,6 +762,14 @@ public class VectoresView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void v2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_v2ActionPerformed
+
+    private void v4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_v4ActionPerformed
 
     /**
      * @param args the command line arguments

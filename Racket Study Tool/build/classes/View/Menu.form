@@ -89,13 +89,13 @@
                 <Component class="javax.swing.JLabel" name="jLabel1">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Sylfaen" size="24" style="0"/>
+                      <Font name="Sylfaen" size="22" style="1"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="GUIA PROGRAMACION FUNCIONAL"/>
+                    <Property name="text" type="java.lang.String" value="GU&#xcd;A DE PROGRAMACI&#xd3;N FUNCIONAL (RACKET)"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="20" y="100" width="500" height="60"/>
+                      <AbsoluteConstraints x="20" y="120" width="580" height="60"/>
                     </Constraint>
                   </Constraints>
                 </Component>
@@ -838,7 +838,7 @@
                               <Font name="Sylfaen" size="18" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="2"/>
-                            <Property name="text" type="java.lang.String" value="Aprende a realizar operaciones logicas"/>
+                            <Property name="text" type="java.lang.String" value="Aprender a realizar operaciones logicas"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -870,7 +870,7 @@
                               <Font name="Sylfaen" size="18" style="0"/>
                             </Property>
                             <Property name="horizontalAlignment" type="int" value="2"/>
-                            <Property name="text" type="java.lang.String" value="y aritmeticas de una forma sensilla."/>
+                            <Property name="text" type="java.lang.String" value="y aritmeticas de una forma sencilla."/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1002,7 +1002,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Sylfaen" size="18" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Descubre que es la  recursivida,  como  y"/>
+                            <Property name="text" type="java.lang.String" value="Descubre que es la  recursividad,  como  y"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1126,7 +1126,7 @@
                             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                               <Font name="Sylfaen" size="18" style="0"/>
                             </Property>
-                            <Property name="text" type="java.lang.String" value="Aprende a usar las instrucciones condicio-"/>
+                            <Property name="text" type="java.lang.String" value="Aprender a usar las instrucciones condicio-"/>
                           </Properties>
                           <Constraints>
                             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2165,7 +2165,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel29">
                   <Properties>
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-                      <Font name="Sylfaen" size="24" style="0"/>
+                      <Font name="Sylfaen" size="24" style="1"/>
                     </Property>
                     <Property name="text" type="java.lang.String" value="Lenguaje Racket"/>
                   </Properties>
