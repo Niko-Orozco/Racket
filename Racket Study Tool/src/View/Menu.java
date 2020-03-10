@@ -186,7 +186,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Sylfaen", 1, 22)); // NOI18N
         jLabel1.setText("GUÍA DE PROGRAMACIÓN FUNCIONAL (RACKET)");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(30, 90, 580, 60);
+        jLabel1.setBounds(10, 90, 580, 60);
 
         AcercaInfo.setBackground(new java.awt.Color(204, 204, 204));
         AcercaInfo.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -257,7 +257,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel31);
-        jPanel31.setBounds(-10, 160, 20, 120);
+        jPanel31.setBounds(40, 160, 20, 120);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -265,8 +265,13 @@ public class Menu extends javax.swing.JFrame {
 
         jButton1.setBackground(new java.awt.Color(255, 255, 255));
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/ayudas.png"))); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
         jPanel6.add(jButton1);
-        jButton1.setBounds(1060, 0, 80, 20);
+        jButton1.setBounds(1020, 10, 110, 20);
 
         AbrirAcerca.setBackground(new java.awt.Color(255, 255, 255));
         AbrirAcerca.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/AcercaDe.png"))); // NOI18N
@@ -276,12 +281,13 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel6.add(AbrirAcerca);
-        AbrirAcerca.setBounds(980, 0, 81, 20);
+        AbrirAcerca.setBounds(900, 10, 110, 20);
 
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/racket-icon.png"))); // NOI18N
         jLabel17.setText("Racket");
         jPanel6.add(jLabel17);
-        jLabel17.setBounds(10, 0, 130, 40);
+        jLabel17.setBounds(10, 0, 210, 40);
 
         jPanel3.add(jPanel6);
         jPanel6.setBounds(0, 0, 1190, 40);
@@ -295,20 +301,20 @@ public class Menu extends javax.swing.JFrame {
         jPanel30Layout.setHorizontalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel30Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(63, 63, 63)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 427, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(30, Short.MAX_VALUE))
         );
         jPanel30Layout.setVerticalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel30Layout.createSequentialGroup()
                 .addGap(87, 87, 87)
                 .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(93, Short.MAX_VALUE))
+                .addContainerGap(83, Short.MAX_VALUE))
         );
 
         jPanel3.add(jPanel30);
-        jPanel30.setBounds(650, 40, 520, 440);
+        jPanel30.setBounds(610, 40, 520, 430);
 
         jPanel33.setBackground(new java.awt.Color(237, 237, 237));
 
@@ -324,7 +330,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel33);
-        jPanel33.setBounds(10, 150, 630, 30);
+        jPanel33.setBounds(40, 130, 630, 30);
 
         jPanel32.setBackground(new java.awt.Color(237, 237, 237));
 
@@ -336,11 +342,11 @@ public class Menu extends javax.swing.JFrame {
         );
         jPanel32Layout.setVerticalGroup(
             jPanel32Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 190, Short.MAX_VALUE)
+            .addGap(0, 40, Short.MAX_VALUE)
         );
 
         jPanel3.add(jPanel32);
-        jPanel32.setBounds(0, 280, 660, 190);
+        jPanel32.setBounds(40, 280, 660, 40);
 
         jScrollPane2.setBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -352,7 +358,7 @@ public class Menu extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de sistemas de\n  primer  semestre  una guia  para  el   desarrollo  del  curso  Programacion I,  donde\n  abordaran el paradigma funcional, conoceran sus ventajas,  desventajas  y aplicaciones.");
+        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de  \n  sistemas  de  primer  semestre  una guia  para  el  desarrollo  del  curso  \n  Programacion I,   donde  abordaran  el paradigma funcional, conoceran \n  sus ventajas, desventajas y aplicaciones.");
         jTextArea1.setToolTipText("");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(null);
@@ -362,7 +368,7 @@ public class Menu extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea1);
 
         jPanel3.add(jScrollPane2);
-        jScrollPane2.setBounds(0, 170, 670, 150);
+        jScrollPane2.setBounds(50, 150, 670, 150);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -739,7 +745,7 @@ public class Menu extends javax.swing.JFrame {
         vectores.setBounds(100, 100, 130, 30);
 
         jLabel41.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel41.setText("Entra en esta sección  y  aprende  como ");
+        jLabel41.setText("Ingresar en esta sección y aprende como ");
         jPanel25.add(jLabel41);
         jLabel41.setBounds(10, 30, 340, 20);
 
@@ -749,7 +755,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel47.setBounds(10, 0, 140, 33);
 
         jLabel72.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel72.setText("crear, inicializar y modificar vectores en");
+        jLabel72.setText("crear, inicializar y modificar  vectores en");
         jPanel25.add(jLabel72);
         jLabel72.setBounds(10, 50, 300, 20);
 
@@ -1071,7 +1077,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel62.setBounds(130, 130, 1010, 20);
 
         jLabel63.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel63.setText("Encontraras  un mundo que te adentrará en la programación funcional y dentro del entorno de desarrollo de Racket.");
+        jLabel63.setText("Encontraras  un mundo  que  te adentrará  en  la  programación funcional y dentro del entorno de desarrollo de Racket.");
         jPanel4.add(jLabel63);
         jLabel63.setBounds(130, 70, 980, 20);
 
@@ -1098,7 +1104,7 @@ public class Menu extends javax.swing.JFrame {
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 480, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(0, 0, 0)
                 .addComponent(jPanel4, javax.swing.GroupLayout.PREFERRED_SIZE, 2019, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 0, 0))
         );
@@ -1162,6 +1168,10 @@ public class Menu extends javax.swing.JFrame {
     private void CerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CerrarActionPerformed
         AcercaInfo.setVisible(false);
     }//GEN-LAST:event_CerrarActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
      * @param args the command line arguments
