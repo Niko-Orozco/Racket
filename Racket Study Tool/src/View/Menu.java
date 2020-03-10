@@ -186,7 +186,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel1.setFont(new java.awt.Font("Sylfaen", 1, 22)); // NOI18N
         jLabel1.setText("GUÍA DE PROGRAMACIÓN FUNCIONAL (RACKET)");
         jPanel3.add(jLabel1);
-        jLabel1.setBounds(20, 120, 580, 60);
+        jLabel1.setBounds(30, 90, 580, 60);
 
         AcercaInfo.setBackground(new java.awt.Color(204, 204, 204));
         AcercaInfo.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -241,7 +241,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(AcercaInfo);
-        AcercaInfo.setBounds(570, 29, 510, 230);
+        AcercaInfo.setBounds(630, 30, 510, 230);
 
         jPanel31.setBackground(new java.awt.Color(237, 237, 237));
 
@@ -257,7 +257,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel31);
-        jPanel31.setBounds(20, 180, 20, 120);
+        jPanel31.setBounds(-10, 160, 20, 120);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -324,7 +324,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel33);
-        jPanel33.setBounds(30, 150, 630, 30);
+        jPanel33.setBounds(10, 150, 630, 30);
 
         jPanel32.setBackground(new java.awt.Color(237, 237, 237));
 
@@ -340,7 +340,7 @@ public class Menu extends javax.swing.JFrame {
         );
 
         jPanel3.add(jPanel32);
-        jPanel32.setBounds(0, 300, 660, 190);
+        jPanel32.setBounds(0, 280, 660, 190);
 
         jScrollPane2.setBackground(new java.awt.Color(204, 204, 204));
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
@@ -362,7 +362,7 @@ public class Menu extends javax.swing.JFrame {
         jScrollPane2.setViewportView(jTextArea1);
 
         jPanel3.add(jScrollPane2);
-        jScrollPane2.setBounds(30, 170, 670, 150);
+        jScrollPane2.setBounds(0, 170, 670, 150);
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
