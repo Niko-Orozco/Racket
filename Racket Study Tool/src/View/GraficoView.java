@@ -453,7 +453,7 @@ public class GraficoView extends javax.swing.JFrame {
         menu.setBounds(1040, 700, 70, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
-        jLabel2.setText("Recursividad");
+        jLabel2.setText("Graphics");
         jPanel2.add(jLabel2);
         jLabel2.setBounds(20, 20, 250, 30);
 

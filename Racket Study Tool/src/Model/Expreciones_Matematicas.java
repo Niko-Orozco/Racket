@@ -25,13 +25,23 @@ public class Expreciones_Matematicas {
     
     
      public String expreciones2(){
-        String data =   "Los operadores lógicos y de comparación nos proporcionan un resultado\n" +
-                        "que indica el cumplimiento o no de una condición, es decir:\n" +
+        String data =   "Los   operadores   lógicos  y  de  comparación  nos  proporcionan  un \n" +
+                        "resultado que indica el cumplimiento o no de una condición, es decir:\n" +
                         "\n" +
-                        "Si (< a  b)\n" +
-                        "       escribir: a\n" +
-                        "sino\n" +
-                        "       escribir: b";
+                        "- - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                            :\n" +
+                        "(Si (< a  b)                       :\n" +
+                        "       (escribir: a)              :\n" +
+                        "sino                                  :\n" +
+                        "       (escribir: b)              :\n" +
+                        ")                                         :\n" +
+                        "- - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                           :\n" +
+                        "(if (< a  b)                         :\n" +
+                        "       (display: a)               :\n" +
+                        "       (display: b)               :\n" +
+                        ")                                         :\n" +
+                        "- - - - - - - - - - - - - - - - - - - ";
         return data;
     }
      

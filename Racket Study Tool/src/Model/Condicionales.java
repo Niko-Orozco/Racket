@@ -39,44 +39,47 @@ public class Condicionales {
   
     public String elif(){
         String data =   "En Racket encontramos las funciones if y cond que nos ayudaran a \n" +
-                        "compara dos o más cosas. Por ejemplo:\n" +
+                        "compara dos o más cosas.\n" +
                         "\n" +
-                        "Si (> a  b)\n" +
-                        "    ''a es mayor que b''\n" +
-                        "sino\n" +
-                        "    ‘’b es mayor que a’’\n" +
-                        "\n" +
-                        "\n" +
-                        "El código en racket seria:\n" +
-                        "\n" +
-                        "( if ( condición )\n" +
-                        "      ( Respuesta_Verdadera )\n" +
-                        "      ( Respuesta_Falsa )\n" +
-                        " )\n" +
-                        "\n" +
-                        "Por ejemplo\n" +
-                        "\n" +
-                        "( if (< a b )\n" +
-                        "       (display ''a es menor que b'') ; si la condición es verdadera\n" +
-                        "       (display ''a es mayor que b'') ; si la condición es falsa\n" +
-                        ")\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Estructura                                                 :\n" +
+                        "                                                                   :\n" +
+                        "( if ( condición )                                       :\n" +
+                        "      ( Respuesta_Verdadera )              :\n" +
+                        "      ( Respuesta_Falsa )                       :\n" +
+                        " )                                                                :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                                                                       :\n" +
+                        "( if (< a b )                                                                                                    :\n" +
+                        "       (display ''a es menor que b'') ; si la condición es verdadera     :\n" +
+                        "       (display ''a es mayor que b'') ; si la condición es falsa               :\n" +
+                        ")                                                                                                                     :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "\n" +
                         "Pero que pasa si queremos dar más de una respuesta si la condición \n" +
                         "se  cumple o no, es decir:\n" +
                         "\n" +
-                        " sí (< a  b )\n" +
-                        "        ''a menor que b''\n" +
-                        "        ''el número menor es'' a\n" +
-                        "sino:\n" +
-                        "        ''a es mayor que b''\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                   :\n" +
+                        "( sí (< a  b )                                             :\n" +
+                        "        (''a menor que b'')                         :\n" +
+                        "       ( ''el número menor es'' a)           :\n" +
+                        "sino:                                                        :\n" +
+                        "       ( ''a es mayor que b'')                    :\n" +
+                        ")                                                                :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Racket tiene una función especial para estos casos la cual es ''begin'' \n" +
                         "y su estructura es:\n" +
                         "\n" +
-                        "( begin\n" +
-                        "        (''a menor que b'')\n" +
-                        "        (''el número de es:'' a)\n" +
-                        ")";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                         :\n" +
+                        "( begin                                            :\n" +
+                        "        (''a menor que b'')                 :\n" +
+                        "        (''el número de es:'' a)         :\n" +
+                        ")                                                       :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - ";
          return data;
      }
     
@@ -88,14 +91,22 @@ public class Condicionales {
                     "escribe luego de  todas  las  condiciones  y  únicamente se ejecuta si  \n" +
                     "ninguna de las condiciones anteriores es Verdadera\n" +
                     "\n" +
-                    "Su formato general:\n" +
-                    "   (cond\n" +
-                    "       [(condicional)(Respuesta_Verdadero)]\n" +
-                    "       [(condicion2)(Respuesta_Verdadero)]\n" +
-                    "       …\n" +
-                    "       [(condición)(Respuesta_Verdadero)]\n" +
-                    "       (else (Respuesta_Falso)\n" +
-                    "   )";
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                    "Sintaxis                                                                         :\n" +
+                    "   (cond                                                                          :\n" +
+                    "       [(condicional)(Respuesta_Verdadero)]          :\n" +
+                    "       [(condicion2)(Respuesta_Verdadero)]           :\n" +
+                    "       …                                                                            :\n" +
+                    "       [(condición)(Respuesta_Verdadero)]             :\n" +
+                    "       (else (Respuesta_Falso)                                  :\n" +
+                    "   )                                                                                  :\n" +
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                    "Ejemplo                                                                       :\n" +
+                    " (cond                                                                           :\n" +
+                    "        ((< a b) (display \"Es mayor b\"))                       :\n" +
+                    "        ((< b a) (display \"Es mayor a\"))                       :\n" +
+                    "   )                                                                                  :\n" +
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
@@ -262,10 +273,5 @@ public class Condicionales {
                         "";
         return data;
     }
-    
-    
-    
-    
-    
-    
+ 
 }

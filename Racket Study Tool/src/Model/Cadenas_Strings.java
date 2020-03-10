@@ -29,22 +29,21 @@ public class Cadenas_Strings {
     public String IsString(){
         String data=    "Para comprobar si un dato es una cadena usamos la función string?\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(string? n)\n" +
-                        "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "Código                    Salida\n" +
-                        "(string? ''casa'')      #t \n" +
-                        "(string? 'rana)         #f ;'rana no es una cadena \n" +
-                        "(string? 8)                #f ;8 es un numero\n" +
-                        "(string? '''')                #t ;es una cadena aunque este vacía\n" +
+                        "- - - - - - - - - - - - -\n" +
+                        "Sintaxis              :\n" +
+                        "(cadena? n)      :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                              :\n" +
+                        "                                                                                                             :\n" +
+                        "Código                    Salida                                                                :\n" +
+                        "(string? ''casa'')      #t                                                                        :\n" +
+                        "(string? 'rana)         #f ;'rana no es una cadena                           :\n" +
+                        "(string? 8)                #f ;8 es un numero                                         :\n" +
+                        "(string? '''')                #t ;es una cadena aunque este vacía        :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Como se puede observar se considera cadena a todo aquello que se\n" +
-                        "encuentre dentro de unas comillas dobles  '' '\n" +
-                        "\n" +
-                        "";
+                        "encuentre dentro de unas comillas dobles  '' '";
         return data;
     }
 
@@ -52,21 +51,22 @@ public class Cadenas_Strings {
         String data=    "Para la creación de cadenas podemos usar las  funciones make-string\n" +
                         "y string\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "(make-string n)\n" +
-                        "(make-string n ch)\n" +
-                        "(string ch1 ch2 ...)\n" +
-                        "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "Código                            Salida\n" +
-                        "(make-string 3)              ''      ''  cadena de tres posiciones\n" +
-                        "(make-string 3 #/a)       ''aaa''  cadena con el carácter a de 3 posiciones\n" +
-                        "(string #/H #/o #/l #/a)   ''Hola'' cadena con caracteres dados\n" +
+                        "- - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                            :\n" +
+                        "(hacer-cadena n)           :\n" +
+                        "(hacer-cadena n ch)      :\n" +
+                        "(cadena ch1 ch2 ...)       :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                                                  :\n" +
+                        "                                                                                                                                 :\n" +
+                        "Código                            Salida                                                                            :\n" +
+                        "(make-string 3)              ''      ''  cadena de tres posiciones                            :\n" +
+                        "(make-string 3 #/a)       ''aaa''  cadena con el carácter a de 3 posiciones :\n" +
+                        "(string #/H #/o #/l #/a)   ''Hola'' cadena con caracteres dados                     :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Como se puede ver las funciones make-string y string sirven para crear\n" +
-                        "cadenas\n" +
-                        "";
+                        "cadenas";
         return data;
     }
 
@@ -77,15 +77,16 @@ public class Cadenas_Strings {
                         "Por  ejemplo  la  longitud de una cadena vacía es 0 y la longitud de una\n" +
                         "cadena ''hola'' es 4.\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "(string-length cadena)    tomando una cadena como referencia y retorna\n" +
-                        "                                            el numero de caracteres que tiene\n" +
-                        "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "Código                               Salida\n" +
-                        "(string-length ''hola'')       4\n" +
-                        "(string-length '''')               0";
+                        "- - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                     :\n" +
+                        "(cadena-ltamaño cadena)    :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                            :\n" +
+                        "                                                           :\n" +
+                        "Código                               Salida   :\n" +
+                        "(string-length ''hola'')       4            :\n" +
+                        "(string-length '''')               0            :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
@@ -135,15 +136,13 @@ public class Cadenas_Strings {
                         "\n" +
                         "Para modificar una cadena usamos la función (string-set!)\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(string-set! cadena n carácter)    donde n es la posición a reemplazar el\n" +
-                        "                                                           carácter\n" +
-                        "\n" +
-                        "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "(string-set! (string #/M #/a #/r #/i #/a) 4 #/o)"
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                                           :\n" +
+                        "(cadena-cambiar! cadena n carácter)      :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                               :\n" +
+                        "(string-set! (string #/M #/a #/r #/i #/a) 4 #/o)  :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - "
                 ;
         return data;
     }

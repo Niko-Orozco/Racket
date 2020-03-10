@@ -145,7 +145,6 @@ public class ParesView extends javax.swing.JFrame {
         paresview1.setColumns(20);
         paresview1.setRows(5);
         paresview1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        paresview1.setFocusable(false);
         jScrollPane1.setViewportView(paresview1);
 
         jLabel3.setText("la Funcion cons");
@@ -592,7 +591,7 @@ public class ParesView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(990, 700, 73, 28);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
@@ -600,7 +599,7 @@ public class ParesView extends javax.swing.JFrame {
 
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        letsgo.setBounds(440, 710, 150, 28);
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel24);

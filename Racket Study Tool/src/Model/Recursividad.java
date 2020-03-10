@@ -31,18 +31,33 @@ public class Recursividad {
         String data =   "La    recursividad    consiste    en    funciones    que   se   llaman   a   sí \n" +
                         "mismas,  evitando  el  uso  de  bucles  y  otros  iteradores.\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "Hacer un programa que sume los numeros desde el 1 hasta el 10\n" +
-                        "(definir (Sumatoria n)\n" +
-                        "     (si (< n 10)\n" +
-                        "            (comenzar\n" +
-                        "                       (escribir n) \n" +
-                        "                       (Sumatoria (+ n 1))\n" +
-                        "            )\n" +
-                        "            (escribir \"Recursion finalizada\")\n" +
-                        "      )\n" +
-                        ")\n" +
-                        "(Sumatoria 1)";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                                                                                                :\n" +
+                        "Hacer un programa que sume los numeros desde el 1 hasta el 10     :\n" +
+                        "(definir (Sumatoria n)                                                                                        :\n" +
+                        "     (si (< n 10)                                                                                                      :\n" +
+                        "            (comenzar                                                                                               :\n" +
+                        "                       (escribir n)                                                                                    :\n" +
+                        "                       (Sumatoria (+ n 1))                                                                     :\n" +
+                        "            )                                                                                                                 :\n" +
+                        "            (escribir \"Recursion finalizada\")                                                         :\n" +
+                        "      )                                                                                                                       :\n" +
+                        ")                                                                                                                             :\n" +
+                        "(Sumatoria 1)                                                                                                     :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                                                                               :\n" +
+                        "Hacer un programa que sume los numeros desde el 1 hasta el 10     :\n" +
+                        "(define (Sumatoria n)                                                                                        :\n" +
+                        "     (if (< n 10)                                                                                                       :\n" +
+                        "            (begin                                                                                                       :\n" +
+                        "                       (display n)                                                                                    :\n" +
+                        "                       (Sumatoria (+ n 1))                                                                     :\n" +
+                        "            )                                                                                                                 :\n" +
+                        "            (display \"Recursion finalizada\")                                                          :\n" +
+                        "      )                                                                                                                       :\n" +
+                        ")                                                                                                                             :\n" +
+                        "(Sumatoria 1)                                                                                                     :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
     

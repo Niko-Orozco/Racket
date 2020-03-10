@@ -130,7 +130,6 @@ public class RecursividadView extends javax.swing.JFrame {
         recursiones3.setColumns(20);
         recursiones3.setRows(5);
         recursiones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        recursiones3.setFocusable(false);
         jScrollPane5.setViewportView(recursiones3);
 
         jPanel2.add(jScrollPane5);
@@ -139,7 +138,6 @@ public class RecursividadView extends javax.swing.JFrame {
         recursiones1.setColumns(20);
         recursiones1.setRows(5);
         recursiones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        recursiones1.setFocusable(false);
         jScrollPane1.setViewportView(recursiones1);
 
         jPanel2.add(jScrollPane1);

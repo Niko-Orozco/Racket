@@ -24,11 +24,13 @@ public class Funciones {
                         "de  paréntesis \"(  )\",  bien  sean  tanto  funciones  propias,  como  funciones\n" +
                         "creadas por el usuario.\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "(escribir \"Hola Mundo\")\n" +
-                        "\n" +
-                        "Sintaxis Racket\n" +
-                        "(display \"Hola Mundo\")";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                       :\n" +
+                        "(escribir \"Hola Mundo\")           :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                      :\n" +
+                        "(display \"Hola Mundo\")            :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
@@ -40,13 +42,15 @@ public class Funciones {
                         "en   repetidas   ocasiones, para   ello, de forma más practica se  le  asigna  \n" +
                         "un nombre o (variable) al valor. \n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "(definir numer 234)\n" +
-                        "(definir letras \"Hola\")\n" +
-                        "\n" +
-                        "Sintaxxis Racket\n" +
-                        "(define numer 234)\n" +
-                        "(define letras \"Hola\")";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                        :\n" +
+                        "(definir numer 234)                   :\n" +
+                        "(definir letras \"Hola\")                :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        " Ejemplo                                      :\n" +
+                        "(define numer 234)                   :\n" +
+                        "(define letras \"Hola\")                :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
@@ -61,22 +65,26 @@ public class Funciones {
                         "Parametro:\n" +
                         "Es una variable utilizada para recibir valores de entrada de un metodo.\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "(definir (Suma parametroA parametroB)\n" +
-                        "         (+  parametroA   parametroB)\n" +
-                        ")\n" +
-                        "\n" +
-                        "Sintaxis Racket\n" +
-                        "(define (Suma parametroA parametroB))\n" +
-                        "         (+  parametroA   parametroB)\n" +
-                        ")\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                     :\n" +
+                        "(definir (Suma parametroA parametroB)            :\n" +
+                        "         (+  parametroA   parametroB)                      :\n" +
+                        ")                                                                                  :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                                      :\n" +
+                        "(define (Suma parametroA parametroB))           :\n" +
+                        "         (+  parametroA   parametroB)                      :\n" +
+                        ")                                                                                   :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Argumento\n" +
                         "Valores que son enviados desde un metodo hacia una funcion\n" +
                         "\n" +
-                        "Ejemplo                   Salida\n" +
-                        "(Suma 2 3)    ->       5\n" +
-                        "(Suma 6 9)    ->       15";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                   Salida       :\n" +
+                        "(Suma 2 3)    ->       5                :\n" +
+                        "(Suma 6 9)    ->       15              :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
