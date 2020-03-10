@@ -279,7 +279,7 @@ public class Menu extends javax.swing.JFrame {
         AbrirAcerca.setBounds(980, 0, 81, 20);
 
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
-        jLabel17.setText("Dr Racket");
+        jLabel17.setText("Racket");
         jPanel6.add(jLabel17);
         jLabel17.setBounds(10, 0, 130, 40);
 
@@ -1071,7 +1071,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel62.setBounds(130, 130, 1010, 20);
 
         jLabel63.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel63.setText("Encontraras  un mundo que te adentrará en la programación funcional y dentro del entorno de desarrollo de Dr Racket.");
+        jLabel63.setText("Encontraras  un mundo que te adentrará en la programación funcional y dentro del entorno de desarrollo de Racket.");
         jPanel4.add(jLabel63);
         jLabel63.setBounds(130, 70, 980, 20);
 

@@ -312,7 +312,7 @@
                         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                           <Font name="Sylfaen" size="24" style="3"/>
                         </Property>
-                        <Property name="text" type="java.lang.String" value="Dr Racket"/>
+                        <Property name="text" type="java.lang.String" value="Racket"/>
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2441,7 +2441,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Sylfaen" size="18" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="Encontraras  un mundo que te adentrar&#xe1; en la programaci&#xf3;n funcional y dentro del entorno de desarrollo de Dr Racket."/>
+                    <Property name="text" type="java.lang.String" value="Encontraras  un mundo que te adentrar&#xe1; en la programaci&#xf3;n funcional y dentro del entorno de desarrollo de Racket."/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
