@@ -576,10 +576,10 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursion.png"))); // NOI18N
         jPanel14.add(jLabel7);
-        jLabel7.setBounds(10, 10, 315, 190);
+        jLabel7.setBounds(10, 10, 320, 190);
 
         jPanel4.add(jPanel14);
-        jPanel14.setBounds(410, 572, 328, 340);
+        jPanel14.setBounds(410, 560, 328, 340);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -620,7 +620,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel5.setBounds(0, 0, 320, 200);
 
         jPanel4.add(jPanel12);
-        jPanel12.setBounds(50, 572, 325, 340);
+        jPanel12.setBounds(50, 560, 325, 340);
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
         jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -665,7 +665,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel8.setBounds(10, 0, 310, 200);
 
         jPanel4.add(jPanel15);
-        jPanel15.setBounds(770, 573, 330, 340);
+        jPanel15.setBounds(770, 560, 330, 340);
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
         jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -688,7 +688,7 @@ public class Menu extends javax.swing.JFrame {
         cadenas.setBackground(new java.awt.Color(255, 255, 255));
         cadenas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b5.png"))); // NOI18N
         jPanel24.add(cadenas);
-        cadenas.setBounds(90, 100, 130, 30);
+        cadenas.setBounds(90, 120, 130, 30);
 
         jLabel40.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel40.setText("Esta sección explica el uso, declaración e");
@@ -706,14 +706,14 @@ public class Menu extends javax.swing.JFrame {
         jLabel71.setBounds(10, 40, 300, 30);
 
         jPanel16.add(jPanel24);
-        jPanel24.setBounds(0, 190, 326, 140);
+        jPanel24.setBounds(0, 190, 326, 160);
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jPanel16.add(jLabel9);
         jLabel9.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel16);
-        jPanel16.setBounds(50, 950, 325, 333);
+        jPanel16.setBounds(50, 933, 325, 350);
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
         jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -742,7 +742,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel25.add(vectores);
-        vectores.setBounds(100, 100, 130, 30);
+        vectores.setBounds(100, 120, 130, 30);
 
         jLabel41.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel41.setText("Ingresar en esta sección y aprende como ");
@@ -760,14 +760,14 @@ public class Menu extends javax.swing.JFrame {
         jLabel72.setBounds(10, 50, 300, 20);
 
         jPanel17.add(jPanel25);
-        jPanel25.setBounds(0, 190, 326, 140);
+        jPanel25.setBounds(0, 190, 326, 160);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vectores.PNG"))); // NOI18N
         jPanel17.add(jLabel10);
         jLabel10.setBounds(0, 10, 330, 180);
 
         jPanel4.add(jPanel17);
-        jPanel17.setBounds(410, 950, 328, 333);
+        jPanel17.setBounds(410, 933, 328, 350);
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -793,7 +793,7 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel26.add(listas);
-        listas.setBounds(110, 100, 130, 30);
+        listas.setBounds(100, 120, 130, 30);
 
         jLabel42.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel42.setText("Adentrate en el conocimiento de las listas,");
@@ -811,14 +811,14 @@ public class Menu extends javax.swing.JFrame {
         jLabel73.setBounds(10, 50, 380, 20);
 
         jPanel18.add(jPanel26);
-        jPanel26.setBounds(0, 190, 326, 140);
+        jPanel26.setBounds(0, 190, 326, 160);
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/listas.png"))); // NOI18N
         jPanel18.add(jLabel11);
         jLabel11.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel18);
-        jPanel18.setBounds(770, 950, 326, 333);
+        jPanel18.setBounds(50, 1300, 326, 350);
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
         jPanel22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -873,7 +873,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel15.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel22);
-        jPanel22.setBounds(50, 1300, 328, 350);
+        jPanel22.setBounds(770, 930, 328, 350);
 
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
         jPanel19.setBorder(javax.swing.BorderFactory.createEtchedBorder());

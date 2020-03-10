@@ -139,7 +139,6 @@ public class ParesView extends javax.swing.JFrame {
         paresview3.setColumns(20);
         paresview3.setRows(5);
         paresview3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        paresview3.setFocusable(false);
         jScrollPane5.setViewportView(paresview3);
 
         paresview1.setColumns(20);
@@ -156,7 +155,6 @@ public class ParesView extends javax.swing.JFrame {
         paresview4.setColumns(20);
         paresview4.setRows(5);
         paresview4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        paresview4.setFocusable(false);
         jScrollPane7.setViewportView(paresview4);
 
         jLabel6.setText("Cdr");
@@ -164,13 +162,11 @@ public class ParesView extends javax.swing.JFrame {
         paresview2.setColumns(20);
         paresview2.setRows(5);
         paresview2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        paresview2.setFocusable(false);
         jScrollPane3.setViewportView(paresview2);
 
         paresview5.setColumns(20);
         paresview5.setRows(5);
         paresview5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        paresview5.setFocusable(false);
         jScrollPane11.setViewportView(paresview5);
 
         jLabel9.setText("Pair?");
@@ -193,7 +189,7 @@ public class ParesView extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
