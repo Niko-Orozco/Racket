@@ -267,6 +267,29 @@ public class Controlador {
             explaincode(5);
         });
         
+        CodeExp.Ejecutar6.addActionListener((ActionEvent e) -> {
+            
+           CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
+            explaincode(3);
+        });
+        CodeExp.Ejecutar8.addActionListener((ActionEvent e) -> {
+            
+           CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
+            explaincode(3);
+        });
+        CodeExp.Ejecutar9.addActionListener((ActionEvent e) -> {
+            
+           CodeExp.Pasos.setText("Ejecutando..."); //indica que se ha inicializado el proceso
+           CodeExp.Valores.setText("");//pone campo en blanco 
+           CodeExp.Salida.setText("");//pone campo en blanco
+            explaincode(3);
+        });
+        
+        
         CodeExp.menu.addActionListener((ActionEvent e) -> {
             CodeExp.setVisible(false);
             menu.setVisible(true);
@@ -291,6 +314,15 @@ int linea=0; //Variable Global
                 linea=0;
                 });
         CodeExp.stop5.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop7.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop9.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
+                linea=0;
+                });
+        CodeExp.stop10.addActionListener((ActionEvent p) -> {//botón que finaliza el código dejando la variable global en 0 y reiniciando el proceso
                 linea=0;
                 });
         //funciones
@@ -343,6 +375,8 @@ int linea=0; //Variable Global
                 linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
                 
             }
+            
+            
         });
        //Recursividad
         CodeExp.next3.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
@@ -453,6 +487,98 @@ int linea=0; //Variable Global
             };
             
             if(linea <13)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
+        //vector aleatorio
+        CodeExp.next7.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"3","( define vec (make-vector 6))","",""},
+                {"10","(LlenarRandom)","",""},
+                {"6"," ( vector-fill! vec (random 220))","cantidad => 2312312",""},
+                {"6","(random 220)","",""},
+                {"7","( display vec )","",""},
+                {"10","","","#(202 202 202 202 202 202)"},
+            };
+            
+            if(linea <6)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+            
+            
+        });
+        //pares
+        
+        CodeExp.next9.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"5","(cons 12 \"Mariana\")","",""},
+                {"15","(SumadePares)","",""},
+                {"7","(if (pair? par)","",""},
+                {"7","(pair? par)","",""},
+                {"8","(begin","",""},
+                {"9","(display \"Es par\")","",""},
+                {"9","(display \"Es par\")","","Es Par"},
+                {"10","(display (+ (car par)  5)))","","Es Par"},
+                {"10","(+ (car par)  5)","","Es Par"},
+                {"10","(car par)","","Es Par"},
+                {"11","(display (cdr par))","","Es Par"},
+                {"11","(display (cdr par))","","Es Par17"},
+                {"11","(display (cdr par))","","Es Par17"},
+                {"15","(SumadePares)","","Es Par17Mariana"},
+            };
+            
+            if(linea <14)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
+            {                
+                CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
+                CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
+                CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
+                linea= linea +1;//suma en uno la variable que me recorre el array
+            }else{// valor falso del if, si entra aquí es porque el código ya finalizo
+                CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
+                CodeExp.Valores.setText("");//pone el campo en blanco
+                CodeExp.Salida.setText("");//pone el campo en blanco
+                linea=0;//reinicia la variable linea para evitar errores y que vuelva a ejecutar la funcion
+                
+            }
+        });
+        
+        CodeExp.next10.addActionListener((ActionEvent e) -> {// botón que me inicia paso a paso de las funciones          
+            
+            String funciones[][]  = {//array que contiene cada paso de la funcion
+                {"15","(EsVocal? #\\r)","",""},
+                {"3","(cond","voc => #\\r",""},
+                {"4","(char=? voc #\\a)","voc => #\\r",""},
+                {"5","(char=? voc #\\e)","voc => #\\r",""},
+                {"6","(char=? voc #\\i)","voc => #\\r",""},
+                {"7","(char=? voc #\\o)","voc => #\\r",""},
+                {"8","(char=? voc #\\u)","voc => #\\r",""},
+                {"9","(else","voc => #\\r",""},
+                {"10","(display \"No es una vocal\")","No es una vocal"},
+            };
+            
+            if(linea <9)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
             {                
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
