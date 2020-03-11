@@ -579,11 +579,14 @@ int linea=0; //Variable Global
             };
             
             if(linea <9)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
-            {                
+            {  try{
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
+            }catch(Exception){
+                
+            }
             }else{// valor falso del if, si entra aquí es porque el código ya finalizo
                 CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
