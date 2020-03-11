@@ -145,22 +145,26 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Expreciones1.setColumns(20);
         Expreciones1.setRows(5);
         Expreciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Expreciones1.setFocusable(false);
         jScrollPane1.setViewportView(Expreciones1);
 
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(41, 148, 413, 140);
 
         jLabel3.setText("¿Que son los operadores logicos y de comparacion?");
+        jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(41, 299, 344, 22);
 
         jLabel4.setText("¿Que es una exprecion aritmetica?");
+        jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(41, 120, 355, 22);
 
         Expresiones2.setColumns(20);
         Expresiones2.setRows(5);
         Expresiones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Expresiones2.setFocusable(false);
         jScrollPane3.setViewportView(Expresiones2);
 
         jPanel2.add(jScrollPane3);
@@ -187,8 +191,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -494,8 +500,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo #6", jPanel12);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -503,16 +511,19 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/operaciones3[1].png"))); // NOI18N
+        jLabel5.setFocusable(false);
         jPanel6.add(jLabel5);
         jLabel5.setBounds(10, 20, 410, 200);
 
         jLabel16.setText("operadores logicos y comparacion");
+        jLabel16.setFocusable(false);
         jPanel6.add(jLabel16);
         jLabel16.setBounds(10, 0, 200, 22);
 
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jPanel5.setFocusable(false);
         jPanel5.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 jPanel5MouseEntered(evt);
@@ -595,6 +606,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         dividido.setBounds(80, 120, 50, 40);
 
         jLabel10.setText("Calculadora con operaciones basicas");
+        jLabel10.setFocusable(false);
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
 
@@ -605,6 +617,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jScrollPane7.setViewportView(jPanel5);
 
         jLabel15.setText("Expreciones Matematicas basicas");
+        jLabel15.setFocusable(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
@@ -630,6 +643,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         );
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -681,19 +695,23 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 630, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
         letsgo.setBounds(490, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(370, 670, 440, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
         jLabel2.setText("Expreciones matematicas");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 20, 250, 30);
 

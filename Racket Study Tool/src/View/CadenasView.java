@@ -159,11 +159,13 @@ public class CadenasView extends javax.swing.JFrame {
         stringfuncion.setColumns(20);
         stringfuncion.setRows(5);
         stringfuncion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        stringfuncion.setFocusable(false);
         jScrollPane5.setViewportView(stringfuncion);
 
         quecadena.setColumns(20);
         quecadena.setRows(5);
         quecadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        quecadena.setFocusable(false);
         jScrollPane1.setViewportView(quecadena);
 
         jLabel3.setText("Creacion de cadenas");
@@ -175,6 +177,7 @@ public class CadenasView extends javax.swing.JFrame {
         lenghtcadena.setColumns(20);
         lenghtcadena.setRows(5);
         lenghtcadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        lenghtcadena.setFocusable(false);
         jScrollPane7.setViewportView(lenghtcadena);
 
         jLabel6.setText("¿Una cadena tiene tamaño?");
@@ -182,11 +185,13 @@ public class CadenasView extends javax.swing.JFrame {
         makecadena.setColumns(20);
         makecadena.setRows(5);
         makecadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        makecadena.setFocusable(false);
         jScrollPane3.setViewportView(makecadena);
 
         setcadena.setColumns(20);
         setcadena.setRows(5);
         setcadena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setcadena.setFocusable(false);
         jScrollPane11.setViewportView(setcadena);
 
         jLabel9.setText("Modificacion de cadenas");
@@ -194,6 +199,7 @@ public class CadenasView extends javax.swing.JFrame {
         strcomparar.setColumns(20);
         strcomparar.setRows(5);
         strcomparar.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        strcomparar.setFocusable(false);
         jScrollPane12.setViewportView(strcomparar);
 
         jLabel10.setText("Comparacion de cadenas");
@@ -201,6 +207,7 @@ public class CadenasView extends javax.swing.JFrame {
         cadunion.setColumns(20);
         cadunion.setRows(5);
         cadunion.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        cadunion.setFocusable(false);
         jScrollPane14.setViewportView(cadunion);
 
         jLabel16.setText("Union de cadenas");
@@ -208,6 +215,7 @@ public class CadenasView extends javax.swing.JFrame {
         caracdena.setColumns(20);
         caracdena.setRows(5);
         caracdena.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracdena.setFocusable(false);
         jScrollPane15.setViewportView(caracdena);
 
         jLabel17.setText("Caracteres de una cadena");
@@ -287,6 +295,7 @@ public class CadenasView extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -298,6 +307,7 @@ public class CadenasView extends javax.swing.JFrame {
         jLabel1.setText("Consola");
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -644,12 +654,15 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string=", jPanel10);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Reprecentacion de una cadena en Racket");
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/cadenas.jpg"))); // NOI18N
+        jLabel11.setFocusable(false);
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -714,7 +727,7 @@ public class CadenasView extends javax.swing.JFrame {
 
         letsgo.setText("Vamos alla");
         jPanel1.add(letsgo);
-        letsgo.setBounds(500, 700, 150, 28);
+        letsgo.setBounds(500, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
@@ -722,7 +735,7 @@ public class CadenasView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 28);
+        menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Cadenas y Strings");

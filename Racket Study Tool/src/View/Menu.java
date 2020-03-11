@@ -188,6 +188,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 1, 22)); // NOI18N
         jLabel1.setText("GUÍA DE PROGRAMACIÓN FUNCIONAL (RACKET)");
+        jLabel1.setFocusable(false);
         jPanel3.add(jLabel1);
         jLabel1.setBounds(10, 90, 580, 60);
 
@@ -196,9 +197,11 @@ public class Menu extends javax.swing.JFrame {
         AcercaInfo.setForeground(new java.awt.Color(255, 255, 255));
 
         jPanel38.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel38.setFocusable(false);
         jPanel38.setLayout(null);
 
         jLabel59.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/racket-logo.png"))); // NOI18N
+        jLabel59.setFocusable(false);
         jPanel38.add(jLabel59);
         jLabel59.setBounds(0, 0, 40, 40);
 
@@ -207,6 +210,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel39.setLayout(null);
 
         jLabel60.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/Acerca de texto.png"))); // NOI18N
+        jLabel60.setFocusable(false);
         jPanel39.add(jLabel60);
         jLabel60.setBounds(0, 10, 501, 120);
 
@@ -215,6 +219,7 @@ public class Menu extends javax.swing.JFrame {
 
         Cerrar.setBackground(new java.awt.Color(255, 255, 255));
         Cerrar.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/Acerca de/cerrar.png"))); // NOI18N
+        Cerrar.setFocusable(false);
         Cerrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 CerrarActionPerformed(evt);
@@ -225,6 +230,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel61.setFont(new java.awt.Font("Sylfaen", 2, 18)); // NOI18N
         jLabel61.setText("Acerca de");
+        jLabel61.setFocusable(false);
         jPanel38.add(jLabel61);
         jLabel61.setBounds(40, 10, 100, 30);
 
@@ -289,6 +295,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel17.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/racket-icon.png"))); // NOI18N
         jLabel17.setText("Racket");
+        jLabel17.setFocusable(false);
         jPanel6.add(jLabel17);
         jLabel17.setBounds(10, 0, 210, 40);
 
@@ -375,6 +382,7 @@ public class Menu extends javax.swing.JFrame {
 
         jPanel4.setBackground(new java.awt.Color(255, 255, 255));
         jPanel4.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel4.setFocusable(false);
         jPanel4.setLayout(null);
 
         jPanel9.setBackground(new java.awt.Color(255, 255, 255));
@@ -998,6 +1006,7 @@ public class Menu extends javax.swing.JFrame {
 
         jLabel29.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel29.setText("Lenguaje Racket");
+        jLabel29.setFocusable(false);
         jPanel4.add(jLabel29);
         jLabel29.setBounds(480, 30, 280, 40);
 

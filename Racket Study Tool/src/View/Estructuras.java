@@ -134,6 +134,7 @@ public class Estructuras extends javax.swing.JFrame {
         makestruc.setColumns(20);
         makestruc.setRows(5);
         makestruc.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        makestruc.setFocusable(false);
         jScrollPane5.setViewportView(makestruc);
 
         jPanel2.add(jScrollPane5);
@@ -142,16 +143,19 @@ public class Estructuras extends javax.swing.JFrame {
         questruct.setColumns(20);
         questruct.setRows(5);
         questruct.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        questruct.setFocusable(false);
         jScrollPane1.setViewportView(questruct);
 
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(27, 39, 413, 140);
 
         jLabel3.setText("Define-struct");
+        jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(27, 190, 215, 22);
 
         jLabel4.setText("¿Que es una estructura de datos?");
+        jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(27, 11, 184, 22);
 
@@ -162,6 +166,7 @@ public class Estructuras extends javax.swing.JFrame {
         defstruct.setColumns(20);
         defstruct.setRows(5);
         defstruct.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        defstruct.setFocusable(false);
         jScrollPane3.setViewportView(defstruct);
 
         jPanel2.add(jScrollPane3);
@@ -178,6 +183,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -187,8 +193,10 @@ public class Estructuras extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -494,10 +502,13 @@ public class Estructuras extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Reprecentacion grafica de una estructura de datos");
+        jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
         jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -508,13 +519,14 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel6.setLayout(null);
 
         adddata.setText("Agregar Datos");
+        adddata.setFocusable(false);
         adddata.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 adddataMouseEntered(evt);
             }
         });
         jPanel6.add(adddata);
-        adddata.setBounds(240, 10, 120, 28);
+        adddata.setBounds(240, 10, 120, 23);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -535,6 +547,7 @@ public class Estructuras extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        DatosStruct.setFocusable(false);
         jScrollPane11.setViewportView(DatosStruct);
 
         PasoPaso.setText("Paso a Paso");
@@ -596,19 +609,23 @@ public class Estructuras extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 630, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 28);
+        letsgo.setBounds(530, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(410, 670, 570, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 28);
+        menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Estructuras de datos ");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 
