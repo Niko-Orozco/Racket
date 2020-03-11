@@ -140,6 +140,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter1.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter1.setRows(5);
         caracter1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracter1.setFocusable(false);
         jScrollPane11.setViewportView(caracter1);
 
         jLabel9.setText("¿Que son Caracteres?");
@@ -148,6 +149,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter2.setRows(5);
         caracter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracter2.setFocusable(false);
         jScrollPane12.setViewportView(caracter2);
 
         jLabel10.setText("Char?");
@@ -156,6 +158,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter3.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter3.setRows(5);
         caracter3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracter3.setFocusable(false);
         jScrollPane13.setViewportView(caracter3);
 
         jLabel14.setText("Char-ci");
@@ -164,6 +167,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter4.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter4.setRows(5);
         caracter4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracter4.setFocusable(false);
         jScrollPane14.setViewportView(caracter4);
 
         jLabel15.setText("COMENTARIOS");
@@ -172,6 +176,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter5.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter5.setRows(5);
         caracter5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        caracter5.setFocusable(false);
         jScrollPane15.setViewportView(caracter5);
 
         jLabel16.setText("Documentacion");
@@ -229,9 +234,12 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
+        jTabbedPane1.setFocusable(false);
+
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -243,6 +251,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jLabel1.setText("Consola");
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -550,10 +559,13 @@ public class CaracteresView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo #6", jPanel9);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);

@@ -43,6 +43,7 @@ public class codex extends javax.swing.JFrame {
         setUndecorated(true);
 
         ok.setText("Aceptar");
+        ok.setFocusable(false);
 
         codes.setFocusable(false);
         jScrollPane2.setViewportView(codes);

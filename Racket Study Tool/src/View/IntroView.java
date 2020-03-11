@@ -115,22 +115,28 @@ public class IntroView extends javax.swing.JFrame {
         intro5.setColumns(20);
         intro5.setRows(5);
         intro5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro5.setFocusable(false);
         jScrollPane4.setViewportView(intro5);
 
         jLabel7.setText("¿Que es Dr.Racket?");
+        jLabel7.setFocusable(false);
 
         jLabel8.setText("¿Que es la programacion funcional?");
+        jLabel8.setFocusable(false);
 
         intro6.setColumns(20);
         intro6.setRows(5);
         intro6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro6.setFocusable(false);
         jScrollPane9.setViewportView(intro6);
 
         jLabel13.setText("Paradigmas de la programacion");
+        jLabel13.setFocusable(false);
 
         intro7.setColumns(20);
         intro7.setRows(5);
         intro7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro7.setFocusable(false);
         jScrollPane10.setViewportView(intro7);
 
         intro8.setColumns(20);
@@ -188,10 +194,12 @@ public class IntroView extends javax.swing.JFrame {
         jPanel8.setLayout(null);
 
         jLabel9.setText("Ejemplos");
+        jLabel9.setFocusable(false);
         jPanel8.add(jLabel9);
         jLabel9.setBounds(12, 15, 81, 19);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
         jPanel8.add(jButton2);
         jButton2.setBounds(623, 10, 80, 23);
 
@@ -202,11 +210,13 @@ public class IntroView extends javax.swing.JFrame {
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Operaciones", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 10))); // NOI18N
+        jPanel3.setFocusable(false);
         jPanel3.setOpaque(false);
 
         botonInsertar.setBackground(new java.awt.Color(255, 255, 255));
         botonInsertar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonInsertar.setText("Insertar");
+        botonInsertar.setFocusable(false);
         botonInsertar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonInsertarActionPerformed(evt);
@@ -215,6 +225,7 @@ public class IntroView extends javax.swing.JFrame {
 
         opciones.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         opciones.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "RECORRIDO", "InOrden", "PreOrden", "PosOrden", "PorNiveles", "NivelOrdenado" }));
+        opciones.setFocusable(false);
         opciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 opcionesActionPerformed(evt);
@@ -224,6 +235,7 @@ public class IntroView extends javax.swing.JFrame {
         cmdBuscar.setBackground(new java.awt.Color(255, 255, 255));
         cmdBuscar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdBuscar.setText("Buscar");
+        cmdBuscar.setFocusable(false);
         cmdBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdBuscarActionPerformed(evt);
@@ -233,6 +245,7 @@ public class IntroView extends javax.swing.JFrame {
         botonBorrar.setBackground(new java.awt.Color(255, 255, 255));
         botonBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonBorrar.setText("Borrar");
+        botonBorrar.setFocusable(false);
         botonBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonBorrarActionPerformed(evt);
@@ -284,6 +297,7 @@ public class IntroView extends javax.swing.JFrame {
         jInternalFrame2.setVisible(true);
 
         jLabel10.setText("Tipos de notacion");
+        jLabel10.setFocusable(false);
 
         javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
         jInternalFrame2.getContentPane().setLayout(jInternalFrame2Layout);
@@ -364,6 +378,7 @@ public class IntroView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 730, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         letsgo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 letsgoActionPerformed(evt);
@@ -373,15 +388,18 @@ public class IntroView extends javax.swing.JFrame {
         letsgo.setBounds(530, 700, 150, 23);
 
         jLabel17.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel17.setFocusable(false);
         jPanel6.add(jLabel17);
         jLabel17.setBounds(410, 670, 580, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel6.add(menu);
         menu.setBounds(1160, 690, 73, 23);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
         jLabel18.setText("Introduccion");
+        jLabel18.setFocusable(false);
         jPanel6.add(jLabel18);
         jLabel18.setBounds(10, 20, 250, 30);
 

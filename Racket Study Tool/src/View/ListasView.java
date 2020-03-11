@@ -163,6 +163,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Listas");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 160, 30);
 
@@ -172,65 +173,83 @@ public class ListasView extends javax.swing.JFrame {
         listas1.setColumns(20);
         listas1.setRows(5);
         listas1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas1.setFocusable(false);
         jScrollPane11.setViewportView(listas1);
 
         jLabel9.setText("¿Que es una lista?");
+        jLabel9.setFocusable(false);
 
         listas2.setColumns(20);
         listas2.setRows(5);
         listas2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas2.setFocusable(false);
         jScrollPane12.setViewportView(listas2);
 
         jLabel10.setText("La funcion list");
+        jLabel10.setFocusable(false);
 
         listas3.setColumns(20);
         listas3.setRows(5);
         listas3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas3.setFocusable(false);
         jScrollPane13.setViewportView(listas3);
 
         jLabel14.setText("Car");
+        jLabel14.setFocusable(false);
 
         listas4.setColumns(20);
         listas4.setRows(5);
         listas4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas4.setFocusable(false);
         jScrollPane14.setViewportView(listas4);
 
         jLabel15.setText("Null?");
+        jLabel15.setFocusable(false);
 
         listas5.setColumns(20);
         listas5.setRows(5);
         listas5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas5.setFocusable(false);
         jScrollPane15.setViewportView(listas5);
 
         jLabel16.setText("Append");
+        jLabel16.setFocusable(false);
 
         listas6.setColumns(20);
         listas6.setRows(5);
         listas6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas6.setFocusable(false);
         jScrollPane16.setViewportView(listas6);
 
         jLabel17.setText("List?");
+        jLabel17.setFocusable(false);
 
         listas7.setColumns(20);
         listas7.setRows(5);
         listas7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas7.setFocusable(false);
         jScrollPane20.setViewportView(listas7);
 
         jLabel18.setText("Length");
+        jLabel18.setFocusable(false);
 
         listas8.setColumns(20);
         listas8.setRows(5);
         listas8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas8.setFocusable(false);
         jScrollPane21.setViewportView(listas8);
 
         jLabel19.setText("Reverse");
+        jLabel19.setFocusable(false);
 
         listas9.setColumns(20);
         listas9.setRows(5);
         listas9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        listas9.setFocusable(false);
         jScrollPane22.setViewportView(listas9);
 
         jLabel20.setText("List-tail");
+        jLabel20.setFocusable(false);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -312,6 +331,7 @@ public class ListasView extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -321,8 +341,10 @@ public class ListasView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -745,10 +767,13 @@ public class ListasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("list-tail", jPanel11);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -786,14 +811,17 @@ public class ListasView extends javax.swing.JFrame {
         jPanel7.setBounds(500, 70, 590, 600);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(990, 700, 73, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
         letsgo.setBounds(440, 710, 150, 23);
 

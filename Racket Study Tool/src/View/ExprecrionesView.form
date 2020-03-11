@@ -92,6 +92,7 @@
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -102,6 +103,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="&#xbf;Que son los operadores logicos y de comparacion?"/>
+                    <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -112,6 +114,7 @@
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="&#xbf;Que es una exprecion aritmetica?"/>
+                    <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -138,6 +141,7 @@
                         <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                           <Color id="Cursor Por defecto"/>
                         </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -332,11 +336,13 @@
                         <Component class="javax.swing.JLabel" name="jLabel1">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Consola"/>
+                            <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JButton" name="run1">
                           <Properties>
                             <Property name="text" type="java.lang.String" value="Ejecutar"/>
+                            <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                           <Events>
                             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="run1ActionPerformed"/>
@@ -907,11 +913,13 @@
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Ejemplos"/>
+                    <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JButton" name="jButton2">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="ayuda"/>
+                    <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -941,6 +949,7 @@
                         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
                           <Image iconType="3" name="/Images/operaciones3[1].png"/>
                         </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -951,6 +960,7 @@
                     <Component class="javax.swing.JLabel" name="jLabel16">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="operadores logicos y comparacion"/>
+                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1007,6 +1017,9 @@
                       <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                       <SubComponents>
                         <Container class="javax.swing.JPanel" name="jPanel5">
+                          <Properties>
+                            <Property name="focusable" type="boolean" value="false"/>
+                          </Properties>
                           <Events>
                             <EventHandler event="mouseEntered" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jPanel5MouseEntered"/>
                           </Events>
@@ -1139,6 +1152,7 @@
                             <Component class="javax.swing.JLabel" name="jLabel10">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="Calculadora con operaciones basicas"/>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1163,6 +1177,7 @@
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
                         <Property name="text" type="java.lang.String" value="Expreciones Matematicas basicas"/>
+                        <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
                   </SubComponents>
@@ -1170,6 +1185,7 @@
                 <Component class="javax.swing.JButton" name="PasoPaso">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Paso a Paso"/>
+                    <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1182,6 +1198,7 @@
         <Component class="javax.swing.JButton" name="letsgo">
           <Properties>
             <Property name="text" type="java.lang.String" value="Vamos alla"/>
+            <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1195,6 +1212,7 @@
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="text" type="java.lang.String" value="&#xa1;&#xa1;&#xbf;Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!"/>
+            <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1205,6 +1223,7 @@
         <Component class="javax.swing.JButton" name="menu">
           <Properties>
             <Property name="text" type="java.lang.String" value="Menu"/>
+            <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1221,6 +1240,7 @@
               <Font name="Sylfaen" size="18" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Expreciones matematicas"/>
+            <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
