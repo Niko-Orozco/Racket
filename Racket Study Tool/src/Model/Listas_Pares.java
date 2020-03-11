@@ -24,12 +24,16 @@ public class Listas_Pares {
     }
 
     public String Pares2(){
-        String data =   "La función cons permite crear un par y tiene dos argumentos. El primero:\n" +
-                        "la cabeza y el segundo: la cola\n" +
+        String data =   "La función cons permite crear un par y tiene dos argumentos. El \n" +
+                        "primero: la cabeza y el segundo: la cola\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(cons a b) -> la cabeza es a y la cola es b";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                                :\n" +
+                        "(cons a b) -> la cabeza es a y la cola es b   :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                     :\n" +
+                        "    (define par (cons 3 \"hola\"))               :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
 
