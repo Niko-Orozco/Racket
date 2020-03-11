@@ -79,6 +79,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
         jLabel32 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
+        jTextField1 = new javax.swing.JTextField();
         jLabel2 = new javax.swing.JLabel();
         jPanel14 = new javax.swing.JPanel();
         jPanel20 = new javax.swing.JPanel();
@@ -380,8 +381,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel9.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel9.setLayout(null);
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(239, 238, 238));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel2.setForeground(new java.awt.Color(247, 246, 246));
         jPanel2.setLayout(null);
 
         jLabel6.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
@@ -394,7 +396,8 @@ public class Menu extends javax.swing.JFrame {
         jPanel2.add(jLabel33);
         jLabel33.setBounds(10, 30, 360, 20);
 
-        introduccion.setBackground(new java.awt.Color(255, 255, 255));
+        introduccion.setBackground(new java.awt.Color(247, 246, 246));
+        introduccion.setForeground(new java.awt.Color(247, 246, 246));
         introduccion.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
         introduccion.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -443,8 +446,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel10.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel10.setLayout(null);
 
-        jPanel7.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel7.setBackground(new java.awt.Color(239, 238, 238));
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
+        jPanel7.setForeground(new java.awt.Color(247, 246, 246));
         jPanel7.setLayout(null);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
@@ -452,7 +456,8 @@ public class Menu extends javax.swing.JFrame {
         jPanel7.add(jLabel18);
         jLabel18.setBounds(10, 50, 350, 20);
 
-        funciones.setBackground(new java.awt.Color(255, 255, 255));
+        funciones.setBackground(new java.awt.Color(247, 246, 246));
+        funciones.setForeground(new java.awt.Color(247, 246, 246));
         funciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
         funciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -495,26 +500,26 @@ public class Menu extends javax.swing.JFrame {
         jPanel13.setPreferredSize(new java.awt.Dimension(355, 383));
         jPanel13.setLayout(null);
 
-        jPanel8.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel8.setBackground(new java.awt.Color(239, 238, 238));
         jPanel8.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel8.setLayout(null);
 
         jLabel19.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel19.setText("En   esta   sección   aprenderás  a  realizar ");
+        jLabel19.setText("Aprendé a  realizar operaciones lógicas");
         jPanel8.add(jLabel19);
-        jLabel19.setBounds(10, 30, 340, 20);
+        jLabel19.setBounds(10, 60, 340, 20);
 
-        expreciones.setBackground(new java.awt.Color(255, 255, 255));
-        expreciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b4.png"))); // NOI18N
+        expreciones.setBackground(new java.awt.Color(247, 246, 246));
+        expreciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
         jPanel8.add(expreciones);
         expreciones.setBounds(100, 100, 130, 30);
 
         jLabel16.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
-        jLabel16.setText("operaciones lógicas y aritméticas de forma ");
+        jLabel16.setText("y aritméticas de forma sencilla.");
         jPanel8.add(jLabel16);
-        jLabel16.setBounds(10, 50, 340, 20);
+        jLabel16.setBounds(10, 80, 340, 20);
 
         jLabel32.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel32.setText("Operaciones aritmeticas");
@@ -522,9 +527,22 @@ public class Menu extends javax.swing.JFrame {
         jLabel32.setBounds(10, 10, 270, 20);
 
         jLabel23.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
-        jLabel23.setText("sencilla.");
         jPanel8.add(jLabel23);
         jLabel23.setBounds(10, 70, 320, 20);
+
+        jTextField1.setBackground(new java.awt.Color(102, 102, 255));
+        jTextField1.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField1.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField1.setText("Facil");
+        jTextField1.setFocusable(false);
+        jTextField1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField1ActionPerformed(evt);
+            }
+        });
+        jPanel8.add(jTextField1);
+        jTextField1.setBounds(10, 40, 40, 20);
 
         jPanel13.add(jPanel8);
         jPanel8.setBounds(0, 190, 330, 140);
@@ -1185,6 +1203,10 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1356,6 +1378,7 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField1;
     public javax.swing.JButton listas;
     public javax.swing.JButton practicas;
     public javax.swing.JButton quiz;
