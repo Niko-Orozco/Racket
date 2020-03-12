@@ -1448,12 +1448,12 @@ int linea=0; //Variable Global
                 an = "";
             }
            if(str.charAt(d) == '('){
-               ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+               ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                d++;
                for(int i = d; i < str.length();i++){ 
                    if(d < str.length()){
                         if(str.charAt(d) == '('){
-                            ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+                            ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                             d = (d++ < str.length())? d++ : d;
                             i = (i++ < str.length())? i++ : i;
                         }
@@ -1506,7 +1506,7 @@ int linea=0; //Variable Global
                    if(d < str.length()){
                        for(int b = d; b < str.length();b++){
                             if(str.charAt(d) == ')'){
-                                ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+                                ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                                 d = (d++ < str.length())? d++ : d;
                                 i = (i++ < str.length())? i++ : i;
                             }
@@ -1515,7 +1515,7 @@ int linea=0; //Variable Global
                    }
                    
                    if(d < str.length()){
-                       ChangeColor.append(Color.blue, Character.toString(str.charAt(d)));
+                       ChangeColor.append(new Color(25, 25, 112), Character.toString(str.charAt(d)));
                    }
                    
                    d++;
