@@ -193,10 +193,10 @@ public class IntroView extends javax.swing.JFrame {
         jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel8.setLayout(null);
 
-        jLabel9.setText("Ejemplos");
+        jLabel9.setText("Representación gráfica de un recorrido mediante árboles");
         jLabel9.setFocusable(false);
         jPanel8.add(jLabel9);
-        jLabel9.setBounds(12, 15, 81, 19);
+        jLabel9.setBounds(20, 30, 370, 19);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);

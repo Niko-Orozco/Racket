@@ -90,6 +90,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jLabel34 = new javax.swing.JLabel();
         jLabel85 = new javax.swing.JLabel();
+        jTextField14 = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
         jPanel12 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
@@ -98,6 +99,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel38 = new javax.swing.JLabel();
         jLabel35 = new javax.swing.JLabel();
         jLabel84 = new javax.swing.JLabel();
+        jTextField15 = new javax.swing.JTextField();
         jLabel5 = new javax.swing.JLabel();
         jPanel15 = new javax.swing.JPanel();
         jPanel23 = new javax.swing.JPanel();
@@ -105,6 +107,7 @@ public class Menu extends javax.swing.JFrame {
         caracteres = new javax.swing.JButton();
         jLabel45 = new javax.swing.JLabel();
         jLabel70 = new javax.swing.JLabel();
+        jTextField13 = new javax.swing.JTextField();
         jLabel8 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
@@ -114,6 +117,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel40 = new javax.swing.JLabel();
         jLabel71 = new javax.swing.JLabel();
         jLabel80 = new javax.swing.JLabel();
+        jTextField12 = new javax.swing.JTextField();
         jLabel9 = new javax.swing.JLabel();
         jPanel17 = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
@@ -121,6 +125,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel41 = new javax.swing.JLabel();
         jLabel47 = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
+        jTextField9 = new javax.swing.JTextField();
         jLabel10 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         jPanel26 = new javax.swing.JPanel();
@@ -130,7 +135,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel48 = new javax.swing.JLabel();
         jLabel73 = new javax.swing.JLabel();
         jLabel81 = new javax.swing.JLabel();
-        jTextField6 = new javax.swing.JTextField();
+        jTextField10 = new javax.swing.JTextField();
         jLabel11 = new javax.swing.JLabel();
         jPanel22 = new javax.swing.JPanel();
         jPanel27 = new javax.swing.JPanel();
@@ -138,6 +143,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel49 = new javax.swing.JLabel();
         jLabel65 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
+        jTextField11 = new javax.swing.JTextField();
         jLabel15 = new javax.swing.JLabel();
         jPanel19 = new javax.swing.JPanel();
         jPanel28 = new javax.swing.JPanel();
@@ -146,6 +152,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel43 = new javax.swing.JLabel();
         jLabel50 = new javax.swing.JLabel();
         jLabel74 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
         jLabel12 = new javax.swing.JLabel();
         jPanel21 = new javax.swing.JPanel();
         jPanel29 = new javax.swing.JPanel();
@@ -155,6 +162,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel51 = new javax.swing.JLabel();
         jLabel75 = new javax.swing.JLabel();
         jLabel76 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
         jLabel14 = new javax.swing.JLabel();
         jLabel29 = new javax.swing.JLabel();
         jPanel34 = new javax.swing.JPanel();
@@ -316,20 +324,20 @@ public class Menu extends javax.swing.JFrame {
         jPanel30Layout.setHorizontalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel30Layout.createSequentialGroup()
-                .addGap(63, 63, 63)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 427, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(30, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jLabel4)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel30Layout.setVerticalGroup(
             jPanel30Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel30Layout.createSequentialGroup()
-                .addGap(87, 87, 87)
-                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 260, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(83, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel30Layout.createSequentialGroup()
+                .addContainerGap(36, Short.MAX_VALUE)
+                .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 363, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
 
         jPanel3.add(jPanel30);
-        jPanel30.setBounds(610, 40, 520, 430);
+        jPanel30.setBounds(610, 40, 520, 410);
 
         jPanel33.setBackground(new java.awt.Color(237, 237, 237));
 
@@ -425,7 +433,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel2.add(jLabel30);
         jLabel30.setBounds(10, 0, 140, 33);
 
-        jTextField3.setBackground(new java.awt.Color(0, 211, 37));
+        jTextField3.setBackground(new java.awt.Color(0, 153, 51));
         jTextField3.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
         jTextField3.setForeground(new java.awt.Color(255, 255, 255));
         jTextField3.setHorizontalAlignment(javax.swing.JTextField.CENTER);
@@ -462,7 +470,7 @@ public class Menu extends javax.swing.JFrame {
         jPanel5.setBounds(10, 70, 100, 100);
 
         jPanel4.add(jPanel9);
-        jPanel9.setBounds(50, 180, 325, 360);
+        jPanel9.setBounds(50, 220, 325, 360);
 
         jPanel10.setBackground(new java.awt.Color(255, 255, 255));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -481,7 +489,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel18.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel18.setText("forma   correcta   de   definir  y  llamar ");
         jPanel7.add(jLabel18);
-        jLabel18.setBounds(10, 80, 350, 20);
+        jLabel18.setBounds(10, 90, 350, 20);
 
         funciones.setBackground(new java.awt.Color(247, 246, 246));
         funciones.setForeground(new java.awt.Color(247, 246, 246));
@@ -497,7 +505,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel36.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel36.setText("En esta sección conseguirás entender la ");
         jPanel7.add(jLabel36);
-        jLabel36.setBounds(10, 60, 320, 20);
+        jLabel36.setBounds(10, 70, 320, 20);
 
         jLabel31.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel31.setText("Funciones");
@@ -507,7 +515,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel68.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel68.setText("funciones  en  Racket.");
         jPanel7.add(jLabel68);
-        jLabel68.setBounds(10, 100, 350, 20);
+        jLabel68.setBounds(10, 110, 350, 20);
 
         jTextField2.setBackground(new java.awt.Color(90, 51, 230));
         jTextField2.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
@@ -529,10 +537,10 @@ public class Menu extends javax.swing.JFrame {
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/funciones .jpg"))); // NOI18N
         jLabel3.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
         jPanel10.add(jLabel3);
-        jLabel3.setBounds(0, 0, 326, 200);
+        jLabel3.setBounds(0, 0, 310, 200);
 
         jPanel4.add(jPanel10);
-        jPanel10.setBounds(410, 180, 328, 360);
+        jPanel10.setBounds(410, 220, 328, 360);
 
         jPanel13.setBackground(new java.awt.Color(255, 255, 255));
         jPanel13.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -549,7 +557,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel19.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel19.setText("Aprendé a  realizar operaciones lógicas");
         jPanel8.add(jLabel19);
-        jLabel19.setBounds(10, 60, 340, 20);
+        jLabel19.setBounds(10, 70, 340, 20);
 
         expreciones.setBackground(new java.awt.Color(247, 246, 246));
         expreciones.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
@@ -560,7 +568,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel16.setHorizontalAlignment(javax.swing.SwingConstants.LEFT);
         jLabel16.setText("y aritméticas de forma sencilla.");
         jPanel8.add(jLabel16);
-        jLabel16.setBounds(10, 80, 340, 20);
+        jLabel16.setBounds(10, 90, 340, 20);
 
         jLabel32.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel32.setText("Operaciones aritmeticas");
@@ -594,7 +602,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel2.setBounds(0, 10, 320, 180);
 
         jPanel4.add(jPanel13);
-        jPanel13.setBounds(770, 180, 330, 360);
+        jPanel13.setBounds(770, 220, 330, 360);
 
         jPanel14.setBackground(new java.awt.Color(255, 255, 255));
         jPanel14.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -610,22 +618,22 @@ public class Menu extends javax.swing.JFrame {
         jLabel21.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel21.setText("recursividad, cómo  implementarla y por  ");
         jPanel20.add(jLabel21);
-        jLabel21.setBounds(10, 50, 350, 20);
+        jLabel21.setBounds(10, 90, 350, 20);
 
         recursividad.setBackground(new java.awt.Color(239, 238, 238));
-        recursividad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b5.png"))); // NOI18N
+        recursividad.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
         recursividad.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 recursividadActionPerformed(evt);
             }
         });
         jPanel20.add(recursividad);
-        recursividad.setBounds(90, 100, 130, 30);
+        recursividad.setBounds(90, 140, 130, 30);
 
         jLabel37.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel37.setText("En  esta  sección  descubrirás  qué  es  la ");
         jPanel20.add(jLabel37);
-        jLabel37.setBounds(10, 30, 350, 20);
+        jLabel37.setBounds(10, 70, 350, 20);
 
         jLabel34.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel34.setText("Recursividad");
@@ -635,17 +643,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel85.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel85.setText("qué es tan importante para Racket.");
         jPanel20.add(jLabel85);
-        jLabel85.setBounds(10, 70, 320, 20);
+        jLabel85.setBounds(10, 110, 320, 20);
+
+        jTextField14.setBackground(new java.awt.Color(255, 153, 51));
+        jTextField14.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField14.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField14.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField14.setText("Medio");
+        jTextField14.setFocusable(false);
+        jTextField14.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField14ActionPerformed(evt);
+            }
+        });
+        jPanel20.add(jTextField14);
+        jTextField14.setBounds(10, 40, 80, 20);
 
         jPanel14.add(jPanel20);
-        jPanel20.setBounds(0, 200, 326, 140);
+        jPanel20.setBounds(0, 200, 326, 180);
 
         jLabel7.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/recursion.png"))); // NOI18N
         jPanel14.add(jLabel7);
         jLabel7.setBounds(10, 10, 320, 190);
 
         jPanel4.add(jPanel14);
-        jPanel14.setBounds(410, 560, 328, 340);
+        jPanel14.setBounds(410, 610, 328, 380);
 
         jPanel12.setBackground(new java.awt.Color(255, 255, 255));
         jPanel12.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -661,17 +683,17 @@ public class Menu extends javax.swing.JFrame {
         jLabel20.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel20.setText("instrucciones  condicionales  básicas de ");
         jPanel11.add(jLabel20);
-        jLabel20.setBounds(10, 40, 300, 30);
+        jLabel20.setBounds(10, 90, 300, 20);
 
         condicionales.setBackground(new java.awt.Color(239, 238, 238));
-        condicionales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b7.png"))); // NOI18N
+        condicionales.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
         jPanel11.add(condicionales);
-        condicionales.setBounds(90, 100, 130, 30);
+        condicionales.setBounds(90, 140, 130, 30);
 
         jLabel38.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel38.setText("En esta  sección asimilarás el uso de las");
         jPanel11.add(jLabel38);
-        jLabel38.setBounds(10, 20, 330, 30);
+        jLabel38.setBounds(10, 70, 330, 20);
 
         jLabel35.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel35.setText("Condicionales");
@@ -681,17 +703,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel84.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel84.setText("Racket  como  el  if  y  el  cond.");
         jPanel11.add(jLabel84);
-        jLabel84.setBounds(10, 60, 320, 30);
+        jLabel84.setBounds(10, 110, 320, 20);
+
+        jTextField15.setBackground(new java.awt.Color(90, 51, 230));
+        jTextField15.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField15.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField15.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField15.setText("Facil");
+        jTextField15.setFocusable(false);
+        jTextField15.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField15ActionPerformed(evt);
+            }
+        });
+        jPanel11.add(jTextField15);
+        jTextField15.setBounds(10, 40, 50, 20);
 
         jPanel12.add(jPanel11);
-        jPanel11.setBounds(0, 200, 326, 140);
+        jPanel11.setBounds(0, 200, 326, 180);
 
         jLabel5.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/condicionales_anidadas_yoaprendoinformatica.png"))); // NOI18N
         jPanel12.add(jLabel5);
         jLabel5.setBounds(0, 0, 320, 200);
 
         jPanel4.add(jPanel12);
-        jPanel12.setBounds(50, 560, 325, 340);
+        jPanel12.setBounds(50, 610, 325, 380);
 
         jPanel15.setBackground(new java.awt.Color(255, 255, 255));
         jPanel15.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -706,12 +742,12 @@ public class Menu extends javax.swing.JFrame {
         jLabel39.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel39.setText("En  esta  sección  te  ilustrarás  sobre los ");
         jPanel23.add(jLabel39);
-        jLabel39.setBounds(10, 30, 350, 20);
+        jLabel39.setBounds(10, 70, 350, 20);
 
         caracteres.setBackground(new java.awt.Color(239, 238, 238));
         caracteres.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
         jPanel23.add(caracteres);
-        caracteres.setBounds(100, 100, 130, 30);
+        caracteres.setBounds(100, 140, 130, 30);
 
         jLabel45.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel45.setText("Caracteres y documentación");
@@ -721,17 +757,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel70.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel70.setText("caracteres en Dr. Racket y cómo usarlos.");
         jPanel23.add(jLabel70);
-        jLabel70.setBounds(10, 50, 320, 20);
+        jLabel70.setBounds(10, 90, 320, 20);
+
+        jTextField13.setBackground(new java.awt.Color(255, 153, 51));
+        jTextField13.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField13.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField13.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField13.setText("Medio");
+        jTextField13.setFocusable(false);
+        jTextField13.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField13ActionPerformed(evt);
+            }
+        });
+        jPanel23.add(jTextField13);
+        jTextField13.setBounds(10, 40, 80, 20);
 
         jPanel15.add(jPanel23);
-        jPanel23.setBounds(0, 200, 330, 140);
+        jPanel23.setBounds(0, 200, 330, 180);
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Comentario.jpg"))); // NOI18N
         jPanel15.add(jLabel8);
-        jLabel8.setBounds(10, 0, 310, 200);
+        jLabel8.setBounds(10, 0, 320, 200);
 
         jPanel4.add(jPanel15);
-        jPanel15.setBounds(770, 560, 330, 340);
+        jPanel15.setBounds(770, 610, 330, 380);
 
         jPanel16.setBackground(new java.awt.Color(255, 255, 255));
         jPanel16.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -747,9 +797,9 @@ public class Menu extends javax.swing.JFrame {
         jPanel24.setLayout(null);
 
         cadenas.setBackground(new java.awt.Color(239, 238, 238));
-        cadenas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b5.png"))); // NOI18N
+        cadenas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
         jPanel24.add(cadenas);
-        cadenas.setBounds(90, 120, 130, 30);
+        cadenas.setBounds(90, 170, 130, 30);
 
         jLabel46.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel46.setText("Cadenas");
@@ -759,32 +809,46 @@ public class Menu extends javax.swing.JFrame {
         jLabel79.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel79.setText("declaración e inicialización  de cadenas en  ");
         jPanel24.add(jLabel79);
-        jLabel79.setBounds(10, 50, 350, 20);
+        jLabel79.setBounds(10, 90, 350, 20);
 
         jLabel40.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel40.setText("Racket, además, aprenderás las funciones ");
         jPanel24.add(jLabel40);
-        jLabel40.setBounds(10, 70, 350, 20);
+        jLabel40.setBounds(10, 110, 350, 20);
 
         jLabel71.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel71.setText("En   esta   sección   entenderás    el   uso, ");
         jPanel24.add(jLabel71);
-        jLabel71.setBounds(10, 30, 340, 20);
+        jLabel71.setBounds(10, 70, 340, 20);
 
         jLabel80.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel80.setText("para su manejo.");
         jPanel24.add(jLabel80);
-        jLabel80.setBounds(10, 90, 300, 20);
+        jLabel80.setBounds(10, 130, 300, 20);
+
+        jTextField12.setBackground(new java.awt.Color(255, 153, 51));
+        jTextField12.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField12.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField12.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField12.setText("Medio");
+        jTextField12.setFocusable(false);
+        jTextField12.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField12ActionPerformed(evt);
+            }
+        });
+        jPanel24.add(jTextField12);
+        jTextField12.setBounds(10, 40, 80, 20);
 
         jPanel16.add(jPanel24);
-        jPanel24.setBounds(0, 190, 326, 160);
+        jPanel24.setBounds(0, 190, 326, 210);
 
         jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/cadenas.jpg"))); // NOI18N
         jPanel16.add(jLabel9);
         jLabel9.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel16);
-        jPanel16.setBounds(50, 933, 325, 350);
+        jPanel16.setBounds(50, 1030, 325, 400);
 
         jPanel17.setBackground(new java.awt.Color(255, 255, 255));
         jPanel17.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -808,12 +872,12 @@ public class Menu extends javax.swing.JFrame {
             }
         });
         jPanel25.add(vectores);
-        vectores.setBounds(100, 120, 130, 30);
+        vectores.setBounds(100, 170, 130, 30);
 
         jLabel41.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel41.setText("En  esta sección  aprenderás  cómo crear, ");
         jPanel25.add(jLabel41);
-        jLabel41.setBounds(10, 30, 340, 20);
+        jLabel41.setBounds(10, 70, 340, 20);
 
         jLabel47.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel47.setText("Vectores");
@@ -823,17 +887,31 @@ public class Menu extends javax.swing.JFrame {
         jLabel72.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel72.setText("inicializar y modificar vectores en Racket.");
         jPanel25.add(jLabel72);
-        jLabel72.setBounds(10, 50, 320, 20);
+        jLabel72.setBounds(10, 90, 320, 20);
+
+        jTextField9.setBackground(new java.awt.Color(255, 153, 51));
+        jTextField9.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField9.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField9.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField9.setText("Medio");
+        jTextField9.setFocusable(false);
+        jTextField9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField9ActionPerformed(evt);
+            }
+        });
+        jPanel25.add(jTextField9);
+        jTextField9.setBounds(10, 40, 80, 20);
 
         jPanel17.add(jPanel25);
-        jPanel25.setBounds(0, 190, 326, 160);
+        jPanel25.setBounds(0, 190, 326, 210);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/vectores.PNG"))); // NOI18N
         jPanel17.add(jLabel10);
         jLabel10.setBounds(0, 10, 330, 180);
 
         jPanel4.add(jPanel17);
-        jPanel17.setBounds(410, 933, 328, 350);
+        jPanel17.setBounds(410, 1030, 328, 400);
 
         jPanel18.setBackground(new java.awt.Color(255, 255, 255));
         jPanel18.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -849,10 +927,10 @@ public class Menu extends javax.swing.JFrame {
         jLabel25.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel25.setText("usarlas y cómo realizar operaciones con ");
         jPanel26.add(jLabel25);
-        jLabel25.setBounds(10, 100, 310, 20);
+        jLabel25.setBounds(10, 110, 310, 20);
 
         listas.setBackground(new java.awt.Color(239, 238, 238));
-        listas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
+        listas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b4.png"))); // NOI18N
         listas.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 listasActionPerformed(evt);
@@ -864,7 +942,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel42.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel42.setText("En esta sección te familiarizarás  con  el ");
         jPanel26.add(jLabel42);
-        jLabel42.setBounds(10, 60, 340, 24);
+        jLabel42.setBounds(10, 70, 340, 24);
 
         jLabel48.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel48.setText("Listas");
@@ -874,26 +952,26 @@ public class Menu extends javax.swing.JFrame {
         jLabel73.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel73.setText("concepto   de   listas  en  Racket,  cómo ");
         jPanel26.add(jLabel73);
-        jLabel73.setBounds(10, 80, 380, 20);
+        jLabel73.setBounds(10, 90, 380, 20);
 
         jLabel81.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel81.setText("ellas. ");
         jPanel26.add(jLabel81);
-        jLabel81.setBounds(10, 120, 350, 20);
+        jLabel81.setBounds(10, 130, 350, 20);
 
-        jTextField6.setBackground(new java.awt.Color(255, 153, 51));
-        jTextField6.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
-        jTextField6.setForeground(new java.awt.Color(255, 255, 255));
-        jTextField6.setHorizontalAlignment(javax.swing.JTextField.CENTER);
-        jTextField6.setText("Medio");
-        jTextField6.setFocusable(false);
-        jTextField6.addActionListener(new java.awt.event.ActionListener() {
+        jTextField10.setBackground(new java.awt.Color(255, 51, 51));
+        jTextField10.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField10.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField10.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField10.setText("Dificil");
+        jTextField10.setFocusable(false);
+        jTextField10.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField6ActionPerformed(evt);
+                jTextField10ActionPerformed(evt);
             }
         });
-        jPanel26.add(jTextField6);
-        jTextField6.setBounds(10, 40, 80, 20);
+        jPanel26.add(jTextField10);
+        jTextField10.setBounds(10, 40, 80, 20);
 
         jPanel18.add(jPanel26);
         jPanel26.setBounds(0, 190, 326, 200);
@@ -903,7 +981,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel11.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel18);
-        jPanel18.setBounds(50, 1300, 326, 390);
+        jPanel18.setBounds(50, 1460, 326, 390);
 
         jPanel22.setBackground(new java.awt.Color(255, 255, 255));
         jPanel22.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -916,14 +994,14 @@ public class Menu extends javax.swing.JFrame {
         jPanel27.setLayout(null);
 
         Pares.setBackground(new java.awt.Color(239, 238, 238));
-        Pares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
+        Pares.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
         Pares.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 ParesActionPerformed(evt);
             }
         });
         jPanel27.add(Pares);
-        Pares.setBounds(90, 120, 130, 30);
+        Pares.setBounds(100, 170, 130, 30);
 
         jLabel49.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel49.setText("Pares");
@@ -933,22 +1011,36 @@ public class Menu extends javax.swing.JFrame {
         jLabel65.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel65.setText("En esta sección descubrirás qué es un par");
         jPanel27.add(jLabel65);
-        jLabel65.setBounds(10, 30, 310, 30);
+        jLabel65.setBounds(10, 60, 310, 40);
 
         jLabel77.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel77.setText("en la programación y sus usos.");
         jPanel27.add(jLabel77);
-        jLabel77.setBounds(10, 50, 310, 20);
+        jLabel77.setBounds(10, 90, 310, 20);
+
+        jTextField11.setBackground(new java.awt.Color(255, 153, 51));
+        jTextField11.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField11.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField11.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField11.setText("Medio");
+        jTextField11.setFocusable(false);
+        jTextField11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField11ActionPerformed(evt);
+            }
+        });
+        jPanel27.add(jTextField11);
+        jTextField11.setBounds(10, 40, 80, 20);
 
         jPanel22.add(jPanel27);
-        jPanel27.setBounds(0, 190, 326, 160);
+        jPanel27.setBounds(0, 190, 326, 210);
 
         jLabel15.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/Pares.png"))); // NOI18N
         jPanel22.add(jLabel15);
         jLabel15.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel22);
-        jPanel22.setBounds(770, 930, 328, 350);
+        jPanel22.setBounds(770, 1030, 328, 400);
 
         jPanel19.setBackground(new java.awt.Color(255, 255, 255));
         jPanel19.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -964,17 +1056,17 @@ public class Menu extends javax.swing.JFrame {
         jLabel27.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel27.setText("operarlas.");
         jPanel28.add(jLabel27);
-        jLabel27.setBounds(10, 100, 350, 20);
+        jLabel27.setBounds(10, 110, 350, 20);
 
         estructuras.setBackground(new java.awt.Color(239, 238, 238));
-        estructuras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b3.png"))); // NOI18N
+        estructuras.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b4.png"))); // NOI18N
         jPanel28.add(estructuras);
         estructuras.setBounds(90, 160, 130, 30);
 
         jLabel43.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel43.setText("En  esta  sección  abarcarás  qué  son las ");
         jPanel28.add(jLabel43);
-        jLabel43.setBounds(10, 60, 350, 20);
+        jLabel43.setBounds(10, 70, 350, 20);
 
         jLabel50.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel50.setText("Estructura de datos");
@@ -984,7 +1076,21 @@ public class Menu extends javax.swing.JFrame {
         jLabel74.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel74.setText("estructuras  de  datos;  cómo  crearlas  y ");
         jPanel28.add(jLabel74);
-        jLabel74.setBounds(10, 80, 350, 20);
+        jLabel74.setBounds(10, 90, 350, 20);
+
+        jTextField7.setBackground(new java.awt.Color(255, 51, 51));
+        jTextField7.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField7.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField7.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField7.setText("Dificil");
+        jTextField7.setFocusable(false);
+        jTextField7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField7ActionPerformed(evt);
+            }
+        });
+        jPanel28.add(jTextField7);
+        jTextField7.setBounds(10, 40, 80, 20);
 
         jPanel19.add(jPanel28);
         jPanel28.setBounds(0, 190, 326, 200);
@@ -994,7 +1100,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel12.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel19);
-        jPanel19.setBounds(410, 1300, 326, 390);
+        jPanel19.setBounds(410, 1460, 326, 390);
 
         jPanel21.setBackground(new java.awt.Color(255, 255, 255));
         jPanel21.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1009,10 +1115,10 @@ public class Menu extends javax.swing.JFrame {
         jLabel28.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel28.setText("fundamentos del desarrollo de videojuegos.");
         jPanel29.add(jLabel28);
-        jLabel28.setBounds(10, 120, 330, 20);
+        jLabel28.setBounds(10, 130, 330, 20);
 
         grafico.setBackground(new java.awt.Color(239, 238, 238));
-        grafico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b2.png"))); // NOI18N
+        grafico.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b4.png"))); // NOI18N
         grafico.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 graficoActionPerformed(evt);
@@ -1024,7 +1130,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel44.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel44.setText("En esta sección profundizarás en funciones ");
         jPanel29.add(jLabel44);
-        jLabel44.setBounds(10, 60, 340, 20);
+        jLabel44.setBounds(10, 70, 340, 20);
 
         jLabel51.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel51.setText("Modo grafico");
@@ -1034,22 +1140,36 @@ public class Menu extends javax.swing.JFrame {
         jLabel75.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel75.setText("que te sirvan para crear entornos  gráficos ");
         jPanel29.add(jLabel75);
-        jLabel75.setBounds(10, 80, 330, 20);
+        jLabel75.setBounds(10, 90, 330, 20);
 
         jLabel76.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel76.setText("básicos  como   figuras  hasta  llegar  a  los ");
         jPanel29.add(jLabel76);
-        jLabel76.setBounds(10, 100, 330, 20);
+        jLabel76.setBounds(10, 110, 330, 20);
+
+        jTextField8.setBackground(new java.awt.Color(255, 51, 51));
+        jTextField8.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
+        jTextField8.setForeground(new java.awt.Color(255, 255, 255));
+        jTextField8.setHorizontalAlignment(javax.swing.JTextField.CENTER);
+        jTextField8.setText("Dificil");
+        jTextField8.setFocusable(false);
+        jTextField8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jTextField8ActionPerformed(evt);
+            }
+        });
+        jPanel29.add(jTextField8);
+        jTextField8.setBounds(10, 40, 80, 20);
 
         jPanel21.add(jPanel29);
         jPanel29.setBounds(0, 190, 330, 200);
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/menu/graficos.jpg"))); // NOI18N
         jPanel21.add(jLabel14);
-        jLabel14.setBounds(0, 10, 320, 180);
+        jLabel14.setBounds(0, 10, 330, 180);
 
         jPanel4.add(jPanel21);
-        jPanel21.setBounds(770, 1300, 330, 390);
+        jPanel21.setBounds(770, 1460, 330, 390);
 
         jLabel29.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel29.setText("Lenguaje Racket");
@@ -1070,7 +1190,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel52.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel52.setText("los    anteriores    módulos    haciendo   un ");
         jPanel35.add(jLabel52);
-        jLabel52.setBounds(10, 80, 350, 30);
+        jLabel52.setBounds(10, 90, 350, 30);
 
         practicas.setBackground(new java.awt.Color(239, 238, 238));
         practicas.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b6.png"))); // NOI18N
@@ -1085,17 +1205,17 @@ public class Menu extends javax.swing.JFrame {
         jLabel53.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel53.setText("Paso a Paso");
         jPanel35.add(jLabel53);
-        jLabel53.setBounds(0, 0, 250, 33);
+        jLabel53.setBounds(10, 0, 250, 33);
 
         jLabel58.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel58.setText("En esta sección reforzarás lo aprendido en ");
         jPanel35.add(jLabel58);
-        jLabel58.setBounds(10, 60, 360, 30);
+        jLabel58.setBounds(10, 70, 360, 30);
 
         jLabel82.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel82.setText("seguimiento  paso  a  paso  del  código.");
         jPanel35.add(jLabel82);
-        jLabel82.setBounds(10, 100, 330, 30);
+        jLabel82.setBounds(10, 110, 330, 30);
 
         jTextField4.setBackground(new java.awt.Color(90, 51, 230));
         jTextField4.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
@@ -1119,7 +1239,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel54.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel34);
-        jPanel34.setBounds(240, 1710, 328, 380);
+        jPanel34.setBounds(240, 1870, 328, 380);
 
         jPanel36.setBackground(new java.awt.Color(255, 255, 255));
         jPanel36.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -1134,7 +1254,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel55.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel55.setText("prueba  para  validar   el   conocimiento ");
         jPanel37.add(jLabel55);
-        jLabel55.setBounds(10, 60, 380, 60);
+        jLabel55.setBounds(10, 90, 380, 30);
 
         quiz.setBackground(new java.awt.Color(239, 238, 238));
         quiz.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/b1.png"))); // NOI18N
@@ -1154,12 +1274,12 @@ public class Menu extends javax.swing.JFrame {
         jLabel66.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel66.setText("En esta sección final harás una pequeña ");
         jPanel37.add(jLabel66);
-        jLabel66.setBounds(10, 60, 310, 30);
+        jLabel66.setBounds(10, 70, 310, 30);
 
         jLabel83.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel83.setText("adquirido,  ¡Mucha  suerte!");
         jPanel37.add(jLabel83);
-        jLabel83.setBounds(10, 90, 330, 50);
+        jLabel83.setBounds(10, 110, 330, 30);
 
         jTextField5.setBackground(new java.awt.Color(0, 211, 37));
         jTextField5.setFont(new java.awt.Font("Sylfaen", 1, 14)); // NOI18N
@@ -1183,7 +1303,7 @@ public class Menu extends javax.swing.JFrame {
         jLabel57.setBounds(10, 10, 310, 180);
 
         jPanel4.add(jPanel36);
-        jPanel36.setBounds(600, 1710, 328, 380);
+        jPanel36.setBounds(600, 1870, 328, 380);
 
         jLabel62.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jLabel62.setText("soluciones mediante la programación y que lo haga de manera lógica, funcional y eficiente, a partir de un problema dado.");
@@ -1219,7 +1339,7 @@ public class Menu extends javax.swing.JFrame {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addGap(0, 0, 0)
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, 459, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGap(0, 0, 0)
                 .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, 2363, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -1308,9 +1428,41 @@ public class Menu extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField5ActionPerformed
 
-    private void jTextField6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField6ActionPerformed
+    private void jTextField7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField7ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField6ActionPerformed
+    }//GEN-LAST:event_jTextField7ActionPerformed
+
+    private void jTextField8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField8ActionPerformed
+
+    private void jTextField9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField9ActionPerformed
+
+    private void jTextField10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField10ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField10ActionPerformed
+
+    private void jTextField11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField11ActionPerformed
+
+    private void jTextField12ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField12ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField12ActionPerformed
+
+    private void jTextField13ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField13ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField13ActionPerformed
+
+    private void jTextField14ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField14ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField14ActionPerformed
+
+    private void jTextField15ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField15ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField15ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1484,11 +1636,19 @@ public class Menu extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTextArea jTextArea1;
     private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField10;
+    private javax.swing.JTextField jTextField11;
+    private javax.swing.JTextField jTextField12;
+    private javax.swing.JTextField jTextField13;
+    private javax.swing.JTextField jTextField14;
+    private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
-    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JTextField jTextField9;
     public javax.swing.JButton listas;
     public javax.swing.JButton practicas;
     public javax.swing.JButton quiz;

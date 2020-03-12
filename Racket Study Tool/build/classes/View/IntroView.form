@@ -260,12 +260,12 @@
               <SubComponents>
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Ejemplos"/>
+                    <Property name="text" type="java.lang.String" value="Representaci&#xf3;n gr&#xe1;fica de un recorrido mediante &#xe1;rboles"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="12" y="15" width="81" height="19"/>
+                      <AbsoluteConstraints x="20" y="30" width="370" height="19"/>
                     </Constraint>
                   </Constraints>
                 </Component>
