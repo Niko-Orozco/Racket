@@ -5,6 +5,7 @@
 package View;
 
 import Model.SimuladorArbolBinario;
+import View.SmsHelp.Sms1;
 import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.Rectangle;
@@ -25,6 +26,8 @@ public class IntroView extends javax.swing.JFrame {
     /**
      * Creates new form Gui
      */
+    Sms1 sms1;
+            
     public IntroView() {
         initComponents();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
@@ -32,7 +35,8 @@ public class IntroView extends javax.swing.JFrame {
         PanelFondo F = new PanelFondo();
         this.add(F, BorderLayout.CENTER);
         this.pack();
-        
+        this.sms1 = new Sms1();
+        hidelaebl();
         
 
     }
@@ -111,6 +115,11 @@ public class IntroView extends javax.swing.JFrame {
         jPanel6.setLayout(null);
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel7MouseEntered(evt);
+            }
+        });
 
         intro5.setColumns(20);
         intro5.setRows(5);
@@ -137,11 +146,22 @@ public class IntroView extends javax.swing.JFrame {
         intro7.setRows(5);
         intro7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         intro7.setFocusable(false);
+        intro7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                intro7MouseEntered(evt);
+            }
+        });
         jScrollPane10.setViewportView(intro7);
 
         intro8.setColumns(20);
         intro8.setRows(5);
         intro8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro8.setFocusable(false);
+        intro8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                intro8MouseEntered(evt);
+            }
+        });
         jScrollPane11.setViewportView(intro8);
 
         jLabel14.setText("Notaciones");
@@ -191,6 +211,11 @@ public class IntroView extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel8MouseEntered(evt);
+            }
+        });
         jPanel8.setLayout(null);
 
         jLabel9.setText("Representación gráfica de un recorrido mediante árboles");
@@ -206,6 +231,11 @@ public class IntroView extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setOpaque(false);
+        jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel2MouseEntered(evt);
+            }
+        });
         jPanel2.setLayout(null);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
@@ -312,7 +342,7 @@ public class IntroView extends javax.swing.JFrame {
             jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jInternalFrame2Layout.createSequentialGroup()
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 308, Short.MAX_VALUE))
+                .addGap(0, 305, Short.MAX_VALUE))
         );
 
         jDesktopPane1.add(jInternalFrame2);
@@ -482,6 +512,30 @@ public class IntroView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_letsgoActionPerformed
 
+    private void intro7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_intro7MouseEntered
+        
+    }//GEN-LAST:event_intro7MouseEntered
+
+    private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
+        sms1.setVisible(false);
+    }//GEN-LAST:event_jPanel7MouseEntered
+
+    private void intro8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_intro8MouseEntered
+        sms1.setVisible(true);
+        sms1.Recorrido.setVisible(true);
+        sms1.setLocationRelativeTo(null);
+    }//GEN-LAST:event_intro8MouseEntered
+
+    private void jPanel8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseEntered
+        sms1.setVisible(false);
+        hidelaebl();
+    }//GEN-LAST:event_jPanel8MouseEntered
+
+    private void jPanel2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseEntered
+        sms1.setVisible(false);
+        hidelaebl();
+    }//GEN-LAST:event_jPanel2MouseEntered
+
     public void complementos(){
         this.repintarArbol();
         this.lblCnodos.setText("");
@@ -506,6 +560,10 @@ public class IntroView extends javax.swing.JFrame {
         this.jInternalFrame2.setBounds(tamaño);
         this.jInternalFrame2.setEnabled(false);
         this.jInternalFrame2.add(this.simulador.getDibujo(), BorderLayout.CENTER);
+    }
+    
+    private void hidelaebl(){
+        sms1.Recorrido.setVisible(false);
     }
 
     /**

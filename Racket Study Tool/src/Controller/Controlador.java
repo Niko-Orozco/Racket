@@ -1959,7 +1959,7 @@ int linea=0; //Variable Global
     }
     
     public void iniciar() {
-        this.menu.setTitle("Menu Dr. Racket");
+        this.menu.setTitle("Pagina principal Racket");
         this.menu.setLocationRelativeTo(null);
     }
     
