@@ -138,10 +138,12 @@ public class GraficoView extends javax.swing.JFrame {
         jScrollPane1.setBounds(50, 60, 413, 140);
 
         jLabel4.setText("Modo Grafico");
+        jLabel4.setFocusable(false);
         jPanel3.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
         jLabel5.setText("Funciones Basicas");
+        jLabel5.setFocusable(false);
         jPanel3.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
 
@@ -155,6 +157,7 @@ public class GraficoView extends javax.swing.JFrame {
         jScrollPane3.setBounds(50, 240, 413, 140);
 
         jLabel9.setText("Libreria Grahics");
+        jLabel9.setFocusable(false);
         jPanel3.add(jLabel9);
         jLabel9.setBounds(50, 210, 184, 22);
 
@@ -172,9 +175,13 @@ public class GraficoView extends javax.swing.JFrame {
         code1.setFocusable(false);
         jScrollPane4.setViewportView(code1);
 
+        jScrollPane2.setFocusable(false);
+
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -386,15 +393,19 @@ public class GraficoView extends javax.swing.JFrame {
         EjemplosGraficos.addTab("Ejemplo #4", jPanel9);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/ayuda.png"))); // NOI18N
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Ejemplo modo grafico y uso de botones");
+        jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setLayout(null);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/semaforo.gif"))); // NOI18N
+        jLabel3.setFocusable(false);
         jPanel6.add(jLabel3);
         jLabel3.setBounds(-20, 0, 570, 328);
 
@@ -441,19 +452,23 @@ public class GraficoView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 620, 600);
 
         letsgo.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/vamos alla.png"))); // NOI18N
+        letsgo.setFocusable(false);
         jPanel2.add(letsgo);
         letsgo.setBounds(490, 710, 130, 30);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel2.add(jLabel8);
         jLabel8.setBounds(390, 670, 570, 30);
 
         menu.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/botones/menu.png"))); // NOI18N
+        menu.setFocusable(false);
         jPanel2.add(menu);
         menu.setBounds(1040, 700, 70, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel2.setText("Graphics");
+        jLabel2.setFocusable(false);
         jPanel2.add(jLabel2);
         jLabel2.setBounds(20, 20, 250, 30);
 

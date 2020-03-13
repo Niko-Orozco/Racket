@@ -126,22 +126,26 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones1.setColumns(20);
         funciones1.setRows(5);
         funciones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones1.setFocusable(false);
         jScrollPane1.setViewportView(funciones1);
 
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(20, 50, 439, 140);
 
         jLabel3.setText("Funciones Construidas (Definidas por el Usuario)");
+        jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(20, 220, 400, 22);
 
         jLabel4.setText("Funciones Primitivas");
+        jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(20, 20, 184, 22);
 
         funciones2.setColumns(20);
         funciones2.setRows(5);
         funciones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones2.setFocusable(false);
         jScrollPane3.setViewportView(funciones2);
 
         jPanel2.add(jScrollPane3);
@@ -150,12 +154,14 @@ public class FuncionesView extends javax.swing.JFrame {
         funciones3.setColumns(20);
         funciones3.setRows(5);
         funciones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        funciones3.setFocusable(false);
         jScrollPane5.setViewportView(funciones3);
 
         jPanel2.add(jScrollPane5);
         jScrollPane5.setBounds(20, 440, 439, 140);
 
         jLabel5.setText("¿Que es un argumento?");
+        jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(20, 410, 400, 22);
 
@@ -182,8 +188,10 @@ public class FuncionesView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -492,10 +500,13 @@ public class FuncionesView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Funciones que operan con valores numericos");
+        jLabel15.setFocusable(false);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -585,6 +596,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jScrollPane11.setViewportView(DatosStruct);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -630,19 +642,23 @@ public class FuncionesView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 640, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
         letsgo.setBounds(530, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(410, 670, 570, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Funciones");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 

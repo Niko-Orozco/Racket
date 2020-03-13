@@ -141,6 +141,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Pasos.setColumns(20);
         Pasos.setRows(5);
+        Pasos.setFocusable(false);
         jScrollPane1.setViewportView(Pasos);
 
         jPanel1.add(jScrollPane1);
@@ -148,6 +149,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Valores.setColumns(20);
         Valores.setRows(5);
+        Valores.setFocusable(false);
         jScrollPane2.setViewportView(Valores);
 
         jPanel1.add(jScrollPane2);
@@ -155,6 +157,7 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Salida.setColumns(20);
         Salida.setRows(5);
+        Salida.setFocusable(false);
         jScrollPane3.setViewportView(Salida);
 
         jPanel1.add(jScrollPane3);
@@ -162,34 +165,41 @@ public class CodeExplain extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Paso a Paso");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(560, 20, 160, 40);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(20, 650, 80, 30);
 
         jLabel1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel1.setText("Paso a paso");
+        jLabel1.setFocusable(false);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(20, 100, 100, 20);
 
         jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel3.setText(" Codigo");
+        jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
         jLabel3.setBounds(300, 100, 60, 19);
 
         jLabel4.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel4.setText("Valores de las variables");
+        jLabel4.setFocusable(false);
         jPanel1.add(jLabel4);
         jLabel4.setBounds(20, 280, 170, 19);
 
         jLabel5.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel5.setText("Salida");
+        jLabel5.setFocusable(false);
         jPanel1.add(jLabel5);
         jLabel5.setBounds(20, 470, 60, 19);
 
         Ayuda.setText("Ayuda");
+        Ayuda.setFocusable(false);
         Ayuda.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 AyudaActionPerformed(evt);
@@ -201,11 +211,14 @@ public class CodeExplain extends javax.swing.JFrame {
         jTabbedPane1.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         Ejecutar.setText("Ejecutar");
+        Ejecutar.setFocusable(false);
 
         Codigo1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
+        Codigo1.setFocusable(false);
         jScrollPane9.setViewportView(Codigo1);
 
         stop.setText("Parar");
+        stop.setFocusable(false);
         stop.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 stopActionPerformed(evt);
@@ -213,6 +226,7 @@ public class CodeExplain extends javax.swing.JFrame {
         });
 
         next1.setText("Paso siguiente");
+        next1.setFocusable(false);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);

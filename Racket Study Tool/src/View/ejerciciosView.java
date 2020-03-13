@@ -74,8 +74,11 @@ public class ejerciciosView extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel1.setText("Ejercicios Practicos");
+        jLabel1.setFocusable(false);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(10, 0, 210, 50);
+
+        jPanel13.setFocusable(false);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -347,16 +350,21 @@ public class ejerciciosView extends javax.swing.JFrame {
         jTabbedPane1.setBounds(20, 80, 910, 360);
 
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas..  ¿Podras  lograrlo?");
+        jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
         jLabel3.setBounds(10, 60, 480, 14);
 
         Enviar.setText("Enviar");
+        Enviar.setFocusable(false);
         jPanel1.add(Enviar);
         Enviar.setBounds(380, 530, 80, 23);
 
         jLabel2.setText("Enviar ejercicios al correo");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 500, 140, 20);
+
+        Correo.setFocusable(false);
         jPanel1.add(Correo);
         Correo.setBounds(20, 530, 340, 30);
 

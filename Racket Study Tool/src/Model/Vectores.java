@@ -34,9 +34,14 @@ public class Vectores {
                         "el vector  el  segundo  dato  es  la  posición del elemento a cambiar y el\n" +
                         "tercero es el dato por el que deseamos reemplazar\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(vector-set! vect n dato)";    
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                            :\n" +
+                        "(vector-cambiar! vect n dato)       :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                              :\n" +
+                        "(define vect  (vector  #\\q \"Carmen\" ´p 9))      :\n" +
+                        "(vector-set! vect 1 ´j)                                         :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";    
         return data;
     }
     
@@ -44,20 +49,29 @@ public class Vectores {
         String data =   "vector-fill  es una funcion de  Racket  permite ingresar el mismo dato en \n" +
                         "todas las posiciones de un vector, tomando dos parámetros, el nombre\n" +
                         "del vector y el dato a introducir en todas las posiciones\n" +
-                        "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(vector-fill vect  dato)";    
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                                               :\n" +
+                        "(vector-llenarl vect  dato)                                 :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                              :\n" +
+                        "(define vect (vector 5 7 8 0 \"lambda\" ´f)        :\n" +
+                        "(vector-fill vect  \"<Hola\")                                   :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";    
         return data;
     }
     
     public String vectlen(){
-        String data =   "vector-length  es una funcion que nos permite saber cuántas posiciones\n" +
+        String data =   "vector-length es una funcion que nos permite saber cuántas posiciones\n" +
                         "tiene un vector, es decir su tamaño y solo toma un vector\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(vector-length vect)";    
+                        "- - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                :\n" +
+                        "(vector-tamaño vect)          :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                            :\n" +
+                        "(define vect (vector 1 9 ´p \"dos\" ´z))             :\n" +
+                        "(vector-length vect)                        ->       5    :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";    
         return data;
     }
     
@@ -69,23 +83,32 @@ public class Vectores {
                         "de  dato  en  nuestros  vectores.\n" +
                         "Para la creación de vectores podemos usar la  funcion make-vector\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(make-vector 6 # 'w)\n" +
-                        "\n" +
-                        "(make-vector 5 )  \n" +
-                        "Crea un vector de 5 posiciones vacío o con el elemento 0";    
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                         :\n" +
+                        "(hacer-vector n char)                                  : \n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                              ;\n" +
+                        "(make-vector 5 )                                                                                :\n" +
+                        "Crea un vector de 5 posiciones vacío o con el elemento 0     :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";    
         return data;
     }
     
     public String vectref(){
-        String data =   "Al  igual  que  con  las  cadenas  podemos  obtener   datos   de   un   vector\n" +
+        String data =   "Al  igual  que  con  las  cadenas  podemos  obtener  datos  de un vector\n" +
                         "haciendo  uso  de  la  funcion  (vector-ref)\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "(vector-ref vect n) \n" +
-                        "vect  es  el  vector  al  cual  queremos  sacar uno o más datos y la \"n\" hace\n" +
-                        "referencia a la posición en el vector donde queremos sacar la información";    
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                                                                                                 :\n" +
+                        "(vector-referencia vect n)                                                                                   : \n" +
+                        "vect  es  el  vector al  cual  queremos  sacar uno o más datos y la \"n\"   : \n" +
+                        "hace referencia a la posición en el vector donde queremos sacar la    :\n" +
+                        "información                                                                                                         :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                                               :\n" +
+                        "(define vect  (vector  #\\z \"Pollito\" 4 #t))                                                           :\n" +
+                        "(vector-referencia vect 2)                        ->       \"Pollito\"                                 :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";    
         return data;
     }
     

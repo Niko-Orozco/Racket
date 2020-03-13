@@ -24,43 +24,65 @@ public class Listas_Pares {
     }
 
     public String Pares2(){
-        String data =   "La función cons permite crear un par y tiene dos argumentos. El primero:\n" +
-                        "la cabeza y el segundo: la cola\n" +
+        String data =   "La función cons permite crear un par y tiene dos argumentos. El \n" +
+                        "primero: la cabeza y el segundo: la cola\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(cons a b) -> la cabeza es a y la cola es b";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                                :\n" +
+                        "(cons a b) -> la cabeza es a y la cola es b   :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                     :\n" +
+                        "    (define par (cons 3 \"hola\"))               :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
 
     public String Pares3(){
-        String data =   "La función car nos sirve para  extraer la cabeza  de un par   y el argumento\n" +
+        String data =   "La función car nos sirve para extraer la cabeza de un par y el argumento\n" +
                         "que recibe es un par para ser analizado\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(define par (cons 1 \"hola\"))\n" +
-                        "(displayln (car par))  -->  1";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                     :\n" +
+                        "    (definir par (cons data1 data2))       :    \n" +
+                        "    (displayln (car par))                            :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                     :\n" +
+                        "    (define par (cons 3 \"hola\"))               :\n" +
+                        "    (displayln (cdr par))  -->  3                 ;\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
 
     public String Pares4(){
-        String data =   "La función cdr nos sirve para    extraer   la  cola   de un par   y el argumento\n" +
+        String data =   "La función cdr nos sirve para   extraer  la cola  de un par y el argumento\n" +
                         "que recibe es un par para ser analizado\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "    (define par (cons 3 \\\"mama\\\"))\n" +
-                        "    (displayln (cdr par))  -->  \"hola\"";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                     :\n" +
+                        "    (definir par (cons data1 data2))       :    \n" +
+                        "    (displayln (cdr par))                            :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                     :\n" +
+                        "    (define par (cons 3 \"hola\"))               :\n" +
+                        "    (displayln (cdr par))  -->  \"hola\"         ;\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
 
     public String Pares5(){
-        String data =   "El procedimiento pair? nos permite determinar si un objeto es o no, tiene\n" +
-                        "un solo argumento y solo es el objeto a evaluar\n" +
+        String data =   "El procedimiento pair? nos permite determinar si un objeto es o no, \n" +
+                        "tiene un solo argumento y solo es el objeto a evaluar\n" +
                         "\n" +
-                        "(define par (cons 3 \"pollito\"))\n" +
-                        "(pair? par) --> #t";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                     :\n" +
+                        "    (definir par (cons data1 data2))       :    \n" +
+                        "    (par? par)                                              :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                     :\n" +
+                        "    (define par (cons 3 \"pollito\"))             :\n" +
+                        "    (pair? par) --> #t                                   ; \n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "";
         return data;
     }
 
@@ -164,21 +186,31 @@ public class Listas_Pares {
     }
 
     public String Listas2(){
-        String data =   "La función list nos sirve para crear listas y los argumentos y/o elementos\n" +
+        String data =   "La función list nos sirve para crear listas, los argumentos y/o elementos\n" +
                         "que tiene son tantos como queramos incluir en la lista\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "(list 4 9 6 \"hola\" 'bl #\\a (vector 8 9 4) (list 2  7 1) (+ 2 5))";
+                        "- - - - - - - - - - - - - \n" +
+                        "Sintaxis              :\n" +
+                        "(lista data)         :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                       :\n" +
+                        "(list 4 9 6 \"hola\" 'bl #\\a (vector 8 9 4) (list 2  7 1) (+ 2 5))    :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
 
     public String Listas3(){
-        String data =   "Tienen el mismo uso que en los pares, sirven para extraer la cabeza y la \n" +
-                        "cola de una lista\n" +
+        String data =   "Tienen el mismo uso que en los pares, sirven para extraer la cabeza y\n" +
+                        "la cola de una lista\n" +
                         "\n" +
-                        "(car (list 4 5 6))  -> ( 4 )\n" +
-                        "(cdr (list 3 0 9))  -> (0 9)";
+                        "- - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                     :\n" +
+                        "(car (list))                                  :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                    :\n" +
+                        "(car (list 4 5 6))  -> ( 4 )          :\n" +
+                        "(cdr (list 3 0 9))  -> (0 9)         :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
@@ -189,60 +221,96 @@ public class Listas_Pares {
                         "\n" +
                         "#t o #f\n" +
                         "\n" +
-                        "Sintaxis\n" +
-                        "\n" +
-                        "(define Lista (list 2 4 5)\n" +
-                        "(null? Lista))   --> #f\n" +
-                        "\n" +
-                        "(define Lista (list))\n" +
-                        "(null? Lista))  --> #t";
+                        "- - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                   :\n" +
+                        "(definir Lista (lista data)      :\n" +
+                        "(null? Lista))   --> #f              :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                  :\n" +
+                        "(define Lista (list))                :\n" +
+                        "(null? Lista))  --> #t               :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
     public String Listas5(){
         String data =   "El procedimiento append nos permite añadir elementos a una lista\n" +
                         "\n" +
-                        "(define Listas (list 1 2 3 4))\n" +
-                        "(append Lista 4)   \n" +
-                        "\n" +
-                        "(display Lista)    -->   (1 2 3 4)";
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                        :\n" +
+                        "(definir Listas (lista datos))     :\n" +
+                        "(agregar Lista dato)                  :\n" +
+                        "(escrbir Lista)    -->   datos      :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                       :\n" +
+                        "(define Listas (list 1 2 3 4))      :\n" +
+                        "(append Lista 4)                         :\n" +
+                        "(display Lista)    -->   (1 2 3 4)  :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
     public String Listas6(){
-        String data =   "El procedimiento  list? determina  si  un  elemento es una lista, recibe un \n" +
-                        "solo argumento y es la lista por evaluar.\n" +
+        String data =   "El procedimiento  list? determina  si  un  elemento es una lista, recibe\n" +
+                        "un solo argumento y es la lista por evaluar.\n" +
                         "\n" +
-                        "(define Listas (list 1 2 3))\n" +
-                        "(list? Lista)   -->  #t";
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                        :                                    :\n" +
+                        "(definir Listas (lists datos))     :\n" +
+                        "(lista? Lista)   -->  #t                  :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                       :\n" +
+                        "(define Listas (list 1 2 3))         :\n" +
+                        "(list? Lista)   -->  #t                    :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
     public String Listas7(){
-        String data =   "El procedimiento length determina el tamaño de una lista y recibe un solo\n" +
-                        "argumento y es la lista por evaluar.\n" +
+        String data =   "El procedimiento length determina el tamaño de una lista y recibe un\n" +
+                        "solo argumento y es la lista por evaluar.\n" +
                         "\n" +
-                        "(define Listas (list 1 2 3))\n" +
-                        "(length Lista)   -->  3";
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                        : \n" +
+                        "(definir Listas (lista data))        :\n" +
+                        "(tamaño Lista)                            :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                       :\n" +
+                        "(define Listas (list 1 2 3))         :\n" +
+                        "(length Lista)   -->  3                  :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
     public String Listas8(){
-        String data =   "El   procedimiento   reverse   sirve   para   invertir   una  lista, recibe un solo\n" +
-                        "argumento y es la lista por evaluar.\n" +
+        String data =   "El   procedimiento   reverse   sirve   para   invertir   una  lista, recibe un \n" +
+                        "solo argumento y es la lista por evaluar.\n" +
                         "\n" +
-                        "(define Listas (list 1 2 3))\n" +
-                        "(reverse Lista)   -->  (3 2 1)";
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                        : \n" +
+                        "(definir Listas (lista data))        :\n" +
+                        "(invertir Lista)                              :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                       :\n" +
+                        "(define Listas (list 1 2 3))         :\n" +
+                        "(reverse Lista)   -->  (3 2 1)      :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
     public String Listas9(){
-        String data =   "La   función   list-tail   devuelve   una   subcola   de   una   lista,   tiene   dos \n" +
-                        "argumentos,  el   primero  es   la   lista  y  el  segundo  es  el  índice  donde \n" +
-                        "comienza la cola\n" +
-                        "\n" +
-                        "(define Listas (list \"Lunes\" \"Martes\" \"Miércoles\" \"Jueves\" \"Viernes\"))\n" +
-                        "(list-tail Lista 2)   -->  (\"Miércoles\" \"Jueves\" \"Viernes\")";
+        String data =   "La    función    list-tail    devuelve    una    subcola    de   una   lista,   tiene \n" +
+                        "dos argumentos,  el   primero  es   la   lista  y  el  segundo  es  el  índice \n" +
+                        "donde comienza la cola\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                        :\n" +
+                        "(definir Listas (lista data)         :\n" +
+                        "(list-tail Lista n)                          :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                                                                             :\n" +
+                        "(define Listas (list \"Lunes\" \"Martes\" \"Miércoles\" \"Jueves\" \"Viernes\"))  :\n" +
+                        "(list-tail Lista 2)   -->  (\"Miércoles\" \"Jueves\" \"Viernes\")                             :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 

@@ -130,6 +130,7 @@ public class RecursividadView extends javax.swing.JFrame {
         recursiones3.setColumns(20);
         recursiones3.setRows(5);
         recursiones3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        recursiones3.setFocusable(false);
         jScrollPane5.setViewportView(recursiones3);
 
         jPanel2.add(jScrollPane5);
@@ -138,28 +139,33 @@ public class RecursividadView extends javax.swing.JFrame {
         recursiones1.setColumns(20);
         recursiones1.setRows(5);
         recursiones1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        recursiones1.setFocusable(false);
         jScrollPane1.setViewportView(recursiones1);
 
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
 
         jLabel4.setText("¿Que es un bucle?");
+        jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
         jLabel5.setText("¿Que es la iteracion?");
+        jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
 
         recursiones2.setColumns(20);
         recursiones2.setRows(5);
         recursiones2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        recursiones2.setFocusable(false);
         jScrollPane3.setViewportView(recursiones2);
 
         jPanel2.add(jScrollPane3);
         jScrollPane3.setBounds(50, 240, 413, 140);
 
         jLabel9.setText("¿Que es la recursividad?");
+        jLabel9.setFocusable(false);
         jPanel2.add(jLabel9);
         jLabel9.setBounds(50, 210, 184, 22);
 
@@ -170,6 +176,8 @@ public class RecursividadView extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        jTabbedPane1.setFocusable(false);
 
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -184,8 +192,10 @@ public class RecursividadView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -484,21 +494,26 @@ public class RecursividadView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo #6", jPanel11);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("Ayuda");
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Reprecentacion de una recursion mediante la torre de hanoi");
+        jLabel15.setFocusable(false);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
         jPanel5.setLayout(null);
 
         jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/hanoi.gif"))); // NOI18N
+        jLabel3.setFocusable(false);
         jPanel5.add(jLabel3);
         jLabel3.setBounds(50, 0, 446, 328);
 
         jScrollPane7.setViewportView(jPanel5);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -547,19 +562,23 @@ public class RecursividadView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 620, 600);
 
         letsgo.setText("Vamos allá");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
         letsgo.setBounds(490, 710, 130, 30);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(390, 670, 570, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 70, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel2.setText("Recursividad");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 250, 30);
 

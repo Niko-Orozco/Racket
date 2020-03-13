@@ -5,6 +5,7 @@
 package View;
 
 import Model.SimuladorArbolBinario;
+import View.SmsHelp.Sms1;
 import java.awt.BorderLayout;
 import java.awt.Image;
 import java.awt.Rectangle;
@@ -25,6 +26,8 @@ public class IntroView extends javax.swing.JFrame {
     /**
      * Creates new form Gui
      */
+    Sms1 sms1;
+            
     public IntroView() {
         initComponents();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
@@ -32,7 +35,8 @@ public class IntroView extends javax.swing.JFrame {
         PanelFondo F = new PanelFondo();
         this.add(F, BorderLayout.CENTER);
         this.pack();
-        
+        this.sms1 = new Sms1();
+        hidelaebl();
         
 
     }
@@ -111,31 +115,53 @@ public class IntroView extends javax.swing.JFrame {
         jPanel6.setLayout(null);
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel7MouseEntered(evt);
+            }
+        });
 
         intro5.setColumns(20);
         intro5.setRows(5);
         intro5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro5.setFocusable(false);
         jScrollPane4.setViewportView(intro5);
 
         jLabel7.setText("¿Que es Dr.Racket?");
+        jLabel7.setFocusable(false);
 
         jLabel8.setText("¿Que es la programacion funcional?");
+        jLabel8.setFocusable(false);
 
         intro6.setColumns(20);
         intro6.setRows(5);
         intro6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro6.setFocusable(false);
         jScrollPane9.setViewportView(intro6);
 
         jLabel13.setText("Paradigmas de la programacion");
+        jLabel13.setFocusable(false);
 
         intro7.setColumns(20);
         intro7.setRows(5);
         intro7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro7.setFocusable(false);
+        intro7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                intro7MouseEntered(evt);
+            }
+        });
         jScrollPane10.setViewportView(intro7);
 
         intro8.setColumns(20);
         intro8.setRows(5);
         intro8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        intro8.setFocusable(false);
+        intro8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                intro8MouseEntered(evt);
+            }
+        });
         jScrollPane11.setViewportView(intro8);
 
         jLabel14.setText("Notaciones");
@@ -185,28 +211,42 @@ public class IntroView extends javax.swing.JFrame {
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel8.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel8MouseEntered(evt);
+            }
+        });
         jPanel8.setLayout(null);
 
-        jLabel9.setText("Ejemplos");
+        jLabel9.setText("Representación gráfica de un recorrido mediante árboles");
+        jLabel9.setFocusable(false);
         jPanel8.add(jLabel9);
-        jLabel9.setBounds(12, 15, 81, 19);
+        jLabel9.setBounds(20, 30, 370, 19);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
         jPanel8.add(jButton2);
         jButton2.setBounds(623, 10, 80, 23);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
         jPanel2.setOpaque(false);
+        jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel2MouseEntered(evt);
+            }
+        });
         jPanel2.setLayout(null);
 
         jPanel3.setBackground(new java.awt.Color(255, 255, 255));
         jPanel3.setBorder(javax.swing.BorderFactory.createTitledBorder(null, "Operaciones", javax.swing.border.TitledBorder.DEFAULT_JUSTIFICATION, javax.swing.border.TitledBorder.DEFAULT_POSITION, new java.awt.Font("Tahoma", 1, 10))); // NOI18N
+        jPanel3.setFocusable(false);
         jPanel3.setOpaque(false);
 
         botonInsertar.setBackground(new java.awt.Color(255, 255, 255));
         botonInsertar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonInsertar.setText("Insertar");
+        botonInsertar.setFocusable(false);
         botonInsertar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonInsertarActionPerformed(evt);
@@ -215,6 +255,7 @@ public class IntroView extends javax.swing.JFrame {
 
         opciones.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         opciones.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "RECORRIDO", "InOrden", "PreOrden", "PosOrden", "PorNiveles", "NivelOrdenado" }));
+        opciones.setFocusable(false);
         opciones.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 opcionesActionPerformed(evt);
@@ -224,6 +265,7 @@ public class IntroView extends javax.swing.JFrame {
         cmdBuscar.setBackground(new java.awt.Color(255, 255, 255));
         cmdBuscar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         cmdBuscar.setText("Buscar");
+        cmdBuscar.setFocusable(false);
         cmdBuscar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 cmdBuscarActionPerformed(evt);
@@ -233,6 +275,7 @@ public class IntroView extends javax.swing.JFrame {
         botonBorrar.setBackground(new java.awt.Color(255, 255, 255));
         botonBorrar.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
         botonBorrar.setText("Borrar");
+        botonBorrar.setFocusable(false);
         botonBorrar.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 botonBorrarActionPerformed(evt);
@@ -284,6 +327,7 @@ public class IntroView extends javax.swing.JFrame {
         jInternalFrame2.setVisible(true);
 
         jLabel10.setText("Tipos de notacion");
+        jLabel10.setFocusable(false);
 
         javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
         jInternalFrame2.getContentPane().setLayout(jInternalFrame2Layout);
@@ -298,7 +342,7 @@ public class IntroView extends javax.swing.JFrame {
             jInternalFrame2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jInternalFrame2Layout.createSequentialGroup()
                 .addComponent(jLabel10, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 308, Short.MAX_VALUE))
+                .addGap(0, 305, Short.MAX_VALUE))
         );
 
         jDesktopPane1.add(jInternalFrame2);
@@ -364,6 +408,7 @@ public class IntroView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 730, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         letsgo.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 letsgoActionPerformed(evt);
@@ -373,15 +418,18 @@ public class IntroView extends javax.swing.JFrame {
         letsgo.setBounds(530, 700, 150, 23);
 
         jLabel17.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel17.setFocusable(false);
         jPanel6.add(jLabel17);
         jLabel17.setBounds(410, 670, 580, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel6.add(menu);
         menu.setBounds(1160, 690, 73, 23);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
         jLabel18.setText("Introduccion");
+        jLabel18.setFocusable(false);
         jPanel6.add(jLabel18);
         jLabel18.setBounds(10, 20, 250, 30);
 
@@ -464,6 +512,30 @@ public class IntroView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_letsgoActionPerformed
 
+    private void intro7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_intro7MouseEntered
+        
+    }//GEN-LAST:event_intro7MouseEntered
+
+    private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
+        sms1.setVisible(false);
+    }//GEN-LAST:event_jPanel7MouseEntered
+
+    private void intro8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_intro8MouseEntered
+        sms1.setVisible(true);
+        sms1.Recorrido.setVisible(true);
+        sms1.setLocationRelativeTo(null);
+    }//GEN-LAST:event_intro8MouseEntered
+
+    private void jPanel8MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel8MouseEntered
+        sms1.setVisible(false);
+        hidelaebl();
+    }//GEN-LAST:event_jPanel8MouseEntered
+
+    private void jPanel2MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel2MouseEntered
+        sms1.setVisible(false);
+        hidelaebl();
+    }//GEN-LAST:event_jPanel2MouseEntered
+
     public void complementos(){
         this.repintarArbol();
         this.lblCnodos.setText("");
@@ -488,6 +560,10 @@ public class IntroView extends javax.swing.JFrame {
         this.jInternalFrame2.setBounds(tamaño);
         this.jInternalFrame2.setEnabled(false);
         this.jInternalFrame2.add(this.simulador.getDibujo(), BorderLayout.CENTER);
+    }
+    
+    private void hidelaebl(){
+        sms1.Recorrido.setVisible(false);
     }
 
     /**

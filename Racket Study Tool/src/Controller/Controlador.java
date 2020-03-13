@@ -580,11 +580,12 @@ int linea=0; //Variable Global
             };
             
             if(linea <9)//verifica que la variable que recorre el array no sea mayor al número de filas del mismo
-            {                
+            { 
                 CodeExp.Pasos.setText("Linea "+funciones[linea][0]+"\n"+funciones[linea][1]);//asigna el valor a la caja de pasos
                 CodeExp.Valores.setText(funciones[linea][2]);//asigna el valor a la caja de valores de variables
                 CodeExp.Salida.setText(funciones[linea][3]);//asigna el valor a la caja de salida
                 linea= linea +1;//suma en uno la variable que me recorre el array
+
             }else{// valor falso del if, si entra aquí es porque el código ya finalizo
                 CodeExp.Pasos.setText("Código finalizado");//indica que el código finalizo
                 CodeExp.Valores.setText("");//pone el campo en blanco
@@ -1448,12 +1449,12 @@ int linea=0; //Variable Global
                 an = "";
             }
            if(str.charAt(d) == '('){
-               ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+               ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                d++;
                for(int i = d; i < str.length();i++){ 
                    if(d < str.length()){
                         if(str.charAt(d) == '('){
-                            ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+                            ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                             d = (d++ < str.length())? d++ : d;
                             i = (i++ < str.length())? i++ : i;
                         }
@@ -1506,7 +1507,7 @@ int linea=0; //Variable Global
                    if(d < str.length()){
                        for(int b = d; b < str.length();b++){
                             if(str.charAt(d) == ')'){
-                                ChangeColor.append(Color.red, Character.toString(str.charAt(d)));
+                                ChangeColor.append(new Color(205, 92, 92), Character.toString(str.charAt(d)));
                                 d = (d++ < str.length())? d++ : d;
                                 i = (i++ < str.length())? i++ : i;
                             }
@@ -1515,7 +1516,7 @@ int linea=0; //Variable Global
                    }
                    
                    if(d < str.length()){
-                       ChangeColor.append(Color.blue, Character.toString(str.charAt(d)));
+                       ChangeColor.append(new Color(25, 25, 112), Character.toString(str.charAt(d)));
                    }
                    
                    d++;
@@ -1964,7 +1965,7 @@ int linea=0; //Variable Global
     }
     
     public void iniciar() {
-        this.menu.setTitle("Menu Dr. Racket");
+        this.menu.setTitle("Pagina principal Racket");
         this.menu.setLocationRelativeTo(null);
     }
     

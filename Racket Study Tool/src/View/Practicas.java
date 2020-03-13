@@ -225,6 +225,7 @@ public class Practicas extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
         jLabel1.setText("¡¡¿ Que tanto has aprendido ?!!");
+        jLabel1.setFocusable(false);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(270, 0, 400, 50);
 
@@ -232,6 +233,7 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
         jPanel27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel27.setFocusable(false);
         jPanel27.setLayout(null);
 
         jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones3.jpg"))); // NOI18N
@@ -255,6 +257,7 @@ public class Practicas extends javax.swing.JFrame {
         op12.setBounds(70, 320, 120, 29);
 
         jPanel28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel28.setFocusable(false);
         jPanel28.setLayout(null);
 
         jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones2.jpg"))); // NOI18N
@@ -290,8 +293,10 @@ public class Practicas extends javax.swing.JFrame {
         op16.setBounds(70, 320, 110, 29);
 
         jLabel16.setText("cual seria la salida?");
+        jLabel16.setFocusable(false);
 
         jLabel20.setText("cual seria la salida?");
+        jLabel20.setFocusable(false);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
         jPanel13.setLayout(jPanel13Layout);
@@ -1232,6 +1237,7 @@ public class Practicas extends javax.swing.JFrame {
         jTabbedPane1.setBounds(20, 80, 980, 490);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         menu.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 menuActionPerformed(evt);
@@ -1241,10 +1247,12 @@ public class Practicas extends javax.swing.JFrame {
         menu.setBounds(10, 590, 80, 29);
 
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas..  ¿Podras  lograrlo?");
+        jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
         jLabel3.setBounds(10, 60, 480, 20);
 
         jButton1.setText("Mi puntaje");
+        jButton1.setFocusable(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);

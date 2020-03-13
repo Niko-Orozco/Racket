@@ -95,23 +95,32 @@ public class Cadenas_Strings {
                         "función (string-append cad1 cad2  ..) toma varias cadenas y retorna una\n" +
                         "cadena con la unión de todas las cadenas\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "Código                                                   Salida\n" +
-                        "(string-append ''Hola '' ''mundo'')      Hola mundo\n" +
-                        "(string-append)                                    '''' cadena vacía";
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                                                   :\n" +
+                        "(cadena-agregar \"Hola\" \"mundo\")                                    :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                  :\n" +
+                        "                                                                                                 :\n" +
+                        "Código                                                   Salida                     :\n" +
+                        "(string-append ''Hola '' ''mundo'')      Hola mundo          :\n" +
+                        "(string-append)                                    '''' cadena vacía     :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
     public String stringref(){
         String data =   "Podemos   obtener    caracteres   de    una    cadena   haciendo  uso  de \n" +
-                        "(string-ref cadena n)\n" +
+                        "(string-ref )\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "\n" +
-                        "Código                            Salida\n" +
-                        "(string-ref ''Hola'' 1)       o\n" +
-                        "\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                                       :\n" +
+                        "(string-ref cadena n)                                :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                      :\n" +
+                        "                                                                     :\n" +
+                        "Código                            Salida                :\n" +
+                        "(string-ref ''Hola'' 1)       o                         :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "O también\n" +
                         "\n" +
                         "Usamos la función (substring cadena a b) para sacar caracteres  de un\n" +
@@ -119,9 +128,14 @@ public class Cadenas_Strings {
                         "sacaremos un intervalo entre 2 y 6 y lo que obtendríamos es:\n" +
                         "la Mun\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "Código                             Salida\n" +
-                        "(substring ''futbol'' 1 3)          ut";
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Sintaxis                                   Salida        :\n" +
+                        "(subcadena \"Hola\" 0 2)        Ho             :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
+                        "Ejemplo                                                      :\n" +
+                        "Código                             Salida               :\n" +
+                        "(substring ''futbol'' 1 3)          ut               :\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
         return data;
     }
 
@@ -156,6 +170,7 @@ public class Cadenas_Strings {
                         "''carro'' es prefijo de la cadena ''carrotanque'' por tanto la cadena \n" +
                         "''carro'' es considerada menor que la otra\n" +
                         "\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis\n" +
                         "(string=? cadena1 cadena2)        cadena1 igual a cadena2?\n" +
                         "(string<? cadena1 cadena2)        cadena1 menor a cadena2\n" +
@@ -167,14 +182,15 @@ public class Cadenas_Strings {
                         "(string-ci>? cadena1 cadena2)    igual que string>? pero insensible\n" +
                         "(string-ci<=? cadena1 cadena2)  igual que string<=? pero insensible\n" +
                         "(string-ci>=? cadena1 cadena2)  igual que string>=? pero insensible\n" +
-                        "\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Ejemplo\n" +
                         "\n" +
                         "Código                              	    Salida\n" +
                         "(string=? ''hola'' ''Hola'')         	    f\n" +
                         "(string-ci=? ''hola'' ''Hola'')      	    t; procedimiento insensible\n" +
                         "(string<? ''bar'' ''futbol'           	    t; b es menor que f)\n" +
-                        "(string-ci=? ''futbolbar'' ''futbol')	    f; cadena 2 prefijo menor";
+                        "(string-ci=? ''futbolbar'' ''futbol')	    f; cadena 2 prefijo menor\n" +
+                        " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -";
        return data;
    }
    

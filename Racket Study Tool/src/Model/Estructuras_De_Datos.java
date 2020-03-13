@@ -27,11 +27,16 @@ public class Estructuras_De_Datos {
     } 
     
     public String defstruct(){
-        String data =   "En   DrRacket   definir   una   estructura  es sencillo, se  logra mediante el \n" +
-                        "procedimiento: (define-struct.)\n" +
+        String data =   "En   DrRacket   definir   una   estructura  es sencillo, se  logra mediante\n" +
+                        "el procedimiento: (define-struct.)\n" +
                         "\n" +
-                        "Ejemplo\n" +
-                        "(define-struct alumnos(nombre apellido teléfono correo))";
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Sintaxis                                                                                                     :\n" +
+                        "(define-estructura alumnos(nombre apellido teléfono correo))   :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                        "Ejemplo                                                                                                   :\n" +
+                        "(define-struct alumnos(nombre apellido teléfono correo))           :\n" +
+                        "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     
@@ -43,12 +48,11 @@ public class Estructuras_De_Datos {
                         "Veamos cómo es:\n" +
                         "(define-struct Empleados (nombre apellido)\n" +
                         "\n" +
-                        "y para la función make (make-struct) donde struct el nombre de nuestra\n" +
+                        "para la función make (make-struct) donde struct el nombre de nuestra\n" +
                         "estructura es decir:\n" +
                         "\n" +
                         "(make-Empleados \"José\" \"Cardona\")\n" +
-                        "\n" +
-                        "cómo pueden ver se cambió el struct por el nombre de la estructura";
+                        "(make-Empleados \"Luis\" \"Vargas\")";
         return data;
     }
     

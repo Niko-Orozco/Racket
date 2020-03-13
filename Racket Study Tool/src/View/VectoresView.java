@@ -152,44 +152,56 @@ public class VectoresView extends javax.swing.JFrame {
         vectref.setColumns(20);
         vectref.setRows(5);
         vectref.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        vectref.setFocusable(false);
         jScrollPane5.setViewportView(vectref);
 
         quevect.setColumns(20);
         quevect.setRows(5);
         quevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        quevect.setFocusable(false);
         jScrollPane1.setViewportView(quevect);
 
         jLabel3.setText("Creacion de Vectores");
+        jLabel3.setFocusable(false);
 
         jLabel4.setText("¿Que es un Vector?");
+        jLabel4.setFocusable(false);
 
         jLabel5.setText("vector-ref");
+        jLabel5.setFocusable(false);
 
         setvect.setColumns(20);
         setvect.setRows(5);
         setvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        setvect.setFocusable(false);
         jScrollPane7.setViewportView(setvect);
 
         jLabel6.setText("vector-set!");
+        jLabel6.setFocusable(false);
 
         makevect.setColumns(20);
         makevect.setRows(5);
         makevect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        makevect.setFocusable(false);
         jScrollPane3.setViewportView(makevect);
 
         fillvect.setColumns(20);
         fillvect.setRows(5);
         fillvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        fillvect.setFocusable(false);
         jScrollPane11.setViewportView(fillvect);
 
         jLabel9.setText("vector-fill!");
+        jLabel9.setFocusable(false);
 
         lenvect.setColumns(20);
         lenvect.setRows(5);
         lenvect.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        lenvect.setFocusable(false);
         jScrollPane14.setViewportView(lenvect);
 
         jLabel16.setText("vector-length");
+        jLabel16.setFocusable(false);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -254,6 +266,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -263,8 +276,10 @@ public class VectoresView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -570,12 +585,16 @@ public class VectoresView extends javax.swing.JFrame {
         jTabbedPane1.addTab("build-vector", jPanel9);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         jLabel15.setText("Reprecentacion grafica de un Vector");
+        jLabel15.setFocusable(false);
 
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));
+        jPanel11.setFocusable(false);
         jPanel11.setLayout(null);
 
         jLabel11.setText("     0              1               2               3       ");
@@ -640,6 +659,7 @@ public class VectoresView extends javax.swing.JFrame {
         limpiar.setBounds(370, 90, 130, 23);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -690,19 +710,23 @@ public class VectoresView extends javax.swing.JFrame {
         jScrollPane13.setBounds(510, 70, 630, 600);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
         letsgo.setBounds(530, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(410, 670, 570, 30);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Vectores");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 10, 170, 30);
 

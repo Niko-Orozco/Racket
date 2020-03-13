@@ -130,6 +130,7 @@ public class ParesView extends javax.swing.JFrame {
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         jLabel2.setText("Pares");
+        jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(20, 20, 160, 30);
 
@@ -145,13 +146,17 @@ public class ParesView extends javax.swing.JFrame {
         paresview1.setColumns(20);
         paresview1.setRows(5);
         paresview1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        paresview1.setFocusable(false);
         jScrollPane1.setViewportView(paresview1);
 
         jLabel3.setText("la Funcion cons");
+        jLabel3.setFocusable(false);
 
         jLabel4.setText("¿Que es un Par?");
+        jLabel4.setFocusable(false);
 
         jLabel5.setText("Car");
+        jLabel5.setFocusable(false);
 
         paresview4.setColumns(20);
         paresview4.setRows(5);
@@ -160,6 +165,7 @@ public class ParesView extends javax.swing.JFrame {
         jScrollPane7.setViewportView(paresview4);
 
         jLabel6.setText("Cdr");
+        jLabel6.setFocusable(false);
 
         paresview2.setColumns(20);
         paresview2.setRows(5);
@@ -174,6 +180,7 @@ public class ParesView extends javax.swing.JFrame {
         jScrollPane11.setViewportView(paresview5);
 
         jLabel9.setText("Pair?");
+        jLabel9.setFocusable(false);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -193,7 +200,7 @@ public class ParesView extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(31, Short.MAX_VALUE))
+                .addContainerGap())
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -232,6 +239,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
         code.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code.setFocusable(false);
         jScrollPane4.setViewportView(code);
 
         verinfo1.setColumns(20);
@@ -241,8 +249,10 @@ public class ParesView extends javax.swing.JFrame {
         jScrollPane2.setViewportView(verinfo1);
 
         jLabel1.setText("Consola");
+        jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
+        run1.setFocusable(false);
         run1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 run1ActionPerformed(evt);
@@ -549,10 +559,13 @@ public class ParesView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Par de Vectores", jPanel9);
 
         jLabel7.setText("Ejemplos");
+        jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
+        jButton2.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");
+        PasoPaso.setFocusable(false);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
@@ -590,16 +603,19 @@ public class ParesView extends javax.swing.JFrame {
         jPanel7.setBounds(500, 70, 590, 600);
 
         menu.setText("Menu");
+        menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 28);
+        menu.setBounds(990, 700, 73, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
+        jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
         letsgo.setText("Vamos alla");
+        letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 28);
+        letsgo.setBounds(440, 710, 150, 23);
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel24);
