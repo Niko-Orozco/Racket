@@ -33,7 +33,6 @@ public class Controlador {
     private Codeexplicacion codexp;
     private CondicionalView ConView;
     private Condicionales Condi;
-    private Practicas Practices;
     private Vectores Vect;
     private VectoresView VectView;
     private Estructuras EstrucView;
@@ -54,6 +53,8 @@ public class Controlador {
     private GraficoView GraficView;
     private Modo_Grafico Mgrafico;
     private IntroView introview;  
+    private Practicas Practices;
+    private PracticasModel pmodel;
 
     public Controlador() {
     }
@@ -1798,6 +1799,10 @@ int linea=0; //Variable Global
         this.Practices.setVisible(true);
         this.Practices.setTitle("Practicas");
         this.Practices.setLocationRelativeTo(null);
+        PonerColor(Practices.ejerecu1, pmodel.ejerecu1());
+        PonerColor(Practices.ejerecu2, pmodel.ejerecu2());
+        
+        
         Practices.menu.addActionListener((ActionEvent e) -> {
             Practices.setVisible(false);
             menu.setVisible(true);
@@ -1807,6 +1812,7 @@ int linea=0; //Variable Global
     }
     
     public void cadenasview(){
+        
         this.CadView.setTitle("Cadenas");
         this.CadView.setLocationRelativeTo(null);
         CadView.quecadena.setText(CadString.Ques());
