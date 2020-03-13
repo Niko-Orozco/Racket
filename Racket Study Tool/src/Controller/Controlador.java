@@ -1800,9 +1800,24 @@ int linea=0; //Variable Global
         this.Practices.setVisible(true);
         this.Practices.setTitle("Practicas");
         this.Practices.setLocationRelativeTo(null);
-        PonerColor(Practices.ejerecu1, pmodel.ejerecu1());
-        PonerColor(Practices.ejerecu2, pmodel.ejerecu2());
-        
+        Practices.ejerecu1.setText(pmodel.ejerecu1());
+        Practices.ejerecu2.setText(pmodel.ejerecu2());
+        Practices.ejefuncion1.setText(pmodel.ejefuncion1());
+        Practices.ejefuncion2.setText(pmodel.ejefuncion2());
+        Practices.ejearitmetica1.setText(pmodel.ejearitmetica1());
+        Practices.ejearitmetica1.setText(pmodel.ejearitmetica2());
+        Practices.ejecon1.setText(pmodel.ejecond1());
+        Practices.ejecon2.setText(pmodel.ejecond2());
+        Practices.ejecaracter1.setText(pmodel.ejecaracteres1());
+        Practices.ejecaracter2.setText(pmodel.ejecaracteres2());
+        Practices.ejecadena1.setText(pmodel.ejecadenas1());
+        Practices.ejecadena2.setText(pmodel.ejecadenas2());
+        Practices.ejevector1.setText(pmodel.ejevector1());
+        Practices.ejevector2.setText(pmodel.ejevector2());
+        //Practices.ejelista1.setText(pmodel.ejelistas1());
+        //Practices.ejelista2.setText(pmodel.ejelistas2());
+        Practices.ejegrafico1.setText(pmodel.ejegrafico1());
+        Practices.ejegrafico2.setText(pmodel.ejegrafico2());
         
         Practices.menu.addActionListener((ActionEvent e) -> {
             Practices.setVisible(false);

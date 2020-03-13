@@ -22,7 +22,7 @@ public class Practicas extends javax.swing.JFrame {
         grupo1.add(t1);
         grupo1.add(t2);        
         grupo2.add(r1);
-        grupo2.add(r2);
+
 
         
 
@@ -47,38 +47,38 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane2 = new javax.swing.JScrollPane();
         jPanel13 = new javax.swing.JPanel();
         jPanel27 = new javax.swing.JPanel();
-        jLabel13 = new javax.swing.JLabel();
         op9 = new javax.swing.JRadioButton();
         op10 = new javax.swing.JRadioButton();
         op11 = new javax.swing.JRadioButton();
         op12 = new javax.swing.JRadioButton();
+        jScrollPane12 = new javax.swing.JScrollPane();
+        ejefuncion1 = new javax.swing.JTextPane();
         jPanel28 = new javax.swing.JPanel();
-        jLabel14 = new javax.swing.JLabel();
         op13 = new javax.swing.JRadioButton();
-        jLabel15 = new javax.swing.JLabel();
-        r12 = new javax.swing.JRadioButton();
         op14 = new javax.swing.JRadioButton();
         op15 = new javax.swing.JRadioButton();
         op16 = new javax.swing.JRadioButton();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        ejefuncion2 = new javax.swing.JTextPane();
         jLabel16 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
         jPanel3 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         jPanel14 = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
-        jLabel8 = new javax.swing.JLabel();
         op2 = new javax.swing.JRadioButton();
         op4 = new javax.swing.JRadioButton();
         op1 = new javax.swing.JRadioButton();
         op3 = new javax.swing.JRadioButton();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        ejearitmetica1 = new javax.swing.JTextPane();
         jPanel26 = new javax.swing.JPanel();
-        jLabel4 = new javax.swing.JLabel();
         op8 = new javax.swing.JRadioButton();
-        jLabel10 = new javax.swing.JLabel();
-        r9 = new javax.swing.JRadioButton();
         op7 = new javax.swing.JRadioButton();
         op5 = new javax.swing.JRadioButton();
         op6 = new javax.swing.JRadioButton();
+        jScrollPane18 = new javax.swing.JScrollPane();
+        ejearitmetica2 = new javax.swing.JTextPane();
         jLabel11 = new javax.swing.JLabel();
         jLabel12 = new javax.swing.JLabel();
         jPanel4 = new javax.swing.JPanel();
@@ -86,16 +86,16 @@ public class Practicas extends javax.swing.JFrame {
         jPanel15 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jPanel22 = new javax.swing.JPanel();
-        jLabel6 = new javax.swing.JLabel();
         t1 = new javax.swing.JRadioButton();
         t2 = new javax.swing.JRadioButton();
+        jScrollPane19 = new javax.swing.JScrollPane();
+        ejecon1 = new javax.swing.JTextPane();
         jPanel23 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
         r1 = new javax.swing.JRadioButton();
-        jLabel7 = new javax.swing.JLabel();
-        r2 = new javax.swing.JRadioButton();
         r5 = new javax.swing.JRadioButton();
         r6 = new javax.swing.JRadioButton();
+        jScrollPane20 = new javax.swing.JScrollPane();
+        ejecon2 = new javax.swing.JTextPane();
         jLabel9 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
         jScrollPane5 = new javax.swing.JScrollPane();
@@ -120,53 +120,53 @@ public class Practicas extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jPanel37 = new javax.swing.JPanel();
-        jLabel39 = new javax.swing.JLabel();
         op41 = new javax.swing.JRadioButton();
         op42 = new javax.swing.JRadioButton();
         op43 = new javax.swing.JRadioButton();
         op44 = new javax.swing.JRadioButton();
+        jScrollPane21 = new javax.swing.JScrollPane();
+        ejecaracter1 = new javax.swing.JTextPane();
         jPanel38 = new javax.swing.JPanel();
-        jLabel40 = new javax.swing.JLabel();
         op45 = new javax.swing.JRadioButton();
-        jLabel41 = new javax.swing.JLabel();
-        r17 = new javax.swing.JRadioButton();
         op46 = new javax.swing.JRadioButton();
         op47 = new javax.swing.JRadioButton();
         op48 = new javax.swing.JRadioButton();
+        jScrollPane22 = new javax.swing.JScrollPane();
+        ejecaracter2 = new javax.swing.JTextPane();
         jPanel7 = new javax.swing.JPanel();
         jScrollPane7 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
-        jLabel32 = new javax.swing.JLabel();
         op21 = new javax.swing.JRadioButton();
         op26 = new javax.swing.JRadioButton();
         op35 = new javax.swing.JRadioButton();
         op36 = new javax.swing.JRadioButton();
+        jScrollPane23 = new javax.swing.JScrollPane();
+        ejecadena1 = new javax.swing.JTextPane();
         jPanel36 = new javax.swing.JPanel();
-        jLabel33 = new javax.swing.JLabel();
         op37 = new javax.swing.JRadioButton();
-        jLabel34 = new javax.swing.JLabel();
-        r13 = new javax.swing.JRadioButton();
         op38 = new javax.swing.JRadioButton();
         op39 = new javax.swing.JRadioButton();
         op40 = new javax.swing.JRadioButton();
+        jScrollPane24 = new javax.swing.JScrollPane();
+        ejecadena2 = new javax.swing.JTextPane();
         jLabel35 = new javax.swing.JLabel();
         jLabel36 = new javax.swing.JLabel();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane8 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
         jPanel33 = new javax.swing.JPanel();
-        jLabel26 = new javax.swing.JLabel();
         op29 = new javax.swing.JRadioButton();
         op30 = new javax.swing.JRadioButton();
         op31 = new javax.swing.JRadioButton();
         op32 = new javax.swing.JRadioButton();
+        jScrollPane25 = new javax.swing.JScrollPane();
+        ejevector1 = new javax.swing.JTextPane();
         jPanel34 = new javax.swing.JPanel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        r21 = new javax.swing.JRadioButton();
         op33 = new javax.swing.JRadioButton();
         op34 = new javax.swing.JRadioButton();
+        jScrollPane26 = new javax.swing.JScrollPane();
+        ejevector2 = new javax.swing.JTextPane();
         jLabel29 = new javax.swing.JLabel();
         jLabel42 = new javax.swing.JLabel();
         jPanel9 = new javax.swing.JPanel();
@@ -201,19 +201,19 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         jPanel12 = new javax.swing.JPanel();
         jPanel31 = new javax.swing.JPanel();
-        jLabel22 = new javax.swing.JLabel();
         op22 = new javax.swing.JRadioButton();
         op25 = new javax.swing.JRadioButton();
         jRadioButton1 = new javax.swing.JRadioButton();
         jRadioButton2 = new javax.swing.JRadioButton();
+        jScrollPane27 = new javax.swing.JScrollPane();
+        ejegrafico1 = new javax.swing.JTextPane();
         jPanel32 = new javax.swing.JPanel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        r18 = new javax.swing.JRadioButton();
         op27 = new javax.swing.JRadioButton();
         op28 = new javax.swing.JRadioButton();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
+        jScrollPane28 = new javax.swing.JScrollPane();
+        ejegrafico2 = new javax.swing.JTextPane();
         jLabel25 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
@@ -236,34 +236,40 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.setFocusable(false);
         jPanel27.setLayout(null);
 
-        jLabel13.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones3.jpg"))); // NOI18N
-        jPanel27.add(jLabel13);
-        jLabel13.setBounds(30, 10, 380, 270);
-
-        op9.setText("1212344");
+        op9.setText("880");
+        op9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op9ActionPerformed(evt);
+            }
+        });
         jPanel27.add(op9);
         op9.setBounds(240, 290, 120, 29);
 
-        op10.setText("12121234");
+        op10.setText("970");
         jPanel27.add(op10);
         op10.setBounds(240, 320, 120, 29);
 
-        op11.setText("231334");
+        op11.setText("870");
+        op11.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                op11ActionPerformed(evt);
+            }
+        });
         jPanel27.add(op11);
         op11.setBounds(70, 290, 100, 29);
 
-        op12.setText("11520000");
+        op12.setText("879");
         jPanel27.add(op12);
         op12.setBounds(70, 320, 120, 29);
+
+        jScrollPane12.setViewportView(ejefuncion1);
+
+        jPanel27.add(jScrollPane12);
+        jScrollPane12.setBounds(30, 30, 400, 230);
 
         jPanel28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel28.setFocusable(false);
         jPanel28.setLayout(null);
-
-        jLabel14.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/funciones2.jpg"))); // NOI18N
-        jLabel14.setText("imagen 1");
-        jPanel28.add(jLabel14);
-        jLabel14.setBounds(60, 10, 370, 270);
 
         op13.setText("21312");
         op13.addActionListener(new java.awt.event.ActionListener() {
@@ -273,12 +279,6 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel28.add(op13);
         op13.setBounds(240, 320, 110, 29);
-
-        jLabel15.setText("imagen 2");
-        jPanel28.add(jLabel15);
-        jLabel15.setBounds(260, 0, 240, 170);
-        jPanel28.add(r12);
-        r12.setBounds(250, 180, 29, 29);
 
         op14.setText("213");
         jPanel28.add(op14);
@@ -291,6 +291,11 @@ public class Practicas extends javax.swing.JFrame {
         op16.setText("32133");
         jPanel28.add(op16);
         op16.setBounds(70, 320, 110, 29);
+
+        jScrollPane16.setViewportView(ejefuncion2);
+
+        jPanel28.add(jScrollPane16);
+        jScrollPane16.setBounds(30, 30, 400, 230);
 
         jLabel16.setText("cual seria la salida?");
         jLabel16.setFocusable(false);
@@ -348,10 +353,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel25.setLayout(null);
 
-        jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/operacionej1.jpg"))); // NOI18N
-        jPanel25.add(jLabel8);
-        jLabel8.setBounds(30, 10, 380, 270);
-
         op2.setText("342132");
         jPanel25.add(op2);
         op2.setBounds(240, 290, 120, 29);
@@ -368,13 +369,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.add(op3);
         op3.setBounds(70, 320, 120, 29);
 
+        jScrollPane17.setViewportView(ejearitmetica1);
+
+        jPanel25.add(jScrollPane17);
+        jScrollPane17.setBounds(30, 30, 400, 230);
+
         jPanel26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel26.setLayout(null);
-
-        jLabel4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/operacionej2.jpg"))); // NOI18N
-        jLabel4.setText("imagen 1");
-        jPanel26.add(jLabel4);
-        jLabel4.setBounds(60, 10, 370, 270);
 
         op8.setText("14.34");
         op8.addActionListener(new java.awt.event.ActionListener() {
@@ -384,12 +385,6 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel26.add(op8);
         op8.setBounds(240, 320, 110, 29);
-
-        jLabel10.setText("imagen 2");
-        jPanel26.add(jLabel10);
-        jLabel10.setBounds(260, 0, 240, 170);
-        jPanel26.add(r9);
-        r9.setBounds(250, 180, 29, 29);
 
         op7.setText("15.76");
         jPanel26.add(op7);
@@ -402,6 +397,11 @@ public class Practicas extends javax.swing.JFrame {
         op6.setText("13.45");
         jPanel26.add(op6);
         op6.setBounds(70, 320, 110, 29);
+
+        jScrollPane18.setViewportView(ejearitmetica2);
+
+        jPanel26.add(jScrollPane18);
+        jScrollPane18.setBounds(30, 30, 400, 230);
 
         jLabel11.setText("Si ingresamos el valor 250 en el read(), cual seria la salida?");
 
@@ -461,10 +461,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
-        jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif1.jpg"))); // NOI18N
-        jPanel22.add(jLabel6);
-        jLabel6.setBounds(30, 10, 370, 270);
-
         t1.setText("el primero es mayor que el segundo");
         jPanel22.add(t1);
         t1.setBounds(20, 310, 320, 29);
@@ -473,23 +469,17 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.add(t2);
         t2.setBounds(20, 350, 290, 29);
 
+        jScrollPane19.setViewportView(ejecon1);
+
+        jPanel22.add(jScrollPane19);
+        jScrollPane19.setBounds(30, 30, 400, 240);
+
         jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
-
-        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/ejemploif2.jpg"))); // NOI18N
-        jLabel2.setText("imagen 1");
-        jPanel23.add(jLabel2);
-        jLabel2.setBounds(60, 10, 370, 270);
 
         r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(r1);
         r1.setBounds(20, 380, 460, 29);
-
-        jLabel7.setText("imagen 2");
-        jPanel23.add(jLabel7);
-        jLabel7.setBounds(260, 0, 240, 170);
-        jPanel23.add(r2);
-        r2.setBounds(250, 180, 29, 29);
 
         r5.setText("La opcion no es valida");
         jPanel23.add(r5);
@@ -498,6 +488,11 @@ public class Practicas extends javax.swing.JFrame {
         r6.setText("reproducir El CAPITAL");
         jPanel23.add(r6);
         r6.setBounds(20, 350, 200, 29);
+
+        jScrollPane20.setViewportView(ejecon2);
+
+        jPanel23.add(jScrollPane20);
+        jScrollPane20.setBounds(30, 30, 400, 240);
 
         jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
 
@@ -653,10 +648,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel37.setLayout(null);
 
-        jLabel39.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/caracteres1.jpg"))); // NOI18N
-        jPanel37.add(jLabel39);
-        jLabel39.setBounds(30, 10, 380, 270);
-
         op41.setText("#\\7");
         jPanel37.add(op41);
         op41.setBounds(240, 290, 120, 29);
@@ -673,13 +664,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(op44);
         op44.setBounds(70, 320, 120, 29);
 
+        jScrollPane21.setViewportView(ejecaracter1);
+
+        jPanel37.add(jScrollPane21);
+        jScrollPane21.setBounds(30, 30, 400, 240);
+
         jPanel38.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel38.setLayout(null);
-
-        jLabel40.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/caracteres2.jpg"))); // NOI18N
-        jLabel40.setText("imagen 1");
-        jPanel38.add(jLabel40);
-        jLabel40.setBounds(60, 10, 370, 270);
 
         op45.setText("e");
         op45.addActionListener(new java.awt.event.ActionListener() {
@@ -689,12 +680,6 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel38.add(op45);
         op45.setBounds(240, 320, 110, 29);
-
-        jLabel41.setText("imagen 2");
-        jPanel38.add(jLabel41);
-        jLabel41.setBounds(260, 0, 240, 170);
-        jPanel38.add(r17);
-        r17.setBounds(250, 180, 29, 29);
 
         op46.setText("#\\e");
         jPanel38.add(op46);
@@ -707,6 +692,11 @@ public class Practicas extends javax.swing.JFrame {
         op48.setText("no es vocal");
         jPanel38.add(op48);
         op48.setBounds(70, 320, 140, 29);
+
+        jScrollPane22.setViewportView(ejecaracter2);
+
+        jPanel38.add(jScrollPane22);
+        jScrollPane22.setBounds(30, 30, 400, 240);
 
         javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
         jPanel17.setLayout(jPanel17Layout);
@@ -758,33 +748,29 @@ public class Practicas extends javax.swing.JFrame {
         jPanel35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel35.setLayout(null);
 
-        jLabel32.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/cadenas1.jpg"))); // NOI18N
-        jPanel35.add(jLabel32);
-        jLabel32.setBounds(30, 10, 380, 270);
-
-        op21.setText("es menor largo");
+        op21.setText("no es palindrome");
         jPanel35.add(op21);
-        op21.setBounds(240, 290, 150, 29);
+        op21.setBounds(240, 290, 170, 29);
 
-        op26.setText("corto es menor");
+        op26.setText("es vocal");
         jPanel35.add(op26);
         op26.setBounds(240, 320, 150, 29);
 
-        op35.setText("es menor corto");
+        op35.setText("es palindrome");
         jPanel35.add(op35);
         op35.setBounds(70, 290, 150, 29);
 
-        op36.setText("son iguales");
+        op36.setText("error");
         jPanel35.add(op36);
         op36.setBounds(70, 320, 120, 29);
 
+        jScrollPane23.setViewportView(ejecadena1);
+
+        jPanel35.add(jScrollPane23);
+        jScrollPane23.setBounds(30, 30, 400, 240);
+
         jPanel36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel36.setLayout(null);
-
-        jLabel33.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/cadenas2.jpg"))); // NOI18N
-        jLabel33.setText("imagen 1");
-        jPanel36.add(jLabel33);
-        jLabel33.setBounds(60, 10, 370, 270);
 
         op37.setText("ES CARACTER");
         op37.addActionListener(new java.awt.event.ActionListener() {
@@ -794,12 +780,6 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel36.add(op37);
         op37.setBounds(240, 320, 140, 29);
-
-        jLabel34.setText("imagen 2");
-        jPanel36.add(jLabel34);
-        jLabel34.setBounds(260, 0, 240, 170);
-        jPanel36.add(r13);
-        r13.setBounds(250, 180, 29, 29);
 
         op38.setText("ES CADENA");
         jPanel36.add(op38);
@@ -812,6 +792,11 @@ public class Practicas extends javax.swing.JFrame {
         op40.setText("PEREIRA");
         jPanel36.add(op40);
         op40.setBounds(70, 320, 110, 29);
+
+        jScrollPane24.setViewportView(ejecadena2);
+
+        jPanel36.add(jScrollPane24);
+        jScrollPane24.setBounds(30, 30, 400, 240);
 
         jLabel35.setText("cual seria la salida?");
 
@@ -867,10 +852,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel33.setLayout(null);
 
-        jLabel26.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores1.jpg"))); // NOI18N
-        jPanel33.add(jLabel26);
-        jLabel26.setBounds(30, 10, 380, 270);
-
         op29.setText("No esta ordenado");
         jPanel33.add(op29);
         op29.setBounds(240, 290, 160, 29);
@@ -887,27 +868,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.add(op32);
         op32.setBounds(70, 320, 120, 29);
 
+        jScrollPane25.setViewportView(ejevector1);
+
+        jPanel33.add(jScrollPane25);
+        jScrollPane25.setBounds(30, 30, 400, 240);
+
         jPanel34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel34.setLayout(null);
-
-        jLabel27.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/vectores2.jpg"))); // NOI18N
-        jLabel27.setText("imagen 1");
-        jPanel34.add(jLabel27);
-        jLabel27.setBounds(60, 10, 370, 270);
-
-        jLabel28.setText("imagen 2");
-        jPanel34.add(jLabel28);
-        jLabel28.setBounds(260, 0, 240, 170);
-        jPanel34.add(r21);
-        r21.setBounds(250, 180, 29, 29);
 
         op33.setText("17 16 15 14 13 12 11 10");
         jPanel34.add(op33);
         op33.setBounds(70, 290, 260, 29);
 
-        op34.setText("10 11 12 13 14 15 16");
+        op34.setText("10 11 12 13 14 15 16 17 ");
         jPanel34.add(op34);
         op34.setBounds(70, 320, 280, 29);
+
+        jScrollPane26.setViewportView(ejevector2);
+
+        jPanel34.add(jScrollPane26);
+        jScrollPane26.setBounds(30, 30, 400, 240);
 
         jLabel29.setText("cual seria la salida?");
 
@@ -1148,10 +1128,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel31.setLayout(null);
 
-        jLabel22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/grafico1.jpg"))); // NOI18N
-        jPanel31.add(jLabel22);
-        jLabel22.setBounds(30, 10, 380, 270);
-
         op22.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores2.jpg"))); // NOI18N
         jPanel31.add(op22);
         op22.setBounds(250, 300, 160, 110);
@@ -1166,19 +1142,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.add(jRadioButton2);
         jRadioButton2.setBounds(230, 311, 30, 90);
 
+        jScrollPane27.setViewportView(ejegrafico1);
+
+        jPanel31.add(jScrollPane27);
+        jScrollPane27.setBounds(30, 30, 400, 240);
+
         jPanel32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel32.setLayout(null);
-
-        jLabel23.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/grafico2.jpg"))); // NOI18N
-        jLabel23.setText("imagen 1");
-        jPanel32.add(jLabel23);
-        jLabel23.setBounds(60, 10, 370, 270);
-
-        jLabel24.setText("imagen 2");
-        jPanel32.add(jLabel24);
-        jLabel24.setBounds(260, 0, 240, 170);
-        jPanel32.add(r18);
-        r18.setBounds(250, 180, 29, 29);
         jPanel32.add(op27);
         op27.setBounds(40, 311, 30, 90);
         jPanel32.add(op28);
@@ -1191,6 +1161,11 @@ public class Practicas extends javax.swing.JFrame {
         jLabel31.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores4.jpg"))); // NOI18N
         jPanel32.add(jLabel31);
         jLabel31.setBounds(270, 310, 160, 90);
+
+        jScrollPane28.setViewportView(ejegrafico2);
+
+        jPanel32.add(jScrollPane28);
+        jScrollPane28.setBounds(30, 30, 400, 240);
 
         jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
 
@@ -1303,6 +1278,14 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_op56ActionPerformed
 
+    private void op11ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op11ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op11ActionPerformed
+
+    private void op9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_op9ActionPerformed
+
     
     /**
      * @param args the command line arguments
@@ -1341,44 +1324,40 @@ public class Practicas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup GRUPO3;
+    public javax.swing.JTextPane ejearitmetica1;
+    public javax.swing.JTextPane ejearitmetica2;
+    public javax.swing.JTextPane ejecadena1;
+    public javax.swing.JTextPane ejecadena2;
+    public javax.swing.JTextPane ejecaracter1;
+    public javax.swing.JTextPane ejecaracter2;
+    public javax.swing.JTextPane ejecon1;
+    public javax.swing.JTextPane ejecon2;
+    public javax.swing.JTextPane ejefuncion1;
+    public javax.swing.JTextPane ejefuncion2;
+    public javax.swing.JTextPane ejegrafico1;
+    public javax.swing.JTextPane ejegrafico2;
     public javax.swing.JTextPane ejerecu1;
     public javax.swing.JTextPane ejerecu2;
+    public javax.swing.JTextPane ejevector1;
+    public javax.swing.JTextPane ejevector2;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
     private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;
     private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
     private javax.swing.JLabel jLabel35;
     private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JLabel jLabel38;
-    private javax.swing.JLabel jLabel39;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel40;
-    private javax.swing.JLabel jLabel41;
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
@@ -1387,9 +1366,6 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel47;
     private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
@@ -1438,10 +1414,24 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
     private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
+    private javax.swing.JScrollPane jScrollPane18;
+    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JScrollPane jScrollPane20;
+    private javax.swing.JScrollPane jScrollPane21;
+    private javax.swing.JScrollPane jScrollPane22;
+    private javax.swing.JScrollPane jScrollPane23;
+    private javax.swing.JScrollPane jScrollPane24;
+    private javax.swing.JScrollPane jScrollPane25;
+    private javax.swing.JScrollPane jScrollPane26;
+    private javax.swing.JScrollPane jScrollPane27;
+    private javax.swing.JScrollPane jScrollPane28;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -1509,16 +1499,9 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op8;
     public javax.swing.JRadioButton op9;
     public javax.swing.JRadioButton r1;
-    public javax.swing.JRadioButton r12;
-    public javax.swing.JRadioButton r13;
     public javax.swing.JRadioButton r14;
-    public javax.swing.JRadioButton r17;
-    public javax.swing.JRadioButton r18;
-    public javax.swing.JRadioButton r2;
-    public javax.swing.JRadioButton r21;
     public javax.swing.JRadioButton r5;
     public javax.swing.JRadioButton r6;
-    public javax.swing.JRadioButton r9;
     public javax.swing.JRadioButton t1;
     public javax.swing.JRadioButton t2;
     // End of variables declaration//GEN-END:variables
