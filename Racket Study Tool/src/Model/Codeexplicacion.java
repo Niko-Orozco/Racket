@@ -90,13 +90,13 @@ public class Codeexplicacion {
     }
     
     public String Ejemplo6(){
-        String data =   ";Hacer un programa que calcule el volumen de un cono\n\n" +
+        String data =   ";Hacer un programa que calcule el volumen de un cono\n" +
                         "(define Pi 3.1416)\n" +
-                        "        (display &quot; Valor radio= &quot;)\n" +
+                        "        (display \"Valor radio= \")\n" +
                         "        (define r (read))\n" +
-                        "        (display &quot; Valor altura= &quot;)\n" +
+                        "        (display \" Valor altura= \")\n" +
                         "        (define h (read))\n" +
-                        "        (display &quot; Volumen= &quot;)\n" +
+                        "        (display \"Volumen= \")\n" +
                         ")\n" +
                         "\n" +
                         "(* 1/3 Pi r h)";
@@ -120,7 +120,7 @@ public class Codeexplicacion {
                         "\n" +
                         "(EsVocal? (read))";
         return data;
-    }////////////////////////////// Asta aqui falta el 8 9 y 10
+    }
     
     public String Ejemplo8(){
         String data =   ";Crear una vector de forma global de 10 posiciones, luego llenarlo de valores aleatorios y mostrarlos por pantalla\n\n" +

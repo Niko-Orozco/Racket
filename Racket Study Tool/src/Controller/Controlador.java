@@ -160,6 +160,7 @@ public class Controlador {
         this.menu.quiz.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             menu.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         
@@ -187,14 +188,14 @@ public class Controlador {
     
     public void Graficos(){  
         this.GraficView.setTitle("Modo Grafico");
-        this.GraficView.setLocationRelativeTo(null);
+        this.GraficView.setLocationRelativeTo(null);       
         GraficView.grafico1.setText(Mgrafico.grafico1());
         GraficView.grafico2.setText(Mgrafico.grafico2());
         GraficView.grafico3.setText(Mgrafico.grafico3());
-        GraficView.code1.setText(Mgrafico.Ejegrafico1());
-        GraficView.code2.setText(Recurs.Ejerecursividad2()); 
-        GraficView.code3.setText(Recurs.Ejerecursividad3());
-        GraficView.code4.setText(Recurs.Ejerecursividad4());
+        PonerColor(GraficView.code1, Mgrafico.Ejegrafico1());
+        PonerColor(GraficView.code2, Mgrafico.Ejerecursividad2());
+        PonerColor(GraficView.code3, Mgrafico.Ejerecursividad3());
+        PonerColor(GraficView.code4, Mgrafico.Ejerecursividad4());
         GraficView.run1.addActionListener((ActionEvent e) -> {
             GraficView.verinfo1.setText(runCodeRac(1));
         });
@@ -1800,25 +1801,24 @@ int linea=0; //Variable Global
         this.Practices.setVisible(true);
         this.Practices.setTitle("Practicas");
         this.Practices.setLocationRelativeTo(null);
-        Practices.ejerecu1.setText(pmodel.ejerecu1());
-        Practices.ejerecu2.setText(pmodel.ejerecu2());
-        Practices.ejefuncion1.setText(pmodel.ejefuncion1());
-        Practices.ejefuncion2.setText(pmodel.ejefuncion2());
-        Practices.ejearitmetica1.setText(pmodel.ejearitmetica1());
-        Practices.ejearitmetica1.setText(pmodel.ejearitmetica2());
-        Practices.ejecon1.setText(pmodel.ejecond1());
-        Practices.ejecon2.setText(pmodel.ejecond2());
-        Practices.ejecaracter1.setText(pmodel.ejecaracteres1());
-        Practices.ejecaracter2.setText(pmodel.ejecaracteres2());
-        Practices.ejecadena1.setText(pmodel.ejecadenas1());
-        Practices.ejecadena2.setText(pmodel.ejecadenas2());
-        Practices.ejevector1.setText(pmodel.ejevector1());
-        Practices.ejevector2.setText(pmodel.ejevector2());
-        //Practices.ejelista1.setText(pmodel.ejelistas1());
-        //Practices.ejelista2.setText(pmodel.ejelistas2());
-        Practices.ejegrafico1.setText(pmodel.ejegrafico1());
-        Practices.ejegrafico2.setText(pmodel.ejegrafico2());
-        
+        PonerColor(Practices.ejerecu1, pmodel.ejerecu1());
+        PonerColor(Practices.ejerecu2, pmodel.ejerecu2());
+        PonerColor(Practices.ejefuncion1, pmodel.ejefuncion1());
+        PonerColor(Practices.ejefuncion2, pmodel.ejefuncion2());
+        PonerColor(Practices.ejearitmetica1, pmodel.ejearitmetica1());
+        PonerColor(Practices.ejearitmetica2, pmodel.ejearitmetica2());
+        PonerColor(Practices.ejecon1, pmodel.ejecond1());
+        PonerColor(Practices.ejecon2, pmodel.ejecond2());
+        PonerColor(Practices.ejecaracter1, pmodel.ejecaracteres1());
+        PonerColor(Practices.ejecaracter2, pmodel.ejecaracteres2());
+        PonerColor(Practices.ejecadena1, pmodel.ejecadenas1());
+        PonerColor(Practices.ejecadena2, pmodel.ejecadenas2());
+        PonerColor(Practices.ejevector1, pmodel.ejevector1());
+        PonerColor(Practices.ejevector2, pmodel.ejevector2());
+        //PonerColor(Practices.ejelista1, pmodel.ejelistas1());
+        //PonerColor(Practices.ejelista2, pmodel.ejelistas2());
+        PonerColor(Practices.ejegrafico1, pmodel.ejegrafico1());
+        PonerColor(Practices.ejegrafico2, pmodel.ejegrafico2());
         Practices.menu.addActionListener((ActionEvent e) -> {
             Practices.setVisible(false);
             menu.setVisible(true);

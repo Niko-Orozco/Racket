@@ -772,9 +772,7 @@
                     </Component>
                     <Component class="javax.swing.JButton" name="jButton2">
                       <Properties>
-                        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                          <Image iconType="3" name="/Images/botones/ayuda.png"/>
-                        </Property>
+                        <Property name="text" type="java.lang.String" value="Ayuda"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <AuxValues>
@@ -825,9 +823,7 @@
             </Container>
             <Component class="javax.swing.JButton" name="letsgo">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Images/botones/vamos alla.png"/>
-                </Property>
+                <Property name="text" type="java.lang.String" value="Vamos alla"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
               <AuxValues>
@@ -852,9 +848,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="menu">
               <Properties>
-                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-                  <Image iconType="3" name="/Images/botones/menu.png"/>
-                </Property>
+                <Property name="text" type="java.lang.String" value="Menu"/>
                 <Property name="focusable" type="boolean" value="false"/>
               </Properties>
               <AuxValues>
