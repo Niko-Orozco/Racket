@@ -214,6 +214,7 @@ public class CodeExplain extends javax.swing.JFrame {
         Ejecutar.setFocusable(false);
 
         Codigo1.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
+        Codigo1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
         Codigo1.setFocusable(false);
         jScrollPane9.setViewportView(Codigo1);
 
@@ -262,6 +263,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar5.setText("Ejecutar");
 
+        Codigo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo6.setFocusable(false);
         jScrollPane17.setViewportView(Codigo6);
 
         stop6.setText("Parar");
@@ -298,11 +301,13 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Expreciones Matematicas", jPanel9);
+        jTabbedPane1.addTab("Expresiones Matematicas", jPanel9);
 
         Ejecutar1.setText("Ejecutar");
 
         Codigo2.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
+        Codigo2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo2.setFocusable(false);
         jScrollPane11.setViewportView(Codigo2);
 
         stop2.setText("Parar");
@@ -342,6 +347,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar2.setText("Ejecutar");
 
+        Codigo3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo3.setFocusable(false);
         jScrollPane12.setViewportView(Codigo3);
 
         stop3.setText("Parar");
@@ -382,6 +389,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar9.setText("Ejecutar");
 
+        Codigo10.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo10.setFocusable(false);
         jScrollPane21.setViewportView(Codigo10);
 
         stop10.setText("Parar");
@@ -422,6 +431,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar3.setText("Ejecutar");
 
+        Codigo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo4.setFocusable(false);
         jScrollPane15.setViewportView(Codigo4);
 
         stop4.setText("Parar");
@@ -462,6 +473,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar6.setText("Ejecutar");
 
+        Codigo7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo7.setFocusable(false);
         jScrollPane18.setViewportView(Codigo7);
 
         stop7.setText("Parar");
@@ -502,6 +515,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar8.setText("Ejecutar");
 
+        Codigo9.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo9.setFocusable(false);
         jScrollPane20.setViewportView(Codigo9);
 
         stop9.setText("Parar");
@@ -542,6 +557,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar7.setText("Ejecutar");
 
+        Codigo8.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo8.setFocusable(false);
         jScrollPane19.setViewportView(Codigo8);
 
         stop8.setText("Parar");
@@ -582,6 +599,8 @@ public class CodeExplain extends javax.swing.JFrame {
 
         Ejecutar4.setText("Ejecutar");
 
+        Codigo5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        Codigo5.setFocusable(false);
         jScrollPane16.setViewportView(Codigo5);
 
         stop5.setText("Parar");

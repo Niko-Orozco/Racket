@@ -177,6 +177,7 @@ public class Controlador {
         introview.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             introview.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         introview.menu.addActionListener((ActionEvent e) -> {
@@ -211,6 +212,7 @@ public class Controlador {
         GraficView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             GraficView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         GraficView.menu.addActionListener((ActionEvent e) -> {
@@ -635,6 +637,7 @@ int linea=0; //Variable Global
         ExpresView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ExpresView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         ExpresView.menu.addActionListener((ActionEvent e) -> {
@@ -774,6 +777,7 @@ int linea=0; //Variable Global
         RecursView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             RecursView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         RecursView.menu.addActionListener((ActionEvent e) -> {
@@ -908,6 +912,7 @@ int linea=0; //Variable Global
         CaracView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             CaracView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         CaracView.menu.addActionListener((ActionEvent e) -> {
@@ -1036,6 +1041,7 @@ int linea=0; //Variable Global
         FuncView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             FuncView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         FuncView.menu.addActionListener((ActionEvent e) -> {
@@ -1153,6 +1159,7 @@ int linea=0; //Variable Global
         ListView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ListView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         ListView.menu.addActionListener((ActionEvent e) -> {
@@ -1297,6 +1304,7 @@ int linea=0; //Variable Global
         ParView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ParView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         ParView.menu.addActionListener((ActionEvent e) -> {
@@ -1423,6 +1431,7 @@ int linea=0; //Variable Global
         EstrucView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             EstrucView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         EstrucView.menu.addActionListener((ActionEvent e) -> {
@@ -1681,6 +1690,7 @@ int linea=0; //Variable Global
         VectView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             VectView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         VectView.menu.addActionListener((ActionEvent e) -> {
@@ -1716,6 +1726,7 @@ int linea=0; //Variable Global
         ConView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             ConView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         ConView.menu.addActionListener((ActionEvent e) -> {
@@ -1872,6 +1883,7 @@ int linea=0; //Variable Global
         CadView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             CadView.setVisible(false);
+            pmodel = new PracticasModel();
             practices();
         });
         CadView.menu.addActionListener((ActionEvent e) -> {

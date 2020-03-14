@@ -224,7 +224,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("¡¡¿ Que tanto has aprendido ?!!");
+        jLabel1.setText("¡¿Que tanto has aprendido?!");
         jLabel1.setFocusable(false);
         jPanel1.add(jLabel1);
         jLabel1.setBounds(270, 0, 400, 50);
@@ -243,11 +243,11 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel27.add(op9);
-        op9.setBounds(240, 290, 120, 29);
+        op9.setBounds(240, 290, 120, 23);
 
         op10.setText("970");
         jPanel27.add(op10);
-        op10.setBounds(240, 320, 120, 29);
+        op10.setBounds(240, 320, 120, 23);
 
         op11.setText("870");
         op11.addActionListener(new java.awt.event.ActionListener() {
@@ -256,11 +256,11 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel27.add(op11);
-        op11.setBounds(70, 290, 100, 29);
+        op11.setBounds(70, 290, 100, 23);
 
         op12.setText("879");
         jPanel27.add(op12);
-        op12.setBounds(70, 320, 120, 29);
+        op12.setBounds(70, 320, 120, 23);
 
         jScrollPane12.setViewportView(ejefuncion1);
 
@@ -278,19 +278,19 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel28.add(op13);
-        op13.setBounds(240, 320, 110, 29);
+        op13.setBounds(240, 320, 110, 23);
 
         op14.setText("213");
         jPanel28.add(op14);
-        op14.setBounds(240, 290, 200, 29);
+        op14.setBounds(240, 290, 200, 23);
 
         op15.setText("1212");
         jPanel28.add(op15);
-        op15.setBounds(70, 290, 110, 29);
+        op15.setBounds(70, 290, 110, 23);
 
         op16.setText("32133");
         jPanel28.add(op16);
-        op16.setBounds(70, 320, 110, 29);
+        op16.setBounds(70, 320, 110, 23);
 
         jScrollPane16.setViewportView(ejefuncion2);
 
@@ -355,19 +355,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op2.setText("342132");
         jPanel25.add(op2);
-        op2.setBounds(240, 290, 120, 29);
+        op2.setBounds(240, 290, 120, 23);
 
         op4.setText("17000000");
         jPanel25.add(op4);
-        op4.setBounds(240, 320, 120, 29);
+        op4.setBounds(240, 320, 120, 23);
 
         op1.setText("170000");
         jPanel25.add(op1);
-        op1.setBounds(70, 290, 100, 29);
+        op1.setBounds(70, 290, 100, 23);
 
         op3.setText("1700000");
         jPanel25.add(op3);
-        op3.setBounds(70, 320, 120, 29);
+        op3.setBounds(70, 320, 120, 23);
 
         jScrollPane17.setViewportView(ejearitmetica1);
 
@@ -384,19 +384,19 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel26.add(op8);
-        op8.setBounds(240, 320, 110, 29);
+        op8.setBounds(240, 320, 110, 23);
 
         op7.setText("15.76");
         jPanel26.add(op7);
-        op7.setBounds(240, 290, 200, 29);
+        op7.setBounds(240, 290, 200, 23);
 
         op5.setText("14.183");
         jPanel26.add(op5);
-        op5.setBounds(70, 290, 110, 29);
+        op5.setBounds(70, 290, 110, 23);
 
         op6.setText("13.45");
         jPanel26.add(op6);
-        op6.setBounds(70, 320, 110, 29);
+        op6.setBounds(70, 320, 110, 23);
 
         jScrollPane18.setViewportView(ejearitmetica2);
 
@@ -450,7 +450,7 @@ public class Practicas extends javax.swing.JFrame {
             .addComponent(jScrollPane3)
         );
 
-        jTabbedPane1.addTab("Expreciones Aritmeticas", jPanel3);
+        jTabbedPane1.addTab("Expresiones Aritmeticas", jPanel3);
 
         jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane4.setToolTipText("");
@@ -463,11 +463,11 @@ public class Practicas extends javax.swing.JFrame {
 
         t1.setText("el primero es mayor que el segundo");
         jPanel22.add(t1);
-        t1.setBounds(20, 310, 320, 29);
+        t1.setBounds(20, 310, 320, 23);
 
         t2.setText("El segundo numero es mayor");
         jPanel22.add(t2);
-        t2.setBounds(20, 350, 290, 29);
+        t2.setBounds(20, 350, 290, 23);
 
         jScrollPane19.setViewportView(ejecon1);
 
@@ -479,15 +479,15 @@ public class Practicas extends javax.swing.JFrame {
 
         r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(r1);
-        r1.setBounds(20, 380, 460, 29);
+        r1.setBounds(20, 380, 460, 23);
 
         r5.setText("La opcion no es valida");
         jPanel23.add(r5);
-        r5.setBounds(20, 320, 200, 29);
+        r5.setBounds(20, 320, 200, 23);
 
         r6.setText("reproducir El CAPITAL");
         jPanel23.add(r6);
-        r6.setBounds(20, 350, 200, 29);
+        r6.setBounds(20, 350, 200, 23);
 
         jScrollPane20.setViewportView(ejecon2);
 
@@ -549,19 +549,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op17.setText("11");
         jPanel29.add(op17);
-        op17.setBounds(240, 290, 120, 29);
+        op17.setBounds(240, 290, 120, 23);
 
         op18.setText("32");
         jPanel29.add(op18);
-        op18.setBounds(240, 320, 120, 29);
+        op18.setBounds(240, 320, 120, 23);
 
         op19.setText("13");
         jPanel29.add(op19);
-        op19.setBounds(70, 290, 100, 29);
+        op19.setBounds(70, 290, 100, 23);
 
         op20.setText("17");
         jPanel29.add(op20);
-        op20.setBounds(70, 320, 120, 29);
+        op20.setBounds(70, 320, 120, 23);
 
         jScrollPane15.setViewportView(ejerecu1);
 
@@ -573,11 +573,11 @@ public class Practicas extends javax.swing.JFrame {
 
         op23.setText("(3 5 7 11 13 17 19 23 29 31)");
         jPanel30.add(op23);
-        op23.setBounds(70, 290, 260, 29);
+        op23.setBounds(70, 290, 260, 23);
 
         op24.setText("(3 5 7 9 11 13 17 21 23 25)");
         jPanel30.add(op24);
-        op24.setBounds(70, 320, 280, 29);
+        op24.setBounds(70, 320, 280, 23);
 
         jScrollPane11.setViewportView(ejerecu2);
 
@@ -650,19 +650,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op41.setText("#\\7");
         jPanel37.add(op41);
-        op41.setBounds(240, 290, 120, 29);
+        op41.setBounds(240, 290, 120, 23);
 
         op42.setText("7");
         jPanel37.add(op42);
-        op42.setBounds(240, 320, 120, 29);
+        op42.setBounds(240, 320, 120, 23);
 
         op43.setText("#\\t");
         jPanel37.add(op43);
-        op43.setBounds(70, 290, 100, 29);
+        op43.setBounds(70, 290, 100, 23);
 
         op44.setText("#\\f");
         jPanel37.add(op44);
-        op44.setBounds(70, 320, 120, 29);
+        op44.setBounds(70, 320, 120, 23);
 
         jScrollPane21.setViewportView(ejecaracter1);
 
@@ -679,19 +679,19 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel38.add(op45);
-        op45.setBounds(240, 320, 110, 29);
+        op45.setBounds(240, 320, 110, 23);
 
         op46.setText("#\\e");
         jPanel38.add(op46);
-        op46.setBounds(240, 290, 200, 29);
+        op46.setBounds(240, 290, 200, 23);
 
         op47.setText("es vocal");
         jPanel38.add(op47);
-        op47.setBounds(70, 290, 110, 29);
+        op47.setBounds(70, 290, 110, 23);
 
         op48.setText("no es vocal");
         jPanel38.add(op48);
-        op48.setBounds(70, 320, 140, 29);
+        op48.setBounds(70, 320, 140, 23);
 
         jScrollPane22.setViewportView(ejecaracter2);
 
@@ -750,19 +750,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op21.setText("no es palindrome");
         jPanel35.add(op21);
-        op21.setBounds(240, 290, 170, 29);
+        op21.setBounds(240, 290, 170, 23);
 
         op26.setText("es vocal");
         jPanel35.add(op26);
-        op26.setBounds(240, 320, 150, 29);
+        op26.setBounds(240, 320, 150, 23);
 
         op35.setText("es palindrome");
         jPanel35.add(op35);
-        op35.setBounds(70, 290, 150, 29);
+        op35.setBounds(70, 290, 150, 23);
 
         op36.setText("error");
         jPanel35.add(op36);
-        op36.setBounds(70, 320, 120, 29);
+        op36.setBounds(70, 320, 120, 23);
 
         jScrollPane23.setViewportView(ejecadena1);
 
@@ -779,19 +779,19 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel36.add(op37);
-        op37.setBounds(240, 320, 140, 29);
+        op37.setBounds(240, 320, 140, 23);
 
         op38.setText("ES CADENA");
         jPanel36.add(op38);
-        op38.setBounds(240, 290, 200, 29);
+        op38.setBounds(240, 290, 200, 23);
 
         op39.setText("ARIEREP");
         jPanel36.add(op39);
-        op39.setBounds(70, 290, 110, 29);
+        op39.setBounds(70, 290, 110, 23);
 
         op40.setText("PEREIRA");
         jPanel36.add(op40);
-        op40.setBounds(70, 320, 110, 29);
+        op40.setBounds(70, 320, 110, 23);
 
         jScrollPane24.setViewportView(ejecadena2);
 
@@ -854,19 +854,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op29.setText("No esta ordenado");
         jPanel33.add(op29);
-        op29.setBounds(240, 290, 160, 29);
+        op29.setBounds(240, 290, 160, 23);
 
         op30.setText("(4 5 6 9 8)");
         jPanel33.add(op30);
-        op30.setBounds(240, 320, 120, 29);
+        op30.setBounds(240, 320, 120, 23);
 
         op31.setText("esta ordenado ");
         jPanel33.add(op31);
-        op31.setBounds(70, 290, 160, 29);
+        op31.setBounds(70, 290, 160, 23);
 
         op32.setText("(4 5 6 8 9)");
         jPanel33.add(op32);
-        op32.setBounds(70, 320, 120, 29);
+        op32.setBounds(70, 320, 120, 23);
 
         jScrollPane25.setViewportView(ejevector1);
 
@@ -878,11 +878,11 @@ public class Practicas extends javax.swing.JFrame {
 
         op33.setText("17 16 15 14 13 12 11 10");
         jPanel34.add(op33);
-        op33.setBounds(70, 290, 260, 29);
+        op33.setBounds(70, 290, 260, 23);
 
         op34.setText("10 11 12 13 14 15 16 17 ");
         jPanel34.add(op34);
-        op34.setBounds(70, 320, 280, 29);
+        op34.setBounds(70, 320, 280, 23);
 
         jScrollPane26.setViewportView(ejevector2);
 
@@ -960,19 +960,19 @@ public class Practicas extends javax.swing.JFrame {
 
         op49.setText("532205493");
         jPanel39.add(op49);
-        op49.setBounds(240, 290, 120, 29);
+        op49.setBounds(240, 290, 120, 23);
 
         op50.setText("543201293");
         jPanel39.add(op50);
-        op50.setBounds(240, 320, 120, 29);
+        op50.setBounds(240, 320, 120, 23);
 
         op51.setText("398102345");
         jPanel39.add(op51);
-        op51.setBounds(70, 290, 120, 29);
+        op51.setBounds(70, 290, 120, 23);
 
         op52.setText("543261293");
         jPanel39.add(op52);
-        op52.setBounds(70, 320, 120, 29);
+        op52.setBounds(70, 320, 120, 23);
 
         jPanel41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel41.setLayout(null);
@@ -982,15 +982,15 @@ public class Practicas extends javax.swing.JFrame {
         jPanel41.add(jLabel48);
         jLabel48.setBounds(60, 10, 370, 270);
         jPanel41.add(r14);
-        r14.setBounds(250, 180, 29, 29);
+        r14.setBounds(250, 180, 21, 21);
 
         op54.setText("Se llena con -1");
         jPanel41.add(op54);
-        op54.setBounds(20, 300, 200, 29);
+        op54.setBounds(20, 300, 200, 23);
 
         op55.setText("Recibe una lista infinita");
         jPanel41.add(op55);
-        op55.setBounds(20, 330, 210, 29);
+        op55.setBounds(20, 330, 210, 23);
 
         op56.setText("Imprime en pantalla la lista cuando se ingresa -1");
         op56.addActionListener(new java.awt.event.ActionListener() {
@@ -999,7 +999,7 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel41.add(op56);
-        op56.setBounds(20, 360, 410, 29);
+        op56.setBounds(20, 360, 410, 23);
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1206,7 +1206,7 @@ public class Practicas extends javax.swing.JFrame {
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Modo Grafico", jPanel11);
+        jTabbedPane1.addTab("Modo Gráfico", jPanel11);
 
         jPanel1.add(jTabbedPane1);
         jTabbedPane1.setBounds(20, 80, 980, 490);
@@ -1219,12 +1219,12 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(menu);
-        menu.setBounds(10, 590, 80, 29);
+        menu.setBounds(10, 590, 80, 23);
 
-        jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas..  ¿Podras  lograrlo?");
+        jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas.  ¿Podrás  lograrlo?");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 20);
+        jLabel3.setBounds(10, 60, 480, 14);
 
         jButton1.setText("Mi puntaje");
         jButton1.setFocusable(false);
@@ -1234,7 +1234,7 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(860, 570, 130, 29);
+        jButton1.setBounds(860, 570, 130, 23);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
