@@ -143,13 +143,13 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es Dr.Racket?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es Racket?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel8">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es la programacion funcional?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es la programaci&#xf3;n funcional?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -177,7 +177,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel13">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Paradigmas de la programacion"/>
+                    <Property name="text" type="java.lang.String" value="Paradigmas de la programaci&#xf3;n"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -515,7 +515,7 @@
                           <SubComponents>
                             <Component class="javax.swing.JLabel" name="jLabel10">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Tipos de notacion"/>
+                                <Property name="text" type="java.lang.String" value="Tipos de notaci&#xf3;n"/>
                                 <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                             </Component>
@@ -698,7 +698,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Sylfaen" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Introduccion"/>
+            <Property name="text" type="java.lang.String" value="Introducci&#xf3;n"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>

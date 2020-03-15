@@ -115,9 +115,9 @@ public class Condicionales {
         data =  " ;Ejemplo de if con función de suma\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función encargada de sumar los números\n\n" +
+                ";definimos la función encargada de sumar los números.\n\n" +
                 "  (define (Suma N1 N2)\n" +
                 "        (+ N1 N2)\n" +
                 "  )\n" +
@@ -135,12 +135,12 @@ public class Condicionales {
     
     public String EjeIfbegin(){
         String data;
-        data =  " ;Ejemplo de if con función begin y anidación\n" +
+        data =  " ;Ejemplo de if con función begin y anidación.\n" +
                 " \n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar.\n\n" +
                 "  (define (MayorQ10? N1 N2)\n" +
                 "       (if ( >  (+  N1 N2) 10)\n" +
                 "             (begin\n" +
@@ -166,12 +166,12 @@ public class Condicionales {
     
     public String EjeCond(){
         String data;
-        data =  " ;Ejemplo de cond\n" +
+        data =  " ;Ejemplo de cond.\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos dos argumentos los datos a ingresar.\n\n" +
                 "(define(MayorQ10? N1 N2)\n" +
                 "   (cond\n" +
                 "          [(>(+N1 N2)10)(begin(display(+ N1 N2))(display “Es mayor que 10”))]\n" +
@@ -185,12 +185,12 @@ public class Condicionales {
     
     public String EjeCondbegin(){
        String data;
-       data =   " ;Ejemplo de cond con else\n" +
+       data =   " ;Ejemplo de cond con else.\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números\n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar.\n\n" +
                 " (define(MayorQ10? N1 N2)\n" +
                 "  (cond\n" +
                 "        [(>(+ N1 N2)10)(begin (display(+ N1 N2))(display “Es Mayor que 10”))]\n" +
@@ -204,10 +204,9 @@ public class Condicionales {
     
     public String Ejemplo5(){
        String data;
-       data = ";proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
-            ";mayor(mostrar el numero mayor)\n" +
+       data = ";Proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
+            ";mayor[mostrar el numero mayor].\n" +
             "\n" +
-            ";plantilla\n\n\n" +
             "(define (num_mayor n1 n2 n3)\n" +
             "    (cond\n" +
             "        ((and (> n1 n2) (> n1 n3) ) \"n1 es mayor\" )\n" +

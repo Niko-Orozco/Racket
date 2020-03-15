@@ -18,7 +18,7 @@ public class Funciones {
     public String funciones1(){
         String data =   "Las funciones primitivas son aquellas que ya están definidas en el lenguaje\n" +
                         "de programación, por ejemplo la función de suma representada por \"+\"  y la\n" +
-                        "función \"display\", la cual nos sirve para mostrar el texto por pantalla,\n" +
+                        "función \"display\", la cual nos sirve para mostrar el texto por pantalla.\n" +
                         "\n" +
                         "En Racket para el uso de las funciones es necesario agruparlas por medio\n" +
                         "de  paréntesis \"(  )\",  bien  sean  tanto  funciones  propias,  como  funciones\n" +
@@ -78,7 +78,7 @@ public class Funciones {
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Argumento\n" +
-                        "Valores que son enviados desde un metodo hacia una funcion\n" +
+                        "Valores que son enviados desde un método hacia una función\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "Ejemplo                   Salida       :\n" +
@@ -89,7 +89,7 @@ public class Funciones {
     }
     
     public String Ejefunciones1(){
-        String data =   ";crear un programa en Racket tal que eleve un numero a una potencia, luego ese mismo \n" +
+        String data =   ";Crear un programa en Racket tal que eleve un número a una potencia, luego ese mismo \n" +
                         ";número mostrarlo por pantalla\n\n" +
                         "\n" +
                         "(define (MostrarPotencia n)\n" +
@@ -101,7 +101,7 @@ public class Funciones {
     }
     
     public String Ejefunciones2(){
-        String data =   ";crear un programa en Racket tal que reciba dos números por teclado y los muestre por\n" +
+        String data =   ";Crear un programa en Racket tal que reciba dos números por teclado y los muestre por\n" +
                         ";pantalla, muestre la suma de los números y su multiplicación\n" +
                         "\n" +
                         ";Creamos la función con dos argumentos\n\n" +
@@ -120,7 +120,7 @@ public class Funciones {
     }
     
     public String Ejefunciones3(){
-        String data =   ";crear un programa en Racket tal que mediante la función displayln mostrar los días de la\n" +
+        String data =   ";Crear un programa en Racket tal que mediante la función displayln mostrar los días de la\n" +
                         ";semana\n" +
                         ";la función displayln nos sirve para dar un salto de línea es decir, es como dar un enter\n" +
                         "\n" +

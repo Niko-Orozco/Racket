@@ -113,7 +113,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una expresion aritmetica?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una expresi&#xf3;n aritmetica?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -1151,7 +1151,7 @@
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel10">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Calculadora con operasiones basicas"/>
+                                <Property name="text" type="java.lang.String" value="Calculadora con operasiones b&#xe1;sicas"/>
                                 <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <Constraints>
@@ -1194,7 +1194,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Expresiones Matematicas basicas"/>
+                        <Property name="text" type="java.lang.String" value="Expresiones matem&#xe1;ticas b&#xe1;sicas"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
@@ -1257,7 +1257,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Sylfaen" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Expresiones matematicas"/>
+            <Property name="text" type="java.lang.String" value="Expresiones matem&#xe1;ticas"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>

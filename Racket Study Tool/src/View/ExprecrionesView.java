@@ -45,6 +45,18 @@ public class ExprecrionesView extends javax.swing.JFrame {
         
         numerolinea = new NumeroLinea(code2);
         jScrollPane9.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code3);
+        jScrollPane11.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane14.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane16.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code6);
+        jScrollPane18.setRowHeaderView(numerolinea);
     }
 
     /**
@@ -163,7 +175,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(41, 299, 344, 22);
 
-        jLabel4.setText("¿Que es una expresion aritmetica?");
+        jLabel4.setText("¿Qué es una expresión aritmetica?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(41, 120, 355, 22);
@@ -612,7 +624,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel5.add(dividido);
         dividido.setBounds(80, 120, 50, 40);
 
-        jLabel10.setText("Calculadora con operasiones basicas");
+        jLabel10.setText("Calculadora con operasiones básicas");
         jLabel10.setFocusable(false);
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
@@ -627,7 +639,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jScrollPane7.setViewportView(jPanel5);
 
-        jLabel15.setText("Expresiones Matematicas basicas");
+        jLabel15.setText("Expresiones matemáticas básicas");
         jLabel15.setFocusable(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -721,7 +733,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
-        jLabel2.setText("Expresiones matematicas");
+        jLabel2.setText("Expresiones matemáticas");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 20, 250, 30);

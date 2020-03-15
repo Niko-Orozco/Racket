@@ -688,7 +688,7 @@ int linea=0; //Variable Global
             case 1: try {
                         n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese radio interior "));
                         n2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese radio exterior "));
-                        respuesta = "Radio Interoir: "+ n1 + "\nRadio exterior: " + n2 +"\nArea del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
+                        respuesta = "Radio Interior: "+ n1 + "\nRadio exterior: " + n2 +"\nArea del anillo: "+ ((Math.PI *(pow (n2, 2))) - (Math.PI *(pow (n1, 2))));
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
@@ -1064,13 +1064,13 @@ int linea=0; //Variable Global
             case 2: try {
                         nes2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
                         nes3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
-                        respuesta = nes2 + " "+nes3 +" " + nes2+nes3 + " " + nes2*nes3;
+                        respuesta = "Número 1: " + nes2 + "\nNúmero 2: " +nes3 +"\nSuma: " + (nes2+nes3) + "\nMultiplicación: " + nes2*nes3;
                      } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
                 break;   
             case 3: try {
-                        respuesta = "Lunes\n"+"Martes\n"+"Miércoles\n"+"Jueves\n"+"Viernes\n";
+                        respuesta = "Lunes\n"+"Martes\n"+"Miércoles\n"+"Jueves\n"+"Viernes\n"+"Sábado\n"+"Domingo\n";
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
@@ -1802,7 +1802,7 @@ int linea=0; //Variable Global
                         } else {
                             respuesta = "el mayor es: " + n3 ;
                         }
-                        
+                        ConView.verinfo5.setText(respuesta);
                      } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
@@ -1810,6 +1810,7 @@ int linea=0; //Variable Global
             case 6:  try {
                         saludo = (String)(JOptionPane.showInputDialog("Saludame"));
                         respuesta = (saludo.equals("Hola"))? "hola , gusto de verte !":"perdón?";
+                        ConView.verinfo6.setText(respuesta);
                      } catch (HeadlessException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }

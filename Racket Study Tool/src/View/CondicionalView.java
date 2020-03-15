@@ -149,7 +149,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel3.setText("Boleanos y Relaciones");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es una condicional?");
+        jLabel4.setText("¿Qué es una condicional?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("Condicional IF");
@@ -570,7 +570,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel8.add(jLabel9);
         jLabel9.setBounds(0, 0, 240, 230);
 
-        jLabel10.setText("Reprecentacion grafica de un condicional");
+        jLabel10.setText("Reprecentación gráfica de un condicional");
         jLabel10.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");

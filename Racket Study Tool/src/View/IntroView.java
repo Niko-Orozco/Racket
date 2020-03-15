@@ -127,10 +127,10 @@ public class IntroView extends javax.swing.JFrame {
         intro5.setFocusable(false);
         jScrollPane4.setViewportView(intro5);
 
-        jLabel7.setText("¿Que es Dr.Racket?");
+        jLabel7.setText("¿Qué es Racket?");
         jLabel7.setFocusable(false);
 
-        jLabel8.setText("¿Que es la programacion funcional?");
+        jLabel8.setText("¿Qué es la programación funcional?");
         jLabel8.setFocusable(false);
 
         intro6.setColumns(20);
@@ -139,7 +139,7 @@ public class IntroView extends javax.swing.JFrame {
         intro6.setFocusable(false);
         jScrollPane9.setViewportView(intro6);
 
-        jLabel13.setText("Paradigmas de la programacion");
+        jLabel13.setText("Paradigmas de la programación");
         jLabel13.setFocusable(false);
 
         intro7.setColumns(20);
@@ -326,7 +326,7 @@ public class IntroView extends javax.swing.JFrame {
         jInternalFrame2.setFocusable(false);
         jInternalFrame2.setVisible(true);
 
-        jLabel10.setText("Tipos de notacion");
+        jLabel10.setText("Tipos de notación");
         jLabel10.setFocusable(false);
 
         javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
@@ -428,7 +428,7 @@ public class IntroView extends javax.swing.JFrame {
         menu.setBounds(1160, 690, 73, 23);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
-        jLabel18.setText("Introduccion");
+        jLabel18.setText("Introducción");
         jLabel18.setFocusable(false);
         jPanel6.add(jLabel18);
         jLabel18.setBounds(10, 20, 250, 30);

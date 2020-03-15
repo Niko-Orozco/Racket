@@ -186,7 +186,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una condicional?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una condicional?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -1108,7 +1108,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion grafica de un condicional"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentaci&#xf3;n gr&#xe1;fica de un condicional"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
