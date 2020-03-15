@@ -1826,8 +1826,8 @@ int linea=0; //Variable Global
         PonerColor(Practices.ejecadena2, pmodel.ejecadenas2());
         PonerColor(Practices.ejevector1, pmodel.ejevector1());
         PonerColor(Practices.ejevector2, pmodel.ejevector2());
-        //PonerColor(Practices.ejelista1, pmodel.ejelistas1());
-        //PonerColor(Practices.ejelista2, pmodel.ejelistas2());
+        PonerColor(Practices.ejelista1, pmodel.ejelistas1());
+        PonerColor(Practices.ejelista2, pmodel.ejelistas2());
         PonerColor(Practices.ejegrafico1, pmodel.ejegrafico1());
         PonerColor(Practices.ejegrafico2, pmodel.ejegrafico2());
         respuestas();
