@@ -12,6 +12,13 @@
     </Component>
     <Component class="javax.swing.ButtonGroup" name="Groupfunciones2">
     </Component>
+    <Component class="javax.swing.ButtonGroup" name="Grouparit1">
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="Grouparit2">
+    </Component>
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
@@ -202,7 +209,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="fun1op3">
+                            <Component class="javax.swing.JRadioButton" name="fun9op3">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="11520030.0"/>
                               </Properties>
@@ -430,7 +437,7 @@
                           <SubComponents>
                             <Component class="javax.swing.JRadioButton" name="fun3op2">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="342132"/>
+                                <Property name="text" type="java.lang.String" value="830"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -443,7 +450,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun3op4">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="17000000"/>
+                                <Property name="text" type="java.lang.String" value="870"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -456,7 +463,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun3op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="170000"/>
+                                <Property name="text" type="java.lang.String" value="970"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -469,7 +476,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun3op3">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="1700000"/>
+                                <Property name="text" type="java.lang.String" value="890"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1161,7 +1168,7 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op41">
+                            <Component class="javax.swing.JRadioButton" name="fun9op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="#\u005c7" containsInvalidXMLChars="true"/>
                               </Properties>
@@ -1174,7 +1181,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op42">
+                            <Component class="javax.swing.JRadioButton" name="fun9op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="7"/>
                               </Properties>
@@ -1187,7 +1194,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op43">
+                            <Component class="javax.swing.JRadioButton" name="fun9op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="#\u005ct" containsInvalidXMLChars="true"/>
                               </Properties>
@@ -1247,12 +1254,12 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op45">
+                            <Component class="javax.swing.JRadioButton" name="fun10op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="e"/>
                               </Properties>
                               <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="op45ActionPerformed"/>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun10op4ActionPerformed"/>
                               </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1263,7 +1270,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op46">
+                            <Component class="javax.swing.JRadioButton" name="fun10op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="#\u005ce" containsInvalidXMLChars="true"/>
                               </Properties>
@@ -1276,7 +1283,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op47">
+                            <Component class="javax.swing.JRadioButton" name="fun10op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="es vocal"/>
                               </Properties>
@@ -1289,7 +1296,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op48">
+                            <Component class="javax.swing.JRadioButton" name="fun10op3">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="no es vocal"/>
                               </Properties>
@@ -1410,7 +1417,7 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op21">
+                            <Component class="javax.swing.JRadioButton" name="fun11op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="no es palindrome"/>
                               </Properties>
@@ -1423,7 +1430,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op26">
+                            <Component class="javax.swing.JRadioButton" name="fun11op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="es vocal"/>
                               </Properties>
@@ -1436,7 +1443,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op35">
+                            <Component class="javax.swing.JRadioButton" name="fun11op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="es palindrome"/>
                               </Properties>
@@ -1449,7 +1456,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op36">
+                            <Component class="javax.swing.JRadioButton" name="fun11op3">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="error"/>
                               </Properties>
@@ -1496,12 +1503,12 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op37">
+                            <Component class="javax.swing.JRadioButton" name="fun12op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="ES CARACTER"/>
                               </Properties>
                               <Events>
-                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="op37ActionPerformed"/>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun12op4ActionPerformed"/>
                               </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1512,7 +1519,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op38">
+                            <Component class="javax.swing.JRadioButton" name="fun12op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="ES CADENA"/>
                               </Properties>
@@ -1525,7 +1532,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op39">
+                            <Component class="javax.swing.JRadioButton" name="fun12op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="ARIEREP"/>
                               </Properties>
@@ -1538,7 +1545,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op40">
+                            <Component class="javax.swing.JRadioButton" name="fun12op3">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="PEREIRA"/>
                               </Properties>
@@ -1682,7 +1689,7 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op29">
+                            <Component class="javax.swing.JRadioButton" name="fun13op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="No esta ordenado"/>
                               </Properties>
@@ -1695,7 +1702,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op30">
+                            <Component class="javax.swing.JRadioButton" name="fun13op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="(4 5 6 9 8)"/>
                               </Properties>
@@ -1708,7 +1715,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op31">
+                            <Component class="javax.swing.JRadioButton" name="fun13op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="esta ordenado "/>
                               </Properties>
@@ -1721,7 +1728,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op32">
+                            <Component class="javax.swing.JRadioButton" name="fun15op3">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="(4 5 6 8 9)"/>
                               </Properties>
@@ -1768,7 +1775,7 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op33">
+                            <Component class="javax.swing.JRadioButton" name="fun14op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="17 16 15 14 13 12 11 10"/>
                               </Properties>
@@ -1781,7 +1788,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op34">
+                            <Component class="javax.swing.JRadioButton" name="fun14op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="10 11 12 13 14 15 16 17 "/>
                               </Properties>
@@ -1936,7 +1943,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op49">
+                            <Component class="javax.swing.JRadioButton" name="fun15op2">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="532205493"/>
                               </Properties>
@@ -1949,7 +1956,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op50">
+                            <Component class="javax.swing.JRadioButton" name="fun15op4">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="543201293"/>
                               </Properties>
@@ -1962,7 +1969,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op51">
+                            <Component class="javax.swing.JRadioButton" name="fun15op1">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="398102345"/>
                               </Properties>
@@ -2347,14 +2354,14 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="jRadioButton1">
+                            <Component class="javax.swing.JRadioButton" name="fun17op1">
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                                   <AbsoluteConstraints x="20" y="311" width="30" height="100"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="jRadioButton2">
+                            <Component class="javax.swing.JRadioButton" name="fun17op2">
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                                   <AbsoluteConstraints x="230" y="311" width="30" height="90"/>
@@ -2395,7 +2402,7 @@
                             <Property name="useNullLayout" type="boolean" value="true"/>
                           </Layout>
                           <SubComponents>
-                            <Component class="javax.swing.JRadioButton" name="op27">
+                            <Component class="javax.swing.JRadioButton" name="fun18op1">
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -2405,7 +2412,7 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JRadioButton" name="op28">
+                            <Component class="javax.swing.JRadioButton" name="fun18op2">
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
