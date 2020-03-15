@@ -35,6 +35,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
         Controller = new Controlador();
         Codex = new codex();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
+        sumas1.setText("");
+        multiplicaciones.setText("");
+        diviciones.setText("");
+        restas.setText("");
         
         numerolinea = new NumeroLinea(code);
         jScrollPane4.setRowHeaderView(numerolinea);
@@ -123,7 +127,10 @@ public class ExprecrionesView extends javax.swing.JFrame {
         por = new javax.swing.JButton();
         dividido = new javax.swing.JButton();
         jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
+        diviciones = new javax.swing.JLabel();
+        sumas1 = new javax.swing.JLabel();
+        restas = new javax.swing.JLabel();
+        multiplicaciones = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         PasoPaso = new javax.swing.JButton();
         letsgo = new javax.swing.JButton();
@@ -156,7 +163,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(41, 299, 344, 22);
 
-        jLabel4.setText("¿Que es una exprecion aritmetica?");
+        jLabel4.setText("¿Que es una expresion aritmetica?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(41, 120, 355, 22);
@@ -605,18 +612,22 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel5.add(dividido);
         dividido.setBounds(80, 120, 50, 40);
 
-        jLabel10.setText("Calculadora con operaciones basicas");
+        jLabel10.setText("Calculadora con operasiones basicas");
         jLabel10.setFocusable(false);
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
-
-        jLabel11.setText("(* 3 4  )");
-        jPanel5.add(jLabel11);
-        jLabel11.setBounds(180, 80, 80, 30);
+        jPanel5.add(diviciones);
+        diviciones.setBounds(170, 100, 80, 20);
+        jPanel5.add(sumas1);
+        sumas1.setBounds(170, 100, 80, 20);
+        jPanel5.add(restas);
+        restas.setBounds(170, 100, 80, 20);
+        jPanel5.add(multiplicaciones);
+        multiplicaciones.setBounds(170, 100, 80, 20);
 
         jScrollPane7.setViewportView(jPanel5);
 
-        jLabel15.setText("Expreciones Matematicas basicas");
+        jLabel15.setText("Expresiones Matematicas basicas");
         jLabel15.setFocusable(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -710,7 +721,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         menu.setBounds(1040, 700, 73, 23);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
-        jLabel2.setText("Expreciones matematicas");
+        jLabel2.setText("Expresiones matematicas");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 20, 250, 30);
@@ -744,7 +755,12 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
     private void masActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_masActionPerformed
         try{
+            restas.setText("");
+            multiplicaciones.setText("");
+            diviciones.setText("");
             String res = ""+(Integer.parseInt(num1.getText()) + Integer.parseInt(num2.getText()));
+            String data = "( +  " + num1.getText()+ "  " + num2.getText() + " )";
+            sumas1.setText(data);
             resultado.setText(res);
         }catch(NumberFormatException e){
             
@@ -754,7 +770,12 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
     private void porActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_porActionPerformed
         try{
+            restas.setText("");
+            sumas1.setText("");
+            diviciones.setText("");
             String res = ""+(Integer.parseInt(num1.getText()) * Integer.parseInt(num2.getText()));
+            String data = "( *  " + num1.getText()+ "  " + num2.getText() + " )";
+            multiplicaciones.setText(data);
             resultado.setText(res);
         }catch(NumberFormatException e){
             
@@ -764,7 +785,12 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
     private void menosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menosActionPerformed
         try{
+            sumas1.setText("");
+            multiplicaciones.setText("");
+            diviciones.setText("");
             String res = ""+(Integer.parseInt(num1.getText()) - Integer.parseInt(num2.getText()));
+            String data = "( -  " + num1.getText()+ "  " + num2.getText() + " )";
+            restas.setText(data);
             resultado.setText(res);
         }catch(NumberFormatException e){
             
@@ -774,7 +800,12 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
     private void divididoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_divididoActionPerformed
         try{
+            sumas1.setText("");
+            multiplicaciones.setText("");
+            restas.setText("");
             String res = ""+(Float.parseFloat(num1.getText()) / Float.parseFloat(num2.getText()));
+            String data = "( /  " + num1.getText()+ "  " + num2.getText() + " )";
+            diviciones.setText(data);
             resultado.setText(res);
         }catch(NumberFormatException e){
             
@@ -903,11 +934,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JTextPane code4;
     public javax.swing.JTextPane code5;
     public javax.swing.JTextPane code6;
+    private javax.swing.JLabel diviciones;
     public javax.swing.JButton dividido;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel18;
@@ -957,9 +988,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JButton mas;
     public javax.swing.JButton menos;
     public javax.swing.JButton menu;
+    private javax.swing.JLabel multiplicaciones;
     public javax.swing.JTextField num1;
     public javax.swing.JTextField num2;
     public javax.swing.JButton por;
+    private javax.swing.JLabel restas;
     public javax.swing.JTextField resultado;
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
@@ -967,6 +1000,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
     public javax.swing.JButton run4;
     public javax.swing.JButton run5;
     public javax.swing.JButton run6;
+    private javax.swing.JLabel sumas1;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;

@@ -113,7 +113,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una exprecion aritmetica?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una expresion aritmetica?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -1151,7 +1151,7 @@
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel10">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Calculadora con operaciones basicas"/>
+                                <Property name="text" type="java.lang.String" value="Calculadora con operasiones basicas"/>
                                 <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <Constraints>
@@ -1160,13 +1160,31 @@
                                 </Constraint>
                               </Constraints>
                             </Component>
-                            <Component class="javax.swing.JLabel" name="jLabel11">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="(* 3 4  )"/>
-                              </Properties>
+                            <Component class="javax.swing.JLabel" name="diviciones">
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="180" y="80" width="80" height="30"/>
+                                  <AbsoluteConstraints x="170" y="100" width="80" height="20"/>
+                                </Constraint>
+                              </Constraints>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="sumas1">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                                  <AbsoluteConstraints x="170" y="100" width="80" height="20"/>
+                                </Constraint>
+                              </Constraints>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="restas">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                                  <AbsoluteConstraints x="170" y="100" width="80" height="20"/>
+                                </Constraint>
+                              </Constraints>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="multiplicaciones">
+                              <Constraints>
+                                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                                  <AbsoluteConstraints x="170" y="100" width="80" height="20"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
@@ -1176,7 +1194,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Expreciones Matematicas basicas"/>
+                        <Property name="text" type="java.lang.String" value="Expresiones Matematicas basicas"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
@@ -1239,7 +1257,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Sylfaen" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Expreciones matematicas"/>
+            <Property name="text" type="java.lang.String" value="Expresiones matematicas"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>

@@ -37,6 +37,15 @@ public class Estructuras extends javax.swing.JFrame {
         
         numerolinea = new NumeroLinea(code3);
         jScrollPane12.setRowHeaderView(numerolinea);
+               
+        numerolinea = new NumeroLinea(code4);
+        jScrollPane15.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane17.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code6);
+        jScrollPane19.setRowHeaderView(numerolinea);
     }
 
     /**
@@ -239,6 +248,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -292,6 +302,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane12.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -345,6 +356,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane15.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -398,6 +410,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane17.setViewportView(code5);
 
         verinfo5.setColumns(20);
