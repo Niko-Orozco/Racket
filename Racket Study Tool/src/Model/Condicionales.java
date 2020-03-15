@@ -204,10 +204,10 @@ public class Condicionales {
     
     public String Ejemplo5(){
        String data;
-       data =   ";proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
+       data = ";proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
             ";mayor(mostrar el numero mayor)\n" +
             "\n" +
-            ";plantilla\n" +
+            ";plantilla\n\n\n" +
             "(define (num_mayor n1 n2 n3)\n" +
             "    (cond\n" +
             "        ((and (> n1 n2) (> n1 n3) ) \"n1 es mayor\" )\n" +
@@ -232,7 +232,8 @@ public class Condicionales {
                 "              )\n" +
                 "              \" perdón , qué ?\"\n" +
                 "          )\n" +
-                "  )";
+                "  )"+
+                "\n( responder - saludo (read) )";
        return data;
    }
     

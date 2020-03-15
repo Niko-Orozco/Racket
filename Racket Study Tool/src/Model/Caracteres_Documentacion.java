@@ -24,8 +24,13 @@ public class Caracteres_Documentacion {
     public String caracter2(){
         String data="Es una función que sirve para determinar si algún dato es un carácter.\n" +
                     "\n" +
-                    "Sintaxis                                      Salida\n" +
-                    "(char? a)               ->                 #t o #f";
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                    "Sintaxis                                             Salida          :\n" +
+                    "(caracter? a)               ->                 #t o #f         :\n" +
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
+                    "Ejemplo                                           Salida          :\n" +
+                    "(char? a)                      ->                 #t  o  #f      :\n" +
+                    "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - ";
         return data;
     }
     

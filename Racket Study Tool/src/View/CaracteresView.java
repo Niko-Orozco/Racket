@@ -149,7 +149,6 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
         caracter2.setRows(5);
         caracter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        caracter2.setFocusable(false);
         jScrollPane12.setViewportView(caracter2);
 
         jLabel10.setText("Char?");

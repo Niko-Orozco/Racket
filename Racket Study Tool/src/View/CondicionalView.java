@@ -283,7 +283,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF", jPanel3);
+        jTabbedPane1.addTab("Ejemplo 1", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -337,7 +337,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF-begin", jPanel4);
+        jTabbedPane1.addTab("Ejemplo 2", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -391,7 +391,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond", jPanel5);
+        jTabbedPane1.addTab("Ejemplo 3", jPanel5);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -446,7 +446,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond-begin", jPanel6);
+        jTabbedPane1.addTab("Ejemplo 4", jPanel6);
 
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -500,7 +500,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Mayor de 3", jPanel9);
+        jTabbedPane1.addTab("Ejemplo 5", jPanel9);
 
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -554,7 +554,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond-begin", jPanel10);
+        jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
         jLabel7.setText("Ejemplos");
         jLabel7.setFocusable(false);
@@ -597,11 +597,11 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addGap(23, 23, 23))))
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 13, Short.MAX_VALUE))
+                .addGap(0, 15, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PasoPaso, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
+                .addGap(31, 31, 31))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -1711,6 +1711,8 @@ int linea=0; //Variable Global
         PonerColor(ConView.code2, Condi.EjeIfbegin()); 
         PonerColor(ConView.code3, Condi.EjeCond());
         PonerColor(ConView.code4, Condi.EjeCondbegin());
+        PonerColor(ConView.code5, Condi.Ejemplo5());
+        PonerColor(ConView.code6, Condi.Ejemplo6());
         ConView.run1.addActionListener((ActionEvent e) -> {
             RConCode(1);
         });
@@ -1722,6 +1724,12 @@ int linea=0; //Variable Global
         });
         ConView.run4.addActionListener((ActionEvent e) -> {
             RConCode(4);
+        });
+        ConView.run4.addActionListener((ActionEvent e) -> {
+            RConCode(5);
+        });
+        ConView.run4.addActionListener((ActionEvent e) -> {
+            RConCode(6);
         });
         ConView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();

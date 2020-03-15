@@ -334,12 +334,12 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <Component id="jTabbedPane1" min="-2" pref="572" max="-2" attributes="0"/>
-                          <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+                          <EmptySpace min="0" pref="15" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace max="32767" attributes="0"/>
                           <Component id="PasoPaso" min="-2" pref="136" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -385,8 +385,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="IF">
-                            <Property name="tabTitle" type="java.lang.String" value="IF"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 1">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 1"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -498,8 +498,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="IF-begin">
-                            <Property name="tabTitle" type="java.lang.String" value="IF-begin"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 2">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 2"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -610,8 +610,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="cond">
-                            <Property name="tabTitle" type="java.lang.String" value="cond"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 3">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 3"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -727,8 +727,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="cond-begin">
-                            <Property name="tabTitle" type="java.lang.String" value="cond-begin"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 4">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 4"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -844,8 +844,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="Mayor de 3">
-                            <Property name="tabTitle" type="java.lang.String" value="Mayor de 3"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 5">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 5"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
@@ -960,8 +960,8 @@
                       </Properties>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                          <JTabbedPaneConstraints tabName="cond-begin">
-                            <Property name="tabTitle" type="java.lang.String" value="cond-begin"/>
+                          <JTabbedPaneConstraints tabName="Ejemplo 6">
+                            <Property name="tabTitle" type="java.lang.String" value="Ejemplo 6"/>
                           </JTabbedPaneConstraints>
                         </Constraint>
                       </Constraints>
