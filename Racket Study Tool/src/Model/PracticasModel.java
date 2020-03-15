@@ -366,14 +366,27 @@ public class PracticasModel {
     
     public String ejelistas1(){
         
-        String data = "Falta estos ejercicios que no los tengo";
+        String data = "(define (Printlist Lista)\n" +
+"  (if (not (null? Lista))\n" +
+"      (begin (display (car Lista))\n" +
+"             (Printlist (cdr Lista))\n" +
+"             )\n" +
+"      )\n" +
+"  )\n" +
+"(Printlist (list 5 4 3 2 0 12 93))";
         
                 return data;
         }
     
     public String ejelistas2(){
         
-        String data = "Falta estos ejercicios que no los tengo";
+        String data = "(define (Agregar lista leer)\n" +
+"  (if (equal? leer -1)\n" +
+"      (display lista)\n" +
+"      (Agregar (append lista(list leer)) (read))\n" +
+"      )\n" +
+"  )\n" +
+"(Agregar (list) (read))";
         
                 return data;
         }

@@ -21,7 +21,7 @@ public class Practicas extends javax.swing.JFrame {
         //funciones
         Groupfunciones1.add(fun1op1);
         Groupfunciones1.add(fun1op2);
-        Groupfunciones1.add(fun9op3);
+        Groupfunciones1.add(fun1op3);
         Groupfunciones1.add(fun1op4);
         Groupfunciones2.add(fun2op1);
         Groupfunciones2.add(fun2op2);
@@ -69,7 +69,7 @@ public class Practicas extends javax.swing.JFrame {
         fun1op2 = new javax.swing.JRadioButton();
         fun1op4 = new javax.swing.JRadioButton();
         fun1op1 = new javax.swing.JRadioButton();
-        fun9op3 = new javax.swing.JRadioButton();
+        fun1op3 = new javax.swing.JRadioButton();
         jScrollPane12 = new javax.swing.JScrollPane();
         ejefuncion1 = new javax.swing.JTextPane();
         jPanel28 = new javax.swing.JPanel();
@@ -142,7 +142,7 @@ public class Practicas extends javax.swing.JFrame {
         fun9op2 = new javax.swing.JRadioButton();
         fun9op4 = new javax.swing.JRadioButton();
         fun9op1 = new javax.swing.JRadioButton();
-        op44 = new javax.swing.JRadioButton();
+        fun9op3 = new javax.swing.JRadioButton();
         jScrollPane21 = new javax.swing.JScrollPane();
         ejecaracter1 = new javax.swing.JTextPane();
         jPanel38 = new javax.swing.JPanel();
@@ -194,17 +194,18 @@ public class Practicas extends javax.swing.JFrame {
         jLabel43 = new javax.swing.JLabel();
         jLabel44 = new javax.swing.JLabel();
         jPanel39 = new javax.swing.JPanel();
-        jLabel45 = new javax.swing.JLabel();
         fun15op2 = new javax.swing.JRadioButton();
         fun15op4 = new javax.swing.JRadioButton();
         fun15op1 = new javax.swing.JRadioButton();
         fun15op3 = new javax.swing.JRadioButton();
+        jScrollPane29 = new javax.swing.JScrollPane();
+        ejelista1 = new javax.swing.JTextPane();
         jPanel41 = new javax.swing.JPanel();
-        jLabel48 = new javax.swing.JLabel();
-        r14 = new javax.swing.JRadioButton();
         fun16op1 = new javax.swing.JRadioButton();
         fun16op2 = new javax.swing.JRadioButton();
         fun16op3 = new javax.swing.JRadioButton();
+        jScrollPane30 = new javax.swing.JScrollPane();
+        ejelista2 = new javax.swing.JTextPane();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane10 = new javax.swing.JScrollPane();
         jPanel21 = new javax.swing.JPanel();
@@ -236,8 +237,8 @@ public class Practicas extends javax.swing.JFrame {
         jLabel25 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
-        jButton1 = new javax.swing.JButton();
         Puntaje = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -278,9 +279,9 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(fun1op1);
         fun1op1.setBounds(70, 290, 140, 29);
 
-        fun9op3.setText("11520030.0");
-        jPanel27.add(fun9op3);
-        fun9op3.setBounds(70, 320, 120, 29);
+        fun1op3.setText("11520030.0");
+        jPanel27.add(fun1op3);
+        fun1op3.setBounds(70, 320, 120, 29);
 
         jScrollPane12.setViewportView(ejefuncion1);
 
@@ -683,9 +684,9 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(fun9op1);
         fun9op1.setBounds(70, 290, 100, 29);
 
-        op44.setText("#\\f");
-        jPanel37.add(op44);
-        op44.setBounds(70, 320, 120, 29);
+        fun9op3.setText("#\\f");
+        jPanel37.add(fun9op3);
+        fun9op3.setBounds(70, 320, 120, 29);
 
         jScrollPane21.setViewportView(ejecaracter1);
 
@@ -977,10 +978,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel39.setLayout(null);
 
-        jLabel45.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/listas1.jpg"))); // NOI18N
-        jPanel39.add(jLabel45);
-        jLabel45.setBounds(40, 10, 380, 270);
-
         fun15op2.setText("532205493");
         jPanel39.add(fun15op2);
         fun15op2.setBounds(240, 290, 120, 29);
@@ -997,15 +994,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel39.add(fun15op3);
         fun15op3.setBounds(70, 320, 120, 29);
 
+        jScrollPane29.setViewportView(ejelista1);
+
+        jPanel39.add(jScrollPane29);
+        jScrollPane29.setBounds(30, 30, 400, 240);
+
         jPanel41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel41.setLayout(null);
-
-        jLabel48.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/listas2.jpg"))); // NOI18N
-        jLabel48.setText("imagen 1");
-        jPanel41.add(jLabel48);
-        jLabel48.setBounds(60, 10, 370, 270);
-        jPanel41.add(r14);
-        r14.setBounds(250, 180, 29, 29);
 
         fun16op1.setText("Se llena con -1");
         jPanel41.add(fun16op1);
@@ -1028,6 +1023,11 @@ public class Practicas extends javax.swing.JFrame {
         });
         jPanel41.add(fun16op3);
         fun16op3.setBounds(20, 360, 410, 29);
+
+        jScrollPane30.setViewportView(ejelista2);
+
+        jPanel41.add(jScrollPane30);
+        jScrollPane30.setBounds(30, 30, 400, 230);
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1254,20 +1254,16 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.add(jLabel3);
         jLabel3.setBounds(10, 60, 480, 20);
 
-        jButton1.setText("Mi puntaje:");
-        jButton1.setFocusable(false);
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        jPanel1.add(jButton1);
-        jButton1.setBounds(770, 30, 120, 40);
-
         Puntaje.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         Puntaje.setForeground(new java.awt.Color(0, 204, 51));
         jPanel1.add(Puntaje);
-        Puntaje.setBounds(890, 30, 110, 40);
+        Puntaje.setBounds(890, 40, 110, 40);
+
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel2.setText("Mi Puntaje:");
+        jPanel1.add(jLabel2);
+        jLabel2.setBounds(760, 40, 130, 29);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1277,7 +1273,9 @@ public class Practicas extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 619, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, 633, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         pack();
@@ -1286,10 +1284,6 @@ public class Practicas extends javax.swing.JFrame {
     private void menuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_menuActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_menuActionPerformed
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void fun4op4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun4op4ActionPerformed
         // TODO add your handling code here:
@@ -1378,6 +1372,8 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JTextPane ejefuncion2;
     public javax.swing.JTextPane ejegrafico1;
     public javax.swing.JTextPane ejegrafico2;
+    public javax.swing.JTextPane ejelista1;
+    public javax.swing.JTextPane ejelista2;
     public javax.swing.JTextPane ejerecu1;
     public javax.swing.JTextPane ejerecu2;
     public javax.swing.JTextPane ejevector1;
@@ -1413,6 +1409,7 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton fun18op2;
     public javax.swing.JRadioButton fun1op1;
     public javax.swing.JRadioButton fun1op2;
+    public javax.swing.JRadioButton fun1op3;
     public javax.swing.JRadioButton fun1op4;
     public javax.swing.JRadioButton fun2op1;
     public javax.swing.JRadioButton fun2op2;
@@ -1443,11 +1440,11 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton fun9op4;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
-    public javax.swing.JButton jButton1;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel16;
+    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel25;
@@ -1462,10 +1459,8 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel42;
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel44;
-    private javax.swing.JLabel jLabel45;
     private javax.swing.JLabel jLabel46;
     private javax.swing.JLabel jLabel47;
-    private javax.swing.JLabel jLabel48;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JPanel jPanel1;
@@ -1531,7 +1526,9 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane26;
     private javax.swing.JScrollPane jScrollPane27;
     private javax.swing.JScrollPane jScrollPane28;
+    private javax.swing.JScrollPane jScrollPane29;
     private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JScrollPane jScrollPane30;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
     private javax.swing.JScrollPane jScrollPane6;
@@ -1544,7 +1541,5 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JButton menu;
     public javax.swing.JRadioButton op22;
     public javax.swing.JRadioButton op25;
-    public javax.swing.JRadioButton op44;
-    public javax.swing.JRadioButton r14;
     // End of variables declaration//GEN-END:variables
 }

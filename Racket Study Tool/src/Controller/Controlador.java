@@ -1850,10 +1850,57 @@ int linea=0; //Variable Global
             Practices.Puntaje.setText(String.valueOf(puntaje));
             Practices.fun1op1.setEnabled(false);
             Practices.fun1op2.setEnabled(false);
-            Practices.fun9op3.setEnabled(false);
+            Practices.fun1op3.setEnabled(false);
             Practices.fun1op4.setEnabled(false);           
             
         });
+        
+        Practices.fun1op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun1op1.setEnabled(false);
+            Practices.fun1op2.setEnabled(false);
+            Practices.fun1op3.setEnabled(false);
+            Practices.fun1op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun1op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun1op1.setEnabled(false);
+            Practices.fun1op2.setEnabled(false);
+            Practices.fun1op3.setEnabled(false);
+            Practices.fun1op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun1op4.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun1op1.setEnabled(false);
+            Practices.fun1op2.setEnabled(false);
+            Practices.fun1op3.setEnabled(false);
+            Practices.fun1op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun2op1.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun2op1.setEnabled(false);
+            Practices.fun2op2.setEnabled(false);
+            Practices.fun2op3.setEnabled(false);
+            Practices.fun2op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun2op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun2op1.setEnabled(false);
+            Practices.fun2op2.setEnabled(false);
+            Practices.fun2op3.setEnabled(false);
+            Practices.fun2op4.setEnabled(false);           
+            
+        });  
+        
+        
         
         Practices.fun2op3.addActionListener((ActionEvent e) -> {
             
@@ -1864,6 +1911,42 @@ int linea=0; //Variable Global
             Practices.fun2op2.setEnabled(false);
             Practices.fun2op3.setEnabled(false);
             Practices.fun2op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun2op4.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun2op1.setEnabled(false);
+            Practices.fun2op2.setEnabled(false);
+            Practices.fun2op3.setEnabled(false);
+            Practices.fun2op4.setEnabled(false);           
+            
+        });  
+        
+        Practices.fun3op1.addActionListener((ActionEvent e) -> {
+
+            Practices.fun3op1.setEnabled(false);
+            Practices.fun3op2.setEnabled(false);
+            Practices.fun3op3.setEnabled(false);
+            Practices.fun3op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun3op2.addActionListener((ActionEvent e) -> {
+
+            Practices.fun3op1.setEnabled(false);
+            Practices.fun3op2.setEnabled(false);
+            Practices.fun3op3.setEnabled(false);
+            Practices.fun3op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun3op3.addActionListener((ActionEvent e) -> {
+
+            Practices.fun3op1.setEnabled(false);
+            Practices.fun3op2.setEnabled(false);
+            Practices.fun3op3.setEnabled(false);
+            Practices.fun3op4.setEnabled(false);           
             
         });
         
@@ -1891,6 +1974,36 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun4op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun4op1.setEnabled(false);
+            Practices.fun4op2.setEnabled(false);
+            Practices.fun4op3.setEnabled(false);
+            Practices.fun4op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun4op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun4op1.setEnabled(false);
+            Practices.fun4op2.setEnabled(false);
+            Practices.fun4op3.setEnabled(false);
+            Practices.fun4op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun4op4.addActionListener((ActionEvent e) -> {
+            
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun4op1.setEnabled(false);
+            Practices.fun4op2.setEnabled(false);
+            Practices.fun4op3.setEnabled(false);
+            Practices.fun4op4.setEnabled(false);           
+            
+        });
+        
         Practices.fun5op1.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
@@ -1898,6 +2011,29 @@ int linea=0; //Variable Global
             Practices.Puntaje.setText(String.valueOf(puntaje));
             Practices.fun5op1.setEnabled(false);
             Practices.fun5op2.setEnabled(false);           
+            
+        });
+
+        Practices.fun5op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun5op1.setEnabled(false);
+            Practices.fun5op2.setEnabled(false);           
+            
+        });
+        
+        Practices.fun6op1.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun6op1.setEnabled(false);
+            Practices.fun6op2.setEnabled(false);   
+            Practices.fun6op3.setEnabled(false); 
+            
+        });
+        
+        Practices.fun6op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun6op1.setEnabled(false);
+            Practices.fun6op2.setEnabled(false);   
+            Practices.fun6op3.setEnabled(false); 
             
         });
         
@@ -1912,11 +2048,38 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun7op1.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun7op1.setEnabled(false);
+            Practices.fun7op2.setEnabled(false);   
+            Practices.fun7op3.setEnabled(false); 
+            Practices.fun7op4.setEnabled(false); 
+            
+        });
+        
         Practices.fun7op2.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
             intentos= intentos +1;
             Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun7op1.setEnabled(false);
+            Practices.fun7op2.setEnabled(false);   
+            Practices.fun7op3.setEnabled(false); 
+            Practices.fun7op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun7op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun7op1.setEnabled(false);
+            Practices.fun7op2.setEnabled(false);   
+            Practices.fun7op3.setEnabled(false); 
+            Practices.fun7op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun7op4.addActionListener((ActionEvent e) -> {
+            
             Practices.fun7op1.setEnabled(false);
             Practices.fun7op2.setEnabled(false);   
             Practices.fun7op3.setEnabled(false); 
@@ -1933,11 +2096,44 @@ int linea=0; //Variable Global
             Practices.fun8op2.setEnabled(false);            
         });
         
+        Practices.fun8op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun8op1.setEnabled(false);
+            Practices.fun8op2.setEnabled(false);            
+        });
+        
         Practices.fun9op1.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
             intentos= intentos +1;
             Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun9op1.setEnabled(false);
+            Practices.fun9op2.setEnabled(false);   
+            Practices.fun1op3.setEnabled(false); 
+            Practices.fun9op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun9op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun9op1.setEnabled(false);
+            Practices.fun9op2.setEnabled(false);   
+            Practices.fun1op3.setEnabled(false); 
+            Practices.fun9op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun9op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun9op1.setEnabled(false);
+            Practices.fun9op2.setEnabled(false);   
+            Practices.fun9op3.setEnabled(false); 
+            Practices.fun9op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun9op4.addActionListener((ActionEvent e) -> {
+            
             Practices.fun9op1.setEnabled(false);
             Practices.fun9op2.setEnabled(false);   
             Practices.fun9op3.setEnabled(false); 
@@ -1957,11 +2153,65 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun10op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun10op1.setEnabled(false);
+            Practices.fun10op2.setEnabled(false);   
+            Practices.fun10op3.setEnabled(false); 
+            Practices.fun10op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun10op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun10op1.setEnabled(false);
+            Practices.fun10op2.setEnabled(false);   
+            Practices.fun10op3.setEnabled(false); 
+            Practices.fun10op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun10op4.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun10op1.setEnabled(false);
+            Practices.fun10op2.setEnabled(false);   
+            Practices.fun10op3.setEnabled(false); 
+            Practices.fun10op4.setEnabled(false); 
+            
+        });
+        //aqui estamos
         Practices.fun11op1.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
             intentos= intentos +1;
             Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun11op1.setEnabled(false);
+            Practices.fun11op2.setEnabled(false);   
+            Practices.fun11op3.setEnabled(false); 
+            Practices.fun11op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun11op2.addActionListener((ActionEvent e) -> {
+
+            Practices.fun11op1.setEnabled(false);
+            Practices.fun11op2.setEnabled(false);   
+            Practices.fun11op3.setEnabled(false); 
+            Practices.fun11op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun11op3.addActionListener((ActionEvent e) -> {
+
+            Practices.fun11op1.setEnabled(false);
+            Practices.fun11op2.setEnabled(false);   
+            Practices.fun11op3.setEnabled(false); 
+            Practices.fun11op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun11op4.addActionListener((ActionEvent e) -> {
+
             Practices.fun11op1.setEnabled(false);
             Practices.fun11op2.setEnabled(false);   
             Practices.fun11op3.setEnabled(false); 
@@ -1981,6 +2231,33 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun12op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun12op1.setEnabled(false);
+            Practices.fun12op2.setEnabled(false);   
+            Practices.fun12op3.setEnabled(false); 
+            Practices.fun12op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun12op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun12op1.setEnabled(false);
+            Practices.fun12op2.setEnabled(false);   
+            Practices.fun12op3.setEnabled(false); 
+            Practices.fun12op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun12op4.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun12op1.setEnabled(false);
+            Practices.fun12op2.setEnabled(false);   
+            Practices.fun12op3.setEnabled(false); 
+            Practices.fun12op4.setEnabled(false); 
+            
+        });
+        
         Practices.fun13op1.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
@@ -1990,6 +2267,42 @@ int linea=0; //Variable Global
             Practices.fun13op2.setEnabled(false);   
             Practices.fun13op3.setEnabled(false); 
             Practices.fun13op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun13op2.addActionListener((ActionEvent e) -> {
+
+            Practices.fun13op1.setEnabled(false);
+            Practices.fun13op2.setEnabled(false);   
+            Practices.fun13op3.setEnabled(false); 
+            Practices.fun13op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun13op3.addActionListener((ActionEvent e) -> {
+
+            Practices.fun13op1.setEnabled(false);
+            Practices.fun13op2.setEnabled(false);   
+            Practices.fun13op3.setEnabled(false); 
+            Practices.fun13op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun13op4.addActionListener((ActionEvent e) -> {
+
+            Practices.fun13op1.setEnabled(false);
+            Practices.fun13op2.setEnabled(false);   
+            Practices.fun13op3.setEnabled(false); 
+            Practices.fun13op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun14op1.addActionListener((ActionEvent e) -> {
+            
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun14op1.setEnabled(false);
+            Practices.fun14op2.setEnabled(false);   
+ 
             
         });
         
@@ -2004,6 +2317,38 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun15op1.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun15op1.setEnabled(false);
+            Practices.fun15op2.setEnabled(false);  
+            Practices.fun15op3.setEnabled(false);
+            Practices.fun15op4.setEnabled(false);
+ 
+            
+        });
+        
+        Practices.fun15op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun15op1.setEnabled(false);
+            Practices.fun15op2.setEnabled(false);  
+            Practices.fun15op3.setEnabled(false);
+            Practices.fun15op4.setEnabled(false);
+ 
+            
+        });
+        
+        Practices.fun15op3.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun15op1.setEnabled(false);
+            Practices.fun15op2.setEnabled(false);  
+            Practices.fun15op3.setEnabled(false);
+            Practices.fun15op4.setEnabled(false);
+ 
+            
+        });
+        
+        
+        
         Practices.fun15op4.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
@@ -2016,6 +2361,24 @@ int linea=0; //Variable Global
  
             
         });
+      
+        Practices.fun16op1.addActionListener((ActionEvent e) -> {
+
+            Practices.fun16op1.setEnabled(false);
+            Practices.fun16op2.setEnabled(false);  
+            Practices.fun16op3.setEnabled(false);
+ 
+            
+        });
+        
+        Practices.fun16op2.addActionListener((ActionEvent e) -> {
+
+            Practices.fun16op1.setEnabled(false);
+            Practices.fun16op2.setEnabled(false);  
+            Practices.fun16op3.setEnabled(false);
+ 
+            
+        });
         
         Practices.fun16op3.addActionListener((ActionEvent e) -> {
             
@@ -2024,16 +2387,25 @@ int linea=0; //Variable Global
             Practices.Puntaje.setText(String.valueOf(puntaje));
             Practices.fun16op1.setEnabled(false);
             Practices.fun16op2.setEnabled(false);  
-            Practices.fun16op2.setEnabled(false);
+            Practices.fun16op3.setEnabled(false);
  
             
         });
+        
+        
         
         Practices.fun17op1.addActionListener((ActionEvent e) -> {
             
             puntaje= puntaje + 10;
             intentos= intentos +1;
             Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun17op1.setEnabled(false);
+            Practices.fun17op2.setEnabled(false); 
+            
+        });
+        
+        Practices.fun17op2.addActionListener((ActionEvent e) -> {
+            
             Practices.fun17op1.setEnabled(false);
             Practices.fun17op2.setEnabled(false); 
             
@@ -2048,6 +2420,15 @@ int linea=0; //Variable Global
             Practices.fun18op2.setEnabled(false); 
             
         });
+        
+        Practices.fun18op2.addActionListener((ActionEvent e) -> {
+            
+            Practices.fun18op1.setEnabled(false);
+            Practices.fun18op2.setEnabled(false); 
+            
+        });
+        
+        
     }
     
     public void cadenasview(){
