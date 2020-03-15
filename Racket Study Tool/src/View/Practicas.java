@@ -21,12 +21,20 @@ public class Practicas extends javax.swing.JFrame {
         //funciones
         Groupfunciones1.add(fun1op1);
         Groupfunciones1.add(fun1op2);
-        Groupfunciones1.add(fun1op3);
+        Groupfunciones1.add(fun9op3);
         Groupfunciones1.add(fun1op4);
         Groupfunciones2.add(fun2op1);
         Groupfunciones2.add(fun2op2);
         Groupfunciones2.add(fun2op3);
         Groupfunciones2.add(fun2op4);
+        Grouparit1.add(fun3op1);
+        Grouparit1.add(fun3op2);
+        Grouparit1.add(fun3op3);
+        Grouparit1.add(fun3op4);
+        Grouparit2.add(fun3op1);
+        Grouparit2.add(fun3op2);
+        Grouparit2.add(fun3op3);
+        Grouparit2.add(fun3op4);
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
         
 
@@ -49,6 +57,8 @@ public class Practicas extends javax.swing.JFrame {
         GRUPO3 = new javax.swing.ButtonGroup();
         Groupfunciones1 = new javax.swing.ButtonGroup();
         Groupfunciones2 = new javax.swing.ButtonGroup();
+        Grouparit1 = new javax.swing.ButtonGroup();
+        Grouparit2 = new javax.swing.ButtonGroup();
         jPanel1 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jTabbedPane1 = new javax.swing.JTabbedPane();
@@ -59,7 +69,7 @@ public class Practicas extends javax.swing.JFrame {
         fun1op2 = new javax.swing.JRadioButton();
         fun1op4 = new javax.swing.JRadioButton();
         fun1op1 = new javax.swing.JRadioButton();
-        fun1op3 = new javax.swing.JRadioButton();
+        fun9op3 = new javax.swing.JRadioButton();
         jScrollPane12 = new javax.swing.JScrollPane();
         ejefuncion1 = new javax.swing.JTextPane();
         jPanel28 = new javax.swing.JPanel();
@@ -129,34 +139,34 @@ public class Practicas extends javax.swing.JFrame {
         jLabel37 = new javax.swing.JLabel();
         jLabel38 = new javax.swing.JLabel();
         jPanel37 = new javax.swing.JPanel();
-        op41 = new javax.swing.JRadioButton();
-        op42 = new javax.swing.JRadioButton();
-        op43 = new javax.swing.JRadioButton();
+        fun9op2 = new javax.swing.JRadioButton();
+        fun9op4 = new javax.swing.JRadioButton();
+        fun9op1 = new javax.swing.JRadioButton();
         op44 = new javax.swing.JRadioButton();
         jScrollPane21 = new javax.swing.JScrollPane();
         ejecaracter1 = new javax.swing.JTextPane();
         jPanel38 = new javax.swing.JPanel();
-        op45 = new javax.swing.JRadioButton();
-        op46 = new javax.swing.JRadioButton();
-        op47 = new javax.swing.JRadioButton();
-        op48 = new javax.swing.JRadioButton();
+        fun10op4 = new javax.swing.JRadioButton();
+        fun10op2 = new javax.swing.JRadioButton();
+        fun10op1 = new javax.swing.JRadioButton();
+        fun10op3 = new javax.swing.JRadioButton();
         jScrollPane22 = new javax.swing.JScrollPane();
         ejecaracter2 = new javax.swing.JTextPane();
         jPanel7 = new javax.swing.JPanel();
         jScrollPane7 = new javax.swing.JScrollPane();
         jPanel18 = new javax.swing.JPanel();
         jPanel35 = new javax.swing.JPanel();
-        op21 = new javax.swing.JRadioButton();
-        op26 = new javax.swing.JRadioButton();
-        op35 = new javax.swing.JRadioButton();
-        op36 = new javax.swing.JRadioButton();
+        fun11op2 = new javax.swing.JRadioButton();
+        fun11op4 = new javax.swing.JRadioButton();
+        fun11op1 = new javax.swing.JRadioButton();
+        fun11op3 = new javax.swing.JRadioButton();
         jScrollPane23 = new javax.swing.JScrollPane();
         ejecadena1 = new javax.swing.JTextPane();
         jPanel36 = new javax.swing.JPanel();
-        op37 = new javax.swing.JRadioButton();
-        op38 = new javax.swing.JRadioButton();
-        op39 = new javax.swing.JRadioButton();
-        op40 = new javax.swing.JRadioButton();
+        fun12op4 = new javax.swing.JRadioButton();
+        fun12op2 = new javax.swing.JRadioButton();
+        fun12op1 = new javax.swing.JRadioButton();
+        fun12op3 = new javax.swing.JRadioButton();
         jScrollPane24 = new javax.swing.JScrollPane();
         ejecadena2 = new javax.swing.JTextPane();
         jLabel35 = new javax.swing.JLabel();
@@ -165,15 +175,15 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane8 = new javax.swing.JScrollPane();
         jPanel19 = new javax.swing.JPanel();
         jPanel33 = new javax.swing.JPanel();
-        op29 = new javax.swing.JRadioButton();
-        op30 = new javax.swing.JRadioButton();
-        op31 = new javax.swing.JRadioButton();
-        op32 = new javax.swing.JRadioButton();
+        fun13op2 = new javax.swing.JRadioButton();
+        fun13op4 = new javax.swing.JRadioButton();
+        fun13op1 = new javax.swing.JRadioButton();
+        fun15op3 = new javax.swing.JRadioButton();
         jScrollPane25 = new javax.swing.JScrollPane();
         ejevector1 = new javax.swing.JTextPane();
         jPanel34 = new javax.swing.JPanel();
-        op33 = new javax.swing.JRadioButton();
-        op34 = new javax.swing.JRadioButton();
+        fun14op1 = new javax.swing.JRadioButton();
+        fun14op2 = new javax.swing.JRadioButton();
         jScrollPane26 = new javax.swing.JScrollPane();
         ejevector2 = new javax.swing.JTextPane();
         jLabel29 = new javax.swing.JLabel();
@@ -185,9 +195,9 @@ public class Practicas extends javax.swing.JFrame {
         jLabel44 = new javax.swing.JLabel();
         jPanel39 = new javax.swing.JPanel();
         jLabel45 = new javax.swing.JLabel();
-        op49 = new javax.swing.JRadioButton();
-        op50 = new javax.swing.JRadioButton();
-        op51 = new javax.swing.JRadioButton();
+        fun15op2 = new javax.swing.JRadioButton();
+        fun15op4 = new javax.swing.JRadioButton();
+        fun15op1 = new javax.swing.JRadioButton();
         op52 = new javax.swing.JRadioButton();
         jPanel41 = new javax.swing.JPanel();
         jLabel48 = new javax.swing.JLabel();
@@ -212,13 +222,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31 = new javax.swing.JPanel();
         op22 = new javax.swing.JRadioButton();
         op25 = new javax.swing.JRadioButton();
-        jRadioButton1 = new javax.swing.JRadioButton();
-        jRadioButton2 = new javax.swing.JRadioButton();
+        fun17op1 = new javax.swing.JRadioButton();
+        fun17op2 = new javax.swing.JRadioButton();
         jScrollPane27 = new javax.swing.JScrollPane();
         ejegrafico1 = new javax.swing.JTextPane();
         jPanel32 = new javax.swing.JPanel();
-        op27 = new javax.swing.JRadioButton();
-        op28 = new javax.swing.JRadioButton();
+        fun18op1 = new javax.swing.JRadioButton();
+        fun18op2 = new javax.swing.JRadioButton();
         jLabel30 = new javax.swing.JLabel();
         jLabel31 = new javax.swing.JLabel();
         jScrollPane28 = new javax.swing.JScrollPane();
@@ -252,21 +262,12 @@ public class Practicas extends javax.swing.JFrame {
                 fun1op2ActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         jPanel27.add(fun1op2);
         fun1op2.setBounds(240, 290, 120, 29);
 
         fun1op4.setText("11620000.0");
         jPanel27.add(fun1op4);
         fun1op4.setBounds(240, 320, 120, 29);
-=======
-        jPanel27.add(op9);
-        op9.setBounds(240, 290, 120, 23);
-
-        op10.setText("970");
-        jPanel27.add(op10);
-        op10.setBounds(240, 320, 120, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         fun1op1.setText("11520000.0");
         fun1op1.addActionListener(new java.awt.event.ActionListener() {
@@ -274,21 +275,12 @@ public class Practicas extends javax.swing.JFrame {
                 fun1op1ActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         jPanel27.add(fun1op1);
         fun1op1.setBounds(70, 290, 140, 29);
 
-        fun1op3.setText("11520030.0");
-        jPanel27.add(fun1op3);
-        fun1op3.setBounds(70, 320, 120, 29);
-=======
-        jPanel27.add(op11);
-        op11.setBounds(70, 290, 100, 23);
-
-        op12.setText("879");
-        jPanel27.add(op12);
-        op12.setBounds(70, 320, 120, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
+        fun9op3.setText("11520030.0");
+        jPanel27.add(fun9op3);
+        fun9op3.setBounds(70, 320, 120, 29);
 
         jScrollPane12.setViewportView(ejefuncion1);
 
@@ -305,7 +297,6 @@ public class Practicas extends javax.swing.JFrame {
                 fun2op4ActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         jPanel28.add(fun2op4);
         fun2op4.setBounds(240, 320, 110, 29);
 
@@ -320,22 +311,6 @@ public class Practicas extends javax.swing.JFrame {
         fun2op3.setText("32133");
         jPanel28.add(fun2op3);
         fun2op3.setBounds(70, 320, 110, 29);
-=======
-        jPanel28.add(op13);
-        op13.setBounds(240, 320, 110, 23);
-
-        op14.setText("213");
-        jPanel28.add(op14);
-        op14.setBounds(240, 290, 200, 23);
-
-        op15.setText("1212");
-        jPanel28.add(op15);
-        op15.setBounds(70, 290, 110, 23);
-
-        op16.setText("32133");
-        jPanel28.add(op16);
-        op16.setBounds(70, 320, 110, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane16.setViewportView(ejefuncion2);
 
@@ -399,39 +374,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel25.setLayout(null);
 
-<<<<<<< HEAD
-        fun3op2.setText("342132");
+        fun3op2.setText("830");
         jPanel25.add(fun3op2);
         fun3op2.setBounds(240, 290, 120, 29);
 
-        fun3op4.setText("17000000");
+        fun3op4.setText("870");
         jPanel25.add(fun3op4);
         fun3op4.setBounds(240, 320, 120, 29);
 
-        fun3op1.setText("170000");
+        fun3op1.setText("970");
         jPanel25.add(fun3op1);
         fun3op1.setBounds(70, 290, 100, 29);
 
-        fun3op3.setText("1700000");
+        fun3op3.setText("890");
         jPanel25.add(fun3op3);
         fun3op3.setBounds(70, 320, 120, 29);
-=======
-        op2.setText("342132");
-        jPanel25.add(op2);
-        op2.setBounds(240, 290, 120, 23);
-
-        op4.setText("17000000");
-        jPanel25.add(op4);
-        op4.setBounds(240, 320, 120, 23);
-
-        op1.setText("170000");
-        jPanel25.add(op1);
-        op1.setBounds(70, 290, 100, 23);
-
-        op3.setText("1700000");
-        jPanel25.add(op3);
-        op3.setBounds(70, 320, 120, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane17.setViewportView(ejearitmetica1);
 
@@ -447,7 +404,6 @@ public class Practicas extends javax.swing.JFrame {
                 fun4op4ActionPerformed(evt);
             }
         });
-<<<<<<< HEAD
         jPanel26.add(fun4op4);
         fun4op4.setBounds(240, 320, 110, 29);
 
@@ -462,22 +418,6 @@ public class Practicas extends javax.swing.JFrame {
         fun4op3.setText("13.45");
         jPanel26.add(fun4op3);
         fun4op3.setBounds(70, 320, 110, 29);
-=======
-        jPanel26.add(op8);
-        op8.setBounds(240, 320, 110, 23);
-
-        op7.setText("15.76");
-        jPanel26.add(op7);
-        op7.setBounds(240, 290, 200, 23);
-
-        op5.setText("14.183");
-        jPanel26.add(op5);
-        op5.setBounds(70, 290, 110, 23);
-
-        op6.setText("13.45");
-        jPanel26.add(op6);
-        op6.setBounds(70, 320, 110, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane18.setViewportView(ejearitmetica2);
 
@@ -542,7 +482,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
-<<<<<<< HEAD
         fun5op1.setText("el primero es mayor que el segundo");
         jPanel22.add(fun5op1);
         fun5op1.setBounds(20, 310, 320, 29);
@@ -550,15 +489,6 @@ public class Practicas extends javax.swing.JFrame {
         fun5op2.setText("El segundo numero es mayor");
         jPanel22.add(fun5op2);
         fun5op2.setBounds(20, 350, 290, 29);
-=======
-        t1.setText("el primero es mayor que el segundo");
-        jPanel22.add(t1);
-        t1.setBounds(20, 310, 320, 23);
-
-        t2.setText("El segundo numero es mayor");
-        jPanel22.add(t2);
-        t2.setBounds(20, 350, 290, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane19.setViewportView(ejecon1);
 
@@ -568,7 +498,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
 
-<<<<<<< HEAD
         fun6op3.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(fun6op3);
         fun6op3.setBounds(20, 380, 460, 29);
@@ -580,19 +509,6 @@ public class Practicas extends javax.swing.JFrame {
         fun6op2.setText("reproducir El CAPITAL");
         jPanel23.add(fun6op2);
         fun6op2.setBounds(20, 350, 200, 29);
-=======
-        r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
-        jPanel23.add(r1);
-        r1.setBounds(20, 380, 460, 23);
-
-        r5.setText("La opcion no es valida");
-        jPanel23.add(r5);
-        r5.setBounds(20, 320, 200, 23);
-
-        r6.setText("reproducir El CAPITAL");
-        jPanel23.add(r6);
-        r6.setBounds(20, 350, 200, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane20.setViewportView(ejecon2);
 
@@ -654,7 +570,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel29.setLayout(null);
 
-<<<<<<< HEAD
         fun7op2.setText("11");
         jPanel29.add(fun7op2);
         fun7op2.setBounds(240, 290, 120, 29);
@@ -670,23 +585,6 @@ public class Practicas extends javax.swing.JFrame {
         fun7op3.setText("17");
         jPanel29.add(fun7op3);
         fun7op3.setBounds(70, 320, 120, 29);
-=======
-        op17.setText("11");
-        jPanel29.add(op17);
-        op17.setBounds(240, 290, 120, 23);
-
-        op18.setText("32");
-        jPanel29.add(op18);
-        op18.setBounds(240, 320, 120, 23);
-
-        op19.setText("13");
-        jPanel29.add(op19);
-        op19.setBounds(70, 290, 100, 23);
-
-        op20.setText("17");
-        jPanel29.add(op20);
-        op20.setBounds(70, 320, 120, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane15.setViewportView(ejerecu1);
 
@@ -696,7 +594,6 @@ public class Practicas extends javax.swing.JFrame {
         jPanel30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel30.setLayout(null);
 
-<<<<<<< HEAD
         fun8op1.setText("(3 5 7 11 13 17 19 23 29 31)");
         jPanel30.add(fun8op1);
         fun8op1.setBounds(70, 290, 260, 29);
@@ -704,15 +601,6 @@ public class Practicas extends javax.swing.JFrame {
         fun8op2.setText("(3 5 7 9 11 13 17 21 23 25)");
         jPanel30.add(fun8op2);
         fun8op2.setBounds(70, 320, 280, 29);
-=======
-        op23.setText("(3 5 7 11 13 17 19 23 29 31)");
-        jPanel30.add(op23);
-        op23.setBounds(70, 290, 260, 23);
-
-        op24.setText("(3 5 7 9 11 13 17 21 23 25)");
-        jPanel30.add(op24);
-        op24.setBounds(70, 320, 280, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         jScrollPane11.setViewportView(ejerecu2);
 
@@ -783,21 +671,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel37.setLayout(null);
 
-        op41.setText("#\\7");
-        jPanel37.add(op41);
-        op41.setBounds(240, 290, 120, 23);
+        fun9op2.setText("#\\7");
+        jPanel37.add(fun9op2);
+        fun9op2.setBounds(240, 290, 120, 29);
 
-        op42.setText("7");
-        jPanel37.add(op42);
-        op42.setBounds(240, 320, 120, 23);
+        fun9op4.setText("7");
+        jPanel37.add(fun9op4);
+        fun9op4.setBounds(240, 320, 120, 29);
 
-        op43.setText("#\\t");
-        jPanel37.add(op43);
-        op43.setBounds(70, 290, 100, 23);
+        fun9op1.setText("#\\t");
+        jPanel37.add(fun9op1);
+        fun9op1.setBounds(70, 290, 100, 29);
 
         op44.setText("#\\f");
         jPanel37.add(op44);
-        op44.setBounds(70, 320, 120, 23);
+        op44.setBounds(70, 320, 120, 29);
 
         jScrollPane21.setViewportView(ejecaracter1);
 
@@ -807,26 +695,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel38.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel38.setLayout(null);
 
-        op45.setText("e");
-        op45.addActionListener(new java.awt.event.ActionListener() {
+        fun10op4.setText("e");
+        fun10op4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                op45ActionPerformed(evt);
+                fun10op4ActionPerformed(evt);
             }
         });
-        jPanel38.add(op45);
-        op45.setBounds(240, 320, 110, 23);
+        jPanel38.add(fun10op4);
+        fun10op4.setBounds(240, 320, 110, 29);
 
-        op46.setText("#\\e");
-        jPanel38.add(op46);
-        op46.setBounds(240, 290, 200, 23);
+        fun10op2.setText("#\\e");
+        jPanel38.add(fun10op2);
+        fun10op2.setBounds(240, 290, 200, 29);
 
-        op47.setText("es vocal");
-        jPanel38.add(op47);
-        op47.setBounds(70, 290, 110, 23);
+        fun10op1.setText("es vocal");
+        jPanel38.add(fun10op1);
+        fun10op1.setBounds(70, 290, 110, 29);
 
-        op48.setText("no es vocal");
-        jPanel38.add(op48);
-        op48.setBounds(70, 320, 140, 23);
+        fun10op3.setText("no es vocal");
+        jPanel38.add(fun10op3);
+        fun10op3.setBounds(70, 320, 140, 29);
 
         jScrollPane22.setViewportView(ejecaracter2);
 
@@ -883,21 +771,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel35.setLayout(null);
 
-        op21.setText("no es palindrome");
-        jPanel35.add(op21);
-        op21.setBounds(240, 290, 170, 23);
+        fun11op2.setText("no es palindrome");
+        jPanel35.add(fun11op2);
+        fun11op2.setBounds(240, 290, 170, 29);
 
-        op26.setText("es vocal");
-        jPanel35.add(op26);
-        op26.setBounds(240, 320, 150, 23);
+        fun11op4.setText("es vocal");
+        jPanel35.add(fun11op4);
+        fun11op4.setBounds(240, 320, 150, 29);
 
-        op35.setText("es palindrome");
-        jPanel35.add(op35);
-        op35.setBounds(70, 290, 150, 23);
+        fun11op1.setText("es palindrome");
+        jPanel35.add(fun11op1);
+        fun11op1.setBounds(70, 290, 150, 29);
 
-        op36.setText("error");
-        jPanel35.add(op36);
-        op36.setBounds(70, 320, 120, 23);
+        fun11op3.setText("error");
+        jPanel35.add(fun11op3);
+        fun11op3.setBounds(70, 320, 120, 29);
 
         jScrollPane23.setViewportView(ejecadena1);
 
@@ -907,26 +795,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel36.setLayout(null);
 
-        op37.setText("ES CARACTER");
-        op37.addActionListener(new java.awt.event.ActionListener() {
+        fun12op4.setText("ES CARACTER");
+        fun12op4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                op37ActionPerformed(evt);
+                fun12op4ActionPerformed(evt);
             }
         });
-        jPanel36.add(op37);
-        op37.setBounds(240, 320, 140, 23);
+        jPanel36.add(fun12op4);
+        fun12op4.setBounds(240, 320, 140, 29);
 
-        op38.setText("ES CADENA");
-        jPanel36.add(op38);
-        op38.setBounds(240, 290, 200, 23);
+        fun12op2.setText("ES CADENA");
+        jPanel36.add(fun12op2);
+        fun12op2.setBounds(240, 290, 200, 29);
 
-        op39.setText("ARIEREP");
-        jPanel36.add(op39);
-        op39.setBounds(70, 290, 110, 23);
+        fun12op1.setText("ARIEREP");
+        jPanel36.add(fun12op1);
+        fun12op1.setBounds(70, 290, 110, 29);
 
-        op40.setText("PEREIRA");
-        jPanel36.add(op40);
-        op40.setBounds(70, 320, 110, 23);
+        fun12op3.setText("PEREIRA");
+        jPanel36.add(fun12op3);
+        fun12op3.setBounds(70, 320, 110, 29);
 
         jScrollPane24.setViewportView(ejecadena2);
 
@@ -987,21 +875,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel33.setLayout(null);
 
-        op29.setText("No esta ordenado");
-        jPanel33.add(op29);
-        op29.setBounds(240, 290, 160, 23);
+        fun13op2.setText("No esta ordenado");
+        jPanel33.add(fun13op2);
+        fun13op2.setBounds(240, 290, 160, 29);
 
-        op30.setText("(4 5 6 9 8)");
-        jPanel33.add(op30);
-        op30.setBounds(240, 320, 120, 23);
+        fun13op4.setText("(4 5 6 9 8)");
+        jPanel33.add(fun13op4);
+        fun13op4.setBounds(240, 320, 120, 29);
 
-        op31.setText("esta ordenado ");
-        jPanel33.add(op31);
-        op31.setBounds(70, 290, 160, 23);
+        fun13op1.setText("esta ordenado ");
+        jPanel33.add(fun13op1);
+        fun13op1.setBounds(70, 290, 160, 29);
 
-        op32.setText("(4 5 6 8 9)");
-        jPanel33.add(op32);
-        op32.setBounds(70, 320, 120, 23);
+        fun15op3.setText("(4 5 6 8 9)");
+        jPanel33.add(fun15op3);
+        fun15op3.setBounds(70, 320, 120, 29);
 
         jScrollPane25.setViewportView(ejevector1);
 
@@ -1011,13 +899,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel34.setLayout(null);
 
-        op33.setText("17 16 15 14 13 12 11 10");
-        jPanel34.add(op33);
-        op33.setBounds(70, 290, 260, 23);
+        fun14op1.setText("17 16 15 14 13 12 11 10");
+        jPanel34.add(fun14op1);
+        fun14op1.setBounds(70, 290, 260, 29);
 
-        op34.setText("10 11 12 13 14 15 16 17 ");
-        jPanel34.add(op34);
-        op34.setBounds(70, 320, 280, 23);
+        fun14op2.setText("10 11 12 13 14 15 16 17 ");
+        jPanel34.add(fun14op2);
+        fun14op2.setBounds(70, 320, 280, 29);
 
         jScrollPane26.setViewportView(ejevector2);
 
@@ -1093,21 +981,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel39.add(jLabel45);
         jLabel45.setBounds(40, 10, 380, 270);
 
-        op49.setText("532205493");
-        jPanel39.add(op49);
-        op49.setBounds(240, 290, 120, 23);
+        fun15op2.setText("532205493");
+        jPanel39.add(fun15op2);
+        fun15op2.setBounds(240, 290, 120, 29);
 
-        op50.setText("543201293");
-        jPanel39.add(op50);
-        op50.setBounds(240, 320, 120, 23);
+        fun15op4.setText("543201293");
+        jPanel39.add(fun15op4);
+        fun15op4.setBounds(240, 320, 120, 29);
 
-        op51.setText("398102345");
-        jPanel39.add(op51);
-        op51.setBounds(70, 290, 120, 23);
+        fun15op1.setText("398102345");
+        jPanel39.add(fun15op1);
+        fun15op1.setBounds(70, 290, 120, 29);
 
         op52.setText("543261293");
         jPanel39.add(op52);
-        op52.setBounds(70, 320, 120, 23);
+        op52.setBounds(70, 320, 120, 29);
 
         jPanel41.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel41.setLayout(null);
@@ -1117,15 +1005,15 @@ public class Practicas extends javax.swing.JFrame {
         jPanel41.add(jLabel48);
         jLabel48.setBounds(60, 10, 370, 270);
         jPanel41.add(r14);
-        r14.setBounds(250, 180, 21, 21);
+        r14.setBounds(250, 180, 29, 29);
 
         op54.setText("Se llena con -1");
         jPanel41.add(op54);
-        op54.setBounds(20, 300, 200, 23);
+        op54.setBounds(20, 300, 200, 29);
 
         op55.setText("Recibe una lista infinita");
         jPanel41.add(op55);
-        op55.setBounds(20, 330, 210, 23);
+        op55.setBounds(20, 330, 210, 29);
 
         op56.setText("Imprime en pantalla la lista cuando se ingresa -1");
         op56.addActionListener(new java.awt.event.ActionListener() {
@@ -1134,7 +1022,7 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel41.add(op56);
-        op56.setBounds(20, 360, 410, 23);
+        op56.setBounds(20, 360, 410, 29);
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
         jPanel20.setLayout(jPanel20Layout);
@@ -1272,10 +1160,10 @@ public class Practicas extends javax.swing.JFrame {
         op25.setSelectedIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores1.jpg"))); // NOI18N
         jPanel31.add(op25);
         op25.setBounds(40, 300, 160, 120);
-        jPanel31.add(jRadioButton1);
-        jRadioButton1.setBounds(20, 311, 30, 100);
-        jPanel31.add(jRadioButton2);
-        jRadioButton2.setBounds(230, 311, 30, 90);
+        jPanel31.add(fun17op1);
+        fun17op1.setBounds(20, 311, 30, 100);
+        jPanel31.add(fun17op2);
+        fun17op2.setBounds(230, 311, 30, 90);
 
         jScrollPane27.setViewportView(ejegrafico1);
 
@@ -1284,10 +1172,10 @@ public class Practicas extends javax.swing.JFrame {
 
         jPanel32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel32.setLayout(null);
-        jPanel32.add(op27);
-        op27.setBounds(40, 311, 30, 90);
-        jPanel32.add(op28);
-        op28.setBounds(250, 310, 30, 80);
+        jPanel32.add(fun18op1);
+        fun18op1.setBounds(40, 311, 30, 90);
+        jPanel32.add(fun18op2);
+        fun18op2.setBounds(250, 310, 30, 80);
 
         jLabel30.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/practica/graficores3.jpg"))); // NOI18N
         jPanel32.add(jLabel30);
@@ -1354,12 +1242,12 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(menu);
-        menu.setBounds(10, 590, 80, 23);
+        menu.setBounds(10, 590, 80, 29);
 
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas.  ¿Podrás  lograrlo?");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 14);
+        jLabel3.setBounds(10, 60, 480, 20);
 
         jButton1.setText("Mi puntaje:");
         jButton1.setFocusable(false);
@@ -1369,16 +1257,12 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-<<<<<<< HEAD
         jButton1.setBounds(770, 30, 120, 40);
 
         Puntaje.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         Puntaje.setForeground(new java.awt.Color(0, 204, 51));
         jPanel1.add(Puntaje);
         Puntaje.setBounds(890, 30, 110, 40);
-=======
-        jButton1.setBounds(860, 570, 130, 23);
->>>>>>> fa69b40b62f5b3a132572ffe351f57f43380c32f
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1410,13 +1294,13 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_fun2op4ActionPerformed
 
-    private void op37ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op37ActionPerformed
+    private void fun12op4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun12op4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_op37ActionPerformed
+    }//GEN-LAST:event_fun12op4ActionPerformed
 
-    private void op45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op45ActionPerformed
+    private void fun10op4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun10op4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_op45ActionPerformed
+    }//GEN-LAST:event_fun10op4ActionPerformed
 
     private void op56ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op56ActionPerformed
         // TODO add your handling code here:
@@ -1468,6 +1352,8 @@ public class Practicas extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.ButtonGroup GRUPO3;
+    public javax.swing.ButtonGroup Grouparit1;
+    private javax.swing.ButtonGroup Grouparit2;
     private javax.swing.ButtonGroup Groupfunciones1;
     private javax.swing.ButtonGroup Groupfunciones2;
     public javax.swing.JLabel Puntaje;
@@ -1487,9 +1373,33 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JTextPane ejerecu2;
     public javax.swing.JTextPane ejevector1;
     public javax.swing.JTextPane ejevector2;
+    public javax.swing.JRadioButton fun10op1;
+    public javax.swing.JRadioButton fun10op2;
+    public javax.swing.JRadioButton fun10op3;
+    public javax.swing.JRadioButton fun10op4;
+    public javax.swing.JRadioButton fun11op1;
+    public javax.swing.JRadioButton fun11op2;
+    public javax.swing.JRadioButton fun11op3;
+    public javax.swing.JRadioButton fun11op4;
+    public javax.swing.JRadioButton fun12op1;
+    public javax.swing.JRadioButton fun12op2;
+    public javax.swing.JRadioButton fun12op3;
+    public javax.swing.JRadioButton fun12op4;
+    public javax.swing.JRadioButton fun13op1;
+    public javax.swing.JRadioButton fun13op2;
+    public javax.swing.JRadioButton fun13op4;
+    public javax.swing.JRadioButton fun14op1;
+    public javax.swing.JRadioButton fun14op2;
+    public javax.swing.JRadioButton fun15op1;
+    public javax.swing.JRadioButton fun15op2;
+    public javax.swing.JRadioButton fun15op3;
+    public javax.swing.JRadioButton fun15op4;
+    private javax.swing.JRadioButton fun17op1;
+    private javax.swing.JRadioButton fun17op2;
+    public javax.swing.JRadioButton fun18op1;
+    public javax.swing.JRadioButton fun18op2;
     public javax.swing.JRadioButton fun1op1;
     public javax.swing.JRadioButton fun1op2;
-    public javax.swing.JRadioButton fun1op3;
     public javax.swing.JRadioButton fun1op4;
     public javax.swing.JRadioButton fun2op1;
     public javax.swing.JRadioButton fun2op2;
@@ -1514,6 +1424,10 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton fun7op4;
     public javax.swing.JRadioButton fun8op1;
     public javax.swing.JRadioButton fun8op2;
+    public javax.swing.JRadioButton fun9op1;
+    public javax.swing.JRadioButton fun9op2;
+    public javax.swing.JRadioButton fun9op3;
+    public javax.swing.JRadioButton fun9op4;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
@@ -1583,8 +1497,6 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
-    private javax.swing.JRadioButton jRadioButton1;
-    private javax.swing.JRadioButton jRadioButton2;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
@@ -1617,35 +1529,9 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     public javax.swing.JButton menu;
-    public javax.swing.JRadioButton op21;
     public javax.swing.JRadioButton op22;
     public javax.swing.JRadioButton op25;
-    public javax.swing.JRadioButton op26;
-    public javax.swing.JRadioButton op27;
-    public javax.swing.JRadioButton op28;
-    public javax.swing.JRadioButton op29;
-    public javax.swing.JRadioButton op30;
-    public javax.swing.JRadioButton op31;
-    public javax.swing.JRadioButton op32;
-    public javax.swing.JRadioButton op33;
-    public javax.swing.JRadioButton op34;
-    public javax.swing.JRadioButton op35;
-    public javax.swing.JRadioButton op36;
-    public javax.swing.JRadioButton op37;
-    public javax.swing.JRadioButton op38;
-    public javax.swing.JRadioButton op39;
-    public javax.swing.JRadioButton op40;
-    public javax.swing.JRadioButton op41;
-    public javax.swing.JRadioButton op42;
-    public javax.swing.JRadioButton op43;
     public javax.swing.JRadioButton op44;
-    public javax.swing.JRadioButton op45;
-    public javax.swing.JRadioButton op46;
-    public javax.swing.JRadioButton op47;
-    public javax.swing.JRadioButton op48;
-    public javax.swing.JRadioButton op49;
-    public javax.swing.JRadioButton op50;
-    public javax.swing.JRadioButton op51;
     public javax.swing.JRadioButton op52;
     public javax.swing.JRadioButton op54;
     public javax.swing.JRadioButton op55;

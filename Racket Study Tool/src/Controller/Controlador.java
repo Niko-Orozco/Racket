@@ -1858,7 +1858,7 @@ int linea=0; //Variable Global
             Practices.Puntaje.setText(String.valueOf(puntaje));
             Practices.fun1op1.setEnabled(false);
             Practices.fun1op2.setEnabled(false);
-            Practices.fun1op3.setEnabled(false);
+            Practices.fun9op3.setEnabled(false);
             Practices.fun1op4.setEnabled(false);           
             
         });
@@ -1872,6 +1872,18 @@ int linea=0; //Variable Global
             Practices.fun2op2.setEnabled(false);
             Practices.fun2op3.setEnabled(false);
             Practices.fun2op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun3op4.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun3op1.setEnabled(false);
+            Practices.fun3op2.setEnabled(false);
+            Practices.fun3op3.setEnabled(false);
+            Practices.fun3op4.setEnabled(false);           
             
         });
         
