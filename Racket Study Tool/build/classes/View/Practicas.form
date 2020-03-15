@@ -933,7 +933,7 @@
                               <SubComponents>
                                 <Component class="javax.swing.JRadioButton" name="fun7op2">
                                   <Properties>
-                                    <Property name="text" type="java.lang.String" value="11"/>
+                                    <Property name="text" type="java.lang.String" value="21"/>
                                   </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1452,7 +1452,7 @@
                               </AuxValues>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="70" y="290" width="150" height="-1"/>
+                                  <AbsoluteConstraints x="70" y="320" width="150" height="-1"/>
                                 </Constraint>
                               </Constraints>
                             </Component>
@@ -1465,7 +1465,7 @@
                               </AuxValues>
                               <Constraints>
                                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                                  <AbsoluteConstraints x="70" y="320" width="120" height="-1"/>
+                                  <AbsoluteConstraints x="70" y="290" width="120" height="-1"/>
                                 </Constraint>
                               </Constraints>
                             </Component>

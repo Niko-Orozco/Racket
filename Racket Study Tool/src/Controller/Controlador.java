@@ -1879,6 +1879,107 @@ int linea=0; //Variable Global
             
         });
         
+        Practices.fun4op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun4op1.setEnabled(false);
+            Practices.fun4op2.setEnabled(false);
+            Practices.fun4op3.setEnabled(false);
+            Practices.fun4op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun5op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun5op1.setEnabled(false);
+            Practices.fun5op2.setEnabled(false);           
+            
+        });
+        
+        Practices.fun6op3.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun6op1.setEnabled(false);
+            Practices.fun6op2.setEnabled(false);   
+            Practices.fun6op3.setEnabled(false); 
+            
+        });
+        
+        Practices.fun7op2.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun7op1.setEnabled(false);
+            Practices.fun7op2.setEnabled(false);   
+            Practices.fun7op3.setEnabled(false); 
+            Practices.fun7op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun8op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun8op1.setEnabled(false);
+            Practices.fun8op2.setEnabled(false);            
+        });
+        
+        Practices.fun9op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun9op1.setEnabled(false);
+            Practices.fun9op2.setEnabled(false);   
+            Practices.fun9op3.setEnabled(false); 
+            Practices.fun9op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun10op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun10op1.setEnabled(false);
+            Practices.fun10op2.setEnabled(false);   
+            Practices.fun10op3.setEnabled(false); 
+            Practices.fun10op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun11op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun11op1.setEnabled(false);
+            Practices.fun11op2.setEnabled(false);   
+            Practices.fun11op3.setEnabled(false); 
+            Practices.fun11op4.setEnabled(false); 
+            
+        });
+        
+        Practices.fun12op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun12op1.setEnabled(false);
+            Practices.fun12op2.setEnabled(false);   
+            Practices.fun12op3.setEnabled(false); 
+            Practices.fun12op4.setEnabled(false); 
+            
+        });
     }
     
     public void cadenasview(){

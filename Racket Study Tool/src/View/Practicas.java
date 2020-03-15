@@ -570,7 +570,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel29.setLayout(null);
 
-        fun7op2.setText("11");
+        fun7op2.setText("21");
         jPanel29.add(fun7op2);
         fun7op2.setBounds(240, 290, 120, 29);
 
@@ -781,11 +781,11 @@ public class Practicas extends javax.swing.JFrame {
 
         fun11op1.setText("es palindrome");
         jPanel35.add(fun11op1);
-        fun11op1.setBounds(70, 290, 150, 29);
+        fun11op1.setBounds(70, 320, 150, 29);
 
         fun11op3.setText("error");
         jPanel35.add(fun11op3);
-        fun11op3.setBounds(70, 320, 120, 29);
+        fun11op3.setBounds(70, 290, 120, 29);
 
         jScrollPane23.setViewportView(ejecadena1);
 
