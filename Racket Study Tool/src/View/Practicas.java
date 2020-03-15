@@ -75,17 +75,17 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane3 = new javax.swing.JScrollPane();
         jPanel14 = new javax.swing.JPanel();
         jPanel25 = new javax.swing.JPanel();
-        op2 = new javax.swing.JRadioButton();
-        op4 = new javax.swing.JRadioButton();
-        op1 = new javax.swing.JRadioButton();
-        op3 = new javax.swing.JRadioButton();
+        fun3op2 = new javax.swing.JRadioButton();
+        fun3op4 = new javax.swing.JRadioButton();
+        fun3op1 = new javax.swing.JRadioButton();
+        fun3op3 = new javax.swing.JRadioButton();
         jScrollPane17 = new javax.swing.JScrollPane();
         ejearitmetica1 = new javax.swing.JTextPane();
         jPanel26 = new javax.swing.JPanel();
-        op8 = new javax.swing.JRadioButton();
-        op7 = new javax.swing.JRadioButton();
-        op5 = new javax.swing.JRadioButton();
-        op6 = new javax.swing.JRadioButton();
+        fun4op4 = new javax.swing.JRadioButton();
+        fun4op2 = new javax.swing.JRadioButton();
+        fun4op1 = new javax.swing.JRadioButton();
+        fun4op3 = new javax.swing.JRadioButton();
         jScrollPane18 = new javax.swing.JScrollPane();
         ejearitmetica2 = new javax.swing.JTextPane();
         jLabel11 = new javax.swing.JLabel();
@@ -95,14 +95,14 @@ public class Practicas extends javax.swing.JFrame {
         jPanel15 = new javax.swing.JPanel();
         jLabel5 = new javax.swing.JLabel();
         jPanel22 = new javax.swing.JPanel();
-        t1 = new javax.swing.JRadioButton();
-        t2 = new javax.swing.JRadioButton();
+        fun5op1 = new javax.swing.JRadioButton();
+        fun5op2 = new javax.swing.JRadioButton();
         jScrollPane19 = new javax.swing.JScrollPane();
         ejecon1 = new javax.swing.JTextPane();
         jPanel23 = new javax.swing.JPanel();
-        r1 = new javax.swing.JRadioButton();
-        r5 = new javax.swing.JRadioButton();
-        r6 = new javax.swing.JRadioButton();
+        fun6op3 = new javax.swing.JRadioButton();
+        fun6op1 = new javax.swing.JRadioButton();
+        fun6op2 = new javax.swing.JRadioButton();
         jScrollPane20 = new javax.swing.JScrollPane();
         ejecon2 = new javax.swing.JTextPane();
         jLabel9 = new javax.swing.JLabel();
@@ -111,15 +111,15 @@ public class Practicas extends javax.swing.JFrame {
         jPanel16 = new javax.swing.JPanel();
         jPanel24 = new javax.swing.JPanel();
         jPanel29 = new javax.swing.JPanel();
-        op17 = new javax.swing.JRadioButton();
-        op18 = new javax.swing.JRadioButton();
-        op19 = new javax.swing.JRadioButton();
-        op20 = new javax.swing.JRadioButton();
+        fun7op2 = new javax.swing.JRadioButton();
+        fun7op4 = new javax.swing.JRadioButton();
+        fun7op1 = new javax.swing.JRadioButton();
+        fun7op3 = new javax.swing.JRadioButton();
         jScrollPane15 = new javax.swing.JScrollPane();
         ejerecu1 = new javax.swing.JTextPane();
         jPanel30 = new javax.swing.JPanel();
-        op23 = new javax.swing.JRadioButton();
-        op24 = new javax.swing.JRadioButton();
+        fun8op1 = new javax.swing.JRadioButton();
+        fun8op2 = new javax.swing.JRadioButton();
         jScrollPane11 = new javax.swing.JScrollPane();
         ejerecu2 = new javax.swing.JTextPane();
         jLabel21 = new javax.swing.JLabel();
@@ -227,8 +227,7 @@ public class Practicas extends javax.swing.JFrame {
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         jButton1 = new javax.swing.JButton();
-        jLabel2 = new javax.swing.JLabel();
-        Puntajefun = new javax.swing.JLabel();
+        Puntaje = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -247,7 +246,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.setFocusable(false);
         jPanel27.setLayout(null);
 
-        fun1op2.setText("880");
+        fun1op2.setText("15520000.0");
         fun1op2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fun1op2ActionPerformed(evt);
@@ -256,20 +255,20 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(fun1op2);
         fun1op2.setBounds(240, 290, 120, 29);
 
-        fun1op4.setText("970");
+        fun1op4.setText("11620000.0");
         jPanel27.add(fun1op4);
         fun1op4.setBounds(240, 320, 120, 29);
 
-        fun1op1.setText("870");
+        fun1op1.setText("11520000.0");
         fun1op1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 fun1op1ActionPerformed(evt);
             }
         });
         jPanel27.add(fun1op1);
-        fun1op1.setBounds(70, 290, 100, 29);
+        fun1op1.setBounds(70, 290, 140, 29);
 
-        fun1op3.setText("879");
+        fun1op3.setText("11520030.0");
         jPanel27.add(fun1op3);
         fun1op3.setBounds(70, 320, 120, 29);
 
@@ -322,23 +321,24 @@ public class Practicas extends javax.swing.JFrame {
                 .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 81, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
+                .addGap(251, 251, 251)
                 .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         jPanel13Layout.setVerticalGroup(
             jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel13Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(12, 12, 12)
                 .addGroup(jPanel13Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel28, javax.swing.GroupLayout.DEFAULT_SIZE, 445, Short.MAX_VALUE)
                     .addComponent(jPanel27, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -349,11 +349,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel2.setLayout(jPanel2Layout);
         jPanel2Layout.setHorizontalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Funciones", jPanel2);
@@ -364,21 +364,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel25.setLayout(null);
 
-        op2.setText("342132");
-        jPanel25.add(op2);
-        op2.setBounds(240, 290, 120, 29);
+        fun3op2.setText("342132");
+        jPanel25.add(fun3op2);
+        fun3op2.setBounds(240, 290, 120, 29);
 
-        op4.setText("17000000");
-        jPanel25.add(op4);
-        op4.setBounds(240, 320, 120, 29);
+        fun3op4.setText("17000000");
+        jPanel25.add(fun3op4);
+        fun3op4.setBounds(240, 320, 120, 29);
 
-        op1.setText("170000");
-        jPanel25.add(op1);
-        op1.setBounds(70, 290, 100, 29);
+        fun3op1.setText("170000");
+        jPanel25.add(fun3op1);
+        fun3op1.setBounds(70, 290, 100, 29);
 
-        op3.setText("1700000");
-        jPanel25.add(op3);
-        op3.setBounds(70, 320, 120, 29);
+        fun3op3.setText("1700000");
+        jPanel25.add(fun3op3);
+        fun3op3.setBounds(70, 320, 120, 29);
 
         jScrollPane17.setViewportView(ejearitmetica1);
 
@@ -388,26 +388,26 @@ public class Practicas extends javax.swing.JFrame {
         jPanel26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel26.setLayout(null);
 
-        op8.setText("14.34");
-        op8.addActionListener(new java.awt.event.ActionListener() {
+        fun4op4.setText("14.34");
+        fun4op4.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                op8ActionPerformed(evt);
+                fun4op4ActionPerformed(evt);
             }
         });
-        jPanel26.add(op8);
-        op8.setBounds(240, 320, 110, 29);
+        jPanel26.add(fun4op4);
+        fun4op4.setBounds(240, 320, 110, 29);
 
-        op7.setText("15.76");
-        jPanel26.add(op7);
-        op7.setBounds(240, 290, 200, 29);
+        fun4op2.setText("15.76");
+        jPanel26.add(fun4op2);
+        fun4op2.setBounds(240, 290, 200, 29);
 
-        op5.setText("14.183");
-        jPanel26.add(op5);
-        op5.setBounds(70, 290, 110, 29);
+        fun4op1.setText("14.183");
+        jPanel26.add(fun4op1);
+        fun4op1.setBounds(70, 290, 110, 29);
 
-        op6.setText("13.45");
-        jPanel26.add(op6);
-        op6.setBounds(70, 320, 110, 29);
+        fun4op3.setText("13.45");
+        jPanel26.add(fun4op3);
+        fun4op3.setBounds(70, 320, 110, 29);
 
         jScrollPane18.setViewportView(ejearitmetica2);
 
@@ -443,7 +443,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addComponent(jLabel12, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(1, 1, 1)
                 .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel26, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel26, javax.swing.GroupLayout.DEFAULT_SIZE, 533, Short.MAX_VALUE)
                     .addComponent(jPanel25, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -472,13 +472,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
-        t1.setText("el primero es mayor que el segundo");
-        jPanel22.add(t1);
-        t1.setBounds(20, 310, 320, 29);
+        fun5op1.setText("el primero es mayor que el segundo");
+        jPanel22.add(fun5op1);
+        fun5op1.setBounds(20, 310, 320, 29);
 
-        t2.setText("El segundo numero es mayor");
-        jPanel22.add(t2);
-        t2.setBounds(20, 350, 290, 29);
+        fun5op2.setText("El segundo numero es mayor");
+        jPanel22.add(fun5op2);
+        fun5op2.setBounds(20, 350, 290, 29);
 
         jScrollPane19.setViewportView(ejecon1);
 
@@ -488,17 +488,17 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
 
-        r1.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
-        jPanel23.add(r1);
-        r1.setBounds(20, 380, 460, 29);
+        fun6op3.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
+        jPanel23.add(fun6op3);
+        fun6op3.setBounds(20, 380, 460, 29);
 
-        r5.setText("La opcion no es valida");
-        jPanel23.add(r5);
-        r5.setBounds(20, 320, 200, 29);
+        fun6op1.setText("La opcion no es valida");
+        jPanel23.add(fun6op1);
+        fun6op1.setBounds(20, 320, 200, 29);
 
-        r6.setText("reproducir El CAPITAL");
-        jPanel23.add(r6);
-        r6.setBounds(20, 350, 200, 29);
+        fun6op2.setText("reproducir El CAPITAL");
+        jPanel23.add(fun6op2);
+        fun6op2.setBounds(20, 350, 200, 29);
 
         jScrollPane20.setViewportView(ejecon2);
 
@@ -521,7 +521,7 @@ public class Practicas extends javax.swing.JFrame {
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 435, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 68, Short.MAX_VALUE))
+                        .addGap(0, 69, Short.MAX_VALUE))
                     .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         jPanel15Layout.setVerticalGroup(
@@ -547,7 +547,9 @@ public class Practicas extends javax.swing.JFrame {
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createSequentialGroup()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 471, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jTabbedPane1.addTab("Condicionales", jPanel4);
@@ -558,21 +560,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel29.setLayout(null);
 
-        op17.setText("11");
-        jPanel29.add(op17);
-        op17.setBounds(240, 290, 120, 29);
+        fun7op2.setText("11");
+        jPanel29.add(fun7op2);
+        fun7op2.setBounds(240, 290, 120, 29);
 
-        op18.setText("32");
-        jPanel29.add(op18);
-        op18.setBounds(240, 320, 120, 29);
+        fun7op4.setText("32");
+        jPanel29.add(fun7op4);
+        fun7op4.setBounds(240, 320, 120, 29);
 
-        op19.setText("13");
-        jPanel29.add(op19);
-        op19.setBounds(70, 290, 100, 29);
+        fun7op1.setText("13");
+        jPanel29.add(fun7op1);
+        fun7op1.setBounds(70, 290, 100, 29);
 
-        op20.setText("17");
-        jPanel29.add(op20);
-        op20.setBounds(70, 320, 120, 29);
+        fun7op3.setText("17");
+        jPanel29.add(fun7op3);
+        fun7op3.setBounds(70, 320, 120, 29);
 
         jScrollPane15.setViewportView(ejerecu1);
 
@@ -582,13 +584,13 @@ public class Practicas extends javax.swing.JFrame {
         jPanel30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel30.setLayout(null);
 
-        op23.setText("(3 5 7 11 13 17 19 23 29 31)");
-        jPanel30.add(op23);
-        op23.setBounds(70, 290, 260, 29);
+        fun8op1.setText("(3 5 7 11 13 17 19 23 29 31)");
+        jPanel30.add(fun8op1);
+        fun8op1.setBounds(70, 290, 260, 29);
 
-        op24.setText("(3 5 7 9 11 13 17 21 23 25)");
-        jPanel30.add(op24);
-        op24.setBounds(70, 320, 280, 29);
+        fun8op2.setText("(3 5 7 9 11 13 17 21 23 25)");
+        jPanel30.add(fun8op2);
+        fun8op2.setBounds(70, 320, 280, 29);
 
         jScrollPane11.setViewportView(ejerecu2);
 
@@ -640,11 +642,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 434, Short.MAX_VALUE)
+            .addComponent(jScrollPane5, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Recursividad", jPanel5);
@@ -733,7 +735,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addComponent(jLabel38, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(12, 12, 12)
                 .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel38, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel38, javax.swing.GroupLayout.DEFAULT_SIZE, 522, Short.MAX_VALUE)
                     .addComponent(jPanel37, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -744,11 +746,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Caracteres", jPanel6);
@@ -839,7 +841,7 @@ public class Practicas extends javax.swing.JFrame {
                 .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel35, javax.swing.GroupLayout.DEFAULT_SIZE, 386, Short.MAX_VALUE)
                     .addComponent(jPanel36, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addContainerGap(43, Short.MAX_VALUE))
+                .addContainerGap(152, Short.MAX_VALUE))
         );
 
         jScrollPane7.setViewportView(jPanel18);
@@ -848,11 +850,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 473, Short.MAX_VALUE)
+            .addComponent(jScrollPane7, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Cadenas", jPanel7);
@@ -919,7 +921,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addGroup(jPanel19Layout.createSequentialGroup()
                         .addGap(24, 24, 24)
                         .addComponent(jLabel42, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 36, Short.MAX_VALUE))
+                .addGap(0, 40, Short.MAX_VALUE))
         );
         jPanel19Layout.setVerticalGroup(
             jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1036,7 +1038,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addComponent(jLabel44, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jPanel41, javax.swing.GroupLayout.DEFAULT_SIZE, 384, Short.MAX_VALUE)
+                    .addComponent(jPanel41, javax.swing.GroupLayout.DEFAULT_SIZE, 506, Short.MAX_VALUE)
                     .addComponent(jPanel39, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(35, 35, 35))
         );
@@ -1047,11 +1049,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane9, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Listas", jPanel9);
@@ -1125,11 +1127,11 @@ public class Practicas extends javax.swing.JFrame {
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 462, Short.MAX_VALUE)
+            .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 583, Short.MAX_VALUE)
         );
 
         jTabbedPane1.addTab("Estructura de datos", jPanel10);
@@ -1190,7 +1192,7 @@ public class Practicas extends javax.swing.JFrame {
                     .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 30, Short.MAX_VALUE))
+                .addGap(0, 40, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1210,7 +1212,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 975, Short.MAX_VALUE)
+            .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 979, Short.MAX_VALUE)
         );
         jPanel11Layout.setVerticalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1237,7 +1239,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel1.add(jLabel3);
         jLabel3.setBounds(10, 60, 480, 20);
 
-        jButton1.setText("Mi puntaje");
+        jButton1.setText("Mi puntaje:");
         jButton1.setFocusable(false);
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -1245,15 +1247,12 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(860, 570, 130, 29);
+        jButton1.setBounds(770, 30, 120, 40);
 
-        jLabel2.setText("Puntaje:");
-        jPanel1.add(jLabel2);
-        jLabel2.setBounds(320, 580, 70, 20);
-
-        Puntajefun.setForeground(new java.awt.Color(0, 204, 51));
-        jPanel1.add(Puntajefun);
-        Puntajefun.setBounds(390, 580, 110, 30);
+        Puntaje.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        Puntaje.setForeground(new java.awt.Color(0, 204, 51));
+        jPanel1.add(Puntaje);
+        Puntaje.setBounds(890, 30, 110, 40);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1277,9 +1276,9 @@ public class Practicas extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void op8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_op8ActionPerformed
+    private void fun4op4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun4op4ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_op8ActionPerformed
+    }//GEN-LAST:event_fun4op4ActionPerformed
 
     private void fun2op4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun2op4ActionPerformed
         // TODO add your handling code here:
@@ -1345,7 +1344,7 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.ButtonGroup GRUPO3;
     private javax.swing.ButtonGroup Groupfunciones1;
     private javax.swing.ButtonGroup Groupfunciones2;
-    public javax.swing.JLabel Puntajefun;
+    public javax.swing.JLabel Puntaje;
     public javax.swing.JTextPane ejearitmetica1;
     public javax.swing.JTextPane ejearitmetica2;
     public javax.swing.JTextPane ejecadena1;
@@ -1370,6 +1369,25 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton fun2op2;
     public javax.swing.JRadioButton fun2op3;
     public javax.swing.JRadioButton fun2op4;
+    public javax.swing.JRadioButton fun3op1;
+    public javax.swing.JRadioButton fun3op2;
+    public javax.swing.JRadioButton fun3op3;
+    public javax.swing.JRadioButton fun3op4;
+    public javax.swing.JRadioButton fun4op1;
+    public javax.swing.JRadioButton fun4op2;
+    public javax.swing.JRadioButton fun4op3;
+    public javax.swing.JRadioButton fun4op4;
+    public javax.swing.JRadioButton fun5op1;
+    public javax.swing.JRadioButton fun5op2;
+    public javax.swing.JRadioButton fun6op1;
+    public javax.swing.JRadioButton fun6op2;
+    public javax.swing.JRadioButton fun6op3;
+    public javax.swing.JRadioButton fun7op1;
+    public javax.swing.JRadioButton fun7op2;
+    public javax.swing.JRadioButton fun7op3;
+    public javax.swing.JRadioButton fun7op4;
+    public javax.swing.JRadioButton fun8op1;
+    public javax.swing.JRadioButton fun8op2;
     private javax.swing.ButtonGroup grupo1;
     private javax.swing.ButtonGroup grupo2;
     public javax.swing.JButton jButton1;
@@ -1377,7 +1395,6 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel11;
     private javax.swing.JLabel jLabel12;
     private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
     private javax.swing.JLabel jLabel25;
@@ -1474,22 +1491,13 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JTextArea jTextArea3;
     private javax.swing.JTextArea jTextArea4;
     public javax.swing.JButton menu;
-    public javax.swing.JRadioButton op1;
-    public javax.swing.JRadioButton op17;
-    public javax.swing.JRadioButton op18;
-    public javax.swing.JRadioButton op19;
-    public javax.swing.JRadioButton op2;
-    public javax.swing.JRadioButton op20;
     public javax.swing.JRadioButton op21;
     public javax.swing.JRadioButton op22;
-    public javax.swing.JRadioButton op23;
-    public javax.swing.JRadioButton op24;
     public javax.swing.JRadioButton op25;
     public javax.swing.JRadioButton op26;
     public javax.swing.JRadioButton op27;
     public javax.swing.JRadioButton op28;
     public javax.swing.JRadioButton op29;
-    public javax.swing.JRadioButton op3;
     public javax.swing.JRadioButton op30;
     public javax.swing.JRadioButton op31;
     public javax.swing.JRadioButton op32;
@@ -1500,7 +1508,6 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op37;
     public javax.swing.JRadioButton op38;
     public javax.swing.JRadioButton op39;
-    public javax.swing.JRadioButton op4;
     public javax.swing.JRadioButton op40;
     public javax.swing.JRadioButton op41;
     public javax.swing.JRadioButton op42;
@@ -1511,21 +1518,12 @@ public class Practicas extends javax.swing.JFrame {
     public javax.swing.JRadioButton op47;
     public javax.swing.JRadioButton op48;
     public javax.swing.JRadioButton op49;
-    public javax.swing.JRadioButton op5;
     public javax.swing.JRadioButton op50;
     public javax.swing.JRadioButton op51;
     public javax.swing.JRadioButton op52;
     public javax.swing.JRadioButton op54;
     public javax.swing.JRadioButton op55;
     public javax.swing.JRadioButton op56;
-    public javax.swing.JRadioButton op6;
-    public javax.swing.JRadioButton op7;
-    public javax.swing.JRadioButton op8;
-    public javax.swing.JRadioButton r1;
     public javax.swing.JRadioButton r14;
-    public javax.swing.JRadioButton r5;
-    public javax.swing.JRadioButton r6;
-    public javax.swing.JRadioButton t1;
-    public javax.swing.JRadioButton t2;
     // End of variables declaration//GEN-END:variables
 }

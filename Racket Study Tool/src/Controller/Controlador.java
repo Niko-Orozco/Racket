@@ -1819,12 +1819,43 @@ int linea=0; //Variable Global
         //PonerColor(Practices.ejelista2, pmodel.ejelistas2());
         PonerColor(Practices.ejegrafico1, pmodel.ejegrafico1());
         PonerColor(Practices.ejegrafico2, pmodel.ejegrafico2());
+        respuestas();
         Practices.menu.addActionListener((ActionEvent e) -> {
             Practices.setVisible(false);
             menu.setVisible(true);
             iniciar();
         });
      
+    }
+    int puntaje=0;
+    int intentos=0;
+    public void respuestas(){
+        
+        
+        Practices.fun1op1.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun1op1.setEnabled(false);
+            Practices.fun1op2.setEnabled(false);
+            Practices.fun1op3.setEnabled(false);
+            Practices.fun1op4.setEnabled(false);           
+            
+        });
+        
+        Practices.fun2op3.addActionListener((ActionEvent e) -> {
+            
+            puntaje= puntaje + 10;
+            intentos= intentos +1;
+            Practices.Puntaje.setText(String.valueOf(puntaje));
+            Practices.fun2op1.setEnabled(false);
+            Practices.fun2op2.setEnabled(false);
+            Practices.fun2op3.setEnabled(false);
+            Practices.fun2op4.setEnabled(false);           
+            
+        });
+        
     }
     
     public void cadenasview(){
