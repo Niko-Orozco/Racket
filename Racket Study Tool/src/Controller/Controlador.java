@@ -167,14 +167,6 @@ public class Controlador {
         
     }
     
-    try{
-    PUBLIC VOID CREAR(){
-        
-    }
-    }catch(){
-    
-    }
-    
     public void introviews(){
         this.introview.setTitle("Introduccion");
         this.introview.setLocationRelativeTo(null);
