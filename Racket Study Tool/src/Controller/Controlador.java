@@ -1410,6 +1410,9 @@ int linea=0; //Variable Global
         PonerColor(EstrucView.code,Estrucs.defeje());
         PonerColor(EstrucView.code2,Estrucs.makeeje());
         PonerColor(EstrucView.code3,Estrucs.Ejemplo3());
+        PonerColor(EstrucView.code4,Estrucs.Ejemplo4());
+        PonerColor(EstrucView.code5,Estrucs.Ejemplo3());
+        PonerColor(EstrucView.code6,Estrucs.makeeje());
         llenar_tabla(5); 
         EstrucView.run1.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo1.setText(runCodestrcut(1));

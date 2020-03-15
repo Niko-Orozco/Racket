@@ -188,6 +188,17 @@ public class Estructuras extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel7MouseEntered(evt);
+            }
+        });
+
+        jTabbedPane1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTabbedPane1MouseEntered(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -356,7 +367,6 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code4.setFocusable(false);
         jScrollPane15.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -693,6 +703,14 @@ public class Estructuras extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jPanel7MouseEntered
+
+    private void jTabbedPane1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTabbedPane1MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jTabbedPane1MouseEntered
 
     public void SeeCode(){
         this.Codex.setVisible(true);

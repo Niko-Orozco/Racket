@@ -132,7 +132,20 @@ public class Estructuras_De_Datos {
     }
     
     public String Ejemplo4(){
-        String data =   "";
+        String data =   ";Construir un programa que nos permita agregar estructuras a un vector\n" +
+                        "\n" +
+                        "(define-struct Persona (Nombre Apellido Telefono)\n" +
+                        "(define VECTOR (vector))\n" +
+                        "(define (IngresarDatos inf)\n" +
+                        "  (if (<= inf 1)\n" +
+                        "      (begin\n" +
+                        "        (vector-set! VECTOR inf (make-Persona (read)(read)(read)))\n" +
+                        "        (IngresarDatos (+ inf 1))\n" +
+                        "       )\n" +
+                        "   )\n" +
+                        " )\n" +
+                        "\n" +
+                        "(IngresarDatos (read))";
         return data;
     }
     
