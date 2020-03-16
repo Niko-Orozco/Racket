@@ -15,7 +15,7 @@ public class Condicionales {
     
     public String Quees(){
         String data="Una expresión condicional es una instrucción o grupo de instrucciones\nque se pueden " +
-                    "ejecutar o no\n" +
+                    "ejecutar o no.\n" +
                     "\n";
         return data;
     }
@@ -25,7 +25,7 @@ public class Condicionales {
                         "ligados a los condicionales, cuando  queremos   crear una   condición,\n" +
                         "esta evalúa sentencias de  comparación que   arrojan como resultado \n" +
                         "un booleano y dependiendo de  esta   se  ejecutará   una  acción  u otra. \n" +
-                        "Los booleanos son de la forma #t -> True  o  #f   False\n" +
+                        "Los booleanos son de la forma #t -> True  o  #f   False.\n" +
                         "\n" +
                         "Ejemplo:\n" +
                         "\n" +
@@ -89,7 +89,7 @@ public class Condicionales {
                     "Al usar  la  instrucción  cond,   independiente  de si   nuestro lenguaje\n" +
                     "este en modo  estudiante  o  avanzado  la parte falsa es opcional.  Se \n" +
                     "escribe luego de  todas  las  condiciones  y  únicamente se ejecuta si  \n" +
-                    "ninguna de las condiciones anteriores es Verdadera\n" +
+                    "ninguna de las condiciones anteriores es Verdadera.\n" +
                     "\n" +
                     "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                     "Sintaxis                                                                         :\n" +
@@ -115,9 +115,9 @@ public class Condicionales {
         data =  " ;Ejemplo de if con función de suma\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función encargada de sumar los números\n\n" +
+                ";definimos la función encargada de sumar los números.\n\n" +
                 "  (define (Suma N1 N2)\n" +
                 "        (+ N1 N2)\n" +
                 "  )\n" +
@@ -138,9 +138,9 @@ public class Condicionales {
         data =  " ;Ejemplo de if con función begin y anidación\n" +
                 " \n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar.\n\n" +
                 "  (define (MayorQ10? N1 N2)\n" +
                 "       (if ( >  (+  N1 N2) 10)\n" +
                 "             (begin\n" +
@@ -169,9 +169,9 @@ public class Condicionales {
         data =  " ;Ejemplo de cond\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números \n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar.\n\n" +
                 "(define(MayorQ10? N1 N2)\n" +
                 "   (cond\n" +
                 "          [(>(+N1 N2)10)(begin(display(+ N1 N2))(display “Es mayor que 10”))]\n" +
@@ -188,9 +188,9 @@ public class Condicionales {
        data =   " ;Ejemplo de cond con else\n" +
                 "\n" +
                 " ;Construir un programa que dada la suma de dos números\n" +
-                " ;imprima si dicha suma es mayo, menor o igual a 10\n" +
+                " ;imprima si dicha suma es mayo, menor o igual a 10.\n" +
                 "\n" +
-                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar\n\n" +
+                ";definimos la función y le damos y le damos dos argumentos los datos a ingresar.\n\n" +
                 " (define(MayorQ10? N1 N2)\n" +
                 "  (cond\n" +
                 "        [(>(+ N1 N2)10)(begin (display(+ N1 N2))(display “Es Mayor que 10”))]\n" +
@@ -205,7 +205,7 @@ public class Condicionales {
     public String Ejemplo5(){
        String data;
        data =   ";proposito: elabore un programa al cual le lleguen 3 numeros y determine cual de ellos es el \n" +
-            ";mayor(mostrar el numero mayor)\n" +
+            ";mayor[mostrar el numero mayor].\n" +
             "\n" +
             ";plantilla\n" +
             "(define (num_mayor n1 n2 n3)\n" +

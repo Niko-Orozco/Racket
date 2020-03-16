@@ -143,7 +143,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter1.setFocusable(false);
         jScrollPane11.setViewportView(caracter1);
 
-        jLabel9.setText("¿Que son Caracteres?");
+        jLabel9.setText("¿Qué son Caracteres?");
 
         caracter2.setColumns(20);
         caracter2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
@@ -170,7 +170,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter4.setFocusable(false);
         jScrollPane14.setViewportView(caracter4);
 
-        jLabel15.setText("COMENTARIOS");
+        jLabel15.setText("Comentarios");
 
         caracter5.setColumns(20);
         caracter5.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
@@ -179,7 +179,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter5.setFocusable(false);
         jScrollPane15.setViewportView(caracter5);
 
-        jLabel16.setText("Documentacion");
+        jLabel16.setText("Documentación");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -294,6 +294,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -347,6 +348,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane10.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -400,6 +402,7 @@ public class CaracteresView extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane16.setViewportView(code4);
 
         verinfo4.setColumns(20);

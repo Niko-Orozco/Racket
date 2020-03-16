@@ -138,7 +138,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es un bucle?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es un bucle?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -149,7 +149,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es la iteracion?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es la iteraci&#xf3;n?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -187,7 +187,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es la recursividad?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es la recursividad?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -794,6 +794,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -903,6 +904,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -969,7 +971,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion de una recursion mediante la torre de hanoi"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n de una recursi&#xf3;n mediante la torre de Hanoi"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -1060,7 +1062,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Sylfaen" size="24" style="3"/>
+              <Font name="Sylfaen" size="24" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Recursividad"/>
             <Property name="focusable" type="boolean" value="false"/>

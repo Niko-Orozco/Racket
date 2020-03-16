@@ -125,11 +125,11 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Condicionales");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(10, 20, 160, 30);
+        jLabel2.setBounds(10, 20, 240, 30);
 
         jPanel2.setBackground(new java.awt.Color(252, 252, 252));
         jPanel2.setFocusable(false);
@@ -149,7 +149,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel3.setText("Boleanos y Relaciones");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es una condicional?");
+        jLabel4.setText("¿Qué es una condicional?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("Condicional IF");
@@ -452,6 +452,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane20.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -506,6 +507,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel10.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane22.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -570,7 +572,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel8.add(jLabel9);
         jLabel9.setBounds(0, 0, 240, 230);
 
-        jLabel10.setText("Reprecentacion grafica de un condicional");
+        jLabel10.setText("Reprecentasión gráfica de un condicional");
         jLabel10.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");
