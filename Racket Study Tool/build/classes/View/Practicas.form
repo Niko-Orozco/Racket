@@ -64,14 +64,14 @@
         <Component class="javax.swing.JLabel" name="jLabel1">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="24" style="1"/>
+              <Font name="Sylfaen" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="&#xa1;&#xbf;Que tanto has aprendido?!"/>
+            <Property name="text" type="java.lang.String" value="&#xa1;&#xbf;Qu&#xe9; tanto has aprendido?!"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="300" y="0" width="400" height="50"/>
+              <AbsoluteConstraints x="320" y="0" width="400" height="50"/>
             </Constraint>
           </Constraints>
         </Component>
@@ -238,6 +238,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejefuncion1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -328,6 +334,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejefuncion2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -338,13 +350,13 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel16">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                             <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel20">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                             <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
@@ -503,6 +515,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejearitmetica1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -592,6 +610,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejearitmetica2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -602,12 +626,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel11">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 250 en el read(), cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 250 en el read(), &#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel12">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 15 en el read(), cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 15 en el read(), &#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -694,7 +718,7 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel5">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Selecione la opcion correcta"/>
+                            <Property name="text" type="java.lang.String" value="Selecione la opci&#xf3;n correcta"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel22">
@@ -712,8 +736,11 @@
                           <SubComponents>
                             <Component class="javax.swing.JRadioButton" name="fun5op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="el primero es mayor que el segundo"/>
+                                <Property name="text" type="java.lang.String" value="El primero es mayor que el segundo"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun5op1ActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -749,6 +776,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecon1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -772,7 +805,7 @@
                           <SubComponents>
                             <Component class="javax.swing.JRadioButton" name="fun6op3">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE"/>
+                                <Property name="text" type="java.lang.String" value="Reproducir HARRY POTTER AND THE HALF BLOOD PRINCE"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -785,8 +818,11 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun6op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="La opcion no es valida"/>
+                                <Property name="text" type="java.lang.String" value="La opc&#xf3;n no es v&#xe1;lida"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun6op1ActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -798,7 +834,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun6op2">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="reproducir El CAPITAL"/>
+                                <Property name="text" type="java.lang.String" value="Reproducir El CAPITAL"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -822,6 +858,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecon2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -832,7 +874,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel9">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Cual de las siguientes imagenes de codigo da como salida  T = 34"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cual de las siguientes imagenes de codigo da como salida  T = 34?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -999,6 +1041,12 @@
                                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                   <SubComponents>
                                     <Component class="javax.swing.JTextPane" name="ejerecu1">
+                                      <Properties>
+                                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                          <Color id="Cursor Por defecto"/>
+                                        </Property>
+                                        <Property name="focusable" type="boolean" value="false"/>
+                                      </Properties>
                                       <AuxValues>
                                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                       </AuxValues>
@@ -1059,6 +1107,12 @@
                                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                   <SubComponents>
                                     <Component class="javax.swing.JTextPane" name="ejerecu2">
+                                      <Properties>
+                                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                          <Color id="Cursor Por defecto"/>
+                                        </Property>
+                                        <Property name="focusable" type="boolean" value="false"/>
+                                      </Properties>
                                       <AuxValues>
                                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                       </AuxValues>
@@ -1069,7 +1123,7 @@
                             </Container>
                             <Component class="javax.swing.JLabel" name="jLabel21">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="cual seria la salida si ingresamos 7 en el read?"/>
+                                <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida si ingresamos 7 en el read?"/>
                               </Properties>
                             </Component>
                           </SubComponents>
@@ -1150,12 +1204,12 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel37">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel38">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel37">
@@ -1236,6 +1290,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecaracter1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1288,8 +1348,11 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun10op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="es vocal"/>
+                                <Property name="text" type="java.lang.String" value="Es vocal"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun10op1ActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -1301,7 +1364,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun10op3">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="no es vocal"/>
+                                <Property name="text" type="java.lang.String" value="No es vocal"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1325,6 +1388,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecaracter2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1422,8 +1491,11 @@
                           <SubComponents>
                             <Component class="javax.swing.JRadioButton" name="fun11op2">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="no es palindrome"/>
+                                <Property name="text" type="java.lang.String" value="No es pal&#xed;ndromo"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun11op2ActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -1435,7 +1507,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun11op4">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="es vocal"/>
+                                <Property name="text" type="java.lang.String" value="Es vocal"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1448,7 +1520,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun11op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="es palindrome"/>
+                                <Property name="text" type="java.lang.String" value="Es palindrome"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1461,7 +1533,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun11op3">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="error"/>
+                                <Property name="text" type="java.lang.String" value="Error"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1485,6 +1557,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecadena1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1574,6 +1652,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecadena2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1584,12 +1668,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel35">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel36">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1694,8 +1778,11 @@
                           <SubComponents>
                             <Component class="javax.swing.JRadioButton" name="fun13op2">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="No esta ordenado"/>
+                                <Property name="text" type="java.lang.String" value="No est&#xe1; ordenado"/>
                               </Properties>
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="fun13op2ActionPerformed"/>
+                              </Events>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                               </AuxValues>
@@ -1720,7 +1807,7 @@
                             </Component>
                             <Component class="javax.swing.JRadioButton" name="fun13op1">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="esta ordenado "/>
+                                <Property name="text" type="java.lang.String" value="Est&#xe1; ordenado "/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1757,6 +1844,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejevector1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1817,6 +1910,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejevector2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1827,12 +1926,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel29">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel42">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1913,12 +2012,12 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel43">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel44">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Que hace la siguiente funci&#xf3;n? discuta su respues con su compa&#xf1;ero "/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; hace la siguiente funci&#xf3;n? discuta su respuesta con su compa&#xf1;ero "/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel39">
@@ -1999,6 +2098,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejelista1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2078,6 +2183,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejelista2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2167,7 +2278,7 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel46">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalue el codigo"/>
+                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en Dr. Racket y eval&#xfa;e el c&#xf3;digo"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel40">
@@ -2244,7 +2355,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel47">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalue el codigo"/>
+                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en Dr. Racket y eval&#xfa;e el c&#xf3;digo"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -2396,6 +2507,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejegrafico1">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2474,6 +2591,12 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejegrafico2">
+                                  <Properties>
+                                    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                                      <Color id="Cursor Por defecto"/>
+                                    </Property>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2484,7 +2607,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel25">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida si ingresamos 7 en el read?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida si ingresamos 7 en el read?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -2508,12 +2631,15 @@
           </AuxValues>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="590" width="80" height="-1"/>
+              <AbsoluteConstraints x="10" y="590" width="90" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Sylfaen" size="14" style="0"/>
+            </Property>
             <Property name="text" type="java.lang.String" value="Ejercicios para reforzar el aprendizaje de los temas.  &#xbf;Podr&#xe1;s  lograrlo?"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
@@ -2544,10 +2670,7 @@
         <Component class="javax.swing.JLabel" name="jLabel2">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Tahoma" size="24" style="0"/>
-            </Property>
-            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-              <Color blue="ff" green="66" red="0" type="rgb"/>
+              <Font name="Sylfaen" size="24" style="0"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Mi Puntaje:"/>
           </Properties>

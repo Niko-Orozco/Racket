@@ -62,8 +62,8 @@ public class Recursividad {
     }
     
     public String recursividad3(){
-        String data =   "En   programación,   una   iteración   es   la   repetición   de   una   serie  de \n" +
-                        "instrucciones en un programa de computadora";
+        String data =   "En   programación,   una   iteración   es   la   repetisión   de   una   serie  de \n" +
+                        "instrucciones en un programa de computadora.";
         return data;
     }
     

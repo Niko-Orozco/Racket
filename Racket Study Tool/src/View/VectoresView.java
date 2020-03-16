@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -161,10 +164,10 @@ public class VectoresView extends javax.swing.JFrame {
         quevect.setFocusable(false);
         jScrollPane1.setViewportView(quevect);
 
-        jLabel3.setText("Creacion de Vectores");
+        jLabel3.setText("Creación de Vectores");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es un Vector?");
+        jLabel4.setText("¿Qué es un Vector?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("vector-ref");
@@ -322,6 +325,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -375,6 +379,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane16.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -428,6 +433,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane18.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -481,6 +487,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane20.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -534,6 +541,7 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane22.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -589,8 +597,13 @@ public class VectoresView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Reprecentacion grafica de un Vector");
+        jLabel15.setText("Reprecentasión gráfica de un Vector");
         jLabel15.setFocusable(false);
 
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));
@@ -724,11 +737,11 @@ public class VectoresView extends javax.swing.JFrame {
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Vectores");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 10, 170, 30);
+        jLabel2.setBounds(20, 10, 200, 50);
 
         jLabel10.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel10);
@@ -794,6 +807,15 @@ public class VectoresView extends javax.swing.JFrame {
     private void v4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_v4ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+       try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

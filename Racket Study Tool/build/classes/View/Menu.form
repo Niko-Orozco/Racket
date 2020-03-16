@@ -459,7 +459,7 @@
                         </Property>
                         <Property name="lineWrap" type="boolean" value="true"/>
                         <Property name="rows" type="int" value="5"/>
-                        <Property name="text" type="java.lang.String" value="&#xa;  El software tiene como objetivo brindarle a estudiantes de ingenieria de  &#xa;  sistemas  de  primer  semestre  una guia  para  el  desarrollo  del  curso  &#xa;  Programacion I,   donde  abordaran  el paradigma funcional, conoceran &#xa;  sus ventajas, desventajas y aplicaciones."/>
+                        <Property name="text" type="java.lang.String" value="&#xa;  El software tiene como objetivo brindarle a estudiantes de ingenieria de  &#xa;  sistemas  de  primer  semestre  una guia  para  el  desarrollo  del  curso  &#xa;  Programacion I,   donde  abordar&#xe1;n  el paradigma funcional, conocer&#xe1;n &#xa;  sus ventajas, desventajas y aplicaciones."/>
                         <Property name="toolTipText" type="java.lang.String" value=""/>
                         <Property name="wrapStyleWord" type="boolean" value="true"/>
                         <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">

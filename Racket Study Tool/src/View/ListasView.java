@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -161,11 +164,11 @@ public class ListasView extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Listas");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 20, 160, 30);
+        jLabel2.setBounds(20, 20, 160, 40);
 
         jPanel2.setBackground(new java.awt.Color(252, 252, 252));
         jPanel2.setFocusable(false);
@@ -176,7 +179,7 @@ public class ListasView extends javax.swing.JFrame {
         listas1.setFocusable(false);
         jScrollPane11.setViewportView(listas1);
 
-        jLabel9.setText("¿Que es una lista?");
+        jLabel9.setText("¿Qué es una lista?");
         jLabel9.setFocusable(false);
 
         listas2.setColumns(20);
@@ -185,7 +188,7 @@ public class ListasView extends javax.swing.JFrame {
         listas2.setFocusable(false);
         jScrollPane12.setViewportView(listas2);
 
-        jLabel10.setText("La funcion list");
+        jLabel10.setText("La función list");
         jLabel10.setFocusable(false);
 
         listas3.setColumns(20);
@@ -387,6 +390,7 @@ public class ListasView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -771,6 +775,11 @@ public class ListasView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         PasoPaso.setText("Paso a Paso");
         PasoPaso.setFocusable(false);
@@ -874,6 +883,15 @@ public class ListasView extends javax.swing.JFrame {
     private void run8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run8ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -6,7 +6,10 @@
 package View;
 
 import Controller.Controlador;
+import java.awt.Desktop;
 import java.awt.event.ActionEvent;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
@@ -44,8 +47,6 @@ public class Estructuras extends javax.swing.JFrame {
         numerolinea = new NumeroLinea(code5);
         jScrollPane17.setRowHeaderView(numerolinea);
         
-        numerolinea = new NumeroLinea(code6);
-        jScrollPane19.setRowHeaderView(numerolinea);
     }
 
     /**
@@ -109,13 +110,6 @@ public class Estructuras extends javax.swing.JFrame {
         verinfo5 = new javax.swing.JTextArea();
         jLabel21 = new javax.swing.JLabel();
         run5 = new javax.swing.JButton();
-        jPanel10 = new javax.swing.JPanel();
-        jScrollPane19 = new javax.swing.JScrollPane();
-        code6 = new javax.swing.JTextPane();
-        jScrollPane20 = new javax.swing.JScrollPane();
-        verinfo6 = new javax.swing.JTextArea();
-        jLabel22 = new javax.swing.JLabel();
-        run6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
@@ -163,7 +157,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(27, 190, 215, 22);
 
-        jLabel4.setText("¿Que es una estructura de datos?");
+        jLabel4.setText("¿Qué es una estructura de datos?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(27, 11, 184, 22);
@@ -188,6 +182,17 @@ public class Estructuras extends javax.swing.JFrame {
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jPanel7MouseEntered(evt);
+            }
+        });
+
+        jTabbedPane1.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseEntered(java.awt.event.MouseEvent evt) {
+                jTabbedPane1MouseEntered(evt);
+            }
+        });
 
         jPanel3.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -461,66 +466,18 @@ public class Estructuras extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Ejemplo 5", jPanel9);
 
-        jPanel10.setBackground(new java.awt.Color(252, 252, 252));
-
-        code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane19.setViewportView(code6);
-
-        verinfo6.setColumns(20);
-        verinfo6.setRows(5);
-        verinfo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo6.setFocusable(false);
-        jScrollPane20.setViewportView(verinfo6);
-
-        jLabel22.setText("Consola");
-
-        run6.setText("Ejecutar");
-        run6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run6ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane19)
-                    .addComponent(jScrollPane20, javax.swing.GroupLayout.DEFAULT_SIZE, 581, Short.MAX_VALUE)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run6)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("Ejemplo 6", jPanel10);
-
         jLabel7.setText("Ejemplos");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Reprecentacion grafica de una estructura de datos");
+        jLabel15.setText("Reprecentasión gráfica de una estructura de datos");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
@@ -636,11 +593,11 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Estructuras de datos ");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 10, 170, 30);
+        jLabel2.setBounds(20, 10, 360, 40);
 
         jLabel6.setBackground(new java.awt.Color(252, 252, 252));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
@@ -690,9 +647,22 @@ public class Estructuras extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run5ActionPerformed
 
-    private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run6ActionPerformed
+    private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jPanel7MouseEntered
+
+    private void jTabbedPane1MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jTabbedPane1MouseEntered
+        this.Codex.setVisible(false);
+    }//GEN-LAST:event_jTabbedPane1MouseEntered
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     public void SeeCode(){
         this.Codex.setVisible(true);
@@ -752,7 +722,6 @@ public class Estructuras extends javax.swing.JFrame {
     public javax.swing.JTextPane code3;
     public javax.swing.JTextPane code4;
     public javax.swing.JTextPane code5;
-    public javax.swing.JTextPane code6;
     public javax.swing.JTextArea defstruct;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -762,7 +731,6 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -770,7 +738,6 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -789,9 +756,7 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane16;
     private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane18;
-    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -807,12 +772,10 @@ public class Estructuras extends javax.swing.JFrame {
     public javax.swing.JButton run3;
     public javax.swing.JButton run4;
     public javax.swing.JButton run5;
-    public javax.swing.JButton run6;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;
     public javax.swing.JTextArea verinfo4;
     public javax.swing.JTextArea verinfo5;
-    public javax.swing.JTextArea verinfo6;
     // End of variables declaration//GEN-END:variables
 }

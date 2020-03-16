@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
@@ -160,7 +163,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane5);
         jScrollPane5.setBounds(20, 440, 439, 140);
 
-        jLabel5.setText("¿Que es un argumento?");
+        jLabel5.setText("¿Qué es un argumento?");
         jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(20, 410, 400, 22);
@@ -234,6 +237,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -287,6 +291,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane12.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -504,75 +509,80 @@ public class FuncionesView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jLabel15.setText("Funciones que operan con valores numericos");
         jLabel15.setFocusable(false);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"*", "(* num1 num2) -> num", "Multiplicacion"},
+                {"*", "(* num1 num2) -> num", "Multiplicación"},
                 {"+", "(+ num1 num2) -> num", "Suma"},
                 {"-", "(-  num1 num2) -> num", "Resta"},
-                {"/", "(/  num1 num2) -> num", "Division"},
+                {"/", "(/  num1 num2) -> num", "División"},
                 {"<", "(< num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"},
                 {"<=", "<= num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"},
                 {">", "(>  num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"},
                 {">=", "(>= num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es mayor o igual devuelve #t, sino #f"},
                 {"abs", "(abs  num) -> num", "Valor absoluto de un numero"},
                 {"acos", "(acos  num) -> num", "Arco-coseno"},
-                {"add1", "(add1  num) -> num+1", "Aumenta un numero en 1"},
+                {"add1", "(add1  num) -> num+1", "Aumenta un número en 1"},
                 {"angle", "(angle  num) -> num", "Calcula el angulo de un real"},
                 {"asin", "(asin  num) -> num", "Arco-seno"},
                 {"atan", "(atan  num) -> num", "Arco-tangente"},
                 {"ceiling", "(celing  num) -> num", "Aproxima un valor real"},
-                {"complex?", "(any  data) -> #t o #f", "Evalua si algo es un numero complejo"},
-                {"conjugate", "(conjugate  num) -> num", "El conjugado complejo de un numero"},
+                {"complex?", "(any  data) -> #t o #f", "Evalúa si algo es un número complejo"},
+                {"conjugate", "(conjugate  num) -> num", "El conjugado complejo de un número"},
                 {"cos", "(cos  num) -> num", "Coseno"},
                 {"cosh", "(cosh  num) -> num", "Coseno Hiperbolico"},
                 {"current-secconds", "date", "Devuelve la hora actual en segundos"},
                 {"e", "( e ) -> num", "''e'' es Euler 2.718281"},
-                {"event?", "(even?  num) -> #t o #f", "Prueba un numero para una propiedad particular devolviendo segun sea el caso #t o #f"},
+                {"event?", "(even?  num) -> #t o #f", "Prueba un número para una propiedad particular devolviendo segun sea el caso #t o #f"},
                 {"exact->inexact", "(exact->inexact  num) -> num", "Las operaciones especiales exact->inexact son vasados en los tipos de datos numericos asegurando que el tipo respectivo es exacto o no"},
-                {"exact?", "(exact?  num) -> #t  o #f", "Nos dice si el numero es exacto o no"},
+                {"exact?", "(exact?  num) -> #t  o #f", "Nos dice si el número es exacto o no"},
                 {"exp", "(exp num) -> num", "Devuelve el valor de Euler elevado a la potencia indicada"},
-                {"expt", "(expt num1 num2) -> num", "Eleva un numero a determinada potencia"},
+                {"expt", "(expt num1 num2) -> num", "Eleva un número a determinada potencia"},
                 {"floor", "(floor num) -> num", "Aproxima a piso"},
                 {"gcd", "(gcd num1 num2) -> num", "Maximo comun divisor"},
-                {"imag-part", "(image-part  num ) -> num", "Devuelve la parte imaginaria de un numero complejo en coordenadas rectangulares"},
+                {"imag-part", "(image-part  num ) -> num", "Devuelve la parte imaginaria de un número complejo en coordenadas rectangulares"},
                 {"integer->char", "(integer->char num) -> char", "Entero o Caracter"},
-                {"integer-sqrt", "(integer-sqrt  num) -> raiz( num)", "Saca la raiz de un numero entero"},
-                {"integer?", "(integer? any) -> #f t o #f", "Nos dice si algo es un numero entero o no"},
-                {"log", "(log  num) -> num", "Calcula el logaritmo de un numero"},
-                {"magnitude", "(magnitude  num) -> num", "Devuelve la magnitud de un numero complejo en coordenadas rectangulares"},
-                {"make-polar", "(make-polar num1 num2) -> num", "Devuelve el resultado de la operacion (+(* magnitude (cos num))(* magnitude (cos num)))"},
-                {"make-rectangular", "(make-rectangular num1 num2) -> num", "Devuelve el resultado de la operacion (+ x (* y + 0+li))"},
-                {"max", "(max num1  num2) -> num", "Evalua dos o mas numeros y nos dice cual es el mayor de todos"},
-                {"min", "(min num1  num2) -> num", "Evalua dos o mas numeros y nos dice cual es el menor de todos"},
-                {"modulo", "(modulo num1  num2) -> num", "Devuelve el modulo de la division entre dos numeros"},
-                {"negative?", "(negative?  num) -> #t  o #f", "Evalua un numero y dice si es negativo o no"},
+                {"integer-sqrt", "(integer-sqrt  num) -> raiz( num)", "Saca la raiz de un número entero"},
+                {"integer?", "(integer? any) -> #f t o #f", "Nos dice si algo es un número entero o no"},
+                {"log", "(log  num) -> num", "Calcula el logaritmo de un número"},
+                {"magnitude", "(magnitude  num) -> num", "Devuelve la magnitud de un número complejo en coordenadas rectangulares"},
+                {"make-polar", "(make-polar num1 num2) -> num", "Devuelve el resultado de la operación (+(* magnitude (cos num))(* magnitude (cos num)))"},
+                {"make-rectangular", "(make-rectangular num1 num2) -> num", "Devuelve el resultado de la operación (+ x (* y + 0+li))"},
+                {"max", "(max num1  num2) -> num", "Evalúa dos o mas números y nos dice cual es el mayor de todos"},
+                {"min", "(min num1  num2) -> num", "Evalúa dos o mas números y nos dice cual es el menor de todos"},
+                {"modulo", "(modulo num1  num2) -> num", "Devuelve el modulo de la division entre dos números"},
+                {"negative?", "(negative?  num) -> #t  o #f", "Evalúa un número y dice si es negativo o no"},
                 {"number->string", "(number->string num) -> string", "Devuelve una cadena que es la forma impresa de num es la base especificada por r (2,8,10,16)"},
-                {"number?", "(number? any) -> #f t o #f", "Evalua el valor y nos dice si es un numero"},
-                {"numerator", "(numerator num) -> num", "Encuentra el numerado del numero expresado, obliga al numero racinal a ser un numero exacto"},
+                {"number?", "(number? any) -> #f t o #f", "Evalúa el valor y nos dice si es un número"},
+                {"numerator", "(numerator num) -> num", "Encuentra el numerado del número expresado, obliga al número racinal a ser un número exacto"},
                 {"odd?", "(add? num) -> #f t o #f", "Devuelve el resultado de evaluar (not(even? n))"},
                 {"Pi", "( Pi ) -> num", "''pi'' es igual a:3.14159265"},
                 {"positive?", "(positive? num) -> #f t o #f", "Devuelve #t si num es mayor a 0, #f en caso contrario"},
-                {"quotient", "(quotient num1  num2) -> num", "Devuelve el cociente de la division entre dos numeros"},
-                {"random", "( random ) -> num", "Devuelve un numero aleatorio"},
-                {"rational?", "(rational? any) -> #f t o #f", "Devuelve #t si any es un numero racional, #f en otro caso"},
-                {"real-part", "(real-part num) -> num", "Devuelve la parte real de un numero complejo en coordenadas rectangulares"},
-                {"real?", "(real? any) -> #f t o #f", "Evalua un valor y nos dice si es real"},
-                {"remainder", "(reminder  num1  num2) -> num", "Devuelve el residuo de la division entre dos numeros"},
-                {"round", "(round  num) -> num", "Redondea un numero"},
-                {"sgn", "(sgn  num) -> num", "Devuelve el signo de un numero como -1,0,1"},
-                {"sin", "(sin  num) -> num", "Devuelve el seno de un numero"},
-                {"sinh", "(sinh  num) -> num", "Devuelve el seno hiperbolico de un numero"},
-                {"sqrt", "(sqrt  num) -> raiz(num)", "Calcula la raiz cuadrada de un numero"},
-                {"sub1", "(sub1  num) -> num-1", "Devuelve el resultado de la operacion (- num 1)"},
-                {"tan", "(tan  num) -> num", "Devuelve la tagente de un numero"},
-                {"zero?", "(zero? num) -> #f t o #f", "Evalua un numero y nos dice si es cero o no"}
+                {"quotient", "(quotient num1  num2) -> num", "Devuelve el cociente de la division entre dos números"},
+                {"random", "( random ) -> num", "Devuelve un número aleatorio"},
+                {"rational?", "(rational? any) -> #f t o #f", "Devuelve #t si any es un número racional, #f en otro caso"},
+                {"real-part", "(real-part num) -> num", "Devuelve la parte real de un número complejo en coordenadas rectangulares"},
+                {"real?", "(real? any) -> #f t o #f", "Evalúa un valor y nos dice si es real"},
+                {"remainder", "(reminder  num1  num2) -> num", "Devuelve el residuo de la división entre dos número"},
+                {"round", "(round  num) -> num", "Redondea un número"},
+                {"sgn", "(sgn  num) -> num", "Devuelve el signo de un número como -1,0,1"},
+                {"sin", "(sin  num) -> num", "Devuelve el seno de un número"},
+                {"sinh", "(sinh  num) -> num", "Devuelve el seno hiperbolico de un número"},
+                {"sqrt", "(sqrt  num) -> raiz(num)", "Calcula la raiz cuadrada de un número"},
+                {"sub1", "(sub1  num) -> num-1", "Devuelve el resultado de la operación (- num 1)"},
+                {"tan", "(tan  num) -> num", "Devuelve la tagente de un número"},
+                {"zero?", "(zero? num) -> #f t o #f", "Evalúa un número y nos dice si es cero o no"}
             },
             new String [] {
-                "Funcion", "Entrada-salida", "Descripcion"
+                "Función", "Entrada-salida", "Descripción"
             }
         ) {
             Class[] types = new Class [] {
@@ -705,6 +715,15 @@ public class FuncionesView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

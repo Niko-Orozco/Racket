@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -133,12 +136,12 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
 
-        jLabel4.setText("Modo Grafico");
+        jLabel4.setText("Modo Gráfico");
         jLabel4.setFocusable(false);
         jPanel3.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
-        jLabel5.setText("Funciones Basicas");
+        jLabel5.setText("Funciones Básicas");
         jLabel5.setFocusable(false);
         jPanel3.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
@@ -388,8 +391,13 @@ public class GraficoView extends javax.swing.JFrame {
 
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Ejemplo modo grafico y uso de botones");
+        jLabel15.setText("Ejemplo modo gráfico y uso de botones");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
@@ -421,7 +429,19 @@ public class GraficoView extends javax.swing.JFrame {
                                 .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE))))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
+<<<<<<< HEAD
                         .addComponent(EjemplosGraficos, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)))
+=======
+                        .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(16, 16, 16)
+                        .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(EjemplosGraficos, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jScrollPane7, javax.swing.GroupLayout.PREFERRED_SIZE, 559, javax.swing.GroupLayout.PREFERRED_SIZE))))
+>>>>>>> 751bb22ede152f04447fa25e0188a9ff6a5057cc
                 .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanel7Layout.setVerticalGroup(
@@ -458,7 +478,7 @@ public class GraficoView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel2.add(menu);
-        menu.setBounds(1040, 700, 70, 30);
+        menu.setBounds(1010, 700, 100, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel2.setText("Graphics");
@@ -482,7 +502,7 @@ public class GraficoView extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 752, Short.MAX_VALUE)
         );
 
         pack();
@@ -500,9 +520,20 @@ public class GraficoView extends javax.swing.JFrame {
         // TODO add your handling code here:
     }//GEN-LAST:event_run4ActionPerformed
 
+<<<<<<< HEAD
     private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
 
     }//GEN-LAST:event_run1ActionPerformed
+=======
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
+>>>>>>> 751bb22ede152f04447fa25e0188a9ff6a5057cc
 
     /**
      * @param args the command line arguments

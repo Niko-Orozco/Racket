@@ -245,11 +245,11 @@ public class Practicas extends javax.swing.JFrame {
 
         jPanel1.setLayout(null);
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jLabel1.setText("¡¿Que tanto has aprendido?!");
+        jLabel1.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
+        jLabel1.setText("¡¿Qué tanto has aprendido?!");
         jLabel1.setFocusable(false);
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(300, 0, 400, 50);
+        jLabel1.setBounds(320, 0, 400, 50);
 
         jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane2.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
@@ -284,6 +284,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(fun1op3);
         fun1op3.setBounds(70, 320, 120, 23);
 
+        ejefuncion1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejefuncion1.setFocusable(false);
         jScrollPane12.setViewportView(ejefuncion1);
 
         jPanel27.add(jScrollPane12);
@@ -314,15 +316,17 @@ public class Practicas extends javax.swing.JFrame {
         jPanel28.add(fun2op3);
         fun2op3.setBounds(70, 320, 110, 23);
 
+        ejefuncion2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejefuncion2.setFocusable(false);
         jScrollPane16.setViewportView(ejefuncion2);
 
         jPanel28.add(jScrollPane16);
         jScrollPane16.setBounds(30, 30, 400, 230);
 
-        jLabel16.setText("cual seria la salida?");
+        jLabel16.setText("¿Cuál sería la salida?");
         jLabel16.setFocusable(false);
 
-        jLabel20.setText("cual seria la salida?");
+        jLabel20.setText("¿Cuál sería la salida?");
         jLabel20.setFocusable(false);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
@@ -392,6 +396,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.add(fun3op3);
         fun3op3.setBounds(70, 320, 120, 23);
 
+        ejearitmetica1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejearitmetica1.setFocusable(false);
         jScrollPane17.setViewportView(ejearitmetica1);
 
         jPanel25.add(jScrollPane17);
@@ -421,14 +427,16 @@ public class Practicas extends javax.swing.JFrame {
         jPanel26.add(fun4op3);
         fun4op3.setBounds(70, 320, 110, 23);
 
+        ejearitmetica2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejearitmetica2.setFocusable(false);
         jScrollPane18.setViewportView(ejearitmetica2);
 
         jPanel26.add(jScrollPane18);
         jScrollPane18.setBounds(30, 30, 400, 230);
 
-        jLabel11.setText("Si ingresamos el valor 250 en el read(), cual seria la salida?");
+        jLabel11.setText("Si ingresamos el valor 250 en el read(), ¿Cuál sería la salida?");
 
-        jLabel12.setText("Si ingresamos el valor 15 en el read(), cual seria la salida?");
+        jLabel12.setText("Si ingresamos el valor 15 en el read(), ¿Cuál sería la salida?");
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -479,12 +487,17 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane4.setToolTipText("");
         jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel5.setText("Selecione la opcion correcta");
+        jLabel5.setText("Selecione la opción correcta");
 
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
-        fun5op1.setText("el primero es mayor que el segundo");
+        fun5op1.setText("El primero es mayor que el segundo");
+        fun5op1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fun5op1ActionPerformed(evt);
+            }
+        });
         jPanel22.add(fun5op1);
         fun5op1.setBounds(20, 310, 320, 23);
 
@@ -492,6 +505,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.add(fun5op2);
         fun5op2.setBounds(20, 350, 290, 23);
 
+        ejecon1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecon1.setFocusable(false);
         jScrollPane19.setViewportView(ejecon1);
 
         jPanel22.add(jScrollPane19);
@@ -500,24 +515,31 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel23.setLayout(null);
 
-        fun6op3.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
+        fun6op3.setText("Reproducir HARRY POTTER AND THE HALF BLOOD PRINCE");
         jPanel23.add(fun6op3);
         fun6op3.setBounds(20, 380, 460, 23);
 
-        fun6op1.setText("La opcion no es valida");
+        fun6op1.setText("La opcón no es válida");
+        fun6op1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fun6op1ActionPerformed(evt);
+            }
+        });
         jPanel23.add(fun6op1);
         fun6op1.setBounds(20, 320, 200, 23);
 
-        fun6op2.setText("reproducir El CAPITAL");
+        fun6op2.setText("Reproducir El CAPITAL");
         jPanel23.add(fun6op2);
         fun6op2.setBounds(20, 350, 200, 23);
 
+        ejecon2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecon2.setFocusable(false);
         jScrollPane20.setViewportView(ejecon2);
 
         jPanel23.add(jScrollPane20);
         jScrollPane20.setBounds(30, 30, 400, 240);
 
-        jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
+        jLabel9.setText("¿Cual de las siguientes imagenes de codigo da como salida  T = 34?");
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -588,6 +610,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.add(fun7op3);
         fun7op3.setBounds(70, 320, 120, 23);
 
+        ejerecu1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejerecu1.setFocusable(false);
         jScrollPane15.setViewportView(ejerecu1);
 
         jPanel29.add(jScrollPane15);
@@ -604,12 +628,14 @@ public class Practicas extends javax.swing.JFrame {
         jPanel30.add(fun8op2);
         fun8op2.setBounds(70, 320, 280, 23);
 
+        ejerecu2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejerecu2.setFocusable(false);
         jScrollPane11.setViewportView(ejerecu2);
 
         jPanel30.add(jScrollPane11);
         jScrollPane11.setBounds(20, 20, 430, 250);
 
-        jLabel21.setText("cual seria la salida si ingresamos 7 en el read?");
+        jLabel21.setText("¿Cuál sería la salida si ingresamos 7 en el read?");
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
@@ -666,9 +692,9 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel37.setText("cual seria la salida?");
+        jLabel37.setText("¿Cuál sería la salida?");
 
-        jLabel38.setText("cual seria la salida?");
+        jLabel38.setText("¿Cuál sería la salida?");
 
         jPanel37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel37.setLayout(null);
@@ -689,6 +715,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(fun9op3);
         fun9op3.setBounds(70, 320, 120, 23);
 
+        ejecaracter1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecaracter1.setFocusable(false);
         jScrollPane21.setViewportView(ejecaracter1);
 
         jPanel37.add(jScrollPane21);
@@ -710,14 +738,21 @@ public class Practicas extends javax.swing.JFrame {
         jPanel38.add(fun10op2);
         fun10op2.setBounds(240, 290, 200, 23);
 
-        fun10op1.setText("es vocal");
+        fun10op1.setText("Es vocal");
+        fun10op1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fun10op1ActionPerformed(evt);
+            }
+        });
         jPanel38.add(fun10op1);
         fun10op1.setBounds(70, 290, 110, 23);
 
-        fun10op3.setText("no es vocal");
+        fun10op3.setText("No es vocal");
         jPanel38.add(fun10op3);
         fun10op3.setBounds(70, 320, 140, 23);
 
+        ejecaracter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecaracter2.setFocusable(false);
         jScrollPane22.setViewportView(ejecaracter2);
 
         jPanel38.add(jScrollPane22);
@@ -773,22 +808,29 @@ public class Practicas extends javax.swing.JFrame {
         jPanel35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel35.setLayout(null);
 
-        fun11op2.setText("no es palindrome");
+        fun11op2.setText("No es palíndromo");
+        fun11op2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fun11op2ActionPerformed(evt);
+            }
+        });
         jPanel35.add(fun11op2);
         fun11op2.setBounds(240, 290, 170, 23);
 
-        fun11op4.setText("es vocal");
+        fun11op4.setText("Es vocal");
         jPanel35.add(fun11op4);
         fun11op4.setBounds(240, 320, 150, 23);
 
-        fun11op1.setText("es palindrome");
+        fun11op1.setText("Es palindrome");
         jPanel35.add(fun11op1);
         fun11op1.setBounds(70, 320, 150, 23);
 
-        fun11op3.setText("error");
+        fun11op3.setText("Error");
         jPanel35.add(fun11op3);
         fun11op3.setBounds(70, 290, 120, 23);
 
+        ejecadena1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecadena1.setFocusable(false);
         jScrollPane23.setViewportView(ejecadena1);
 
         jPanel35.add(jScrollPane23);
@@ -818,14 +860,16 @@ public class Practicas extends javax.swing.JFrame {
         jPanel36.add(fun12op3);
         fun12op3.setBounds(70, 320, 110, 23);
 
+        ejecadena2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecadena2.setFocusable(false);
         jScrollPane24.setViewportView(ejecadena2);
 
         jPanel36.add(jScrollPane24);
         jScrollPane24.setBounds(30, 30, 400, 240);
 
-        jLabel35.setText("cual seria la salida?");
+        jLabel35.setText("¿Cuál sería la salida?");
 
-        jLabel36.setText("cual seria la salida?");
+        jLabel36.setText("¿Cuál sería la salida?");
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -877,7 +921,12 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel33.setLayout(null);
 
-        fun13op2.setText("No esta ordenado");
+        fun13op2.setText("No está ordenado");
+        fun13op2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                fun13op2ActionPerformed(evt);
+            }
+        });
         jPanel33.add(fun13op2);
         fun13op2.setBounds(240, 290, 160, 23);
 
@@ -885,7 +934,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.add(fun13op4);
         fun13op4.setBounds(240, 320, 120, 23);
 
-        fun13op1.setText("esta ordenado ");
+        fun13op1.setText("Está ordenado ");
         jPanel33.add(fun13op1);
         fun13op1.setBounds(70, 290, 160, 23);
 
@@ -893,6 +942,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.add(fun13op3);
         fun13op3.setBounds(70, 320, 120, 23);
 
+        ejevector1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejevector1.setFocusable(false);
         jScrollPane25.setViewportView(ejevector1);
 
         jPanel33.add(jScrollPane25);
@@ -909,14 +960,16 @@ public class Practicas extends javax.swing.JFrame {
         jPanel34.add(fun14op2);
         fun14op2.setBounds(70, 320, 280, 23);
 
+        ejevector2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejevector2.setFocusable(false);
         jScrollPane26.setViewportView(ejevector2);
 
         jPanel34.add(jScrollPane26);
         jScrollPane26.setBounds(30, 30, 400, 240);
 
-        jLabel29.setText("cual seria la salida?");
+        jLabel29.setText("¿Cuál sería la salida?");
 
-        jLabel42.setText("cual seria la salida?");
+        jLabel42.setText("¿Cuál sería la salida?");
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -972,9 +1025,9 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane9.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane9.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel43.setText("cual seria la salida?");
+        jLabel43.setText("¿Cuál sería la salida?");
 
-        jLabel44.setText("Que hace la siguiente función? discuta su respues con su compañero ");
+        jLabel44.setText("¿Qué hace la siguiente función? discuta su respuesta con su compañero ");
 
         jPanel39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel39.setLayout(null);
@@ -995,6 +1048,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel39.add(fun15op3);
         fun15op3.setBounds(70, 320, 120, 23);
 
+        ejelista1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejelista1.setFocusable(false);
         jScrollPane29.setViewportView(ejelista1);
 
         jPanel39.add(jScrollPane29);
@@ -1025,6 +1080,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel41.add(fun16op3);
         fun16op3.setBounds(20, 360, 410, 23);
 
+        ejelista2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejelista2.setFocusable(false);
         jScrollPane30.setViewportView(ejelista2);
 
         jPanel41.add(jScrollPane30);
@@ -1076,7 +1133,7 @@ public class Practicas extends javax.swing.JFrame {
 
         jScrollPane10.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-        jLabel46.setText("Ingrese el ejemplo en racket y evalue el codigo");
+        jLabel46.setText("Ingrese el ejemplo en Dr. Racket y evalúe el código");
 
         jPanel40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel40.setLayout(null);
@@ -1100,7 +1157,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel42.add(jScrollPane14);
         jScrollPane14.setBounds(20, 20, 900, 310);
 
-        jLabel47.setText("Ingrese el ejemplo en racket y evalue el codigo");
+        jLabel47.setText("Ingrese el ejemplo en Dr. Racket y evalúe el código");
 
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
@@ -1171,6 +1228,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.add(fun17op2);
         fun17op2.setBounds(230, 311, 30, 90);
 
+        ejegrafico1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejegrafico1.setFocusable(false);
         jScrollPane27.setViewportView(ejegrafico1);
 
         jPanel31.add(jScrollPane27);
@@ -1191,12 +1250,14 @@ public class Practicas extends javax.swing.JFrame {
         jPanel32.add(jLabel31);
         jLabel31.setBounds(270, 310, 160, 90);
 
+        ejegrafico2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejegrafico2.setFocusable(false);
         jScrollPane28.setViewportView(ejegrafico2);
 
         jPanel32.add(jScrollPane28);
         jScrollPane28.setBounds(30, 30, 400, 240);
 
-        jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
+        jLabel25.setText("¿Cuál sería la salida si ingresamos 7 en el read?");
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
@@ -1248,23 +1309,23 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(menu);
-        menu.setBounds(10, 590, 80, 23);
+        menu.setBounds(10, 590, 90, 23);
 
+        jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas.  ¿Podrás  lograrlo?");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 14);
+        jLabel3.setBounds(10, 60, 480, 19);
 
         Puntaje.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         Puntaje.setForeground(new java.awt.Color(0, 204, 51));
         jPanel1.add(Puntaje);
         Puntaje.setBounds(890, 30, 110, 50);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 102, 255));
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Mi Puntaje:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(760, 40, 130, 29);
+        jLabel2.setBounds(760, 40, 130, 33);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1317,6 +1378,26 @@ public class Practicas extends javax.swing.JFrame {
     private void fun16op2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun16op2ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_fun16op2ActionPerformed
+
+    private void fun5op1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun5op1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fun5op1ActionPerformed
+
+    private void fun6op1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun6op1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fun6op1ActionPerformed
+
+    private void fun10op1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun10op1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fun10op1ActionPerformed
+
+    private void fun11op2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun11op2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fun11op2ActionPerformed
+
+    private void fun13op2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fun13op2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fun13op2ActionPerformed
 
     
     /**

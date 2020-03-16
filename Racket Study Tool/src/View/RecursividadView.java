@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -145,12 +148,12 @@ public class RecursividadView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
 
-        jLabel4.setText("¿Que es un bucle?");
+        jLabel4.setText("¿Qué es un bucle?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
-        jLabel5.setText("¿Que es la iteracion?");
+        jLabel5.setText("¿Qué es la iteración?");
         jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
@@ -164,7 +167,7 @@ public class RecursividadView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane3);
         jScrollPane3.setBounds(50, 240, 413, 140);
 
-        jLabel9.setText("¿Que es la recursividad?");
+        jLabel9.setText("¿Qué es la recursividad?");
         jLabel9.setFocusable(false);
         jPanel2.add(jLabel9);
         jLabel9.setBounds(50, 210, 184, 22);
@@ -392,6 +395,7 @@ public class RecursividadView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo #4", jPanel9);
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane16.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -443,6 +447,7 @@ public class RecursividadView extends javax.swing.JFrame {
         jTabbedPane1.addTab("Ejemplo #5", jPanel10);
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane18.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -498,8 +503,13 @@ public class RecursividadView extends javax.swing.JFrame {
 
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Reprecentacion de una recursion mediante la torre de hanoi");
+        jLabel15.setText("Reprecentasión de una recursión mediante la torre de Hanoi");
         jLabel15.setFocusable(false);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
@@ -525,7 +535,7 @@ public class RecursividadView extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -574,9 +584,9 @@ public class RecursividadView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 70, 30);
+        menu.setBounds(1020, 700, 90, 30);
 
-        jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Recursividad");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
@@ -624,6 +634,15 @@ public class RecursividadView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -378,7 +381,7 @@ public class Menu extends javax.swing.JFrame {
         jTextArea1.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
         jTextArea1.setLineWrap(true);
         jTextArea1.setRows(5);
-        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de  \n  sistemas  de  primer  semestre  una guia  para  el  desarrollo  del  curso  \n  Programacion I,   donde  abordaran  el paradigma funcional, conoceran \n  sus ventajas, desventajas y aplicaciones.");
+        jTextArea1.setText("\n  El software tiene como objetivo brindarle a estudiantes de ingenieria de  \n  sistemas  de  primer  semestre  una guia  para  el  desarrollo  del  curso  \n  Programacion I,   donde  abordarán  el paradigma funcional, conocerán \n  sus ventajas, desventajas y aplicaciones.");
         jTextArea1.setToolTipText("");
         jTextArea1.setWrapStyleWord(true);
         jTextArea1.setBorder(null);
@@ -1387,7 +1390,12 @@ public class Menu extends javax.swing.JFrame {
     }//GEN-LAST:event_CerrarActionPerformed
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
+       try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed

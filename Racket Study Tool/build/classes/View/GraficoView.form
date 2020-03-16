@@ -34,7 +34,7 @@
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Component id="jPanel1" alignment="0" pref="780" max="32767" attributes="0"/>
+          <Component id="jPanel1" alignment="0" pref="752" max="32767" attributes="0"/>
       </Group>
     </DimensionLayout>
   </Layout>
@@ -163,7 +163,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel4">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Modo Grafico"/>
+                        <Property name="text" type="java.lang.String" value="Modo Gr&#xe1;fico"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -174,7 +174,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel5">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Funciones Basicas"/>
+                        <Property name="text" type="java.lang.String" value="Funciones B&#xe1;sicas"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -252,6 +252,7 @@
                   <Layout>
                     <DimensionLayout dim="0">
                       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< HEAD
                           <Group type="102" attributes="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -268,6 +269,15 @@
                                               <Component id="jScrollPane7" alignment="0" min="-2" pref="559" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
+=======
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jButton2" min="-2" pref="107" max="-2" attributes="0"/>
+>>>>>>> 751bb22ede152f04447fa25e0188a9ff6a5057cc
                                   </Group>
                                   <Group type="102" alignment="0" attributes="0">
                                       <EmptySpace max="-2" attributes="0"/>
@@ -768,13 +778,16 @@
                         <Property name="text" type="java.lang.String" value="Ayuda"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
+                      <Events>
+                        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                      </Events>
                       <AuxValues>
                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                       </AuxValues>
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Ejemplo modo grafico y uso de botones"/>
+                        <Property name="text" type="java.lang.String" value="Ejemplo modo gr&#xe1;fico y uso de botones"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
@@ -849,7 +862,7 @@
               </AuxValues>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="1040" y="700" width="70" height="30"/>
+                  <AbsoluteConstraints x="1010" y="700" width="100" height="30"/>
                 </Constraint>
               </Constraints>
             </Component>

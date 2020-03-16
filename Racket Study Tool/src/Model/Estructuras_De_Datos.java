@@ -27,7 +27,7 @@ public class Estructuras_De_Datos {
     } 
     
     public String defstruct(){
-        String data =   "En   DrRacket   definir   una   estructura  es sencillo, se  logra mediante\n" +
+        String data =   "En     Racket   definir   una   estructura  es sencillo, se  logra mediante\n" +
                         "el procedimiento: (define-struct.)\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
@@ -43,7 +43,7 @@ public class Estructuras_De_Datos {
     public String makestr(){
         String data =   "La función make-struct nos sirve para agregar datos a  la estructura, \n" +
                         "pero   para   esto   debe   de   estar   previamente   creada  mediante \n" +
-                        "define-struct\n" +
+                        "define-struct.\n" +
                         "\n" +
                         "Veamos cómo es:\n" +
                         "(define-struct Empleados (nombre apellido)\n" +
@@ -132,17 +132,39 @@ public class Estructuras_De_Datos {
     }
     
     public String Ejemplo4(){
-        String data =   "";
+        String data =   ";Construir un programa que nos permita agregar estructuras a un vector\n" +
+                        "\n" +
+                        "(define-struct Persona (Nombre Apellido Telefono)\n" +
+                        "(define VECTOR (vector))\n" +
+                        "(define (IngresarDatos inf)\n" +
+                        "  (if (<= inf 1)\n" +
+                        "      (begin\n" +
+                        "        (vector-set! VECTOR inf (make-Persona (read)(read)(read)))\n" +
+                        "        (IngresarDatos (+ inf 1))\n" +
+                        "       )\n" +
+                        "   )\n" +
+                        " )\n" +
+                        "\n" +
+                        "(IngresarDatos (read))";
         return data;
     }
     
     public String Ejemplo5(){
-        String data =   "";
-        return data;
-    }
-    
-    public String Ejemplo6(){
-        String data =   "";
+        String data =   ";Contruir una función en Racket que nos consulte los datos de la estructura creada en el\n" +
+                        ";ejercicio número 4 de esta sección\n" +
+                        "(define (ConsultarDatos inf)\n" +
+                        " (if (<= inf 5)\n" +
+                        " (begin\n" +
+                        "  (display \"Persona \")   (display (+ inf 1)) (newline)\n" +
+                        "  (display \"Nombre: \")   (display (Persona-Nombre(vector-ref VECTOR inf ))) (newline)\n" +
+                        "  (display \"Apellido: \")   (display (Persona-Apellido(vector-ref VECTOR inf )))(newline)\n" +
+                        "  (display \"Teléfono: \")  (display (Persona-Teléfono(vector-ref VECTOR inf )))(newline)(newline)\n" +
+                        "        (ConsultarDatos (+ inf 1))\n" +
+                        "     )\n" +
+                        "  )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ConsultarDatos 0)";
         return data;
     }
     

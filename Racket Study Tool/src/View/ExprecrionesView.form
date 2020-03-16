@@ -102,7 +102,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que son los operadores logicos y de comparacion?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; son los operadores logicos y de comparaci&#xf3;n?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -113,7 +113,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una expresion aritmetica?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una expresi&#xf3;n aritmetica?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -417,6 +417,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -528,6 +529,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -639,6 +641,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -750,6 +753,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -861,6 +865,7 @@
                                 <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
                                   <Color id="Cursor Por defecto"/>
                                 </Property>
+                                <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <AuxValues>
                                 <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -921,6 +926,9 @@
                     <Property name="text" type="java.lang.String" value="ayuda"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
@@ -959,7 +967,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel16">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="operadores logicos y comparacion"/>
+                        <Property name="text" type="java.lang.String" value="Operadores logicos y comparaci&#xf3;n"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -1151,7 +1159,7 @@
                             </Component>
                             <Component class="javax.swing.JLabel" name="jLabel10">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Calculadora con operasiones basicas"/>
+                                <Property name="text" type="java.lang.String" value="Calculadora con operasiones b&#xe1;sicas"/>
                                 <Property name="focusable" type="boolean" value="false"/>
                               </Properties>
                               <Constraints>
@@ -1194,7 +1202,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Expresiones Matematicas basicas"/>
+                        <Property name="text" type="java.lang.String" value="Expresiones matem&#xe1;ticas b&#xe1;sicas"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
@@ -1257,7 +1265,7 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Sylfaen" size="18" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Expresiones matematicas"/>
+            <Property name="text" type="java.lang.String" value="Expresiones matem&#xe1;ticas"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>

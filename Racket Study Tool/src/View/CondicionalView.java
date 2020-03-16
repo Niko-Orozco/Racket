@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -125,7 +128,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Condicionales");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
@@ -149,7 +152,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jLabel3.setText("Boleanos y Relaciones");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es una condicional?");
+        jLabel4.setText("¿Qué es una condicional?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("Condicional IF");
@@ -283,7 +286,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF", jPanel3);
+        jTabbedPane1.addTab("Ejemplo 1", jPanel3);
 
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -337,7 +340,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("IF-begin", jPanel4);
+        jTabbedPane1.addTab("Ejemplo 2", jPanel4);
 
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
@@ -391,7 +394,7 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond", jPanel5);
+        jTabbedPane1.addTab("Ejemplo 3", jPanel5);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
         jPanel6.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
@@ -446,12 +449,13 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond-begin", jPanel6);
+        jTabbedPane1.addTab("Ejemplo 4", jPanel6);
 
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
         jPanel9.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane20.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -500,12 +504,13 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("Mayor de 3", jPanel9);
+        jTabbedPane1.addTab("Ejemplo 5", jPanel9);
 
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane22.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -554,13 +559,18 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond-begin", jPanel10);
+        jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
         jLabel7.setText("Ejemplos");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setLayout(null);
@@ -570,7 +580,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel8.add(jLabel9);
         jLabel9.setBounds(0, 0, 240, 230);
 
-        jLabel10.setText("Reprecentacion grafica de un condicional");
+        jLabel10.setText("Reprecentación gráfica de un condicional");
         jLabel10.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");
@@ -597,11 +607,11 @@ public class CondicionalView extends javax.swing.JFrame {
                         .addGap(23, 23, 23))))
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 13, Short.MAX_VALUE))
+                .addGap(0, 15, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PasoPaso, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(21, 21, 21))
+                .addGap(31, 31, 31))
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -663,6 +673,15 @@ public class CondicionalView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

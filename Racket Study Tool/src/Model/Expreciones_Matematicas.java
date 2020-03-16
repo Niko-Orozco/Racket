@@ -16,7 +16,7 @@ public class Expreciones_Matematicas {
     
     public String expreciones1(){
         String data =   "Se entiende por expresión aritmética a aquella donde los operandos que \n" +
-                        "intervienen  en  dicha expresión son números, el resultado es un numero \n" +
+                        "intervienen  en  dicha expresión son números, el resultado es un número \n" +
                         "y los operadores son aritméticos.\n" +
                         "\n" +
                         "+,  - ,  * ,  /";
@@ -31,22 +31,22 @@ public class Expreciones_Matematicas {
                         "- - - - - - - - - - - - - - - - - - - \n" +
                         "Sintaxis                            :\n" +
                         "(Si (< a  b)                       :\n" +
-                        "       (escribir: a)              :\n" +
+                        "       (escribir  a)              :\n" +
                         "sino                                  :\n" +
-                        "       (escribir: b)              :\n" +
+                        "       (escribir  b)              :\n" +
                         ")                                         :\n" +
                         "- - - - - - - - - - - - - - - - - - - \n" +
                         "Ejemplo                           :\n" +
                         "(if (< a  b)                         :\n" +
-                        "       (display: a)               :\n" +
-                        "       (display: b)               :\n" +
+                        "       (display a)                :\n" +
+                        "       (display b)                :\n" +
                         ")                                         :\n" +
                         "- - - - - - - - - - - - - - - - - - - ";
         return data;
     }
      
       public String Ejeexpreciones1(){
-        String data =   ";Calcular el área de un anillo\n\n" +
+        String data =   ";Calcular el área de un anillo.\n\n" +
                         "\n" +
                         "(define (AreaAnillo R-int R-ext)\n" +
                         "         (-  (* pi (expt R-ext 2)) (* pi (expt R-int 2))) \n" +
@@ -62,7 +62,7 @@ public class Expreciones_Matematicas {
     }
       
     public String Ejeexpreciones2(){
-        String data =   ";Desarrolle un programa que nos diga cual es el area del Arco de una Circunferencia\n" +
+        String data =   ";Desarrolle un programa que nos diga cual es el área del arco de una circunferencia.\n" +
                         "\n" +
                         "(define (ArcoCircunferencia)\n" +
                         "     (display \"de radio: \")\n" +
@@ -78,14 +78,14 @@ public class Expreciones_Matematicas {
     }
     
     public String Ejeexpreciones3(){
-        String data =   ";Definir una función que calcule la distancia entre dos puntos de una recta\n" +
+        String data =   ";Definir una función que calcule la distancia entre dos puntos de una recta.\n" +
                         "\n" +
                         ";La fórmula para esto es:  raíz [ [x2-x1]^2 + [y2-y1]^2 ]\n" +
                         "\n" +
-                        ";Creamos la función de distancia\n\n" +
+                        ";Creamos la función de distancia.\n\n" +
                         "\n" +
                         "(define (Distancia x1 x2 y1 y2)\n" +
-                        "          (displayln \"Distancia\")\n" +
+                        "          (display \"Distancia\")\n" +
                         "          (sqrt (+ (expt (- x2 x1) 2) (expt (- y2 y1) 2)) ) \n" +
                         ")\n" +
                         "\n" +
@@ -94,7 +94,7 @@ public class Expreciones_Matematicas {
     }
     
     public String Ejeexpreciones4(){
-        String data =   ";Diseñe un programa en racket que nos diga cual es la pendiente de una racta\n\n" +
+        String data =   ";Diseñe un programa en racket que nos diga cual es la pendiente de una racta.\n\n" +
                         "\n" +
                         "(define (PendienteReckta)\n" +
                         "    (display \"Valor y2= \")\n" +
@@ -114,7 +114,7 @@ public class Expreciones_Matematicas {
     }
     
     public String Ejeexpreciones5(){
-        String data =   ";Desarrolle un programa que nos calcule el area de un Tetraedro\n\n" +
+        String data =   ";Desarrolle un programa que nos calcule el área de un tetraedro.\n\n" +
                         "(define (AreaTetraedro)\n" +
                         "     (display \"de el valor  a\")\n" +
                         "     (define a (read))\n" +
@@ -127,7 +127,7 @@ public class Expreciones_Matematicas {
     }
     
     public String Ejeexpreciones6(){
-        String data =   ";Desarrolle un programa que nos calcule el volumen de un Octaedro\n\n" +
+        String data =   ";Desarrolle un programa que nos calcule el volumen de un octaedro.\n\n" +
                         "(define (VolumenOctaedro)\n" +
                         "    (display \" de el valor de a \")\n" +
                         "    (define a (read))\n" +

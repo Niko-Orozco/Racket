@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -168,11 +171,11 @@ public class CadenasView extends javax.swing.JFrame {
         quecadena.setFocusable(false);
         jScrollPane1.setViewportView(quecadena);
 
-        jLabel3.setText("Creacion de cadenas");
+        jLabel3.setText("Creación de cadenas.");
 
-        jLabel4.setText("¿Que es una cadena?");
+        jLabel4.setText("¿Qué es una cadena?");
 
-        jLabel5.setText("La funcion (String?)");
+        jLabel5.setText("La función (String?).");
 
         lenghtcadena.setColumns(20);
         lenghtcadena.setRows(5);
@@ -194,7 +197,7 @@ public class CadenasView extends javax.swing.JFrame {
         setcadena.setFocusable(false);
         jScrollPane11.setViewportView(setcadena);
 
-        jLabel9.setText("Modificacion de cadenas");
+        jLabel9.setText("Modificación de cadenas");
 
         strcomparar.setColumns(20);
         strcomparar.setRows(5);
@@ -202,7 +205,7 @@ public class CadenasView extends javax.swing.JFrame {
         strcomparar.setFocusable(false);
         jScrollPane12.setViewportView(strcomparar);
 
-        jLabel10.setText("Comparacion de cadenas");
+        jLabel10.setText("Comparación de cadenas.");
 
         cadunion.setColumns(20);
         cadunion.setRows(5);
@@ -210,7 +213,7 @@ public class CadenasView extends javax.swing.JFrame {
         cadunion.setFocusable(false);
         jScrollPane14.setViewportView(cadunion);
 
-        jLabel16.setText("Union de cadenas");
+        jLabel16.setText("Unión de cadenas.");
 
         caracdena.setColumns(20);
         caracdena.setRows(5);
@@ -218,7 +221,7 @@ public class CadenasView extends javax.swing.JFrame {
         caracdena.setFocusable(false);
         jScrollPane15.setViewportView(caracdena);
 
-        jLabel17.setText("Caracteres de una cadena");
+        jLabel17.setText("Caracteres de una cadena.");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -244,7 +247,7 @@ public class CadenasView extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -348,6 +351,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("make-string", jPanel3);
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -399,6 +403,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string?", jPanel4);
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane16.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -450,6 +455,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string-length", jPanel5);
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane18.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -501,6 +507,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string-append", jPanel6);
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane20.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -552,6 +559,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string-ref", jPanel8);
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane22.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -603,6 +611,7 @@ public class CadenasView extends javax.swing.JFrame {
         jTabbedPane1.addTab("string-set!", jPanel9);
 
         code7.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code7.setFocusable(false);
         jScrollPane24.setViewportView(code7);
 
         verinfo7.setColumns(20);
@@ -658,8 +667,13 @@ public class CadenasView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Reprecentacion de una cadena en Racket");
+        jLabel15.setText("Reprecentasión de una cadena en Racket");
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/cadenas.jpg"))); // NOI18N
         jLabel11.setFocusable(false);
@@ -691,8 +705,8 @@ public class CadenasView extends javax.swing.JFrame {
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel7Layout.createSequentialGroup()
                                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(415, 415, 415)
-                                .addComponent(jButton2))
+                                .addGap(386, 386, 386)
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
@@ -737,10 +751,10 @@ public class CadenasView extends javax.swing.JFrame {
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Cadenas y Strings");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 10, 170, 30);
+        jLabel2.setBounds(20, 10, 400, 30);
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel24);
@@ -787,6 +801,15 @@ public class CadenasView extends javax.swing.JFrame {
     private void run7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run7ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -128,11 +131,11 @@ public class ParesView extends javax.swing.JFrame {
         jPanel1.setMinimumSize(new java.awt.Dimension(1070, 705));
         jPanel1.setLayout(null);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 0, 24)); // NOI18N
         jLabel2.setText("Pares");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 20, 160, 30);
+        jLabel2.setBounds(20, 20, 170, 40);
 
         jPanel2.setBackground(new java.awt.Color(252, 252, 252));
         jPanel2.setFocusable(false);
@@ -149,10 +152,10 @@ public class ParesView extends javax.swing.JFrame {
         paresview1.setFocusable(false);
         jScrollPane1.setViewportView(paresview1);
 
-        jLabel3.setText("la Funcion cons");
+        jLabel3.setText("la Función cons");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es un Par?");
+        jLabel4.setText("¿Qué es un Par?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("Car");
@@ -295,6 +298,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane8.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -348,6 +352,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel5.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane10.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -455,6 +460,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane13.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -508,6 +514,7 @@ public class ParesView extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane14.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -563,6 +570,11 @@ public class ParesView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         PasoPaso.setText("Paso a Paso");
         PasoPaso.setFocusable(false);
@@ -577,7 +589,7 @@ public class ParesView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 83, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jTabbedPane1))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
@@ -596,7 +608,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(PasoPaso)
-                .addGap(0, 21, Short.MAX_VALUE))
+                .addGap(0, 22, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel7);
@@ -605,7 +617,7 @@ public class ParesView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(983, 700, 80, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
@@ -658,6 +670,15 @@ public class ParesView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

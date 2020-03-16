@@ -7,9 +7,12 @@ package View;
 import Model.SimuladorArbolBinario;
 import View.SmsHelp.Sms1;
 import java.awt.BorderLayout;
+import java.awt.Desktop;
 import java.awt.Image;
 import java.awt.Rectangle;
 import java.awt.Toolkit;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 import javax.swing.JInternalFrame;
 import javax.swing.JLayeredPane;
@@ -127,10 +130,10 @@ public class IntroView extends javax.swing.JFrame {
         intro5.setFocusable(false);
         jScrollPane4.setViewportView(intro5);
 
-        jLabel7.setText("¿Que es Dr.Racket?");
+        jLabel7.setText("¿Qué es Racket?");
         jLabel7.setFocusable(false);
 
-        jLabel8.setText("¿Que es la programacion funcional?");
+        jLabel8.setText("¿Qué es la programación funcional?");
         jLabel8.setFocusable(false);
 
         intro6.setColumns(20);
@@ -139,7 +142,7 @@ public class IntroView extends javax.swing.JFrame {
         intro6.setFocusable(false);
         jScrollPane9.setViewportView(intro6);
 
-        jLabel13.setText("Paradigmas de la programacion");
+        jLabel13.setText("Paradigmas de la programación");
         jLabel13.setFocusable(false);
 
         intro7.setColumns(20);
@@ -225,6 +228,11 @@ public class IntroView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
         jPanel8.add(jButton2);
         jButton2.setBounds(623, 10, 80, 23);
 
@@ -326,7 +334,7 @@ public class IntroView extends javax.swing.JFrame {
         jInternalFrame2.setFocusable(false);
         jInternalFrame2.setVisible(true);
 
-        jLabel10.setText("Tipos de notacion");
+        jLabel10.setText("Tipos de notación");
         jLabel10.setFocusable(false);
 
         javax.swing.GroupLayout jInternalFrame2Layout = new javax.swing.GroupLayout(jInternalFrame2.getContentPane());
@@ -427,8 +435,8 @@ public class IntroView extends javax.swing.JFrame {
         jPanel6.add(menu);
         menu.setBounds(1160, 690, 73, 23);
 
-        jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
-        jLabel18.setText("Introduccion");
+        jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
+        jLabel18.setText("Introducción");
         jLabel18.setFocusable(false);
         jPanel6.add(jLabel18);
         jLabel18.setBounds(10, 20, 250, 30);
@@ -535,6 +543,15 @@ public class IntroView extends javax.swing.JFrame {
         sms1.setVisible(false);
         hidelaebl();
     }//GEN-LAST:event_jPanel2MouseEntered
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     public void complementos(){
         this.repintarArbol();
