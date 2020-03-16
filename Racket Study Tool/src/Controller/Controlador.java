@@ -1443,11 +1443,6 @@ int linea=0; //Variable Global
         EstrucView.adddata.addActionListener((ActionEvent e) -> {
             addata();
         });
-        /*EstrucView.seecode.addActionListener((ActionEvent e) -> {
-            Codex = new codex();
-            Codex.setVisible(true);
-            SeeCode();
-        });*/
         EstrucView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             EstrucView.setVisible(false);
@@ -1731,6 +1726,8 @@ int linea=0; //Variable Global
         PonerColor(ConView.code2, Condi.EjeIfbegin()); 
         PonerColor(ConView.code3, Condi.EjeCond());
         PonerColor(ConView.code4, Condi.EjeCondbegin());
+        PonerColor(ConView.code5, Condi.Ejemplo5());
+        PonerColor(ConView.code6, Condi.Ejemplo6());
         ConView.run1.addActionListener((ActionEvent e) -> {
             RConCode(1);
         });
@@ -1742,6 +1739,12 @@ int linea=0; //Variable Global
         });
         ConView.run4.addActionListener((ActionEvent e) -> {
             RConCode(4);
+        });
+        ConView.run5.addActionListener((ActionEvent e) -> {
+            RConCode(5);
+        });
+        ConView.run6.addActionListener((ActionEvent e) -> {
+            RConCode(6);
         });
         ConView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
@@ -1811,7 +1814,7 @@ int linea=0; //Variable Global
                         } else {
                             respuesta = "el mayor es: " + n3 ;
                         }
-                        
+                        ConView.verinfo5.setText(respuesta);
                      } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
@@ -1819,6 +1822,7 @@ int linea=0; //Variable Global
             case 6:  try {
                         saludo = (String)(JOptionPane.showInputDialog("Saludame"));
                         respuesta = (saludo.equals("Hola"))? "hola , gusto de verte !":"perdón?";
+                        ConView.verinfo6.setText(respuesta);
                      } catch (HeadlessException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }

@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -512,6 +515,11 @@ public class GraficoView extends javax.swing.JFrame {
 
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jLabel15.setText("Ejemplo modo gráfico y uso de botones.");
         jLabel15.setFocusable(false);
@@ -635,6 +643,15 @@ public class GraficoView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -566,6 +569,11 @@ public class CaracteresView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         PasoPaso.setText("Paso a Paso");
         PasoPaso.setFocusable(false);
@@ -580,7 +588,7 @@ public class CaracteresView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jTabbedPane1))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
@@ -658,6 +666,15 @@ public class CaracteresView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

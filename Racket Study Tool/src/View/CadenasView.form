@@ -395,8 +395,8 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
-                                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="378" max="-2" attributes="0"/>
+                                          <Component id="jButton2" min="-2" pref="100" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="jLabel15" min="-2" pref="500" max="-2" attributes="0"/>
                                   </Group>
@@ -1211,6 +1211,9 @@
                     <Property name="text" type="java.lang.String" value="ayuda"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>

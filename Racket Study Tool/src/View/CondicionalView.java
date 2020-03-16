@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -34,6 +37,12 @@ public class CondicionalView extends javax.swing.JFrame {
         
         numerolinea = new NumeroLinea(code4);
         jScrollPane18.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code5);
+        jScrollPane20.setRowHeaderView(numerolinea);
+        
+        numerolinea = new NumeroLinea(code6);
+        jScrollPane22.setRowHeaderView(numerolinea);
     }
 
     /**
@@ -556,13 +565,18 @@ public class CondicionalView extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("cond-begin", jPanel10);
+        jTabbedPane1.addTab("If anidado", jPanel10);
 
         jLabel7.setText("Ejemplos");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
         jPanel8.setLayout(null);
@@ -595,11 +609,11 @@ public class CondicionalView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(23, 23, 23))))
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 572, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 13, Short.MAX_VALUE))
+                .addGap(0, 15, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addComponent(PasoPaso, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -665,6 +679,15 @@ public class CondicionalView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

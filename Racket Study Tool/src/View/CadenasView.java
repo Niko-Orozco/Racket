@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -664,6 +667,11 @@ public class CadenasView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jLabel15.setText("Reprecentasión de una cadena en Racket");
 
@@ -697,8 +705,8 @@ public class CadenasView extends javax.swing.JFrame {
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel7Layout.createSequentialGroup()
                                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(415, 415, 415)
-                                .addComponent(jButton2))
+                                .addGap(378, 378, 378)
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
@@ -793,6 +801,15 @@ public class CadenasView extends javax.swing.JFrame {
     private void run7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run7ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run7ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

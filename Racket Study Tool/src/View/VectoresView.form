@@ -180,13 +180,13 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Creacion de Vectores"/>
+                    <Property name="text" type="java.lang.String" value="Creaci&#xf3;n de Vectores"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es un Vector?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es un Vector?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -338,8 +338,8 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                                   <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="405" max="-2" attributes="0"/>
-                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="382" max="-2" attributes="0"/>
+                                  <Component id="jButton2" min="-2" pref="86" max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
@@ -353,7 +353,7 @@
                                   <Component id="jTabbedPane1" min="-2" pref="583" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace max="32767" attributes="0"/>
+                          <EmptySpace pref="14" max="32767" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
@@ -1073,13 +1073,16 @@
                     <Property name="text" type="java.lang.String" value="ayuda"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion grafica de un Vector"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n gr&#xe1;fica de un Vector"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>

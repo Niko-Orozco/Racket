@@ -6,7 +6,10 @@
 package View;
 
 import Controller.Controlador;
+import java.awt.Desktop;
 import java.awt.event.ActionEvent;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
 
@@ -163,7 +166,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(27, 190, 215, 22);
 
-        jLabel4.setText("¿Que es una estructura de datos?");
+        jLabel4.setText("¿Qué es una estructura de datos?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(27, 11, 260, 22);
@@ -519,8 +522,13 @@ public class Estructuras extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Representación gráfica de una estructura de datos.");
+        jLabel15.setText("Representasión gráfica de una estructura de datos.");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
@@ -539,7 +547,7 @@ public class Estructuras extends javax.swing.JFrame {
             }
         });
         jPanel6.add(adddata);
-        adddata.setBounds(240, 10, 150, 29);
+        adddata.setBounds(240, 10, 150, 23);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -581,12 +589,12 @@ public class Estructuras extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(405, 405, 405)
-                        .addComponent(jButton2))
+                        .addGap(377, 377, 377)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 580, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 17, Short.MAX_VALUE))
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
@@ -624,7 +632,7 @@ public class Estructuras extends javax.swing.JFrame {
         letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 29);
+        letsgo.setBounds(530, 700, 150, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
@@ -634,13 +642,13 @@ public class Estructuras extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 29);
+        menu.setBounds(1040, 700, 73, 23);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Estructuras de datos ");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 10, 170, 30);
+        jLabel2.setBounds(20, 10, 340, 40);
 
         jLabel6.setBackground(new java.awt.Color(252, 252, 252));
         jLabel6.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
@@ -693,6 +701,15 @@ public class Estructuras extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     public void SeeCode(){
         this.Codex.setVisible(true);

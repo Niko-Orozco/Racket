@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -161,10 +164,10 @@ public class VectoresView extends javax.swing.JFrame {
         quevect.setFocusable(false);
         jScrollPane1.setViewportView(quevect);
 
-        jLabel3.setText("Creacion de Vectores");
+        jLabel3.setText("Creación de Vectores");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es un Vector?");
+        jLabel4.setText("¿Qué es un Vector?");
         jLabel4.setFocusable(false);
 
         jLabel5.setText("vector-ref");
@@ -589,8 +592,13 @@ public class VectoresView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
-        jLabel15.setText("Reprecentacion grafica de un Vector");
+        jLabel15.setText("Reprecentasión gráfica de un Vector");
         jLabel15.setFocusable(false);
 
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));
@@ -670,8 +678,8 @@ public class VectoresView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(26, 26, 26)
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(405, 405, 405)
-                        .addComponent(jButton2))
+                        .addGap(382, 382, 382)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -680,7 +688,7 @@ public class VectoresView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 583, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(14, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
                 .addGap(0, 0, Short.MAX_VALUE)
                 .addComponent(PasoPaso, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -794,6 +802,15 @@ public class VectoresView extends javax.swing.JFrame {
     private void v4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_v4ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_v4ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments

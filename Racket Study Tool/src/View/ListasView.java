@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 
 /**
@@ -771,6 +774,11 @@ public class ListasView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         PasoPaso.setText("Paso a Paso");
         PasoPaso.setFocusable(false);
@@ -813,7 +821,7 @@ public class ListasView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 29);
+        menu.setBounds(990, 700, 73, 23);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
@@ -823,7 +831,7 @@ public class ListasView extends javax.swing.JFrame {
         letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 29);
+        letsgo.setBounds(440, 710, 150, 23);
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel25);
@@ -874,6 +882,15 @@ public class ListasView extends javax.swing.JFrame {
     private void run8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run8ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run8ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+        }catch (IOException ex) {
+             ex.printStackTrace();
+        }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
