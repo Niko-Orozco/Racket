@@ -1,0 +1,14 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Guia Lenguaje Racket.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\.
+Java min ver:	1.006.000
+Java max ver:	
+Bundled JRE:	C:\Program Files\Java\jre1.8.0_111
+Check launcher:	C:\Program Files\Java\jre1.8.0_111\bin\javaw.exe (OK)
+Launcher:	C:\Program Files\Java\jre1.8.0_111\bin\javaw.exe
+Launcher args:	-jar "C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Guia Lenguaje Racket.exe"
+Args length:	88/32768 chars
+Exit code:	0
