@@ -149,13 +149,13 @@ public class ParesView extends javax.swing.JFrame {
         paresview1.setFocusable(false);
         jScrollPane1.setViewportView(paresview1);
 
-        jLabel3.setText("la Funcion cons");
+        jLabel3.setText("la Funcion cons.");
         jLabel3.setFocusable(false);
 
-        jLabel4.setText("¿Que es un Par?");
+        jLabel4.setText("¿Qué es un Par?");
         jLabel4.setFocusable(false);
 
-        jLabel5.setText("Car");
+        jLabel5.setText("Car.");
         jLabel5.setFocusable(false);
 
         paresview4.setColumns(20);
@@ -266,14 +266,14 @@ public class ParesView extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane4)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 133, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
@@ -558,7 +558,7 @@ public class ParesView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Par de Vectores", jPanel9);
 
-        jLabel7.setText("Ejemplos");
+        jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
@@ -596,7 +596,7 @@ public class ParesView extends javax.swing.JFrame {
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(PasoPaso)
-                .addGap(0, 21, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
         );
 
         jPanel1.add(jPanel7);
@@ -605,17 +605,17 @@ public class ParesView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(990, 700, 73, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        letsgo.setBounds(440, 710, 150, 29);
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel24);

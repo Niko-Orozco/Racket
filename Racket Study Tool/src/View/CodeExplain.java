@@ -180,11 +180,11 @@ public class CodeExplain extends javax.swing.JFrame {
         jPanel1.add(jLabel1);
         jLabel1.setBounds(20, 100, 100, 20);
 
-        jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
-        jLabel3.setText(" Codigo");
+        jLabel3.setFont(new java.awt.Font("Sylfaen", 0, 18)); // NOI18N
+        jLabel3.setText(" Código");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(300, 100, 60, 19);
+        jLabel3.setBounds(300, 100, 70, 24);
 
         jLabel4.setFont(new java.awt.Font("Sylfaen", 0, 14)); // NOI18N
         jLabel4.setText("Valores de las variables");
@@ -301,7 +301,7 @@ public class CodeExplain extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jTabbedPane1.addTab("Expresiones Matematicas", jPanel9);
+        jTabbedPane1.addTab("Expresiones Matemáticas", jPanel9);
 
         Ejecutar1.setText("Ejecutar");
 

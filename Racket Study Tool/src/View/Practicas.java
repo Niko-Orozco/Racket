@@ -134,6 +134,7 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane11 = new javax.swing.JScrollPane();
         ejerecu2 = new javax.swing.JTextPane();
         jLabel21 = new javax.swing.JLabel();
+        jLabel22 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
         jScrollPane6 = new javax.swing.JScrollPane();
         jPanel17 = new javax.swing.JPanel();
@@ -236,6 +237,7 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane28 = new javax.swing.JScrollPane();
         ejegrafico2 = new javax.swing.JTextPane();
         jLabel25 = new javax.swing.JLabel();
+        jLabel26 = new javax.swing.JLabel();
         menu = new javax.swing.JButton();
         jLabel3 = new javax.swing.JLabel();
         Puntaje = new javax.swing.JLabel();
@@ -265,11 +267,11 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel27.add(fun1op2);
-        fun1op2.setBounds(240, 290, 120, 23);
+        fun1op2.setBounds(240, 290, 120, 29);
 
         fun1op4.setText("11620000.0");
         jPanel27.add(fun1op4);
-        fun1op4.setBounds(240, 320, 120, 23);
+        fun1op4.setBounds(240, 320, 120, 29);
 
         fun1op1.setText("11520000.0");
         fun1op1.addActionListener(new java.awt.event.ActionListener() {
@@ -278,12 +280,13 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel27.add(fun1op1);
-        fun1op1.setBounds(70, 290, 140, 23);
+        fun1op1.setBounds(70, 290, 140, 29);
 
         fun1op3.setText("11520030.0");
         jPanel27.add(fun1op3);
-        fun1op3.setBounds(70, 320, 120, 23);
+        fun1op3.setBounds(70, 320, 120, 29);
 
+        ejefuncion1.setFocusable(false);
         jScrollPane12.setViewportView(ejefuncion1);
 
         jPanel27.add(jScrollPane12);
@@ -300,29 +303,30 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel28.add(fun2op4);
-        fun2op4.setBounds(240, 320, 110, 23);
+        fun2op4.setBounds(240, 320, 110, 29);
 
         fun2op2.setText("213");
         jPanel28.add(fun2op2);
-        fun2op2.setBounds(240, 290, 200, 23);
+        fun2op2.setBounds(240, 290, 200, 29);
 
         fun2op1.setText("1212");
         jPanel28.add(fun2op1);
-        fun2op1.setBounds(70, 290, 110, 23);
+        fun2op1.setBounds(70, 290, 110, 29);
 
         fun2op3.setText("32133");
         jPanel28.add(fun2op3);
-        fun2op3.setBounds(70, 320, 110, 23);
+        fun2op3.setBounds(70, 320, 110, 29);
 
+        ejefuncion2.setFocusable(false);
         jScrollPane16.setViewportView(ejefuncion2);
 
         jPanel28.add(jScrollPane16);
         jScrollPane16.setBounds(30, 30, 400, 230);
 
-        jLabel16.setText("cual seria la salida?");
+        jLabel16.setText("¿Cuál sería la salida de lo siguiente?");
         jLabel16.setFocusable(false);
 
-        jLabel20.setText("cual seria la salida?");
+        jLabel20.setText("¿Cuál sería la salida de lo siguiente?");
         jLabel20.setFocusable(false);
 
         javax.swing.GroupLayout jPanel13Layout = new javax.swing.GroupLayout(jPanel13);
@@ -333,11 +337,11 @@ public class Practicas extends javax.swing.JFrame {
                 .addComponent(jPanel27, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel28, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addGap(0, 202, Short.MAX_VALUE))
             .addGroup(jPanel13Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(251, 251, 251)
+                .addGap(54, 54, 54)
                 .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
@@ -378,20 +382,21 @@ public class Practicas extends javax.swing.JFrame {
 
         fun3op2.setText("830");
         jPanel25.add(fun3op2);
-        fun3op2.setBounds(240, 290, 120, 23);
+        fun3op2.setBounds(240, 290, 120, 29);
 
         fun3op4.setText("870");
         jPanel25.add(fun3op4);
-        fun3op4.setBounds(240, 320, 120, 23);
+        fun3op4.setBounds(240, 320, 120, 29);
 
         fun3op1.setText("970");
         jPanel25.add(fun3op1);
-        fun3op1.setBounds(70, 290, 100, 23);
+        fun3op1.setBounds(70, 290, 100, 29);
 
         fun3op3.setText("890");
         jPanel25.add(fun3op3);
-        fun3op3.setBounds(70, 320, 120, 23);
+        fun3op3.setBounds(70, 320, 120, 29);
 
+        ejearitmetica1.setFocusable(false);
         jScrollPane17.setViewportView(ejearitmetica1);
 
         jPanel25.add(jScrollPane17);
@@ -407,28 +412,29 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel26.add(fun4op4);
-        fun4op4.setBounds(240, 320, 110, 23);
+        fun4op4.setBounds(240, 320, 110, 29);
 
         fun4op2.setText("15.76");
         jPanel26.add(fun4op2);
-        fun4op2.setBounds(240, 290, 200, 23);
+        fun4op2.setBounds(240, 290, 200, 29);
 
         fun4op1.setText("14.183");
         jPanel26.add(fun4op1);
-        fun4op1.setBounds(70, 290, 110, 23);
+        fun4op1.setBounds(70, 290, 110, 29);
 
         fun4op3.setText("13.45");
         jPanel26.add(fun4op3);
-        fun4op3.setBounds(70, 320, 110, 23);
+        fun4op3.setBounds(70, 320, 110, 29);
 
+        ejearitmetica2.setFocusable(false);
         jScrollPane18.setViewportView(ejearitmetica2);
 
         jPanel26.add(jScrollPane18);
         jScrollPane18.setBounds(30, 30, 400, 230);
 
-        jLabel11.setText("Si ingresamos el valor 250 en el read(), cual seria la salida?");
+        jLabel11.setText("¿Si ingresamos el valor 250 en el read(), cual seria la salida?");
 
-        jLabel12.setText("Si ingresamos el valor 15 en el read(), cual seria la salida?");
+        jLabel12.setText("¿Si ingresamos el valor 15 en el read(), cual seria la salida?");
 
         javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
         jPanel14.setLayout(jPanel14Layout);
@@ -479,19 +485,20 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane4.setToolTipText("");
         jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel5.setText("Selecione la opcion correcta");
+        jLabel5.setText("¿Cuál sería la salida de lo siguiente?");
 
         jPanel22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel22.setLayout(null);
 
         fun5op1.setText("el primero es mayor que el segundo");
         jPanel22.add(fun5op1);
-        fun5op1.setBounds(20, 310, 320, 23);
+        fun5op1.setBounds(20, 310, 320, 29);
 
         fun5op2.setText("El segundo numero es mayor");
         jPanel22.add(fun5op2);
-        fun5op2.setBounds(20, 350, 290, 23);
+        fun5op2.setBounds(20, 350, 290, 29);
 
+        ejecon1.setFocusable(false);
         jScrollPane19.setViewportView(ejecon1);
 
         jPanel22.add(jScrollPane19);
@@ -502,22 +509,23 @@ public class Practicas extends javax.swing.JFrame {
 
         fun6op3.setText("reproducir HARRY POTTER AND TEH HALF BLOOD PRINCE");
         jPanel23.add(fun6op3);
-        fun6op3.setBounds(20, 380, 460, 23);
+        fun6op3.setBounds(20, 380, 460, 29);
 
         fun6op1.setText("La opcion no es valida");
         jPanel23.add(fun6op1);
-        fun6op1.setBounds(20, 320, 200, 23);
+        fun6op1.setBounds(20, 320, 200, 29);
 
         fun6op2.setText("reproducir El CAPITAL");
         jPanel23.add(fun6op2);
-        fun6op2.setBounds(20, 350, 200, 23);
+        fun6op2.setBounds(20, 350, 200, 29);
 
+        ejecon2.setFocusable(false);
         jScrollPane20.setViewportView(ejecon2);
 
         jPanel23.add(jScrollPane20);
         jScrollPane20.setBounds(30, 30, 400, 240);
 
-        jLabel9.setText("Cual de las siguientes imagenes de codigo da como salida  T = 34");
+        jLabel9.setText("¿Cuál sería la salida de lo siguiente?");
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -525,10 +533,10 @@ public class Practicas extends javax.swing.JFrame {
             jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel15Layout.createSequentialGroup()
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel15Layout.createSequentialGroup()
                         .addContainerGap()
-                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 204, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addComponent(jPanel22, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 336, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel15Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel15Layout.createSequentialGroup()
@@ -574,20 +582,21 @@ public class Practicas extends javax.swing.JFrame {
 
         fun7op2.setText("21");
         jPanel29.add(fun7op2);
-        fun7op2.setBounds(240, 290, 120, 23);
+        fun7op2.setBounds(240, 290, 120, 29);
 
         fun7op4.setText("32");
         jPanel29.add(fun7op4);
-        fun7op4.setBounds(240, 320, 120, 23);
+        fun7op4.setBounds(240, 320, 120, 29);
 
         fun7op1.setText("13");
         jPanel29.add(fun7op1);
-        fun7op1.setBounds(70, 290, 100, 23);
+        fun7op1.setBounds(70, 290, 100, 29);
 
         fun7op3.setText("17");
         jPanel29.add(fun7op3);
-        fun7op3.setBounds(70, 320, 120, 23);
+        fun7op3.setBounds(70, 320, 120, 29);
 
+        ejerecu1.setFocusable(false);
         jScrollPane15.setViewportView(ejerecu1);
 
         jPanel29.add(jScrollPane15);
@@ -598,37 +607,46 @@ public class Practicas extends javax.swing.JFrame {
 
         fun8op1.setText("(3 5 7 11 13 17 19 23 29 31)");
         jPanel30.add(fun8op1);
-        fun8op1.setBounds(70, 290, 260, 23);
+        fun8op1.setBounds(70, 290, 260, 29);
 
         fun8op2.setText("(3 5 7 9 11 13 17 21 23 25)");
         jPanel30.add(fun8op2);
-        fun8op2.setBounds(70, 320, 280, 23);
+        fun8op2.setBounds(70, 320, 280, 29);
 
+        ejerecu2.setFocusable(false);
         jScrollPane11.setViewportView(ejerecu2);
 
         jPanel30.add(jScrollPane11);
         jScrollPane11.setBounds(20, 20, 430, 250);
 
-        jLabel21.setText("cual seria la salida si ingresamos 7 en el read?");
+        jLabel21.setText("¿Cuál sería la salida de lo siguiente?");
+
+        jLabel22.setText("¿Cuál sería la salida de lo siguiente si ingresamos 7 en el read?");
 
         javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
         jPanel24.setLayout(jPanel24Layout);
         jPanel24Layout.setHorizontalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel24Layout.createSequentialGroup()
-                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel29, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel29, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel30, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 30, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel22)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(54, 54, 54))
         );
         jPanel24Layout.setVerticalGroup(
             jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel24Layout.createSequentialGroup()
-                .addGap(7, 7, 7)
-                .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addContainerGap()
+                .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel30, javax.swing.GroupLayout.DEFAULT_SIZE, 376, Short.MAX_VALUE)
                     .addComponent(jPanel29, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
@@ -666,29 +684,30 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane6.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane6.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel37.setText("cual seria la salida?");
+        jLabel37.setText("¿Cuál sería la salida de lo siguiente?");
 
-        jLabel38.setText("cual seria la salida?");
+        jLabel38.setText("¿Cuál sería la salida de lo siguiente?");
 
         jPanel37.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel37.setLayout(null);
 
         fun9op2.setText("#\\7");
         jPanel37.add(fun9op2);
-        fun9op2.setBounds(240, 290, 120, 23);
+        fun9op2.setBounds(240, 290, 120, 29);
 
         fun9op4.setText("7");
         jPanel37.add(fun9op4);
-        fun9op4.setBounds(240, 320, 120, 23);
+        fun9op4.setBounds(240, 320, 120, 29);
 
         fun9op1.setText("#\\t");
         jPanel37.add(fun9op1);
-        fun9op1.setBounds(70, 290, 100, 23);
+        fun9op1.setBounds(70, 290, 100, 29);
 
         fun9op3.setText("#\\f");
         jPanel37.add(fun9op3);
-        fun9op3.setBounds(70, 320, 120, 23);
+        fun9op3.setBounds(70, 320, 120, 29);
 
+        ejecaracter1.setFocusable(false);
         jScrollPane21.setViewportView(ejecaracter1);
 
         jPanel37.add(jScrollPane21);
@@ -704,20 +723,21 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel38.add(fun10op4);
-        fun10op4.setBounds(240, 320, 110, 23);
+        fun10op4.setBounds(240, 320, 110, 29);
 
         fun10op2.setText("#\\e");
         jPanel38.add(fun10op2);
-        fun10op2.setBounds(240, 290, 200, 23);
+        fun10op2.setBounds(240, 290, 200, 29);
 
         fun10op1.setText("es vocal");
         jPanel38.add(fun10op1);
-        fun10op1.setBounds(70, 290, 110, 23);
+        fun10op1.setBounds(70, 290, 110, 29);
 
         fun10op3.setText("no es vocal");
         jPanel38.add(fun10op3);
-        fun10op3.setBounds(70, 320, 140, 23);
+        fun10op3.setBounds(70, 320, 140, 29);
 
+        ejecaracter2.setFocusable(false);
         jScrollPane22.setViewportView(ejecaracter2);
 
         jPanel38.add(jScrollPane22);
@@ -775,20 +795,21 @@ public class Practicas extends javax.swing.JFrame {
 
         fun11op2.setText("no es palindrome");
         jPanel35.add(fun11op2);
-        fun11op2.setBounds(240, 290, 170, 23);
+        fun11op2.setBounds(240, 290, 170, 29);
 
         fun11op4.setText("es vocal");
         jPanel35.add(fun11op4);
-        fun11op4.setBounds(240, 320, 150, 23);
+        fun11op4.setBounds(240, 320, 150, 29);
 
         fun11op1.setText("es palindrome");
         jPanel35.add(fun11op1);
-        fun11op1.setBounds(70, 320, 150, 23);
+        fun11op1.setBounds(70, 320, 150, 29);
 
         fun11op3.setText("error");
         jPanel35.add(fun11op3);
-        fun11op3.setBounds(70, 290, 120, 23);
+        fun11op3.setBounds(70, 290, 120, 29);
 
+        ejecadena1.setFocusable(false);
         jScrollPane23.setViewportView(ejecadena1);
 
         jPanel35.add(jScrollPane23);
@@ -804,28 +825,29 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel36.add(fun12op4);
-        fun12op4.setBounds(240, 320, 140, 23);
+        fun12op4.setBounds(240, 320, 140, 29);
 
         fun12op2.setText("ES CADENA");
         jPanel36.add(fun12op2);
-        fun12op2.setBounds(240, 290, 200, 23);
+        fun12op2.setBounds(240, 290, 200, 29);
 
         fun12op1.setText("ARIEREP");
         jPanel36.add(fun12op1);
-        fun12op1.setBounds(70, 290, 110, 23);
+        fun12op1.setBounds(70, 290, 110, 29);
 
         fun12op3.setText("PEREIRA");
         jPanel36.add(fun12op3);
-        fun12op3.setBounds(70, 320, 110, 23);
+        fun12op3.setBounds(70, 320, 110, 29);
 
+        ejecadena2.setFocusable(false);
         jScrollPane24.setViewportView(ejecadena2);
 
         jPanel36.add(jScrollPane24);
         jScrollPane24.setBounds(30, 30, 400, 240);
 
-        jLabel35.setText("cual seria la salida?");
+        jLabel35.setText("¿Cuál sería la salida de lo siguiente?");
 
-        jLabel36.setText("cual seria la salida?");
+        jLabel36.setText("¿Cuál sería la salida de lo siguiente?");
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -879,20 +901,21 @@ public class Practicas extends javax.swing.JFrame {
 
         fun13op2.setText("No esta ordenado");
         jPanel33.add(fun13op2);
-        fun13op2.setBounds(240, 290, 160, 23);
+        fun13op2.setBounds(240, 290, 160, 29);
 
         fun13op4.setText("(4 5 6 9 8)");
         jPanel33.add(fun13op4);
-        fun13op4.setBounds(240, 320, 120, 23);
+        fun13op4.setBounds(240, 320, 120, 29);
 
         fun13op1.setText("esta ordenado ");
         jPanel33.add(fun13op1);
-        fun13op1.setBounds(70, 290, 160, 23);
+        fun13op1.setBounds(70, 290, 160, 29);
 
         fun13op3.setText("(4 5 6 8 9)");
         jPanel33.add(fun13op3);
-        fun13op3.setBounds(70, 320, 120, 23);
+        fun13op3.setBounds(70, 320, 120, 29);
 
+        ejevector1.setFocusable(false);
         jScrollPane25.setViewportView(ejevector1);
 
         jPanel33.add(jScrollPane25);
@@ -903,20 +926,21 @@ public class Practicas extends javax.swing.JFrame {
 
         fun14op1.setText("17 16 15 14 13 12 11 10");
         jPanel34.add(fun14op1);
-        fun14op1.setBounds(70, 290, 260, 23);
+        fun14op1.setBounds(70, 290, 260, 29);
 
         fun14op2.setText("10 11 12 13 14 15 16 17 ");
         jPanel34.add(fun14op2);
-        fun14op2.setBounds(70, 320, 280, 23);
+        fun14op2.setBounds(70, 320, 280, 29);
 
+        ejevector2.setFocusable(false);
         jScrollPane26.setViewportView(ejevector2);
 
         jPanel34.add(jScrollPane26);
         jScrollPane26.setBounds(30, 30, 400, 240);
 
-        jLabel29.setText("cual seria la salida?");
+        jLabel29.setText("¿Cuál sería la salida de lo siguiente?");
 
-        jLabel42.setText("cual seria la salida?");
+        jLabel42.setText("¿Cuál sería la salida de lo siguiente?");
 
         javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
         jPanel19.setLayout(jPanel19Layout);
@@ -972,29 +996,30 @@ public class Practicas extends javax.swing.JFrame {
         jScrollPane9.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         jScrollPane9.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_NEVER);
 
-        jLabel43.setText("cual seria la salida?");
+        jLabel43.setText("¿Cuál sería la salida de lo siguiente?");
 
-        jLabel44.setText("Que hace la siguiente función? discuta su respues con su compañero ");
+        jLabel44.setText("¿Que hace la siguiente función?  ");
 
         jPanel39.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel39.setLayout(null);
 
         fun15op2.setText("532205493");
         jPanel39.add(fun15op2);
-        fun15op2.setBounds(240, 290, 120, 23);
+        fun15op2.setBounds(240, 290, 120, 29);
 
         fun15op4.setText("543201293");
         jPanel39.add(fun15op4);
-        fun15op4.setBounds(240, 320, 120, 23);
+        fun15op4.setBounds(240, 320, 120, 29);
 
         fun15op1.setText("398102345");
         jPanel39.add(fun15op1);
-        fun15op1.setBounds(70, 290, 120, 23);
+        fun15op1.setBounds(70, 290, 120, 29);
 
         fun15op3.setText("543261293");
         jPanel39.add(fun15op3);
-        fun15op3.setBounds(70, 320, 120, 23);
+        fun15op3.setBounds(70, 320, 120, 29);
 
+        ejelista1.setFocusable(false);
         jScrollPane29.setViewportView(ejelista1);
 
         jPanel39.add(jScrollPane29);
@@ -1005,7 +1030,7 @@ public class Practicas extends javax.swing.JFrame {
 
         fun16op1.setText("Se llena con -1");
         jPanel41.add(fun16op1);
-        fun16op1.setBounds(20, 300, 200, 23);
+        fun16op1.setBounds(20, 300, 200, 29);
 
         fun16op2.setText("Recibe una lista infinita");
         fun16op2.addActionListener(new java.awt.event.ActionListener() {
@@ -1014,7 +1039,7 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel41.add(fun16op2);
-        fun16op2.setBounds(20, 330, 210, 23);
+        fun16op2.setBounds(20, 330, 210, 29);
 
         fun16op3.setText("Imprime en pantalla la lista cuando se ingresa -1");
         fun16op3.addActionListener(new java.awt.event.ActionListener() {
@@ -1023,8 +1048,9 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel41.add(fun16op3);
-        fun16op3.setBounds(20, 360, 410, 23);
+        fun16op3.setBounds(20, 360, 410, 29);
 
+        ejelista2.setFocusable(false);
         jScrollPane30.setViewportView(ejelista2);
 
         jPanel41.add(jScrollPane30);
@@ -1044,7 +1070,7 @@ public class Practicas extends javax.swing.JFrame {
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel44)
                     .addComponent(jPanel41, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(55, Short.MAX_VALUE))
+                .addContainerGap(75, Short.MAX_VALUE))
         );
         jPanel20Layout.setVerticalGroup(
             jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -1076,7 +1102,7 @@ public class Practicas extends javax.swing.JFrame {
 
         jScrollPane10.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
 
-        jLabel46.setText("Ingrese el ejemplo en racket y evalue el codigo");
+        jLabel46.setText("Ingrese el ejemplo en racket y evalué el código.");
 
         jPanel40.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel40.setLayout(null);
@@ -1100,7 +1126,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel42.add(jScrollPane14);
         jScrollPane14.setBounds(20, 20, 900, 310);
 
-        jLabel47.setText("Ingrese el ejemplo en racket y evalue el codigo");
+        jLabel47.setText("Ingrese el ejemplo en racket y evalué el código.");
 
         javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
         jPanel21.setLayout(jPanel21Layout);
@@ -1171,6 +1197,7 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.add(fun17op2);
         fun17op2.setBounds(230, 311, 30, 90);
 
+        ejegrafico1.setFocusable(false);
         jScrollPane27.setViewportView(ejegrafico1);
 
         jPanel31.add(jScrollPane27);
@@ -1191,35 +1218,48 @@ public class Practicas extends javax.swing.JFrame {
         jPanel32.add(jLabel31);
         jLabel31.setBounds(270, 310, 160, 90);
 
+        ejegrafico2.setFocusable(false);
         jScrollPane28.setViewportView(ejegrafico2);
 
         jPanel32.add(jScrollPane28);
         jScrollPane28.setBounds(30, 30, 400, 240);
 
-        jLabel25.setText("cual seria la salida si ingresamos 7 en el read?");
+        jLabel25.setText("¿Cuál sería la salida de lo siguiente?");
+
+        jLabel26.setText("¿Cuál sería la salida de lo siguiente?");
 
         javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
         jPanel12.setLayout(jPanel12Layout);
         jPanel12Layout.setHorizontalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jPanel31, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jPanel32, javax.swing.GroupLayout.PREFERRED_SIZE, 464, javax.swing.GroupLayout.PREFERRED_SIZE))
                 .addGap(0, 40, Short.MAX_VALUE))
+            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel12Layout.createSequentialGroup()
+                    .addGap(45, 45, 45)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 429, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(503, Short.MAX_VALUE)))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
-                .addGap(7, 7, 7)
+                .addContainerGap()
                 .addComponent(jLabel25, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(jPanel32, javax.swing.GroupLayout.DEFAULT_SIZE, 456, Short.MAX_VALUE)
                     .addComponent(jPanel31, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel12Layout.createSequentialGroup()
+                    .addGap(17, 17, 17)
+                    .addComponent(jLabel26, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addContainerGap(480, Short.MAX_VALUE)))
         );
 
         jScrollPane1.setViewportView(jPanel12);
@@ -1248,12 +1288,12 @@ public class Practicas extends javax.swing.JFrame {
             }
         });
         jPanel1.add(menu);
-        menu.setBounds(10, 590, 80, 23);
+        menu.setBounds(10, 590, 80, 29);
 
         jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas.  ¿Podrás  lograrlo?");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 14);
+        jLabel3.setBounds(10, 60, 480, 20);
 
         Puntaje.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
         Puntaje.setForeground(new java.awt.Color(0, 204, 51));
@@ -1448,7 +1488,9 @@ public class Practicas extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel20;
     private javax.swing.JLabel jLabel21;
+    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel25;
+    private javax.swing.JLabel jLabel26;
     private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel30;

@@ -163,7 +163,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel4">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Modo Grafico"/>
+                        <Property name="text" type="java.lang.String" value="Modo Grafico."/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -174,7 +174,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel5">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Funciones Basicas"/>
+                        <Property name="text" type="java.lang.String" value="Funciones B&#xe1;sicas."/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -212,7 +212,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel9">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Libreria Grahics"/>
+                        <Property name="text" type="java.lang.String" value="Libreria Grahics."/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                       <Constraints>
@@ -402,7 +402,7 @@
                             </Container>
                             <Component class="javax.swing.JLabel" name="jLabel21">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="Consola"/>
+                                <Property name="text" type="java.lang.String" value="Consola."/>
                               </Properties>
                             </Component>
                             <Component class="javax.swing.JLabel" name="ejemplografic">
@@ -995,7 +995,7 @@
                     </Container>
                     <Component class="javax.swing.JLabel" name="jLabel7">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Ejemplos"/>
+                        <Property name="text" type="java.lang.String" value="Ejemplos:"/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>
@@ -1010,7 +1010,7 @@
                     </Component>
                     <Component class="javax.swing.JLabel" name="jLabel15">
                       <Properties>
-                        <Property name="text" type="java.lang.String" value="Ejemplo modo grafico y uso de botones"/>
+                        <Property name="text" type="java.lang.String" value="Ejemplo modo gr&#xe1;fico y uso de botones."/>
                         <Property name="focusable" type="boolean" value="false"/>
                       </Properties>
                     </Component>

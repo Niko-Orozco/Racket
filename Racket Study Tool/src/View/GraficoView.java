@@ -145,12 +145,12 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
 
-        jLabel4.setText("Modo Grafico");
+        jLabel4.setText("Modo Grafico.");
         jLabel4.setFocusable(false);
         jPanel3.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
-        jLabel5.setText("Funciones Basicas");
+        jLabel5.setText("Funciones Básicas.");
         jLabel5.setFocusable(false);
         jPanel3.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
@@ -164,7 +164,7 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.add(jScrollPane3);
         jScrollPane3.setBounds(50, 240, 413, 140);
 
-        jLabel9.setText("Libreria Grahics");
+        jLabel9.setText("Libreria Grahics.");
         jLabel9.setFocusable(false);
         jPanel3.add(jLabel9);
         jLabel9.setBounds(50, 210, 184, 22);
@@ -191,7 +191,7 @@ public class GraficoView extends javax.swing.JFrame {
         code1.setFocusable(false);
         jScrollPane8.setViewportView(code1);
 
-        jLabel21.setText("Consola");
+        jLabel21.setText("Consola.");
 
         ejemplografic.setBackground(new java.awt.Color(153, 153, 153));
         ejemplografic.setForeground(new java.awt.Color(204, 204, 204));
@@ -507,13 +507,13 @@ public class GraficoView extends javax.swing.JFrame {
 
         EjemplosGraficos.addTab("Ejemplo #6", jPanel11);
 
-        jLabel7.setText("Ejemplos");
+        jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Ejemplo modo grafico y uso de botones");
+        jLabel15.setText("Ejemplo modo gráfico y uso de botones.");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));

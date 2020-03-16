@@ -158,7 +158,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(27, 39, 413, 140);
 
-        jLabel3.setText("Define-struct");
+        jLabel3.setText("Define-struct.");
         jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(27, 190, 215, 22);
@@ -166,9 +166,9 @@ public class Estructuras extends javax.swing.JFrame {
         jLabel4.setText("¿Que es una estructura de datos?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(27, 11, 184, 22);
+        jLabel4.setBounds(27, 11, 260, 22);
 
-        jLabel5.setText("Make-struct");
+        jLabel5.setText("Make-struct.");
         jPanel2.add(jLabel5);
         jLabel5.setBounds(27, 376, 196, 22);
 
@@ -201,7 +201,7 @@ public class Estructuras extends javax.swing.JFrame {
         verinfo1.setFocusable(false);
         jScrollPane2.setViewportView(verinfo1);
 
-        jLabel1.setText("Consola");
+        jLabel1.setText("Consola.");
         jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
@@ -220,13 +220,13 @@ public class Estructuras extends javax.swing.JFrame {
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jScrollPane4)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 562, Short.MAX_VALUE)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 533, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
@@ -514,13 +514,13 @@ public class Estructuras extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Ejemplo 6", jPanel10);
 
-        jLabel7.setText("Ejemplos");
+        jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Reprecentacion grafica de una estructura de datos");
+        jLabel15.setText("Representación gráfica de una estructura de datos.");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
@@ -539,7 +539,7 @@ public class Estructuras extends javax.swing.JFrame {
             }
         });
         jPanel6.add(adddata);
-        adddata.setBounds(240, 10, 120, 23);
+        adddata.setBounds(240, 10, 150, 29);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -621,10 +621,10 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel1.add(jScrollPane13);
         jScrollPane13.setBounds(510, 70, 630, 600);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 23);
+        letsgo.setBounds(530, 700, 150, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
@@ -634,7 +634,7 @@ public class Estructuras extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 23);
+        menu.setBounds(1040, 700, 73, 29);
 
         jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel2.setText("Estructuras de datos ");

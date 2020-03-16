@@ -176,7 +176,7 @@ public class ListasView extends javax.swing.JFrame {
         listas1.setFocusable(false);
         jScrollPane11.setViewportView(listas1);
 
-        jLabel9.setText("¿Que es una lista?");
+        jLabel9.setText("¿Qué es una lista?");
         jLabel9.setFocusable(false);
 
         listas2.setColumns(20);
@@ -185,7 +185,7 @@ public class ListasView extends javax.swing.JFrame {
         listas2.setFocusable(false);
         jScrollPane12.setViewportView(listas2);
 
-        jLabel10.setText("La funcion list");
+        jLabel10.setText("La función list.");
         jLabel10.setFocusable(false);
 
         listas3.setColumns(20);
@@ -194,7 +194,7 @@ public class ListasView extends javax.swing.JFrame {
         listas3.setFocusable(false);
         jScrollPane13.setViewportView(listas3);
 
-        jLabel14.setText("Car");
+        jLabel14.setText("Car.");
         jLabel14.setFocusable(false);
 
         listas4.setColumns(20);
@@ -212,7 +212,7 @@ public class ListasView extends javax.swing.JFrame {
         listas5.setFocusable(false);
         jScrollPane15.setViewportView(listas5);
 
-        jLabel16.setText("Append");
+        jLabel16.setText("Append.");
         jLabel16.setFocusable(false);
 
         listas6.setColumns(20);
@@ -230,7 +230,7 @@ public class ListasView extends javax.swing.JFrame {
         listas7.setFocusable(false);
         jScrollPane20.setViewportView(listas7);
 
-        jLabel18.setText("Length");
+        jLabel18.setText("Length.");
         jLabel18.setFocusable(false);
 
         listas8.setColumns(20);
@@ -239,7 +239,7 @@ public class ListasView extends javax.swing.JFrame {
         listas8.setFocusable(false);
         jScrollPane21.setViewportView(listas8);
 
-        jLabel19.setText("Reverse");
+        jLabel19.setText("Reverse.");
         jLabel19.setFocusable(false);
 
         listas9.setColumns(20);
@@ -248,7 +248,7 @@ public class ListasView extends javax.swing.JFrame {
         listas9.setFocusable(false);
         jScrollPane22.setViewportView(listas9);
 
-        jLabel20.setText("List-tail");
+        jLabel20.setText("List-tail.");
         jLabel20.setFocusable(false);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
@@ -340,7 +340,7 @@ public class ListasView extends javax.swing.JFrame {
         verinfo1.setFocusable(false);
         jScrollPane2.setViewportView(verinfo1);
 
-        jLabel1.setText("Consola");
+        jLabel1.setText("Consola.");
         jLabel1.setFocusable(false);
 
         run1.setText("Ejecutar");
@@ -358,14 +358,14 @@ public class ListasView extends javax.swing.JFrame {
             .addGroup(jPanel3Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel3Layout.createSequentialGroup()
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
                     .addComponent(jScrollPane4)
-                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 541, Short.MAX_VALUE)
+                    .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 521, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(run1, javax.swing.GroupLayout.PREFERRED_SIZE, 136, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel3Layout.createSequentialGroup()
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel3Layout.setVerticalGroup(
@@ -766,7 +766,7 @@ public class ListasView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("list-tail", jPanel11);
 
-        jLabel7.setText("Ejemplos");
+        jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
@@ -813,17 +813,17 @@ public class ListasView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(990, 700, 73, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        letsgo.setBounds(440, 710, 150, 29);
 
         jLabel25.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel25);

@@ -129,7 +129,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Define-struct"/>
+                    <Property name="text" type="java.lang.String" value="Define-struct."/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -145,13 +145,13 @@
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                      <AbsoluteConstraints x="27" y="11" width="184" height="22"/>
+                      <AbsoluteConstraints x="27" y="11" width="260" height="22"/>
                     </Constraint>
                   </Constraints>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Make-struct"/>
+                    <Property name="text" type="java.lang.String" value="Make-struct."/>
                   </Properties>
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -306,14 +306,14 @@
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jScrollPane4" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="jScrollPane2" alignment="0" pref="562" max="32767" attributes="0"/>
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <Component id="jLabel1" min="-2" pref="50" max="-2" attributes="0"/>
-                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-                                      </Group>
+                                      <Component id="jScrollPane2" alignment="0" pref="533" max="32767" attributes="0"/>
                                       <Group type="102" alignment="1" attributes="0">
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                           <Component id="run1" min="-2" pref="137" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="jLabel1" min="-2" pref="80" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -381,7 +381,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel1">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Consola"/>
+                            <Property name="text" type="java.lang.String" value="Consola."/>
                             <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
@@ -962,7 +962,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Ejemplos"/>
+                    <Property name="text" type="java.lang.String" value="Ejemplos:"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -977,7 +977,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion grafica de una estructura de datos"/>
+                    <Property name="text" type="java.lang.String" value="Representaci&#xf3;n gr&#xe1;fica de una estructura de datos."/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -1008,7 +1008,7 @@
                       </AuxValues>
                       <Constraints>
                         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                          <AbsoluteConstraints x="240" y="10" width="120" height="-1"/>
+                          <AbsoluteConstraints x="240" y="10" width="150" height="-1"/>
                         </Constraint>
                       </Constraints>
                     </Component>
@@ -1080,7 +1080,7 @@
         </Container>
         <Component class="javax.swing.JButton" name="letsgo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Vamos alla"/>
+            <Property name="text" type="java.lang.String" value="Vamos all&#xe1;."/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <AuxValues>
