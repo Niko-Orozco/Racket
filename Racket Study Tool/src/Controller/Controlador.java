@@ -1084,13 +1084,13 @@ int linea=0; //Variable Global
             case 2: try {
                         nes2 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
                         nes3 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese un numero"));
-                        respuesta = nes2 + " "+nes3 +" " + nes2+nes3 + " " + nes2*nes3;
+                        respuesta = "\n" + nes2 + "\n"+nes3 +"\n" + (nes2+nes3) + "\n " + (nes2*nes3);
                      } catch (HeadlessException | NumberFormatException e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
                 break;   
             case 3: try {
-                        respuesta = "Lunes\n"+"Martes\n"+"Miércoles\n"+"Jueves\n"+"Viernes\n";
+                        respuesta = "Lunes\n"+"Martes\n"+"Miércoles\n"+"Jueves\n"+"Viernes\n"+"Sabado\n"+"Domingo\n";
                      } catch (Exception e) {
                         JOptionPane.showMessageDialog(null, "Code Error");
                      }
