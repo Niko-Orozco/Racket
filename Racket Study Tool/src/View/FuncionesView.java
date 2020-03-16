@@ -160,7 +160,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane5);
         jScrollPane5.setBounds(20, 440, 439, 140);
 
-        jLabel5.setText("¿Que es un argumento?");
+        jLabel5.setText("¿Qué es un argumento?");
         jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(20, 410, 400, 22);
@@ -505,15 +505,15 @@ public class FuncionesView extends javax.swing.JFrame {
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Funciones que operan con valores numericos");
+        jLabel15.setText("Funciones que operan con valores númericos");
         jLabel15.setFocusable(false);
 
         DatosStruct.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {"*", "(* num1 num2) -> num", "Multiplicacion"},
+                {"*", "(* num1 num2) -> num", "Multiplicación"},
                 {"+", "(+ num1 num2) -> num", "Suma"},
                 {"-", "(-  num1 num2) -> num", "Resta"},
-                {"/", "(/  num1 num2) -> num", "Division"},
+                {"/", "(/  num1 num2) -> num", "División"},
                 {"<", "(< num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor devuelve #t, sino #f"},
                 {"<=", "<= num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es menor o igual devuelve #t, sino #f"},
                 {">", "(>  num1 num2) -> #t o #f", "Comprar el primer valor con los demas, si este es mayor devuelve #t, sino #f"},
@@ -656,11 +656,11 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel1.add(menu);
         menu.setBounds(1040, 700, 73, 23);
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Funciones");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(20, 10, 170, 30);
+        jLabel2.setBounds(20, 10, 180, 33);
 
         jLabel24.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/marca_UTP.png"))); // NOI18N
         jPanel1.add(jLabel24);

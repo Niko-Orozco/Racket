@@ -22,12 +22,12 @@ public class Cadenas_Strings {
                         "palabra  en   pocas   palabras, un  conjunto  de  caracteres   forma  una  \n" +
                         "cadena, es decir; \"Hola\". \n" +
                         "\n" +
-                        "Representado por comillas dobles";
+                        "Representado por comillas dobles.";
         return data;
     }
 
     public String IsString(){
-        String data=    "Para comprobar si un dato es una cadena usamos la función string?\n" +
+        String data=    "Para comprobar si un dato es una cadena usamos la función string?.\n" +
                         "\n" +
                         "- - - - - - - - - - - - -\n" +
                         "Sintaxis              :\n" +
@@ -43,13 +43,13 @@ public class Cadenas_Strings {
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Como se puede observar se considera cadena a todo aquello que se\n" +
-                        "encuentre dentro de unas comillas dobles  '' '";
+                        "encuentre dentro de unas comillas dobles  '' ''.";
         return data;
     }
 
     public String makeString(){
         String data=    "Para la creación de cadenas podemos usar las  funciones make-string\n" +
-                        "y string\n" +
+                        "y string.\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                            :\n" +
@@ -66,13 +66,13 @@ public class Cadenas_Strings {
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Como se puede ver las funciones make-string y string sirven para crear\n" +
-                        "cadenas";
+                        "cadenas.";
         return data;
     }
 
     public String lenght(){
         String data=    "La   longitud   de   una   cadena   es   el   numero   de  caracteres que la \n" +
-                        "componen\n" +
+                        "componen.\n" +
                         "\n" +
                         "Por  ejemplo  la  longitud de una cadena vacía es 0 y la longitud de una\n" +
                         "cadena ''hola'' es 4.\n" +
@@ -93,7 +93,7 @@ public class Cadenas_Strings {
     public String unioncad(){
         String data =   "Las cadenas  también  pueden  ser  concatenadas  (unidas)  usando la\n" +
                         "función (string-append cad1 cad2  ..) toma varias cadenas y retorna una\n" +
-                        "cadena con la unión de todas las cadenas\n" +
+                        "cadena con la unión de todas las cadenas.\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "Sintaxis                                                                                   :\n" +
@@ -110,7 +110,7 @@ public class Cadenas_Strings {
     
     public String stringref(){
         String data =   "Podemos   obtener    caracteres   de    una    cadena   haciendo  uso  de \n" +
-                        "(string-ref )\n" +
+                        "(string-ref ).\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                                                       :\n" +
@@ -141,10 +141,10 @@ public class Cadenas_Strings {
 
     public String setSring(){
         String data =   "Una cadena es modificable por medio de operaciones que cambian su\n" +
-                        "contenido es decir: Cadena: María se puede modificar por Mario\n" +
+                        "contenido es decir: Cadena: María se puede modificar por Mario.\n" +
                         "\n" +
                         "Cabe   resaltar   que   una   cadena creada entre comillas dobles  no es \n" +
-                        "modificable, para ello usamos las sentencias (string), \n" +
+                        "modificable, para ello usamos las sentencias (string). \n" +
                         "\n" +
                         "(make-string)\n" +
                         "\n" +
@@ -196,7 +196,7 @@ public class Cadenas_Strings {
    
    public String makeseje(){
        String data =    ";Al momento de usar la función meke-string solo  nos sirve para crear una cadena con los\n" +
-                        " ;mismos caracteres, aunque estas cadenas pueden ser modificadas\n" +
+                        " ;mismos caracteres, aunque estas cadenas pueden ser modificadas.\n" +
                         "\n" +
                         " ;Crear  una  función  que llena  una  cadena   de  4  posiciones  con  el  carácter  J  usando \n" +
                         " ;make-string.  Luego  cree  una cadena con la función string que diga  \"Hola que tal tu día\"  \n" +
@@ -214,7 +214,7 @@ public class Cadenas_Strings {
    }
    
    public String stringeje(){
-       String data =    ";crear una función que diga si los datos ingresados por teclado es una cadena o no\n\n" +
+       String data =    ";crear una función que diga si los datos ingresados por teclado es una cadena o no.\n\n" +
                         "\n" +
                         "(define (MiCadena cd)\n" +
                         "     (if  (string? cd)\n" +
@@ -245,7 +245,7 @@ public class Cadenas_Strings {
    
    public String appendeje(){
        String data =    ";Cree una programa que una dos cadenas usando la función string-append, luego mostrar\n" +
-                        ";el resultado por pantalla\n\n" +
+                        ";el resultado por pantalla.\n\n" +
                         "\n" +
                         "(define (MisCadena cd cd2)\n" +
                         "\n" +
@@ -259,7 +259,7 @@ public class Cadenas_Strings {
    public String seteje(){
        String data =    ";Cree  una cadena con la función string que diga  \"Es hora de cenar\", luego  mediante la \n" +
                         ";función  string-set!  cambiar  la  letra  c  de la cadena por una  z y  por ultimo  muestra  la\n" +
-                        ";cadena creada usando la función displayln\n\n" +
+                        ";cadena creada usando la función displayln.\n\n" +
                         "\n" +
                         "(define (ModificarCadena )\n" +
                         "       (define cad (string #\\E #\\s #\\h #\\o #\\r #\\a #\\d #\\e #\\c #\\e #\\a #\\r))\n" +
@@ -274,7 +274,7 @@ public class Cadenas_Strings {
        String data =    ";Construir  un  programa  que  permita  generar  códigos  de  usuarios  con  el  procedimiento\n" +
                         ";siguiente :debe de leer el nombre y los dos apellidos de una persona y devolver un código\n" +
                         ";de usuario  formado  por   las tres primeras letras del primer apellido, segundo apellido y del\n" +
-                        ";nombre\n" +
+                        ";nombre.\n" +
                         "\n" +
                         ";ejemplo:\n" +
                         "\n" +
@@ -292,7 +292,7 @@ public class Cadenas_Strings {
    
    public String strincmpeje(){
        String data =";Construir un programa que reciba una cadena y devuelva una cadena equivalente, pero\n" +
-                    ";sin las vocales\n" +
+                    ";sin las vocales.\n\n" +
                     "\n" +
                     "(define(Cadena read);lee y almacena nuestra cadena.\n" +
                     "    (Read)\n" +
