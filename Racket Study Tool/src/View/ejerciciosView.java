@@ -136,7 +136,7 @@ public class ejerciciosView extends javax.swing.JFrame {
             .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 332, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Expreciones Aritmeticas", jPanel3);
+        jTabbedPane1.addTab("Expreciones Aritméticas", jPanel3);
 
         javax.swing.GroupLayout jPanel15Layout = new javax.swing.GroupLayout(jPanel15);
         jPanel15.setLayout(jPanel15Layout);
@@ -214,7 +214,7 @@ public class ejerciciosView extends javax.swing.JFrame {
             .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 332, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Caracteres", jPanel6);
+        jTabbedPane1.addTab("Carácteres", jPanel6);
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
         jPanel18.setLayout(jPanel18Layout);
@@ -344,20 +344,20 @@ public class ejerciciosView extends javax.swing.JFrame {
             .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 332, Short.MAX_VALUE)
         );
 
-        jTabbedPane1.addTab("Modo Grafico", jPanel11);
+        jTabbedPane1.addTab("Modo Gráfico", jPanel11);
 
         jPanel1.add(jTabbedPane1);
         jTabbedPane1.setBounds(20, 80, 910, 360);
 
-        jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas..  ¿Podras  lograrlo?");
+        jLabel3.setText("Ejercicios para reforzar el aprendizaje de los temas.  ¿Podras  lograrlo?");
         jLabel3.setFocusable(false);
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(10, 60, 480, 14);
+        jLabel3.setBounds(10, 60, 530, 20);
 
         Enviar.setText("Enviar");
         Enviar.setFocusable(false);
         jPanel1.add(Enviar);
-        Enviar.setBounds(380, 530, 80, 23);
+        Enviar.setBounds(380, 530, 80, 29);
 
         jLabel2.setText("Enviar ejercicios al correo");
         jLabel2.setFocusable(false);

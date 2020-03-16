@@ -124,8 +124,8 @@
             <Container class="javax.swing.JPanel" name="jPanel3">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Expreciones Aritmeticas">
-                    <Property name="tabTitle" type="java.lang.String" value="Expreciones Aritmeticas"/>
+                  <JTabbedPaneConstraints tabName="Expreciones Aritm&#xe9;ticas">
+                    <Property name="tabTitle" type="java.lang.String" value="Expreciones Aritm&#xe9;ticas"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -259,8 +259,8 @@
             <Container class="javax.swing.JPanel" name="jPanel6">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Caracteres">
-                    <Property name="tabTitle" type="java.lang.String" value="Caracteres"/>
+                  <JTabbedPaneConstraints tabName="Car&#xe1;cteres">
+                    <Property name="tabTitle" type="java.lang.String" value="Car&#xe1;cteres"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -484,8 +484,8 @@
             <Container class="javax.swing.JPanel" name="jPanel11">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
-                  <JTabbedPaneConstraints tabName="Modo Grafico">
-                    <Property name="tabTitle" type="java.lang.String" value="Modo Grafico"/>
+                  <JTabbedPaneConstraints tabName="Modo Gr&#xe1;fico">
+                    <Property name="tabTitle" type="java.lang.String" value="Modo Gr&#xe1;fico"/>
                   </JTabbedPaneConstraints>
                 </Constraint>
               </Constraints>
@@ -530,12 +530,12 @@
         </Container>
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Ejercicios para reforzar el aprendizaje de los temas..  &#xbf;Podras  lograrlo?"/>
+            <Property name="text" type="java.lang.String" value="Ejercicios para reforzar el aprendizaje de los temas.  &#xbf;Podras  lograrlo?"/>
             <Property name="focusable" type="boolean" value="false"/>
           </Properties>
           <Constraints>
             <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-              <AbsoluteConstraints x="10" y="60" width="480" height="-1"/>
+              <AbsoluteConstraints x="10" y="60" width="530" height="-1"/>
             </Constraint>
           </Constraints>
         </Component>

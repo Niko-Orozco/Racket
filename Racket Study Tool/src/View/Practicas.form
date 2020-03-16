@@ -123,12 +123,12 @@
                                   <Component id="jPanel27" min="-2" pref="464" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jPanel28" min="-2" pref="464" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <EmptySpace min="0" pref="202" max="32767" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel16" min="-2" pref="429" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="251" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                                   <Component id="jLabel20" min="-2" pref="429" max="-2" attributes="0"/>
                                   <EmptySpace max="32767" attributes="0"/>
                               </Group>
@@ -238,6 +238,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejefuncion1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -328,6 +331,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejefuncion2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -338,13 +344,13 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel16">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                             <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel20">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                             <Property name="focusable" type="boolean" value="false"/>
                           </Properties>
                         </Component>
@@ -503,6 +509,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejearitmetica1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -592,6 +601,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejearitmetica2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -602,12 +614,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel11">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 250 en el read(), cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Si ingresamos el valor 250 en el read(), cual seria la salida?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel12">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Si ingresamos el valor 15 en el read(), cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Si ingresamos el valor 15 en el read(), cual seria la salida?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -657,11 +669,11 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" attributes="0">
+                                      <Component id="jPanel22" min="-2" pref="464" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jLabel5" min="-2" pref="204" max="-2" attributes="0"/>
+                                          <Component id="jLabel5" min="-2" pref="336" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="jPanel22" alignment="0" min="-2" pref="464" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
@@ -694,7 +706,7 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel5">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Selecione la opcion correcta"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel22">
@@ -749,6 +761,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecon1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -822,6 +837,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecon2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -832,7 +850,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel9">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Cual de las siguientes imagenes de codigo da como salida  T = 34"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -895,22 +913,29 @@
                             <DimensionLayout dim="0">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" alignment="0" attributes="0">
-                                      <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="jLabel21" min="-2" pref="429" max="-2" attributes="0"/>
-                                          <Component id="jPanel29" min="-2" pref="464" max="-2" attributes="0"/>
-                                      </Group>
+                                      <Component id="jPanel29" min="-2" pref="464" max="-2" attributes="0"/>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Component id="jPanel30" min="-2" pref="464" max="-2" attributes="0"/>
                                       <EmptySpace min="0" pref="30" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="jLabel21" min="-2" pref="429" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
                                   </Group>
                               </Group>
                             </DimensionLayout>
                             <DimensionLayout dim="1">
                               <Group type="103" groupAlignment="0" attributes="0">
                                   <Group type="102" attributes="0">
-                                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
-                                      <Component id="jLabel21" min="-2" pref="31" max="-2" attributes="0"/>
-                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="jLabel21" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                          <Component id="jLabel22" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                           <Component id="jPanel30" pref="376" max="32767" attributes="0"/>
                                           <Component id="jPanel29" max="32767" attributes="0"/>
@@ -999,6 +1024,9 @@
                                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                   <SubComponents>
                                     <Component class="javax.swing.JTextPane" name="ejerecu1">
+                                      <Properties>
+                                        <Property name="focusable" type="boolean" value="false"/>
+                                      </Properties>
                                       <AuxValues>
                                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                       </AuxValues>
@@ -1059,6 +1087,9 @@
                                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                                   <SubComponents>
                                     <Component class="javax.swing.JTextPane" name="ejerecu2">
+                                      <Properties>
+                                        <Property name="focusable" type="boolean" value="false"/>
+                                      </Properties>
                                       <AuxValues>
                                         <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                       </AuxValues>
@@ -1069,7 +1100,12 @@
                             </Container>
                             <Component class="javax.swing.JLabel" name="jLabel21">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="cual seria la salida si ingresamos 7 en el read?"/>
+                                <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
+                              </Properties>
+                            </Component>
+                            <Component class="javax.swing.JLabel" name="jLabel22">
+                              <Properties>
+                                <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente si ingresamos 7 en el read?"/>
                               </Properties>
                             </Component>
                           </SubComponents>
@@ -1150,12 +1186,12 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel37">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel38">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel37">
@@ -1236,6 +1272,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecaracter1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1325,6 +1364,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecaracter2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1485,6 +1527,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecadena1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1574,6 +1619,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejecadena2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1584,12 +1632,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel35">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel36">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1757,6 +1805,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejevector1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1817,6 +1868,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejevector2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -1827,12 +1881,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel29">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel42">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -1876,7 +1930,7 @@
                       <Layout>
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" alignment="0" attributes="0">
+                              <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jPanel39" alignment="0" min="-2" pref="464" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
@@ -1887,9 +1941,9 @@
                                   <EmptySpace type="separate" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Component id="jLabel44" min="-2" max="-2" attributes="0"/>
-                                      <Component id="jPanel41" alignment="0" min="-2" pref="464" max="-2" attributes="0"/>
+                                      <Component id="jPanel41" min="-2" pref="464" max="-2" attributes="0"/>
                                   </Group>
-                                  <EmptySpace pref="55" max="32767" attributes="0"/>
+                                  <EmptySpace pref="75" max="32767" attributes="0"/>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -1913,12 +1967,12 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel43">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JLabel" name="jLabel44">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Que hace la siguiente funci&#xf3;n? discuta su respues con su compa&#xf1;ero "/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Que hace la siguiente funci&#xf3;n?  "/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel39">
@@ -1999,6 +2053,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejelista1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2078,6 +2135,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejelista2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2167,7 +2227,7 @@
                       <SubComponents>
                         <Component class="javax.swing.JLabel" name="jLabel46">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalue el codigo"/>
+                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalu&#xe9; el c&#xf3;digo."/>
                           </Properties>
                         </Component>
                         <Container class="javax.swing.JPanel" name="jPanel40">
@@ -2244,7 +2304,7 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel47">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalue el codigo"/>
+                            <Property name="text" type="java.lang.String" value="Ingrese el ejemplo en racket y evalu&#xe9; el c&#xf3;digo."/>
                           </Properties>
                         </Component>
                       </SubComponents>
@@ -2288,27 +2348,41 @@
                         <DimensionLayout dim="0">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="jLabel25" alignment="1" min="-2" pref="429" max="-2" attributes="0"/>
-                                      <Component id="jPanel31" alignment="1" min="-2" pref="464" max="-2" attributes="0"/>
-                                  </Group>
+                                  <Component id="jPanel31" min="-2" pref="464" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="jPanel32" min="-2" pref="464" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel25" min="-2" pref="429" max="-2" attributes="0"/>
+                                      <Component id="jPanel32" min="-2" pref="464" max="-2" attributes="0"/>
+                                  </Group>
                                   <EmptySpace min="0" pref="40" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                                      <Component id="jLabel26" min="-2" pref="429" max="-2" attributes="0"/>
+                                      <EmptySpace pref="503" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                         </DimensionLayout>
                         <DimensionLayout dim="1">
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                                   <Component id="jLabel25" min="-2" pref="31" max="-2" attributes="0"/>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                       <Component id="jPanel32" pref="456" max="32767" attributes="0"/>
                                       <Component id="jPanel31" max="32767" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                      <Component id="jLabel26" min="-2" pref="31" max="-2" attributes="0"/>
+                                      <EmptySpace pref="480" max="32767" attributes="0"/>
+                                  </Group>
                               </Group>
                           </Group>
                         </DimensionLayout>
@@ -2396,6 +2470,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejegrafico1">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2474,6 +2551,9 @@
                               <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
                               <SubComponents>
                                 <Component class="javax.swing.JTextPane" name="ejegrafico2">
+                                  <Properties>
+                                    <Property name="focusable" type="boolean" value="false"/>
+                                  </Properties>
                                   <AuxValues>
                                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                                   </AuxValues>
@@ -2484,7 +2564,12 @@
                         </Container>
                         <Component class="javax.swing.JLabel" name="jLabel25">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="cual seria la salida si ingresamos 7 en el read?"/>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel26">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xbf;Cu&#xe1;l ser&#xed;a la salida de lo siguiente?"/>
                           </Properties>
                         </Component>
                       </SubComponents>
