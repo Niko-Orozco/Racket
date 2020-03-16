@@ -673,7 +673,7 @@ public class CadenasView extends javax.swing.JFrame {
             }
         });
 
-        jLabel15.setText("Reprecentasión de una cadena en Racket");
+        jLabel15.setText("Representación de una cadena en Racket.");
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/cadenas.jpg"))); // NOI18N
         jLabel11.setFocusable(false);
@@ -739,9 +739,9 @@ public class CadenasView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane13);
         jScrollPane13.setBounds(510, 70, 630, 600);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         jPanel1.add(letsgo);
-        letsgo.setBounds(500, 700, 150, 23);
+        letsgo.setBounds(500, 700, 150, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
@@ -749,7 +749,7 @@ public class CadenasView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 23);
+        menu.setBounds(1040, 700, 73, 29);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Cadenas y Strings");

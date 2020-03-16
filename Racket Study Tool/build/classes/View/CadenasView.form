@@ -1220,7 +1220,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n de una cadena en Racket"/>
+                    <Property name="text" type="java.lang.String" value="Representaci&#xf3;n de una cadena en Racket."/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel12">
@@ -1265,7 +1265,7 @@
         </Container>
         <Component class="javax.swing.JButton" name="letsgo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Vamos alla"/>
+            <Property name="text" type="java.lang.String" value="Vamos all&#xe1;."/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>

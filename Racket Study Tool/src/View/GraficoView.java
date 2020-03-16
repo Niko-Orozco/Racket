@@ -577,7 +577,7 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane13);
         jScrollPane13.setBounds(510, 70, 620, 600);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel2.add(letsgo);
         letsgo.setBounds(490, 710, 130, 30);
