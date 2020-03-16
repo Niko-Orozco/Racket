@@ -11,8 +11,6 @@ import java.awt.Color;
 import java.awt.HeadlessException;
 import java.awt.event.ActionEvent;
 import static java.lang.Math.pow;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.JTextPane;
 import javax.swing.table.DefaultTableModel;
@@ -191,28 +189,25 @@ public class Controlador {
     
     public void Graficos(){  
         this.GraficView.setTitle("Modo Grafico");
-        this.GraficView.setLocationRelativeTo(null); 
-        GraficView.ejemplografic.setVisible(false);
-        GraficView.ejemplografic2.setVisible(false);
-        GraficView.ejemplografic3.setVisible(false);
+        this.GraficView.setLocationRelativeTo(null);       
         GraficView.grafico1.setText(Mgrafico.grafico1());
         GraficView.grafico2.setText(Mgrafico.grafico2());
         GraficView.grafico3.setText(Mgrafico.grafico3());
         PonerColor(GraficView.code1, Mgrafico.Ejegrafico1());
-        PonerColor(GraficView.code2, Mgrafico.Ejegrafico2());
-        PonerColor(GraficView.code3, Mgrafico.Ejegrafico3());
-        PonerColor(GraficView.code4, Mgrafico.Ejegrafico4());
+        PonerColor(GraficView.code2, Mgrafico.Ejerecursividad2());
+        PonerColor(GraficView.code3, Mgrafico.Ejerecursividad3());
+        PonerColor(GraficView.code4, Mgrafico.Ejerecursividad4());
         GraficView.run1.addActionListener((ActionEvent e) -> {
-            GraficView.ejemplografic.setVisible(true);
+            GraficView.verinfo1.setText(runCodeRac(1));
         });
         GraficView.run2.addActionListener((ActionEvent e) -> {
-            GraficView.ejemplografic2.setVisible(true);
+            GraficView.verinfo2.setText(runCodeRac(2));
         });  
         GraficView.run3.addActionListener((ActionEvent e) -> {
-            GraficView.ejemplografic3.setVisible(true);
+            GraficView.verinfo3.setText(runCodeRac(3));
         }); 
         GraficView.run4.addActionListener((ActionEvent e) -> {
-            
+            GraficView.verinfo4.setText(runCodeRac(4));
         });   
         GraficView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();

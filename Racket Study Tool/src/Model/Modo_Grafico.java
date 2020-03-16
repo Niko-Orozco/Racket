@@ -98,144 +98,79 @@ public class Modo_Grafico {
     
     public String Ejegrafico1(){
         String data =   
-                "(require (lib \"graphics.ss\" \"graphics\"))\n" +
-"(open-graphics)\n" +
-"\n" +
-"(define ventana1 (open-viewport \"graficos\" 1000 700))\n" +
-"\n" +
-"(define (dibujar op)\n" +
-"  (if (= op 1)\n" +
-"  (begin\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 100 100) 50 50 \"red\")\n" +
-"    (sleep 1)\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 100 100) 50 50 \"white\")\n" +
-"    )\n" +
-"  )\n" +
-"(if (= op 2)\n" +
-"  (begin\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 160 100) 50 50 \"blue\")\n" +
-"    (sleep 1)\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 160 100) 50 50 \"white\")\n" +
-"    )\n" +
-"  )\n" +
-"  (if (= op 3)\n" +
-"  (begin\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 160 160) 50 50 \"green\")\n" +
-"    (sleep 1)\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 160 160) 50 50 \"white\")\n" +
-"    )\n" +
-"  )\n" +
-"  (if (= op 4)\n" +
-"  (begin\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 100 160) 50 50 \"black\")\n" +
-"    (sleep 1)\n" +
-"    ((draw-solid-rectangle ventana1)(make-posn 100 160) 50 50 \"white\")\n" +
-"    )\n" +
-"  )\n" +
-")\n" +
-"\n" +
-"(define (recursividad op)\n" +
-"  (if (< op 5)\n" +
-"      (begin\n" +
-"        (dibujar op)\n" +
-"        (recursividad (+ 1 op))\n" +
-"        )             \n" +
-"        (begin\n" +
-"          (recursividad 0)\n" +
-"          )\n" +
-"        )\n" +
-"      )\n" +
-"(recursividad 1)"; 
+                ";Construya un programa en donde en una ventana de 800*600 se dibuje un pixel \n"
+                + ";en la posición [0.50], luego debe dibujarse otro pixel en la posición[1,50], \n"
+                + ";(2,50), (3,50) hasta llegar a la posición (800,50). Use recursividad.\n" +
+                        "\n"
+                +"(require (lib \"graphics.ss\" \"graphics\"))\n" +
+                "(open-graphics) ;Llamado de librería\n" +
+                "\n" +
+                "(define ventanal (open-viewport \"Línea de puntos\" 800 600))\n" +
+                "(define (línea x y) ;x, y, son coordenadas.\n" +
+                "  (if (= x 799) ; Caso base\n" +
+                "      ((draw-pixel ventanal) (make-posn 800 50) \"green\") ; Dibuja el ultimo pixel\n" +
+                "      (begin\n" +
+                "        ((draw-pixel ventanal) (make-posn x y) \"green\") ;Dibuja el pixel en la posición (x, y)\n" +
+                "        (sleep 0.001) ; Tiempo de espera para dibujar el siguiente pixel.\n" +
+                "        (linea (+ x 1) y) ;Llamado recursivo\n" +
+                "        )\n" +
+                "      )\n" +
+                "  )\n" +
+                "(linea 0 50) ;llamado de la función"; 
         return data;
     }
     
     
-     public String Ejegrafico2(){
-        String data =   "(require (lib \"graphics.ss\" \"graphics\"))\n" +
-"(open-graphics)\n" +
-"\n" +
-"(define ventana1 (open-viewport \"graficos\" 350 220))\n" +
-"\n" +
-"((draw-line ventana1)(make-posn 0 100)(make-posn 350 100)\"black\")\n" +
-"((draw-line ventana1)(make-posn 0 200)(make-posn 350 200)\"black\")\n" +
-"\n" +
-"(define (solido r g b)\n" +
-"  (if (= b 1)\n" +
-"      (if (= g 1)\n" +
-"          (if (= r 1)\n" +
-"              ((draw-solid-rectangle ventana1)(make-posn  0 200) 524 233.33(make-rgb 0 g b))\n" +
-"              (begin\n" +
-"                ((draw-solid-rectangle ventana1)(make-posn  0 200) 524 233.33(make-rgb r g b))\n" +
-"                (sleep 0.1)\n" +
-"                (solido (exact->inexact (+ r 0.2)) g b )))\n" +
-"          (begin\n" +
-"                ((draw-solid-rectangle ventana1)(make-posn  0 200) 524 233.33(make-rgb 0 g b))\n" +
-"                (sleep 0.1)\n" +
-"                (solido r (exact->inexact (+ g 0.2)) b )))\n" +
-"          (begin\n" +
-"                ((draw-solid-rectangle ventana1)(make-posn  0 200) 524 233.33(make-rgb 0.5 g b))\n" +
-"                (sleep 0.1)\n" +
-"                (solido r g (exact->inexact (+ b 0.2)))\n" +
-"                )\n" +
-"          )\n" +
-"  )\n" +
-"\n" +
-"(define (colores x)\n" +
-"  (cond\n" +
-"    ((= x 0) \"green\")\n" +
-"    ((= x 1) \"black\")\n" +
-"    ((= x 2) \"red\")\n" +
-"    ((= x 3) \"yellow\")\n" +
-"    ((= x 4) \"purple\")\n" +
-"    )\n" +
-"  )\n" +
-"\n" +
-"(define (cuadro x y color)\n" +
-"  (if (= x 524)\n" +
-"      (display \"fin\")\n" +
-"      (begin\n" +
-"         ((draw-solid-rectangle ventana1)(make-posn  x y) 50 50(colores color))\n" +
-"         (sleep 0.5)\n" +
-"         (cuadro (+ x 100) y (random 4))\n" +
-"         )\n" +
-"      )\n" +
-"  )\n" +
-"\n" +
-"(define (linea x y)\n" +
-"  (if (= x 524)\n" +
-"      ((draw-pixel ventana1)(make-posn 0 133)\"green\")\n" +
-"      (begin\n" +
-"       ((draw-pixel ventana1)(make-posn x y)\"green\")\n" +
-"       (sleep 0.001)\n" +
-"       (linea (+ x 1) y )\n" +
-"       )\n" +
-"      )\n" +
-"  )\n" +
-"\n" +
-"(linea 0 133)\n" +
-"(solido 0 0 0)\n" +
-"(cuadro 0 200.32 1)";
+     public String Ejerecursividad2(){
+        String data =   ";Construir un programa que calcula la cantidad  de divisores  de un numero utilizando la ;recursividad.\n\n" +
+                        "\n" +
+                        "   (define(Divs A Cont)\n" +
+                        "        (if  (= Cont 1)                                            \n;Caso base cuando Cont = 1\n" +
+                        "          (display (/ A Cont))                               \n ;Imprimir el # divisor\n" +
+                        "          (begin                                                     \n ;Casos generales, cuando cont no es igual a 1\n" +
+                        "            (if (interger? (/ A Cont))\n" +
+                        "              (begin\n" +
+                        "               (display( / A Cont))\n" +
+                        "               (newline)                                              \n;Salto de linea\n" +
+                        "               (Divs A (- Cont 1) )                              \n;Llamado recursivo\n" +
+                        "           )\n" +
+                        "         (Divs A (- Cont 1) )                                   \n ;Llamado recursivo\n" +
+                        "  )  )  )  )\n" +
+                        "\n" +
+                        "  (define  (Divisores X)\n" +
+                        "       (Divs XX 0)   )\n" +
+                        "  (Divisores 110240)";
         return data;
     }
      
-      public String Ejegrafico3(){
-        String data =   "(require (lib \"graphics.ss\" \"graphics\"))\n" +
-"(open-graphics)\n" +
-"\n" +
-"(define ventana1 (open-viewport \"graficos\" 350 220))\n" +
-"(define (dibujar op q w)\n" +
-"  (if (< op 3)\n" +
-"      (begin\n" +
-"        ((draw-solid-rectangle ventana1)(make-posn q w) 50 50 \"red\")\n" +
-"        (sleep 1)\n" +
-"    (dibujar (+ op 1) q (+ w 110))\n" +
-"    )))\n" +
-"\n" +
-"(dibujar 1 20 20)";
+      public String Ejerecursividad3(){
+        String data =   ";Hacer  un  programa  que  reciba   un  número  y  determine  si  es  un numero perfecto. Un \n" +
+                        ";número es perfecto  cuando la suma de sus divisores menores a él, da como resultado el \n" +
+                        ";mismo número. Ej: 28 es un numero perfecto pues sus divisores son 14,7,4,2,1 y la suma \n" +
+                        ";de estos números da 28.\n\n" +
+                        "\n" +
+                        " (define (Divs A Cont Suma)\n" +
+                        "       (if  (= Cont 1)\n" +
+                        "       (if  (= A Suma)\n" +
+                        "         (begin\n" +
+                        "               (display Suma)\n" +
+                        "               (display \"Es un numero perfecto\")  )\n" +
+                        "           (begin\n" +
+                        "               (display A)\n" +
+                        "               (display \"No es un numero perfecto\")  )\n" +
+                        "       )\n" +
+                        "    (begin\n" +
+                        "         (if (interger? (/ A Cont))\n" +
+                        "            (Divs A (-  Cont 1)  (+ Suma  (/A Cont) ) ) \n" +
+                        "            (Divs A (- Cont 1)  Suma)\n" +
+                        "          )  )  )  )\n" +
+                        " (define (Perfecto? X)\n" +
+                        "         (Divs X 10)  )\n" +
+                        " (Perfecto? (read))";
         return data;
     }
       
-       public String Ejegrafico4(){
+       public String Ejerecursividad4(){
         String data =   ";Para el primer renglón solo se pide imprimir una letra \"A\" y luego se debe saltar al nuevo \n" +
                         ";renglón, sin espacios en blanco.\n" +
                         "\n" +
