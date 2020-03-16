@@ -6,11 +6,14 @@
 package View;
 
 import Controller.Controlador;
+import java.awt.Desktop;
 import java.awt.event.ActionEvent;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseMotionAdapter;
 import java.awt.event.MouseWheelEvent;
+import java.io.File;
+import java.io.IOException;
 import javax.swing.ImageIcon;
 import javax.swing.event.MouseInputAdapter;
 import javax.swing.plaf.basic.BasicTabbedPaneUI;
@@ -170,7 +173,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(41, 148, 413, 140);
 
-        jLabel3.setText("¿Que son los operadores logicos y de comparacion?");
+        jLabel3.setText("¿Qué son los operadores logicos y de comparación?");
         jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(41, 299, 344, 22);
@@ -256,6 +259,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -309,6 +313,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane11.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -362,6 +367,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane14.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -415,6 +421,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane16.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -468,6 +475,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel12.setBackground(new java.awt.Color(252, 252, 252));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane18.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -523,6 +531,11 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
         jPanel6.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -534,7 +547,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel6.add(jLabel5);
         jLabel5.setBounds(10, 20, 410, 200);
 
-        jLabel16.setText("operadores logicos y comparacion");
+        jLabel16.setText("Operadores logicos y comparación");
         jLabel16.setFocusable(false);
         jPanel6.add(jLabel16);
         jLabel16.setBounds(10, 0, 200, 22);
@@ -864,6 +877,15 @@ public class ExprecrionesView extends javax.swing.JFrame {
     private void jPanel5MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel5MouseEntered
         this.Codex.setVisible(false);
     }//GEN-LAST:event_jPanel5MouseEntered
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
     
     
     public void SeeCode2(int a){

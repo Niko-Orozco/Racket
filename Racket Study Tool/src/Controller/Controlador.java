@@ -1411,8 +1411,7 @@ int linea=0; //Variable Global
         PonerColor(EstrucView.code2,Estrucs.makeeje());
         PonerColor(EstrucView.code3,Estrucs.Ejemplo3());
         PonerColor(EstrucView.code4,Estrucs.Ejemplo4());
-        PonerColor(EstrucView.code5,Estrucs.Ejemplo3());
-        PonerColor(EstrucView.code6,Estrucs.makeeje());
+        PonerColor(EstrucView.code5,Estrucs.Ejemplo5());
         llenar_tabla(5); 
         EstrucView.run1.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo1.setText(runCodestrcut(1));
@@ -1423,14 +1422,15 @@ int linea=0; //Variable Global
         EstrucView.run3.addActionListener((ActionEvent e) -> {
             EstrucView.verinfo3.setText(runCodestrcut(3));
         });   
+        EstrucView.run4.addActionListener((ActionEvent e) -> {
+            EstrucView.verinfo4.setText(runCodestrcut(4));
+        });   
+        EstrucView.run5.addActionListener((ActionEvent e) -> {
+            EstrucView.verinfo5.setText(runCodestrcut(5));
+        });   
         EstrucView.adddata.addActionListener((ActionEvent e) -> {
             addata();
         });
-        /*EstrucView.seecode.addActionListener((ActionEvent e) -> {
-            Codex = new codex();
-            Codex.setVisible(true);
-            SeeCode();
-        });*/
         EstrucView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             EstrucView.setVisible(false);
@@ -1603,13 +1603,13 @@ int linea=0; //Variable Global
     
     public String runCodestrcut(int ns){
         int n1=0;
-        String respuesta="",Nombre, Apellido, Telefono, Correo;
+        String respuesta="",Nombre, Apellido, Telefono, Correo, aux = "";
         switch(ns){
             case 1:  try {
                         respuesta = "Estructuras creadas exitosamente\nDoctores\nEnfermeros\nClientes";
                         EstrucView.verinfo1.setText(respuesta);
                      } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "error empty field");
+                        JOptionPane.showMessageDialog(null, "error code. try again");
                      }
                 break;
             case 2:  
@@ -1624,7 +1624,7 @@ int linea=0; //Variable Global
                     }
                     EstrucView.verinfo1.setText(respuesta);
                 } catch (HeadlessException e) {
-                   JOptionPane.showMessageDialog(null, "error empty field");
+                   JOptionPane.showMessageDialog(null, "error code. try again");
                 }
                 break;
             case 3:  try {
@@ -1638,7 +1638,28 @@ int linea=0; //Variable Global
                         }                       
                         EstrucView.verinfo1.setText(respuesta);
                      } catch (Exception e) {
-                        JOptionPane.showMessageDialog(null, "error empty field");
+                        JOptionPane.showMessageDialog(null, "error code. try again");
+                     }
+                break;
+            case 4:  try {
+                        n1 = Integer.parseInt(JOptionPane.showInputDialog("Ingrese cantidad de persona"));
+                        for(int x = 0; x < n1; x++){
+                            Nombre = JOptionPane.showInputDialog("Ingrese el nombre de la persona");
+                            Apellido = JOptionPane.showInputDialog("Ingrese el apellido de la persona");   
+                            double Telefono2 = Double.parseDouble(JOptionPane.showInputDialog("Ingrese el numero de telefono"));                        
+                            respuesta += "\nNombre de la persona: "+Nombre+"\nApellido de la persona: "+Apellido+"Telefono del personas: "+Telefono2+ "\n\n";
+                            aux = respuesta;
+                        }                       
+                        EstrucView.verinfo1.setText(respuesta);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "error code. try again");
+                     }
+                break;
+            case 5:  try {                      
+                            respuesta = aux;                    
+                        EstrucView.verinfo1.setText(respuesta);
+                     } catch (Exception e) {
+                        JOptionPane.showMessageDialog(null, "error code. try again");
                      }
                 break;
         }

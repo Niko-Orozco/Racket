@@ -150,12 +150,21 @@ public class Estructuras_De_Datos {
     }
     
     public String Ejemplo5(){
-        String data =   "";
-        return data;
-    }
-    
-    public String Ejemplo6(){
-        String data =   "";
+        String data =   ";Contruir una función en Racket que nos consulte los datos de la estructura creada en el\n" +
+                        ";ejercicio número 4 de esta sección\n" +
+                        "(define (ConsultarDatos inf)\n" +
+                        " (if (<= inf 5)\n" +
+                        " (begin\n" +
+                        "  (display \"Persona \")   (display (+ inf 1)) (newline)\n" +
+                        "  (display \"Nombre: \")   (display (Persona-Nombre(vector-ref VECTOR inf ))) (newline)\n" +
+                        "  (display \"Apellido: \")   (display (Persona-Apellido(vector-ref VECTOR inf )))(newline)\n" +
+                        "  (display \"Teléfono: \")  (display (Persona-Teléfono(vector-ref VECTOR inf )))(newline)(newline)\n" +
+                        "        (ConsultarDatos (+ inf 1))\n" +
+                        "     )\n" +
+                        "  )\n" +
+                        ")\n" +
+                        "\n" +
+                        "(ConsultarDatos 0)";
         return data;
     }
     

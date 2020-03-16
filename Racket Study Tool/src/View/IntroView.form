@@ -287,6 +287,9 @@
                     <Property name="text" type="java.lang.String" value="ayuda"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+                  </Events>
                   <AuxValues>
                     <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
                   </AuxValues>
@@ -696,7 +699,7 @@
         <Component class="javax.swing.JLabel" name="jLabel18">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Sylfaen" size="18" style="1"/>
+              <Font name="Sylfaen" size="24" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Introducci&#xf3;n"/>
             <Property name="focusable" type="boolean" value="false"/>

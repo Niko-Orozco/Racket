@@ -284,6 +284,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel27.add(fun1op3);
         fun1op3.setBounds(70, 320, 120, 23);
 
+        ejefuncion1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejefuncion1.setFocusable(false);
         jScrollPane12.setViewportView(ejefuncion1);
 
         jPanel27.add(jScrollPane12);
@@ -314,6 +316,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel28.add(fun2op3);
         fun2op3.setBounds(70, 320, 110, 23);
 
+        ejefuncion2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejefuncion2.setFocusable(false);
         jScrollPane16.setViewportView(ejefuncion2);
 
         jPanel28.add(jScrollPane16);
@@ -392,6 +396,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel25.add(fun3op3);
         fun3op3.setBounds(70, 320, 120, 23);
 
+        ejearitmetica1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejearitmetica1.setFocusable(false);
         jScrollPane17.setViewportView(ejearitmetica1);
 
         jPanel25.add(jScrollPane17);
@@ -421,6 +427,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel26.add(fun4op3);
         fun4op3.setBounds(70, 320, 110, 23);
 
+        ejearitmetica2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejearitmetica2.setFocusable(false);
         jScrollPane18.setViewportView(ejearitmetica2);
 
         jPanel26.add(jScrollPane18);
@@ -497,6 +505,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel22.add(fun5op2);
         fun5op2.setBounds(20, 350, 290, 23);
 
+        ejecon1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecon1.setFocusable(false);
         jScrollPane19.setViewportView(ejecon1);
 
         jPanel22.add(jScrollPane19);
@@ -522,6 +532,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel23.add(fun6op2);
         fun6op2.setBounds(20, 350, 200, 23);
 
+        ejecon2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecon2.setFocusable(false);
         jScrollPane20.setViewportView(ejecon2);
 
         jPanel23.add(jScrollPane20);
@@ -598,6 +610,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel29.add(fun7op3);
         fun7op3.setBounds(70, 320, 120, 23);
 
+        ejerecu1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejerecu1.setFocusable(false);
         jScrollPane15.setViewportView(ejerecu1);
 
         jPanel29.add(jScrollPane15);
@@ -614,6 +628,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel30.add(fun8op2);
         fun8op2.setBounds(70, 320, 280, 23);
 
+        ejerecu2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejerecu2.setFocusable(false);
         jScrollPane11.setViewportView(ejerecu2);
 
         jPanel30.add(jScrollPane11);
@@ -699,6 +715,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel37.add(fun9op3);
         fun9op3.setBounds(70, 320, 120, 23);
 
+        ejecaracter1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecaracter1.setFocusable(false);
         jScrollPane21.setViewportView(ejecaracter1);
 
         jPanel37.add(jScrollPane21);
@@ -733,6 +751,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel38.add(fun10op3);
         fun10op3.setBounds(70, 320, 140, 23);
 
+        ejecaracter2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecaracter2.setFocusable(false);
         jScrollPane22.setViewportView(ejecaracter2);
 
         jPanel38.add(jScrollPane22);
@@ -809,6 +829,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel35.add(fun11op3);
         fun11op3.setBounds(70, 290, 120, 23);
 
+        ejecadena1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecadena1.setFocusable(false);
         jScrollPane23.setViewportView(ejecadena1);
 
         jPanel35.add(jScrollPane23);
@@ -838,6 +860,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel36.add(fun12op3);
         fun12op3.setBounds(70, 320, 110, 23);
 
+        ejecadena2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejecadena2.setFocusable(false);
         jScrollPane24.setViewportView(ejecadena2);
 
         jPanel36.add(jScrollPane24);
@@ -918,6 +942,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel33.add(fun13op3);
         fun13op3.setBounds(70, 320, 120, 23);
 
+        ejevector1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejevector1.setFocusable(false);
         jScrollPane25.setViewportView(ejevector1);
 
         jPanel33.add(jScrollPane25);
@@ -934,6 +960,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel34.add(fun14op2);
         fun14op2.setBounds(70, 320, 280, 23);
 
+        ejevector2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejevector2.setFocusable(false);
         jScrollPane26.setViewportView(ejevector2);
 
         jPanel34.add(jScrollPane26);
@@ -1020,6 +1048,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel39.add(fun15op3);
         fun15op3.setBounds(70, 320, 120, 23);
 
+        ejelista1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejelista1.setFocusable(false);
         jScrollPane29.setViewportView(ejelista1);
 
         jPanel39.add(jScrollPane29);
@@ -1050,6 +1080,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel41.add(fun16op3);
         fun16op3.setBounds(20, 360, 410, 23);
 
+        ejelista2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejelista2.setFocusable(false);
         jScrollPane30.setViewportView(ejelista2);
 
         jPanel41.add(jScrollPane30);
@@ -1196,6 +1228,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel31.add(fun17op2);
         fun17op2.setBounds(230, 311, 30, 90);
 
+        ejegrafico1.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejegrafico1.setFocusable(false);
         jScrollPane27.setViewportView(ejegrafico1);
 
         jPanel31.add(jScrollPane27);
@@ -1216,6 +1250,8 @@ public class Practicas extends javax.swing.JFrame {
         jPanel32.add(jLabel31);
         jLabel31.setBounds(270, 310, 160, 90);
 
+        ejegrafico2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        ejegrafico2.setFocusable(false);
         jScrollPane28.setViewportView(ejegrafico2);
 
         jPanel32.add(jScrollPane28);

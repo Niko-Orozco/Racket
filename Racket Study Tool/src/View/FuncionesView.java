@@ -5,6 +5,9 @@
  */
 package View;
 
+import java.awt.Desktop;
+import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.ExecutionException;
 import javax.swing.ImageIcon;
 import javax.swing.table.DefaultTableModel;
@@ -160,7 +163,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane5);
         jScrollPane5.setBounds(20, 440, 439, 140);
 
-        jLabel5.setText("¿Que es un argumento?");
+        jLabel5.setText("¿Qué es un argumento?");
         jLabel5.setFocusable(false);
         jPanel2.add(jLabel5);
         jLabel5.setBounds(20, 410, 400, 22);
@@ -234,6 +237,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -287,6 +291,7 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane12.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -504,6 +509,11 @@ public class FuncionesView extends javax.swing.JFrame {
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jLabel15.setText("Funciones que operan con valores numericos");
         jLabel15.setFocusable(false);
@@ -705,6 +715,15 @@ public class FuncionesView extends javax.swing.JFrame {
     private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_run6ActionPerformed
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        try {
+            File path = new File ("src/View/Manual.pdf");
+            Desktop.getDesktop().open(path);
+       }catch (IOException ex) {
+            ex.printStackTrace();
+       }
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
