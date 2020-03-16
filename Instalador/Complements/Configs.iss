@@ -5,12 +5,12 @@
 #define MyAppVersion "1.5"
 #define MyAppPublisher "UTP"
 #define MyAppURL "http://www.utp.edu.co/"
-#define MyAppExeName "Guia Lenguaje Racket.exe"
+#define MyAppExeName "Guia lenguaje Racket.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{2E0CF1C2-9261-4FF6-BAA6-E44E819E3DE7}
+AppId={{CD369BE0-0249-4BA0-84DE-2B388CC5A023}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -36,11 +36,8 @@ Name: "spanish"; MessagesFile: "compiler:Languages\Spanish.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Guia Lenguaje Racket.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\dist\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\build\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\nbproject\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\src\Images\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Guia lenguaje Racket.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

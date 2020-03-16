@@ -3,7 +3,7 @@
   <dontWrapJar>false</dontWrapJar>
   <headerType>gui</headerType>
   <jar>C:\Users\Niko\Documents\Racket proyect\Racket\Racket Study Tool\dist\Racket_Study_Tool.jar</jar>
-  <outfile>C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Guia Lenguaje Racket.exe</outfile>
+  <outfile>C:\Users\Niko\Documents\Racket proyect\Racket\Instalador\Racket Setup.exe</outfile>
   <errTitle></errTitle>
   <cmdLine></cmdLine>
   <chdir>.</chdir>
