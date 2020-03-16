@@ -30,7 +30,7 @@ public class IntroView extends javax.swing.JFrame {
      * Creates new form Gui
      */
     Sms1 sms1;
-            
+
     public IntroView() {
         initComponents();
         this.setIconImage(new ImageIcon(getClass().getResource("/Images/racket-icon.png")).getImage());
@@ -40,7 +40,7 @@ public class IntroView extends javax.swing.JFrame {
         this.pack();
         this.sms1 = new Sms1();
         hidelaebl();
-        
+
 
     }
 
@@ -234,11 +234,9 @@ public class IntroView extends javax.swing.JFrame {
             }
         });
         jPanel8.add(jButton2);
-<<<<<<< HEAD
-        jButton2.setBounds(583, 10, 120, 23);
-=======
+
         jButton2.setBounds(623, 10, 80, 29);
->>>>>>> Gg
+
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -525,7 +523,7 @@ public class IntroView extends javax.swing.JFrame {
     }//GEN-LAST:event_letsgoActionPerformed
 
     private void intro7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_intro7MouseEntered
-        
+
     }//GEN-LAST:event_intro7MouseEntered
 
     private void jPanel7MouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseEntered
@@ -582,7 +580,7 @@ public class IntroView extends javax.swing.JFrame {
         this.jInternalFrame2.setEnabled(false);
         this.jInternalFrame2.add(this.simulador.getDibujo(), BorderLayout.CENTER);
     }
-    
+
     private void hidelaebl(){
         sms1.Recorrido.setVisible(false);
     }
@@ -594,7 +592,7 @@ public class IntroView extends javax.swing.JFrame {
         /* Set the Nimbus look and feel */
         //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
         /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
+         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html
          */
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {

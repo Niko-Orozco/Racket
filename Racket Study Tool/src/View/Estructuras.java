@@ -41,14 +41,14 @@ public class Estructuras extends javax.swing.JFrame {
         numerolinea = new NumeroLinea(code3);
         jScrollPane12.setRowHeaderView(numerolinea);
                
-        numerolinea = new NumeroLinea(code4);
+        /*numerolinea = new NumeroLinea(code4);
         jScrollPane15.setRowHeaderView(numerolinea);
         
         numerolinea = new NumeroLinea(code5);
         jScrollPane17.setRowHeaderView(numerolinea);
         
         numerolinea = new NumeroLinea(code6);
-        jScrollPane19.setRowHeaderView(numerolinea);
+        jScrollPane19.setRowHeaderView(numerolinea);*/
     }
 
     /**
@@ -98,27 +98,6 @@ public class Estructuras extends javax.swing.JFrame {
         verinfo3 = new javax.swing.JTextArea();
         jLabel19 = new javax.swing.JLabel();
         run3 = new javax.swing.JButton();
-        jPanel8 = new javax.swing.JPanel();
-        jScrollPane15 = new javax.swing.JScrollPane();
-        code4 = new javax.swing.JTextPane();
-        jScrollPane16 = new javax.swing.JScrollPane();
-        verinfo4 = new javax.swing.JTextArea();
-        jLabel20 = new javax.swing.JLabel();
-        run4 = new javax.swing.JButton();
-        jPanel9 = new javax.swing.JPanel();
-        jScrollPane17 = new javax.swing.JScrollPane();
-        code5 = new javax.swing.JTextPane();
-        jScrollPane18 = new javax.swing.JScrollPane();
-        verinfo5 = new javax.swing.JTextArea();
-        jLabel21 = new javax.swing.JLabel();
-        run5 = new javax.swing.JButton();
-        jPanel10 = new javax.swing.JPanel();
-        jScrollPane19 = new javax.swing.JScrollPane();
-        code6 = new javax.swing.JTextPane();
-        jScrollPane20 = new javax.swing.JScrollPane();
-        verinfo6 = new javax.swing.JTextArea();
-        jLabel22 = new javax.swing.JLabel();
-        run6 = new javax.swing.JButton();
         jLabel7 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jLabel15 = new javax.swing.JLabel();
@@ -356,167 +335,6 @@ public class Estructuras extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("Ejemplo 3", jPanel5);
 
-        jPanel8.setBackground(new java.awt.Color(252, 252, 252));
-
-        code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code4.setFocusable(false);
-        jScrollPane15.setViewportView(code4);
-
-        verinfo4.setColumns(20);
-        verinfo4.setRows(5);
-        verinfo4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo4.setFocusable(false);
-        jScrollPane16.setViewportView(verinfo4);
-
-        jLabel20.setText("Consola");
-
-        run4.setText("Ejecutar");
-        run4.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run4ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
-        jPanel8.setLayout(jPanel8Layout);
-        jPanel8Layout.setHorizontalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane15)
-                    .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 581, Short.MAX_VALUE)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(jLabel20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run4, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        jPanel8Layout.setVerticalGroup(
-            jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel20)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run4)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("Ejemplo 4", jPanel8);
-
-        jPanel9.setBackground(new java.awt.Color(252, 252, 252));
-
-        code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        code5.setFocusable(false);
-        jScrollPane17.setViewportView(code5);
-
-        verinfo5.setColumns(20);
-        verinfo5.setRows(5);
-        verinfo5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo5.setFocusable(false);
-        jScrollPane18.setViewportView(verinfo5);
-
-        jLabel21.setText("Consola");
-
-        run5.setText("Ejecutar");
-        run5.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run5ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
-        jPanel9.setLayout(jPanel9Layout);
-        jPanel9Layout.setHorizontalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane17)
-                    .addComponent(jScrollPane18, javax.swing.GroupLayout.DEFAULT_SIZE, 581, Short.MAX_VALUE)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addComponent(jLabel21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run5, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        jPanel9Layout.setVerticalGroup(
-            jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel21)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane18, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run5)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("Ejemplo 5", jPanel9);
-
-        jPanel10.setBackground(new java.awt.Color(252, 252, 252));
-
-        code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        jScrollPane19.setViewportView(code6);
-
-        verinfo6.setColumns(20);
-        verinfo6.setRows(5);
-        verinfo6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
-        verinfo6.setFocusable(false);
-        jScrollPane20.setViewportView(verinfo6);
-
-        jLabel22.setText("Consola");
-
-        run6.setText("Ejecutar");
-        run6.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                run6ActionPerformed(evt);
-            }
-        });
-
-        javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
-        jPanel10.setLayout(jPanel10Layout);
-        jPanel10Layout.setHorizontalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane19)
-                    .addComponent(jScrollPane20, javax.swing.GroupLayout.DEFAULT_SIZE, 581, Short.MAX_VALUE)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(run6, javax.swing.GroupLayout.PREFERRED_SIZE, 137, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap())
-        );
-        jPanel10Layout.setVerticalGroup(
-            jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane19, javax.swing.GroupLayout.PREFERRED_SIZE, 270, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jLabel22)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane20, javax.swing.GroupLayout.PREFERRED_SIZE, 119, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(7, 7, 7)
-                .addComponent(run6)
-                .addContainerGap())
-        );
-
-        jTabbedPane1.addTab("Ejemplo 6", jPanel10);
-
         jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
@@ -594,7 +412,7 @@ public class Estructuras extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addContainerGap()
                         .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 580, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(0, 17, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
             .addGroup(jPanel7Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE)
@@ -669,18 +487,6 @@ public class Estructuras extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
-
-    }//GEN-LAST:event_run1ActionPerformed
-
-    private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run2ActionPerformed
-
-    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run3ActionPerformed
-
     private void adddataMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_adddataMouseEntered
         this.Codex.codes.setText("");
         SeeCode();
@@ -690,18 +496,6 @@ public class Estructuras extends javax.swing.JFrame {
         this.Codex.setVisible(false);
     }//GEN-LAST:event_jPanel6MouseEntered
 
-    private void run4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run4ActionPerformed
-
-    private void run5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run5ActionPerformed
-
-    private void run6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_run6ActionPerformed
-
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         try {
             File path = new File ("src/View/Manual.pdf");
@@ -710,6 +504,18 @@ public class Estructuras extends javax.swing.JFrame {
              ex.printStackTrace();
         }
     }//GEN-LAST:event_jButton2ActionPerformed
+
+    private void run3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run3ActionPerformed
+
+    private void run2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_run2ActionPerformed
+
+    private void run1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_run1ActionPerformed
+
+    }//GEN-LAST:event_run1ActionPerformed
 
     public void SeeCode(){
         this.Codex.setVisible(true);
@@ -767,9 +573,6 @@ public class Estructuras extends javax.swing.JFrame {
     public javax.swing.JTextPane code;
     public javax.swing.JTextPane code2;
     public javax.swing.JTextPane code3;
-    public javax.swing.JTextPane code4;
-    public javax.swing.JTextPane code5;
-    public javax.swing.JTextPane code6;
     public javax.swing.JTextArea defstruct;
     public javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
@@ -777,9 +580,6 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel18;
     private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
@@ -787,28 +587,19 @@ public class Estructuras extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JPanel jPanel10;
     public javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JPanel jPanel6;
     public javax.swing.JPanel jPanel7;
-    private javax.swing.JPanel jPanel8;
-    private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JScrollPane jScrollPane10;
     private javax.swing.JScrollPane jScrollPane11;
     private javax.swing.JScrollPane jScrollPane12;
     private javax.swing.JScrollPane jScrollPane13;
     private javax.swing.JScrollPane jScrollPane14;
-    private javax.swing.JScrollPane jScrollPane15;
-    private javax.swing.JScrollPane jScrollPane16;
-    private javax.swing.JScrollPane jScrollPane17;
-    private javax.swing.JScrollPane jScrollPane18;
-    private javax.swing.JScrollPane jScrollPane19;
     private javax.swing.JScrollPane jScrollPane2;
-    private javax.swing.JScrollPane jScrollPane20;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JScrollPane jScrollPane5;
@@ -822,14 +613,8 @@ public class Estructuras extends javax.swing.JFrame {
     public javax.swing.JButton run1;
     public javax.swing.JButton run2;
     public javax.swing.JButton run3;
-    public javax.swing.JButton run4;
-    public javax.swing.JButton run5;
-    public javax.swing.JButton run6;
     public javax.swing.JTextArea verinfo1;
     public javax.swing.JTextArea verinfo2;
     public javax.swing.JTextArea verinfo3;
-    public javax.swing.JTextArea verinfo4;
-    public javax.swing.JTextArea verinfo5;
-    public javax.swing.JTextArea verinfo6;
     // End of variables declaration//GEN-END:variables
 }
