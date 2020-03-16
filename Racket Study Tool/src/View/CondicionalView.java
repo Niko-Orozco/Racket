@@ -215,15 +215,15 @@ public class CondicionalView extends javax.swing.JFrame {
 
         menu.setText("Menu");
         jPanel1.add(menu);
-        menu.setBounds(990, 700, 73, 23);
+        menu.setBounds(990, 700, 73, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jPanel1.add(jLabel8);
         jLabel8.setBounds(300, 680, 570, 30);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         jPanel1.add(letsgo);
-        letsgo.setBounds(440, 710, 150, 23);
+        letsgo.setBounds(440, 710, 150, 29);
 
         jPanel7.setBackground(new java.awt.Color(252, 252, 252));
         jPanel7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
@@ -558,7 +558,7 @@ public class CondicionalView extends javax.swing.JFrame {
 
         jTabbedPane1.addTab("cond-begin", jPanel10);
 
-        jLabel7.setText("Ejemplos");
+        jLabel7.setText("Ejemplos:");
         jLabel7.setFocusable(false);
 
         jButton2.setText("ayuda");
@@ -572,7 +572,7 @@ public class CondicionalView extends javax.swing.JFrame {
         jPanel8.add(jLabel9);
         jLabel9.setBounds(0, 0, 240, 230);
 
-        jLabel10.setText("Reprecentasión gráfica de un condicional");
+        jLabel10.setText("Representación gráfica de un condicional.");
         jLabel10.setFocusable(false);
 
         PasoPaso.setText("Paso a Paso");

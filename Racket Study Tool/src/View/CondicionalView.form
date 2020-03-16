@@ -274,7 +274,7 @@
         </Component>
         <Component class="javax.swing.JButton" name="letsgo">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Vamos alla"/>
+            <Property name="text" type="java.lang.String" value="Vamos all&#xe1;."/>
           </Properties>
           <AuxValues>
             <AuxValue name="JavaCodeGenerator_VariableModifier" type="java.lang.Integer" value="1"/>
@@ -1069,7 +1069,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel7">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Ejemplos"/>
+                    <Property name="text" type="java.lang.String" value="Ejemplos:"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>
@@ -1110,7 +1110,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n gr&#xe1;fica de un condicional"/>
+                    <Property name="text" type="java.lang.String" value="Representaci&#xf3;n gr&#xe1;fica de un condicional."/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>

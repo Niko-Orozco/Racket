@@ -161,9 +161,9 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jLabel3.setText("¿Qué son los operadores logicos y de comparación?");
         jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
-        jLabel3.setBounds(41, 299, 344, 22);
+        jLabel3.setBounds(41, 299, 390, 22);
 
-        jLabel4.setText("¿Qué es una expresión aritmetica?");
+        jLabel4.setText("¿Qué es una expresión aritmética?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(41, 120, 355, 22);
@@ -530,7 +530,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jLabel16.setText("Operadores logicos y comparación");
         jLabel16.setFocusable(false);
         jPanel6.add(jLabel16);
-        jLabel16.setBounds(10, 0, 200, 22);
+        jLabel16.setBounds(10, 0, 260, 22);
 
         jPanel10.setBackground(new java.awt.Color(252, 252, 252));
         jPanel10.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -632,7 +632,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jScrollPane7.setViewportView(jPanel5);
 
-        jLabel15.setText("Expresiones Matemáticas basicas");
+        jLabel15.setText("Expresiones Matemáticas básicas");
         jLabel15.setFocusable(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
@@ -710,23 +710,23 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane13);
         jScrollPane13.setBounds(510, 70, 630, 600);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(490, 700, 150, 23);
+        letsgo.setBounds(490, 700, 150, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
         jPanel1.add(jLabel8);
-        jLabel8.setBounds(370, 670, 440, 30);
+        jLabel8.setBounds(310, 670, 570, 30);
 
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 23);
+        menu.setBounds(1040, 700, 73, 29);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 18)); // NOI18N
-        jLabel2.setText("Expresiones matematicas");
+        jLabel2.setText("Expresiones matemáticas");
         jLabel2.setFocusable(false);
         jPanel1.add(jLabel2);
         jLabel2.setBounds(10, 20, 250, 30);

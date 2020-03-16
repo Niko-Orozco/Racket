@@ -641,10 +641,10 @@ public class FuncionesView extends javax.swing.JFrame {
         jPanel1.add(jScrollPane13);
         jScrollPane13.setBounds(510, 70, 640, 600);
 
-        letsgo.setText("Vamos alla");
+        letsgo.setText("Vamos allá.");
         letsgo.setFocusable(false);
         jPanel1.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 23);
+        letsgo.setBounds(530, 700, 150, 29);
 
         jLabel8.setText("¡¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!!");
         jLabel8.setFocusable(false);
@@ -654,7 +654,7 @@ public class FuncionesView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 73, 23);
+        menu.setBounds(1040, 700, 73, 29);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel2.setText("Funciones");

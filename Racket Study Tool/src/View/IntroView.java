@@ -221,12 +221,12 @@ public class IntroView extends javax.swing.JFrame {
         jLabel9.setText("Representación gráfica de un recorrido mediante árboles");
         jLabel9.setFocusable(false);
         jPanel8.add(jLabel9);
-        jLabel9.setBounds(20, 30, 370, 19);
+        jLabel9.setBounds(20, 30, 440, 19);
 
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
         jPanel8.add(jButton2);
-        jButton2.setBounds(623, 10, 80, 23);
+        jButton2.setBounds(623, 10, 80, 29);
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
         jPanel2.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -310,7 +310,7 @@ public class IntroView extends javax.swing.JFrame {
         );
 
         jPanel2.add(jPanel3);
-        jPanel3.setBounds(10, 350, 670, 109);
+        jPanel3.setBounds(10, 350, 670, 114);
 
         jDesktopPane1.setBackground(new java.awt.Color(255, 0, 0));
         jDesktopPane1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
@@ -356,35 +356,35 @@ public class IntroView extends javax.swing.JFrame {
 
         jLabel1.setText("Cantidad Nodos");
         jPanel4.add(jLabel1);
-        jLabel1.setBounds(10, 11, 76, 14);
+        jLabel1.setBounds(10, 11, 112, 20);
 
         lblCnodos.setEditable(false);
         jPanel4.add(lblCnodos);
-        lblCnodos.setBounds(10, 31, 40, 20);
+        lblCnodos.setBounds(10, 31, 40, 26);
 
         jLabel2.setText("Cantidad Hojas");
         jPanel4.add(jLabel2);
-        jLabel2.setBounds(10, 62, 73, 14);
+        jLabel2.setBounds(10, 62, 107, 20);
 
         lblChojas.setEditable(false);
         jPanel4.add(lblChojas);
-        lblChojas.setBounds(10, 87, 40, 20);
+        lblChojas.setBounds(10, 87, 40, 26);
 
         jLabel3.setText("Valor Menor");
         jPanel4.add(jLabel3);
-        jLabel3.setBounds(10, 118, 57, 14);
+        jLabel3.setBounds(10, 118, 86, 20);
 
         lblVmenor.setEditable(false);
         jPanel4.add(lblVmenor);
-        lblVmenor.setBounds(10, 143, 40, 20);
+        lblVmenor.setBounds(10, 143, 40, 26);
 
         jLabel4.setText("Valor Mayor");
         jPanel4.add(jLabel4);
-        jLabel4.setBounds(10, 181, 57, 14);
+        jLabel4.setBounds(10, 181, 85, 20);
 
         lblVmayor.setEditable(false);
         jPanel4.add(lblVmayor);
-        lblVmayor.setBounds(10, 201, 40, 20);
+        lblVmayor.setBounds(10, 201, 40, 26);
 
         jPanel2.add(jPanel4);
         jPanel4.setBounds(687, 26, 0, 0);
@@ -415,7 +415,7 @@ public class IntroView extends javax.swing.JFrame {
             }
         });
         jPanel6.add(letsgo);
-        letsgo.setBounds(530, 700, 150, 23);
+        letsgo.setBounds(530, 700, 150, 29);
 
         jLabel17.setText("¡¿Que te parece si practicamos con unos ejercicios para reforzar lo aprendido?!");
         jLabel17.setFocusable(false);
@@ -425,7 +425,7 @@ public class IntroView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel6.add(menu);
-        menu.setBounds(1160, 690, 73, 23);
+        menu.setBounds(1160, 690, 73, 29);
 
         jLabel18.setFont(new java.awt.Font("Sylfaen", 1, 24)); // NOI18N
         jLabel18.setText("Introducción");
