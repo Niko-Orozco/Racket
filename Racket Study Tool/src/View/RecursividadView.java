@@ -499,7 +499,7 @@ public class RecursividadView extends javax.swing.JFrame {
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Reprecentacion de una recursion mediante la torre de hanoi");
+        jLabel15.setText("Reprecentasión de una recursión mediante la torre de Hanoi");
         jLabel15.setFocusable(false);
 
         jPanel5.setBackground(new java.awt.Color(255, 255, 255));
@@ -525,7 +525,7 @@ public class RecursividadView extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -574,7 +574,7 @@ public class RecursividadView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel1.add(menu);
-        menu.setBounds(1040, 700, 70, 30);
+        menu.setBounds(1020, 700, 90, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel2.setText("Recursividad");

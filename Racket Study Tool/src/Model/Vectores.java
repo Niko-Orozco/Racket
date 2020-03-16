@@ -48,7 +48,7 @@ public class Vectores {
     public String vectfill(){
         String data =   "vector-fill  es una funcion de  Racket  permite ingresar el mismo dato en \n" +
                         "todas las posiciones de un vector, tomando dos parámetros, el nombre\n" +
-                        "del vector y el dato a introducir en todas las posiciones\n" +
+                        "del vector y el dato a introducir en todas las posiciones.\n" +
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                                                               :\n" +
                         "(vector-llenarl vect  dato)                                 :\n" +
@@ -62,7 +62,7 @@ public class Vectores {
     
     public String vectlen(){
         String data =   "vector-length es una funcion que nos permite saber cuántas posiciones\n" +
-                        "tiene un vector, es decir su tamaño y solo toma un vector\n" +
+                        "tiene un vector, es decir su tamaño y solo toma un vector.\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - - - - \n" +
                         "Sintaxis                                :\n" +
@@ -77,8 +77,8 @@ public class Vectores {
     
     public String makevect(){
         String data =   "La función make-vector, crea un vector únicamente  con los  elementos\n" +
-                        "que   se   le   indiquen   en   el   momento   de   declarar   dicha  funcion.\n" +
-                        "Adicionalmente. En Racket  a diferencia de  la mayoría  de lo lenguajes\n" +
+                        "que   se   le   indiquen   en   el   momento   de   declarar   dicha  función.\n" +
+                        "Adicionalmente, en Racket  a diferencia de  la mayoría  de lo lenguajes\n" +
                         "de programación podemos  almacenar  absolutamente  cualquier  tipo  \n" +
                         "de  dato  en  nuestros  vectores.\n" +
                         "Para la creación de vectores podemos usar la  funcion make-vector\n" +
@@ -96,7 +96,7 @@ public class Vectores {
     
     public String vectref(){
         String data =   "Al  igual  que  con  las  cadenas  podemos  obtener  datos  de un vector\n" +
-                        "haciendo  uso  de  la  funcion  (vector-ref)\n" +
+                        "haciendo  uso  de  la  funcion  (vector-ref).\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                                                                                                                 :\n" +

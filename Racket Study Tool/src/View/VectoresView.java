@@ -590,7 +590,7 @@ public class VectoresView extends javax.swing.JFrame {
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Reprecentacion grafica de un Vector");
+        jLabel15.setText("Reprecentasión gráfica de un Vector");
         jLabel15.setFocusable(false);
 
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));

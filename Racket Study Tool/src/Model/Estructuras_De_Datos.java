@@ -27,7 +27,7 @@ public class Estructuras_De_Datos {
     } 
     
     public String defstruct(){
-        String data =   "En   DrRacket   definir   una   estructura  es sencillo, se  logra mediante\n" +
+        String data =   "En     Racket   definir   una   estructura  es sencillo, se  logra mediante\n" +
                         "el procedimiento: (define-struct.)\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
@@ -43,7 +43,7 @@ public class Estructuras_De_Datos {
     public String makestr(){
         String data =   "La función make-struct nos sirve para agregar datos a  la estructura, \n" +
                         "pero   para   esto   debe   de   estar   previamente   creada  mediante \n" +
-                        "define-struct\n" +
+                        "define-struct.\n" +
                         "\n" +
                         "Veamos cómo es:\n" +
                         "(define-struct Empleados (nombre apellido)\n" +

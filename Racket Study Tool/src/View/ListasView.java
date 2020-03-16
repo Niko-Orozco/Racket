@@ -176,7 +176,7 @@ public class ListasView extends javax.swing.JFrame {
         listas1.setFocusable(false);
         jScrollPane11.setViewportView(listas1);
 
-        jLabel9.setText("¿Que es una lista?");
+        jLabel9.setText("¿Qué es una lista?");
         jLabel9.setFocusable(false);
 
         listas2.setColumns(20);

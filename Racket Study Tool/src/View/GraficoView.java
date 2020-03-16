@@ -137,12 +137,12 @@ public class GraficoView extends javax.swing.JFrame {
         jPanel3.add(jScrollPane1);
         jScrollPane1.setBounds(50, 60, 413, 140);
 
-        jLabel4.setText("Modo Grafico");
+        jLabel4.setText("Modo Gráfico");
         jLabel4.setFocusable(false);
         jPanel3.add(jLabel4);
         jLabel4.setBounds(50, 30, 184, 22);
 
-        jLabel5.setText("Funciones Basicas");
+        jLabel5.setText("Funciones Básicas");
         jLabel5.setFocusable(false);
         jPanel3.add(jLabel5);
         jLabel5.setBounds(50, 390, 196, 22);
@@ -398,7 +398,7 @@ public class GraficoView extends javax.swing.JFrame {
         jButton2.setText("Ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Ejemplo modo grafico y uso de botones");
+        jLabel15.setText("Ejemplo modo gráfico y uso de botones");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
@@ -421,7 +421,7 @@ public class GraficoView extends javax.swing.JFrame {
                         .addContainerGap()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 67, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 107, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -464,7 +464,7 @@ public class GraficoView extends javax.swing.JFrame {
         menu.setText("Menu");
         menu.setFocusable(false);
         jPanel2.add(menu);
-        menu.setBounds(1040, 700, 70, 30);
+        menu.setBounds(1010, 700, 100, 30);
 
         jLabel2.setFont(new java.awt.Font("Sylfaen", 3, 24)); // NOI18N
         jLabel2.setText("Graphics");
@@ -488,7 +488,7 @@ public class GraficoView extends javax.swing.JFrame {
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 780, Short.MAX_VALUE)
+            .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 752, Short.MAX_VALUE)
         );
 
         pack();

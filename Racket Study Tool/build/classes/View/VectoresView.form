@@ -1079,7 +1079,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion grafica de un Vector"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n gr&#xe1;fica de un Vector"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>

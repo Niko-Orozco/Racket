@@ -143,7 +143,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter1.setFocusable(false);
         jScrollPane11.setViewportView(caracter1);
 
-        jLabel9.setText("¿Que son Caracteres?");
+        jLabel9.setText("¿Qué son Caracteres?");
 
         caracter2.setColumns(20);
         caracter2.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
@@ -169,7 +169,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter4.setFocusable(false);
         jScrollPane14.setViewportView(caracter4);
 
-        jLabel15.setText("COMENTARIOS");
+        jLabel15.setText("Comentarios");
 
         caracter5.setColumns(20);
         caracter5.setFont(new java.awt.Font("Sylfaen", 0, 13)); // NOI18N
@@ -178,7 +178,7 @@ public class CaracteresView extends javax.swing.JFrame {
         caracter5.setFocusable(false);
         jScrollPane15.setViewportView(caracter5);
 
-        jLabel16.setText("Documentacion");
+        jLabel16.setText("Documentación");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -576,7 +576,7 @@ public class CaracteresView extends javax.swing.JFrame {
                     .addGroup(jPanel7Layout.createSequentialGroup()
                         .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(jButton2))
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 87, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addComponent(jTabbedPane1))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()

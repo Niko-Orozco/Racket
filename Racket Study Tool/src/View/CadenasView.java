@@ -168,11 +168,11 @@ public class CadenasView extends javax.swing.JFrame {
         quecadena.setFocusable(false);
         jScrollPane1.setViewportView(quecadena);
 
-        jLabel3.setText("Creacion de cadenas");
+        jLabel3.setText("Creacion de cadenas.");
 
-        jLabel4.setText("¿Que es una cadena?");
+        jLabel4.setText("¿Qué es una cadena?");
 
-        jLabel5.setText("La funcion (String?)");
+        jLabel5.setText("La funcion (String?).");
 
         lenghtcadena.setColumns(20);
         lenghtcadena.setRows(5);
@@ -202,7 +202,7 @@ public class CadenasView extends javax.swing.JFrame {
         strcomparar.setFocusable(false);
         jScrollPane12.setViewportView(strcomparar);
 
-        jLabel10.setText("Comparacion de cadenas");
+        jLabel10.setText("Comparación de cadenas.");
 
         cadunion.setColumns(20);
         cadunion.setRows(5);
@@ -210,7 +210,7 @@ public class CadenasView extends javax.swing.JFrame {
         cadunion.setFocusable(false);
         jScrollPane14.setViewportView(cadunion);
 
-        jLabel16.setText("Union de cadenas");
+        jLabel16.setText("Unión de cadenas.");
 
         caracdena.setColumns(20);
         caracdena.setRows(5);
@@ -218,7 +218,7 @@ public class CadenasView extends javax.swing.JFrame {
         caracdena.setFocusable(false);
         jScrollPane15.setViewportView(caracdena);
 
-        jLabel17.setText("Caracteres de una cadena");
+        jLabel17.setText("Caracteres de una cadena.");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -244,7 +244,7 @@ public class CadenasView extends javax.swing.JFrame {
                         .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 215, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 196, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 176, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addContainerGap(41, Short.MAX_VALUE))
+                .addContainerGap(38, Short.MAX_VALUE))
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -659,7 +659,7 @@ public class CadenasView extends javax.swing.JFrame {
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Reprecentacion de una cadena en Racket");
+        jLabel15.setText("Reprecentasión de una cadena en Racket");
 
         jLabel11.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Images/cadenas.jpg"))); // NOI18N
         jLabel11.setFocusable(false);
@@ -691,8 +691,8 @@ public class CadenasView extends javax.swing.JFrame {
                         .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel7Layout.createSequentialGroup()
                                 .addComponent(jLabel7, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(415, 415, 415)
-                                .addComponent(jButton2))
+                                .addGap(386, 386, 386)
+                                .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 92, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel15, javax.swing.GroupLayout.PREFERRED_SIZE, 500, javax.swing.GroupLayout.PREFERRED_SIZE))))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()

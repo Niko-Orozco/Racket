@@ -140,7 +140,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una estructura de datos?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una estructura de datos?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                   <Constraints>
@@ -982,7 +982,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion grafica de una estructura de datos"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n gr&#xe1;fica de una estructura de datos"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>

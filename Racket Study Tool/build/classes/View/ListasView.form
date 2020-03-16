@@ -182,7 +182,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel9">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una lista?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una lista?"/>
                     <Property name="focusable" type="boolean" value="false"/>
                   </Properties>
                 </Component>

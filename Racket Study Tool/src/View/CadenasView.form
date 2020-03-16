@@ -95,7 +95,7 @@
                                   <Component id="jLabel6" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
                               </Group>
                           </Group>
-                          <EmptySpace pref="41" max="32767" attributes="0"/>
+                          <EmptySpace pref="38" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -186,17 +186,17 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel3">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Creacion de cadenas"/>
+                    <Property name="text" type="java.lang.String" value="Creacion de cadenas."/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel4">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="&#xbf;Que es una cadena?"/>
+                    <Property name="text" type="java.lang.String" value="&#xbf;Qu&#xe9; es una cadena?"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel5">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="La funcion (String?)"/>
+                    <Property name="text" type="java.lang.String" value="La funcion (String?)."/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane7">
@@ -299,7 +299,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel10">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Comparacion de cadenas"/>
+                    <Property name="text" type="java.lang.String" value="Comparaci&#xf3;n de cadenas."/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane14">
@@ -326,7 +326,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel16">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Union de cadenas"/>
+                    <Property name="text" type="java.lang.String" value="Uni&#xf3;n de cadenas."/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JScrollPane" name="jScrollPane15">
@@ -353,7 +353,7 @@
                 </Container>
                 <Component class="javax.swing.JLabel" name="jLabel17">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Caracteres de una cadena"/>
+                    <Property name="text" type="java.lang.String" value="Caracteres de una cadena."/>
                   </Properties>
                 </Component>
               </SubComponents>
@@ -395,8 +395,8 @@
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
                                           <Component id="jLabel7" min="-2" pref="81" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="415" max="-2" attributes="0"/>
-                                          <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="386" max="-2" attributes="0"/>
+                                          <Component id="jButton2" min="-2" pref="92" max="-2" attributes="0"/>
                                       </Group>
                                       <Component id="jLabel15" min="-2" pref="500" max="-2" attributes="0"/>
                                   </Group>
@@ -1211,7 +1211,7 @@
                 </Component>
                 <Component class="javax.swing.JLabel" name="jLabel15">
                   <Properties>
-                    <Property name="text" type="java.lang.String" value="Reprecentacion de una cadena en Racket"/>
+                    <Property name="text" type="java.lang.String" value="Reprecentasi&#xf3;n de una cadena en Racket"/>
                   </Properties>
                 </Component>
                 <Container class="javax.swing.JPanel" name="jPanel12">

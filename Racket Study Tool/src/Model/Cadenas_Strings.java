@@ -22,7 +22,7 @@ public class Cadenas_Strings {
                         "palabra  en   pocas   palabras, un  conjunto  de  caracteres   forma  una  \n" +
                         "cadena, es decir; \"Hola\". \n" +
                         "\n" +
-                        "Representado por comillas dobles";
+                        "Representado por comillas dobles.";
         return data;
     }
 
@@ -49,7 +49,7 @@ public class Cadenas_Strings {
 
     public String makeString(){
         String data=    "Para la creación de cadenas podemos usar las  funciones make-string\n" +
-                        "y string\n" +
+                        "y string.\n" +
                         "\n" +
                         "- - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                            :\n" +
@@ -66,13 +66,13 @@ public class Cadenas_Strings {
                         "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "\n" +
                         "Como se puede ver las funciones make-string y string sirven para crear\n" +
-                        "cadenas";
+                        "cadenas.";
         return data;
     }
 
     public String lenght(){
         String data=    "La   longitud   de   una   cadena   es   el   numero   de  caracteres que la \n" +
-                        "componen\n" +
+                        "componen.\n" +
                         "\n" +
                         "Por  ejemplo  la  longitud de una cadena vacía es 0 y la longitud de una\n" +
                         "cadena ''hola'' es 4.\n" +
@@ -93,7 +93,7 @@ public class Cadenas_Strings {
     public String unioncad(){
         String data =   "Las cadenas  también  pueden  ser  concatenadas  (unidas)  usando la\n" +
                         "función (string-append cad1 cad2  ..) toma varias cadenas y retorna una\n" +
-                        "cadena con la unión de todas las cadenas\n" +
+                        "cadena con la unión de todas las cadenas.\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                         "Sintaxis                                                                                   :\n" +
@@ -110,7 +110,7 @@ public class Cadenas_Strings {
     
     public String stringref(){
         String data =   "Podemos   obtener    caracteres   de    una    cadena   haciendo  uso  de \n" +
-                        "(string-ref )\n" +
+                        "(string-ref ).\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis                                                       :\n" +
@@ -141,10 +141,10 @@ public class Cadenas_Strings {
 
     public String setSring(){
         String data =   "Una cadena es modificable por medio de operaciones que cambian su\n" +
-                        "contenido es decir: Cadena: María se puede modificar por Mario\n" +
+                        "contenido es decir: Cadena: María se puede modificar por Mari.o\n" +
                         "\n" +
                         "Cabe   resaltar   que   una   cadena creada entre comillas dobles  no es \n" +
-                        "modificable, para ello usamos las sentencias (string), \n" +
+                        "modificable, para ello usamos las sentencias (string). \n" +
                         "\n" +
                         "(make-string)\n" +
                         "\n" +
@@ -168,7 +168,7 @@ public class Cadenas_Strings {
                         "\n" +
                         "Ejemplo\n" +
                         "''carro'' es prefijo de la cadena ''carrotanque'' por tanto la cadena \n" +
-                        "''carro'' es considerada menor que la otra\n" +
+                        "''carro'' es considerada menor que la otra.\n" +
                         "\n" +
                         " - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -\n" +
                         "Sintaxis\n" +

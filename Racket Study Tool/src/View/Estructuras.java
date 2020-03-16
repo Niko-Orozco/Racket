@@ -163,7 +163,7 @@ public class Estructuras extends javax.swing.JFrame {
         jPanel2.add(jLabel3);
         jLabel3.setBounds(27, 190, 215, 22);
 
-        jLabel4.setText("¿Que es una estructura de datos?");
+        jLabel4.setText("¿Qué es una estructura de datos?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(27, 11, 184, 22);
@@ -530,7 +530,7 @@ public class Estructuras extends javax.swing.JFrame {
         jButton2.setText("ayuda");
         jButton2.setFocusable(false);
 
-        jLabel15.setText("Reprecentacion grafica de una estructura de datos");
+        jLabel15.setText("Reprecentasión gráfica de una estructura de datos");
         jLabel15.setFocusable(false);
 
         jPanel6.setBackground(new java.awt.Color(252, 252, 252));

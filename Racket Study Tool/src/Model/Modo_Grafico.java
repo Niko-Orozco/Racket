@@ -17,10 +17,10 @@ public class Modo_Grafico {
     
     public String grafico1(){
         String data =   
-                 "La gran mayoría de lenguajes de programación nos ofrece un modo grafico \n "
+                 "La gran mayoría de lenguajes de programación nos ofrece un modo gráfico \n "
                 +"o un conjunto de instrucciones y/o funciones que permiten usar ventanas, \n" +
                  "pixeles, multimedia y ratón, con el fin de desarrollar programas en modo \n" +
-                 "grafico. \n";
+                 "gráfico. \n";
         return data;
     }
     
@@ -28,9 +28,9 @@ public class Modo_Grafico {
         String data =   
                 "Para realizar un programa en modo gráfico, primero debemos definir\n" +
                 "con que librería de gráficos vamos a programar. \n" +
-                "En nuestro caso, será: 'Graphics' \n"+
-                "para indicárselo a Racket debemos agregar la siguiente línea de \n"+
-                "código al inicio de nuestro programa\n";
+                "En nuestro caso, será: 'Graphics'. \n"+
+                "Para indicárselo a Racket debemos agregar la siguiente línea de \n"+
+                "código al inicio de nuestro programa.\n";
         return data;
     }
     

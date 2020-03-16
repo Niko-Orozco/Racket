@@ -22,7 +22,7 @@ public class Caracteres_Documentacion {
     }
     
     public String caracter2(){
-        String data="Es una función que sirve para determinar si algún dato es un carácter.\n" +
+        String data="Es una función que sirve para determinar si algún dato es un caracter.\n" +
                     "\n" +
                     "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - \n" +
                     "Sintaxis                                             Salida          :\n" +
@@ -45,7 +45,7 @@ public class Caracteres_Documentacion {
     }
     
     public String caracter4(){
-        String data="Como   habíamos   visto   anteriormente,  se comienza usando  el carácter\n" +
+        String data="Como   habíamos   visto   anteriormente,  se comienza usando  el caracter\n" +
                     "punto y coma y terminan en el siguiente salto  de línea. También tenemos\n" +
                     "las   \"Cajas de comentarios\"   que   son  recuadros en los que (Sin importar\n" +
                     "la  cantidad de saltos o  el texto que incluyamos todo lo que este dentro de\n" +
@@ -62,10 +62,10 @@ public class Caracteres_Documentacion {
     
     public String caracter5(){
         String data="La  documentación   de   un   programa  va  desde comentar sus  líneas   de  \n" +
-                    "código  al  escribir el manual del usuario.\n" +
+                    "código  hasta  escribir el manual del usuario.\n" +
                     "\n" +
                     "En nuestro caso , veremos a grandes rasgos dos elementos  importantes en\n" +
-                    "la   documentación:   el  diseño   guiado   por   recetas   (también   llamado\n" +
+                    "la   documentación:   El  diseño   guiado   por   recetas   (también   llamado\n" +
                     "contrato ) y el uso de los comentarios. ";
         return data;
     }
