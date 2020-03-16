@@ -195,6 +195,9 @@ public class Controlador {
         GraficView.ejemplografic.setVisible(false);
         GraficView.ejemplografic2.setVisible(false);
         GraficView.ejemplografic3.setVisible(false);
+        GraficView.ejemplografic4.setVisible(false);
+        GraficView.ejemplografic5.setVisible(false);
+        GraficView.ejemplografic6.setVisible(false);
         GraficView.grafico1.setText(Mgrafico.grafico1());
         GraficView.grafico2.setText(Mgrafico.grafico2());
         GraficView.grafico3.setText(Mgrafico.grafico3());
@@ -202,6 +205,8 @@ public class Controlador {
         PonerColor(GraficView.code2, Mgrafico.Ejegrafico2());
         PonerColor(GraficView.code3, Mgrafico.Ejegrafico3());
         PonerColor(GraficView.code4, Mgrafico.Ejegrafico4());
+        PonerColor(GraficView.code5, Mgrafico.Ejegrafico5());
+        PonerColor(GraficView.code6, Mgrafico.Ejegrafico6());
         GraficView.run1.addActionListener((ActionEvent e) -> {
             GraficView.ejemplografic.setVisible(true);
         });
@@ -212,8 +217,18 @@ public class Controlador {
             GraficView.ejemplografic3.setVisible(true);
         }); 
         GraficView.run4.addActionListener((ActionEvent e) -> {
+            GraficView.ejemplografic4.setVisible(true);
             
         });   
+        GraficView.run5.addActionListener((ActionEvent e) -> {
+            GraficView.ejemplografic5.setVisible(true);
+            
+        }); 
+        
+        GraficView.run6.addActionListener((ActionEvent e) -> {
+            GraficView.ejemplografic6.setVisible(true);
+            
+        });
         GraficView.letsgo.addActionListener((ActionEvent e) -> {
             Practices = new Practicas();
             GraficView.setVisible(false);

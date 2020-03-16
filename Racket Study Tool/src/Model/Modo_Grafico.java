@@ -236,36 +236,98 @@ public class Modo_Grafico {
     }
       
        public String Ejegrafico4(){
-        String data =   ";Para el primer renglón solo se pide imprimir una letra \"A\" y luego se debe saltar al nuevo \n" +
-                        ";renglón, sin espacios en blanco.\n" +
-                        "\n" +
-                        ";Para el segundo renglón se debe colocar un espacio en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y después se debe saltar al nuevo renglón\n" +
-                        "\n" +
-                        ";Para el tercer  renglón se debe colocar dos espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y después se debe saltar al nuevo renglón.\n" +
-                        "\n" +
-                        ";Para el cuarto renglón se debe colocar tres espacios en blanco, luego imprimir una letra \n" +
-                        ";\"A\" y después se debe saltar al nuevo renglón\n\n" +
-                        "\n" +
-                        "\n" +
-                        "  (define  (Espacios a)\n" +
-                        "      (if  (> a 1)\n" +
-                        "         (begin\n" +
-                        "             (display \" \")\n" +
-                        "             (Espacios  (- a 1 ) )   ) ) )\n" +
-                        "\n" +
-                        "(define  (Principal a)\n" +
-                        "    (if (<= a 15)\n" +
-                        "      (begin\n" +
-                        "          (Espacios a)\n" +
-                        "          (display \"A\")\n" +
-                        "          (newline)\n" +
-                        "          (Principal   (+ a 1)  )\n" +
-                        "       )\n" +
-                        "    )\n" +
-                        "  )\n" +
-                        "  (Principal 1)";
+        String data =   "(require (lib \"graphics.ss\" \"graphics\"))\n" +
+"(open-graphics)\n" +
+"\n" +
+"(define ventana1 (open-viewport \"graficos\" 350 220))\n" +
+"(define (dibujar op q w)\n" +
+"  (if (< op 9)\n" +
+"      (begin\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"red\")\n" +
+"        (sleep 1)\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"red\")\n" +
+"    (dibujar (+ op 1) (+ q 15) (+ w 15))\n" +
+"    )\n" +
+"      (if (and (> op 7)(< op 17))\n" +
+"          (begin\n" +
+"            ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"blue\")\n" +
+"            (sleep 1)\n" +
+"            ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"blue\")\n" +
+"            (dibujar (+ op 1) (+ q 15) (- w 15) )\n" +
+"            )\n" +
+"          (if (and (> op 16)(< op 25))\n" +
+"              (begin\n" +
+"                ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"green\")\n" +
+"                (sleep 1)\n" +
+"                ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"green\")\n" +
+"                (dibujar (+ op 1) (+ q 15) (+ w 15))\n" +
+"                )\n" +
+"              (if (and (> op 24)(< op 34))\n" +
+"                  (begin\n" +
+"                    ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"black\")\n" +
+"                    (sleep 1)\n" +
+"                    ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"black\")\n" +
+"                    (dibujar (+ op 1) (+ q 15) (- w 15) )\n" +
+"                    ))))))\n" +
+"\n" +
+"(dibujar 1 20 50)";
+        return data;
+    }
+       
+       public String Ejegrafico5(){
+        String data =   "(define ventana1 (open-viewport \"graficos\"350 220))\n" +
+"\n" +
+"(define (aleatorio op q w)\n" +
+"  (if (and (< op 100)(> w 10))\n" +
+"      (begin\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"blue\")\n" +
+"        (sleep 1)\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 15 15 \"blue\")\n" +
+"    (aleatorio (+ op 1) (random 350) (random 220))\n" +
+"    )\n" +
+"      (if (< op 25)\n" +
+"          (aleatorio (+ op 1) (random 1000) (random 450))\n" +
+"          )\n" +
+"      )\n" +
+"  )\n" +
+"\n" +
+"(aleatorio 1 (random 350)(random 220))";
+        return data;
+    }
+       
+       public String Ejegrafico6(){
+        String data =   "(require (lib \"graphics.ss\" \"graphics\"))\n" +
+"(open-graphics)\n" +
+"\n" +
+"(define ventana1 (open-viewport \"graficos\" 350 220))\n" +
+"\n" +
+"(define (colores x)\n" +
+"  (cond\n" +
+"    ((= x 0) \"green\")\n" +
+"    ((= x 1) \"black\")\n" +
+"    ((= x 2) \"red\")\n" +
+"    ((= x 3) \"yellow\")\n" +
+"    ((= x 4) \"purple\")\n" +
+"    ((= x 5) \"blue\")\n" +
+"    ((= x 6) \"pink\")\n" +
+"    ((= x 7) \"silver\")\n" +
+"    \n" +
+"    )\n" +
+"  )\n" +
+"\n" +
+"(define (cambcolor op q w)\n" +
+"  (if (and (< op 50)(> w 20))\n" +
+"      (begin\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 20 20 (colores (random 7)))\n" +
+"        (sleep 1)\n" +
+"        ((draw-solid-rectangle ventana1)(make-posn q w) 20 20 \"white\")\n" +
+"        (cambcolor (+ op 1) (random 350) (random 220))\n" +
+"        )\n" +
+"      (cambcolor  1 (random 350) (random 220))\n" +
+"      )\n" +
+"  )\n" +
+"\n" +
+"(cambcolor 1 (random 350)(random 220))";
         return data;
     }
     
