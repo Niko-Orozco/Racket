@@ -158,12 +158,12 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel2.add(jScrollPane1);
         jScrollPane1.setBounds(41, 148, 413, 140);
 
-        jLabel3.setText("¿Que son los operadores logicos y de comparacion?");
+        jLabel3.setText("¿Qué son los operadores logicos y de comparación?");
         jLabel3.setFocusable(false);
         jPanel2.add(jLabel3);
         jLabel3.setBounds(41, 299, 344, 22);
 
-        jLabel4.setText("¿Que es una expresion aritmetica?");
+        jLabel4.setText("¿Qué es una expresión aritmetica?");
         jLabel4.setFocusable(false);
         jPanel2.add(jLabel4);
         jLabel4.setBounds(41, 120, 355, 22);
@@ -244,6 +244,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel4.setBackground(new java.awt.Color(252, 252, 252));
 
         code2.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code2.setFocusable(false);
         jScrollPane9.setViewportView(code2);
 
         verinfo2.setColumns(20);
@@ -297,6 +298,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(252, 252, 252));
 
         code3.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code3.setFocusable(false);
         jScrollPane11.setViewportView(code3);
 
         verinfo3.setColumns(20);
@@ -350,6 +352,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(252, 252, 252));
 
         code4.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code4.setFocusable(false);
         jScrollPane14.setViewportView(code4);
 
         verinfo4.setColumns(20);
@@ -403,6 +406,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel11.setBackground(new java.awt.Color(252, 252, 252));
 
         code5.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code5.setFocusable(false);
         jScrollPane16.setViewportView(code5);
 
         verinfo5.setColumns(20);
@@ -456,6 +460,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel12.setBackground(new java.awt.Color(252, 252, 252));
 
         code6.setCursor(new java.awt.Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        code6.setFocusable(false);
         jScrollPane18.setViewportView(code6);
 
         verinfo6.setColumns(20);
@@ -522,7 +527,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel6.add(jLabel5);
         jLabel5.setBounds(10, 20, 410, 200);
 
-        jLabel16.setText("operadores logicos y comparacion");
+        jLabel16.setText("Operadores logicos y comparación");
         jLabel16.setFocusable(false);
         jPanel6.add(jLabel16);
         jLabel16.setBounds(10, 0, 200, 22);
@@ -612,7 +617,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
         jPanel5.add(dividido);
         dividido.setBounds(80, 120, 50, 40);
 
-        jLabel10.setText("Calculadora con operasiones basicas");
+        jLabel10.setText("Calculadora con operasiones básicas");
         jLabel10.setFocusable(false);
         jPanel5.add(jLabel10);
         jLabel10.setBounds(10, 0, 300, 20);
@@ -627,7 +632,7 @@ public class ExprecrionesView extends javax.swing.JFrame {
 
         jScrollPane7.setViewportView(jPanel5);
 
-        jLabel15.setText("Expresiones Matematicas basicas");
+        jLabel15.setText("Expresiones Matemáticas basicas");
         jLabel15.setFocusable(false);
 
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
